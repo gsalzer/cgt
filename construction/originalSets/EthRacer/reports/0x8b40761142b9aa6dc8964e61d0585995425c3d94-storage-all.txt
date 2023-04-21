@@ -1,0 +1,2199 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burn', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'enableTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f1b50c1d'}
+2 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd3700000000000000000000000022de02674908140b7181dae5b2d4aa9db0de84d20000000000000000000000000000000000000000000000000000000000000000'}
+3 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd3700000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd370000000000000000000000000000000000000000000000000000000000000000'}
+4 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd37'}
+5 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000800000000000000'}
+6 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000002222222222222222222222222222222222222222'}
+7 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd6230000000000000000000000002222222222222222222222222222222222222222'}
+8 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd62300000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd37'}
+9 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '661884630000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+11 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd37ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'disableTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b187984f'}
+13 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+14 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'disableTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b187984f'}
+15 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd62300000000000000000000000099a8ebdfd2101dacad6313eba309620fb5f8dd37'}
+16 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd6230000000000000000000000001111111111111111111111111111111111111111'}
+17 : {'tx_caller': '99a8ebdfd2101dacad6313eba309620fb5f8dd37', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000001111111111111111111111111111111111111111'}
+18 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022bbcc613e4a3df524d7a711369f3fb30ebe60a00000000000000000000000000000000000000000000000000000000000000000'}
+19 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'enableTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f1b50c1d'}
+21 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000b9c6a91f9189b782ce4b35c8020bcea3fc816750000000000000000000000000000000000000000000000000000000000000000'}
+22 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+23 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd6230000000000000000000000001111111111111111111111111111111111111111'}
+24 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd6230000000000000000000000002222222222222222222222222222222222222222'}
+25 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '661884630000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+26 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '661884630000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+27 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000003ecec84cb3f8f2c86ea87a8ae45d63709d81c2840000000000000000000000000000000000000000000000000000000000000000'}
+28 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111'}
+29 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222'}
+--------------------------------------------------------------------------------
+
+Full traces: 721
+--------------------------------------------------------------------------------
+14 1   :  disableTransfer enableTransfer 
+1 14   :  enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 1   :  disableTransfer burn enableTransfer 
+0 1 14   :  burn enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 1   :  disableTransfer burn enableTransfer 
+1 0 14   :  enableTransfer burn disableTransfer 
+------------------------------------------------------------
+14 0 1   :  disableTransfer burn enableTransfer 
+1 14 0   :  enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 14 1   :  burn disableTransfer enableTransfer 
+0 1 14   :  burn enableTransfer disableTransfer 
+------------------------------------------------------------
+0 14 1   :  burn disableTransfer enableTransfer 
+1 0 14   :  enableTransfer burn disableTransfer 
+------------------------------------------------------------
+0 14 1   :  burn disableTransfer enableTransfer 
+1 14 0   :  enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 1 14   :  burn enableTransfer disableTransfer 
+14 1 0   :  disableTransfer enableTransfer burn 
+------------------------------------------------------------
+14 1 0   :  disableTransfer enableTransfer burn 
+1 0 14   :  enableTransfer burn disableTransfer 
+------------------------------------------------------------
+14 1 0   :  disableTransfer enableTransfer burn 
+1 14 0   :  enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 1 2   :  disableTransfer enableTransfer transferFrom 
+1 2 14   :  enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+1 4 14   :  enableTransfer approve disableTransfer 
+4 14 1   :  approve disableTransfer enableTransfer 
+------------------------------------------------------------
+1 4 14   :  enableTransfer approve disableTransfer 
+14 1 4   :  disableTransfer enableTransfer approve 
+------------------------------------------------------------
+1 4 14   :  enableTransfer approve disableTransfer 
+14 4 1   :  disableTransfer approve enableTransfer 
+------------------------------------------------------------
+4 14 1   :  approve disableTransfer enableTransfer 
+1 14 4   :  enableTransfer disableTransfer approve 
+------------------------------------------------------------
+4 14 1   :  approve disableTransfer enableTransfer 
+4 1 14   :  approve enableTransfer disableTransfer 
+------------------------------------------------------------
+14 1 4   :  disableTransfer enableTransfer approve 
+1 14 4   :  enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 1 4   :  disableTransfer enableTransfer approve 
+4 1 14   :  approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 14 4   :  enableTransfer disableTransfer approve 
+14 4 1   :  disableTransfer approve enableTransfer 
+------------------------------------------------------------
+4 1 14   :  approve enableTransfer disableTransfer 
+14 4 1   :  disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 14 5   :  enableTransfer disableTransfer transferOwnership 
+14 1 5   :  disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+1 7 14   :  enableTransfer increaseApproval disableTransfer 
+14 1 7   :  disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 10   :  disableTransfer enableTransfer decreaseApproval 
+1 10 14   :  enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+1 14 15   :  enableTransfer disableTransfer increaseApproval 
+14 1 15   :  disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+1 14 15   :  enableTransfer disableTransfer increaseApproval 
+15 14 1   :  increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+1 14 15   :  enableTransfer disableTransfer increaseApproval 
+14 15 1   :  disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 14   :  enableTransfer increaseApproval disableTransfer 
+15 14 1   :  increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+1 15 14   :  enableTransfer increaseApproval disableTransfer 
+14 15 1   :  disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+14 1 15   :  disableTransfer enableTransfer increaseApproval 
+15 1 14   :  increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+15 1 14   :  increaseApproval enableTransfer disableTransfer 
+15 14 1   :  increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+15 1 14   :  increaseApproval enableTransfer disableTransfer 
+14 15 1   :  disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+14 1 18   :  disableTransfer enableTransfer transfer 
+1 18 14   :  enableTransfer transfer disableTransfer 
+------------------------------------------------------------
+0 1 2 14   :  burn enableTransfer transferFrom disableTransfer 
+0 14 1 2   :  burn disableTransfer enableTransfer transferFrom 
+------------------------------------------------------------
+0 1 2 14   :  burn enableTransfer transferFrom disableTransfer 
+14 1 0 2   :  disableTransfer enableTransfer burn transferFrom 
+------------------------------------------------------------
+0 1 2 14   :  burn enableTransfer transferFrom disableTransfer 
+14 1 2 0   :  disableTransfer enableTransfer transferFrom burn 
+------------------------------------------------------------
+0 1 2 14   :  burn enableTransfer transferFrom disableTransfer 
+14 0 1 2   :  disableTransfer burn enableTransfer transferFrom 
+------------------------------------------------------------
+0 14 1 2   :  burn disableTransfer enableTransfer transferFrom 
+1 2 0 14   :  enableTransfer transferFrom burn disableTransfer 
+------------------------------------------------------------
+0 14 1 2   :  burn disableTransfer enableTransfer transferFrom 
+1 2 14 0   :  enableTransfer transferFrom disableTransfer burn 
+------------------------------------------------------------
+0 14 1 2   :  burn disableTransfer enableTransfer transferFrom 
+1 0 2 14   :  enableTransfer burn transferFrom disableTransfer 
+------------------------------------------------------------
+1 2 0 14   :  enableTransfer transferFrom burn disableTransfer 
+14 1 0 2   :  disableTransfer enableTransfer burn transferFrom 
+------------------------------------------------------------
+1 2 0 14   :  enableTransfer transferFrom burn disableTransfer 
+14 1 2 0   :  disableTransfer enableTransfer transferFrom burn 
+------------------------------------------------------------
+1 2 0 14   :  enableTransfer transferFrom burn disableTransfer 
+14 0 1 2   :  disableTransfer burn enableTransfer transferFrom 
+------------------------------------------------------------
+1 2 14 0   :  enableTransfer transferFrom disableTransfer burn 
+14 1 0 2   :  disableTransfer enableTransfer burn transferFrom 
+------------------------------------------------------------
+1 2 14 0   :  enableTransfer transferFrom disableTransfer burn 
+14 1 2 0   :  disableTransfer enableTransfer transferFrom burn 
+------------------------------------------------------------
+1 2 14 0   :  enableTransfer transferFrom disableTransfer burn 
+14 0 1 2   :  disableTransfer burn enableTransfer transferFrom 
+------------------------------------------------------------
+14 1 0 2   :  disableTransfer enableTransfer burn transferFrom 
+1 0 2 14   :  enableTransfer burn transferFrom disableTransfer 
+------------------------------------------------------------
+14 1 2 0   :  disableTransfer enableTransfer transferFrom burn 
+1 0 2 14   :  enableTransfer burn transferFrom disableTransfer 
+------------------------------------------------------------
+1 0 2 14   :  enableTransfer burn transferFrom disableTransfer 
+14 0 1 2   :  disableTransfer burn enableTransfer transferFrom 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+1 0 4 14   :  enableTransfer burn approve disableTransfer 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+4 1 0 14   :  approve enableTransfer burn disableTransfer 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+0 1 4 14   :  burn enableTransfer approve disableTransfer 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+14 0 4 1   :  disableTransfer burn approve enableTransfer 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+1 4 0 14   :  enableTransfer approve burn disableTransfer 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+14 1 4 0   :  disableTransfer enableTransfer approve burn 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+4 0 14 1   :  approve burn disableTransfer enableTransfer 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+0 14 4 1   :  burn disableTransfer approve enableTransfer 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+0 4 1 14   :  burn approve enableTransfer disableTransfer 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+4 14 0 1   :  approve disableTransfer burn enableTransfer 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+0 1 14 4   :  burn enableTransfer disableTransfer approve 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+1 14 4 0   :  enableTransfer disableTransfer approve burn 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+------------------------------------------------------------
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+------------------------------------------------------------
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+14 4 1 0   :  disableTransfer approve enableTransfer burn 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+4 0 1 14   :  approve burn enableTransfer disableTransfer 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+------------------------------------------------------------
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+------------------------------------------------------------
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+------------------------------------------------------------
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+------------------------------------------------------------
+1 0 14 4   :  enableTransfer burn disableTransfer approve 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+14 4 0 1   :  disableTransfer approve burn enableTransfer 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+14 1 0 4   :  disableTransfer enableTransfer burn approve 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+4 14 1 0   :  approve disableTransfer enableTransfer burn 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+0 4 14 1   :  burn approve disableTransfer enableTransfer 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+------------------------------------------------------------
+14 0 1 4   :  disableTransfer burn enableTransfer approve 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+4 1 14 0   :  approve enableTransfer disableTransfer burn 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+1 4 14 0   :  enableTransfer approve disableTransfer burn 
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+------------------------------------------------------------
+0 14 1 4   :  burn disableTransfer enableTransfer approve 
+1 14 0 4   :  enableTransfer disableTransfer burn approve 
+------------------------------------------------------------
+1 14 0 5   :  enableTransfer disableTransfer burn transferOwnership 
+0 14 1 5   :  burn disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+1 14 0 5   :  enableTransfer disableTransfer burn transferOwnership 
+14 1 5 0   :  disableTransfer enableTransfer transferOwnership burn 
+------------------------------------------------------------
+1 14 0 5   :  enableTransfer disableTransfer burn transferOwnership 
+14 1 0 5   :  disableTransfer enableTransfer burn transferOwnership 
+------------------------------------------------------------
+1 14 0 5   :  enableTransfer disableTransfer burn transferOwnership 
+14 0 1 5   :  disableTransfer burn enableTransfer transferOwnership 
+------------------------------------------------------------
+1 0 14 5   :  enableTransfer burn disableTransfer transferOwnership 
+0 14 1 5   :  burn disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+1 0 14 5   :  enableTransfer burn disableTransfer transferOwnership 
+14 1 5 0   :  disableTransfer enableTransfer transferOwnership burn 
+------------------------------------------------------------
+1 0 14 5   :  enableTransfer burn disableTransfer transferOwnership 
+14 1 0 5   :  disableTransfer enableTransfer burn transferOwnership 
+------------------------------------------------------------
+1 0 14 5   :  enableTransfer burn disableTransfer transferOwnership 
+14 0 1 5   :  disableTransfer burn enableTransfer transferOwnership 
+------------------------------------------------------------
+0 14 1 5   :  burn disableTransfer enableTransfer transferOwnership 
+1 14 5 0   :  enableTransfer disableTransfer transferOwnership burn 
+------------------------------------------------------------
+0 14 1 5   :  burn disableTransfer enableTransfer transferOwnership 
+0 1 14 5   :  burn enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+14 1 5 0   :  disableTransfer enableTransfer transferOwnership burn 
+1 14 5 0   :  enableTransfer disableTransfer transferOwnership burn 
+------------------------------------------------------------
+14 1 5 0   :  disableTransfer enableTransfer transferOwnership burn 
+0 1 14 5   :  burn enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+14 1 0 5   :  disableTransfer enableTransfer burn transferOwnership 
+1 14 5 0   :  enableTransfer disableTransfer transferOwnership burn 
+------------------------------------------------------------
+14 1 0 5   :  disableTransfer enableTransfer burn transferOwnership 
+0 1 14 5   :  burn enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+14 0 1 5   :  disableTransfer burn enableTransfer transferOwnership 
+1 14 5 0   :  enableTransfer disableTransfer transferOwnership burn 
+------------------------------------------------------------
+14 0 1 5   :  disableTransfer burn enableTransfer transferOwnership 
+0 1 14 5   :  burn enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+0 1 7 14   :  burn enableTransfer increaseApproval disableTransfer 
+14 1 7 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+0 1 7 14   :  burn enableTransfer increaseApproval disableTransfer 
+14 0 1 7   :  disableTransfer burn enableTransfer increaseApproval 
+------------------------------------------------------------
+0 1 7 14   :  burn enableTransfer increaseApproval disableTransfer 
+0 14 1 7   :  burn disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+0 1 7 14   :  burn enableTransfer increaseApproval disableTransfer 
+14 1 0 7   :  disableTransfer enableTransfer burn increaseApproval 
+------------------------------------------------------------
+14 1 7 0   :  disableTransfer enableTransfer increaseApproval burn 
+1 7 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+------------------------------------------------------------
+14 1 7 0   :  disableTransfer enableTransfer increaseApproval burn 
+1 7 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+14 1 7 0   :  disableTransfer enableTransfer increaseApproval burn 
+1 0 7 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+14 0 1 7   :  disableTransfer burn enableTransfer increaseApproval 
+1 7 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+------------------------------------------------------------
+14 0 1 7   :  disableTransfer burn enableTransfer increaseApproval 
+1 7 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+14 0 1 7   :  disableTransfer burn enableTransfer increaseApproval 
+1 0 7 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+0 14 1 7   :  burn disableTransfer enableTransfer increaseApproval 
+1 7 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+------------------------------------------------------------
+0 14 1 7   :  burn disableTransfer enableTransfer increaseApproval 
+1 7 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+0 14 1 7   :  burn disableTransfer enableTransfer increaseApproval 
+1 0 7 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+1 7 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+14 1 0 7   :  disableTransfer enableTransfer burn increaseApproval 
+------------------------------------------------------------
+14 1 0 7   :  disableTransfer enableTransfer burn increaseApproval 
+1 7 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+14 1 0 7   :  disableTransfer enableTransfer burn increaseApproval 
+1 0 7 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+1 10 0 14   :  enableTransfer decreaseApproval burn disableTransfer 
+14 1 0 10   :  disableTransfer enableTransfer burn decreaseApproval 
+------------------------------------------------------------
+1 10 0 14   :  enableTransfer decreaseApproval burn disableTransfer 
+14 1 10 0   :  disableTransfer enableTransfer decreaseApproval burn 
+------------------------------------------------------------
+1 10 0 14   :  enableTransfer decreaseApproval burn disableTransfer 
+0 14 1 10   :  burn disableTransfer enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 10 0 14   :  enableTransfer decreaseApproval burn disableTransfer 
+14 0 1 10   :  disableTransfer burn enableTransfer decreaseApproval 
+------------------------------------------------------------
+14 1 0 10   :  disableTransfer enableTransfer burn decreaseApproval 
+1 0 10 14   :  enableTransfer burn decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 0 10   :  disableTransfer enableTransfer burn decreaseApproval 
+1 10 14 0   :  enableTransfer decreaseApproval disableTransfer burn 
+------------------------------------------------------------
+14 1 0 10   :  disableTransfer enableTransfer burn decreaseApproval 
+0 1 10 14   :  burn enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 10 0   :  disableTransfer enableTransfer decreaseApproval burn 
+1 0 10 14   :  enableTransfer burn decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 10 0   :  disableTransfer enableTransfer decreaseApproval burn 
+1 10 14 0   :  enableTransfer decreaseApproval disableTransfer burn 
+------------------------------------------------------------
+14 1 10 0   :  disableTransfer enableTransfer decreaseApproval burn 
+0 1 10 14   :  burn enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+1 0 10 14   :  enableTransfer burn decreaseApproval disableTransfer 
+0 14 1 10   :  burn disableTransfer enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 0 10 14   :  enableTransfer burn decreaseApproval disableTransfer 
+14 0 1 10   :  disableTransfer burn enableTransfer decreaseApproval 
+------------------------------------------------------------
+0 14 1 10   :  burn disableTransfer enableTransfer decreaseApproval 
+1 10 14 0   :  enableTransfer decreaseApproval disableTransfer burn 
+------------------------------------------------------------
+0 14 1 10   :  burn disableTransfer enableTransfer decreaseApproval 
+0 1 10 14   :  burn enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 0 1 10   :  disableTransfer burn enableTransfer decreaseApproval 
+1 10 14 0   :  enableTransfer decreaseApproval disableTransfer burn 
+------------------------------------------------------------
+14 0 1 10   :  disableTransfer burn enableTransfer decreaseApproval 
+0 1 10 14   :  burn enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 1 0 15   :  disableTransfer enableTransfer burn increaseApproval 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+1 14 15 0   :  enableTransfer disableTransfer increaseApproval burn 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 14 1 15   :  burn disableTransfer enableTransfer increaseApproval 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+1 14 0 15   :  enableTransfer disableTransfer burn increaseApproval 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+0 1 15 14   :  burn enableTransfer increaseApproval disableTransfer 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 0 1 15   :  disableTransfer burn enableTransfer increaseApproval 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+1 15 14 0   :  enableTransfer increaseApproval disableTransfer burn 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+15 0 14 1   :  increaseApproval burn disableTransfer enableTransfer 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+15 0 1 14   :  increaseApproval burn enableTransfer disableTransfer 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+0 15 14 1   :  burn increaseApproval disableTransfer enableTransfer 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+14 15 1 0   :  disableTransfer increaseApproval enableTransfer burn 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+14 0 15 1   :  disableTransfer burn increaseApproval enableTransfer 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 0   :  increaseApproval disableTransfer enableTransfer burn 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+1 0 14 15   :  enableTransfer burn disableTransfer increaseApproval 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+15 1 0 14   :  increaseApproval enableTransfer burn disableTransfer 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+0 14 15 1   :  burn disableTransfer increaseApproval enableTransfer 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+------------------------------------------------------------
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+0 15 1 14   :  burn increaseApproval enableTransfer disableTransfer 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+------------------------------------------------------------
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+------------------------------------------------------------
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+14 15 0 1   :  disableTransfer increaseApproval burn enableTransfer 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+1 15 0 14   :  enableTransfer increaseApproval burn disableTransfer 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+------------------------------------------------------------
+15 1 14 0   :  increaseApproval enableTransfer disableTransfer burn 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+1 0 15 14   :  enableTransfer burn increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 0 1   :  increaseApproval disableTransfer burn enableTransfer 
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+0 1 14 15   :  burn enableTransfer disableTransfer increaseApproval 
+14 1 15 0   :  disableTransfer enableTransfer increaseApproval burn 
+------------------------------------------------------------
+14 1 18 0   :  disableTransfer enableTransfer transfer burn 
+1 0 18 14   :  enableTransfer burn transfer disableTransfer 
+------------------------------------------------------------
+14 1 18 0   :  disableTransfer enableTransfer transfer burn 
+1 18 14 0   :  enableTransfer transfer disableTransfer burn 
+------------------------------------------------------------
+14 1 18 0   :  disableTransfer enableTransfer transfer burn 
+1 18 0 14   :  enableTransfer transfer burn disableTransfer 
+------------------------------------------------------------
+14 1 18 0   :  disableTransfer enableTransfer transfer burn 
+0 1 18 14   :  burn enableTransfer transfer disableTransfer 
+------------------------------------------------------------
+1 0 18 14   :  enableTransfer burn transfer disableTransfer 
+14 0 1 18   :  disableTransfer burn enableTransfer transfer 
+------------------------------------------------------------
+1 0 18 14   :  enableTransfer burn transfer disableTransfer 
+14 1 0 18   :  disableTransfer enableTransfer burn transfer 
+------------------------------------------------------------
+1 0 18 14   :  enableTransfer burn transfer disableTransfer 
+0 14 1 18   :  burn disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+14 0 1 18   :  disableTransfer burn enableTransfer transfer 
+1 18 14 0   :  enableTransfer transfer disableTransfer burn 
+------------------------------------------------------------
+14 0 1 18   :  disableTransfer burn enableTransfer transfer 
+1 18 0 14   :  enableTransfer transfer burn disableTransfer 
+------------------------------------------------------------
+14 0 1 18   :  disableTransfer burn enableTransfer transfer 
+0 1 18 14   :  burn enableTransfer transfer disableTransfer 
+------------------------------------------------------------
+1 18 14 0   :  enableTransfer transfer disableTransfer burn 
+14 1 0 18   :  disableTransfer enableTransfer burn transfer 
+------------------------------------------------------------
+1 18 14 0   :  enableTransfer transfer disableTransfer burn 
+0 14 1 18   :  burn disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+1 18 0 14   :  enableTransfer transfer burn disableTransfer 
+14 1 0 18   :  disableTransfer enableTransfer burn transfer 
+------------------------------------------------------------
+1 18 0 14   :  enableTransfer transfer burn disableTransfer 
+0 14 1 18   :  burn disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+0 1 18 14   :  burn enableTransfer transfer disableTransfer 
+14 1 0 18   :  disableTransfer enableTransfer burn transfer 
+------------------------------------------------------------
+0 1 18 14   :  burn enableTransfer transfer disableTransfer 
+0 14 1 18   :  burn disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+14 1 3 2   :  disableTransfer enableTransfer transferFrom transferFrom 
+1 3 2 14   :  enableTransfer transferFrom transferFrom disableTransfer 
+------------------------------------------------------------
+4 14 1 2   :  approve disableTransfer enableTransfer transferFrom 
+1 4 2 14   :  enableTransfer approve transferFrom disableTransfer 
+------------------------------------------------------------
+4 14 1 2   :  approve disableTransfer enableTransfer transferFrom 
+1 2 4 14   :  enableTransfer transferFrom approve disableTransfer 
+------------------------------------------------------------
+4 14 1 2   :  approve disableTransfer enableTransfer transferFrom 
+1 2 14 4   :  enableTransfer transferFrom disableTransfer approve 
+------------------------------------------------------------
+4 14 1 2   :  approve disableTransfer enableTransfer transferFrom 
+4 1 2 14   :  approve enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+1 4 2 14   :  enableTransfer approve transferFrom disableTransfer 
+14 1 4 2   :  disableTransfer enableTransfer approve transferFrom 
+------------------------------------------------------------
+1 4 2 14   :  enableTransfer approve transferFrom disableTransfer 
+14 1 2 4   :  disableTransfer enableTransfer transferFrom approve 
+------------------------------------------------------------
+1 4 2 14   :  enableTransfer approve transferFrom disableTransfer 
+14 4 1 2   :  disableTransfer approve enableTransfer transferFrom 
+------------------------------------------------------------
+14 1 4 2   :  disableTransfer enableTransfer approve transferFrom 
+1 2 4 14   :  enableTransfer transferFrom approve disableTransfer 
+------------------------------------------------------------
+14 1 4 2   :  disableTransfer enableTransfer approve transferFrom 
+1 2 14 4   :  enableTransfer transferFrom disableTransfer approve 
+------------------------------------------------------------
+14 1 4 2   :  disableTransfer enableTransfer approve transferFrom 
+4 1 2 14   :  approve enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+1 2 4 14   :  enableTransfer transferFrom approve disableTransfer 
+14 1 2 4   :  disableTransfer enableTransfer transferFrom approve 
+------------------------------------------------------------
+1 2 4 14   :  enableTransfer transferFrom approve disableTransfer 
+14 4 1 2   :  disableTransfer approve enableTransfer transferFrom 
+------------------------------------------------------------
+1 2 14 4   :  enableTransfer transferFrom disableTransfer approve 
+14 1 2 4   :  disableTransfer enableTransfer transferFrom approve 
+------------------------------------------------------------
+1 2 14 4   :  enableTransfer transferFrom disableTransfer approve 
+14 4 1 2   :  disableTransfer approve enableTransfer transferFrom 
+------------------------------------------------------------
+14 1 2 4   :  disableTransfer enableTransfer transferFrom approve 
+4 1 2 14   :  approve enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+14 4 1 2   :  disableTransfer approve enableTransfer transferFrom 
+4 1 2 14   :  approve enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+14 1 2 5   :  disableTransfer enableTransfer transferFrom transferOwnership 
+1 2 14 5   :  enableTransfer transferFrom disableTransfer transferOwnership 
+------------------------------------------------------------
+1 2 14 5   :  enableTransfer transferFrom disableTransfer transferOwnership 
+14 1 5 2   :  disableTransfer enableTransfer transferOwnership transferFrom 
+------------------------------------------------------------
+14 1 2 6   :  disableTransfer enableTransfer transferFrom transferOwnership 
+1 14 6 2   :  enableTransfer disableTransfer transferOwnership transferFrom 
+------------------------------------------------------------
+14 1 6 2   :  disableTransfer enableTransfer transferOwnership transferFrom 
+1 14 6 2   :  enableTransfer disableTransfer transferOwnership transferFrom 
+------------------------------------------------------------
+14 1 2 7   :  disableTransfer enableTransfer transferFrom increaseApproval 
+1 2 7 14   :  enableTransfer transferFrom increaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 2 7   :  disableTransfer enableTransfer transferFrom increaseApproval 
+1 7 2 14   :  enableTransfer increaseApproval transferFrom disableTransfer 
+------------------------------------------------------------
+1 2 7 14   :  enableTransfer transferFrom increaseApproval disableTransfer 
+14 1 7 2   :  disableTransfer enableTransfer increaseApproval transferFrom 
+------------------------------------------------------------
+14 1 7 2   :  disableTransfer enableTransfer increaseApproval transferFrom 
+1 7 2 14   :  enableTransfer increaseApproval transferFrom disableTransfer 
+------------------------------------------------------------
+14 1 10 2   :  disableTransfer enableTransfer decreaseApproval transferFrom 
+1 2 10 14   :  enableTransfer transferFrom decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 10 2   :  disableTransfer enableTransfer decreaseApproval transferFrom 
+1 10 2 14   :  enableTransfer decreaseApproval transferFrom disableTransfer 
+------------------------------------------------------------
+1 2 10 14   :  enableTransfer transferFrom decreaseApproval disableTransfer 
+14 1 2 10   :  disableTransfer enableTransfer transferFrom decreaseApproval 
+------------------------------------------------------------
+14 1 2 10   :  disableTransfer enableTransfer transferFrom decreaseApproval 
+1 10 2 14   :  enableTransfer decreaseApproval transferFrom disableTransfer 
+------------------------------------------------------------
+15 14 1 2   :  increaseApproval disableTransfer enableTransfer transferFrom 
+1 2 15 14   :  enableTransfer transferFrom increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 2   :  increaseApproval disableTransfer enableTransfer transferFrom 
+15 1 2 14   :  increaseApproval enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+15 14 1 2   :  increaseApproval disableTransfer enableTransfer transferFrom 
+1 2 14 15   :  enableTransfer transferFrom disableTransfer increaseApproval 
+------------------------------------------------------------
+15 14 1 2   :  increaseApproval disableTransfer enableTransfer transferFrom 
+1 15 2 14   :  enableTransfer increaseApproval transferFrom disableTransfer 
+------------------------------------------------------------
+1 2 15 14   :  enableTransfer transferFrom increaseApproval disableTransfer 
+14 15 1 2   :  disableTransfer increaseApproval enableTransfer transferFrom 
+------------------------------------------------------------
+14 15 1 2   :  disableTransfer increaseApproval enableTransfer transferFrom 
+15 1 2 14   :  increaseApproval enableTransfer transferFrom disableTransfer 
+------------------------------------------------------------
+14 15 1 2   :  disableTransfer increaseApproval enableTransfer transferFrom 
+1 2 14 15   :  enableTransfer transferFrom disableTransfer increaseApproval 
+------------------------------------------------------------
+14 15 1 2   :  disableTransfer increaseApproval enableTransfer transferFrom 
+1 15 2 14   :  enableTransfer increaseApproval transferFrom disableTransfer 
+------------------------------------------------------------
+15 1 2 14   :  increaseApproval enableTransfer transferFrom disableTransfer 
+14 1 15 2   :  disableTransfer enableTransfer increaseApproval transferFrom 
+------------------------------------------------------------
+15 1 2 14   :  increaseApproval enableTransfer transferFrom disableTransfer 
+14 1 2 15   :  disableTransfer enableTransfer transferFrom increaseApproval 
+------------------------------------------------------------
+14 1 15 2   :  disableTransfer enableTransfer increaseApproval transferFrom 
+1 2 14 15   :  enableTransfer transferFrom disableTransfer increaseApproval 
+------------------------------------------------------------
+1 2 14 15   :  enableTransfer transferFrom disableTransfer increaseApproval 
+14 1 2 15   :  disableTransfer enableTransfer transferFrom increaseApproval 
+------------------------------------------------------------
+14 1 18 2   :  disableTransfer enableTransfer transfer transferFrom 
+1 2 18 14   :  enableTransfer transferFrom transfer disableTransfer 
+------------------------------------------------------------
+14 1 18 2   :  disableTransfer enableTransfer transfer transferFrom 
+1 18 2 14   :  enableTransfer transfer transferFrom disableTransfer 
+------------------------------------------------------------
+1 2 18 14   :  enableTransfer transferFrom transfer disableTransfer 
+14 1 2 18   :  disableTransfer enableTransfer transferFrom transfer 
+------------------------------------------------------------
+14 1 2 18   :  disableTransfer enableTransfer transferFrom transfer 
+1 18 2 14   :  enableTransfer transfer transferFrom disableTransfer 
+------------------------------------------------------------
+4 1 14 5   :  approve enableTransfer disableTransfer transferOwnership 
+4 14 1 5   :  approve disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+4 1 14 5   :  approve enableTransfer disableTransfer transferOwnership 
+14 1 4 5   :  disableTransfer enableTransfer approve transferOwnership 
+------------------------------------------------------------
+4 1 14 5   :  approve enableTransfer disableTransfer transferOwnership 
+14 4 1 5   :  disableTransfer approve enableTransfer transferOwnership 
+------------------------------------------------------------
+1 4 14 5   :  enableTransfer approve disableTransfer transferOwnership 
+4 14 1 5   :  approve disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+1 4 14 5   :  enableTransfer approve disableTransfer transferOwnership 
+14 1 4 5   :  disableTransfer enableTransfer approve transferOwnership 
+------------------------------------------------------------
+1 4 14 5   :  enableTransfer approve disableTransfer transferOwnership 
+14 4 1 5   :  disableTransfer approve enableTransfer transferOwnership 
+------------------------------------------------------------
+4 14 1 5   :  approve disableTransfer enableTransfer transferOwnership 
+1 14 4 5   :  enableTransfer disableTransfer approve transferOwnership 
+------------------------------------------------------------
+14 1 4 5   :  disableTransfer enableTransfer approve transferOwnership 
+1 14 4 5   :  enableTransfer disableTransfer approve transferOwnership 
+------------------------------------------------------------
+1 14 4 5   :  enableTransfer disableTransfer approve transferOwnership 
+14 4 1 5   :  disableTransfer approve enableTransfer transferOwnership 
+------------------------------------------------------------
+1 4 14 6   :  enableTransfer approve disableTransfer transferOwnership 
+14 1 6 4   :  disableTransfer enableTransfer transferOwnership approve 
+------------------------------------------------------------
+4 1 14 6   :  approve enableTransfer disableTransfer transferOwnership 
+14 1 6 4   :  disableTransfer enableTransfer transferOwnership approve 
+------------------------------------------------------------
+1 14 4 6   :  enableTransfer disableTransfer approve transferOwnership 
+14 1 6 4   :  disableTransfer enableTransfer transferOwnership approve 
+------------------------------------------------------------
+1 4 7 14   :  enableTransfer approve increaseApproval disableTransfer 
+14 1 7 4   :  disableTransfer enableTransfer increaseApproval approve 
+------------------------------------------------------------
+1 4 7 14   :  enableTransfer approve increaseApproval disableTransfer 
+14 1 4 7   :  disableTransfer enableTransfer approve increaseApproval 
+------------------------------------------------------------
+1 4 7 14   :  enableTransfer approve increaseApproval disableTransfer 
+4 14 1 7   :  approve disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+1 4 7 14   :  enableTransfer approve increaseApproval disableTransfer 
+14 4 1 7   :  disableTransfer approve enableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 7 4   :  disableTransfer enableTransfer increaseApproval approve 
+1 7 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+------------------------------------------------------------
+14 1 7 4   :  disableTransfer enableTransfer increaseApproval approve 
+4 1 7 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 7 4   :  disableTransfer enableTransfer increaseApproval approve 
+1 7 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+1 7 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+14 1 4 7   :  disableTransfer enableTransfer approve increaseApproval 
+------------------------------------------------------------
+1 7 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+4 14 1 7   :  approve disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+1 7 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+14 4 1 7   :  disableTransfer approve enableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 4 7   :  disableTransfer enableTransfer approve increaseApproval 
+4 1 7 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 4 7   :  disableTransfer enableTransfer approve increaseApproval 
+1 7 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+4 14 1 7   :  approve disableTransfer enableTransfer increaseApproval 
+4 1 7 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+4 14 1 7   :  approve disableTransfer enableTransfer increaseApproval 
+1 7 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+4 1 7 14   :  approve enableTransfer increaseApproval disableTransfer 
+14 4 1 7   :  disableTransfer approve enableTransfer increaseApproval 
+------------------------------------------------------------
+14 4 1 7   :  disableTransfer approve enableTransfer increaseApproval 
+1 7 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+1 10 4 14   :  enableTransfer decreaseApproval approve disableTransfer 
+14 1 10 4   :  disableTransfer enableTransfer decreaseApproval approve 
+------------------------------------------------------------
+1 10 4 14   :  enableTransfer decreaseApproval approve disableTransfer 
+4 14 1 10   :  approve disableTransfer enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 10 4 14   :  enableTransfer decreaseApproval approve disableTransfer 
+14 1 4 10   :  disableTransfer enableTransfer approve decreaseApproval 
+------------------------------------------------------------
+1 10 4 14   :  enableTransfer decreaseApproval approve disableTransfer 
+14 4 1 10   :  disableTransfer approve enableTransfer decreaseApproval 
+------------------------------------------------------------
+4 1 10 14   :  approve enableTransfer decreaseApproval disableTransfer 
+14 1 10 4   :  disableTransfer enableTransfer decreaseApproval approve 
+------------------------------------------------------------
+4 1 10 14   :  approve enableTransfer decreaseApproval disableTransfer 
+4 14 1 10   :  approve disableTransfer enableTransfer decreaseApproval 
+------------------------------------------------------------
+4 1 10 14   :  approve enableTransfer decreaseApproval disableTransfer 
+14 1 4 10   :  disableTransfer enableTransfer approve decreaseApproval 
+------------------------------------------------------------
+4 1 10 14   :  approve enableTransfer decreaseApproval disableTransfer 
+14 4 1 10   :  disableTransfer approve enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 10 14 4   :  enableTransfer decreaseApproval disableTransfer approve 
+14 1 10 4   :  disableTransfer enableTransfer decreaseApproval approve 
+------------------------------------------------------------
+1 10 14 4   :  enableTransfer decreaseApproval disableTransfer approve 
+4 14 1 10   :  approve disableTransfer enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 10 14 4   :  enableTransfer decreaseApproval disableTransfer approve 
+14 1 4 10   :  disableTransfer enableTransfer approve decreaseApproval 
+------------------------------------------------------------
+1 10 14 4   :  enableTransfer decreaseApproval disableTransfer approve 
+14 4 1 10   :  disableTransfer approve enableTransfer decreaseApproval 
+------------------------------------------------------------
+14 1 10 4   :  disableTransfer enableTransfer decreaseApproval approve 
+1 4 10 14   :  enableTransfer approve decreaseApproval disableTransfer 
+------------------------------------------------------------
+4 14 1 10   :  approve disableTransfer enableTransfer decreaseApproval 
+1 4 10 14   :  enableTransfer approve decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 4 10   :  disableTransfer enableTransfer approve decreaseApproval 
+1 4 10 14   :  enableTransfer approve decreaseApproval disableTransfer 
+------------------------------------------------------------
+1 4 10 14   :  enableTransfer approve decreaseApproval disableTransfer 
+14 4 1 10   :  disableTransfer approve enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+1 15 14 4   :  enableTransfer increaseApproval disableTransfer approve 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+14 4 1 15   :  disableTransfer approve enableTransfer increaseApproval 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+15 4 14 1   :  increaseApproval approve disableTransfer enableTransfer 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+4 14 15 1   :  approve disableTransfer increaseApproval enableTransfer 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+15 1 4 14   :  increaseApproval enableTransfer approve disableTransfer 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+4 15 1 14   :  approve increaseApproval enableTransfer disableTransfer 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+14 1 15 4   :  disableTransfer enableTransfer increaseApproval approve 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+15 14 1 4   :  increaseApproval disableTransfer enableTransfer approve 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+1 15 4 14   :  enableTransfer increaseApproval approve disableTransfer 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+14 1 4 15   :  disableTransfer enableTransfer approve increaseApproval 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+------------------------------------------------------------
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+1 4 14 15   :  enableTransfer approve disableTransfer increaseApproval 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+4 14 1 15   :  approve disableTransfer enableTransfer increaseApproval 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+------------------------------------------------------------
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+------------------------------------------------------------
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+1 4 15 14   :  enableTransfer approve increaseApproval disableTransfer 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+14 4 15 1   :  disableTransfer approve increaseApproval enableTransfer 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+------------------------------------------------------------
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+15 14 4 1   :  increaseApproval disableTransfer approve enableTransfer 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+4 1 14 15   :  approve enableTransfer disableTransfer increaseApproval 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+15 1 14 4   :  increaseApproval enableTransfer disableTransfer approve 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+------------------------------------------------------------
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+4 1 15 14   :  approve enableTransfer increaseApproval disableTransfer 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+------------------------------------------------------------
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+14 15 1 4   :  disableTransfer increaseApproval enableTransfer approve 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+------------------------------------------------------------
+1 14 15 4   :  enableTransfer disableTransfer increaseApproval approve 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+------------------------------------------------------------
+14 15 4 1   :  disableTransfer increaseApproval approve enableTransfer 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 14 4 15   :  enableTransfer disableTransfer approve increaseApproval 
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+4 15 14 1   :  approve increaseApproval disableTransfer enableTransfer 
+15 4 1 14   :  increaseApproval approve enableTransfer disableTransfer 
+------------------------------------------------------------
+1 18 14 4   :  enableTransfer transfer disableTransfer approve 
+14 1 18 4   :  disableTransfer enableTransfer transfer approve 
+------------------------------------------------------------
+1 18 14 4   :  enableTransfer transfer disableTransfer approve 
+4 14 1 18   :  approve disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+1 18 14 4   :  enableTransfer transfer disableTransfer approve 
+14 1 4 18   :  disableTransfer enableTransfer approve transfer 
+------------------------------------------------------------
+1 18 14 4   :  enableTransfer transfer disableTransfer approve 
+14 4 1 18   :  disableTransfer approve enableTransfer transfer 
+------------------------------------------------------------
+1 4 18 14   :  enableTransfer approve transfer disableTransfer 
+14 1 18 4   :  disableTransfer enableTransfer transfer approve 
+------------------------------------------------------------
+1 4 18 14   :  enableTransfer approve transfer disableTransfer 
+4 14 1 18   :  approve disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+1 4 18 14   :  enableTransfer approve transfer disableTransfer 
+14 1 4 18   :  disableTransfer enableTransfer approve transfer 
+------------------------------------------------------------
+1 4 18 14   :  enableTransfer approve transfer disableTransfer 
+14 4 1 18   :  disableTransfer approve enableTransfer transfer 
+------------------------------------------------------------
+14 1 18 4   :  disableTransfer enableTransfer transfer approve 
+4 1 18 14   :  approve enableTransfer transfer disableTransfer 
+------------------------------------------------------------
+14 1 18 4   :  disableTransfer enableTransfer transfer approve 
+1 18 4 14   :  enableTransfer transfer approve disableTransfer 
+------------------------------------------------------------
+4 1 18 14   :  approve enableTransfer transfer disableTransfer 
+4 14 1 18   :  approve disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+4 1 18 14   :  approve enableTransfer transfer disableTransfer 
+14 1 4 18   :  disableTransfer enableTransfer approve transfer 
+------------------------------------------------------------
+4 1 18 14   :  approve enableTransfer transfer disableTransfer 
+14 4 1 18   :  disableTransfer approve enableTransfer transfer 
+------------------------------------------------------------
+4 14 1 18   :  approve disableTransfer enableTransfer transfer 
+1 18 4 14   :  enableTransfer transfer approve disableTransfer 
+------------------------------------------------------------
+14 1 4 18   :  disableTransfer enableTransfer approve transfer 
+1 18 4 14   :  enableTransfer transfer approve disableTransfer 
+------------------------------------------------------------
+1 18 4 14   :  enableTransfer transfer approve disableTransfer 
+14 4 1 18   :  disableTransfer approve enableTransfer transfer 
+------------------------------------------------------------
+1 28 14 4   :  enableTransfer approve disableTransfer approve 
+14 1 28 4   :  disableTransfer enableTransfer approve approve 
+------------------------------------------------------------
+14 4 1 28   :  disableTransfer approve enableTransfer approve 
+1 4 28 14   :  enableTransfer approve approve disableTransfer 
+------------------------------------------------------------
+14 4 1 28   :  disableTransfer approve enableTransfer approve 
+4 1 28 14   :  approve enableTransfer approve disableTransfer 
+------------------------------------------------------------
+1 4 28 14   :  enableTransfer approve approve disableTransfer 
+14 1 4 28   :  disableTransfer enableTransfer approve approve 
+------------------------------------------------------------
+1 4 28 14   :  enableTransfer approve approve disableTransfer 
+4 14 1 28   :  approve disableTransfer enableTransfer approve 
+------------------------------------------------------------
+14 1 4 28   :  disableTransfer enableTransfer approve approve 
+4 1 28 14   :  approve enableTransfer approve disableTransfer 
+------------------------------------------------------------
+4 14 1 28   :  approve disableTransfer enableTransfer approve 
+4 1 28 14   :  approve enableTransfer approve disableTransfer 
+------------------------------------------------------------
+14 1 5 7   :  disableTransfer enableTransfer transferOwnership increaseApproval 
+1 7 14 5   :  enableTransfer increaseApproval disableTransfer transferOwnership 
+------------------------------------------------------------
+1 7 14 5   :  enableTransfer increaseApproval disableTransfer transferOwnership 
+14 1 7 5   :  disableTransfer enableTransfer increaseApproval transferOwnership 
+------------------------------------------------------------
+14 1 10 5   :  disableTransfer enableTransfer decreaseApproval transferOwnership 
+1 10 14 5   :  enableTransfer decreaseApproval disableTransfer transferOwnership 
+------------------------------------------------------------
+1 10 14 5   :  enableTransfer decreaseApproval disableTransfer transferOwnership 
+14 1 5 10   :  disableTransfer enableTransfer transferOwnership decreaseApproval 
+------------------------------------------------------------
+1 15 14 5   :  enableTransfer increaseApproval disableTransfer transferOwnership 
+15 14 1 5   :  increaseApproval disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+1 15 14 5   :  enableTransfer increaseApproval disableTransfer transferOwnership 
+14 15 1 5   :  disableTransfer increaseApproval enableTransfer transferOwnership 
+------------------------------------------------------------
+1 14 15 5   :  enableTransfer disableTransfer increaseApproval transferOwnership 
+15 14 1 5   :  increaseApproval disableTransfer enableTransfer transferOwnership 
+------------------------------------------------------------
+1 14 15 5   :  enableTransfer disableTransfer increaseApproval transferOwnership 
+14 1 15 5   :  disableTransfer enableTransfer increaseApproval transferOwnership 
+------------------------------------------------------------
+1 14 15 5   :  enableTransfer disableTransfer increaseApproval transferOwnership 
+14 15 1 5   :  disableTransfer increaseApproval enableTransfer transferOwnership 
+------------------------------------------------------------
+15 14 1 5   :  increaseApproval disableTransfer enableTransfer transferOwnership 
+15 1 14 5   :  increaseApproval enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+14 1 15 5   :  disableTransfer enableTransfer increaseApproval transferOwnership 
+15 1 14 5   :  increaseApproval enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+15 1 14 5   :  increaseApproval enableTransfer disableTransfer transferOwnership 
+14 15 1 5   :  disableTransfer increaseApproval enableTransfer transferOwnership 
+------------------------------------------------------------
+14 1 18 5   :  disableTransfer enableTransfer transfer transferOwnership 
+1 18 14 5   :  enableTransfer transfer disableTransfer transferOwnership 
+------------------------------------------------------------
+1 18 14 5   :  enableTransfer transfer disableTransfer transferOwnership 
+14 1 5 18   :  disableTransfer enableTransfer transferOwnership transfer 
+------------------------------------------------------------
+1 14 6 7   :  enableTransfer disableTransfer transferOwnership increaseApproval 
+14 1 6 7   :  disableTransfer enableTransfer transferOwnership increaseApproval 
+------------------------------------------------------------
+14 1 6 15   :  disableTransfer enableTransfer transferOwnership increaseApproval 
+1 14 15 6   :  enableTransfer disableTransfer increaseApproval transferOwnership 
+------------------------------------------------------------
+14 1 6 15   :  disableTransfer enableTransfer transferOwnership increaseApproval 
+15 1 14 6   :  increaseApproval enableTransfer disableTransfer transferOwnership 
+------------------------------------------------------------
+14 1 6 25   :  disableTransfer enableTransfer transferOwnership decreaseApproval 
+1 14 6 25   :  enableTransfer disableTransfer transferOwnership decreaseApproval 
+------------------------------------------------------------
+1 7 8 14   :  enableTransfer increaseApproval increaseApproval disableTransfer 
+14 1 7 8   :  disableTransfer enableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+14 1 10 7   :  disableTransfer enableTransfer decreaseApproval increaseApproval 
+1 7 10 14   :  enableTransfer increaseApproval decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 10 7   :  disableTransfer enableTransfer decreaseApproval increaseApproval 
+1 10 7 14   :  enableTransfer decreaseApproval increaseApproval disableTransfer 
+------------------------------------------------------------
+1 7 10 14   :  enableTransfer increaseApproval decreaseApproval disableTransfer 
+14 1 7 10   :  disableTransfer enableTransfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+14 1 7 10   :  disableTransfer enableTransfer increaseApproval decreaseApproval 
+1 10 7 14   :  enableTransfer decreaseApproval increaseApproval disableTransfer 
+------------------------------------------------------------
+15 1 7 14   :  increaseApproval enableTransfer increaseApproval disableTransfer 
+14 15 1 7   :  disableTransfer increaseApproval enableTransfer increaseApproval 
+------------------------------------------------------------
+15 1 7 14   :  increaseApproval enableTransfer increaseApproval disableTransfer 
+15 14 1 7   :  increaseApproval disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+15 1 7 14   :  increaseApproval enableTransfer increaseApproval disableTransfer 
+14 1 15 7   :  disableTransfer enableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+14 1 7 15   :  disableTransfer enableTransfer increaseApproval increaseApproval 
+1 7 14 15   :  enableTransfer increaseApproval disableTransfer increaseApproval 
+------------------------------------------------------------
+14 15 1 7   :  disableTransfer increaseApproval enableTransfer increaseApproval 
+1 15 7 14   :  enableTransfer increaseApproval increaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 7   :  increaseApproval disableTransfer enableTransfer increaseApproval 
+1 15 7 14   :  enableTransfer increaseApproval increaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 18 7   :  disableTransfer enableTransfer transfer increaseApproval 
+1 7 18 14   :  enableTransfer increaseApproval transfer disableTransfer 
+------------------------------------------------------------
+14 1 18 7   :  disableTransfer enableTransfer transfer increaseApproval 
+1 18 7 14   :  enableTransfer transfer increaseApproval disableTransfer 
+------------------------------------------------------------
+1 7 18 14   :  enableTransfer increaseApproval transfer disableTransfer 
+14 1 7 18   :  disableTransfer enableTransfer increaseApproval transfer 
+------------------------------------------------------------
+14 1 7 18   :  disableTransfer enableTransfer increaseApproval transfer 
+1 18 7 14   :  enableTransfer transfer increaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 11 10   :  disableTransfer enableTransfer decreaseApproval decreaseApproval 
+1 11 10 14   :  enableTransfer decreaseApproval decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 10 15   :  disableTransfer enableTransfer decreaseApproval increaseApproval 
+15 1 10 14   :  increaseApproval enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+14 1 10 15   :  disableTransfer enableTransfer decreaseApproval increaseApproval 
+1 10 14 15   :  enableTransfer decreaseApproval disableTransfer increaseApproval 
+------------------------------------------------------------
+1 10 15 14   :  enableTransfer decreaseApproval increaseApproval disableTransfer 
+15 14 1 10   :  increaseApproval disableTransfer enableTransfer decreaseApproval 
+------------------------------------------------------------
+1 10 15 14   :  enableTransfer decreaseApproval increaseApproval disableTransfer 
+14 15 1 10   :  disableTransfer increaseApproval enableTransfer decreaseApproval 
+------------------------------------------------------------
+15 14 1 10   :  increaseApproval disableTransfer enableTransfer decreaseApproval 
+15 1 10 14   :  increaseApproval enableTransfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 10   :  increaseApproval disableTransfer enableTransfer decreaseApproval 
+1 15 10 14   :  enableTransfer increaseApproval decreaseApproval disableTransfer 
+------------------------------------------------------------
+15 14 1 10   :  increaseApproval disableTransfer enableTransfer decreaseApproval 
+1 10 14 15   :  enableTransfer decreaseApproval disableTransfer increaseApproval 
+------------------------------------------------------------
+15 1 10 14   :  increaseApproval enableTransfer decreaseApproval disableTransfer 
+14 15 1 10   :  disableTransfer increaseApproval enableTransfer decreaseApproval 
+------------------------------------------------------------
+15 1 10 14   :  increaseApproval enableTransfer decreaseApproval disableTransfer 
+14 1 15 10   :  disableTransfer enableTransfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 15 10 14   :  enableTransfer increaseApproval decreaseApproval disableTransfer 
+14 15 1 10   :  disableTransfer increaseApproval enableTransfer decreaseApproval 
+------------------------------------------------------------
+14 15 1 10   :  disableTransfer increaseApproval enableTransfer decreaseApproval 
+1 10 14 15   :  enableTransfer decreaseApproval disableTransfer increaseApproval 
+------------------------------------------------------------
+1 10 14 15   :  enableTransfer decreaseApproval disableTransfer increaseApproval 
+14 1 15 10   :  disableTransfer enableTransfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 14 17 10   :  enableTransfer disableTransfer transferOwnership decreaseApproval 
+14 1 10 17   :  disableTransfer enableTransfer decreaseApproval transferOwnership 
+------------------------------------------------------------
+14 1 18 10   :  disableTransfer enableTransfer transfer decreaseApproval 
+1 10 18 14   :  enableTransfer decreaseApproval transfer disableTransfer 
+------------------------------------------------------------
+14 1 18 10   :  disableTransfer enableTransfer transfer decreaseApproval 
+1 18 10 14   :  enableTransfer transfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+1 10 18 14   :  enableTransfer decreaseApproval transfer disableTransfer 
+14 1 10 18   :  disableTransfer enableTransfer decreaseApproval transfer 
+------------------------------------------------------------
+14 1 10 18   :  disableTransfer enableTransfer decreaseApproval transfer 
+1 18 10 14   :  enableTransfer transfer decreaseApproval disableTransfer 
+------------------------------------------------------------
+1 15 16 14   :  enableTransfer increaseApproval increaseApproval disableTransfer 
+14 15 16 1   :  disableTransfer increaseApproval increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 16 14   :  enableTransfer increaseApproval increaseApproval disableTransfer 
+15 14 16 1   :  increaseApproval disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 16 14   :  enableTransfer increaseApproval increaseApproval disableTransfer 
+15 16 14 1   :  increaseApproval increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+15 1 16 14   :  increaseApproval enableTransfer increaseApproval disableTransfer 
+14 15 16 1   :  disableTransfer increaseApproval increaseApproval enableTransfer 
+------------------------------------------------------------
+15 1 16 14   :  increaseApproval enableTransfer increaseApproval disableTransfer 
+15 14 16 1   :  increaseApproval disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+15 1 16 14   :  increaseApproval enableTransfer increaseApproval disableTransfer 
+15 16 14 1   :  increaseApproval increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+14 1 15 16   :  disableTransfer enableTransfer increaseApproval increaseApproval 
+15 1 14 16   :  increaseApproval enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 1 15 16   :  disableTransfer enableTransfer increaseApproval increaseApproval 
+15 16 1 14   :  increaseApproval increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 1 15 16   :  disableTransfer enableTransfer increaseApproval increaseApproval 
+1 14 15 16   :  enableTransfer disableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+14 15 16 1   :  disableTransfer increaseApproval increaseApproval enableTransfer 
+1 15 14 16   :  enableTransfer increaseApproval disableTransfer increaseApproval 
+------------------------------------------------------------
+14 15 16 1   :  disableTransfer increaseApproval increaseApproval enableTransfer 
+15 1 14 16   :  increaseApproval enableTransfer disableTransfer increaseApproval 
+------------------------------------------------------------
+14 15 16 1   :  disableTransfer increaseApproval increaseApproval enableTransfer 
+15 16 1 14   :  increaseApproval increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+14 15 16 1   :  disableTransfer increaseApproval increaseApproval enableTransfer 
+1 14 15 16   :  enableTransfer disableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+1 15 14 16   :  enableTransfer increaseApproval disableTransfer increaseApproval 
+15 14 16 1   :  increaseApproval disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+1 15 14 16   :  enableTransfer increaseApproval disableTransfer increaseApproval 
+15 14 1 16   :  increaseApproval disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+1 15 14 16   :  enableTransfer increaseApproval disableTransfer increaseApproval 
+14 15 1 16   :  disableTransfer increaseApproval enableTransfer increaseApproval 
+------------------------------------------------------------
+1 15 14 16   :  enableTransfer increaseApproval disableTransfer increaseApproval 
+15 16 14 1   :  increaseApproval increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+15 1 14 16   :  increaseApproval enableTransfer disableTransfer increaseApproval 
+15 14 16 1   :  increaseApproval disableTransfer increaseApproval enableTransfer 
+------------------------------------------------------------
+15 1 14 16   :  increaseApproval enableTransfer disableTransfer increaseApproval 
+15 14 1 16   :  increaseApproval disableTransfer enableTransfer increaseApproval 
+------------------------------------------------------------
+15 1 14 16   :  increaseApproval enableTransfer disableTransfer increaseApproval 
+14 15 1 16   :  disableTransfer increaseApproval enableTransfer increaseApproval 
+------------------------------------------------------------
+15 1 14 16   :  increaseApproval enableTransfer disableTransfer increaseApproval 
+15 16 14 1   :  increaseApproval increaseApproval disableTransfer enableTransfer 
+------------------------------------------------------------
+15 14 16 1   :  increaseApproval disableTransfer increaseApproval enableTransfer 
+15 16 1 14   :  increaseApproval increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+15 14 16 1   :  increaseApproval disableTransfer increaseApproval enableTransfer 
+1 14 15 16   :  enableTransfer disableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+16 15 14 1   :  increaseApproval increaseApproval disableTransfer enableTransfer 
+1 14 16 15   :  enableTransfer disableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+16 15 14 1   :  increaseApproval increaseApproval disableTransfer enableTransfer 
+16 15 1 14   :  increaseApproval increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+16 14 1 15   :  increaseApproval disableTransfer enableTransfer increaseApproval 
+1 14 16 15   :  enableTransfer disableTransfer increaseApproval increaseApproval 
+------------------------------------------------------------
+16 14 1 15   :  increaseApproval disableTransfer enableTransfer increaseApproval 
+16 15 1 14   :  increaseApproval increaseApproval enableTransfer disableTransfer 
+------------------------------------------------------------
+1 14 16 15   :  enableTransfer disableTransfer increaseApproval increaseApproval 
+14 16 1 15   :  disableTransfer increaseApproval enableTransfer increaseApproval 
+------------------------------------------------------------
+16 15 1 14   :  increaseApproval increaseApproval enableTransfer disableTransfer 
+14 16 1 15   :  disableTransfer increaseApproval enableTransfer increaseApproval 
+------------------------------------------------------------
+1 18 15 14   :  enableTransfer transfer increaseApproval disableTransfer 
+15 14 1 18   :  increaseApproval disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+1 18 15 14   :  enableTransfer transfer increaseApproval disableTransfer 
+14 15 1 18   :  disableTransfer increaseApproval enableTransfer transfer 
+------------------------------------------------------------
+1 18 14 15   :  enableTransfer transfer disableTransfer increaseApproval 
+14 1 18 15   :  disableTransfer enableTransfer transfer increaseApproval 
+------------------------------------------------------------
+1 18 14 15   :  enableTransfer transfer disableTransfer increaseApproval 
+15 14 1 18   :  increaseApproval disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+1 18 14 15   :  enableTransfer transfer disableTransfer increaseApproval 
+14 1 15 18   :  disableTransfer enableTransfer increaseApproval transfer 
+------------------------------------------------------------
+1 18 14 15   :  enableTransfer transfer disableTransfer increaseApproval 
+14 15 1 18   :  disableTransfer increaseApproval enableTransfer transfer 
+------------------------------------------------------------
+14 1 18 15   :  disableTransfer enableTransfer transfer increaseApproval 
+15 1 18 14   :  increaseApproval enableTransfer transfer disableTransfer 
+------------------------------------------------------------
+1 15 18 14   :  enableTransfer increaseApproval transfer disableTransfer 
+15 14 1 18   :  increaseApproval disableTransfer enableTransfer transfer 
+------------------------------------------------------------
+1 15 18 14   :  enableTransfer increaseApproval transfer disableTransfer 
+14 15 1 18   :  disableTransfer increaseApproval enableTransfer transfer 
+------------------------------------------------------------
+15 14 1 18   :  increaseApproval disableTransfer enableTransfer transfer 
+15 1 18 14   :  increaseApproval enableTransfer transfer disableTransfer 
+------------------------------------------------------------
+15 1 18 14   :  increaseApproval enableTransfer transfer disableTransfer 
+14 1 15 18   :  disableTransfer enableTransfer increaseApproval transfer 
+------------------------------------------------------------
+15 1 18 14   :  increaseApproval enableTransfer transfer disableTransfer 
+14 15 1 18   :  disableTransfer increaseApproval enableTransfer transfer 
+------------------------------------------------------------
+14 1 17 18   :  disableTransfer enableTransfer transferOwnership transfer 
+1 14 17 18   :  enableTransfer disableTransfer transferOwnership transfer 
+------------------------------------------------------------
+1 14 17 23   :  enableTransfer disableTransfer transferOwnership increaseApproval 
+14 1 23 17   :  disableTransfer enableTransfer increaseApproval transferOwnership 
+------------------------------------------------------------
+1 14 17 27   :  enableTransfer disableTransfer transferOwnership transfer 
+14 1 27 17   :  disableTransfer enableTransfer transfer transferOwnership 
+------------------------------------------------------------
+1 14 17 28   :  enableTransfer disableTransfer transferOwnership approve 
+14 1 17 28   :  disableTransfer enableTransfer transferOwnership approve 
+------------------------------------------------------------
+14 1 19 18   :  disableTransfer enableTransfer transfer transfer 
+1 19 18 14   :  enableTransfer transfer transfer disableTransfer 
+------------------------------------------------------------

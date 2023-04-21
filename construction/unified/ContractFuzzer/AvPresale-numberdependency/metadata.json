@@ -1,0 +1,38 @@
+{
+    "addr": "0x681f453510adab676724074d212c986ecb53726e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "AvPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b11206245a3786dbcb03512ca1921c8f",
+    "fp_runtime": "be867901b7dc8940a433af81b60ec106",
+    "fp_sol": "bc7fadf53e9dd98cc7a10ccc4106f5bd",
+    "fp_sol2": "54a6893e053c1410c3883a9ede5cc432",
+    "id": "AvPresale-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_AvPresale.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AvPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

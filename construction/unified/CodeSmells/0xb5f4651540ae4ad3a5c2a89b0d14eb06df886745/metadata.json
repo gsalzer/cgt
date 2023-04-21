@@ -1,0 +1,112 @@
+{
+    "addr": "0xb5f4651540ae4ad3a5c2a89b0d14eb06df886745",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            true
+        ],
+        [
+            "Compiler Version not fixed",
+            false
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            false
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "SimpleMultiSigWallet",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {},
+    "fp_bytecode": "d85ca172b08e990217c89210574ed962",
+    "fp_runtime": "5cd8c72cf1407a3b4bafdafd8ddde377",
+    "fp_sol": "c28430394cf134981f20166b8ac1c64e",
+    "fp_sol2": "5f43d9e69f404403ea71fa2b4ecbcc3c",
+    "id": "0xb5f4651540ae4ad3a5c2a89b0d14eb06df886745",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

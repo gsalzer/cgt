@@ -1,0 +1,36 @@
+{
+    "addr": "0x310b15ad0a8b282ee8011d91c79feba80cb179c8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "NumbersToken",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "b831c3163ef424878cb50133b1edb6f4",
+    "fp_runtime": "3502c9e33a5e4bdba5aeb80d07daab1f",
+    "fp_sol": "48999cb3c34ed7529da2ac0ceb045027",
+    "fp_sol2": "9d73768a507fae86345671b987799142",
+    "id": "0x310b15ad0a8b282ee8011d91c79feba80cb179c8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

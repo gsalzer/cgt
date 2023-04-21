@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "RaffleTokenExchange",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "58cd1ab393a6760c174f6bc1aa845f6c",
+    "fp_sol2": "9b062badc36aaef43e28acef777b8dfb",
+    "id": "Re-entrancy-29",
+    "info": [
+        "info/BugLog_29.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_29.sol"
+    ],
+    "sol_orig": true
+}

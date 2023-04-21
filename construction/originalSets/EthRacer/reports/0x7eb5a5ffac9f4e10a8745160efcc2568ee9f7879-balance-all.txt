@@ -1,0 +1,95 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptTxTask', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad2de16d'}
+1 : {'tx_caller': 'f200486ba9e94d02bed14b06a7afde440008ae2f', 'name': 'addCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4ec7ddc000000000000000000000000010e22e308e7ec3f1234e36652f4198c960d222bf'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptTxTask', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'ad2de16d'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferEtherInitiation', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '785b804a'}
+4 : {'tx_caller': 'f200486ba9e94d02bed14b06a7afde440008ae2f', 'name': 'transferEtherInitiation', 'tx_blocknumber': '493e00', 'tx_value': '0', 'contract_balance': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '785b804a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001'}
+5 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferEtherInitiation', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '785b804a'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'kickCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'c8a4c767'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferEtherInitiation', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '785b804a'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'kickCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'c8a4c767'}
+9 : {'tx_caller': 'f200486ba9e94d02bed14b06a7afde440008ae2f', 'name': 'addCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4ec7ddc00000000000000000000000003a1b7dd0037b8c0acfaf40582876ab056d13df2c'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'addCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '4ec7ddc0'}
+11 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'acceptTxTask', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad2de16d'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'acceptTxTask', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad2de16d'}
+13 : {'tx_caller': 'f200486ba9e94d02bed14b06a7afde440008ae2f', 'name': 'addCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4ec7ddc0000000000000000000000000a296715a61fb718ef4a737de804961ea3ac63ed8'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferEtherInitiation', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '785b804a'}
+15 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferEtherInitiation', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '785b804a'}
+16 : {'tx_caller': 'f200486ba9e94d02bed14b06a7afde440008ae2f', 'name': 'kickCommitteeVote', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'c8a4c767000000000000000000000000f200486ba9e94d02bed14b06a7afde440008ae2f'}
+--------------------------------------------------------------------------------
+
+Full traces: 24
+--------------------------------------------------------------------------------
+4 1   :  transferEtherInitiation addCommitteeVote 
+1 4   :  addCommitteeVote transferEtherInitiation 
+------------------------------------------------------------
+9 4 1   :  addCommitteeVote transferEtherInitiation addCommitteeVote 
+4 9 1   :  transferEtherInitiation addCommitteeVote addCommitteeVote 
+------------------------------------------------------------
+1 9 4   :  addCommitteeVote addCommitteeVote transferEtherInitiation 
+4 1 9   :  transferEtherInitiation addCommitteeVote addCommitteeVote 
+------------------------------------------------------------
+4 16 1   :  transferEtherInitiation kickCommitteeVote addCommitteeVote 
+1 4 16   :  addCommitteeVote transferEtherInitiation kickCommitteeVote 
+------------------------------------------------------------
+4 16 1   :  transferEtherInitiation kickCommitteeVote addCommitteeVote 
+16 1 4   :  kickCommitteeVote addCommitteeVote transferEtherInitiation 
+------------------------------------------------------------
+16 4 1   :  kickCommitteeVote transferEtherInitiation addCommitteeVote 
+1 4 16   :  addCommitteeVote transferEtherInitiation kickCommitteeVote 
+------------------------------------------------------------
+16 4 1   :  kickCommitteeVote transferEtherInitiation addCommitteeVote 
+16 1 4   :  kickCommitteeVote addCommitteeVote transferEtherInitiation 
+------------------------------------------------------------
+1 4 16   :  addCommitteeVote transferEtherInitiation kickCommitteeVote 
+4 1 16   :  transferEtherInitiation addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+16 1 4   :  kickCommitteeVote addCommitteeVote transferEtherInitiation 
+4 1 16   :  transferEtherInitiation addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+4 13 9 1   :  transferEtherInitiation addCommitteeVote addCommitteeVote addCommitteeVote 
+13 4 9 1   :  addCommitteeVote transferEtherInitiation addCommitteeVote addCommitteeVote 
+------------------------------------------------------------
+4 13 9 1   :  transferEtherInitiation addCommitteeVote addCommitteeVote addCommitteeVote 
+13 9 4 1   :  addCommitteeVote addCommitteeVote transferEtherInitiation addCommitteeVote 
+------------------------------------------------------------
+4 13 9 1   :  transferEtherInitiation addCommitteeVote addCommitteeVote addCommitteeVote 
+13 9 1 4   :  addCommitteeVote addCommitteeVote addCommitteeVote transferEtherInitiation 
+------------------------------------------------------------
+16 9 4 1   :  kickCommitteeVote addCommitteeVote transferEtherInitiation addCommitteeVote 
+4 16 9 1   :  transferEtherInitiation kickCommitteeVote addCommitteeVote addCommitteeVote 
+------------------------------------------------------------
+16 9 4 1   :  kickCommitteeVote addCommitteeVote transferEtherInitiation addCommitteeVote 
+16 4 9 1   :  kickCommitteeVote transferEtherInitiation addCommitteeVote addCommitteeVote 
+------------------------------------------------------------
+16 9 4 1   :  kickCommitteeVote addCommitteeVote transferEtherInitiation addCommitteeVote 
+4 9 1 16   :  transferEtherInitiation addCommitteeVote addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+4 16 9 1   :  transferEtherInitiation kickCommitteeVote addCommitteeVote addCommitteeVote 
+16 9 1 4   :  kickCommitteeVote addCommitteeVote addCommitteeVote transferEtherInitiation 
+------------------------------------------------------------
+4 16 9 1   :  transferEtherInitiation kickCommitteeVote addCommitteeVote addCommitteeVote 
+9 4 1 16   :  addCommitteeVote transferEtherInitiation addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+4 16 9 1   :  transferEtherInitiation kickCommitteeVote addCommitteeVote addCommitteeVote 
+9 1 4 16   :  addCommitteeVote addCommitteeVote transferEtherInitiation kickCommitteeVote 
+------------------------------------------------------------
+16 1 9 4   :  kickCommitteeVote addCommitteeVote addCommitteeVote transferEtherInitiation 
+16 4 1 9   :  kickCommitteeVote transferEtherInitiation addCommitteeVote addCommitteeVote 
+------------------------------------------------------------
+16 1 9 4   :  kickCommitteeVote addCommitteeVote addCommitteeVote transferEtherInitiation 
+4 1 9 16   :  transferEtherInitiation addCommitteeVote addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+16 4 9 1   :  kickCommitteeVote transferEtherInitiation addCommitteeVote addCommitteeVote 
+9 4 1 16   :  addCommitteeVote transferEtherInitiation addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+16 4 9 1   :  kickCommitteeVote transferEtherInitiation addCommitteeVote addCommitteeVote 
+9 1 4 16   :  addCommitteeVote addCommitteeVote transferEtherInitiation kickCommitteeVote 
+------------------------------------------------------------
+1 4 9 16   :  addCommitteeVote transferEtherInitiation addCommitteeVote kickCommitteeVote 
+4 1 9 16   :  transferEtherInitiation addCommitteeVote addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------
+1 9 4 16   :  addCommitteeVote addCommitteeVote transferEtherInitiation kickCommitteeVote 
+4 1 9 16   :  transferEtherInitiation addCommitteeVote addCommitteeVote kickCommitteeVote 
+------------------------------------------------------------

@@ -1,0 +1,38 @@
+{
+    "addr": "0x9249133819102b2ed31680468c8c67f6fe9e7505",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NumberBoard.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "NumberBoard",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/NumberBoard.sol"
+    },
+    "fp_bytecode": "c4b1c7d4cd5bedae1247b3ed9f2add74",
+    "fp_runtime": "26d0aefb4fa1d29526ebe2571e085620",
+    "fp_sol": "2ac1e1c21c071bac6e632dc70b36b8fb",
+    "fp_sol2": "d900521b24e0abdf32dbc48fd357f0e4",
+    "id": "NumberBoard-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0xe0b8fce1183e31c995b40460e6cb6712fa929f59",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/AmIOnTheFork.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": false,
+    "contractname": "AmIOnTheFork",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/freezing_ether/verified_contract_sols/AmIOnTheFork.sol"
+    },
+    "fp_bytecode": "5cfdf686f07c85833857f078a988471e",
+    "fp_runtime": "13a3ad36a787609af83f7009edc7d41d",
+    "fp_sol": "cfbb1e31b237419908f29ab09a2bc4b6",
+    "fp_sol2": "cfbb1e31b237419908f29ab09a2bc4b6",
+    "id": "AmIOnTheFork-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

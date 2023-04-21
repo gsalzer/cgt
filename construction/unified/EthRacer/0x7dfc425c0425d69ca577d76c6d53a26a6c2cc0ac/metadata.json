@@ -1,0 +1,43 @@
+{
+    "addr": "0x7dfc425c0425d69ca577d76c6d53a26a6c2cc0ac",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "EO onchain",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19-nightly.2017.11.11+commit.284c3839",
+    "compiler_orig": false,
+    "contractname": "ICODollar",
+    "contractname_orig": false,
+    "dataset": "EthRacer",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x7dfc425c0425d69ca577d76c6d53a26a6c2cc0ac",
+                "rinkeby"
+            ]
+        ]
+    },
+    "fp_bytecode": "36731262fd17ebd66e43e38296f026c1",
+    "fp_runtime": "1169c90a6510d6f8c72d37b420cc1270",
+    "fp_sol": "1c2bcff668f4ca1e087ab289b629578b",
+    "fp_sol2": "15495a8be7c9093da9987caac10342c9",
+    "id": "0x7dfc425c0425d69ca577d76c6d53a26a6c2cc0ac",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

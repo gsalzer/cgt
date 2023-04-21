@@ -1,0 +1,79 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000800000'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'pause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8456cb59'}
+2 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000040000000000000000000000000000000'}
+3 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'setPeriod', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'fba2a2d2'}
+4 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setStart', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f6a03ebf'}
+6 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'pause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8456cb59'}
+7 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'unpause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3f4ba83a'}
+8 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'setStart', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f6a03ebf'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setPeriod', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'fba2a2d2'}
+10 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'setPeriod', 'tx_blocknumber': '5b5f', 'tx_value': '0', 'tx_timestamp': '706de5', 'tx_input': 'fba2a2d20000000000000000000000000000000000000000000000000000000000009c22'}
+11 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': 'cbf3d3', 'tx_input': '11111111'}
+12 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': 'cbf3d3', 'tx_input': '11111111'}
+13 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000040000000000000'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setWallet', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'deaa59df000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+15 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000002000000000000000000000000000000'}
+16 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'setWallet', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'deaa59df000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+17 : {'tx_caller': 'ea15adb66dc92a4bbccc8bf32fd25e2e86a2a770', 'name': 'invest', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': 'cbf3d3', 'tx_input': 'e8b5e51f'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'invest', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': 'cbf3d3', 'tx_input': 'e8b5e51f'}
+--------------------------------------------------------------------------------
+
+Full traces: 18
+--------------------------------------------------------------------------------
+10 11 17   :  setPeriod fallback invest 
+10 17 11   :  setPeriod invest fallback 
+------------------------------------------------------------
+10 17 11 0   :  setPeriod invest fallback transferOwnership 
+10 11 17 0   :  setPeriod fallback invest transferOwnership 
+------------------------------------------------------------
+10 17 11 3   :  setPeriod invest fallback setPeriod 
+10 11 17 3   :  setPeriod fallback invest setPeriod 
+------------------------------------------------------------
+10 11 17 6   :  setPeriod fallback invest pause 
+10 17 11 6   :  setPeriod invest fallback pause 
+------------------------------------------------------------
+10 17 11 8   :  setPeriod invest fallback setStart 
+10 11 17 8   :  setPeriod fallback invest setStart 
+------------------------------------------------------------
+10 11 17 12   :  setPeriod fallback invest fallback 
+10 17 11 12   :  setPeriod invest fallback fallback 
+------------------------------------------------------------
+10 11 12 17   :  setPeriod fallback fallback invest 
+10 17 11 12   :  setPeriod invest fallback fallback 
+------------------------------------------------------------
+10 17 11 16   :  setPeriod invest fallback setWallet 
+10 11 17 16   :  setPeriod fallback invest setWallet 
+------------------------------------------------------------
+10 17 18 11   :  setPeriod invest invest fallback 
+10 11 17 18   :  setPeriod fallback invest invest 
+------------------------------------------------------------
+10 17 11 18   :  setPeriod invest fallback invest 
+10 11 17 18   :  setPeriod fallback invest invest 
+------------------------------------------------------------
+10 11 17 3 0   :  setPeriod fallback invest setPeriod transferOwnership 
+10 17 11 3 0   :  setPeriod invest fallback setPeriod transferOwnership 
+------------------------------------------------------------
+10 17 11 6 0   :  setPeriod invest fallback pause transferOwnership 
+10 11 17 6 0   :  setPeriod fallback invest pause transferOwnership 
+------------------------------------------------------------
+10 11 17 8 0   :  setPeriod fallback invest setStart transferOwnership 
+10 17 11 8 0   :  setPeriod invest fallback setStart transferOwnership 
+------------------------------------------------------------
+10 17 11 12 0   :  setPeriod invest fallback fallback transferOwnership 
+10 11 12 17 0   :  setPeriod fallback fallback invest transferOwnership 
+------------------------------------------------------------
+10 17 11 12 0   :  setPeriod invest fallback fallback transferOwnership 
+10 11 17 12 0   :  setPeriod fallback invest fallback transferOwnership 
+------------------------------------------------------------
+10 11 17 16 0   :  setPeriod fallback invest setWallet transferOwnership 
+10 17 11 16 0   :  setPeriod invest fallback setWallet transferOwnership 
+------------------------------------------------------------
+10 11 17 18 0   :  setPeriod fallback invest invest transferOwnership 
+10 17 18 11 0   :  setPeriod invest invest fallback transferOwnership 
+------------------------------------------------------------
+10 11 17 18 0   :  setPeriod fallback invest invest transferOwnership 
+10 17 11 18 0   :  setPeriod invest fallback invest transferOwnership 
+------------------------------------------------------------

@@ -1,0 +1,112 @@
+{
+    "addr": "0x98f62d8ad5a884c8bbcf262591dff55dab263b80",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            true
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            false
+        ],
+        [
+            "Missing Return statement",
+            false
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8-nightly.2017.1.13+commit.bde0b406",
+    "compiler_orig": false,
+    "contractname": "SmartPoolToken",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {},
+    "fp_bytecode": "2032779c9f2da5ef3c3357ced54df14b",
+    "fp_runtime": "d8c94a5df40fc10aa68a0e22b0e6d488",
+    "fp_sol": "8d33efdfa6fb09dcb0f58a3d7fc62d45",
+    "fp_sol2": "ee7b3abbf3497e4c37a26bb066a38685",
+    "id": "0x98f62d8ad5a884c8bbcf262591dff55dab263b80",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

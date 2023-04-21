@@ -1,0 +1,60 @@
+{
+    "addr": "0xde5ebd0b8879b0a42b23b37e4d76a5e21a0bef4b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": false,
+    "contractname": "blockchain2email",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "51d4622144508791110fda1916e00fc3",
+    "fp_runtime": "2e56be4261b3e1849a9c9db0fa81809b",
+    "fp_sol": "692d2780ae531b99587abdc4153cea91",
+    "fp_sol2": "692d2780ae531b99587abdc4153cea91",
+    "id": "1161_Code_31_0xde5ebd0b8879b0a42b23b37e4d76a5e21a0bef4b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

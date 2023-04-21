@@ -1,0 +1,38 @@
+{
+    "addr": "0xcf70f36f8fd04713b33900bab530fd2f63ed9ae0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "TheNextBlock",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "58c86024898580b3b19e80e3d286e0ff",
+    "fp_runtime": "8636afa6b8e4404659431213345d6a9f",
+    "fp_sol": "37f5af54014f078f1820a54b1f2b5c09",
+    "fp_sol2": "a6e11cbf5340324121fae98f588365af",
+    "id": "TheNextBlock-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_TheNextBlock.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TheNextBlock.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x58dfcfbd7955a67287eb0e4ba38a233c6f0f8012",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "MultiSendEth",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "1b20537edd14b6297fcdd27e23ed7d2e",
+    "fp_runtime": "e5943058c377ab9e4e5fd9f8429ec300",
+    "fp_sol": "6dec2e7010cda69d567f2708d7abccb7",
+    "fp_sol2": "c3c9a2cf1eaa00f94b996270f7750c05",
+    "id": "0x58dfcfbd7955a67287eb0e4ba38a233c6f0f8012-MultiSendEth-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1401.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

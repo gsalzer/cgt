@@ -1,0 +1,112 @@
+{
+    "addr": "0xccf09a5a9449b8d39e27f7fcffbb1a30ec29c8db",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            false
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            false
+        ],
+        [
+            "Missing Return statement",
+            true
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "VeTokenizedAssetRegistry",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {},
+    "fp_bytecode": "fc4c67a7a1aac1001a92f89fd2350cba",
+    "fp_runtime": "a79d57293b0b0f777fb2936b388e06da",
+    "fp_sol": "0b2d384962f5196008851f821bf8310d",
+    "fp_sol2": "ae693587d2ebb4172543341835f0a736",
+    "id": "0xccf09a5a9449b8d39e27f7fcffbb1a30ec29c8db",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,112 @@
+{
+    "addr": "0xaac8253a42c213b6a9cdf4f25cd5de29d09b96f9",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            true
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            false
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            false
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "ABCToken",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {},
+    "fp_bytecode": "f9b9a09d343a4d2b1ab8e3cc98ea5785",
+    "fp_runtime": "547dacb645268b6174a92f198b8c3f79",
+    "fp_sol": "0eb1fc37f587269ee4b223e2eb439acc",
+    "fp_sol2": "e2ee3b551db3b4eb93bf9d570b0ddd88",
+    "id": "0xaac8253a42c213b6a9cdf4f25cd5de29d09b96f9",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

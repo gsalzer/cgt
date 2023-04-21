@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "UBBCToken",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "9a93191dc93803288dd96a26a50d0a73",
+    "fp_sol2": "2631176d453143d8325c530c45dace37",
+    "id": "Re-entrancy-26",
+    "info": [
+        "info/BugLog_26.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_26.sol"
+    ],
+    "sol_orig": true
+}

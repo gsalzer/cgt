@@ -1,0 +1,35 @@
+{
+    "addr": "0xfb50b2b2dc35ad2c61507a221c0bc2157534b42f",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "LaolaiManage",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "699fc009f719fcbb54a831014ce0d7fd",
+    "fp_sol": "87dfc8ed526b698876d5fa3fb8a6d945",
+    "fp_sol2": "762f6e6913eca077dfbb06ca8a9e0a89",
+    "id": "LaolaiManage-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/LaolaiManage.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_LaolaiManage.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

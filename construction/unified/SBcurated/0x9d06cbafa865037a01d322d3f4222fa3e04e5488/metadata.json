@@ -1,0 +1,51 @@
+{
+    "addr": "0x9d06cbafa865037a01d322d3f4222fa3e04e5488",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "Delta",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io",
+        "same address, different chain": [
+            [
+                "0x9d06cbafa865037a01d322d3f4222fa3e04e5488",
+                "ropsten"
+            ]
+        ],
+        "same address, different source": [
+            [
+                "0x9d06cbafa865037a01d322d3f4222fa3e04e5488",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "d3b9aab1b6349b39a1112df6bd564948",
+    "fp_runtime": "6deb8ee68b18bfcd9412cd7707908bbc",
+    "fp_sol": "7fb51a9a6290fee01fec0c1476d1bc79",
+    "fp_sol2": "b2b7f9b28770f322a9caab244987d188",
+    "id": "0x9d06cbafa865037a01d322d3f4222fa3e04e5488",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,937 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328bffffffffffffffffffffffffffffffffffffffffffffffde45c7fe10a7000000000000000000000000000002222222222222222222222222222222222222222'}
+1 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'changeMintingAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '51892f070000000000000000000000003d725b2bd7998a72f03b65a5c6b75e0bc21b6e16'}
+2 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328bffffffffffffffffffffffffffffffffffffffffffffffde45c7fe10a7000000000000000000000000000001111111111111111111111111111111111111111'}
+3 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'createTokens', 'tx_blocknumber': '0', 'tx_value': '8000000001102f', 'tx_timestamp': '0', 'tx_input': 'b4427263'}
+4 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000c0892000ac4f100cc61ca02362b3708c6cef3d250000000000000000000000000000000000000000000000000000000000000001'}
+5 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000c0892000ac4f100cc61ca02362b3708c6cef3d250000000000000000000000000000000000000000000000000000000000000003'}
+6 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'fairsale_protectionOFF', 'tx_blocknumber': '3a76bd', 'tx_value': '0', 'tx_timestamp': '47f01a8f', 'tx_input': 'bbd53bf7'}
+7 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'Wolk', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '227d535f'}
+8 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'Wolk', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '227d535f'}
+9 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'Wolk', 'tx_blocknumber': '4b', 'tx_value': '0', 'tx_timestamp': '5c49', 'tx_input': '227d535f'}
+10 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'fairsale_protectionOFF', 'tx_blocknumber': '80', 'tx_value': '0', 'tx_timestamp': '9d80', 'tx_input': 'bbd53bf7'}
+11 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'Wolk', 'tx_blocknumber': '4b', 'tx_value': '0', 'tx_timestamp': '5c49', 'tx_input': '227d535f'}
+12 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328b5fffffffffffffffffffffffffffffffffffffffffffffc482da0f8201000000000000000000000000000002222222222222222222222222222222222222222'}
+13 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'finalize', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4bb278f3'}
+14 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328b5fffffffffffffffffffffffffffffffffffffffffffffc482da0f8201000000000000000000000000000001111111111111111111111111111111111111111'}
+15 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b32800000000000000000000000000000000000000000000000000000000000000010000000000000000000000001111111111111111111111111111111111111111'}
+16 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000025d311ca62373437083562c06f15688c391a546a0000000000000000000000000000000000000000000000000000000000000001'}
+17 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b32800000000000000000000000000000000000000000000000000000000000000030000000000000000000000001111111111111111111111111111111111111111'}
+18 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000025d311ca62373437083562c06f15688c391a546a0000000000000000000000000000000000000000000000000000000000000003'}
+19 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000001'}
+20 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000003'}
+21 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328dffffffffffffffffffffffffffffffffffffffffffffffede1fb0ff6c7000000000000000000000000000002222222222222222222222222222222222222222'}
+22 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328dffffffffffffffffffffffffffffffffffffffffffffffede1fb0ff6c7000000000000000000000000000001111111111111111111111111111111111111111'}
+23 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'createTokens', 'tx_blocknumber': '0', 'tx_value': '7fffffffffffee', 'tx_timestamp': '0', 'tx_input': 'b4427263'}
+24 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'createTokens', 'tx_blocknumber': '0', 'tx_value': '7fffffffffffee', 'tx_timestamp': '0', 'tx_input': 'b4427263'}
+25 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000040446e56c97a8cf66c2934912cfd5df9e0d39bfd000000000000000000000000000000000000000000000000ade3af0f61900000'}
+26 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000000000000000000000000001b900038824000000'}
+27 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000093a4926fc18e5d25a6382d96bf8ec6661e0728dd000000000000000000000000000000000000000000000000ade3af0f61900000'}
+--------------------------------------------------------------------------------
+
+Full traces: 301
+--------------------------------------------------------------------------------
+7 0   :  Wolk mintTokens 
+0 7   :  mintTokens Wolk 
+------------------------------------------------------------
+0 1 7   :  mintTokens changeMintingAddress Wolk 
+7 0 1   :  Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+7 0 1   :  Wolk mintTokens changeMintingAddress 
+0 7 1   :  mintTokens Wolk changeMintingAddress 
+------------------------------------------------------------
+3 0 7   :  createTokens mintTokens Wolk 
+3 7 0   :  createTokens Wolk mintTokens 
+------------------------------------------------------------
+0 7 4   :  mintTokens Wolk transfer 
+7 0 4   :  Wolk mintTokens transfer 
+------------------------------------------------------------
+0 7 4   :  mintTokens Wolk transfer 
+7 4 0   :  Wolk transfer mintTokens 
+------------------------------------------------------------
+0 7 4   :  mintTokens Wolk transfer 
+0 4 7   :  mintTokens transfer Wolk 
+------------------------------------------------------------
+7 0 4   :  Wolk mintTokens transfer 
+0 4 7   :  mintTokens transfer Wolk 
+------------------------------------------------------------
+7 4 0   :  Wolk transfer mintTokens 
+0 4 7   :  mintTokens transfer Wolk 
+------------------------------------------------------------
+6 0 7   :  fairsale_protectionOFF mintTokens Wolk 
+6 7 0   :  fairsale_protectionOFF Wolk mintTokens 
+------------------------------------------------------------
+0 8 7   :  mintTokens Wolk Wolk 
+8 7 0   :  Wolk Wolk mintTokens 
+------------------------------------------------------------
+0 7 8   :  mintTokens Wolk Wolk 
+7 0 8   :  Wolk mintTokens Wolk 
+------------------------------------------------------------
+8 0 7   :  Wolk mintTokens Wolk 
+8 7 0   :  Wolk Wolk mintTokens 
+------------------------------------------------------------
+7 0 13   :  Wolk mintTokens finalize 
+0 13 7   :  mintTokens finalize Wolk 
+------------------------------------------------------------
+7 0 13   :  Wolk mintTokens finalize 
+0 7 13   :  mintTokens Wolk finalize 
+------------------------------------------------------------
+0 15 7   :  mintTokens mintTokens Wolk 
+7 0 15   :  Wolk mintTokens mintTokens 
+------------------------------------------------------------
+7 0 15   :  Wolk mintTokens mintTokens 
+0 7 15   :  mintTokens Wolk mintTokens 
+------------------------------------------------------------
+15 0 7   :  mintTokens mintTokens Wolk 
+15 7 0   :  mintTokens Wolk mintTokens 
+------------------------------------------------------------
+3 7 4   :  createTokens Wolk transfer 
+3 4 7   :  createTokens transfer Wolk 
+------------------------------------------------------------
+9 4 7   :  Wolk transfer Wolk 
+9 7 4   :  Wolk Wolk transfer 
+------------------------------------------------------------
+3 0 7 1   :  createTokens mintTokens Wolk changeMintingAddress 
+3 7 0 1   :  createTokens Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+3 7 0 1   :  createTokens Wolk mintTokens changeMintingAddress 
+3 0 1 7   :  createTokens mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+7 0 4 1   :  Wolk mintTokens transfer changeMintingAddress 
+0 4 1 7   :  mintTokens transfer changeMintingAddress Wolk 
+------------------------------------------------------------
+7 0 4 1   :  Wolk mintTokens transfer changeMintingAddress 
+0 7 4 1   :  mintTokens Wolk transfer changeMintingAddress 
+------------------------------------------------------------
+7 0 4 1   :  Wolk mintTokens transfer changeMintingAddress 
+0 4 7 1   :  mintTokens transfer Wolk changeMintingAddress 
+------------------------------------------------------------
+7 0 4 1   :  Wolk mintTokens transfer changeMintingAddress 
+0 1 4 7   :  mintTokens changeMintingAddress transfer Wolk 
+------------------------------------------------------------
+7 0 4 1   :  Wolk mintTokens transfer changeMintingAddress 
+0 1 7 4   :  mintTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+7 0 4 1   :  Wolk mintTokens transfer changeMintingAddress 
+0 7 1 4   :  mintTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+7 4 0 1   :  Wolk transfer mintTokens changeMintingAddress 
+0 4 1 7   :  mintTokens transfer changeMintingAddress Wolk 
+------------------------------------------------------------
+7 4 0 1   :  Wolk transfer mintTokens changeMintingAddress 
+0 7 4 1   :  mintTokens Wolk transfer changeMintingAddress 
+------------------------------------------------------------
+7 4 0 1   :  Wolk transfer mintTokens changeMintingAddress 
+0 4 7 1   :  mintTokens transfer Wolk changeMintingAddress 
+------------------------------------------------------------
+7 4 0 1   :  Wolk transfer mintTokens changeMintingAddress 
+0 1 4 7   :  mintTokens changeMintingAddress transfer Wolk 
+------------------------------------------------------------
+7 4 0 1   :  Wolk transfer mintTokens changeMintingAddress 
+0 1 7 4   :  mintTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+7 4 0 1   :  Wolk transfer mintTokens changeMintingAddress 
+0 7 1 4   :  mintTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+0 4 1 7   :  mintTokens transfer changeMintingAddress Wolk 
+0 7 4 1   :  mintTokens Wolk transfer changeMintingAddress 
+------------------------------------------------------------
+0 4 1 7   :  mintTokens transfer changeMintingAddress Wolk 
+7 0 1 4   :  Wolk mintTokens changeMintingAddress transfer 
+------------------------------------------------------------
+0 4 1 7   :  mintTokens transfer changeMintingAddress Wolk 
+0 1 7 4   :  mintTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+0 4 1 7   :  mintTokens transfer changeMintingAddress Wolk 
+0 7 1 4   :  mintTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+0 7 4 1   :  mintTokens Wolk transfer changeMintingAddress 
+0 4 7 1   :  mintTokens transfer Wolk changeMintingAddress 
+------------------------------------------------------------
+0 7 4 1   :  mintTokens Wolk transfer changeMintingAddress 
+0 1 4 7   :  mintTokens changeMintingAddress transfer Wolk 
+------------------------------------------------------------
+0 7 4 1   :  mintTokens Wolk transfer changeMintingAddress 
+7 0 1 4   :  Wolk mintTokens changeMintingAddress transfer 
+------------------------------------------------------------
+0 4 7 1   :  mintTokens transfer Wolk changeMintingAddress 
+7 0 1 4   :  Wolk mintTokens changeMintingAddress transfer 
+------------------------------------------------------------
+0 4 7 1   :  mintTokens transfer Wolk changeMintingAddress 
+0 1 7 4   :  mintTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+0 4 7 1   :  mintTokens transfer Wolk changeMintingAddress 
+0 7 1 4   :  mintTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+0 1 4 7   :  mintTokens changeMintingAddress transfer Wolk 
+7 0 1 4   :  Wolk mintTokens changeMintingAddress transfer 
+------------------------------------------------------------
+0 1 4 7   :  mintTokens changeMintingAddress transfer Wolk 
+0 1 7 4   :  mintTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+0 1 4 7   :  mintTokens changeMintingAddress transfer Wolk 
+0 7 1 4   :  mintTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+7 0 1 4   :  Wolk mintTokens changeMintingAddress transfer 
+0 1 7 4   :  mintTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+7 0 1 4   :  Wolk mintTokens changeMintingAddress transfer 
+0 7 1 4   :  mintTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+6 7 0 1   :  fairsale_protectionOFF Wolk mintTokens changeMintingAddress 
+6 0 1 7   :  fairsale_protectionOFF mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+6 7 0 1   :  fairsale_protectionOFF Wolk mintTokens changeMintingAddress 
+6 0 7 1   :  fairsale_protectionOFF mintTokens Wolk changeMintingAddress 
+------------------------------------------------------------
+0 8 7 1   :  mintTokens Wolk Wolk changeMintingAddress 
+8 7 0 1   :  Wolk Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+7 8 0 1   :  Wolk Wolk mintTokens changeMintingAddress 
+0 1 7 8   :  mintTokens changeMintingAddress Wolk Wolk 
+------------------------------------------------------------
+7 8 0 1   :  Wolk Wolk mintTokens changeMintingAddress 
+0 7 1 8   :  mintTokens Wolk changeMintingAddress Wolk 
+------------------------------------------------------------
+0 7 8 1   :  mintTokens Wolk Wolk changeMintingAddress 
+7 0 1 8   :  Wolk mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+0 7 8 1   :  mintTokens Wolk Wolk changeMintingAddress 
+7 0 8 1   :  Wolk mintTokens Wolk changeMintingAddress 
+------------------------------------------------------------
+0 1 7 8   :  mintTokens changeMintingAddress Wolk Wolk 
+7 0 1 8   :  Wolk mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+0 1 7 8   :  mintTokens changeMintingAddress Wolk Wolk 
+7 0 8 1   :  Wolk mintTokens Wolk changeMintingAddress 
+------------------------------------------------------------
+0 7 1 8   :  mintTokens Wolk changeMintingAddress Wolk 
+7 0 1 8   :  Wolk mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+0 7 1 8   :  mintTokens Wolk changeMintingAddress Wolk 
+7 0 8 1   :  Wolk mintTokens Wolk changeMintingAddress 
+------------------------------------------------------------
+8 0 7 1   :  Wolk mintTokens Wolk changeMintingAddress 
+8 7 0 1   :  Wolk Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+8 7 0 1   :  Wolk Wolk mintTokens changeMintingAddress 
+8 0 1 7   :  Wolk mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+0 13 1 7   :  mintTokens finalize changeMintingAddress Wolk 
+7 0 13 1   :  Wolk mintTokens finalize changeMintingAddress 
+------------------------------------------------------------
+0 13 1 7   :  mintTokens finalize changeMintingAddress Wolk 
+7 0 1 13   :  Wolk mintTokens changeMintingAddress finalize 
+------------------------------------------------------------
+7 0 13 1   :  Wolk mintTokens finalize changeMintingAddress 
+0 13 7 1   :  mintTokens finalize Wolk changeMintingAddress 
+------------------------------------------------------------
+7 0 13 1   :  Wolk mintTokens finalize changeMintingAddress 
+0 1 7 13   :  mintTokens changeMintingAddress Wolk finalize 
+------------------------------------------------------------
+7 0 13 1   :  Wolk mintTokens finalize changeMintingAddress 
+0 1 13 7   :  mintTokens changeMintingAddress finalize Wolk 
+------------------------------------------------------------
+7 0 13 1   :  Wolk mintTokens finalize changeMintingAddress 
+0 7 13 1   :  mintTokens Wolk finalize changeMintingAddress 
+------------------------------------------------------------
+7 0 13 1   :  Wolk mintTokens finalize changeMintingAddress 
+0 7 1 13   :  mintTokens Wolk changeMintingAddress finalize 
+------------------------------------------------------------
+0 13 7 1   :  mintTokens finalize Wolk changeMintingAddress 
+7 0 1 13   :  Wolk mintTokens changeMintingAddress finalize 
+------------------------------------------------------------
+0 1 7 13   :  mintTokens changeMintingAddress Wolk finalize 
+7 0 1 13   :  Wolk mintTokens changeMintingAddress finalize 
+------------------------------------------------------------
+0 1 13 7   :  mintTokens changeMintingAddress finalize Wolk 
+7 0 1 13   :  Wolk mintTokens changeMintingAddress finalize 
+------------------------------------------------------------
+0 7 13 1   :  mintTokens Wolk finalize changeMintingAddress 
+7 0 1 13   :  Wolk mintTokens changeMintingAddress finalize 
+------------------------------------------------------------
+7 0 1 13   :  Wolk mintTokens changeMintingAddress finalize 
+0 7 1 13   :  mintTokens Wolk changeMintingAddress finalize 
+------------------------------------------------------------
+15 0 7 1   :  mintTokens mintTokens Wolk changeMintingAddress 
+15 7 0 1   :  mintTokens Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+15 0 7 1   :  mintTokens mintTokens Wolk changeMintingAddress 
+7 15 0 1   :  Wolk mintTokens mintTokens changeMintingAddress 
+------------------------------------------------------------
+15 7 0 1   :  mintTokens Wolk mintTokens changeMintingAddress 
+15 0 1 7   :  mintTokens mintTokens changeMintingAddress Wolk 
+------------------------------------------------------------
+0 15 1 7   :  mintTokens mintTokens changeMintingAddress Wolk 
+7 0 15 1   :  Wolk mintTokens mintTokens changeMintingAddress 
+------------------------------------------------------------
+0 7 15 1   :  mintTokens Wolk mintTokens changeMintingAddress 
+7 0 15 1   :  Wolk mintTokens mintTokens changeMintingAddress 
+------------------------------------------------------------
+3 7 4 0   :  createTokens Wolk transfer mintTokens 
+3 0 4 7   :  createTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+3 7 4 0   :  createTokens Wolk transfer mintTokens 
+3 4 7 0   :  createTokens transfer Wolk mintTokens 
+------------------------------------------------------------
+3 7 4 0   :  createTokens Wolk transfer mintTokens 
+3 0 7 4   :  createTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+3 7 4 0   :  createTokens Wolk transfer mintTokens 
+3 4 0 7   :  createTokens transfer mintTokens Wolk 
+------------------------------------------------------------
+3 0 4 7   :  createTokens mintTokens transfer Wolk 
+3 7 0 4   :  createTokens Wolk mintTokens transfer 
+------------------------------------------------------------
+3 0 4 7   :  createTokens mintTokens transfer Wolk 
+3 4 7 0   :  createTokens transfer Wolk mintTokens 
+------------------------------------------------------------
+3 0 4 7   :  createTokens mintTokens transfer Wolk 
+3 0 7 4   :  createTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+3 7 0 4   :  createTokens Wolk mintTokens transfer 
+3 4 7 0   :  createTokens transfer Wolk mintTokens 
+------------------------------------------------------------
+3 7 0 4   :  createTokens Wolk mintTokens transfer 
+3 0 7 4   :  createTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+3 7 0 4   :  createTokens Wolk mintTokens transfer 
+3 4 0 7   :  createTokens transfer mintTokens Wolk 
+------------------------------------------------------------
+3 4 7 0   :  createTokens transfer Wolk mintTokens 
+3 0 7 4   :  createTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+3 4 7 0   :  createTokens transfer Wolk mintTokens 
+3 4 0 7   :  createTokens transfer mintTokens Wolk 
+------------------------------------------------------------
+3 0 7 4   :  createTokens mintTokens Wolk transfer 
+3 4 0 7   :  createTokens transfer mintTokens Wolk 
+------------------------------------------------------------
+3 6 7 0   :  createTokens fairsale_protectionOFF Wolk mintTokens 
+3 6 0 7   :  createTokens fairsale_protectionOFF mintTokens Wolk 
+------------------------------------------------------------
+3 8 7 0   :  createTokens Wolk Wolk mintTokens 
+3 8 0 7   :  createTokens Wolk mintTokens Wolk 
+------------------------------------------------------------
+3 8 7 0   :  createTokens Wolk Wolk mintTokens 
+3 0 8 7   :  createTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+3 7 0 8   :  createTokens Wolk mintTokens Wolk 
+3 0 7 8   :  createTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+3 7 0 13   :  createTokens Wolk mintTokens finalize 
+3 0 7 13   :  createTokens mintTokens Wolk finalize 
+------------------------------------------------------------
+3 7 0 13   :  createTokens Wolk mintTokens finalize 
+3 13 0 7   :  createTokens finalize mintTokens Wolk 
+------------------------------------------------------------
+3 7 0 13   :  createTokens Wolk mintTokens finalize 
+3 0 13 7   :  createTokens mintTokens finalize Wolk 
+------------------------------------------------------------
+3 0 7 13   :  createTokens mintTokens Wolk finalize 
+3 13 7 0   :  createTokens finalize Wolk mintTokens 
+------------------------------------------------------------
+3 0 7 13   :  createTokens mintTokens Wolk finalize 
+3 7 13 0   :  createTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+3 13 0 7   :  createTokens finalize mintTokens Wolk 
+3 13 7 0   :  createTokens finalize Wolk mintTokens 
+------------------------------------------------------------
+3 13 0 7   :  createTokens finalize mintTokens Wolk 
+3 7 13 0   :  createTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+3 13 7 0   :  createTokens finalize Wolk mintTokens 
+3 0 13 7   :  createTokens mintTokens finalize Wolk 
+------------------------------------------------------------
+3 0 13 7   :  createTokens mintTokens finalize Wolk 
+3 7 13 0   :  createTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+3 7 0 15   :  createTokens Wolk mintTokens mintTokens 
+3 0 7 15   :  createTokens mintTokens Wolk mintTokens 
+------------------------------------------------------------
+3 7 0 15   :  createTokens Wolk mintTokens mintTokens 
+3 0 15 7   :  createTokens mintTokens mintTokens Wolk 
+------------------------------------------------------------
+3 15 0 7   :  createTokens mintTokens mintTokens Wolk 
+3 15 7 0   :  createTokens mintTokens Wolk mintTokens 
+------------------------------------------------------------
+23 3 7 0   :  createTokens createTokens Wolk mintTokens 
+23 3 0 7   :  createTokens createTokens mintTokens Wolk 
+------------------------------------------------------------
+7 4 0 5   :  Wolk transfer mintTokens transfer 
+0 4 7 5   :  mintTokens transfer Wolk transfer 
+------------------------------------------------------------
+7 4 0 5   :  Wolk transfer mintTokens transfer 
+0 4 5 7   :  mintTokens transfer transfer Wolk 
+------------------------------------------------------------
+7 4 0 5   :  Wolk transfer mintTokens transfer 
+0 7 4 5   :  mintTokens Wolk transfer transfer 
+------------------------------------------------------------
+0 7 5 4   :  mintTokens Wolk transfer transfer 
+7 5 4 0   :  Wolk transfer transfer mintTokens 
+------------------------------------------------------------
+0 7 5 4   :  mintTokens Wolk transfer transfer 
+0 5 4 7   :  mintTokens transfer transfer Wolk 
+------------------------------------------------------------
+0 7 5 4   :  mintTokens Wolk transfer transfer 
+7 0 5 4   :  Wolk mintTokens transfer transfer 
+------------------------------------------------------------
+0 7 5 4   :  mintTokens Wolk transfer transfer 
+0 5 7 4   :  mintTokens transfer Wolk transfer 
+------------------------------------------------------------
+7 5 4 0   :  Wolk transfer transfer mintTokens 
+0 5 4 7   :  mintTokens transfer transfer Wolk 
+------------------------------------------------------------
+7 5 4 0   :  Wolk transfer transfer mintTokens 
+0 5 7 4   :  mintTokens transfer Wolk transfer 
+------------------------------------------------------------
+0 4 7 5   :  mintTokens transfer Wolk transfer 
+0 4 5 7   :  mintTokens transfer transfer Wolk 
+------------------------------------------------------------
+0 4 7 5   :  mintTokens transfer Wolk transfer 
+7 0 4 5   :  Wolk mintTokens transfer transfer 
+------------------------------------------------------------
+0 4 5 7   :  mintTokens transfer transfer Wolk 
+7 0 4 5   :  Wolk mintTokens transfer transfer 
+------------------------------------------------------------
+6 0 4 7   :  fairsale_protectionOFF mintTokens transfer Wolk 
+6 7 4 0   :  fairsale_protectionOFF Wolk transfer mintTokens 
+------------------------------------------------------------
+6 0 4 7   :  fairsale_protectionOFF mintTokens transfer Wolk 
+6 7 0 4   :  fairsale_protectionOFF Wolk mintTokens transfer 
+------------------------------------------------------------
+6 0 4 7   :  fairsale_protectionOFF mintTokens transfer Wolk 
+6 0 7 4   :  fairsale_protectionOFF mintTokens Wolk transfer 
+------------------------------------------------------------
+6 7 4 0   :  fairsale_protectionOFF Wolk transfer mintTokens 
+6 0 7 4   :  fairsale_protectionOFF mintTokens Wolk transfer 
+------------------------------------------------------------
+6 7 0 4   :  fairsale_protectionOFF Wolk mintTokens transfer 
+6 0 7 4   :  fairsale_protectionOFF mintTokens Wolk transfer 
+------------------------------------------------------------
+8 0 4 7   :  Wolk mintTokens transfer Wolk 
+8 0 7 4   :  Wolk mintTokens Wolk transfer 
+------------------------------------------------------------
+8 0 4 7   :  Wolk mintTokens transfer Wolk 
+0 8 7 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+8 0 4 7   :  Wolk mintTokens transfer Wolk 
+8 7 0 4   :  Wolk Wolk mintTokens transfer 
+------------------------------------------------------------
+8 0 4 7   :  Wolk mintTokens transfer Wolk 
+8 7 4 0   :  Wolk Wolk transfer mintTokens 
+------------------------------------------------------------
+0 8 4 7   :  mintTokens Wolk transfer Wolk 
+8 0 7 4   :  Wolk mintTokens Wolk transfer 
+------------------------------------------------------------
+0 8 4 7   :  mintTokens Wolk transfer Wolk 
+0 8 7 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+0 8 4 7   :  mintTokens Wolk transfer Wolk 
+8 7 0 4   :  Wolk Wolk mintTokens transfer 
+------------------------------------------------------------
+0 8 4 7   :  mintTokens Wolk transfer Wolk 
+8 7 4 0   :  Wolk Wolk transfer mintTokens 
+------------------------------------------------------------
+8 0 7 4   :  Wolk mintTokens Wolk transfer 
+0 4 8 7   :  mintTokens transfer Wolk Wolk 
+------------------------------------------------------------
+8 0 7 4   :  Wolk mintTokens Wolk transfer 
+8 7 0 4   :  Wolk Wolk mintTokens transfer 
+------------------------------------------------------------
+8 0 7 4   :  Wolk mintTokens Wolk transfer 
+8 7 4 0   :  Wolk Wolk transfer mintTokens 
+------------------------------------------------------------
+7 4 0 8   :  Wolk transfer mintTokens Wolk 
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+------------------------------------------------------------
+7 4 0 8   :  Wolk transfer mintTokens Wolk 
+0 7 4 8   :  mintTokens Wolk transfer Wolk 
+------------------------------------------------------------
+7 4 0 8   :  Wolk transfer mintTokens Wolk 
+0 7 8 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+7 4 8 0   :  Wolk transfer Wolk mintTokens 
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+------------------------------------------------------------
+7 4 8 0   :  Wolk transfer Wolk mintTokens 
+0 7 4 8   :  mintTokens Wolk transfer Wolk 
+------------------------------------------------------------
+7 4 8 0   :  Wolk transfer Wolk mintTokens 
+0 7 8 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+0 7 4 8   :  mintTokens Wolk transfer Wolk 
+------------------------------------------------------------
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+7 8 4 0   :  Wolk Wolk transfer mintTokens 
+------------------------------------------------------------
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+7 8 0 4   :  Wolk Wolk mintTokens transfer 
+------------------------------------------------------------
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+7 0 4 8   :  Wolk mintTokens transfer Wolk 
+------------------------------------------------------------
+0 4 7 8   :  mintTokens transfer Wolk Wolk 
+0 7 8 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+0 7 4 8   :  mintTokens Wolk transfer Wolk 
+7 0 4 8   :  Wolk mintTokens transfer Wolk 
+------------------------------------------------------------
+7 8 4 0   :  Wolk Wolk transfer mintTokens 
+0 7 8 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+7 0 8 4   :  Wolk mintTokens Wolk transfer 
+0 7 8 4   :  mintTokens Wolk Wolk transfer 
+------------------------------------------------------------
+0 8 7 4   :  mintTokens Wolk Wolk transfer 
+8 7 0 4   :  Wolk Wolk mintTokens transfer 
+------------------------------------------------------------
+9 0 7 4   :  Wolk mintTokens Wolk transfer 
+9 4 7 0   :  Wolk transfer Wolk mintTokens 
+------------------------------------------------------------
+9 0 7 4   :  Wolk mintTokens Wolk transfer 
+9 4 0 7   :  Wolk transfer mintTokens Wolk 
+------------------------------------------------------------
+9 7 4 0   :  Wolk Wolk transfer mintTokens 
+9 4 7 0   :  Wolk transfer Wolk mintTokens 
+------------------------------------------------------------
+9 7 4 0   :  Wolk Wolk transfer mintTokens 
+9 4 0 7   :  Wolk transfer mintTokens Wolk 
+------------------------------------------------------------
+9 4 7 0   :  Wolk transfer Wolk mintTokens 
+9 0 4 7   :  Wolk mintTokens transfer Wolk 
+------------------------------------------------------------
+9 4 7 0   :  Wolk transfer Wolk mintTokens 
+9 7 0 4   :  Wolk Wolk mintTokens transfer 
+------------------------------------------------------------
+9 4 7 0   :  Wolk transfer Wolk mintTokens 
+9 4 0 7   :  Wolk transfer mintTokens Wolk 
+------------------------------------------------------------
+9 7 0 4   :  Wolk Wolk mintTokens transfer 
+9 4 0 7   :  Wolk transfer mintTokens Wolk 
+------------------------------------------------------------
+7 0 4 13   :  Wolk mintTokens transfer finalize 
+0 4 13 7   :  mintTokens transfer finalize Wolk 
+------------------------------------------------------------
+7 0 4 13   :  Wolk mintTokens transfer finalize 
+0 7 13 4   :  mintTokens Wolk finalize transfer 
+------------------------------------------------------------
+7 0 4 13   :  Wolk mintTokens transfer finalize 
+0 13 7 4   :  mintTokens finalize Wolk transfer 
+------------------------------------------------------------
+7 0 4 13   :  Wolk mintTokens transfer finalize 
+0 13 4 7   :  mintTokens finalize transfer Wolk 
+------------------------------------------------------------
+7 0 4 13   :  Wolk mintTokens transfer finalize 
+0 4 7 13   :  mintTokens transfer Wolk finalize 
+------------------------------------------------------------
+7 0 4 13   :  Wolk mintTokens transfer finalize 
+0 7 4 13   :  mintTokens Wolk transfer finalize 
+------------------------------------------------------------
+0 4 13 7   :  mintTokens transfer finalize Wolk 
+7 0 13 4   :  Wolk mintTokens finalize transfer 
+------------------------------------------------------------
+0 4 13 7   :  mintTokens transfer finalize Wolk 
+0 7 13 4   :  mintTokens Wolk finalize transfer 
+------------------------------------------------------------
+0 4 13 7   :  mintTokens transfer finalize Wolk 
+0 13 7 4   :  mintTokens finalize Wolk transfer 
+------------------------------------------------------------
+0 4 13 7   :  mintTokens transfer finalize Wolk 
+7 4 0 13   :  Wolk transfer mintTokens finalize 
+------------------------------------------------------------
+0 4 13 7   :  mintTokens transfer finalize Wolk 
+0 7 4 13   :  mintTokens Wolk transfer finalize 
+------------------------------------------------------------
+7 0 13 4   :  Wolk mintTokens finalize transfer 
+0 7 13 4   :  mintTokens Wolk finalize transfer 
+------------------------------------------------------------
+7 0 13 4   :  Wolk mintTokens finalize transfer 
+0 13 7 4   :  mintTokens finalize Wolk transfer 
+------------------------------------------------------------
+7 0 13 4   :  Wolk mintTokens finalize transfer 
+0 13 4 7   :  mintTokens finalize transfer Wolk 
+------------------------------------------------------------
+7 0 13 4   :  Wolk mintTokens finalize transfer 
+0 4 7 13   :  mintTokens transfer Wolk finalize 
+------------------------------------------------------------
+7 0 13 4   :  Wolk mintTokens finalize transfer 
+0 7 4 13   :  mintTokens Wolk transfer finalize 
+------------------------------------------------------------
+0 7 13 4   :  mintTokens Wolk finalize transfer 
+0 13 4 7   :  mintTokens finalize transfer Wolk 
+------------------------------------------------------------
+0 7 13 4   :  mintTokens Wolk finalize transfer 
+7 4 0 13   :  Wolk transfer mintTokens finalize 
+------------------------------------------------------------
+0 7 13 4   :  mintTokens Wolk finalize transfer 
+0 4 7 13   :  mintTokens transfer Wolk finalize 
+------------------------------------------------------------
+0 13 7 4   :  mintTokens finalize Wolk transfer 
+0 13 4 7   :  mintTokens finalize transfer Wolk 
+------------------------------------------------------------
+0 13 7 4   :  mintTokens finalize Wolk transfer 
+7 4 0 13   :  Wolk transfer mintTokens finalize 
+------------------------------------------------------------
+0 13 7 4   :  mintTokens finalize Wolk transfer 
+0 4 7 13   :  mintTokens transfer Wolk finalize 
+------------------------------------------------------------
+0 13 4 7   :  mintTokens finalize transfer Wolk 
+7 4 0 13   :  Wolk transfer mintTokens finalize 
+------------------------------------------------------------
+0 13 4 7   :  mintTokens finalize transfer Wolk 
+0 7 4 13   :  mintTokens Wolk transfer finalize 
+------------------------------------------------------------
+7 4 0 13   :  Wolk transfer mintTokens finalize 
+0 4 7 13   :  mintTokens transfer Wolk finalize 
+------------------------------------------------------------
+7 4 0 13   :  Wolk transfer mintTokens finalize 
+0 7 4 13   :  mintTokens Wolk transfer finalize 
+------------------------------------------------------------
+0 4 7 13   :  mintTokens transfer Wolk finalize 
+0 7 4 13   :  mintTokens Wolk transfer finalize 
+------------------------------------------------------------
+15 7 0 4   :  mintTokens Wolk mintTokens transfer 
+15 0 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+15 7 0 4   :  mintTokens Wolk mintTokens transfer 
+15 0 4 7   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+0 4 7 15   :  mintTokens transfer Wolk mintTokens 
+7 4 0 15   :  Wolk transfer mintTokens mintTokens 
+------------------------------------------------------------
+0 4 7 15   :  mintTokens transfer Wolk mintTokens 
+7 0 4 15   :  Wolk mintTokens transfer mintTokens 
+------------------------------------------------------------
+0 4 7 15   :  mintTokens transfer Wolk mintTokens 
+0 15 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+0 4 7 15   :  mintTokens transfer Wolk mintTokens 
+0 7 15 4   :  mintTokens Wolk mintTokens transfer 
+------------------------------------------------------------
+0 4 7 15   :  mintTokens transfer Wolk mintTokens 
+7 0 15 4   :  Wolk mintTokens mintTokens transfer 
+------------------------------------------------------------
+0 4 7 15   :  mintTokens transfer Wolk mintTokens 
+0 7 4 15   :  mintTokens Wolk transfer mintTokens 
+------------------------------------------------------------
+7 15 4 0   :  Wolk mintTokens transfer mintTokens 
+15 0 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+7 15 4 0   :  Wolk mintTokens transfer mintTokens 
+15 0 4 7   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+7 4 0 15   :  Wolk transfer mintTokens mintTokens 
+0 4 15 7   :  mintTokens transfer mintTokens Wolk 
+------------------------------------------------------------
+7 4 0 15   :  Wolk transfer mintTokens mintTokens 
+0 15 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+7 4 0 15   :  Wolk transfer mintTokens mintTokens 
+0 7 15 4   :  mintTokens Wolk mintTokens transfer 
+------------------------------------------------------------
+7 4 0 15   :  Wolk transfer mintTokens mintTokens 
+0 15 4 7   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+7 4 0 15   :  Wolk transfer mintTokens mintTokens 
+0 7 4 15   :  mintTokens Wolk transfer mintTokens 
+------------------------------------------------------------
+0 4 15 7   :  mintTokens transfer mintTokens Wolk 
+7 0 4 15   :  Wolk mintTokens transfer mintTokens 
+------------------------------------------------------------
+0 4 15 7   :  mintTokens transfer mintTokens Wolk 
+0 15 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+0 4 15 7   :  mintTokens transfer mintTokens Wolk 
+0 7 15 4   :  mintTokens Wolk mintTokens transfer 
+------------------------------------------------------------
+0 4 15 7   :  mintTokens transfer mintTokens Wolk 
+7 0 15 4   :  Wolk mintTokens mintTokens transfer 
+------------------------------------------------------------
+0 4 15 7   :  mintTokens transfer mintTokens Wolk 
+0 7 4 15   :  mintTokens Wolk transfer mintTokens 
+------------------------------------------------------------
+7 15 0 4   :  Wolk mintTokens mintTokens transfer 
+15 0 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+7 15 0 4   :  Wolk mintTokens mintTokens transfer 
+15 0 4 7   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+7 0 4 15   :  Wolk mintTokens transfer mintTokens 
+0 7 15 4   :  mintTokens Wolk mintTokens transfer 
+------------------------------------------------------------
+7 0 4 15   :  Wolk mintTokens transfer mintTokens 
+0 7 4 15   :  mintTokens Wolk transfer mintTokens 
+------------------------------------------------------------
+15 7 4 0   :  mintTokens Wolk transfer mintTokens 
+15 0 7 4   :  mintTokens mintTokens Wolk transfer 
+------------------------------------------------------------
+15 7 4 0   :  mintTokens Wolk transfer mintTokens 
+15 0 4 7   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+15 0 7 4   :  mintTokens mintTokens Wolk transfer 
+15 0 4 7   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+0 7 15 4   :  mintTokens Wolk mintTokens transfer 
+7 0 15 4   :  Wolk mintTokens mintTokens transfer 
+------------------------------------------------------------
+7 0 15 4   :  Wolk mintTokens mintTokens transfer 
+0 7 4 15   :  mintTokens Wolk transfer mintTokens 
+------------------------------------------------------------
+0 4 15 8   :  mintTokens transfer mintTokens Wolk 
+0 4 8 15   :  mintTokens transfer Wolk mintTokens 
+------------------------------------------------------------
+0 4 8 15   :  mintTokens transfer Wolk mintTokens 
+0 15 4 8   :  mintTokens mintTokens transfer Wolk 
+------------------------------------------------------------
+6 0 8 7   :  fairsale_protectionOFF mintTokens Wolk Wolk 
+6 8 7 0   :  fairsale_protectionOFF Wolk Wolk mintTokens 
+------------------------------------------------------------
+6 8 0 7   :  fairsale_protectionOFF Wolk mintTokens Wolk 
+6 8 7 0   :  fairsale_protectionOFF Wolk Wolk mintTokens 
+------------------------------------------------------------
+6 7 0 8   :  fairsale_protectionOFF Wolk mintTokens Wolk 
+6 0 7 8   :  fairsale_protectionOFF mintTokens Wolk Wolk 
+------------------------------------------------------------
+6 0 13 7   :  fairsale_protectionOFF mintTokens finalize Wolk 
+6 7 0 13   :  fairsale_protectionOFF Wolk mintTokens finalize 
+------------------------------------------------------------
+6 7 0 13   :  fairsale_protectionOFF Wolk mintTokens finalize 
+6 0 7 13   :  fairsale_protectionOFF mintTokens Wolk finalize 
+------------------------------------------------------------
+6 7 15 0   :  fairsale_protectionOFF Wolk mintTokens mintTokens 
+6 15 0 7   :  fairsale_protectionOFF mintTokens mintTokens Wolk 
+------------------------------------------------------------
+6 7 0 15   :  fairsale_protectionOFF Wolk mintTokens mintTokens 
+6 0 7 15   :  fairsale_protectionOFF mintTokens Wolk mintTokens 
+------------------------------------------------------------
+6 15 7 0   :  fairsale_protectionOFF mintTokens Wolk mintTokens 
+6 15 0 7   :  fairsale_protectionOFF mintTokens mintTokens Wolk 
+------------------------------------------------------------
+9 0 7 8   :  Wolk mintTokens Wolk Wolk 
+9 7 8 0   :  Wolk Wolk Wolk mintTokens 
+------------------------------------------------------------
+9 0 7 8   :  Wolk mintTokens Wolk Wolk 
+9 7 0 8   :  Wolk Wolk mintTokens Wolk 
+------------------------------------------------------------
+9 8 7 0   :  Wolk Wolk Wolk mintTokens 
+9 8 0 7   :  Wolk Wolk mintTokens Wolk 
+------------------------------------------------------------
+8 7 0 13   :  Wolk Wolk mintTokens finalize 
+0 8 13 7   :  mintTokens Wolk finalize Wolk 
+------------------------------------------------------------
+8 7 0 13   :  Wolk Wolk mintTokens finalize 
+0 13 8 7   :  mintTokens finalize Wolk Wolk 
+------------------------------------------------------------
+8 7 0 13   :  Wolk Wolk mintTokens finalize 
+8 0 7 13   :  Wolk mintTokens Wolk finalize 
+------------------------------------------------------------
+8 7 0 13   :  Wolk Wolk mintTokens finalize 
+8 0 13 7   :  Wolk mintTokens finalize Wolk 
+------------------------------------------------------------
+8 7 0 13   :  Wolk Wolk mintTokens finalize 
+0 8 7 13   :  mintTokens Wolk Wolk finalize 
+------------------------------------------------------------
+7 0 13 8   :  Wolk mintTokens finalize Wolk 
+0 7 8 13   :  mintTokens Wolk Wolk finalize 
+------------------------------------------------------------
+7 0 13 8   :  Wolk mintTokens finalize Wolk 
+0 13 7 8   :  mintTokens finalize Wolk Wolk 
+------------------------------------------------------------
+7 0 13 8   :  Wolk mintTokens finalize Wolk 
+0 7 13 8   :  mintTokens Wolk finalize Wolk 
+------------------------------------------------------------
+0 7 8 13   :  mintTokens Wolk Wolk finalize 
+7 0 8 13   :  Wolk mintTokens Wolk finalize 
+------------------------------------------------------------
+0 13 7 8   :  mintTokens finalize Wolk Wolk 
+7 0 8 13   :  Wolk mintTokens Wolk finalize 
+------------------------------------------------------------
+0 7 13 8   :  mintTokens Wolk finalize Wolk 
+7 0 8 13   :  Wolk mintTokens Wolk finalize 
+------------------------------------------------------------
+8 7 0 15   :  Wolk Wolk mintTokens mintTokens 
+0 8 7 15   :  mintTokens Wolk Wolk mintTokens 
+------------------------------------------------------------
+8 7 0 15   :  Wolk Wolk mintTokens mintTokens 
+0 8 15 7   :  mintTokens Wolk mintTokens Wolk 
+------------------------------------------------------------
+8 7 0 15   :  Wolk Wolk mintTokens mintTokens 
+0 15 8 7   :  mintTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+8 7 0 15   :  Wolk Wolk mintTokens mintTokens 
+8 0 7 15   :  Wolk mintTokens Wolk mintTokens 
+------------------------------------------------------------
+8 7 0 15   :  Wolk Wolk mintTokens mintTokens 
+8 0 15 7   :  Wolk mintTokens mintTokens Wolk 
+------------------------------------------------------------
+7 15 0 8   :  Wolk mintTokens mintTokens Wolk 
+15 0 7 8   :  mintTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+0 8 7 15   :  mintTokens Wolk Wolk mintTokens 
+0 15 8 7   :  mintTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+15 8 0 7   :  mintTokens Wolk mintTokens Wolk 
+8 15 0 7   :  Wolk mintTokens mintTokens Wolk 
+------------------------------------------------------------
+15 8 0 7   :  mintTokens Wolk mintTokens Wolk 
+15 8 7 0   :  mintTokens Wolk Wolk mintTokens 
+------------------------------------------------------------
+15 8 0 7   :  mintTokens Wolk mintTokens Wolk 
+8 15 7 0   :  Wolk mintTokens Wolk mintTokens 
+------------------------------------------------------------
+8 15 0 7   :  Wolk mintTokens mintTokens Wolk 
+15 8 7 0   :  mintTokens Wolk Wolk mintTokens 
+------------------------------------------------------------
+8 15 0 7   :  Wolk mintTokens mintTokens Wolk 
+8 15 7 0   :  Wolk mintTokens Wolk mintTokens 
+------------------------------------------------------------
+7 15 8 0   :  Wolk mintTokens Wolk mintTokens 
+15 0 7 8   :  mintTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+0 8 15 7   :  mintTokens Wolk mintTokens Wolk 
+0 15 8 7   :  mintTokens mintTokens Wolk Wolk 
+------------------------------------------------------------
+15 8 7 0   :  mintTokens Wolk Wolk mintTokens 
+8 15 7 0   :  Wolk mintTokens Wolk mintTokens 
+------------------------------------------------------------
+9 10 0 7   :  Wolk fairsale_protectionOFF mintTokens Wolk 
+9 10 7 0   :  Wolk fairsale_protectionOFF Wolk mintTokens 
+------------------------------------------------------------
+7 0 13 15   :  Wolk mintTokens finalize mintTokens 
+0 7 15 13   :  mintTokens Wolk mintTokens finalize 
+------------------------------------------------------------
+7 0 13 15   :  Wolk mintTokens finalize mintTokens 
+0 15 7 13   :  mintTokens mintTokens Wolk finalize 
+------------------------------------------------------------
+7 0 13 15   :  Wolk mintTokens finalize mintTokens 
+0 15 13 7   :  mintTokens mintTokens finalize Wolk 
+------------------------------------------------------------
+7 0 13 15   :  Wolk mintTokens finalize mintTokens 
+0 13 15 7   :  mintTokens finalize mintTokens Wolk 
+------------------------------------------------------------
+7 0 13 15   :  Wolk mintTokens finalize mintTokens 
+0 13 7 15   :  mintTokens finalize Wolk mintTokens 
+------------------------------------------------------------
+7 0 13 15   :  Wolk mintTokens finalize mintTokens 
+0 7 13 15   :  mintTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+0 7 15 13   :  mintTokens Wolk mintTokens finalize 
+7 0 15 13   :  Wolk mintTokens mintTokens finalize 
+------------------------------------------------------------
+0 15 7 13   :  mintTokens mintTokens Wolk finalize 
+7 0 15 13   :  Wolk mintTokens mintTokens finalize 
+------------------------------------------------------------
+7 15 0 13   :  Wolk mintTokens mintTokens finalize 
+15 0 13 7   :  mintTokens mintTokens finalize Wolk 
+------------------------------------------------------------
+15 0 7 13   :  mintTokens mintTokens Wolk finalize 
+15 7 0 13   :  mintTokens Wolk mintTokens finalize 
+------------------------------------------------------------
+15 0 13 7   :  mintTokens mintTokens finalize Wolk 
+15 7 0 13   :  mintTokens Wolk mintTokens finalize 
+------------------------------------------------------------
+0 13 15 7   :  mintTokens finalize mintTokens Wolk 
+7 0 15 13   :  Wolk mintTokens mintTokens finalize 
+------------------------------------------------------------
+0 13 7 15   :  mintTokens finalize Wolk mintTokens 
+7 0 15 13   :  Wolk mintTokens mintTokens finalize 
+------------------------------------------------------------
+7 0 15 13   :  Wolk mintTokens mintTokens finalize 
+0 7 13 15   :  mintTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+15 0 17 7   :  mintTokens mintTokens mintTokens Wolk 
+7 15 0 17   :  Wolk mintTokens mintTokens mintTokens 
+------------------------------------------------------------
+15 0 17 7   :  mintTokens mintTokens mintTokens Wolk 
+15 7 0 17   :  mintTokens Wolk mintTokens mintTokens 
+------------------------------------------------------------
+17 7 0 15   :  mintTokens Wolk mintTokens mintTokens 
+17 0 7 15   :  mintTokens mintTokens Wolk mintTokens 
+------------------------------------------------------------
+0 15 7 17   :  mintTokens mintTokens Wolk mintTokens 
+7 0 15 17   :  Wolk mintTokens mintTokens mintTokens 
+------------------------------------------------------------
+0 7 15 17   :  mintTokens Wolk mintTokens mintTokens 
+7 0 15 17   :  Wolk mintTokens mintTokens mintTokens 
+------------------------------------------------------------
+15 17 0 7   :  mintTokens mintTokens mintTokens Wolk 
+15 17 7 0   :  mintTokens mintTokens Wolk mintTokens 
+------------------------------------------------------------
+0 13 15 8   :  mintTokens finalize mintTokens Wolk 
+0 8 15 13   :  mintTokens Wolk mintTokens finalize 
+------------------------------------------------------------
+0 13 15 8   :  mintTokens finalize mintTokens Wolk 
+0 13 8 15   :  mintTokens finalize Wolk mintTokens 
+------------------------------------------------------------
+0 13 15 8   :  mintTokens finalize mintTokens Wolk 
+0 8 13 15   :  mintTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+0 15 13 8   :  mintTokens mintTokens finalize Wolk 
+0 13 8 15   :  mintTokens finalize Wolk mintTokens 
+------------------------------------------------------------
+0 15 13 8   :  mintTokens mintTokens finalize Wolk 
+0 8 13 15   :  mintTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+0 15 8 13   :  mintTokens mintTokens Wolk finalize 
+0 13 8 15   :  mintTokens finalize Wolk mintTokens 
+------------------------------------------------------------
+0 15 8 13   :  mintTokens mintTokens Wolk finalize 
+0 8 13 15   :  mintTokens Wolk finalize mintTokens 
+------------------------------------------------------------
+3 1 4 7   :  createTokens changeMintingAddress transfer Wolk 
+3 7 1 4   :  createTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+3 1 4 7   :  createTokens changeMintingAddress transfer Wolk 
+3 7 4 1   :  createTokens Wolk transfer changeMintingAddress 
+------------------------------------------------------------
+3 1 4 7   :  createTokens changeMintingAddress transfer Wolk 
+3 1 7 4   :  createTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+3 4 1 7   :  createTokens transfer changeMintingAddress Wolk 
+3 7 1 4   :  createTokens Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+3 4 1 7   :  createTokens transfer changeMintingAddress Wolk 
+3 7 4 1   :  createTokens Wolk transfer changeMintingAddress 
+------------------------------------------------------------
+3 4 1 7   :  createTokens transfer changeMintingAddress Wolk 
+3 1 7 4   :  createTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+3 7 1 4   :  createTokens Wolk changeMintingAddress transfer 
+3 4 7 1   :  createTokens transfer Wolk changeMintingAddress 
+------------------------------------------------------------
+3 7 4 1   :  createTokens Wolk transfer changeMintingAddress 
+3 4 7 1   :  createTokens transfer Wolk changeMintingAddress 
+------------------------------------------------------------
+3 4 7 1   :  createTokens transfer Wolk changeMintingAddress 
+3 1 7 4   :  createTokens changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+9 7 4 1   :  Wolk Wolk transfer changeMintingAddress 
+9 4 7 1   :  Wolk transfer Wolk changeMintingAddress 
+------------------------------------------------------------
+9 7 4 1   :  Wolk Wolk transfer changeMintingAddress 
+9 1 4 7   :  Wolk changeMintingAddress transfer Wolk 
+------------------------------------------------------------
+9 7 4 1   :  Wolk Wolk transfer changeMintingAddress 
+9 4 1 7   :  Wolk transfer changeMintingAddress Wolk 
+------------------------------------------------------------
+9 4 7 1   :  Wolk transfer Wolk changeMintingAddress 
+9 7 1 4   :  Wolk Wolk changeMintingAddress transfer 
+------------------------------------------------------------
+9 4 7 1   :  Wolk transfer Wolk changeMintingAddress 
+9 1 7 4   :  Wolk changeMintingAddress Wolk transfer 
+------------------------------------------------------------
+9 7 1 4   :  Wolk Wolk changeMintingAddress transfer 
+9 1 4 7   :  Wolk changeMintingAddress transfer Wolk 
+------------------------------------------------------------
+9 7 1 4   :  Wolk Wolk changeMintingAddress transfer 
+9 4 1 7   :  Wolk transfer changeMintingAddress Wolk 
+------------------------------------------------------------
+9 1 7 4   :  Wolk changeMintingAddress Wolk transfer 
+9 1 4 7   :  Wolk changeMintingAddress transfer Wolk 
+------------------------------------------------------------
+9 1 7 4   :  Wolk changeMintingAddress Wolk transfer 
+9 4 1 7   :  Wolk transfer changeMintingAddress Wolk 
+------------------------------------------------------------

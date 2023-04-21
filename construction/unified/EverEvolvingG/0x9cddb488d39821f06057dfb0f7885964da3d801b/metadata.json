@@ -1,0 +1,36 @@
+{
+    "addr": "0x9cddb488d39821f06057dfb0f7885964da3d801b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "UpcToken",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "d6baab479bf2e8c360c5701e9afe468a",
+    "fp_runtime": "da17d9210701f99ef7b6183900c09a0b",
+    "fp_sol": "40cfddbf940fac7eb5999f28c2b908d0",
+    "fp_sol2": "af42acba081db0c8ef90e5c39f9f2f46",
+    "id": "0x9cddb488d39821f06057dfb0f7885964da3d801b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

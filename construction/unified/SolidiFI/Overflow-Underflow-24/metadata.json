@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "FomoFeast",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "380bd25c189deea41eb5d222a4f154ca",
+    "fp_sol2": "f63191aa6f5e499c5c42cdb1b9d4da15",
+    "id": "Overflow-Underflow-24",
+    "info": [
+        "info/BugLog_24.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_24.sol"
+    ],
+    "sol_orig": true
+}

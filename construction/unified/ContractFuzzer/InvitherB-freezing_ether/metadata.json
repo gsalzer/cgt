@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "InvitherB",
+            "Manageable",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "919a812185c9c4c1f5eb268ca63229ac",
+    "fp_sol": "310d76cd1e1d8026871771e6bedb1d28",
+    "fp_sol2": "97529fb19d050f0f17e6321a99755389",
+    "id": "InvitherB-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/InvitherB.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/InvitherB.sol"
+    ],
+    "sol_orig": true
+}

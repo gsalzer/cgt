@@ -1,0 +1,37 @@
+{
+    "addr": "0x3c96c6e76c403c774ba2ab023df5730375c09b2d",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ShortOrder",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "fe101ca88071cbf0ae31ec1e786775fb",
+    "fp_runtime": "7f9b7adfdbe05f2c03db710408f291b8",
+    "fp_sol": "a019124ae73431cb49dd7bd906075a40",
+    "fp_sol2": "bd3f917a674064a3e86056c0bb603a93",
+    "id": "0x3c96c6e76c403c774ba2ab023df5730375c09b2d-ShortOrder-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test958.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

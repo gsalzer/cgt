@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BananaToken",
+            "ERC20",
+            "Owned",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "8cf2696623d5bdeaef270b3447e991da",
+    "fp_sol": "e888f127437db5310e696d7779c52301",
+    "fp_sol2": "0977dae1bf435ea017f617c19c1720de",
+    "id": "BananaToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/BananaToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BananaToken.sol"
+    ],
+    "sol_orig": true
+}

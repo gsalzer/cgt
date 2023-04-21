@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "QurasToken",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "ce3cabb7bba705ccb05ac7aa1ffe64bb",
+    "fp_sol2": "c9f5e53691c091084dc5f5831cff514a",
+    "id": "Overflow-Underflow-48",
+    "info": [
+        "info/BugLog_48.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_48.sol"
+    ],
+    "sol_orig": true
+}

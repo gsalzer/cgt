@@ -1,0 +1,44 @@
+{
+    "addr": "0x0528c39ef9f1fd7a05ef18f64408108fae156ab1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "ExToke",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x0528c39ef9f1fd7a05ef18f64408108fae156ab1",
+                "rinkeby"
+            ]
+        ]
+    },
+    "fp_bytecode": "354bc653266bcf45f01fb5533820b35d",
+    "fp_runtime": "d8d7bd9c6513d69cb410899dfc3bd871",
+    "fp_sol": "331b125f1527f819c60539b72b25e525",
+    "fp_sol2": "7eab22166aa501fc15bddc694078516c",
+    "id": "0x0528c39ef9f1fd7a05ef18f64408108fae156ab1-ExToke-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test74.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

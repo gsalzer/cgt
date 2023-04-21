@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Airdropper.multisend has external calls inside a loop: \"ERC20(_tokenAddr).transfer(dests[i],values[i])\" (reorder_contracts_2_3/test3056.sol#51)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "ERC20(_tokenAddr).transfer(dests[i],values[i])",
+            "source_mapping": {
+              "start": 1337,
+              "length": 47,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3056.sol",
+              "filename_relative": "reorder_contracts_2_3/test3056.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3056.sol",
+              "filename_short": "reorder_contracts_2_3/test3056.sol",
+              "lines": [
+                51
+              ],
+              "starting_column": 12,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multisend",
+                "source_mapping": {
+                  "start": 1151,
+                  "length": 292,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3056.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3056.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3056.sol",
+                  "filename_short": "reorder_contracts_2_3/test3056.sol",
+                  "lines": [
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Airdropper",
+                    "source_mapping": {
+                      "start": 1111,
+                      "length": 335,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3056.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3056.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3056.sol",
+                      "filename_short": "reorder_contracts_2_3/test3056.sol",
+                      "lines": [
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multisend(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

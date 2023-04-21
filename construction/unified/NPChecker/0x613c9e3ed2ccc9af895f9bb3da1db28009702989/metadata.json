@@ -1,0 +1,54 @@
+{
+    "addr": "0x613c9e3ed2ccc9af895f9bb3da1db28009702989",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-nightly.2016.8.8+commit.c3ed550",
+    "compiler_orig": false,
+    "contractname": "Migrations",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "202edbbd5ddaf6c65f32c5d25fb0d68f",
+    "fp_runtime": "106ec4af3268770f74154dd817824aeb",
+    "fp_sol": "38b97a70b19344066e6864e68d326d89",
+    "fp_sol2": "38b97a70b19344066e6864e68d326d89",
+    "id": "0x613c9e3ed2ccc9af895f9bb3da1db28009702989",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

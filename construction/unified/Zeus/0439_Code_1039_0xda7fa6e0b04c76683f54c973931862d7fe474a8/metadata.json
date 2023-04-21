@@ -1,0 +1,60 @@
+{
+    "addr": "0xda7fa6e0b04c76683f54c973931862d7fe474a85",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "ReverseRegistrar",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "95d9a00f215094472920dcd16476143c",
+    "fp_runtime": "dac3176f688dc206ebdaf8585b9576eb",
+    "fp_sol": "eebbd1de0bd005402b5dde75513c45f6",
+    "fp_sol2": "e535017bfaba64d1a8c58854b048912b",
+    "id": "0439_Code_1039_0xda7fa6e0b04c76683f54c973931862d7fe474a8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

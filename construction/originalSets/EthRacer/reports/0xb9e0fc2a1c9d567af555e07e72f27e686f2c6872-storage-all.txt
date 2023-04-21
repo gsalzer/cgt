@@ -1,0 +1,14 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '85affc8cf16b792015ea4d7313bee64e00b3075b', 'name': 'setMultisigAddress', 'tx_input': '05540534'}
+1 : {'tx_blocknumber': '405c00', 'tx_value': '8ac7230489e80000', 'tx_caller': '2222222222222222222222222222222222222222', 'tx_input': '11111111', 'name': 'fallback'}
+2 : {'tx_value': '0', 'tx_caller': '85affc8cf16b792015ea4d7313bee64e00b3075b', 'name': 'setToken', 'tx_input': '144fa6d7'}
+3 : {'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_caller': '85affc8cf16b792015ea4d7313bee64e00b3075b', 'tx_input': '7f8603300000000000000000000000000000000000000000000000000000000000000001', 'name': 'batchReturnEthIfFailed'}
+4 : {'tx_caller': '85affc8cf16b792015ea4d7313bee64e00b3075b', 'name': 'withdrawRemainingBalanceForManualRecovery', 'tx_blocknumber': '493e00', 'tx_value': '0', 'contract_balance': '2710', 'tx_input': '2165e1aa'}
+5 : {'tx_caller': '85affc8cf16b792015ea4d7313bee64e00b3075b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000008000000000000000000000000000000000000000'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79ba5097'}
+7 : {'tx_caller': '85affc8cf16b792015ea4d7313bee64e00b3075b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000800000'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

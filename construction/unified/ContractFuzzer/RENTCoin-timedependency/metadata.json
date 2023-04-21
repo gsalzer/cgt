@@ -1,0 +1,37 @@
+{
+    "addr": "0xb0d1132d97b2eb4a08b6d2f9379039610c3a0956",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/RENTCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "RENTCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "3fd9695c7a79eaa0757840ffbea221ae",
+    "fp_runtime": "38b5059cde9e4d2d0a411ba07e4731c3",
+    "fp_sol": "a5ac859b0bd8d6062a24baed24b87f56",
+    "fp_sol2": "3e88a02f07f5a360d35833020d6876d8",
+    "id": "RENTCoin-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_RENTCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

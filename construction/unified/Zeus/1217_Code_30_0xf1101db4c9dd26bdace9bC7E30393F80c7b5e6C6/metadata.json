@@ -1,0 +1,60 @@
+{
+    "addr": "0xf1101db4c9dd26bdace9bc7e30393f80c7b5e6c6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-19-427deb4",
+    "compiler_orig": false,
+    "contractname": "MyReplaySafeProxy",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "a13a8f1060619ba56d4f124d3afb94ab",
+    "fp_runtime": "c50753e4e93019e78e337752b7c01ce3",
+    "fp_sol": "980a03b6d6e414c7b32e3fa0b883b176",
+    "fp_sol2": "980a03b6d6e414c7b32e3fa0b883b176",
+    "id": "1217_Code_30_0xf1101db4c9dd26bdace9bC7E30393F80c7b5e6C6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

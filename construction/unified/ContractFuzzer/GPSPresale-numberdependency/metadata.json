@@ -1,0 +1,38 @@
+{
+    "addr": "0xf048bf43b31a10768ea29b4bdbb90b9bc7f6d7af",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "GPSPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "8da6babce60e03723eab1f18db717cb6",
+    "fp_runtime": "d2886b860fd7324febea1648418cd929",
+    "fp_sol": "8fcc9c217b7bfa2264dd6326c7baf401",
+    "fp_sol2": "04f453b1e408224c942d64671cd4081b",
+    "id": "GPSPresale-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_GPSPresale.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_GPSPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xf728da36340b61cdea55bc4ea5cbb7762b413893",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "EtherDelta",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "1b02e3f039752d5ed4b64ecc114049cd",
+    "fp_runtime": "d8d7bd9c6513d69cb410899dfc3bd871",
+    "fp_sol": "5a42c460e2311e12d961f862ebf63cc7",
+    "fp_sol2": "2c3ed0bfab06f062899fdcc9c4cd837f",
+    "id": "0xf728da36340b61cdea55bc4ea5cbb7762b413893-EtherDelta-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test3766.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

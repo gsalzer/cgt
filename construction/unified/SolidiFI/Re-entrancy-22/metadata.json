@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "MindsyncPlatform",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "bb6e8fa5e337b5b9b5bf71d0e3b2e6bd",
+    "fp_sol2": "db8ae15eb24175d970c6fd458a25f904",
+    "id": "Re-entrancy-22",
+    "info": [
+        "info/BugLog_22.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_22.sol"
+    ],
+    "sol_orig": true
+}

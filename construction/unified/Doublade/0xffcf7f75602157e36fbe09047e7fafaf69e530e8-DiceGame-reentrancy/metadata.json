@@ -1,0 +1,37 @@
+{
+    "addr": "0xffcf7f75602157e36fbe09047e7fafaf69e530e8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "DiceGame",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "490876adac7e8e4a30559c12a696d1a3",
+    "fp_runtime": "95726edee258a6e72edf00a058249127",
+    "fp_sol": "451355d1bed365100a16eab7120e62ca",
+    "fp_sol2": "9563f5da79db8ef21a98ba7cefac032e",
+    "id": "0xffcf7f75602157e36fbe09047e7fafaf69e530e8-DiceGame-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test3877.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

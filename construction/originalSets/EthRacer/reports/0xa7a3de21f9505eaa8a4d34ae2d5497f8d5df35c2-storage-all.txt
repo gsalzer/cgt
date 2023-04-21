@@ -1,0 +1,2718 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burnFrom', 'tx_input': '79cc679000000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+2 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000183e492b4dd2401e145adbc7ff0fe71b313c9b6a'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c000000000000000000000000e7c1b6d4b22dbfe1eba5243800f018e4cec36495'}
+5 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000008ca62a4e16de5cc6c2c276ca35763ff9acb100780000000000000000000000000000000000000000000bbf780400000000000000'}
+6 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c6800000000000000000000000000000000000000000003f7f00c5935a2f3000000'}
+7 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000e7c1b6d4b22dbfe1eba5243800f018e4cec3649500000000000000000000000000000000000000000007f78fefc07ffffffffffe'}
+8 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000c26700000000000000000'}
+9 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000007ffffffffffffff000000'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000e7c1b6d4b22dbfe1eba5243800f018e4cec364950000000000000000000000005947aa3288512bbcc1b9926ba80fb22a84952b5100000000000000000000000000000000000000000007ffffffffffffff000000'}
+11 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000007dbb7f02bead170000000'}
+12 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000e7c1b6d4b22dbfe1eba5243800f018e4cec36495000000000000000000000000e7c1b6d4b22dbfe1eba5243800f018e4cec3649500000000000000000000000000000000000000000007dbb7f02bead170000000'}
+13 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000002'}
+14 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000baae2a7c13cc189ca4017bc92af64a5d4af619b40000000000000000000000000000000000000000000000000000000000000001'}
+15 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000011111111111111111111111111111111111111119c34c0b3c7754a8178e216f920a408917c89001402331b8bf8e9937d00422439'}
+16 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000001'}
+17 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000003'}
+18 : {'tx_caller': 'e7c1b6d4b22dbfe1eba5243800f018e4cec36495', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000001111111111111111111111111111111111111111'}
+19 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000e7c1b6d4b22dbfe1eba5243800f018e4cec36495'}
+--------------------------------------------------------------------------------
+
+Full traces: 897
+--------------------------------------------------------------------------------
+11 9 12   :  approve approve transferFrom 
+11 12 9   :  approve transferFrom approve 
+------------------------------------------------------------
+11 12 9 0   :  approve transferFrom approve burnFrom 
+0 11 9 12   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 0   :  approve transferFrom approve burnFrom 
+11 9 12 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 0   :  approve transferFrom approve burnFrom 
+11 9 0 12   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 0   :  approve transferFrom approve burnFrom 
+11 0 9 12   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+0 11 9 12   :  burnFrom approve approve transferFrom 
+0 11 12 9   :  burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 9 12   :  burnFrom approve approve transferFrom 
+11 0 12 9   :  approve burnFrom transferFrom approve 
+------------------------------------------------------------
+0 11 9 12   :  burnFrom approve approve transferFrom 
+11 12 0 9   :  approve transferFrom burnFrom approve 
+------------------------------------------------------------
+0 11 12 9   :  burnFrom approve transferFrom approve 
+11 9 12 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+0 11 12 9   :  burnFrom approve transferFrom approve 
+11 9 0 12   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 11 12 9   :  burnFrom approve transferFrom approve 
+11 0 9 12   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 12 9   :  approve burnFrom transferFrom approve 
+11 9 12 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 9   :  approve burnFrom transferFrom approve 
+11 9 0 12   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 0 12 9   :  approve burnFrom transferFrom approve 
+11 0 9 12   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 9 12 0   :  approve approve transferFrom burnFrom 
+11 12 0 9   :  approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 12 0 9   :  approve transferFrom burnFrom approve 
+11 9 0 12   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 9   :  approve transferFrom burnFrom approve 
+11 0 9 12   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+1 11 9 12   :  freezeAccount approve approve transferFrom 
+11 12 1 9   :  approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 11 9 12   :  freezeAccount approve approve transferFrom 
+11 1 12 9   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 9 12   :  freezeAccount approve approve transferFrom 
+11 12 9 1   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 11 9 12   :  freezeAccount approve approve transferFrom 
+1 11 12 9   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 12 1 9   :  approve transferFrom freezeAccount approve 
+11 9 12 1   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 1 9   :  approve transferFrom freezeAccount approve 
+11 9 1 12   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 1 9   :  approve transferFrom freezeAccount approve 
+11 1 9 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 9 12 1   :  approve approve transferFrom freezeAccount 
+11 1 12 9   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 12 1   :  approve approve transferFrom freezeAccount 
+11 12 9 1   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 12 1   :  approve approve transferFrom freezeAccount 
+1 11 12 9   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 1 12 9   :  approve freezeAccount transferFrom approve 
+11 9 1 12   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 12 9   :  approve freezeAccount transferFrom approve 
+11 1 9 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 9 1   :  approve transferFrom approve freezeAccount 
+11 9 1 12   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 1   :  approve transferFrom approve freezeAccount 
+11 1 9 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 9 1 12   :  approve approve freezeAccount transferFrom 
+1 11 12 9   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 1 9 12   :  approve freezeAccount approve transferFrom 
+1 11 12 9   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+2 11 9 12   :  transferOwnership approve approve transferFrom 
+11 12 9 2   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 12   :  transferOwnership approve approve transferFrom 
+11 12 2 9   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 9 12   :  transferOwnership approve approve transferFrom 
+11 2 12 9   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 11 9 12   :  transferOwnership approve approve transferFrom 
+2 11 12 9   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+11 9 2 12   :  approve approve transferOwnership transferFrom 
+11 12 9 2   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 2 12   :  approve approve transferOwnership transferFrom 
+11 12 2 9   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 9 2 12   :  approve approve transferOwnership transferFrom 
+11 2 12 9   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 9 2 12   :  approve approve transferOwnership transferFrom 
+2 11 12 9   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+11 12 9 2   :  approve transferFrom approve transferOwnership 
+11 9 12 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 2   :  approve transferFrom approve transferOwnership 
+11 2 9 12   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 2 9   :  approve transferFrom transferOwnership approve 
+11 9 12 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 9   :  approve transferFrom transferOwnership approve 
+11 2 9 12   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 2 12 9   :  approve transferOwnership transferFrom approve 
+11 9 12 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 9   :  approve transferOwnership transferFrom approve 
+11 2 9 12   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+2 11 12 9   :  transferOwnership approve transferFrom approve 
+11 9 12 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 9   :  transferOwnership approve transferFrom approve 
+11 2 9 12   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 9 5   :  approve transferFrom approve transfer 
+11 9 12 5   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+11 12 5 9   :  approve transferFrom transfer approve 
+11 9 12 5   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+6 11 9 12   :  burn approve approve transferFrom 
+11 12 6 9   :  approve transferFrom burn approve 
+------------------------------------------------------------
+6 11 9 12   :  burn approve approve transferFrom 
+11 12 9 6   :  approve transferFrom approve burn 
+------------------------------------------------------------
+6 11 9 12   :  burn approve approve transferFrom 
+6 11 12 9   :  burn approve transferFrom approve 
+------------------------------------------------------------
+6 11 9 12   :  burn approve approve transferFrom 
+11 6 12 9   :  approve burn transferFrom approve 
+------------------------------------------------------------
+11 12 6 9   :  approve transferFrom burn approve 
+11 9 12 6   :  approve approve transferFrom burn 
+------------------------------------------------------------
+11 12 6 9   :  approve transferFrom burn approve 
+11 9 6 12   :  approve approve burn transferFrom 
+------------------------------------------------------------
+11 12 6 9   :  approve transferFrom burn approve 
+11 6 9 12   :  approve burn approve transferFrom 
+------------------------------------------------------------
+11 9 12 6   :  approve approve transferFrom burn 
+11 12 9 6   :  approve transferFrom approve burn 
+------------------------------------------------------------
+11 9 12 6   :  approve approve transferFrom burn 
+6 11 12 9   :  burn approve transferFrom approve 
+------------------------------------------------------------
+11 9 12 6   :  approve approve transferFrom burn 
+11 6 12 9   :  approve burn transferFrom approve 
+------------------------------------------------------------
+11 12 9 6   :  approve transferFrom approve burn 
+11 9 6 12   :  approve approve burn transferFrom 
+------------------------------------------------------------
+11 12 9 6   :  approve transferFrom approve burn 
+11 6 9 12   :  approve burn approve transferFrom 
+------------------------------------------------------------
+11 9 6 12   :  approve approve burn transferFrom 
+6 11 12 9   :  burn approve transferFrom approve 
+------------------------------------------------------------
+11 9 6 12   :  approve approve burn transferFrom 
+11 6 12 9   :  approve burn transferFrom approve 
+------------------------------------------------------------
+11 6 9 12   :  approve burn approve transferFrom 
+6 11 12 9   :  burn approve transferFrom approve 
+------------------------------------------------------------
+11 6 9 12   :  approve burn approve transferFrom 
+11 6 12 9   :  approve burn transferFrom approve 
+------------------------------------------------------------
+11 7 12 9   :  approve transfer transferFrom approve 
+11 7 9 12   :  approve transfer approve transferFrom 
+------------------------------------------------------------
+11 7 12 9   :  approve transfer transferFrom approve 
+7 11 9 12   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+11 7 12 9   :  approve transfer transferFrom approve 
+11 9 12 7   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+11 7 12 9   :  approve transfer transferFrom approve 
+11 9 7 12   :  approve approve transfer transferFrom 
+------------------------------------------------------------
+7 11 12 9   :  transfer approve transferFrom approve 
+11 7 9 12   :  approve transfer approve transferFrom 
+------------------------------------------------------------
+7 11 12 9   :  transfer approve transferFrom approve 
+7 11 9 12   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+7 11 12 9   :  transfer approve transferFrom approve 
+11 9 12 7   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+7 11 12 9   :  transfer approve transferFrom approve 
+11 9 7 12   :  approve approve transfer transferFrom 
+------------------------------------------------------------
+11 7 9 12   :  approve transfer approve transferFrom 
+11 12 9 7   :  approve transferFrom approve transfer 
+------------------------------------------------------------
+11 7 9 12   :  approve transfer approve transferFrom 
+11 12 7 9   :  approve transferFrom transfer approve 
+------------------------------------------------------------
+11 12 9 7   :  approve transferFrom approve transfer 
+7 11 9 12   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 7   :  approve transferFrom approve transfer 
+11 9 7 12   :  approve approve transfer transferFrom 
+------------------------------------------------------------
+11 12 7 9   :  approve transferFrom transfer approve 
+7 11 9 12   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+11 12 7 9   :  approve transferFrom transfer approve 
+11 9 7 12   :  approve approve transfer transferFrom 
+------------------------------------------------------------
+11 12 13 9   :  approve transferFrom mintToken approve 
+11 9 12 13   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+11 12 13 9   :  approve transferFrom mintToken approve 
+11 9 13 12   :  approve approve mintToken transferFrom 
+------------------------------------------------------------
+11 12 13 9   :  approve transferFrom mintToken approve 
+13 11 9 12   :  mintToken approve approve transferFrom 
+------------------------------------------------------------
+11 12 13 9   :  approve transferFrom mintToken approve 
+11 13 9 12   :  approve mintToken approve transferFrom 
+------------------------------------------------------------
+13 11 12 9   :  mintToken approve transferFrom approve 
+11 9 12 13   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+13 11 12 9   :  mintToken approve transferFrom approve 
+11 9 13 12   :  approve approve mintToken transferFrom 
+------------------------------------------------------------
+13 11 12 9   :  mintToken approve transferFrom approve 
+13 11 9 12   :  mintToken approve approve transferFrom 
+------------------------------------------------------------
+13 11 12 9   :  mintToken approve transferFrom approve 
+11 13 9 12   :  approve mintToken approve transferFrom 
+------------------------------------------------------------
+11 9 12 13   :  approve approve transferFrom mintToken 
+11 12 9 13   :  approve transferFrom approve mintToken 
+------------------------------------------------------------
+11 9 12 13   :  approve approve transferFrom mintToken 
+11 13 12 9   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+11 9 13 12   :  approve approve mintToken transferFrom 
+11 12 9 13   :  approve transferFrom approve mintToken 
+------------------------------------------------------------
+11 9 13 12   :  approve approve mintToken transferFrom 
+11 13 12 9   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+13 11 9 12   :  mintToken approve approve transferFrom 
+11 12 9 13   :  approve transferFrom approve mintToken 
+------------------------------------------------------------
+13 11 9 12   :  mintToken approve approve transferFrom 
+11 13 12 9   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+11 12 9 13   :  approve transferFrom approve mintToken 
+11 13 9 12   :  approve mintToken approve transferFrom 
+------------------------------------------------------------
+11 13 9 12   :  approve mintToken approve transferFrom 
+11 13 12 9   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 11 9 12 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 9 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 9 12 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 11 12 1 9   :  burnFrom approve transferFrom freezeAccount approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 9 0 12 1   :  approve approve burnFrom transferFrom freezeAccount 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 0 9 12 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+1 11 12 9 0   :  freezeAccount approve transferFrom approve burnFrom 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 0 12 1 9   :  approve burnFrom transferFrom freezeAccount approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 0 1 9   :  approve transferFrom burnFrom freezeAccount approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 1 0 12 9   :  approve freezeAccount burnFrom transferFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 1 0 9 12   :  approve freezeAccount burnFrom approve transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 0 9 1   :  approve transferFrom burnFrom approve freezeAccount 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+1 11 12 0 9   :  freezeAccount approve transferFrom burnFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+0 1 11 9 12   :  burnFrom freezeAccount approve approve transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 9 12 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 9 1 0 12   :  approve approve freezeAccount burnFrom transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 1 11 12 9   :  burnFrom freezeAccount approve transferFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 9 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 0 9 1 12   :  approve burnFrom approve freezeAccount transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 11 9 0 12   :  freezeAccount approve approve burnFrom transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 1 9 0 12   :  approve freezeAccount approve burnFrom transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 1 12 0 9   :  approve freezeAccount transferFrom burnFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 11 12 9 1   :  burnFrom approve transferFrom approve freezeAccount 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 0 1 9 12   :  approve burnFrom freezeAccount approve transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 1 9 0   :  approve transferFrom freezeAccount approve burnFrom 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 0 12 9 1   :  approve burnFrom transferFrom approve freezeAccount 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 11 0 9 12   :  freezeAccount approve burnFrom approve transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+0 11 9 1 12   :  burnFrom approve approve freezeAccount transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 1 12 9 0   :  approve freezeAccount transferFrom approve burnFrom 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+1 11 0 12 9   :  freezeAccount approve burnFrom transferFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 9 1 12 0   :  approve approve freezeAccount transferFrom burnFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+0 11 1 9 12   :  burnFrom approve freezeAccount approve transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 0 1 12 9   :  approve burnFrom freezeAccount transferFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 11 1 12 9   :  burnFrom approve freezeAccount transferFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 0 11 9 12   :  freezeAccount burnFrom approve approve transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+11 9 0 1 12   :  approve approve burnFrom freezeAccount transferFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+0 11 9 12 1   :  burnFrom approve approve transferFrom freezeAccount 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 12 1 0 9   :  approve transferFrom freezeAccount burnFrom approve 
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+11 1 9 12 0   :  approve freezeAccount approve transferFrom burnFrom 
+1 0 11 12 9   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 0 2 12 9   :  approve burnFrom transferOwnership transferFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 11 0 9 12   :  transferOwnership approve burnFrom approve transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 11 9 0 12   :  transferOwnership approve approve burnFrom transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 2 9 0   :  approve transferFrom transferOwnership approve burnFrom 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+2 11 0 12 9   :  transferOwnership approve burnFrom transferFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 2 9   :  approve burnFrom transferFrom transferOwnership approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+0 11 9 2 12   :  burnFrom approve approve transferOwnership transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 0 2   :  approve transferFrom approve burnFrom transferOwnership 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 2 12 9 0   :  approve transferOwnership transferFrom approve burnFrom 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 0 2 9 12   :  approve burnFrom transferOwnership approve transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+2 11 12 9 0   :  transferOwnership approve transferFrom approve burnFrom 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 2 11 12 9   :  burnFrom transferOwnership approve transferFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 2 12 0 9   :  approve transferOwnership transferFrom burnFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 2 9 12 0   :  approve transferOwnership approve transferFrom burnFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 9 0 2 12   :  approve approve burnFrom transferOwnership transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 2 9 0 12   :  approve transferOwnership approve burnFrom transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 0 11 9 12   :  transferOwnership burnFrom approve approve transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+0 11 9 12 2   :  burnFrom approve approve transferFrom transferOwnership 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 2 0 9 12   :  approve transferOwnership burnFrom approve transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 11 9 12 0   :  transferOwnership approve approve transferFrom burnFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 0 9 2 12   :  approve burnFrom approve transferOwnership transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 0 2 9   :  approve transferFrom burnFrom transferOwnership approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+0 11 2 9 12   :  burnFrom approve transferOwnership approve transferFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 9 0 12 2   :  approve approve burnFrom transferFrom transferOwnership 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+------------------------------------------------------------
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 0 9 2   :  approve transferFrom burnFrom approve transferOwnership 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 9 2 12 0   :  approve approve transferOwnership transferFrom burnFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 9 2   :  approve burnFrom transferFrom approve transferOwnership 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+2 11 12 0 9   :  transferOwnership approve transferFrom burnFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+2 0 11 12 9   :  transferOwnership burnFrom approve transferFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 9 2 0   :  approve transferFrom approve transferOwnership burnFrom 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 2 0 9   :  approve transferFrom transferOwnership burnFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 2 0 12 9   :  approve transferOwnership burnFrom transferFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 0 9 12 2   :  approve burnFrom approve transferFrom transferOwnership 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 11 12 2 9   :  burnFrom approve transferFrom transferOwnership approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+------------------------------------------------------------
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+------------------------------------------------------------
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 11 2 12 9   :  burnFrom approve transferOwnership transferFrom approve 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------
+11 9 12 0 2   :  approve approve transferFrom burnFrom transferOwnership 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+11 9 12 2 0   :  approve approve transferFrom transferOwnership burnFrom 
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+0 2 11 9 12   :  burnFrom transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 11 12 9 2   :  burnFrom approve transferFrom approve transferOwnership 
+11 9 2 0 12   :  approve approve transferOwnership burnFrom transferFrom 
+------------------------------------------------------------

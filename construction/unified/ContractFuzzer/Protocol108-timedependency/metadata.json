@@ -1,0 +1,37 @@
+{
+    "addr": "0xc2e330dcb9d0e8edd70425e532f0288088b6d7cb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Protocol108.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Protocol108",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "3ca5a538365ff1254633af9d1c5e527b",
+    "fp_runtime": "bb4bee2596decc88237f3555c6b6035f",
+    "fp_sol": "7ece38ae4706a8abfb4b860044e380df",
+    "fp_sol2": "7202f0213420afd0d59d0965dd25afb2",
+    "id": "Protocol108-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Protocol108.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

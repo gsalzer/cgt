@@ -1,0 +1,37 @@
+{
+    "addr": "0x30e1a463ecf25dbba2f83cb3e4b10045f888e55b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": true,
+    "contractname": "GivethDirectory",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "20cbc9e6f19283a7da1f27407e07fd3a",
+    "fp_runtime": "00aafe1e56c37f9f9d415767620c85aa",
+    "fp_sol": "64a52ae72e4952e5b373d8453b51d12e",
+    "fp_sol2": "4669e64378bf1d1edec8667bf985bff6",
+    "id": "0x30e1a463ecf25dbba2f83cb3e4b10045f888e55b",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

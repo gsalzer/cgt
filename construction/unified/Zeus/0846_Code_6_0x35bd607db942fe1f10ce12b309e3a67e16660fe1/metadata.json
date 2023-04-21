@@ -1,0 +1,60 @@
+{
+    "addr": "0x35bd607db942fe1f10ce12b309e3a67e16660fe1",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            true
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "OrangeGov_Main",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "150008ab188d74067c41f3a4b14602b2",
+    "fp_runtime": "45d81f840e2defa68d108afc38e3d6e8",
+    "fp_sol": "7d889f717dc9653a45f2a230c2efea14",
+    "fp_sol2": "e4e3813247701a7d15742adf4b2d014c",
+    "id": "0846_Code_6_0x35bd607db942fe1f10ce12b309e3a67e16660fe1",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ERC20",
+            "FNBToken",
+            "Ownable",
+            "Storage"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "364de1e4dce2f700a55dba0dbb1cbf1d",
+    "fp_sol": "5dc9b0a02693b4b4f989df46e7dd9ac4",
+    "fp_sol2": "598675543c6d766b5515ef0be2fc41e6",
+    "id": "FNBToken-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/FNBToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/FNBToken.sol"
+    ],
+    "sol_orig": true
+}

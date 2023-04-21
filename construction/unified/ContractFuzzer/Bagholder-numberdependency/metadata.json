@@ -1,0 +1,37 @@
+{
+    "addr": "0x58e55918c6aca854384d21b199b4af953a2acf46",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Bagholder.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Bagholder",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f75b5ef6a0265f9d7a4fe6fcd445f362",
+    "fp_runtime": "0c311ecb0be30f8031aa8e7479f87e83",
+    "fp_sol": "20fb0e8b233386154c1ce6008e5a23a5",
+    "fp_sol2": "5d51239156462270a747f96691061d4c",
+    "id": "Bagholder-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Bagholder.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

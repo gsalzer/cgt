@@ -1,0 +1,2 @@
+{u'source_code/test3861.sol': {u'TokenERC20': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test3861.sol:1:22: Warning: Integer Underflow.\n', u'source_code/test3861.sol:1:41: Warning: Integer Underflow.\n'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '58.6'}}}
+

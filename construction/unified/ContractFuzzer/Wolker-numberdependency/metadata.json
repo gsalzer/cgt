@@ -1,0 +1,37 @@
+{
+    "addr": "0x558aac46e98bccd0362301e24fd8d18433444fab",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Wolker.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "Wolker",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "79dded9e1f2f2ea2a1142d9ea9097e2c",
+    "fp_runtime": "ca65f9adc860fe9026ab1d47de861707",
+    "fp_sol": "fb877a5c77c58bbe7ebe1a5e774a96b2",
+    "fp_sol2": "563864b674e581b2986970671c3cdb84",
+    "id": "Wolker-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Wolker.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

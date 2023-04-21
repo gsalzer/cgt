@@ -1,0 +1,60 @@
+{
+    "addr": "0xc3ef562cc403c8f9edf7c3826655fbf50f4ddde8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.7+commit.822622cf",
+    "compiler_orig": false,
+    "contractname": "StableBalancer",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c9d304648530d2aa16cfc92b1ae329c9",
+    "fp_runtime": "2a69c791f0ec4214dc243f7687dc5f49",
+    "fp_sol": "6b20579c65a668e183a8b5f643b3e8a3",
+    "fp_sol2": "92380b2e1f4b4f21e281fb3d899785f2",
+    "id": "0489_Code_10_0xc3ef562cc403c8f9edf7c3826655fbf50f4ddde8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

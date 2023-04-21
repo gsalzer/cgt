@@ -1,0 +1,56 @@
+{
+    "addr": "0x1307dcf9d3d4fd4a71fb99f112aaa5b85ac9fb7c",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "subscriptionDebitService",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "691ad18cb58edc10089f83836e8e3b57",
+    "fp_sol2": "691ad18cb58edc10089f83836e8e3b57",
+    "id": "1255_Code_11_0x1307dcf9d3d4fd4a71fb99f112aaa5b85ac9fb7c",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

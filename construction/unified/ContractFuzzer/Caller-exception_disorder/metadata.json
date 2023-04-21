@@ -1,0 +1,39 @@
+{
+    "addr": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_Caller.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "Caller",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "51dc5794c06c504c19b49a1be4a245c1",
+    "fp_runtime": "57ed68fcea210b028d7bc1d5c5fdd27c",
+    "fp_sol": "fa0090b4c9fe41fe050b91251d4297c5",
+    "fp_sol2": "e81509570ea72fe757486c3cc13c59fc",
+    "id": "Caller-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Caller.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

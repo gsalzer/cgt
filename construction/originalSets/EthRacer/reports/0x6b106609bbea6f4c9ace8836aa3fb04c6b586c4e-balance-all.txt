@@ -1,0 +1,467 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transfer', 'tx_input': 'a9059cbb000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000001111111111111111111111111111111111111111'}
+1 : {'tx_value': '8ac7230489e80000', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'buyToken', 'tx_input': '2d296bf10000000000000000000000001111111111111111111111111111111111111111'}
+2 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCOO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2ba73c15000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+3 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000000000000000000080000000000000000000000'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000001111111111111111111111111111111111111111'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000001111111111111111111111111111111111111111'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000002222222222222222222222222222222222222222'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000002222222222222222222222222222222222222222'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000006730e7af116c0b342ce024fb1724cf56c30d3cbc'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000006730e7af116c0b342ce024fb1724cf56c30d3cbc'}
+10 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'unlockPriceChange', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '53acb23f'}
+11 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCOO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2ba73c150000000000000000000000000000000000000000000000000000000000000001'}
+12 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCOO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2ba73c150000000000000000000000000010000000000000000000000000000000000000'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createPromoCollectible', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad731de7000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createPromoCollectible', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad731de7000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}
+15 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCOO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2ba73c150000000000000000000000000000000000000000000200000000000000000000'}
+16 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'payout', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0b7e9c440000000000000000000000000000000000000000000000000000000000000000'}
+17 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'payout', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0b7e9c44000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+18 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000010000000000000000000000000000000000000'}
+19 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setCOO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2ba73c15000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+20 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000080000000000000000000000000000000000000'}
+21 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'createPromoCollectible', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad731de7000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001'}
+22 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'setCOO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2ba73c150000000000000000000000000000000000000000080000000000000000000000'}
+23 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'createPromoCollectible', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad731de7000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003'}
+24 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'createPromoCollectible', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad731de7000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001'}
+25 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'createPromoCollectible', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ad731de7000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003'}
+26 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'payout', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0b7e9c440000000000000000000000000000000000000000000000000000000000000001'}
+27 : {'tx_caller': '6730e7af116c0b342ce024fb1724cf56c30d3cbc', 'name': 'payout', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0b7e9c440000000000000000000000000000000000000000000000000000000000000003'}
+28 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'takeOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b2e6ceeb0000000000000000000000001111111111111111111111111111111111111111'}
+29 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'takeOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b2e6ceeb0000000000000000000000002222222222222222222222222222222222222222'}
+30 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'takeOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b2e6ceeb0000000000000000000000006730e7af116c0b342ce024fb1724cf56c30d3cbc'}
+31 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'unlockPriceChange', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '53acb23f'}
+--------------------------------------------------------------------------------
+
+Full traces: 143
+--------------------------------------------------------------------------------
+1 26   :  buyToken payout 
+26 1   :  payout buyToken 
+------------------------------------------------------------
+1 0 26   :  buyToken transfer payout 
+26 1 0   :  payout buyToken transfer 
+------------------------------------------------------------
+26 1 0   :  payout buyToken transfer 
+1 26 0   :  buyToken payout transfer 
+------------------------------------------------------------
+1 26 2   :  buyToken payout setCOO 
+26 2 1   :  payout setCOO buyToken 
+------------------------------------------------------------
+1 26 2   :  buyToken payout setCOO 
+26 1 2   :  payout buyToken setCOO 
+------------------------------------------------------------
+26 3 1   :  payout setCEO buyToken 
+1 26 3   :  buyToken payout setCEO 
+------------------------------------------------------------
+26 3 1   :  payout setCEO buyToken 
+1 3 26   :  buyToken setCEO payout 
+------------------------------------------------------------
+26 3 1   :  payout setCEO buyToken 
+3 1 26   :  setCEO buyToken payout 
+------------------------------------------------------------
+1 26 3   :  buyToken payout setCEO 
+3 26 1   :  setCEO payout buyToken 
+------------------------------------------------------------
+1 26 3   :  buyToken payout setCEO 
+26 1 3   :  payout buyToken setCEO 
+------------------------------------------------------------
+1 3 26   :  buyToken setCEO payout 
+3 26 1   :  setCEO payout buyToken 
+------------------------------------------------------------
+1 3 26   :  buyToken setCEO payout 
+26 1 3   :  payout buyToken setCEO 
+------------------------------------------------------------
+3 26 1   :  setCEO payout buyToken 
+3 1 26   :  setCEO buyToken payout 
+------------------------------------------------------------
+3 1 26   :  setCEO buyToken payout 
+26 1 3   :  payout buyToken setCEO 
+------------------------------------------------------------
+26 1 4   :  payout buyToken approve 
+1 26 4   :  buyToken payout approve 
+------------------------------------------------------------
+26 1 4   :  payout buyToken approve 
+1 4 26   :  buyToken approve payout 
+------------------------------------------------------------
+10 1 26   :  unlockPriceChange buyToken payout 
+10 26 1   :  unlockPriceChange payout buyToken 
+------------------------------------------------------------
+10 1 26   :  unlockPriceChange buyToken payout 
+26 10 1   :  payout unlockPriceChange buyToken 
+------------------------------------------------------------
+10 1 26   :  unlockPriceChange buyToken payout 
+26 1 10   :  payout buyToken unlockPriceChange 
+------------------------------------------------------------
+10 26 1   :  unlockPriceChange payout buyToken 
+1 26 10   :  buyToken payout unlockPriceChange 
+------------------------------------------------------------
+10 26 1   :  unlockPriceChange payout buyToken 
+1 10 26   :  buyToken unlockPriceChange payout 
+------------------------------------------------------------
+26 10 1   :  payout unlockPriceChange buyToken 
+1 26 10   :  buyToken payout unlockPriceChange 
+------------------------------------------------------------
+26 10 1   :  payout unlockPriceChange buyToken 
+1 10 26   :  buyToken unlockPriceChange payout 
+------------------------------------------------------------
+1 26 10   :  buyToken payout unlockPriceChange 
+26 1 10   :  payout buyToken unlockPriceChange 
+------------------------------------------------------------
+26 1 10   :  payout buyToken unlockPriceChange 
+1 10 26   :  buyToken unlockPriceChange payout 
+------------------------------------------------------------
+1 11 26   :  buyToken setCOO payout 
+26 1 11   :  payout buyToken setCOO 
+------------------------------------------------------------
+1 11 26   :  buyToken setCOO payout 
+11 26 1   :  setCOO payout buyToken 
+------------------------------------------------------------
+1 11 26   :  buyToken setCOO payout 
+26 11 1   :  payout setCOO buyToken 
+------------------------------------------------------------
+11 1 26   :  setCOO buyToken payout 
+26 1 11   :  payout buyToken setCOO 
+------------------------------------------------------------
+11 1 26   :  setCOO buyToken payout 
+11 26 1   :  setCOO payout buyToken 
+------------------------------------------------------------
+11 1 26   :  setCOO buyToken payout 
+26 11 1   :  payout setCOO buyToken 
+------------------------------------------------------------
+11 26 1   :  setCOO payout buyToken 
+1 26 11   :  buyToken payout setCOO 
+------------------------------------------------------------
+21 1 26   :  createPromoCollectible buyToken payout 
+21 26 1   :  createPromoCollectible payout buyToken 
+------------------------------------------------------------
+21 1 26   :  createPromoCollectible buyToken payout 
+26 21 1   :  payout createPromoCollectible buyToken 
+------------------------------------------------------------
+26 24 1   :  payout createPromoCollectible buyToken 
+1 24 26   :  buyToken createPromoCollectible payout 
+------------------------------------------------------------
+26 24 1   :  payout createPromoCollectible buyToken 
+1 26 24   :  buyToken payout createPromoCollectible 
+------------------------------------------------------------
+24 26 1   :  createPromoCollectible payout buyToken 
+1 24 26   :  buyToken createPromoCollectible payout 
+------------------------------------------------------------
+24 26 1   :  createPromoCollectible payout buyToken 
+1 26 24   :  buyToken payout createPromoCollectible 
+------------------------------------------------------------
+26 1 24   :  payout buyToken createPromoCollectible 
+24 1 26   :  createPromoCollectible buyToken payout 
+------------------------------------------------------------
+26 1 24   :  payout buyToken createPromoCollectible 
+1 24 26   :  buyToken createPromoCollectible payout 
+------------------------------------------------------------
+26 1 24   :  payout buyToken createPromoCollectible 
+1 26 24   :  buyToken payout createPromoCollectible 
+------------------------------------------------------------
+27 26 1   :  payout payout buyToken 
+27 1 26   :  payout buyToken payout 
+------------------------------------------------------------
+27 26 1   :  payout payout buyToken 
+1 27 26   :  buyToken payout payout 
+------------------------------------------------------------
+26 1 27   :  payout buyToken payout 
+1 26 27   :  buyToken payout payout 
+------------------------------------------------------------
+26 1 2 0   :  payout buyToken setCOO transfer 
+1 26 0 2   :  buyToken payout transfer setCOO 
+------------------------------------------------------------
+26 1 2 0   :  payout buyToken setCOO transfer 
+1 0 26 2   :  buyToken transfer payout setCOO 
+------------------------------------------------------------
+26 1 2 0   :  payout buyToken setCOO transfer 
+1 26 2 0   :  buyToken payout setCOO transfer 
+------------------------------------------------------------
+26 1 0 2   :  payout buyToken transfer setCOO 
+1 26 0 2   :  buyToken payout transfer setCOO 
+------------------------------------------------------------
+26 1 0 2   :  payout buyToken transfer setCOO 
+1 0 26 2   :  buyToken transfer payout setCOO 
+------------------------------------------------------------
+26 1 0 2   :  payout buyToken transfer setCOO 
+1 26 2 0   :  buyToken payout setCOO transfer 
+------------------------------------------------------------
+26 2 1 0   :  payout setCOO buyToken transfer 
+1 26 0 2   :  buyToken payout transfer setCOO 
+------------------------------------------------------------
+26 2 1 0   :  payout setCOO buyToken transfer 
+1 0 26 2   :  buyToken transfer payout setCOO 
+------------------------------------------------------------
+26 2 1 0   :  payout setCOO buyToken transfer 
+1 26 2 0   :  buyToken payout setCOO transfer 
+------------------------------------------------------------
+1 3 26 0   :  buyToken setCEO payout transfer 
+26 1 3 0   :  payout buyToken setCEO transfer 
+------------------------------------------------------------
+1 3 26 0   :  buyToken setCEO payout transfer 
+26 3 1 0   :  payout setCEO buyToken transfer 
+------------------------------------------------------------
+1 3 26 0   :  buyToken setCEO payout transfer 
+3 26 1 0   :  setCEO payout buyToken transfer 
+------------------------------------------------------------
+1 3 26 0   :  buyToken setCEO payout transfer 
+26 1 0 3   :  payout buyToken transfer setCEO 
+------------------------------------------------------------
+1 26 3 0   :  buyToken payout setCEO transfer 
+26 1 3 0   :  payout buyToken setCEO transfer 
+------------------------------------------------------------
+1 26 3 0   :  buyToken payout setCEO transfer 
+26 3 1 0   :  payout setCEO buyToken transfer 
+------------------------------------------------------------
+1 26 3 0   :  buyToken payout setCEO transfer 
+3 26 1 0   :  setCEO payout buyToken transfer 
+------------------------------------------------------------
+1 26 3 0   :  buyToken payout setCEO transfer 
+26 1 0 3   :  payout buyToken transfer setCEO 
+------------------------------------------------------------
+3 1 26 0   :  setCEO buyToken payout transfer 
+26 1 3 0   :  payout buyToken setCEO transfer 
+------------------------------------------------------------
+3 1 26 0   :  setCEO buyToken payout transfer 
+26 3 1 0   :  payout setCEO buyToken transfer 
+------------------------------------------------------------
+3 1 26 0   :  setCEO buyToken payout transfer 
+3 26 1 0   :  setCEO payout buyToken transfer 
+------------------------------------------------------------
+3 1 26 0   :  setCEO buyToken payout transfer 
+26 1 0 3   :  payout buyToken transfer setCEO 
+------------------------------------------------------------
+26 1 3 0   :  payout buyToken setCEO transfer 
+1 0 26 3   :  buyToken transfer payout setCEO 
+------------------------------------------------------------
+26 1 3 0   :  payout buyToken setCEO transfer 
+3 1 0 26   :  setCEO buyToken transfer payout 
+------------------------------------------------------------
+26 1 3 0   :  payout buyToken setCEO transfer 
+1 3 0 26   :  buyToken setCEO transfer payout 
+------------------------------------------------------------
+26 1 3 0   :  payout buyToken setCEO transfer 
+1 0 3 26   :  buyToken transfer setCEO payout 
+------------------------------------------------------------
+26 1 3 0   :  payout buyToken setCEO transfer 
+1 26 0 3   :  buyToken payout transfer setCEO 
+------------------------------------------------------------
+1 0 26 3   :  buyToken transfer payout setCEO 
+26 3 1 0   :  payout setCEO buyToken transfer 
+------------------------------------------------------------
+1 0 26 3   :  buyToken transfer payout setCEO 
+3 26 1 0   :  setCEO payout buyToken transfer 
+------------------------------------------------------------
+1 0 26 3   :  buyToken transfer payout setCEO 
+26 1 0 3   :  payout buyToken transfer setCEO 
+------------------------------------------------------------
+26 3 1 0   :  payout setCEO buyToken transfer 
+3 1 0 26   :  setCEO buyToken transfer payout 
+------------------------------------------------------------
+26 3 1 0   :  payout setCEO buyToken transfer 
+1 3 0 26   :  buyToken setCEO transfer payout 
+------------------------------------------------------------
+26 3 1 0   :  payout setCEO buyToken transfer 
+1 0 3 26   :  buyToken transfer setCEO payout 
+------------------------------------------------------------
+26 3 1 0   :  payout setCEO buyToken transfer 
+1 26 0 3   :  buyToken payout transfer setCEO 
+------------------------------------------------------------
+3 26 1 0   :  setCEO payout buyToken transfer 
+3 1 0 26   :  setCEO buyToken transfer payout 
+------------------------------------------------------------
+3 26 1 0   :  setCEO payout buyToken transfer 
+1 3 0 26   :  buyToken setCEO transfer payout 
+------------------------------------------------------------
+3 26 1 0   :  setCEO payout buyToken transfer 
+1 0 3 26   :  buyToken transfer setCEO payout 
+------------------------------------------------------------
+3 26 1 0   :  setCEO payout buyToken transfer 
+1 26 0 3   :  buyToken payout transfer setCEO 
+------------------------------------------------------------
+26 1 0 3   :  payout buyToken transfer setCEO 
+3 1 0 26   :  setCEO buyToken transfer payout 
+------------------------------------------------------------
+26 1 0 3   :  payout buyToken transfer setCEO 
+1 3 0 26   :  buyToken setCEO transfer payout 
+------------------------------------------------------------
+26 1 0 3   :  payout buyToken transfer setCEO 
+1 0 3 26   :  buyToken transfer setCEO payout 
+------------------------------------------------------------
+26 1 0 3   :  payout buyToken transfer setCEO 
+1 26 0 3   :  buyToken payout transfer setCEO 
+------------------------------------------------------------
+26 1 4 0   :  payout buyToken approve transfer 
+1 4 0 26   :  buyToken approve transfer payout 
+------------------------------------------------------------
+26 1 4 0   :  payout buyToken approve transfer 
+1 26 4 0   :  buyToken payout approve transfer 
+------------------------------------------------------------
+26 1 4 0   :  payout buyToken approve transfer 
+1 4 26 0   :  buyToken approve payout transfer 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+1 10 0 26   :  buyToken unlockPriceChange transfer payout 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+1 0 26 10   :  buyToken transfer payout unlockPriceChange 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+1 0 10 26   :  buyToken transfer unlockPriceChange payout 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+10 1 0 26   :  unlockPriceChange buyToken transfer payout 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+1 26 10 0   :  buyToken payout unlockPriceChange transfer 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+1 10 26 0   :  buyToken unlockPriceChange payout transfer 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+10 1 26 0   :  unlockPriceChange buyToken payout transfer 
+------------------------------------------------------------
+26 10 1 0   :  payout unlockPriceChange buyToken transfer 
+1 26 0 10   :  buyToken payout transfer unlockPriceChange 
+------------------------------------------------------------
+1 10 0 26   :  buyToken unlockPriceChange transfer payout 
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+------------------------------------------------------------
+1 10 0 26   :  buyToken unlockPriceChange transfer payout 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+1 10 0 26   :  buyToken unlockPriceChange transfer payout 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+1 0 26 10   :  buyToken transfer payout unlockPriceChange 
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+------------------------------------------------------------
+1 0 26 10   :  buyToken transfer payout unlockPriceChange 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+1 0 26 10   :  buyToken transfer payout unlockPriceChange 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+1 0 10 26   :  buyToken transfer unlockPriceChange payout 
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+------------------------------------------------------------
+1 0 10 26   :  buyToken transfer unlockPriceChange payout 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+1 0 10 26   :  buyToken transfer unlockPriceChange payout 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+10 1 0 26   :  unlockPriceChange buyToken transfer payout 
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+------------------------------------------------------------
+10 1 0 26   :  unlockPriceChange buyToken transfer payout 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+10 1 0 26   :  unlockPriceChange buyToken transfer payout 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+1 26 10 0   :  buyToken payout unlockPriceChange transfer 
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+------------------------------------------------------------
+1 26 10 0   :  buyToken payout unlockPriceChange transfer 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+1 26 10 0   :  buyToken payout unlockPriceChange transfer 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+1 10 26 0   :  buyToken unlockPriceChange payout transfer 
+------------------------------------------------------------
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+10 1 26 0   :  unlockPriceChange buyToken payout transfer 
+------------------------------------------------------------
+26 1 0 10   :  payout buyToken transfer unlockPriceChange 
+1 26 0 10   :  buyToken payout transfer unlockPriceChange 
+------------------------------------------------------------
+1 10 26 0   :  buyToken unlockPriceChange payout transfer 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+1 10 26 0   :  buyToken unlockPriceChange payout transfer 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+10 1 26 0   :  unlockPriceChange buyToken payout transfer 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+10 1 26 0   :  unlockPriceChange buyToken payout transfer 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+1 26 0 10   :  buyToken payout transfer unlockPriceChange 
+10 26 1 0   :  unlockPriceChange payout buyToken transfer 
+------------------------------------------------------------
+1 26 0 10   :  buyToken payout transfer unlockPriceChange 
+26 1 10 0   :  payout buyToken unlockPriceChange transfer 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+1 26 0 11   :  buyToken payout transfer setCOO 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+1 11 0 26   :  buyToken setCOO transfer payout 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+11 1 0 26   :  setCOO buyToken transfer payout 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+1 0 11 26   :  buyToken transfer setCOO payout 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+11 1 26 0   :  setCOO buyToken payout transfer 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+1 11 26 0   :  buyToken setCOO payout transfer 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+1 26 11 0   :  buyToken payout setCOO transfer 
+------------------------------------------------------------
+11 26 1 0   :  setCOO payout buyToken transfer 
+1 0 26 11   :  buyToken transfer payout setCOO 
+------------------------------------------------------------
+1 11 0 26   :  buyToken setCOO transfer payout 
+26 1 11 0   :  payout buyToken setCOO transfer 
+------------------------------------------------------------
+1 11 0 26   :  buyToken setCOO transfer payout 
+26 11 1 0   :  payout setCOO buyToken transfer 
+------------------------------------------------------------
+1 11 0 26   :  buyToken setCOO transfer payout 
+26 1 0 11   :  payout buyToken transfer setCOO 
+------------------------------------------------------------
+11 1 0 26   :  setCOO buyToken transfer payout 
+26 1 11 0   :  payout buyToken setCOO transfer 
+------------------------------------------------------------
+11 1 0 26   :  setCOO buyToken transfer payout 
+26 11 1 0   :  payout setCOO buyToken transfer 
+------------------------------------------------------------
+11 1 0 26   :  setCOO buyToken transfer payout 
+26 1 0 11   :  payout buyToken transfer setCOO 
+------------------------------------------------------------
+26 1 11 0   :  payout buyToken setCOO transfer 
+1 0 11 26   :  buyToken transfer setCOO payout 
+------------------------------------------------------------
+26 1 11 0   :  payout buyToken setCOO transfer 
+11 1 26 0   :  setCOO buyToken payout transfer 
+------------------------------------------------------------
+26 1 11 0   :  payout buyToken setCOO transfer 
+1 11 26 0   :  buyToken setCOO payout transfer 
+------------------------------------------------------------
+1 0 11 26   :  buyToken transfer setCOO payout 
+26 11 1 0   :  payout setCOO buyToken transfer 
+------------------------------------------------------------
+1 0 11 26   :  buyToken transfer setCOO payout 
+26 1 0 11   :  payout buyToken transfer setCOO 
+------------------------------------------------------------
+11 1 26 0   :  setCOO buyToken payout transfer 
+26 11 1 0   :  payout setCOO buyToken transfer 
+------------------------------------------------------------
+11 1 26 0   :  setCOO buyToken payout transfer 
+26 1 0 11   :  payout buyToken transfer setCOO 
+------------------------------------------------------------
+1 11 26 0   :  buyToken setCOO payout transfer 
+26 11 1 0   :  payout setCOO buyToken transfer 
+------------------------------------------------------------
+1 11 26 0   :  buyToken setCOO payout transfer 
+26 1 0 11   :  payout buyToken transfer setCOO 
+------------------------------------------------------------

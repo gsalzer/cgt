@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "AccountWallet",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "82a95267f482b47b5df9f2afc4fa1130",
+    "fp_sol2": "c51cd1ac8efd16edd5a19105b4c199d7",
+    "id": "Re-entrancy-7",
+    "info": [
+        "info/BugLog_7.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_7.sol"
+    ],
+    "sol_orig": true
+}

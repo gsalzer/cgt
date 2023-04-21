@@ -1,0 +1,36 @@
+{
+    "addr": "0x0f7524d64ceb92dae1d1a56b20b6d520134795d4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20-nightly.2018.1.6+commit.2548228b",
+    "compiler_orig": false,
+    "contractname": "POWHClone",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "0577f016d80f2bf821d025cc7297c1b6",
+    "fp_runtime": "06ba3c8127a303c7a2c01bd2b81ba12b",
+    "fp_sol": "f25d5e16eb12a4fa466f940821a7f125",
+    "fp_sol2": "e9f10bf6f2835b51a2f22ab7be347efc",
+    "id": "0x0f7524d64ceb92dae1d1a56b20b6d520134795d4",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

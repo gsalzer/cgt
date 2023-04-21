@@ -1,0 +1,37 @@
+{
+    "addr": "0x4fb663c1616bfe80b5b6d5a214efa81d5a121801",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HYIP.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "HYIP",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0d0778cdbcfc1de75c890bfd0156b99e",
+    "fp_runtime": "671c841fbde7926057d69cc0c9570f5b",
+    "fp_sol": "57b81bc4321c5de813de2f180395ce07",
+    "fp_sol2": "14d777726c9a5a1748216534a94bc314",
+    "id": "HYIP-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HYIP.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "D2GBToken",
+            "ERC20",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "358743a68227d29d21b03d85ba9ac696",
+    "fp_sol": "7b80433156a5af63aff67a765b80a194",
+    "fp_sol2": "f18a9a74ee5bbb18a6118920f79f97eb",
+    "id": "D2GBToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/D2GBToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/D2GBToken.sol"
+    ],
+    "sol_orig": true
+}

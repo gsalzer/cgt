@@ -1,0 +1,38 @@
+{
+    "addr": "0x36fc2821c1dba31ed04682b2277c89f33fd885b7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "LANDProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "3388d7704556e81f2a330de9a358cc04",
+    "fp_runtime": "8d280349e842ea8fac80a32486b108bf",
+    "fp_sol": "28dca0561dab75b138c497492ac369a9",
+    "fp_sol2": "939b1b0eba7ca12d362e45d24a9ba726",
+    "id": "LANDProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_LANDProxy.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LANDProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

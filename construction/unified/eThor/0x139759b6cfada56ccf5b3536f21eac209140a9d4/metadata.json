@@ -1,0 +1,37 @@
+{
+    "addr": "0x139759b6cfada56ccf5b3536f21eac209140a9d4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "Token",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "2b8c5fdc1c4c7623d643e03537818889",
+    "fp_runtime": "d501c5acfd50e939c27f6acb531d8d44",
+    "fp_sol": "f74464ec1f4663c077bee9fdaaa29056",
+    "fp_sol2": "5dc3945d184351943b769c5bc870fad2",
+    "id": "0x139759b6cfada56ccf5b3536f21eac209140a9d4",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

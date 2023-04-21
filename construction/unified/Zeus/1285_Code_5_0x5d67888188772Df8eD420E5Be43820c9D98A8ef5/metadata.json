@@ -1,0 +1,60 @@
+{
+    "addr": "0x5d67888188772df8ed420e5be43820c9d98a8ef5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "ICOCustomerDeposit",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "112d09c444af1b31aa9c681aafe80809",
+    "fp_runtime": "a332854d84fd225d5a02d884bfa0bc63",
+    "fp_sol": "7292adb8d9ce813fd36e7687738e3de2",
+    "fp_sol2": "d4a3190b43d20478eaf37e6ff97f6707",
+    "id": "1285_Code_5_0x5d67888188772Df8eD420E5Be43820c9D98A8ef5",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,42 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ERC20",
+            "HashRush",
+            "HashRushICO",
+            "Owned",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "3c0d55166cf021077815bdb2ef75c8d1",
+    "fp_sol": "64b3aa71d2bab8ead82685032f4ac6b1",
+    "fp_sol2": "9afb1cd200ab9deef158145fb850477a",
+    "id": "HashRushICO-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/HashRushICO.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/HashRushICO.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,2 @@
+{u'source_code/test1140.sol': {u'HelpMeTokenPart6': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test1140.sol:13:5: Warning: Integer Underflow.\n    string public symbol = ") AND THIS LETTER WILL BE LOST"', u'source_code/test1140.sol:12:5: Warning: Integer Underflow.\n    string public name = ") AND THIS LETTER WILL BE LOST"'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '72.6'}}}
+

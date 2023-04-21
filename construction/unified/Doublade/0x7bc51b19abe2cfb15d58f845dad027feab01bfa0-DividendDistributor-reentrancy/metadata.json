@@ -1,0 +1,37 @@
+{
+    "addr": "0x7bc51b19abe2cfb15d58f845dad027feab01bfa0",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "DividendDistributor",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "700611ffdeac68beec52f1f00402b9be",
+    "fp_runtime": "3b4d6e767815111cabf60a748749d70e",
+    "fp_sol": "07f78e7b43f9815be0c30556cf02d5c7",
+    "fp_sol2": "aa88bc635613112c80241cba6abcafdc",
+    "id": "0x7bc51b19abe2cfb15d58f845dad027feab01bfa0-DividendDistributor-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1928.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

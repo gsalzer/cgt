@@ -1,0 +1,39 @@
+{
+    "addr": "0x28a40acf39b1d3c932f42dd8068ad00a5ad6448f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_LudumToken.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "LudumToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "00d6170677412ff2d2d623d070809540",
+    "fp_runtime": "5bc6e48a10c5014793846a921a76fc8b",
+    "fp_sol": "2fb082696b83274b81c81f9f12bad6ed",
+    "fp_sol2": "99bc7177c8fece8bc72db3cf4251625e",
+    "id": "LudumToken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LudumToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

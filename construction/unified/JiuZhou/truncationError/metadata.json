@@ -1,0 +1,46 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Integer truncation",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "truncationError",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            20
+        ],
+        "BugName": "Truncation error",
+        "BugReason": "The truncation error occurs when a longer type is truncated to a shorter type, potentially resulting in a loss of accuracy.",
+        "ContractSource": "Osiris_Hunting for integer bugs in ethereum smart contracts"
+    },
+    "fp_bytecode": "26ac200fa8ae4fb5766f32c4c763f6e3",
+    "fp_runtime": "4c577339b77613928f41b7aafbc92925",
+    "fp_sol": "feda1a884bec87a72f8908de8e4e6bc4",
+    "fp_sol2": "3e5e6f4ec472636806aa9a999146db95",
+    "id": "truncationError",
+    "info": [
+        "info/1_CharacterDescription.json",
+        "info/2_readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/truncationError.sol"
+    ],
+    "sol_orig": true
+}

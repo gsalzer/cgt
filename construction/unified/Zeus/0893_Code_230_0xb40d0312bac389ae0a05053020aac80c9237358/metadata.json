@@ -1,0 +1,52 @@
+{
+    "addr": "0xb40d0312bac389ae0a05053020aac80c9237358b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-nightly.2016.8.8+commit.c3ed550",
+    "compiler_orig": false,
+    "contractname": "Etherization",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b3cc257676641abcaa741fa328f54ddb",
+    "fp_runtime": "2082bf78dcd3c00102676fbb064767f4",
+    "fp_sol": "19639693abc81de17442b5bc2f32d291",
+    "fp_sol2": "19639693abc81de17442b5bc2f32d291",
+    "id": "0893_Code_230_0xb40d0312bac389ae0a05053020aac80c9237358",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

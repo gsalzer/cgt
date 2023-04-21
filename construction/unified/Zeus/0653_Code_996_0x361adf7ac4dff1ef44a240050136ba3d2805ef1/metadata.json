@@ -1,0 +1,60 @@
+{
+    "addr": "0x361adf7ac4dff1ef44a240050136ba3d2805ef1c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.10+commit.f0d539ae",
+    "compiler_orig": false,
+    "contractname": "TestCert",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "e1650f0c0edf424c331e7d6b8d388095",
+    "fp_runtime": "a1ec6f491effe93070bb0d981ae1fa18",
+    "fp_sol": "fb127ea83d5fa83f82babb6d5c460a5d",
+    "fp_sol2": "fb127ea83d5fa83f82babb6d5c460a5d",
+    "id": "0653_Code_996_0x361adf7ac4dff1ef44a240050136ba3d2805ef1",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

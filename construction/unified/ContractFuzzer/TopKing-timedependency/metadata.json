@@ -1,0 +1,39 @@
+{
+    "addr": "0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TopKing.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "TopKing",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/TopKing.sol"
+    },
+    "fp_bytecode": "819b4e4b1a75a86e2667b4e950703fda",
+    "fp_runtime": "a920a4e72ae266164d68c27c2d172e9a",
+    "fp_sol": "f0cc245b44a751cbc1830693d6df857c",
+    "fp_sol2": "20058722a0afb6b14dd1de6548b2b2e5",
+    "id": "TopKing-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TopKing.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

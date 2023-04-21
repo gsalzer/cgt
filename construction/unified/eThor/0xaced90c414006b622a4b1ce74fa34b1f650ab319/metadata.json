@@ -1,0 +1,37 @@
+{
+    "addr": "0xaced90c414006b622a4b1ce74fa34b1f650ab319",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": true,
+    "contractname": "IndividualityToken",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "780353e7adb0bf29b6234d17fa3711d0",
+    "fp_runtime": "6c164af14db3086b14d0891c1cddc137",
+    "fp_sol": "745d5e6495ba738ec453cd8b4f66fc69",
+    "fp_sol2": "5ad49d12ff6f6619df485bafe075a525",
+    "id": "0xaced90c414006b622a4b1ce74fa34b1f650ab319",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

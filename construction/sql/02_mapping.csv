@@ -1,0 +1,195 @@
+dataset;property;swc;dasp
+CodeSmells;Block Info Dependency;120;6
+CodeSmells;Compiler Version not fixed;103;
+CodeSmells;Deprecated APIs;;
+CodeSmells;Dos Under external influence;113;5
+CodeSmells;Greedy Contract;997;
+CodeSmells;Hard Code Address;;
+CodeSmells;High Gas Consumption Data Type;;
+CodeSmells;High Gas Consumption Function Type;;
+CodeSmells;Misleading Data Location;;
+CodeSmells;Missing Interrupter;;
+CodeSmells;Missing Reminder;;
+CodeSmells;Missing Return statement;;
+CodeSmells;Nest Call;128;5
+CodeSmells;Reentrancy;107;1
+CodeSmells;strict balance equality;132;
+CodeSmells;Transaction state Dependency;115;2
+CodeSmells;Unchecked External Call;104;4
+CodeSmells;Unmatched ERC-20 standard;;
+CodeSmells;Unmatched type assignment;;
+CodeSmells;Unused statement;135;
+ContractFuzzer;delegatecall_dangerous;112;2
+ContractFuzzer;exception_disorder;104;4
+ContractFuzzer;freezing_ether;997;
+ContractFuzzer;gasless_send;134;5
+ContractFuzzer;numberdependency;120;6
+ContractFuzzer;reentrancy;107;1
+ContractFuzzer;timedependency;116;8
+Doublade;lowlevelcall_result;104;4
+Doublade;reentrancy;107;1
+Doublade;selfdestruct_result;132;
+Doublade;tx_result;115;2
+Doublade;unexpectedrevert_result;113;5
+eThor;reentrancy;107;1
+EthRacer;EO offchain;114;7
+EthRacer;EO onchain;114;7
+EverEvolvingG;airdrop-hunting;;
+EverEvolvingG;call-after-destruct;;
+EverEvolvingG;honeypot;996;
+EverEvolvingG;integer-overflow;101;3
+EverEvolvingG;reentrancy;107;1
+JiuZhou;Any type of specified function variable;127;
+JiuZhou;byte[];;
+JiuZhou;Change the contract status in the view or constant function;;
+JiuZhou;Complex fallback function;;5
+JiuZhou;continue in do-while;;
+JiuZhou;DOS by gaslimit;128;5
+JiuZhou;DOS by non-existent address or contract;113;5
+JiuZhou;Forced accept ethers;132;
+JiuZhou;Hash Collisions With Multiple Variable Length Arguments;133;
+JiuZhou;Hidden built-in symbols;;
+JiuZhou;Hide state variables;119;
+JiuZhou;Implicit visibility level;108;
+JiuZhou;Improper use of assert;110;
+JiuZhou;Improper use of require;123;
+JiuZhou;Improper use of revert;;
+JiuZhou;Incorrect inheritance order;125;
+JiuZhou;Integer division;999;3
+JiuZhou;integer overflow and underflow;101;3
+JiuZhou;Integer signedness;999;3
+JiuZhou;Integer truncation;999;3
+JiuZhou;Invariant in loop;;
+JiuZhou;Invariant is not declared constant;;
+JiuZhou;Locked money;997;
+JiuZhou;Non-public variables are accessed by public or external function;136;
+JiuZhou;Non-standard naming;;
+JiuZhou;Nonstandard token interface;;
+JiuZhou;Pre-sent ether;132;
+JiuZhou;Public data;136;
+JiuZhou;Randomness affected by miners;120;6
+JiuZhou;Re-entrancy vulnerability;107;1
+JiuZhou;Removes dynamic array elements;;
+JiuZhou;Replay attack;117;2
+JiuZhou;Right-To-Left-Overridecontrolcharacter (U+202E);130;
+JiuZhou;Short address attack;995;9
+JiuZhou;Signature with wrong parameter;;
+JiuZhou;Storage overlap attack;124;2
+JiuZhou;Suicidal contract;106;2
+JiuZhou;The call address or data are externally controlled;112;2
+JiuZhou;Time affected by miners;116;8
+JiuZhou;too many digits;;
+JiuZhou;Transaction order dependence;114;7
+JiuZhou;Txorigin for authentication;115;2
+JiuZhou;Unhandled exceptions;104;4
+JiuZhou;Uninitialized local variables;;
+JiuZhou;Uninitialized state variables;109;
+JiuZhou;Uninitialized storage variable;109;
+JiuZhou;Unlimited compiler versions;103;
+JiuZhou;Unused public functions within a contract should be declared external;;
+JiuZhou;Use assembly code return in the constructor;996;
+JiuZhou;Use deprecated built-in symbols;111;
+JiuZhou;Wasteful contract;105;2
+JiuZhou;Write the wrong constructor name;118;2
+JiuZhou;Wrong operator;129;
+NotSoSmartC;Honeypot Balance disorder;996;
+NotSoSmartC;Honeypot Hidden state update;996;
+NotSoSmartC;Honeypot Inheritance disorder;996;
+NotSoSmartC;Honeypot Straw man contract;996;
+NotSoSmartC;Honeypot Type overflow;996;
+NotSoSmartC;Honeypot Uninitialised struct;996;
+NotSoSmartC;Incorrect interface;;
+NotSoSmartC;SWC-101;101;3
+NotSoSmartC;SWC-104;104;4
+NotSoSmartC;SWC-107;107;1
+NotSoSmartC;SWC-113;113;5
+NotSoSmartC;SWC-114;114;7
+NotSoSmartC;SWC-118;118;2
+NotSoSmartC;SWC-119;119;
+NotSoSmartC;SWC-120;120;6
+NotSoSmartC;SWC-124;124;2
+NotSoSmartC;SWC-128;128;5
+NotSoSmartC;SWC-132;132;
+NPChecker;Failed Call;113;5
+NPChecker;Reentrancy;107;1
+NPChecker;System Property Dependence;120;6
+NPChecker;TOD;114;7
+NPChecker;Unchecked Call;104;4
+SBcurated;access_control-105;105;2
+SBcurated;access_control-106;106;2
+SBcurated;access_control-112;112;2
+SBcurated;access_control-115;115;2
+SBcurated;access_control-118;118;2
+SBcurated;access_control-124;124;2
+SBcurated;arithmetic;101;3
+SBcurated;bad_randomness;120;6
+SBcurated;denial_of_service-113;113;5
+SBcurated;denial_of_service-128;128;5
+SBcurated;front_running;114;7
+SBcurated;other-109;109;
+SBcurated;reentrancy;107;1
+SBcurated;short_addresses;995;9
+SBcurated;time_manipulation;116;8
+SBcurated;unchecked_low_level_calls;104;4
+SolidiFI;Overflow-Underflow;101;3
+SolidiFI;Re-entrancy;107;1
+SolidiFI;Timestamp-Dependency;116;8
+SolidiFI;TOD;114;7
+SolidiFI;tx.origin;115;2
+SolidiFI;Unchecked-Send;105;2
+SolidiFI;Unhandled-Exceptions;104;4
+SWCregistry;SWC-100;100;
+SWCregistry;SWC-101;101;3
+SWCregistry;SWC-102;102;
+SWCregistry;SWC-103;103;
+SWCregistry;SWC-104;104;4
+SWCregistry;SWC-105;105;2
+SWCregistry;SWC-106;106;2
+SWCregistry;SWC-107;107;1
+SWCregistry;SWC-108;108;
+SWCregistry;SWC-109;109;
+SWCregistry;SWC-110;110;
+SWCregistry;SWC-111;111;
+SWCregistry;SWC-112;112;2
+SWCregistry;SWC-113;113;5
+SWCregistry;SWC-114;114;7
+SWCregistry;SWC-115;115;2
+SWCregistry;SWC-116;116;8
+SWCregistry;SWC-117;117;2
+SWCregistry;SWC-118;118;2
+SWCregistry;SWC-119;119;
+SWCregistry;SWC-120;120;6
+SWCregistry;SWC-123;123;
+SWCregistry;SWC-124;124;2
+SWCregistry;SWC-125;125;
+SWCregistry;SWC-126;126;5
+SWCregistry;SWC-127;127;
+SWCregistry;SWC-128;128;5
+SWCregistry;SWC-129;129;
+SWCregistry;SWC-130;130;
+SWCregistry;SWC-131;131;
+SWCregistry;SWC-132;132;
+SWCregistry;SWC-133;133;
+SWCregistry;SWC-134;134;5
+SWCregistry;SWC-135;135;
+SWCregistry;SWC-136;136;
+Zeus;Blk_State_Dep;120;6
+Zeus;Failed_send;113;5
+Zeus;Int_overflow;101;3
+Zeus;Reentrancy;107;1
+Zeus;Tx_Order_Dep;114;7
+Zeus;Tx_State_Dep;115;2
+Zeus;Unchkd_send;104;4
+TUW22;ArithmeticBug;101;3
+TUW22;BalanceEquality;132;
+TUW22;BlockInfoDependency;120;6
+TUW22;Delegatecall;112;2
+TUW22;ExternallyForcedFail;113;5
+TUW22;LockedEther;997;
+TUW22;LockedEtherWeak;997;
+TUW22;Origin;115;2
+TUW22;Reentrancy;107;1
+TUW22;Selfdestruct;106;2
+TUW22;TOD;114;7
+TUW22;UncheckedReturnValue;104;4
+TUW22;Withdraw_send;105;2

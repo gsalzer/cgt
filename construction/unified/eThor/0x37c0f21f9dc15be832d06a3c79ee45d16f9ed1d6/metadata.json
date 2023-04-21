@@ -1,0 +1,37 @@
+{
+    "addr": "0x37c0f21f9dc15be832d06a3c79ee45d16f9ed1d6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.3+commit.2353da71",
+    "compiler_orig": true,
+    "contractname": "AiraRegistrarService",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "bc41a805602a4e4011dc18c8703a120e",
+    "fp_runtime": "6b7811cbbf7cca083e6313b5b5042932",
+    "fp_sol": "96c7dabea735bea5a739e07fab0a34ce",
+    "fp_sol2": "8253880571c033f5369e60e3ec7aa6e4",
+    "id": "0x37c0f21f9dc15be832d06a3c79ee45d16f9ed1d6",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

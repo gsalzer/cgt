@@ -1,0 +1,60 @@
+{
+    "addr": "0xe34af3096b86cd2be270de183f5d85f9f23e4193",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "FederatedOracleBytes8",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "d7125d6bf7ff0e8bcff9fcaee961ebb0",
+    "fp_runtime": "909cd6bab511a46ed6ebd87a6d1992da",
+    "fp_sol": "26f8be1c92078220de7f8c9de26398b3",
+    "fp_sol2": "9c46ec3be6cf45b72a1fe2ff7a53aaad",
+    "id": "0935_Code_1053_0xe34af3096b86cd2be270de183f5d85f9f23e419",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

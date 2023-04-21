@@ -1,0 +1,751 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getPrices has external calls inside a loop: \"i < moneyMarket.getCollateralMarketsLength()\" (reorder_contracts_2_3/test2830.sol#69-71)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < moneyMarket.getCollateralMarketsLength()",
+            "source_mapping": {
+              "start": 3575,
+              "length": 168,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                69,
+                70,
+                71
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getPrices",
+                "source_mapping": {
+                  "start": 3507,
+                  "length": 272,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getPrices()"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getPrices has external calls inside a loop: \"tokenPrices.push(moneyMarket.assetPrices(moneyMarket.collateralMarkets(i)))\" (reorder_contracts_2_3/test2830.sol#70)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenPrices.push(moneyMarket.assetPrices(moneyMarket.collateralMarkets(i)))",
+            "source_mapping": {
+              "start": 3656,
+              "length": 75,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                70
+              ],
+              "starting_column": 13,
+              "ending_column": 88
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getPrices",
+                "source_mapping": {
+                  "start": 3507,
+                  "length": 272,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getPrices()"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getTokenHolding has external calls inside a loop: \"i < moneyMarket.getCollateralMarketsLength()\" (reorder_contracts_2_3/test2830.sol#76-78)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < moneyMarket.getCollateralMarketsLength()",
+            "source_mapping": {
+              "start": 3879,
+              "length": 179,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                76,
+                77,
+                78
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokenHolding",
+                "source_mapping": {
+                  "start": 3787,
+                  "length": 308,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokenHolding(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getTokenHolding has external calls inside a loop: \"tokenHolding.push(EIP20Interface(moneyMarket.collateralMarkets(i)).balanceOf(account))\" (reorder_contracts_2_3/test2830.sol#77)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenHolding.push(EIP20Interface(moneyMarket.collateralMarkets(i)).balanceOf(account))",
+            "source_mapping": {
+              "start": 3960,
+              "length": 86,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                77
+              ],
+              "starting_column": 13,
+              "ending_column": 99
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokenHolding",
+                "source_mapping": {
+                  "start": 3787,
+                  "length": 308,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokenHolding(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getBalances has external calls inside a loop: \"i < moneyMarket.getCollateralMarketsLength()\" (reorder_contracts_2_3/test2830.sol#83-86)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < moneyMarket.getCollateralMarketsLength()",
+            "source_mapping": {
+              "start": 4215,
+              "length": 290,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                83,
+                84,
+                85,
+                86
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getBalances",
+                "source_mapping": {
+                  "start": 4103,
+                  "length": 650,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getBalances(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getBalances has external calls inside a loop: \"supplyBalances.push(moneyMarket.getSupplyBalance(account,moneyMarket.collateralMarkets(i)))\" (reorder_contracts_2_3/test2830.sol#84)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "supplyBalances.push(moneyMarket.getSupplyBalance(account,moneyMarket.collateralMarkets(i)))",
+            "source_mapping": {
+              "start": 4294,
+              "length": 92,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                84
+              ],
+              "starting_column": 13,
+              "ending_column": 105
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getBalances",
+                "source_mapping": {
+                  "start": 4103,
+                  "length": 650,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getBalances(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getBalances has external calls inside a loop: \"borrowBalances.push(moneyMarket.getBorrowBalance(account,moneyMarket.collateralMarkets(i)))\" (reorder_contracts_2_3/test2830.sol#85)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "borrowBalances.push(moneyMarket.getBorrowBalance(account,moneyMarket.collateralMarkets(i)))",
+            "source_mapping": {
+              "start": 4401,
+              "length": 92,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_relative": "reorder_contracts_2_3/test2830.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+              "filename_short": "reorder_contracts_2_3/test2830.sol",
+              "lines": [
+                85
+              ],
+              "starting_column": 13,
+              "ending_column": 105
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getBalances",
+                "source_mapping": {
+                  "start": 4103,
+                  "length": 650,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                  "filename_short": "reorder_contracts_2_3/test2830.sol",
+                  "lines": [
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1502,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2830.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2830.sol",
+                      "filename_short": "reorder_contracts_2_3/test2830.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getBalances(address)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

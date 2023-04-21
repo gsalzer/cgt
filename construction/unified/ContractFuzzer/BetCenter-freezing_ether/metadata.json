@@ -1,0 +1,44 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "Bet",
+            "BetCenter",
+            "DataCenterAddrResolverInterface",
+            "DataCenterBridge",
+            "DataCenterInterface",
+            "Ownable",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "a67a1dee656c91972692382f321ba013",
+    "fp_sol": "78e5795b1aec237965b1bd31dda16d73",
+    "fp_sol2": "81e71bdad1084879f80fbffc22016028",
+    "id": "BetCenter-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/BetCenter.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BetCenter.sol"
+    ],
+    "sol_orig": true
+}

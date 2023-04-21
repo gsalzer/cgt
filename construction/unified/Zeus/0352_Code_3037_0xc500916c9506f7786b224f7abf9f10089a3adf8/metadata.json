@@ -1,0 +1,60 @@
+{
+    "addr": "0xc500916c9506f7786b224f7abf9f10089a3adf8c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": false,
+    "contractname": "ConnectSix",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "5ebbb98b8f42216f7168add35f45c589",
+    "fp_runtime": "83136ac9672d406d16a7684307c4b9fa",
+    "fp_sol": "b706d5ae1c4c4f5a607d61a95f6bd0a8",
+    "fp_sol2": "b706d5ae1c4c4f5a607d61a95f6bd0a8",
+    "id": "0352_Code_3037_0xc500916c9506f7786b224f7abf9f10089a3adf8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

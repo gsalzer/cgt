@@ -1,0 +1,38 @@
+{
+    "addr": "0x7600431745bd5bb27315f8376971c81cc8026a78",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "BMPre_ICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "70bbb66b4126ae0a2846e698f2ac129d",
+    "fp_runtime": "ce5d672d8efdfd8f40be8746a07c0289",
+    "fp_sol": "e7442bc592d06003d138f7278d3853bf",
+    "fp_sol2": "956168a43877155a1677d671acfae845",
+    "id": "BMPre_ICO-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_BMPre_ICO.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BMPre_ICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

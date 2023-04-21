@@ -1,0 +1,39 @@
+{
+    "addr": "0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_PrivateBank.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PrivateBank",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "7affbca0a7d0e3ccc1f9417d756f9285",
+    "fp_runtime": "32ae291452b953c71d7728749eeffd26",
+    "fp_sol": "db51cfe3fb4a3646a38c5b5f6e018685",
+    "fp_sol2": "edb1a15b2c8f335da4649c17f56450a2",
+    "id": "PrivateBank-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PrivateBank.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

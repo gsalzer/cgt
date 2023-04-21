@@ -1,0 +1,2 @@
+{u'source_code/test3232.sol': {u'Bursa': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test3232.sol:43:5: Warning: Integer Overflow.\n    funds[msg.sender] += msg.value\nInteger Overflow occurs if:\n    funds[msg.sender] = 1\n    updateAvailable = 0'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '16.8'}}}
+

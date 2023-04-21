@@ -1,0 +1,37 @@
+{
+    "addr": "0xbe46324018124b2d604c2f3eae91d3de9b388b09",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.1-2016-01-30-91a6b35",
+    "compiler_orig": true,
+    "contractname": "RobinHoodPonzi",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "615fbd5f00f189fb00e3be3be3a425ea",
+    "fp_runtime": "2352d00e9ce0b75125e90bc58dddcdd1",
+    "fp_sol": "7ab4de415830eadd81f28d9ee66afcb8",
+    "fp_sol2": "7ab4de415830eadd81f28d9ee66afcb8",
+    "id": "0xbe46324018124b2d604c2f3eae91d3de9b388b09",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

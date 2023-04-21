@@ -1,0 +1,62 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '863ddbe2c961ea9b9158ca7db464527665caa957', 'name': 'transfer', 'tx_input': 'a9059cbb000000000000000000000000d912bf6bb951a630bfe44f4421973efbe7f2767e0000000000000000000000000000000000000000000000000000000000000001'}
+1 : {'tx_caller': '863ddbe2c961ea9b9158ca7db464527665caa957', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000863ddbe2c961ea9b9158ca7db464527665caa95700000000000000000000000000000000000000000002e7e01ea00e1440000000'}
+2 : {'tx_caller': '863ddbe2c961ea9b9158ca7db464527665caa957', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000863ddbe2c961ea9b9158ca7db464527665caa957000000000000000000000000b56426c6e3cc0078d5f41dab5c3b74ce501bd80200000000000000000000000000000000000000000002e7e01ea00e1440000000'}
+3 : {'tx_caller': '863ddbe2c961ea9b9158ca7db464527665caa957', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000863ddbe2c961ea9b9158ca7db464527665caa9570000000000000000000000000000000000000000002b60000000000000000000'}
+4 : {'tx_caller': '863ddbe2c961ea9b9158ca7db464527665caa957', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000863ddbe2c961ea9b9158ca7db464527665caa957000000000000000000000000863ddbe2c961ea9b9158ca7db464527665caa9570000000000000000000000000000000000000000002b60000000000000000000'}
+--------------------------------------------------------------------------------
+
+Full traces: 17
+--------------------------------------------------------------------------------
+1 3 2   :  approve approve transferFrom 
+1 2 3   :  approve transferFrom approve 
+------------------------------------------------------------
+1 0 3 2   :  approve transfer approve transferFrom 
+1 2 0 3   :  approve transferFrom transfer approve 
+------------------------------------------------------------
+1 0 3 2   :  approve transfer approve transferFrom 
+1 2 3 0   :  approve transferFrom approve transfer 
+------------------------------------------------------------
+1 0 3 2   :  approve transfer approve transferFrom 
+0 1 2 3   :  transfer approve transferFrom approve 
+------------------------------------------------------------
+1 0 3 2   :  approve transfer approve transferFrom 
+1 0 2 3   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+1 2 0 3   :  approve transferFrom transfer approve 
+1 3 0 2   :  approve approve transfer transferFrom 
+------------------------------------------------------------
+1 2 0 3   :  approve transferFrom transfer approve 
+1 3 2 0   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+1 2 0 3   :  approve transferFrom transfer approve 
+0 1 3 2   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+1 3 0 2   :  approve approve transfer transferFrom 
+1 2 3 0   :  approve transferFrom approve transfer 
+------------------------------------------------------------
+1 3 0 2   :  approve approve transfer transferFrom 
+0 1 2 3   :  transfer approve transferFrom approve 
+------------------------------------------------------------
+1 3 0 2   :  approve approve transfer transferFrom 
+1 0 2 3   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+1 2 3 0   :  approve transferFrom approve transfer 
+1 3 2 0   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+1 2 3 0   :  approve transferFrom approve transfer 
+0 1 3 2   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+0 1 2 3   :  transfer approve transferFrom approve 
+1 3 2 0   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+0 1 2 3   :  transfer approve transferFrom approve 
+0 1 3 2   :  transfer approve approve transferFrom 
+------------------------------------------------------------
+1 3 2 0   :  approve approve transferFrom transfer 
+1 0 2 3   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+0 1 3 2   :  transfer approve approve transferFrom 
+1 0 2 3   :  approve transfer transferFrom approve 
+------------------------------------------------------------

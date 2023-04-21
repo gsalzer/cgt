@@ -1,0 +1,35 @@
+{
+    "addr": "0x3a0f80762a4e9f54ebac707a03406c52a28c4b2b",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "ERC721_token",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "f60a66adc3931552974c62e5a448131a",
+    "fp_sol": "e7e14a0cc4db1fd170b5f4424ec2ebbd",
+    "fp_sol2": "04a5794954a580b9343e59575df5a33d",
+    "id": "ERC721_token-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/ERC721_token.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_ERC721_token.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

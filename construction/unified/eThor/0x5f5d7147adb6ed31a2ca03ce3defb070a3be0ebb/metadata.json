@@ -1,0 +1,37 @@
+{
+    "addr": "0x5f5d7147adb6ed31a2ca03ce3defb070a3be0ebb",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.1+commit.4fc6fc2c",
+    "compiler_orig": true,
+    "contractname": "EtherLovers",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "ee3090104bd3ff77a5fb8f412b59187c",
+    "fp_runtime": "613dce5d8f776431d2cc0de47b9331fc",
+    "fp_sol": "920ec53e51a9724286fc749adc496cfc",
+    "fp_sol2": "b2142e7ea94bc04fcef9256e0aafd1de",
+    "id": "0x5f5d7147adb6ed31a2ca03ce3defb070a3be0ebb",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

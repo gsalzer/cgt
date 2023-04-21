@@ -1,0 +1,37 @@
+{
+    "addr": "0x1c3c643f49be262c3040e917e7d2299b9bc081a1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "EventInfo",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "3fb5c2f9a8782b4109b29011358854b4",
+    "fp_runtime": "cec747a271236f0a9b6d7c30301ef781",
+    "fp_sol": "9b71a9af2358963b46a92c2b3cc864b1",
+    "fp_sol2": "329a5855107c73ea92d7f760ef388e0b",
+    "id": "0x1c3c643f49be262c3040e917e7d2299b9bc081a1",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "access_control-115",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "MyContract",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://consensys.github.io/smart-contract-best-practices/recommendations/#avoid-using-txorigin"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "f0bedafeb5ee2a1e1a7968e5498f67c3",
+    "fp_sol2": "5c0b60f42a26121838f2002acf14aca6",
+    "id": "mycontract",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/mycontract.sol"
+    ],
+    "sol_orig": true
+}

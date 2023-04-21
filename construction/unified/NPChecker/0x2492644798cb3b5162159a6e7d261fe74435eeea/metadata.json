@@ -1,0 +1,54 @@
+{
+    "addr": "0x2492644798cb3b5162159a6e7d261fe74435eeea",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "ProofOfLove",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "361a3d512b92c96d46a7f0f30f7ec715",
+    "fp_runtime": "44a38537aed1e005f0dfdab498328088",
+    "fp_sol": "26a24e0252cad60955eefe3095b60678",
+    "fp_sol2": "5f34f68a8dc3f0c6c822b0d483e01546",
+    "id": "0x2492644798cb3b5162159a6e7d261fe74435eeea",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

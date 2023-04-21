@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ERC20",
+            "SafeMath",
+            "ggToken",
+            "ggbank"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "dbed0a28b69775edfe558a630a086605",
+    "fp_sol": "241391b6517fcc0ee32a15c1833911ac",
+    "fp_sol2": "9462fd678979c304864835fdf2499926",
+    "id": "ggbank-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/ggbank.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/ggbank.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,54 @@
+{
+    "addr": "0xf1101db4c9dd26bdace9bc7e30393f80c7b5e6c6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-19-427deb4",
+    "compiler_orig": false,
+    "contractname": "MyReplaySafeProxy",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "a13a8f1060619ba56d4f124d3afb94ab",
+    "fp_runtime": "c50753e4e93019e78e337752b7c01ce3",
+    "fp_sol": "980a03b6d6e414c7b32e3fa0b883b176",
+    "fp_sol2": "980a03b6d6e414c7b32e3fa0b883b176",
+    "id": "0xf1101db4c9dd26bdace9bc7e30393f80c7b5e6c6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x038cf0fe8b400538211b0cdc2dbf4e9a8a36bda4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "Multiplexer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "73d2d361015ef9883aaf97e6cc48ba2e",
+    "fp_runtime": "9940c70940a72bef1a011277af41d6ac",
+    "fp_sol": "513fc960972bc7d29aeb3ee6ee5a96b9",
+    "fp_sol2": "5606cb3be73852123138ef2c1775cff7",
+    "id": "0x038cf0fe8b400538211b0cdc2dbf4e9a8a36bda4-Multiplexer-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test61.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

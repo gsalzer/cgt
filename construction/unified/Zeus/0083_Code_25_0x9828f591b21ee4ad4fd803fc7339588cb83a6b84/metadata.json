@@ -1,0 +1,60 @@
+{
+    "addr": "0x9828f591b21ee4ad4fd803fc7339588cb83a6b84",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "BirthdayGift",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "87149fc33a6049ccbbdd304bf6b16c48",
+    "fp_runtime": "fc588183fc761a9254d7592312d15a08",
+    "fp_sol": "06fe728bc19e2352958e926030efa89e",
+    "fp_sol2": "06fe728bc19e2352958e926030efa89e",
+    "id": "0083_Code_25_0x9828f591b21ee4ad4fd803fc7339588cb83a6b84",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

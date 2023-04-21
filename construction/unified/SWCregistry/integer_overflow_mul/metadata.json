@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-101",
+            true
+        ]
+    ],
+    "compiler": "0.4.25+commit.59dbf8f1.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "IntegerOverflowMul",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "b8335558507f660da8f4c4f2c906ff4b",
+    "fp_runtime": "e4688e6a9f9b925603e0d63d03a31c43",
+    "fp_sol": "d500badaaa785a2588259a6625923c70",
+    "fp_sol2": "3fc322c483945bfe69a373c15cde910d",
+    "id": "integer_overflow_mul",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/integer_overflow_mul.sol"
+    ],
+    "sol_orig": true
+}

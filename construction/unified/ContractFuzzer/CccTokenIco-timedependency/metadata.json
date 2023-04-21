@@ -1,0 +1,37 @@
+{
+    "addr": "0x6651562d6251953dbee83d80c4014eb3f4c00f55",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CccTokenIco.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "CccTokenIco",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "6250c2dce62ffb6403c7c44b3ef976fc",
+    "fp_runtime": "40d23efb6fc6370585e332bc1500491d",
+    "fp_sol": "d486b1fc35b51588fbe7d72d76b0b005",
+    "fp_sol2": "7446137cc1d451f71aa53c888e5a241e",
+    "id": "CccTokenIco-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CccTokenIco.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x22a3b451d60a72388a37c97bc517e44ad76a50f7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "BountyToken",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "5db5d84e80ba4462ae1416d30fbfee80",
+    "fp_runtime": "5738344401a2e4038e64975e77c3847c",
+    "fp_sol": "4937d757829b8e134bb0c438a3f20a4e",
+    "fp_sol2": "f15c05a902540b4c88ef07a57f75d449",
+    "id": "0120_Code_698_0x22a3b451d60a72388a37c97bc517e44ad76a50f",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x0feb3ce318e239a230383fd3484fa1018e1efaa0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Forwarder.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16-nightly.2017.8.11+commit.c84de7fa",
+    "compiler_orig": false,
+    "contractname": "Forwarder",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "8e1d9f198e4f4015cea0c75fbc004945",
+    "fp_runtime": "8a2970705016abcc48b43cb6458b3e80",
+    "fp_sol": "36ee840ee2c730b0dd466462fb94221d",
+    "fp_sol2": "2b74129e90f8bd0d2a9057afce06a56e",
+    "id": "Forwarder-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Forwarder.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

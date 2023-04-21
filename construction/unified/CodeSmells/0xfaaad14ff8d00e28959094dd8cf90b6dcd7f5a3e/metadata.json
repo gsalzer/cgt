@@ -1,0 +1,119 @@
+{
+    "addr": "0xfaaad14ff8d00e28959094dd8cf90b6dcd7f5a3e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            true
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            true
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            false
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "LamborneCoin",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0xfaaad14ff8d00e28959094dd8cf90b6dcd7f5a3e",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "a91c75ac9e8f9012fd32f556cac19a7e",
+    "fp_runtime": "acfc2d943ccc5327e942625aca2e7f72",
+    "fp_sol": "380a1d2cfd2a45c5ccb55db0c46ecfac",
+    "fp_sol2": "703daca5a2f6d417818f39e78006ccca",
+    "id": "0xfaaad14ff8d00e28959094dd8cf90b6dcd7f5a3e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

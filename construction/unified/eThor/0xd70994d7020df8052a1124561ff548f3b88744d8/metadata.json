@@ -1,0 +1,37 @@
+{
+    "addr": "0xd70994d7020df8052a1124561ff548f3b88744d8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "DappReg",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "e1072af0d0ddfefa232b51e69c4f3ff4",
+    "fp_runtime": "d41fcc6decf2136f150c936c85fc7365",
+    "fp_sol": "8091742e24d2a27c9ce511f66d83747e",
+    "fp_sol2": "f7375e2a226fc1e48a195cbe97026d37",
+    "id": "0xd70994d7020df8052a1124561ff548f3b88744d8",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

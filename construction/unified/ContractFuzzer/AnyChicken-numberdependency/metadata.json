@@ -1,0 +1,38 @@
+{
+    "addr": "0xbd9dc7d3a4b0f6777ba79f5d52ff2cc27688c45d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "AnyChicken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a5b0e87bfe12fd8dc8e7207aa822ba7a",
+    "fp_runtime": "a9dba30d9967b521eb27ab1423d08064",
+    "fp_sol": "247b3fa1cda607f4deeaafbae42a024b",
+    "fp_sol2": "2afd45273a28172af0b10a164c161e58",
+    "id": "AnyChicken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_AnyChicken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AnyChicken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,54 @@
+{
+    "addr": "0x25006dde085bb2864ca77ae00a058461e7ab84d4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "IntermediateWallet",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "fallback can be TOD                                                                          "
+    },
+    "fp_bytecode": "4dbcf07058ee9bb7aebf6d0ea87f1530",
+    "fp_runtime": "5916369439920cfb4f48a74dbf1f8974",
+    "fp_sol": "75dbc241bd72aed63cd2e92fd18b39db",
+    "fp_sol2": "b54c714a159042fbf28f6a92c7d758e6",
+    "id": "0x25006dde085bb2864ca77ae00a058461e7ab84d4",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

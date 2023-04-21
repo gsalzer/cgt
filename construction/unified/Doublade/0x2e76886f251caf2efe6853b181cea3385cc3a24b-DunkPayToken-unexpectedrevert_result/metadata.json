@@ -1,0 +1,37 @@
+{
+    "addr": "0x2e76886f251caf2efe6853b181cea3385cc3a24b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "DunkPayToken",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "bcea2e6ba51f5352c7f9409b344013e2",
+    "fp_runtime": "861f72ea734b985949aa1ccffc280920",
+    "fp_sol": "9026895702b6612677052213f3b8c5de",
+    "fp_sol2": "5896cd87a7955ccc58c857b4905d2d4c",
+    "id": "0x2e76886f251caf2efe6853b181cea3385cc3a24b-DunkPayToken-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test735.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

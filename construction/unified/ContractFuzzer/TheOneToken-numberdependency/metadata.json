@@ -1,0 +1,38 @@
+{
+    "addr": "0x44731a7649df116b65a805d82f25bc954f97fb38",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "TheOneToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a37881a01cb9b054bdf24dcdfd9f9046",
+    "fp_runtime": "198bf9978543a65fdd4ded03a7b7bdd7",
+    "fp_sol": "4cd64a48322397911bef58ddf0d21967",
+    "fp_sol2": "3e41f7769060cd2ca024a4a37dc440dd",
+    "id": "TheOneToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_TheOneToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TheOneToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

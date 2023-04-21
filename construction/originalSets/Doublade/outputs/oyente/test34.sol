@@ -1,0 +1,2 @@
+{u'source_code/test34.sol': {u'Creator': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test34.sol:2:5: Warning: Integer Overflow.\n    function newContract(bytes data) public returns (address) {\r\n    ^\nSpanning multiple lines.\nInteger Overflow occurs if:\n    data = 115792089237316195423570985008687907853269984665640564039457584007913129639935'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '42.1'}}}
+

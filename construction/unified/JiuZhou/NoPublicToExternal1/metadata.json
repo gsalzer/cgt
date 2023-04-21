@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Unused public functions within a contract should be declared external",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "NoWaste",
+            "NoWasteSon"
+        ]
+    },
+    "fp_bytecode": "94ed71d65fb3681d8401e47f382cde6b",
+    "fp_runtime": "bdd40d8c113c20782a93ee4089a6d0e8",
+    "fp_sol": "c40c91a763306caa3ada5c1a3e216bda",
+    "fp_sol2": "71f220ff15239c8550b7cc5ab07d9614",
+    "id": "NoPublicToExternal1",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoPublicToExternal1.sol"
+    ],
+    "sol_orig": true
+}

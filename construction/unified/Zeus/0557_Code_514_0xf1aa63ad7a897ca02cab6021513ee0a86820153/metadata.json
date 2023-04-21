@@ -1,0 +1,60 @@
+{
+    "addr": "0xf1aa63ad7a897ca02cab6021513ee0a86820153e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": false,
+    "contractname": "EthVenturePlugin",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "5b6fe75980e80946b95fae685f5a66e6",
+    "fp_runtime": "721ca85dc1a4905b8526787344ee750a",
+    "fp_sol": "122b525afcf7856fb49713ec903fab2a",
+    "fp_sol2": "122b525afcf7856fb49713ec903fab2a",
+    "id": "0557_Code_514_0xf1aa63ad7a897ca02cab6021513ee0a86820153",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

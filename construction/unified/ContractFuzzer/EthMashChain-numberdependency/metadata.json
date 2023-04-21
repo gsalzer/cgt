@@ -1,0 +1,38 @@
+{
+    "addr": "0x7bb936f496884c52d21df7b9b93bed14d7c24a3c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.22+commit.4cb486ee",
+    "compiler_orig": false,
+    "contractname": "EthMashChain",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "51972ad1ebe8946ae69d51376d1897d6",
+    "fp_runtime": "88f0a6d4ee3240f75fafc2f28fc060ae",
+    "fp_sol": "f83993ba0069837b60e858aa33c9d746",
+    "fp_sol2": "95c5b8878cefe5e23d4c5c2aefb1ce7e",
+    "id": "EthMashChain-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_EthMashChain.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_EthMashChain.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

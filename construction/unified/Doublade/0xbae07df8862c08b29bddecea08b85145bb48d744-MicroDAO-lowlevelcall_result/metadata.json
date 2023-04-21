@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "lowlevelcall_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "MicroDAO",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xbae07df8862c08b29bddecea08b85145bb48d744",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xbae07df8862c08b29bddecea08b85145bb48d744",
+            "main",
+            "SpendingRequest"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "8ed59211ad5154c0693429cfd0999b57",
+    "fp_sol2": "8ed59211ad5154c0693429cfd0999b57",
+    "id": "0xbae07df8862c08b29bddecea08b85145bb48d744-MicroDAO-lowlevelcall_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2846.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

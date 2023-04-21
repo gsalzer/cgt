@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "lowlevelcall_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "Vote",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x0b6f6e073a08ab8fd458527c47ed83982ff26851",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x0b6f6e073a08ab8fd458527c47ed83982ff26851",
+            "main",
+            "VoteFactory"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "f2b8c0b15df22bf7e282bd41d2d081ba",
+    "fp_sol2": "53a3640b34ea2d5e35bee3e219af5206",
+    "id": "0x0b6f6e073a08ab8fd458527c47ed83982ff26851-Vote-lowlevelcall_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test170.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

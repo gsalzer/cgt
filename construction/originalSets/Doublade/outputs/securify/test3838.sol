@@ -1,0 +1,13 @@
+Processing contract: /home/jiaming/mavs_srcs/contract@0xfcfcd3a16f6a583d40dad71e6fc2e3f50f0b31cf.sol:SmartNinja_2
+  Attempt to decompile the contract with methods...
+  Failed to decompile methods. Attempt to decompile the contract without identifying methods...
+  Propagating constants...
+  Verifying patterns...
+[33mWarning[0m for LockedEther in contract 'SmartNinja_2':
+    |pragma solidity ^0.4.24;
+  > |contract SmartNinja_2 {
+    |    string IPAA = "2f1c3835cef58f1b8384bc7632af686f32b41467ec34a77644f1edc489456670";
+    |}
+  at /home/jiaming/mavs_srcs/contract@0xfcfcd3a16f6a583d40dad71e6fc2e3f50f0b31cf.sol(2)
+
+

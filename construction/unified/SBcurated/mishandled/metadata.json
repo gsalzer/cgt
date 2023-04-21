@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "SendBack",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/mishandled.sol"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "914172cd9a4220f4edd2f53ac1c140fe",
+    "fp_sol2": "082ce59d6dba073019f173269fa5528b",
+    "id": "mishandled",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/mishandled.sol"
+    ],
+    "sol_orig": true
+}

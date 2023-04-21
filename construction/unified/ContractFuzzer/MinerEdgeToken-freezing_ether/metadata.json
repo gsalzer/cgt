@@ -1,0 +1,38 @@
+{
+    "addr": "0x0a497d3619868163e9cc8402cdd67932a6091440",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "MinerEdgeToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "40969e9f2a382e03cd07cb9ca2f533a2",
+    "fp_runtime": "b6df62eabd04cc25c6dd6a856347142e",
+    "fp_sol": "727cd09bfe1a90f3e1fbdb49d95b593e",
+    "fp_sol2": "1dade0b5848e5b05d224542e554e6902",
+    "id": "MinerEdgeToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_MinerEdgeToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_MinerEdgeToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

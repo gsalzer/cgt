@@ -1,0 +1,2 @@
+{u'source_code/test940.sol': {u'Multiply': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test940.sol:13:9: Warning: Transaction-Ordering Dependency.\n        Owner.transfer(this.balance)'], [u'source_code/test940.sol:22:13: Warning: Transaction-Ordering Dependency.\n            adr.transfer(this.balance+msg.value)']], 'assertion_failure': []}, 'evm_code_coverage': '94.3'}}}
+

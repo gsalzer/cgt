@@ -1,0 +1,39 @@
+{
+    "addr": "0x5f742383b6d1298980030d6af943b76cdd902143",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_CompetitionStore.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": false,
+    "contractname": "CompetitionStore",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "5da949b08abd0727901bb76b8a351bf5",
+    "fp_runtime": "1f3b6f8d34685af69add6d2670ef51db",
+    "fp_sol": "ffdd5573a77f6e6ec073385ec6417bb6",
+    "fp_sol2": "e7e06018a2868fb2a46685097fbb6fcd",
+    "id": "CompetitionStore-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CompetitionStore.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

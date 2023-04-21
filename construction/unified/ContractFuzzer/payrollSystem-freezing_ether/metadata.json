@@ -1,0 +1,35 @@
+{
+    "addr": "0xa313b8113b4f70d1364667914156e529d8674803",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.22-nightly.2018.4.12+commit.c3dc67d0",
+    "compiler_orig": false,
+    "contractname": "payrollSystem",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "86a166dc8bfe250971393240b3935f8b",
+    "fp_sol": "5b302107176fc736747dc8f4a649b8ed",
+    "fp_sol2": "4659ed5a0558b706db184bc939f7fbf8",
+    "id": "payrollSystem-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/payrollSystem.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_payrollSystem.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

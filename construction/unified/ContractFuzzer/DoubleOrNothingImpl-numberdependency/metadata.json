@@ -1,0 +1,37 @@
+{
+    "addr": "0x1d80f890f497b1672f9487862978032666179338",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DoubleOrNothingImpl.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "DoubleOrNothingImpl",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "715f0c40d21e18b901dce81d30fbe0b5",
+    "fp_runtime": "81dd75c18ba2b96a9975b6697d38dfa3",
+    "fp_sol": "8e653f1e5b96dd93733803a8b6d4d7f7",
+    "fp_sol2": "4fe0545a88bce94306cf67166c026eb5",
+    "id": "DoubleOrNothingImpl-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DoubleOrNothingImpl.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

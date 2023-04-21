@@ -1,0 +1,37 @@
+{
+    "addr": "0x8f3c45d637a9c2103d06f917aeeaff25eb7224c7",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "TokenToken",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "25a16932e6e55f3f963bfc74f8258c6e",
+    "fp_runtime": "4c642c6d98bc2eabcdb653df214e763b",
+    "fp_sol": "aed86f640a1ca751d0a2e7e82475aac1",
+    "fp_sol2": "027f3aa7898e9d87b97c5c3a35a18e99",
+    "id": "0x8f3c45d637a9c2103d06f917aeeaff25eb7224c7-TokenToken-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2198.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

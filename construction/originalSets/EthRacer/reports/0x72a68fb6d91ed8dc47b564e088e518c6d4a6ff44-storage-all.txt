@@ -1,0 +1,892 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'closeFunding', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '31a3a506'}
+1 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'changeAdmin', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1acfd02a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001'}
+2 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'changeAdmin', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1acfd02a00000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'disableTransfers', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3a67a0f6'}
+4 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'changeAdmin', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1acfd02a00000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020000000000000000000000'}
+5 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'allowTransfers', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2185810b'}
+6 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'disableTransfers', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3a67a0f6'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'allowTransfers', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2185810b'}
+8 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'fullTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '376fc7900000000000000000000000001111111111111111111111111111111111111111'}
+9 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'fullTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '376fc7900000000000000000000000002222222222222222222222222222222222222222'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'acceptTermsAndJoinDXF', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '220fb5f6', 'tx_input': 'e0b3c49c'}
+11 : {'tx_caller': '9c3ad7e9f15d090185694fe4679cbb31fbf72afc', 'name': 'acceptTermsAndJoinDXF', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '220fb5f6', 'tx_input': 'e0b3c49c'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'closeFunding', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '31a3a506'}
+--------------------------------------------------------------------------------
+
+Full traces: 291
+--------------------------------------------------------------------------------
+5 6   :  allowTransfers disableTransfers 
+6 5   :  disableTransfers allowTransfers 
+------------------------------------------------------------
+6 0 5   :  disableTransfers closeFunding allowTransfers 
+0 5 6   :  closeFunding allowTransfers disableTransfers 
+------------------------------------------------------------
+6 0 5   :  disableTransfers closeFunding allowTransfers 
+5 6 0   :  allowTransfers disableTransfers closeFunding 
+------------------------------------------------------------
+6 0 5   :  disableTransfers closeFunding allowTransfers 
+5 0 6   :  allowTransfers closeFunding disableTransfers 
+------------------------------------------------------------
+0 5 6   :  closeFunding allowTransfers disableTransfers 
+6 5 0   :  disableTransfers allowTransfers closeFunding 
+------------------------------------------------------------
+0 5 6   :  closeFunding allowTransfers disableTransfers 
+0 6 5   :  closeFunding disableTransfers allowTransfers 
+------------------------------------------------------------
+5 6 0   :  allowTransfers disableTransfers closeFunding 
+6 5 0   :  disableTransfers allowTransfers closeFunding 
+------------------------------------------------------------
+5 6 0   :  allowTransfers disableTransfers closeFunding 
+0 6 5   :  closeFunding disableTransfers allowTransfers 
+------------------------------------------------------------
+5 0 6   :  allowTransfers closeFunding disableTransfers 
+6 5 0   :  disableTransfers allowTransfers closeFunding 
+------------------------------------------------------------
+5 0 6   :  allowTransfers closeFunding disableTransfers 
+0 6 5   :  closeFunding disableTransfers allowTransfers 
+------------------------------------------------------------
+5 6 1   :  allowTransfers disableTransfers changeAdmin 
+6 5 1   :  disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+5 8 6   :  allowTransfers fullTransfer disableTransfers 
+6 5 8   :  disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+10 6 5   :  acceptTermsAndJoinDXF disableTransfers allowTransfers 
+10 5 6   :  acceptTermsAndJoinDXF allowTransfers disableTransfers 
+------------------------------------------------------------
+6 0 5 1   :  disableTransfers closeFunding allowTransfers changeAdmin 
+0 5 6 1   :  closeFunding allowTransfers disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 1   :  disableTransfers closeFunding allowTransfers changeAdmin 
+5 6 0 1   :  allowTransfers disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 0 5 1   :  disableTransfers closeFunding allowTransfers changeAdmin 
+5 0 6 1   :  allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 1   :  closeFunding disableTransfers allowTransfers changeAdmin 
+0 5 6 1   :  closeFunding allowTransfers disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 1   :  closeFunding disableTransfers allowTransfers changeAdmin 
+5 6 0 1   :  allowTransfers disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+0 6 5 1   :  closeFunding disableTransfers allowTransfers changeAdmin 
+5 0 6 1   :  allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+0 5 6 1   :  closeFunding allowTransfers disableTransfers changeAdmin 
+6 5 0 1   :  disableTransfers allowTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+5 6 0 1   :  allowTransfers disableTransfers closeFunding changeAdmin 
+6 5 0 1   :  disableTransfers allowTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 5 0 1   :  disableTransfers allowTransfers closeFunding changeAdmin 
+5 0 6 1   :  allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0   :  disableTransfers allowTransfers fullTransfer closeFunding 
+0 5 8 6   :  closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 8 0   :  disableTransfers allowTransfers fullTransfer closeFunding 
+5 8 0 6   :  allowTransfers fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+6 5 8 0   :  disableTransfers allowTransfers fullTransfer closeFunding 
+5 0 8 6   :  allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 8 0   :  disableTransfers allowTransfers fullTransfer closeFunding 
+5 8 6 0   :  allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+0 5 8 6   :  closeFunding allowTransfers fullTransfer disableTransfers 
+0 6 5 8   :  closeFunding disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+0 5 8 6   :  closeFunding allowTransfers fullTransfer disableTransfers 
+6 5 0 8   :  disableTransfers allowTransfers closeFunding fullTransfer 
+------------------------------------------------------------
+0 5 8 6   :  closeFunding allowTransfers fullTransfer disableTransfers 
+6 0 5 8   :  disableTransfers closeFunding allowTransfers fullTransfer 
+------------------------------------------------------------
+0 6 5 8   :  closeFunding disableTransfers allowTransfers fullTransfer 
+5 8 0 6   :  allowTransfers fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+0 6 5 8   :  closeFunding disableTransfers allowTransfers fullTransfer 
+5 0 8 6   :  allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+0 6 5 8   :  closeFunding disableTransfers allowTransfers fullTransfer 
+5 8 6 0   :  allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+5 8 0 6   :  allowTransfers fullTransfer closeFunding disableTransfers 
+6 5 0 8   :  disableTransfers allowTransfers closeFunding fullTransfer 
+------------------------------------------------------------
+5 8 0 6   :  allowTransfers fullTransfer closeFunding disableTransfers 
+6 0 5 8   :  disableTransfers closeFunding allowTransfers fullTransfer 
+------------------------------------------------------------
+6 5 0 8   :  disableTransfers allowTransfers closeFunding fullTransfer 
+5 0 8 6   :  allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 0 8   :  disableTransfers allowTransfers closeFunding fullTransfer 
+5 8 6 0   :  allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+5 0 8 6   :  allowTransfers closeFunding fullTransfer disableTransfers 
+6 0 5 8   :  disableTransfers closeFunding allowTransfers fullTransfer 
+------------------------------------------------------------
+6 0 5 8   :  disableTransfers closeFunding allowTransfers fullTransfer 
+5 8 6 0   :  allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+10 0 5 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers 
+10 6 5 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding 
+------------------------------------------------------------
+10 0 5 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers 
+10 0 6 5   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers 
+------------------------------------------------------------
+10 0 5 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers 
+10 6 0 5   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers 
+------------------------------------------------------------
+10 6 5 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding 
+10 5 0 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers 
+------------------------------------------------------------
+10 6 5 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding 
+10 5 6 0   :  acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding 
+------------------------------------------------------------
+10 0 6 5   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers 
+10 5 0 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers 
+------------------------------------------------------------
+10 0 6 5   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers 
+10 5 6 0   :  acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding 
+------------------------------------------------------------
+10 5 0 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers 
+10 6 0 5   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers 
+------------------------------------------------------------
+10 5 6 0   :  acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding 
+10 6 0 5   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers 
+------------------------------------------------------------
+6 5 8 1   :  disableTransfers allowTransfers fullTransfer changeAdmin 
+5 8 6 1   :  allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 1 8   :  disableTransfers allowTransfers changeAdmin fullTransfer 
+5 8 6 1   :  allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+10 5 6 1   :  acceptTermsAndJoinDXF allowTransfers disableTransfers changeAdmin 
+10 6 5 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 9   :  disableTransfers allowTransfers fullTransfer fullTransfer 
+5 8 9 6   :  allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+11 5 8 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers 
+11 6 5 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+10 11 6 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers 
+10 11 5 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers 
+------------------------------------------------------------
+0 6 5 8 1   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 8 1   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 8 1   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+0 6 5 8 1   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0 1   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0 1   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0 1   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 5 8 0 1   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 1 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 1 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 1 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 0 5 1 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 0 1 8   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 0 1 8   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 0 1 8   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 5 0 1 8   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+0 6 5 1 8   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+------------------------------------------------------------
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+6 0 5 8 1   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+------------------------------------------------------------
+5 0 8 6 1   :  allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+6 5 0 8 1   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+------------------------------------------------------------
+0 6 5 1 8   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 1 8   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+0 6 5 1 8   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 8 1   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 8 1   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 0 5 8 1   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+0 5 8 6 1   :  closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+6 5 0 8 1   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+------------------------------------------------------------
+5 8 6 0 1   :  allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+6 5 0 8 1   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+------------------------------------------------------------
+6 5 0 8 1   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+5 8 0 6 1   :  allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+10 6 0 5 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin 
+10 5 0 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+10 6 0 5 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin 
+10 0 5 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers changeAdmin 
+------------------------------------------------------------
+10 6 0 5 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin 
+10 5 6 0 1   :  acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+10 5 0 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers changeAdmin 
+10 6 5 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+10 5 0 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers changeAdmin 
+10 0 6 5 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+10 0 5 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers changeAdmin 
+10 6 5 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+10 0 5 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers changeAdmin 
+10 0 6 5 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+10 5 6 0 1   :  acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding changeAdmin 
+10 6 5 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+10 5 6 0 1   :  acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding changeAdmin 
+10 0 6 5 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+5 8 0 9 6   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+6 5 0 8 9   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+0 6 5 8 9   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+6 5 8 9 0   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+------------------------------------------------------------
+5 8 0 9 6   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+6 0 5 8 9   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+6 5 8 0 9   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+6 5 0 8 9   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+0 6 5 8 9   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+6 5 8 9 0   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+------------------------------------------------------------
+5 8 9 6 0   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+6 0 5 8 9   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+6 5 8 0 9   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+6 5 9 8 0   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+0 5 9 8 6   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 9 8 0   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+5 0 9 8 6   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 9 8 0   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+5 9 8 0 6   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+0 6 5 9 8   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+0 5 9 8 6   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+0 6 5 9 8   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+5 0 9 8 6   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+0 6 5 9 8   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+5 9 8 0 6   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+6 5 0 8 9   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+5 8 9 0 6   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+6 5 0 8 9   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+0 5 8 9 6   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 0 8 9   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+5 0 8 9 6   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+6 0 5 9 8   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+0 5 9 8 6   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+6 0 5 9 8   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+5 0 9 8 6   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+6 0 5 9 8   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+5 9 8 0 6   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+0 5 9 8 6   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+6 5 9 0 8   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+5 8 9 0 6   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+6 5 8 0 9   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+6 5 9 0 8   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+5 0 9 8 6   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+11 5 0 8 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+11 6 5 0 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+------------------------------------------------------------
+11 5 0 8 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+11 6 0 5 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+------------------------------------------------------------
+11 5 0 8 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+11 6 5 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+------------------------------------------------------------
+11 5 0 8 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+11 0 6 5 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+11 6 5 0 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+11 5 8 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+11 6 5 0 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+11 0 5 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+11 6 5 0 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+11 5 8 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+11 5 8 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+11 6 0 5 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+------------------------------------------------------------
+11 5 8 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+11 6 5 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+------------------------------------------------------------
+11 5 8 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+11 0 6 5 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+11 6 0 5 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+11 0 5 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+11 6 0 5 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+11 5 8 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+11 0 5 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+11 6 5 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+------------------------------------------------------------
+11 0 5 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+11 0 6 5 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+11 6 5 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+11 5 8 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+11 5 8 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+11 0 6 5 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+------------------------------------------------------------
+11 10 0 5 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers 
+11 10 0 6 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers 
+------------------------------------------------------------
+11 10 0 5 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers 
+11 10 6 5 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding 
+------------------------------------------------------------
+11 10 0 5 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers 
+11 10 6 0 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers 
+------------------------------------------------------------
+11 10 0 6 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers 
+11 10 5 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers 
+------------------------------------------------------------
+11 10 0 6 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers 
+11 10 5 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding 
+------------------------------------------------------------
+11 10 5 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers 
+11 10 6 5 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding 
+------------------------------------------------------------
+11 10 5 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers 
+11 10 6 0 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers 
+------------------------------------------------------------
+10 11 6 0 5   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers 
+10 11 5 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding 
+------------------------------------------------------------
+10 11 6 5 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding 
+10 11 5 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding 
+------------------------------------------------------------
+6 5 9 8 1   :  disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+5 9 8 6 1   :  allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 1 9   :  disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+5 8 9 6 1   :  allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 1 9 8   :  disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+5 9 8 6 1   :  allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 5 8 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers changeAdmin 
+11 6 5 8 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer changeAdmin 
+------------------------------------------------------------
+11 5 8 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers changeAdmin 
+11 6 5 1 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers changeAdmin fullTransfer 
+------------------------------------------------------------
+11 10 5 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers changeAdmin 
+11 10 6 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+11 5 9 8 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers 
+11 6 5 9 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 10 6 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer 
+11 10 5 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+6 5 8 0 9 1   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer changeAdmin 
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0 9 1   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer changeAdmin 
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 5 8 0 9 1   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer changeAdmin 
+5 8 9 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0 9 1   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer changeAdmin 
+5 0 8 9 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 8 0 9 1   :  disableTransfers allowTransfers fullTransfer closeFunding fullTransfer changeAdmin 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+0 6 5 8 1 9   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+0 6 5 8 9 1   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+0 6 5 1 8 9   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 5 0 8 9 1   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 5 0 8 1 9   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 5 8 0 1 9   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 0 5 8 9 1   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 5 0 1 8 9   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 0 5 8 1 9   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 5 8 9 0 1   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding changeAdmin 
+------------------------------------------------------------
+5 8 0 9 6 1   :  allowTransfers fullTransfer closeFunding fullTransfer disableTransfers changeAdmin 
+6 0 5 1 8 9   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+6 0 5 1 9 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer fullTransfer 
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 1 9 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer fullTransfer 
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 1 9 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer fullTransfer 
+5 9 8 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 0 5 1 9 8   :  disableTransfers closeFunding allowTransfers changeAdmin fullTransfer fullTransfer 
+0 5 9 8 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 9 8 0 1   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding changeAdmin 
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 9 8 0 1   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding changeAdmin 
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 9 8 0 1   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding changeAdmin 
+5 9 8 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+6 5 9 8 0 1   :  disableTransfers allowTransfers fullTransfer fullTransfer closeFunding changeAdmin 
+0 5 9 8 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+0 6 5 1 9 8   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+0 6 5 9 8 1   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+6 5 9 0 1 8   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin fullTransfer 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+0 6 5 9 1 8   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+6 5 0 9 8 1   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+6 5 0 9 1 8   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+6 5 0 1 9 8   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+6 0 5 9 8 1   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 9 8 0 6 1   :  allowTransfers fullTransfer fullTransfer closeFunding disableTransfers changeAdmin 
+6 0 5 9 1 8   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+0 6 5 8 1 9   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+0 6 5 8 1 9   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+5 0 8 9 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 8 1 9   :  closeFunding disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 8 9 1   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+0 6 5 8 9 1   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+5 0 8 9 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 8 9 1   :  closeFunding disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 1 8 9   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+0 6 5 1 8 9   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+5 0 8 9 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+0 6 5 1 8 9   :  closeFunding disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+6 5 0 8 9 1   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+6 5 0 8 1 9   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+6 5 8 0 1 9   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+6 0 5 8 9 1   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+6 5 0 1 8 9   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+5 8 9 6 0 1   :  allowTransfers fullTransfer fullTransfer disableTransfers closeFunding changeAdmin 
+6 0 5 8 1 9   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+6 5 0 8 9 1   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer changeAdmin 
+5 0 8 9 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 0 8 9 1   :  disableTransfers allowTransfers closeFunding fullTransfer fullTransfer changeAdmin 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+6 5 9 0 1 8   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin fullTransfer 
+------------------------------------------------------------
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+6 5 0 9 1 8   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+6 5 0 1 9 8   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer fullTransfer 
+------------------------------------------------------------
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+6 0 5 9 8 1   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer changeAdmin 
+------------------------------------------------------------
+5 0 9 8 6 1   :  allowTransfers closeFunding fullTransfer fullTransfer disableTransfers changeAdmin 
+6 0 5 9 1 8   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin fullTransfer 
+------------------------------------------------------------
+6 5 9 0 1 8   :  disableTransfers allowTransfers fullTransfer closeFunding changeAdmin fullTransfer 
+0 5 9 8 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 0 8 1 9   :  disableTransfers allowTransfers closeFunding fullTransfer changeAdmin fullTransfer 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 8 9 1   :  disableTransfers closeFunding allowTransfers fullTransfer fullTransfer changeAdmin 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 5 0 1 8 9   :  disableTransfers allowTransfers closeFunding changeAdmin fullTransfer fullTransfer 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+6 0 5 8 1 9   :  disableTransfers closeFunding allowTransfers fullTransfer changeAdmin fullTransfer 
+0 5 8 9 6 1   :  closeFunding allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 8 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 8 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+11 6 5 8 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 8 0 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding changeAdmin 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 0 6 5 1 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+11 0 6 5 1 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+11 0 6 5 1 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 0 6 5 1 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin fullTransfer 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 0 5 8 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 0 5 8 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+11 6 0 5 8 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 0 5 8 1   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer changeAdmin 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 0 1 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 0 1 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+11 6 5 0 1 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 0 1 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin fullTransfer 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+11 0 6 5 8 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+------------------------------------------------------------
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+11 6 0 5 1 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+------------------------------------------------------------
+11 5 8 0 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers changeAdmin 
+11 6 5 0 8 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+------------------------------------------------------------
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+11 0 6 5 8 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+------------------------------------------------------------
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+11 6 0 5 1 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+------------------------------------------------------------
+11 5 8 6 0 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding changeAdmin 
+11 6 5 0 8 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+------------------------------------------------------------
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+11 0 6 5 8 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+------------------------------------------------------------
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+11 6 0 5 1 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+------------------------------------------------------------
+11 0 5 8 6 1   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers changeAdmin 
+11 6 5 0 8 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+------------------------------------------------------------
+11 0 6 5 8 1   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer changeAdmin 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 0 5 1 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin fullTransfer 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 0 8 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer changeAdmin 
+11 5 0 8 6 1   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+10 11 6 5 0 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin 
+10 11 0 5 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers changeAdmin 
+------------------------------------------------------------
+10 11 6 5 0 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin 
+10 11 5 0 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+10 11 6 5 0 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding changeAdmin 
+10 11 5 6 0 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding changeAdmin 
+------------------------------------------------------------
+11 10 5 6 0 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding changeAdmin 
+11 10 6 0 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin 
+------------------------------------------------------------
+11 10 5 6 0 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers disableTransfers closeFunding changeAdmin 
+11 10 0 6 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+11 10 0 5 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers changeAdmin 
+11 10 6 0 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin 
+------------------------------------------------------------
+11 10 0 5 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers disableTransfers changeAdmin 
+11 10 0 6 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin 
+------------------------------------------------------------
+11 10 6 0 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers changeAdmin 
+11 10 5 0 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+11 10 0 6 5 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers changeAdmin 
+11 10 5 0 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding disableTransfers changeAdmin 
+------------------------------------------------------------
+11 5 0 8 9 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+11 6 5 0 8 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 0 8 9 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+11 6 0 5 8 9   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 0 8 9 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+11 6 5 8 0 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+11 5 0 8 9 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+11 6 5 8 9 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+------------------------------------------------------------
+11 5 0 8 9 6   :  acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer fullTransfer disableTransfers 
+11 0 6 5 8 9   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 8 0 9 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+11 6 5 0 8 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 8 0 9 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+11 6 0 5 8 9   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 8 0 9 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+11 6 5 8 0 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+11 5 8 0 9 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+11 6 5 8 9 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+------------------------------------------------------------
+11 5 8 0 9 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding fullTransfer disableTransfers 
+11 0 6 5 8 9   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 6 5 0 8 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+11 5 8 9 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+11 6 5 0 8 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+11 5 8 9 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+11 6 5 0 8 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer fullTransfer 
+11 0 5 8 9 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+11 6 5 9 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+11 0 5 9 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+------------------------------------------------------------
+11 6 5 9 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+11 5 9 8 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+11 6 5 9 8 0   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer closeFunding 
+11 5 9 8 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+11 0 5 9 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+11 0 6 5 9 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 0 5 9 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+11 6 0 5 9 8   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 0 5 9 8 6   :  acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer fullTransfer disableTransfers 
+11 6 5 9 0 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+11 5 8 9 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+11 6 0 5 8 9   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 8 9 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+11 6 5 8 0 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+11 5 8 9 6 0   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers closeFunding 
+11 0 6 5 8 9   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 0 6 5 9 8   :  acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer fullTransfer 
+11 5 9 8 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+11 5 8 9 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+11 6 0 5 8 9   :  acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer fullTransfer 
+------------------------------------------------------------
+11 5 8 9 0 6   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer closeFunding disableTransfers 
+11 6 5 8 0 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding fullTransfer 
+------------------------------------------------------------
+10 11 0 6 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+10 11 5 9 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+10 11 0 6 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+10 11 5 9 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+10 11 0 6 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+10 11 5 0 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+10 11 0 6 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding disableTransfers allowTransfers fullTransfer 
+10 11 0 5 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+10 11 6 0 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+10 11 5 9 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+------------------------------------------------------------
+10 11 6 0 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+10 11 5 9 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+10 11 6 0 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+10 11 5 0 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+10 11 6 0 5 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers closeFunding allowTransfers fullTransfer 
+10 11 0 5 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+10 11 5 9 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+10 11 6 5 9 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+------------------------------------------------------------
+10 11 5 9 0 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer closeFunding disableTransfers 
+10 11 6 5 0 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+------------------------------------------------------------
+11 10 6 5 0 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+11 10 5 9 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+11 10 6 5 0 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+11 10 0 5 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+11 10 6 5 0 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers closeFunding fullTransfer 
+11 10 5 0 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+10 11 6 5 9 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+10 11 5 9 6 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers closeFunding 
+------------------------------------------------------------
+10 11 6 5 9 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+10 11 5 0 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers closeFunding fullTransfer disableTransfers 
+------------------------------------------------------------
+10 11 6 5 9 0   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer closeFunding 
+10 11 0 5 9 6   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF closeFunding allowTransfers fullTransfer disableTransfers 
+------------------------------------------------------------
+11 6 5 9 1 8   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer changeAdmin fullTransfer 
+11 5 9 8 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 1 8 9   :  acceptTermsAndJoinDXF disableTransfers allowTransfers changeAdmin fullTransfer fullTransfer 
+11 5 8 9 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+11 6 5 8 9 1   :  acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer fullTransfer changeAdmin 
+11 5 8 9 6 1   :  acceptTermsAndJoinDXF allowTransfers fullTransfer fullTransfer disableTransfers changeAdmin 
+------------------------------------------------------------
+10 11 5 9 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers changeAdmin 
+10 11 6 5 9 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers fullTransfer changeAdmin 
+------------------------------------------------------------
+10 11 5 9 6 1   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF allowTransfers fullTransfer disableTransfers changeAdmin 
+10 11 6 5 1 9   :  acceptTermsAndJoinDXF acceptTermsAndJoinDXF disableTransfers allowTransfers changeAdmin fullTransfer 
+------------------------------------------------------------

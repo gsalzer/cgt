@@ -1,0 +1,37 @@
+{
+    "addr": "0xac0a3337e7d50da5c35bee633803cf904e2e71f5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/SpaceICOToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "SpaceICOToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "327873925dcef8a120c2b53c619285f0",
+    "fp_runtime": "c6374300b746dbedb72d5e6ccfbc0751",
+    "fp_sol": "83fd84dabe73a3dc4001f5aa119fbe47",
+    "fp_sol2": "f653c000508c1c66a80efc33488375ca",
+    "id": "SpaceICOToken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SpaceICOToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

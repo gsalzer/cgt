@@ -1,0 +1,38 @@
+{
+    "addr": "0x7a7d08bcb2faf27414e86ecf9a0351d928054b6b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Router",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "4d9a839ee7292f727a9c7d77c70cae17",
+    "fp_runtime": "36779806ed04f5be56c590fed7f4fd07",
+    "fp_sol": "4b92789ade4f73166b46374dff91408e",
+    "fp_sol2": "0c5cb88581e7f1de25217d9e2ded0b51",
+    "id": "Router-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_Router.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Router.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

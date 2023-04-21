@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "ReentrancyDAO",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "5779579f9ba8cd1df1d151db09b2ace5",
+    "fp_sol2": "0b273a862c4c9e20b994b42cc1281fa3",
+    "id": "reentrancy_dao",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/reentrancy_dao.sol"
+    ],
+    "sol_orig": true
+}

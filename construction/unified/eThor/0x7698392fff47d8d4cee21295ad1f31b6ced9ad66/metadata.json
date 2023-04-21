@@ -1,0 +1,37 @@
+{
+    "addr": "0x7698392fff47d8d4cee21295ad1f31b6ced9ad66",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": true,
+    "contractname": "TheEthereumLottery",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "dd7c8801e9b04cd3d2eea96676615cf7",
+    "fp_runtime": "de4ca0de1c53ebd44138d881094560f4",
+    "fp_sol": "f4723f51bbcf3caa930b896548b9c00d",
+    "fp_sol2": "f4723f51bbcf3caa930b896548b9c00d",
+    "id": "0x7698392fff47d8d4cee21295ad1f31b6ced9ad66",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

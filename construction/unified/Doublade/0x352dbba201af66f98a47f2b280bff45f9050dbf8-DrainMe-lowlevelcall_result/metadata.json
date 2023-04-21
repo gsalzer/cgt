@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "lowlevelcall_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "DrainMe",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x352dbba201af66f98a47f2b280bff45f9050dbf8",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x352dbba201af66f98a47f2b280bff45f9050dbf8",
+            "main",
+            "Hack"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "60ed3c5f11a25112a4e77bbce1476d8a",
+    "fp_sol2": "60279473f54bd06f03d75618423de43f",
+    "id": "0x352dbba201af66f98a47f2b280bff45f9050dbf8-DrainMe-lowlevelcall_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test825.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

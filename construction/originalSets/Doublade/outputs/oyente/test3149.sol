@@ -1,0 +1,2 @@
+{u'source_code/test3149.sol': {u'LifetimeLottery': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test3149.sol:51:13: Warning: Transaction-Ordering Dependency.\n            msg.sender.transfer(msg.value)'], [u'source_code/test3149.sol:82:3: Warning: Transaction-Ordering Dependency.\n\t\tselfdestruct(deployer)']], 'assertion_failure': []}, 'evm_code_coverage': '58.0'}}}
+

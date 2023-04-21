@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "DOS by gaslimit",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "gray_varIsNotSafe",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "4f394c0803a1883dbce2d2b0cf513406",
+    "fp_runtime": "18fcea2275774a1af595548377723731",
+    "fp_sol": "22dd83f9ff98f87ccd30bb50dcb18b4b",
+    "fp_sol2": "dc19dfb24595d524b2ba71454532c60b",
+    "id": "NoVarIsNotSafe",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoVarIsNotSafe.sol"
+    ],
+    "sol_orig": true
+}

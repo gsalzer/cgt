@@ -1,0 +1,60 @@
+{
+    "addr": "0x1dea4ca1ca2a2c946b233a227883ef6846cf17d5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "MetaGold",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "4ea5805158499a8545bfdb636b602ccd",
+    "fp_runtime": "ae95b01721a3e2cebe840a1d14a2f5b3",
+    "fp_sol": "31c05998ddce11142d31e5bea8359c4f",
+    "fp_sol2": "72d723b7ff8eed17ae7e021c8241a806",
+    "id": "0105_Code_1588_0x1dea4ca1ca2a2c946b233a227883ef6846cf17d",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

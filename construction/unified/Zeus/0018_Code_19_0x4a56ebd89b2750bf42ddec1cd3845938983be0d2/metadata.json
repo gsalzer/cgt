@@ -1,0 +1,60 @@
+{
+    "addr": "0x4a56ebd89b2750bf42ddec1cd3845938983be0d2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "Migrations",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "d2120b961dd3fcf830b86f799194e053",
+    "fp_runtime": "0947b9a5b276b5a572c98c31f89b5ef8",
+    "fp_sol": "f2b9683eb7bb0e23c29400bbb3bf4df4",
+    "fp_sol2": "c6899cfd581da7f51a778365c3131a69",
+    "id": "0018_Code_19_0x4a56ebd89b2750bf42ddec1cd3845938983be0d2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

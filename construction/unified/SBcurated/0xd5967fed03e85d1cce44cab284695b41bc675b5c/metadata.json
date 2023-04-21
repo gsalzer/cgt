@@ -1,0 +1,39 @@
+{
+    "addr": "0xd5967fed03e85d1cce44cab284695b41bc675b5c",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "demo",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "1bf799a44525f449a0470195127fd41e",
+    "fp_runtime": "c0c182cf60e2389d89a04698e94cbcac",
+    "fp_sol": "7d89c528344e5394d365cf1f2f9af726",
+    "fp_sol2": "113e1ee356556a9b18a394f9772f6358",
+    "id": "0xd5967fed03e85d1cce44cab284695b41bc675b5c",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

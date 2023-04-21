@@ -1,0 +1,39 @@
+{
+    "addr": "0xc87b7887f62c6674a19103fc35c749474d78ff40",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_PreTGE.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "PreTGE",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a0677f6a6cbdd3efc4f37d8bc824c9a4",
+    "fp_runtime": "ba42f5d0d6721fea534f5fa2f3bbad60",
+    "fp_sol": "7750e750e414d5149ab6376023a09180",
+    "fp_sol2": "3469de10113b8939e08b3425605b3b0a",
+    "id": "PreTGE-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PreTGE.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

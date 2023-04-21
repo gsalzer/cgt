@@ -1,0 +1,37 @@
+{
+    "addr": "0x06bb6701983e126f31a4c20d6becb12dfd70709e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.3-nightly.2016.10.15+commit.482807f6",
+    "compiler_orig": true,
+    "contractname": "DogTestToken",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "0d5448954bac0b9f42a47a63440c75cb",
+    "fp_runtime": "1060d6cbadfdd941dfaffb8397c2c134",
+    "fp_sol": "de96c695e274b7ad26f4b7280553d1ae",
+    "fp_sol2": "4e9481561769942b23c477b89e673d51",
+    "id": "0x06bb6701983e126f31a4c20d6becb12dfd70709e",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

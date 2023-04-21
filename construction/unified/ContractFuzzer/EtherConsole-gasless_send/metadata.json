@@ -1,0 +1,38 @@
+{
+    "addr": "0xca6bea8e144b0a6aebbb412e6ad0e7ff1959235e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EtherConsole.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "EtherConsole",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/EtherConsole.sol"
+    },
+    "fp_bytecode": "0f9dc2e8e2aabc749e1e5353ac89ce59",
+    "fp_runtime": "7616783836f56ffb659b90984c9f031c",
+    "fp_sol": "3391da41e9b61e43fc8be329a911d1a3",
+    "fp_sol2": "2b87d7b06423de50e1819b57d3e29e66",
+    "id": "EtherConsole-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

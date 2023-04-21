@@ -1,0 +1,38 @@
+{
+    "addr": "0xa9d68bcca2ebfb5293ea9102cf4ea0090c3133cb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "Safether",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "975b5dfde12703011ab62b4ac220d981",
+    "fp_runtime": "df54f8e6a6e23e250b4e98dd3277befe",
+    "fp_sol": "54f171085866dd9bcf1eefc4351c8eb9",
+    "fp_sol2": "54f171085866dd9bcf1eefc4351c8eb9",
+    "id": "Safether-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_Safether.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Safether.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

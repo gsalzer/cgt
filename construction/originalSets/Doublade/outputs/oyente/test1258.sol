@@ -1,0 +1,2 @@
+{u'source_code/test1258.sol': {u'VIUREFoundersTokenSale': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test1258.sol:103:10: Warning: Transaction-Ordering Dependency.\n    if (!project_wallet.send(this.balance)'], [u'source_code/test1258.sol:92:10: Warning: Transaction-Ordering Dependency.\n    if (!msg.sender.send(refund_amount)']], 'assertion_failure': []}, 'evm_code_coverage': '81.5'}}}
+

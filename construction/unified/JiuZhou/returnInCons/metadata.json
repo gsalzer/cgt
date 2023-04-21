@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Use assembly code return in the constructor",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "HoneyPot",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "b74d0fb813481528b66c2ef021c6ecb2",
+    "fp_runtime": "541e0b80409975348f05e598bdaaebfd",
+    "fp_sol": "2c56aaa9755a0ec3fa4cc690269414a8",
+    "fp_sol2": "78fc45214b9fcba02cc735e2029e0a8b",
+    "id": "returnInCons",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/returnInCons.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x872b91913dc7279702b7591c970b02519c4615cf",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": false,
+    "contractname": "Videos",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "2c3c39fc143f55189f8261106eff44a2",
+    "fp_runtime": "991efc5b8f55455a1a3f0fb191e99836",
+    "fp_sol": "6ae97906aa92e45839ee0079c65241f3",
+    "fp_sol2": "6ae97906aa92e45839ee0079c65241f3",
+    "id": "1215_Code_32_0x872b91913dc7279702b7591c970b02519c4615cf",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,36 @@
+{
+    "addr": "0x94603d4a41856bccb75cc3603af19fc161a7b6b6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "RfsCoin",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "ba351114557a2edba7c5bb5ce6bdfdbf",
+    "fp_runtime": "1300a612c8e9ce99e7cab328b0cfbf7a",
+    "fp_sol": "cf8622e59c03aa9be710e0ca243ccd33",
+    "fp_sol2": "ada98e52d4e54bacf1626a532521487b",
+    "id": "0x94603d4a41856bccb75cc3603af19fc161a7b6b6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

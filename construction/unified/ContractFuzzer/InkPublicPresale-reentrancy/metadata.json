@@ -1,0 +1,37 @@
+{
+    "addr": "0x9bbb9387c9e2477a6b5d81afece00255875c48ce",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/InkPublicPresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "InkPublicPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "da7350956ebc829fc130eb409d20535e",
+    "fp_runtime": "ba341642089b12bb06c6ac63a8111ec3",
+    "fp_sol": "dd443a9352d9e4ef8e8e81310f45f607",
+    "fp_sol2": "52b38e0da0cb6c39d99bff014f9df986",
+    "id": "InkPublicPresale-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_InkPublicPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

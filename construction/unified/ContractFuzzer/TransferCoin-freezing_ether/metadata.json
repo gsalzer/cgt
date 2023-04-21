@@ -1,0 +1,38 @@
+{
+    "addr": "0x517630ec7b99fe38412d13a6834427d08462ca07",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "TransferCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "5cfeb0a96837d58d22ef8f113f542706",
+    "fp_runtime": "375a1562aca16f28cb9be035a444d656",
+    "fp_sol": "0c0352806607ebee1075b7560fff11e1",
+    "fp_sol2": "538285d1fea12a2b1ee974acffd5be85",
+    "id": "TransferCoin-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_TransferCoin.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TransferCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

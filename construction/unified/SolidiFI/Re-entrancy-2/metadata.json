@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "CareerOnToken",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "65329444c47dbbea8521637dee37ff1f",
+    "fp_sol2": "59ef5251a510f83337f6783cd8f457e1",
+    "id": "Re-entrancy-2",
+    "info": [
+        "info/BugLog_2.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_2.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,830 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79ba5097'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setPricing', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd10adfe3'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setDAOAndMultiSig', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '412edecd'}
+3 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+4 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'unhalt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cb3e64fd'}
+5 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'setDAOAndMultiSig', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '412edecd'}
+6 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'finalize', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '4bb278f3'}
+7 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae10000000000000000000000000000000000000000000000000000000000000001'}
+8 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae10000000000000000000000000000000000000000000000000000000000000003'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+10 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'startCrowdsale', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a39953b2'}
+11 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae1'}
+12 : {'tx_caller': '4dda0d458aaaf2cc8e129e733eb08fca7cc07499', 'name': 'setPricing', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd10adfe3'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'startCrowdsale', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a39953b2'}
+--------------------------------------------------------------------------------
+
+Full traces: 270
+--------------------------------------------------------------------------------
+5 6 10   :  setDAOAndMultiSig finalize startCrowdsale 
+5 10 6   :  setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 6 10   :  setDAOAndMultiSig finalize startCrowdsale 
+10 5 6   :  startCrowdsale setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 10 0 6   :  setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 6 10 0   :  setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 0 6   :  startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 6 10 0   :  setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 6 0   :  setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+5 6 10 0   :  setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 6 10 0   :  setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 6 0   :  startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+3 10 5 6   :  halt startCrowdsale setDAOAndMultiSig finalize 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+10 5 6 3   :  startCrowdsale setDAOAndMultiSig finalize halt 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+10 5 3 6   :  startCrowdsale setDAOAndMultiSig halt finalize 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+5 10 6 3   :  setDAOAndMultiSig startCrowdsale finalize halt 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+5 10 3 6   :  setDAOAndMultiSig startCrowdsale halt finalize 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+5 3 10 6   :  setDAOAndMultiSig halt startCrowdsale finalize 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+3 5 10 6   :  halt setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+3 5 6 10   :  halt setDAOAndMultiSig finalize startCrowdsale 
+10 3 5 6   :  startCrowdsale halt setDAOAndMultiSig finalize 
+------------------------------------------------------------
+3 10 5 6   :  halt startCrowdsale setDAOAndMultiSig finalize 
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+------------------------------------------------------------
+3 10 5 6   :  halt startCrowdsale setDAOAndMultiSig finalize 
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+------------------------------------------------------------
+3 10 5 6   :  halt startCrowdsale setDAOAndMultiSig finalize 
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+------------------------------------------------------------
+10 5 6 3   :  startCrowdsale setDAOAndMultiSig finalize halt 
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+------------------------------------------------------------
+10 5 6 3   :  startCrowdsale setDAOAndMultiSig finalize halt 
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+------------------------------------------------------------
+10 5 6 3   :  startCrowdsale setDAOAndMultiSig finalize halt 
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+------------------------------------------------------------
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+10 5 3 6   :  startCrowdsale setDAOAndMultiSig halt finalize 
+------------------------------------------------------------
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+5 10 6 3   :  setDAOAndMultiSig startCrowdsale finalize halt 
+------------------------------------------------------------
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+5 10 3 6   :  setDAOAndMultiSig startCrowdsale halt finalize 
+------------------------------------------------------------
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+5 3 10 6   :  setDAOAndMultiSig halt startCrowdsale finalize 
+------------------------------------------------------------
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+3 5 10 6   :  halt setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 3 6 10   :  setDAOAndMultiSig halt finalize startCrowdsale 
+10 3 5 6   :  startCrowdsale halt setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+10 5 3 6   :  startCrowdsale setDAOAndMultiSig halt finalize 
+------------------------------------------------------------
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+5 10 6 3   :  setDAOAndMultiSig startCrowdsale finalize halt 
+------------------------------------------------------------
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+5 10 3 6   :  setDAOAndMultiSig startCrowdsale halt finalize 
+------------------------------------------------------------
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+5 3 10 6   :  setDAOAndMultiSig halt startCrowdsale finalize 
+------------------------------------------------------------
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+3 5 10 6   :  halt setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 6 10 3   :  setDAOAndMultiSig finalize startCrowdsale halt 
+10 3 5 6   :  startCrowdsale halt setDAOAndMultiSig finalize 
+------------------------------------------------------------
+10 5 3 6   :  startCrowdsale setDAOAndMultiSig halt finalize 
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+------------------------------------------------------------
+5 10 6 3   :  setDAOAndMultiSig startCrowdsale finalize halt 
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+------------------------------------------------------------
+5 10 3 6   :  setDAOAndMultiSig startCrowdsale halt finalize 
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+------------------------------------------------------------
+5 3 10 6   :  setDAOAndMultiSig halt startCrowdsale finalize 
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+------------------------------------------------------------
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+3 5 10 6   :  halt setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 6 3 10   :  setDAOAndMultiSig finalize halt startCrowdsale 
+10 3 5 6   :  startCrowdsale halt setDAOAndMultiSig finalize 
+------------------------------------------------------------
+10 5 6 7   :  startCrowdsale setDAOAndMultiSig finalize changeOwner 
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+------------------------------------------------------------
+10 5 6 7   :  startCrowdsale setDAOAndMultiSig finalize changeOwner 
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+------------------------------------------------------------
+10 5 6 7   :  startCrowdsale setDAOAndMultiSig finalize changeOwner 
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+------------------------------------------------------------
+10 5 6 7   :  startCrowdsale setDAOAndMultiSig finalize changeOwner 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+7 10 5 6   :  changeOwner startCrowdsale setDAOAndMultiSig finalize 
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+------------------------------------------------------------
+7 10 5 6   :  changeOwner startCrowdsale setDAOAndMultiSig finalize 
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+------------------------------------------------------------
+7 10 5 6   :  changeOwner startCrowdsale setDAOAndMultiSig finalize 
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+------------------------------------------------------------
+7 10 5 6   :  changeOwner startCrowdsale setDAOAndMultiSig finalize 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+10 5 7 6   :  startCrowdsale setDAOAndMultiSig changeOwner finalize 
+------------------------------------------------------------
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+5 7 10 6   :  setDAOAndMultiSig changeOwner startCrowdsale finalize 
+------------------------------------------------------------
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+7 5 10 6   :  changeOwner setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+5 10 6 7   :  setDAOAndMultiSig startCrowdsale finalize changeOwner 
+------------------------------------------------------------
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+10 7 5 6   :  startCrowdsale changeOwner setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 7 6 10   :  setDAOAndMultiSig changeOwner finalize startCrowdsale 
+5 10 7 6   :  setDAOAndMultiSig startCrowdsale changeOwner finalize 
+------------------------------------------------------------
+10 5 7 6   :  startCrowdsale setDAOAndMultiSig changeOwner finalize 
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+------------------------------------------------------------
+10 5 7 6   :  startCrowdsale setDAOAndMultiSig changeOwner finalize 
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+------------------------------------------------------------
+10 5 7 6   :  startCrowdsale setDAOAndMultiSig changeOwner finalize 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+5 7 10 6   :  setDAOAndMultiSig changeOwner startCrowdsale finalize 
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+------------------------------------------------------------
+5 7 10 6   :  setDAOAndMultiSig changeOwner startCrowdsale finalize 
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+------------------------------------------------------------
+5 7 10 6   :  setDAOAndMultiSig changeOwner startCrowdsale finalize 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+7 5 10 6   :  changeOwner setDAOAndMultiSig startCrowdsale finalize 
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+------------------------------------------------------------
+7 5 10 6   :  changeOwner setDAOAndMultiSig startCrowdsale finalize 
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+------------------------------------------------------------
+7 5 10 6   :  changeOwner setDAOAndMultiSig startCrowdsale finalize 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+5 10 6 7   :  setDAOAndMultiSig startCrowdsale finalize changeOwner 
+------------------------------------------------------------
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+10 7 5 6   :  startCrowdsale changeOwner setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 6 10 7   :  setDAOAndMultiSig finalize startCrowdsale changeOwner 
+5 10 7 6   :  setDAOAndMultiSig startCrowdsale changeOwner finalize 
+------------------------------------------------------------
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+5 10 6 7   :  setDAOAndMultiSig startCrowdsale finalize changeOwner 
+------------------------------------------------------------
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+10 7 5 6   :  startCrowdsale changeOwner setDAOAndMultiSig finalize 
+------------------------------------------------------------
+7 5 6 10   :  changeOwner setDAOAndMultiSig finalize startCrowdsale 
+5 10 7 6   :  setDAOAndMultiSig startCrowdsale changeOwner finalize 
+------------------------------------------------------------
+5 10 6 7   :  setDAOAndMultiSig startCrowdsale finalize changeOwner 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+10 7 5 6   :  startCrowdsale changeOwner setDAOAndMultiSig finalize 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+5 10 7 6   :  setDAOAndMultiSig startCrowdsale changeOwner finalize 
+5 6 7 10   :  setDAOAndMultiSig finalize changeOwner startCrowdsale 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+10 5 6 12   :  startCrowdsale setDAOAndMultiSig finalize setPricing 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+12 10 5 6   :  setPricing startCrowdsale setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+10 5 12 6   :  startCrowdsale setDAOAndMultiSig setPricing finalize 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+5 10 12 6   :  setDAOAndMultiSig startCrowdsale setPricing finalize 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+12 5 10 6   :  setPricing setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+5 10 6 12   :  setDAOAndMultiSig startCrowdsale finalize setPricing 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+5 12 10 6   :  setDAOAndMultiSig setPricing startCrowdsale finalize 
+------------------------------------------------------------
+5 6 10 12   :  setDAOAndMultiSig finalize startCrowdsale setPricing 
+10 12 5 6   :  startCrowdsale setPricing setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+10 5 6 12   :  startCrowdsale setDAOAndMultiSig finalize setPricing 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+12 10 5 6   :  setPricing startCrowdsale setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+10 5 12 6   :  startCrowdsale setDAOAndMultiSig setPricing finalize 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+5 10 12 6   :  setDAOAndMultiSig startCrowdsale setPricing finalize 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+12 5 10 6   :  setPricing setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+5 10 6 12   :  setDAOAndMultiSig startCrowdsale finalize setPricing 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+5 12 10 6   :  setDAOAndMultiSig setPricing startCrowdsale finalize 
+------------------------------------------------------------
+5 6 12 10   :  setDAOAndMultiSig finalize setPricing startCrowdsale 
+10 12 5 6   :  startCrowdsale setPricing setDAOAndMultiSig finalize 
+------------------------------------------------------------
+10 5 6 12   :  startCrowdsale setDAOAndMultiSig finalize setPricing 
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+------------------------------------------------------------
+10 5 6 12   :  startCrowdsale setDAOAndMultiSig finalize setPricing 
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+12 10 5 6   :  setPricing startCrowdsale setDAOAndMultiSig finalize 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+10 5 12 6   :  startCrowdsale setDAOAndMultiSig setPricing finalize 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+5 10 12 6   :  setDAOAndMultiSig startCrowdsale setPricing finalize 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+12 5 10 6   :  setPricing setDAOAndMultiSig startCrowdsale finalize 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+5 10 6 12   :  setDAOAndMultiSig startCrowdsale finalize setPricing 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+5 12 10 6   :  setDAOAndMultiSig setPricing startCrowdsale finalize 
+------------------------------------------------------------
+12 5 6 10   :  setPricing setDAOAndMultiSig finalize startCrowdsale 
+10 12 5 6   :  startCrowdsale setPricing setDAOAndMultiSig finalize 
+------------------------------------------------------------
+12 10 5 6   :  setPricing startCrowdsale setDAOAndMultiSig finalize 
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+------------------------------------------------------------
+10 5 12 6   :  startCrowdsale setDAOAndMultiSig setPricing finalize 
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+------------------------------------------------------------
+5 10 12 6   :  setDAOAndMultiSig startCrowdsale setPricing finalize 
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+------------------------------------------------------------
+12 5 10 6   :  setPricing setDAOAndMultiSig startCrowdsale finalize 
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+------------------------------------------------------------
+5 10 6 12   :  setDAOAndMultiSig startCrowdsale finalize setPricing 
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+------------------------------------------------------------
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+5 12 10 6   :  setDAOAndMultiSig setPricing startCrowdsale finalize 
+------------------------------------------------------------
+5 12 6 10   :  setDAOAndMultiSig setPricing finalize startCrowdsale 
+10 12 5 6   :  startCrowdsale setPricing setDAOAndMultiSig finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+3 5 10 0 6   :  halt setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+5 10 3 0 6   :  setDAOAndMultiSig startCrowdsale halt acceptOwnership finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+5 10 3 6 0   :  setDAOAndMultiSig startCrowdsale halt finalize acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+3 10 5 6 0   :  halt startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+3 10 5 0 6   :  halt startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+5 3 10 6 0   :  setDAOAndMultiSig halt startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+10 5 3 0 6   :  startCrowdsale setDAOAndMultiSig halt acceptOwnership finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+5 10 6 3 0   :  setDAOAndMultiSig startCrowdsale finalize halt acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+10 5 6 3 0   :  startCrowdsale setDAOAndMultiSig finalize halt acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+10 5 3 6 0   :  startCrowdsale setDAOAndMultiSig halt finalize acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+5 3 10 0 6   :  setDAOAndMultiSig halt startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+10 3 5 0 6   :  startCrowdsale halt setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+10 3 5 6 0   :  startCrowdsale halt setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 3 6 10 0   :  setDAOAndMultiSig halt finalize startCrowdsale acceptOwnership 
+3 5 10 6 0   :  halt setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+3 5 10 0 6   :  halt setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+3 5 10 0 6   :  halt setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+3 5 10 0 6   :  halt setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 3 0 6   :  setDAOAndMultiSig startCrowdsale halt acceptOwnership finalize 
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 3 0 6   :  setDAOAndMultiSig startCrowdsale halt acceptOwnership finalize 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+5 10 3 0 6   :  setDAOAndMultiSig startCrowdsale halt acceptOwnership finalize 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 3 6 0   :  setDAOAndMultiSig startCrowdsale halt finalize acceptOwnership 
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 3 6 0   :  setDAOAndMultiSig startCrowdsale halt finalize acceptOwnership 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+5 10 3 6 0   :  setDAOAndMultiSig startCrowdsale halt finalize acceptOwnership 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+3 10 5 6 0   :  halt startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+3 10 5 6 0   :  halt startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+3 10 5 6 0   :  halt startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+3 10 5 0 6   :  halt startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+3 10 5 0 6   :  halt startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+3 10 5 0 6   :  halt startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 3 10 6 0   :  setDAOAndMultiSig halt startCrowdsale finalize acceptOwnership 
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 3 10 6 0   :  setDAOAndMultiSig halt startCrowdsale finalize acceptOwnership 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+5 3 10 6 0   :  setDAOAndMultiSig halt startCrowdsale finalize acceptOwnership 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 3 0 6   :  startCrowdsale setDAOAndMultiSig halt acceptOwnership finalize 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+5 10 6 3 0   :  setDAOAndMultiSig startCrowdsale finalize halt acceptOwnership 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 6 3 0   :  startCrowdsale setDAOAndMultiSig finalize halt acceptOwnership 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 3 6 0   :  startCrowdsale setDAOAndMultiSig halt finalize acceptOwnership 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+5 3 10 0 6   :  setDAOAndMultiSig halt startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 3 5 0 6   :  startCrowdsale halt setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 3 5 6 0   :  startCrowdsale halt setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+3 5 6 10 0   :  halt setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+3 5 10 6 0   :  halt setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+10 5 3 0 6   :  startCrowdsale setDAOAndMultiSig halt acceptOwnership finalize 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+10 5 3 0 6   :  startCrowdsale setDAOAndMultiSig halt acceptOwnership finalize 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 6 3 0   :  setDAOAndMultiSig startCrowdsale finalize halt acceptOwnership 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+5 10 6 3 0   :  setDAOAndMultiSig startCrowdsale finalize halt acceptOwnership 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 6 3 0   :  startCrowdsale setDAOAndMultiSig finalize halt acceptOwnership 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+10 5 6 3 0   :  startCrowdsale setDAOAndMultiSig finalize halt acceptOwnership 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 3 6 0   :  startCrowdsale setDAOAndMultiSig halt finalize acceptOwnership 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+10 5 3 6 0   :  startCrowdsale setDAOAndMultiSig halt finalize acceptOwnership 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 3 10 0 6   :  setDAOAndMultiSig halt startCrowdsale acceptOwnership finalize 
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+------------------------------------------------------------
+5 3 10 0 6   :  setDAOAndMultiSig halt startCrowdsale acceptOwnership finalize 
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+10 3 5 0 6   :  startCrowdsale halt setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+10 3 5 6 0   :  startCrowdsale halt setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 10 3 0   :  setDAOAndMultiSig finalize startCrowdsale halt acceptOwnership 
+3 5 10 6 0   :  halt setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+10 3 5 0 6   :  startCrowdsale halt setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+10 3 5 6 0   :  startCrowdsale halt setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 3 10 0   :  setDAOAndMultiSig finalize halt startCrowdsale acceptOwnership 
+3 5 10 6 0   :  halt setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+10 5 6 7 0   :  startCrowdsale setDAOAndMultiSig finalize changeOwner acceptOwnership 
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 6 7 0   :  startCrowdsale setDAOAndMultiSig finalize changeOwner acceptOwnership 
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 6 7 0   :  startCrowdsale setDAOAndMultiSig finalize changeOwner acceptOwnership 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 6 7 0   :  startCrowdsale setDAOAndMultiSig finalize changeOwner acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+7 10 5 0 6   :  changeOwner startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+5 7 10 0 6   :  setDAOAndMultiSig changeOwner startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+10 7 5 0 6   :  startCrowdsale changeOwner setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+10 7 5 6 0   :  startCrowdsale changeOwner setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+5 10 6 7 0   :  setDAOAndMultiSig startCrowdsale finalize changeOwner acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+5 7 10 6 0   :  setDAOAndMultiSig changeOwner startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+10 5 7 0 6   :  startCrowdsale setDAOAndMultiSig changeOwner acceptOwnership finalize 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+10 5 7 6 0   :  startCrowdsale setDAOAndMultiSig changeOwner finalize acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+5 10 7 0 6   :  setDAOAndMultiSig startCrowdsale changeOwner acceptOwnership finalize 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+7 5 10 6 0   :  changeOwner setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+7 5 10 0 6   :  changeOwner setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+7 10 5 6 0   :  changeOwner startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 7 10 0   :  setDAOAndMultiSig finalize changeOwner startCrowdsale acceptOwnership 
+5 10 7 6 0   :  setDAOAndMultiSig startCrowdsale changeOwner finalize acceptOwnership 
+------------------------------------------------------------
+7 10 5 0 6   :  changeOwner startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+7 10 5 0 6   :  changeOwner startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+7 10 5 0 6   :  changeOwner startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 7 10 0 6   :  setDAOAndMultiSig changeOwner startCrowdsale acceptOwnership finalize 
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 7 10 0 6   :  setDAOAndMultiSig changeOwner startCrowdsale acceptOwnership finalize 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 7 10 0 6   :  setDAOAndMultiSig changeOwner startCrowdsale acceptOwnership finalize 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+10 7 5 0 6   :  startCrowdsale changeOwner setDAOAndMultiSig acceptOwnership finalize 
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 7 5 0 6   :  startCrowdsale changeOwner setDAOAndMultiSig acceptOwnership finalize 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 7 5 0 6   :  startCrowdsale changeOwner setDAOAndMultiSig acceptOwnership finalize 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 7 5 6 0   :  startCrowdsale changeOwner setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+5 10 6 7 0   :  setDAOAndMultiSig startCrowdsale finalize changeOwner acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+5 7 10 6 0   :  setDAOAndMultiSig changeOwner startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 7 0 6   :  startCrowdsale setDAOAndMultiSig changeOwner acceptOwnership finalize 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 7 6 0   :  startCrowdsale setDAOAndMultiSig changeOwner finalize acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+5 10 7 0 6   :  setDAOAndMultiSig startCrowdsale changeOwner acceptOwnership finalize 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+7 5 10 6 0   :  changeOwner setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+7 5 10 0 6   :  changeOwner setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+7 10 5 6 0   :  changeOwner startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+7 5 6 10 0   :  changeOwner setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+5 10 7 6 0   :  setDAOAndMultiSig startCrowdsale changeOwner finalize acceptOwnership 
+------------------------------------------------------------
+10 7 5 6 0   :  startCrowdsale changeOwner setDAOAndMultiSig finalize acceptOwnership 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 7 5 6 0   :  startCrowdsale changeOwner setDAOAndMultiSig finalize acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 10 6 7 0   :  setDAOAndMultiSig startCrowdsale finalize changeOwner acceptOwnership 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 6 7 0   :  setDAOAndMultiSig startCrowdsale finalize changeOwner acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 7 10 6 0   :  setDAOAndMultiSig changeOwner startCrowdsale finalize acceptOwnership 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 7 10 6 0   :  setDAOAndMultiSig changeOwner startCrowdsale finalize acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+10 5 7 0 6   :  startCrowdsale setDAOAndMultiSig changeOwner acceptOwnership finalize 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 7 0 6   :  startCrowdsale setDAOAndMultiSig changeOwner acceptOwnership finalize 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+10 5 7 6 0   :  startCrowdsale setDAOAndMultiSig changeOwner finalize acceptOwnership 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 7 6 0   :  startCrowdsale setDAOAndMultiSig changeOwner finalize acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 10 7 0 6   :  setDAOAndMultiSig startCrowdsale changeOwner acceptOwnership finalize 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 7 0 6   :  setDAOAndMultiSig startCrowdsale changeOwner acceptOwnership finalize 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+7 5 10 6 0   :  changeOwner setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+7 5 10 6 0   :  changeOwner setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+7 5 10 0 6   :  changeOwner setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+7 5 10 0 6   :  changeOwner setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+7 10 5 6 0   :  changeOwner startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 7 6 10 0   :  setDAOAndMultiSig changeOwner finalize startCrowdsale acceptOwnership 
+5 10 7 6 0   :  setDAOAndMultiSig startCrowdsale changeOwner finalize acceptOwnership 
+------------------------------------------------------------
+7 10 5 6 0   :  changeOwner startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+5 10 7 6 0   :  setDAOAndMultiSig startCrowdsale changeOwner finalize acceptOwnership 
+5 6 10 7 0   :  setDAOAndMultiSig finalize startCrowdsale changeOwner acceptOwnership 
+------------------------------------------------------------
+10 5 12 6 0   :  startCrowdsale setDAOAndMultiSig setPricing finalize acceptOwnership 
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 12 6 0   :  startCrowdsale setDAOAndMultiSig setPricing finalize acceptOwnership 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+10 5 12 6 0   :  startCrowdsale setDAOAndMultiSig setPricing finalize acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 12 6 0   :  startCrowdsale setDAOAndMultiSig setPricing finalize acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 10 5 0 6   :  setPricing startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 10 5 0 6   :  setPricing startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+12 10 5 0 6   :  setPricing startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 10 5 0 6   :  setPricing startCrowdsale setDAOAndMultiSig acceptOwnership finalize 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 6 12 0   :  setDAOAndMultiSig startCrowdsale finalize setPricing acceptOwnership 
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 6 12 0   :  setDAOAndMultiSig startCrowdsale finalize setPricing acceptOwnership 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+5 10 6 12 0   :  setDAOAndMultiSig startCrowdsale finalize setPricing acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 6 12 0   :  setDAOAndMultiSig startCrowdsale finalize setPricing acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 5 10 0 6   :  setPricing setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 5 10 0 6   :  setPricing setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+12 5 10 0 6   :  setPricing setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 5 10 0 6   :  setPricing setDAOAndMultiSig startCrowdsale acceptOwnership finalize 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 12 10 6 0   :  setDAOAndMultiSig setPricing startCrowdsale finalize acceptOwnership 
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 12 10 6 0   :  setDAOAndMultiSig setPricing startCrowdsale finalize acceptOwnership 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+5 12 10 6 0   :  setDAOAndMultiSig setPricing startCrowdsale finalize acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 12 10 6 0   :  setDAOAndMultiSig setPricing startCrowdsale finalize acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 12 0 6   :  setDAOAndMultiSig startCrowdsale setPricing acceptOwnership finalize 
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 12 0 6   :  setDAOAndMultiSig startCrowdsale setPricing acceptOwnership finalize 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+5 10 12 0 6   :  setDAOAndMultiSig startCrowdsale setPricing acceptOwnership finalize 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 12 0 6   :  setDAOAndMultiSig startCrowdsale setPricing acceptOwnership finalize 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+5 12 10 0 6   :  setDAOAndMultiSig setPricing startCrowdsale acceptOwnership finalize 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+12 5 10 6 0   :  setPricing setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+10 12 5 6 0   :  startCrowdsale setPricing setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+12 10 5 6 0   :  setPricing startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+5 10 12 6 0   :  setDAOAndMultiSig startCrowdsale setPricing finalize acceptOwnership 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+10 12 5 0 6   :  startCrowdsale setPricing setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+10 5 6 12 0   :  startCrowdsale setDAOAndMultiSig finalize setPricing acceptOwnership 
+------------------------------------------------------------
+5 6 12 10 0   :  setDAOAndMultiSig finalize setPricing startCrowdsale acceptOwnership 
+10 5 12 0 6   :  startCrowdsale setDAOAndMultiSig setPricing acceptOwnership finalize 
+------------------------------------------------------------
+5 12 10 0 6   :  setDAOAndMultiSig setPricing startCrowdsale acceptOwnership finalize 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+5 12 10 0 6   :  setDAOAndMultiSig setPricing startCrowdsale acceptOwnership finalize 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 12 10 0 6   :  setDAOAndMultiSig setPricing startCrowdsale acceptOwnership finalize 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 5 10 6 0   :  setPricing setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+------------------------------------------------------------
+12 5 10 6 0   :  setPricing setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 5 10 6 0   :  setPricing setDAOAndMultiSig startCrowdsale finalize acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+10 12 5 6 0   :  startCrowdsale setPricing setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+12 10 5 6 0   :  setPricing startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+------------------------------------------------------------
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+5 10 12 6 0   :  setDAOAndMultiSig startCrowdsale setPricing finalize acceptOwnership 
+------------------------------------------------------------
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+10 12 5 0 6   :  startCrowdsale setPricing setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+10 5 6 12 0   :  startCrowdsale setDAOAndMultiSig finalize setPricing acceptOwnership 
+------------------------------------------------------------
+5 6 10 12 0   :  setDAOAndMultiSig finalize startCrowdsale setPricing acceptOwnership 
+10 5 12 0 6   :  startCrowdsale setDAOAndMultiSig setPricing acceptOwnership finalize 
+------------------------------------------------------------
+10 12 5 6 0   :  startCrowdsale setPricing setDAOAndMultiSig finalize acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 12 5 6 0   :  startCrowdsale setPricing setDAOAndMultiSig finalize acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 10 5 6 0   :  setPricing startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 10 5 6 0   :  setPricing startCrowdsale setDAOAndMultiSig finalize acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 12 6 0   :  setDAOAndMultiSig startCrowdsale setPricing finalize acceptOwnership 
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 10 12 6 0   :  setDAOAndMultiSig startCrowdsale setPricing finalize acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 12 5 0 6   :  startCrowdsale setPricing setDAOAndMultiSig acceptOwnership finalize 
+------------------------------------------------------------
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 6 12 0   :  startCrowdsale setDAOAndMultiSig finalize setPricing acceptOwnership 
+------------------------------------------------------------
+12 5 6 10 0   :  setPricing setDAOAndMultiSig finalize startCrowdsale acceptOwnership 
+10 5 12 0 6   :  startCrowdsale setDAOAndMultiSig setPricing acceptOwnership finalize 
+------------------------------------------------------------
+10 12 5 0 6   :  startCrowdsale setPricing setDAOAndMultiSig acceptOwnership finalize 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+10 5 6 12 0   :  startCrowdsale setDAOAndMultiSig finalize setPricing acceptOwnership 
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+------------------------------------------------------------
+5 12 6 10 0   :  setDAOAndMultiSig setPricing finalize startCrowdsale acceptOwnership 
+10 5 12 0 6   :  startCrowdsale setDAOAndMultiSig setPricing acceptOwnership finalize 
+------------------------------------------------------------

@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "WinEthFree",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xef6da6e6e72e3381a1f97ea520d2844582d85edb",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xef6da6e6e72e3381a1f97ea520d2844582d85edb",
+            "main",
+            "Leverage"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "37fc3d36b0915862338e3accdee5ac35",
+    "fp_sol2": "f2262ae2e43dac278f5437c364d8a34f",
+    "id": "0xef6da6e6e72e3381a1f97ea520d2844582d85edb-WinEthFree-unexpectedrevert_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3654.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

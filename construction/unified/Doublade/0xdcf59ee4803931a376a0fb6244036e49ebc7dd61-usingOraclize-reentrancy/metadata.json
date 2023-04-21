@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "usingOraclize",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xdcf59ee4803931a376a0fb6244036e49ebc7dd61",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xdcf59ee4803931a376a0fb6244036e49ebc7dd61",
+            "main",
+            "HackDao"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "cf5df6da5d7877993f6769a53565fe6c",
+    "fp_sol2": "cbd2143fc78059e69ed7e21133ee67d6",
+    "id": "0xdcf59ee4803931a376a0fb6244036e49ebc7dd61-usingOraclize-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3363.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

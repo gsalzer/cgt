@@ -1,0 +1,60 @@
+{
+    "addr": "0x3aaaf1c542b365e47f13ab62497f020eee45f747",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.2.0-2015-12-21-6b711d0",
+    "compiler_orig": false,
+    "contractname": "ChineseCookies",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "40c179c2eafe511f9867966e94588265",
+    "fp_runtime": "40745c31c4cd9e82381819452df50134",
+    "fp_sol": "f8de2f6d909e73665f232da296b2969a",
+    "fp_sol2": "f8de2f6d909e73665f232da296b2969a",
+    "id": "0088_Code_31_0x3aaaf1c542b365e47f13ab62497f020eee45f747",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,301 @@
+Minimal found traces: 100 
+--------------------------------------------------------------------------------
+['buyTicket', 'transferOwnership']
+['transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['transferOwnership', 'fallback']
+['fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'transferOwnership', 'buyTicket']
+['setHouseFee', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['transferOwnership', 'buyTicket', 'fallback']
+['fallback', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['transferOwnership', 'buyTicket', 'fallback']
+['buyTicket', 'fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['transferOwnership', 'buyTicket', 'fallback']
+['fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['transferOwnership', 'buyTicket', 'fallback']
+['buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['fallback', 'transferOwnership', 'buyTicket']
+['buyTicket', 'fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['fallback', 'transferOwnership', 'buyTicket']
+['transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['fallback', 'transferOwnership', 'buyTicket']
+['fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['fallback', 'transferOwnership', 'buyTicket']
+['buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['buyTicket', 'fallback', 'transferOwnership']
+['transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['buyTicket', 'fallback', 'transferOwnership']
+['buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['transferOwnership', 'fallback', 'buyTicket']
+['fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['transferOwnership', 'fallback', 'buyTicket']
+['buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['fallback', 'buyTicket', 'transferOwnership']
+['buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateLeftLottery', 'buyTicket', 'transferOwnership']
+['updateLeftLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateLeftLottery', 'transferOwnership']
+['updateLeftLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setLotteryFee', 'transferOwnership', 'buyTicket']
+['setLotteryFee', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setLotteryFee', 'transferOwnership', 'buyTicket']
+['buyTicket', 'setLotteryFee', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'transferOwnership', 'fallback']
+['setHouseFee', 'fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'transferOwnership', 'fallback']
+['fallback', 'updateRightLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['fallback', 'updateLeftLottery', 'transferOwnership']
+['updateLeftLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateLeftLottery', 'fallback', 'transferOwnership']
+['updateLeftLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['setLotteryFee', 'transferOwnership', 'fallback']
+['fallback', 'setLotteryFee', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setLotteryFee', 'transferOwnership', 'fallback']
+['setLotteryFee', 'fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['fallback', 'setHouseFee', 'transferOwnership', 'buyTicket']
+['fallback', 'setHouseFee', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'fallback', 'transferOwnership']
+['setHouseFee', 'buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'fallback', 'transferOwnership']
+['setHouseFee', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'fallback', 'transferOwnership']
+['setHouseFee', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'fallback', 'transferOwnership']
+['setHouseFee', 'fallback', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'transferOwnership', 'fallback']
+['setHouseFee', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'transferOwnership', 'fallback']
+['setHouseFee', 'fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'transferOwnership', 'fallback']
+['setHouseFee', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'transferOwnership', 'fallback']
+['setHouseFee', 'fallback', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'transferOwnership', 'buyTicket', 'fallback']
+['setHouseFee', 'fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'transferOwnership', 'buyTicket', 'fallback']
+['setHouseFee', 'fallback', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['buyTicket', 'setHouseFee', 'fallback', 'transferOwnership']
+['buyTicket', 'setHouseFee', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['setHouseFee', 'fallback', 'buyTicket', 'transferOwnership']
+['setHouseFee', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'fallback', 'buyTicket', 'transferOwnership']
+['setHouseFee', 'fallback', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'transferOwnership', 'fallback', 'buyTicket']
+['setHouseFee', 'fallback', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+['updateRightLottery', 'setHouseFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+['setHouseFee', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'updateRightLottery', 'buyTicket', 'transferOwnership']
+['updateRightLottery', 'setHouseFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'updateRightLottery', 'buyTicket', 'transferOwnership']
+['setHouseFee', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'setHouseFee', 'transferOwnership', 'buyTicket']
+['updateRightLottery', 'setHouseFee', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'setHouseFee', 'buyTicket', 'transferOwnership']
+['setHouseFee', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateLeftLottery', 'setHouseFee', 'buyTicket', 'transferOwnership']
+['setHouseFee', 'updateLeftLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateLeftLottery', 'setHouseFee', 'buyTicket', 'transferOwnership']
+['updateLeftLottery', 'setHouseFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'updateLeftLottery', 'transferOwnership', 'buyTicket']
+['setHouseFee', 'buyTicket', 'updateLeftLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'updateLeftLottery', 'transferOwnership', 'buyTicket']
+['setHouseFee', 'updateLeftLottery', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateLeftLottery', 'setHouseFee', 'transferOwnership', 'buyTicket']
+['setHouseFee', 'buyTicket', 'updateLeftLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateLeftLottery', 'setHouseFee', 'transferOwnership', 'buyTicket']
+['setHouseFee', 'updateLeftLottery', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'setLotteryFee', 'buyTicket', 'transferOwnership']
+['setHouseFee', 'setLotteryFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'setLotteryFee', 'buyTicket', 'transferOwnership']
+['setLotteryFee', 'setHouseFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'setLotteryFee', 'transferOwnership', 'buyTicket']
+['setLotteryFee', 'setHouseFee', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setHouseFee', 'setLotteryFee', 'transferOwnership', 'buyTicket']
+['setHouseFee', 'buyTicket', 'setLotteryFee', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setLotteryFee', 'setHouseFee', 'buyTicket', 'transferOwnership']
+['setLotteryFee', 'setHouseFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['setHouseFee', 'buyTicket', 'setLotteryFee', 'transferOwnership']
+['setLotteryFee', 'setHouseFee', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['buyTicket', 'updateRightLottery', 'fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['updateRightLottery', 'buyTicket', 'fallback', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['fallback', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['buyTicket', 'fallback', 'updateRightLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['fallback', 'updateRightLottery', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['updateRightLottery', 'fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'fallback', 'transferOwnership', 'buyTicket']
+['updateRightLottery', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'fallback', 'transferOwnership']
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'fallback', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'fallback', 'transferOwnership']
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'fallback', 'transferOwnership']
+['fallback', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'fallback', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'fallback', 'transferOwnership']
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'fallback', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'fallback', 'transferOwnership']
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'fallback', 'transferOwnership']
+['fallback', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'fallback', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['fallback', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['fallback', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['buyTicket', 'fallback', 'updateRightLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['fallback', 'updateRightLottery', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['updateRightLottery', 'fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'buyTicket', 'transferOwnership', 'fallback']
+['updateRightLottery', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['fallback', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+--------------------------------------------------------------------------------
+['fallback', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['fallback', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+['fallback', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['fallback', 'buyTicket', 'updateRightLottery', 'transferOwnership']
+['updateRightLottery', 'transferOwnership', 'buyTicket', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+['fallback', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+['buyTicket', 'fallback', 'updateRightLottery', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+['fallback', 'updateRightLottery', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['updateRightLottery', 'transferOwnership', 'fallback', 'buyTicket']
+['updateRightLottery', 'fallback', 'buyTicket', 'transferOwnership']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+['fallback', 'updateRightLottery', 'transferOwnership', 'buyTicket']
+--------------------------------------------------------------------------------
+['buyTicket', 'updateRightLottery', 'transferOwnership', 'fallback']
+['buyTicket', 'fallback', 'updateRightLottery', 'transferOwnership']

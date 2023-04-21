@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "BatchTransfer.executeBatchTransfer has external calls inside a loop: \"token.transfer(_dests[i],_values[i] * (10 ** 18))\" (reorder_contracts_2_3/test3801.sol#42)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(_dests[i],_values[i] * (10 ** 18))",
+            "source_mapping": {
+              "start": 1080,
+              "length": 50,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3801.sol",
+              "filename_relative": "reorder_contracts_2_3/test3801.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3801.sol",
+              "filename_short": "reorder_contracts_2_3/test3801.sol",
+              "lines": [
+                42
+              ],
+              "starting_column": 13,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "executeBatchTransfer",
+                "source_mapping": {
+                  "start": 906,
+                  "length": 283,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3801.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3801.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3801.sol",
+                  "filename_short": "reorder_contracts_2_3/test3801.sol",
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BatchTransfer",
+                    "source_mapping": {
+                      "start": 115,
+                      "length": 1089,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3801.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3801.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3801.sol",
+                      "filename_short": "reorder_contracts_2_3/test3801.sol",
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "executeBatchTransfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

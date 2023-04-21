@@ -1,0 +1,14 @@
+Bug types: 12
+--------------------------------------------------------------------------------
+  8 : ['transferFrom', 'approve']
+  8 : ['transfer', 'approve', 'transferFrom', 'approve']
+  6 : ['transfer', 'transferFrom', 'approve']
+  5 : ['transfer', 'approve', 'transferFrom']
+  4 : ['transfer', 'transferFrom', 'approve', 'transferFrom']
+  3 : ['approve', 'transferFrom']
+  2 : ['transfer', 'transferFrom']
+  2 : ['transfer', 'approve']
+  2 : ['transfer', 'approve', 'approve']
+  1 : ['transfer', 'approve', 'approve', 'transferFrom']
+  1 : ['transfer', 'approve', 'transferFrom', 'transferFrom']
+  1 : ['transfer', 'transferFrom', 'transferFrom']

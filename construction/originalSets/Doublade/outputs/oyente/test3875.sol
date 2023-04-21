@@ -1,0 +1,2 @@
+{u'source_code/test3875.sol': {u'SuperbContract': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test3875.sol:145:5: Warning: Transaction-Ordering Dependency.\n    msg.sender.transfer(eth_to_withdraw)'], [u'source_code/test3875.sol:145:5: Warning: Transaction-Ordering Dependency.\n    msg.sender.transfer(eth_to_withdraw)']], 'assertion_failure': []}, 'evm_code_coverage': '88.8'}}}
+

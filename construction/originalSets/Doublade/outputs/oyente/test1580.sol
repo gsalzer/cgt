@@ -1,0 +1,2 @@
+{u'source_code/test1580.sol': {u'HundredPercentDivs': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test1580.sol:20:9: Warning: Transaction-Ordering Dependency.\n        contractOwner.transfer(msg.value)'], [u'source_code/test1580.sol:18:9: Warning: Transaction-Ordering Dependency.\n        msg.sender.transfer(msg.value)']], 'assertion_failure': []}, 'evm_code_coverage': '94.2'}}}
+

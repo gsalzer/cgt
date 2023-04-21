@@ -1,0 +1,444 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'end_ICO', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '02c3d7f6'}
+1 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'transferby', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'eb9763ed000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}
+2 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'end_ICO', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '02c3d7f6'}
+3 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+4 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000a2df27e9be392e4a6cf8cce5dab3762c9688a243'}
+5 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'addresses', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'edf26d9b'}
+6 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+8 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': '__callback', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '38bbfa50'}
+9 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+10 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'decimals', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '313ce567'}
+11 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'token_price', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '7b4fd96e'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balanceOf', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '70a082310000000000000000000000002222222222222222222222222222222222222222'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'userStructs', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '19447eb60000000000000000000000001111111111111111111111111111111111111111'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'userStructs', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '19447eb60000000000000000000000002222222222222222222222222222222222222222'}
+15 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'drain', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9890220b'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222'}
+17 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'getAddress', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'b93f9b0a'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000a2df27e9be392e4a6cf8cce5dab3762c9688a243'}
+19 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111'}
+20 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': '__callback', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '27dc297e'}
+21 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'decimals', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '313ce567'}
+22 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'symbol', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '95d89b41'}
+23 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '11111111'}
+24 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}
+25 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'unhalt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cb3e64fd'}
+26 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'transfer_ownership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0350c040000000000000000000000002975047865c5739568eddc9255567ae2bf047d9e'}
+27 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}
+28 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'getarray_length', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '322b1bc0'}
+29 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'allowance', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'dd62ed3e00000000000000000000000022222222222222222222222222222222222222220000000000000000000000002222222222222222222222222222222222222222'}
+30 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'start_ico', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4260c779'}
+31 : {'tx_caller': 'a2df27e9be392e4a6cf8cce5dab3762c9688a243', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+32 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'getarray_length', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '322b1bc0'}
+33 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111'}
+34 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222'}
+35 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'token_price', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '7b4fd96e'}
+--------------------------------------------------------------------------------
+
+Full traces: 134
+--------------------------------------------------------------------------------
+3 25   :  halt unhalt 
+25 3   :  unhalt halt 
+------------------------------------------------------------
+1 25 3   :  transferby unhalt halt 
+3 25 1   :  halt unhalt transferby 
+------------------------------------------------------------
+1 25 3   :  transferby unhalt halt 
+1 3 25   :  transferby halt unhalt 
+------------------------------------------------------------
+1 25 3   :  transferby unhalt halt 
+3 1 25   :  halt transferby unhalt 
+------------------------------------------------------------
+3 25 1   :  halt unhalt transferby 
+25 1 3   :  unhalt transferby halt 
+------------------------------------------------------------
+3 25 1   :  halt unhalt transferby 
+25 3 1   :  unhalt halt transferby 
+------------------------------------------------------------
+25 1 3   :  unhalt transferby halt 
+1 3 25   :  transferby halt unhalt 
+------------------------------------------------------------
+25 1 3   :  unhalt transferby halt 
+3 1 25   :  halt transferby unhalt 
+------------------------------------------------------------
+25 3 1   :  unhalt halt transferby 
+1 3 25   :  transferby halt unhalt 
+------------------------------------------------------------
+25 3 1   :  unhalt halt transferby 
+3 1 25   :  halt transferby unhalt 
+------------------------------------------------------------
+25 2 3   :  unhalt end_ICO halt 
+2 3 25   :  end_ICO halt unhalt 
+------------------------------------------------------------
+2 3 25   :  end_ICO halt unhalt 
+2 25 3   :  end_ICO unhalt halt 
+------------------------------------------------------------
+4 3 25   :  approve halt unhalt 
+25 4 3   :  unhalt approve halt 
+------------------------------------------------------------
+4 3 25   :  approve halt unhalt 
+4 25 3   :  approve unhalt halt 
+------------------------------------------------------------
+4 3 25   :  approve halt unhalt 
+25 3 4   :  unhalt halt approve 
+------------------------------------------------------------
+25 4 3   :  unhalt approve halt 
+3 25 4   :  halt unhalt approve 
+------------------------------------------------------------
+25 4 3   :  unhalt approve halt 
+3 4 25   :  halt approve unhalt 
+------------------------------------------------------------
+4 25 3   :  approve unhalt halt 
+3 25 4   :  halt unhalt approve 
+------------------------------------------------------------
+4 25 3   :  approve unhalt halt 
+3 4 25   :  halt approve unhalt 
+------------------------------------------------------------
+3 25 4   :  halt unhalt approve 
+25 3 4   :  unhalt halt approve 
+------------------------------------------------------------
+3 4 25   :  halt approve unhalt 
+25 3 4   :  unhalt halt approve 
+------------------------------------------------------------
+7 25 3   :  totalSupply unhalt halt 
+3 25 7   :  halt unhalt totalSupply 
+------------------------------------------------------------
+7 25 3   :  totalSupply unhalt halt 
+3 7 25   :  halt totalSupply unhalt 
+------------------------------------------------------------
+7 25 3   :  totalSupply unhalt halt 
+7 3 25   :  totalSupply halt unhalt 
+------------------------------------------------------------
+25 3 7   :  unhalt halt totalSupply 
+3 25 7   :  halt unhalt totalSupply 
+------------------------------------------------------------
+25 3 7   :  unhalt halt totalSupply 
+3 7 25   :  halt totalSupply unhalt 
+------------------------------------------------------------
+25 3 7   :  unhalt halt totalSupply 
+7 3 25   :  totalSupply halt unhalt 
+------------------------------------------------------------
+3 25 7   :  halt unhalt totalSupply 
+25 7 3   :  unhalt totalSupply halt 
+------------------------------------------------------------
+25 7 3   :  unhalt totalSupply halt 
+3 7 25   :  halt totalSupply unhalt 
+------------------------------------------------------------
+25 7 3   :  unhalt totalSupply halt 
+7 3 25   :  totalSupply halt unhalt 
+------------------------------------------------------------
+3 12 25   :  halt balanceOf unhalt 
+25 3 12   :  unhalt halt balanceOf 
+------------------------------------------------------------
+3 12 25   :  halt balanceOf unhalt 
+12 25 3   :  balanceOf unhalt halt 
+------------------------------------------------------------
+3 12 25   :  halt balanceOf unhalt 
+25 12 3   :  unhalt balanceOf halt 
+------------------------------------------------------------
+25 3 12   :  unhalt halt balanceOf 
+3 25 12   :  halt unhalt balanceOf 
+------------------------------------------------------------
+25 3 12   :  unhalt halt balanceOf 
+12 3 25   :  balanceOf halt unhalt 
+------------------------------------------------------------
+3 25 12   :  halt unhalt balanceOf 
+12 25 3   :  balanceOf unhalt halt 
+------------------------------------------------------------
+3 25 12   :  halt unhalt balanceOf 
+25 12 3   :  unhalt balanceOf halt 
+------------------------------------------------------------
+12 25 3   :  balanceOf unhalt halt 
+12 3 25   :  balanceOf halt unhalt 
+------------------------------------------------------------
+12 3 25   :  balanceOf halt unhalt 
+25 12 3   :  unhalt balanceOf halt 
+------------------------------------------------------------
+25 3 13   :  unhalt halt userStructs 
+13 3 25   :  userStructs halt unhalt 
+------------------------------------------------------------
+25 3 13   :  unhalt halt userStructs 
+3 25 13   :  halt unhalt userStructs 
+------------------------------------------------------------
+25 3 13   :  unhalt halt userStructs 
+3 13 25   :  halt userStructs unhalt 
+------------------------------------------------------------
+13 3 25   :  userStructs halt unhalt 
+25 13 3   :  unhalt userStructs halt 
+------------------------------------------------------------
+13 3 25   :  userStructs halt unhalt 
+13 25 3   :  userStructs unhalt halt 
+------------------------------------------------------------
+25 13 3   :  unhalt userStructs halt 
+3 25 13   :  halt unhalt userStructs 
+------------------------------------------------------------
+25 13 3   :  unhalt userStructs halt 
+3 13 25   :  halt userStructs unhalt 
+------------------------------------------------------------
+3 25 13   :  halt unhalt userStructs 
+13 25 3   :  userStructs unhalt halt 
+------------------------------------------------------------
+13 25 3   :  userStructs unhalt halt 
+3 13 25   :  halt userStructs unhalt 
+------------------------------------------------------------
+15 3 25   :  drain halt unhalt 
+15 25 3   :  drain unhalt halt 
+------------------------------------------------------------
+15 3 25   :  drain halt unhalt 
+25 3 15   :  unhalt halt drain 
+------------------------------------------------------------
+15 3 25   :  drain halt unhalt 
+25 15 3   :  unhalt drain halt 
+------------------------------------------------------------
+15 25 3   :  drain unhalt halt 
+3 25 15   :  halt unhalt drain 
+------------------------------------------------------------
+15 25 3   :  drain unhalt halt 
+3 15 25   :  halt drain unhalt 
+------------------------------------------------------------
+25 3 15   :  unhalt halt drain 
+3 25 15   :  halt unhalt drain 
+------------------------------------------------------------
+25 3 15   :  unhalt halt drain 
+3 15 25   :  halt drain unhalt 
+------------------------------------------------------------
+3 25 15   :  halt unhalt drain 
+25 15 3   :  unhalt drain halt 
+------------------------------------------------------------
+25 15 3   :  unhalt drain halt 
+3 15 25   :  halt drain unhalt 
+------------------------------------------------------------
+3 25 21   :  halt unhalt decimals 
+25 3 21   :  unhalt halt decimals 
+------------------------------------------------------------
+3 25 21   :  halt unhalt decimals 
+21 25 3   :  decimals unhalt halt 
+------------------------------------------------------------
+3 25 21   :  halt unhalt decimals 
+25 21 3   :  unhalt decimals halt 
+------------------------------------------------------------
+25 3 21   :  unhalt halt decimals 
+21 3 25   :  decimals halt unhalt 
+------------------------------------------------------------
+25 3 21   :  unhalt halt decimals 
+3 21 25   :  halt decimals unhalt 
+------------------------------------------------------------
+21 3 25   :  decimals halt unhalt 
+21 25 3   :  decimals unhalt halt 
+------------------------------------------------------------
+21 3 25   :  decimals halt unhalt 
+25 21 3   :  unhalt decimals halt 
+------------------------------------------------------------
+21 25 3   :  decimals unhalt halt 
+3 21 25   :  halt decimals unhalt 
+------------------------------------------------------------
+3 21 25   :  halt decimals unhalt 
+25 21 3   :  unhalt decimals halt 
+------------------------------------------------------------
+25 3 22   :  unhalt halt symbol 
+22 3 25   :  symbol halt unhalt 
+------------------------------------------------------------
+25 3 22   :  unhalt halt symbol 
+3 25 22   :  halt unhalt symbol 
+------------------------------------------------------------
+25 3 22   :  unhalt halt symbol 
+3 22 25   :  halt symbol unhalt 
+------------------------------------------------------------
+25 22 3   :  unhalt symbol halt 
+22 3 25   :  symbol halt unhalt 
+------------------------------------------------------------
+25 22 3   :  unhalt symbol halt 
+3 25 22   :  halt unhalt symbol 
+------------------------------------------------------------
+25 22 3   :  unhalt symbol halt 
+3 22 25   :  halt symbol unhalt 
+------------------------------------------------------------
+22 3 25   :  symbol halt unhalt 
+22 25 3   :  symbol unhalt halt 
+------------------------------------------------------------
+3 25 22   :  halt unhalt symbol 
+22 25 3   :  symbol unhalt halt 
+------------------------------------------------------------
+22 25 3   :  symbol unhalt halt 
+3 22 25   :  halt symbol unhalt 
+------------------------------------------------------------
+25 23 3   :  unhalt fallback halt 
+3 25 23   :  halt unhalt fallback 
+------------------------------------------------------------
+25 23 3   :  unhalt fallback halt 
+23 3 25   :  fallback halt unhalt 
+------------------------------------------------------------
+3 25 23   :  halt unhalt fallback 
+23 25 3   :  fallback unhalt halt 
+------------------------------------------------------------
+23 25 3   :  fallback unhalt halt 
+23 3 25   :  fallback halt unhalt 
+------------------------------------------------------------
+24 3 25   :  transferFrom halt unhalt 
+25 24 3   :  unhalt transferFrom halt 
+------------------------------------------------------------
+24 3 25   :  transferFrom halt unhalt 
+25 3 24   :  unhalt halt transferFrom 
+------------------------------------------------------------
+24 3 25   :  transferFrom halt unhalt 
+24 25 3   :  transferFrom unhalt halt 
+------------------------------------------------------------
+25 24 3   :  unhalt transferFrom halt 
+3 24 25   :  halt transferFrom unhalt 
+------------------------------------------------------------
+25 24 3   :  unhalt transferFrom halt 
+3 25 24   :  halt unhalt transferFrom 
+------------------------------------------------------------
+25 3 24   :  unhalt halt transferFrom 
+3 24 25   :  halt transferFrom unhalt 
+------------------------------------------------------------
+25 3 24   :  unhalt halt transferFrom 
+3 25 24   :  halt unhalt transferFrom 
+------------------------------------------------------------
+3 24 25   :  halt transferFrom unhalt 
+24 25 3   :  transferFrom unhalt halt 
+------------------------------------------------------------
+3 25 24   :  halt unhalt transferFrom 
+24 25 3   :  transferFrom unhalt halt 
+------------------------------------------------------------
+3 25 26   :  halt unhalt transfer_ownership 
+25 3 26   :  unhalt halt transfer_ownership 
+------------------------------------------------------------
+3 25 27   :  halt unhalt transfer 
+25 27 3   :  unhalt transfer halt 
+------------------------------------------------------------
+3 25 27   :  halt unhalt transfer 
+27 25 3   :  transfer unhalt halt 
+------------------------------------------------------------
+3 25 27   :  halt unhalt transfer 
+25 3 27   :  unhalt halt transfer 
+------------------------------------------------------------
+3 27 25   :  halt transfer unhalt 
+25 27 3   :  unhalt transfer halt 
+------------------------------------------------------------
+3 27 25   :  halt transfer unhalt 
+27 25 3   :  transfer unhalt halt 
+------------------------------------------------------------
+3 27 25   :  halt transfer unhalt 
+25 3 27   :  unhalt halt transfer 
+------------------------------------------------------------
+25 27 3   :  unhalt transfer halt 
+27 3 25   :  transfer halt unhalt 
+------------------------------------------------------------
+27 3 25   :  transfer halt unhalt 
+27 25 3   :  transfer unhalt halt 
+------------------------------------------------------------
+27 3 25   :  transfer halt unhalt 
+25 3 27   :  unhalt halt transfer 
+------------------------------------------------------------
+3 29 25   :  halt allowance unhalt 
+25 3 29   :  unhalt halt allowance 
+------------------------------------------------------------
+3 29 25   :  halt allowance unhalt 
+25 29 3   :  unhalt allowance halt 
+------------------------------------------------------------
+3 29 25   :  halt allowance unhalt 
+29 25 3   :  allowance unhalt halt 
+------------------------------------------------------------
+29 3 25   :  allowance halt unhalt 
+25 3 29   :  unhalt halt allowance 
+------------------------------------------------------------
+29 3 25   :  allowance halt unhalt 
+25 29 3   :  unhalt allowance halt 
+------------------------------------------------------------
+29 3 25   :  allowance halt unhalt 
+29 25 3   :  allowance unhalt halt 
+------------------------------------------------------------
+25 3 29   :  unhalt halt allowance 
+3 25 29   :  halt unhalt allowance 
+------------------------------------------------------------
+25 29 3   :  unhalt allowance halt 
+3 25 29   :  halt unhalt allowance 
+------------------------------------------------------------
+3 25 29   :  halt unhalt allowance 
+29 25 3   :  allowance unhalt halt 
+------------------------------------------------------------
+30 25 3   :  start_ico unhalt halt 
+3 30 25   :  halt start_ico unhalt 
+------------------------------------------------------------
+30 25 3   :  start_ico unhalt halt 
+30 3 25   :  start_ico halt unhalt 
+------------------------------------------------------------
+30 25 3   :  start_ico unhalt halt 
+3 25 30   :  halt unhalt start_ico 
+------------------------------------------------------------
+3 30 25   :  halt start_ico unhalt 
+25 3 30   :  unhalt halt start_ico 
+------------------------------------------------------------
+3 30 25   :  halt start_ico unhalt 
+25 30 3   :  unhalt start_ico halt 
+------------------------------------------------------------
+30 3 25   :  start_ico halt unhalt 
+25 3 30   :  unhalt halt start_ico 
+------------------------------------------------------------
+30 3 25   :  start_ico halt unhalt 
+25 30 3   :  unhalt start_ico halt 
+------------------------------------------------------------
+25 3 30   :  unhalt halt start_ico 
+3 25 30   :  halt unhalt start_ico 
+------------------------------------------------------------
+3 25 30   :  halt unhalt start_ico 
+25 30 3   :  unhalt start_ico halt 
+------------------------------------------------------------
+3 32 25   :  halt getarray_length unhalt 
+32 25 3   :  getarray_length unhalt halt 
+------------------------------------------------------------
+3 32 25   :  halt getarray_length unhalt 
+25 32 3   :  unhalt getarray_length halt 
+------------------------------------------------------------
+3 32 25   :  halt getarray_length unhalt 
+25 3 32   :  unhalt halt getarray_length 
+------------------------------------------------------------
+32 25 3   :  getarray_length unhalt halt 
+32 3 25   :  getarray_length halt unhalt 
+------------------------------------------------------------
+32 25 3   :  getarray_length unhalt halt 
+3 25 32   :  halt unhalt getarray_length 
+------------------------------------------------------------
+25 32 3   :  unhalt getarray_length halt 
+32 3 25   :  getarray_length halt unhalt 
+------------------------------------------------------------
+25 32 3   :  unhalt getarray_length halt 
+3 25 32   :  halt unhalt getarray_length 
+------------------------------------------------------------
+32 3 25   :  getarray_length halt unhalt 
+25 3 32   :  unhalt halt getarray_length 
+------------------------------------------------------------
+3 25 32   :  halt unhalt getarray_length 
+25 3 32   :  unhalt halt getarray_length 
+------------------------------------------------------------
+25 35 3   :  unhalt token_price halt 
+3 25 35   :  halt unhalt token_price 
+------------------------------------------------------------
+25 35 3   :  unhalt token_price halt 
+3 35 25   :  halt token_price unhalt 
+------------------------------------------------------------
+25 35 3   :  unhalt token_price halt 
+35 3 25   :  token_price halt unhalt 
+------------------------------------------------------------
+25 3 35   :  unhalt halt token_price 
+3 25 35   :  halt unhalt token_price 
+------------------------------------------------------------
+25 3 35   :  unhalt halt token_price 
+3 35 25   :  halt token_price unhalt 
+------------------------------------------------------------
+25 3 35   :  unhalt halt token_price 
+35 3 25   :  token_price halt unhalt 
+------------------------------------------------------------
+3 25 35   :  halt unhalt token_price 
+35 25 3   :  token_price unhalt halt 
+------------------------------------------------------------
+3 35 25   :  halt token_price unhalt 
+35 25 3   :  token_price unhalt halt 
+------------------------------------------------------------
+35 3 25   :  token_price halt unhalt 
+35 25 3   :  token_price unhalt halt 
+------------------------------------------------------------

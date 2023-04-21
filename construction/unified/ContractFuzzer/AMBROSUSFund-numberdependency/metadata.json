@@ -1,0 +1,38 @@
+{
+    "addr": "0x7a1f4c713b7ced54b86a3baca9cbda91d2ef27fc",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "AMBROSUSFund",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a90324844879e9f620365b80ca84f202",
+    "fp_runtime": "f4b4933a71a8111537aa3413a7b21c8d",
+    "fp_sol": "116d27375e8107743f7afa67c0e66c5f",
+    "fp_sol2": "5d2e5f82da20c55a3e2c749455d237b2",
+    "id": "AMBROSUSFund-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_AMBROSUSFund.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AMBROSUSFund.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

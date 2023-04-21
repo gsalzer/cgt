@@ -1,0 +1,39 @@
+{
+    "addr": "0x6e3ed592e28006eb6db16a568a56e82437a32935",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_MarchMadness.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "MarchMadness",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "481d34a4442c0e9d270ff44e6c09ab17",
+    "fp_runtime": "80f338a63ed5d4cfe0c74747ef0af527",
+    "fp_sol": "0656292491c3f9c8b491925d00b04d75",
+    "fp_sol2": "5a183e09f65ebeb3228aed32b05af408",
+    "id": "MarchMadness-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MarchMadness.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

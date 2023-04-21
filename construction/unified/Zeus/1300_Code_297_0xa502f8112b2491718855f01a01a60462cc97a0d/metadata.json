@@ -1,0 +1,60 @@
+{
+    "addr": "0xa502f8112b2491718855f01a01a60462cc97a0d5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-18-e759a24",
+    "compiler_orig": false,
+    "contractname": "UfoPonzi",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "0b39a8dee39b1b04602f6679edd5761d",
+    "fp_runtime": "1c8166d5ad0e982626b3174088f95795",
+    "fp_sol": "7a64289fb66092fe1c8f2b072f75db9a",
+    "fp_sol2": "7a64289fb66092fe1c8f2b072f75db9a",
+    "id": "1300_Code_297_0xa502f8112b2491718855f01a01a60462cc97a0d",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

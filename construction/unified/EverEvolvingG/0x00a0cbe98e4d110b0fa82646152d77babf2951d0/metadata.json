@@ -1,0 +1,36 @@
+{
+    "addr": "0x00a0cbe98e4d110b0fa82646152d77babf2951d0",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ERC20Token",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "7b10cc99a942cd0189cbb5a4ef9b46e1",
+    "fp_runtime": "4d1500b8089b85a213b1aff46078a510",
+    "fp_sol": "52d62e4bf3e67582db8cdea0a5fab378",
+    "fp_sol2": "9e1085b418207c74f4ccf178bfde3d21",
+    "id": "0x00a0cbe98e4d110b0fa82646152d77babf2951d0",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

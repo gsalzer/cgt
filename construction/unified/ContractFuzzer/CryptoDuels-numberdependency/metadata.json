@@ -1,0 +1,37 @@
+{
+    "addr": "0x2931b36154a10bde01373af56623705d128155b5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CryptoDuels.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "CryptoDuels",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "cad0d3a8e767746b568a810df5be55a5",
+    "fp_runtime": "b6ef94a134764b07539d69b59bbe0024",
+    "fp_sol": "85119ee7b315f8c3791bb0164ef0fa17",
+    "fp_sol2": "14dcc2c93c1e529757a8bf58f8edf621",
+    "id": "CryptoDuels-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CryptoDuels.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

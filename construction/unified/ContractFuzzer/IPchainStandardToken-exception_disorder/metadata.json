@@ -1,0 +1,39 @@
+{
+    "addr": "0x622cd54deb2bb7a051515192417109bcf3fe098f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_IPchainStandardToken.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "IPchainStandardToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "6be309a5c348aa66f76b8d9c563757ff",
+    "fp_runtime": "2317e822a84051be9ffb2b0123f9b171",
+    "fp_sol": "12ac60470e43cb8582624a857408482f",
+    "fp_sol2": "19a1f7cce64bf9fe2c4dc6f738c690bb",
+    "id": "IPchainStandardToken-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_IPchainStandardToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

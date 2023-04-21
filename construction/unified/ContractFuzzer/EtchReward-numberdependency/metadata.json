@@ -1,0 +1,44 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BasicToken",
+            "ERC20Basic",
+            "EtchReward",
+            "Ownable",
+            "Pausable",
+            "ReentrancyGuard",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "a544bf8f3626f4f9afb593ddc18d9a4e",
+    "fp_sol": "437d6afdd81d2c252623ad5e38842410",
+    "fp_sol2": "55b303d8d30c01442fbcafacce399a73",
+    "id": "EtchReward-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/EtchReward.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/EtchReward.sol"
+    ],
+    "sol_orig": true
+}

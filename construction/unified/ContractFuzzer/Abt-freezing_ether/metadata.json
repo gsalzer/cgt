@@ -1,0 +1,39 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "Abt",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "226967cefca4b54288786aa09280e67a",
+    "fp_sol": "8a3de8b7921f33c1661ae73d4944a8a1",
+    "fp_sol2": "823e66ec0fc25b998637643ceaeea287",
+    "id": "Abt-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/Abt.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/Abt.sol"
+    ],
+    "sol_orig": true
+}

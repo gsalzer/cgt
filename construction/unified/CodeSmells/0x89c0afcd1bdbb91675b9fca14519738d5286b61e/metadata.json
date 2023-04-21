@@ -1,0 +1,119 @@
+{
+    "addr": "0x89c0afcd1bdbb91675b9fca14519738d5286b61e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            true
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            true
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Trees",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x89c0afcd1bdbb91675b9fca14519738d5286b61e",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "f47e0c87d8a89e0b072ec553b3bd16e2",
+    "fp_runtime": "e0b85ad0a4edb73c128c03a1a637ff75",
+    "fp_sol": "755363468144b9d2a5ee332c3abda0c4",
+    "fp_sol2": "e82c66c8bd4e9c4728d3b7e0f4d5cdcc",
+    "id": "0x89c0afcd1bdbb91675b9fca14519738d5286b61e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

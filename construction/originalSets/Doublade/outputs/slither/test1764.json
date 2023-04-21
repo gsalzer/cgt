@@ -1,0 +1,201 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "ERC223TokenCompatible.transfer (reorder_contracts_2_3/test1764.sol#183-195) ignores return value by low-level calls \"_to.call.value(0)(bytes4(keccak256()(_custom_fallback)),msg.sender,_value,_data)\" (reorder_contracts_2_3/test1764.sol#191)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "_to.call.value(0)(bytes4(keccak256()(_custom_fallback)),msg.sender,_value,_data)",
+            "source_mapping": {
+              "start": 6000,
+              "length": 81,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+              "filename_relative": "reorder_contracts_2_3/test1764.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+              "filename_short": "reorder_contracts_2_3/test1764.sol",
+              "lines": [
+                191
+              ],
+              "starting_column": 4,
+              "ending_column": 85
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 5557,
+                  "length": 596,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1764.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+                  "filename_short": "reorder_contracts_2_3/test1764.sol",
+                  "lines": [
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC223TokenCompatible",
+                    "source_mapping": {
+                      "start": 5287,
+                      "length": 1501,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1764.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+                      "filename_short": "reorder_contracts_2_3/test1764.sol",
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256,bytes,string)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 5557,
+              "length": 596,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+              "filename_relative": "reorder_contracts_2_3/test1764.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+              "filename_short": "reorder_contracts_2_3/test1764.sol",
+              "lines": [
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC223TokenCompatible",
+                "source_mapping": {
+                  "start": 5287,
+                  "length": 1501,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1764.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1764.sol",
+                  "filename_short": "reorder_contracts_2_3/test1764.sol",
+                  "lines": [
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256,bytes,string)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

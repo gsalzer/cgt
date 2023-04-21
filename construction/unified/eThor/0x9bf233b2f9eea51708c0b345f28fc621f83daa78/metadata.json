@@ -1,0 +1,37 @@
+{
+    "addr": "0x9bf233b2f9eea51708c0b345f28fc621f83daa78",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": true,
+    "contractname": "Crowdsale",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "eb49da2b606ff41842b785aca84e142d",
+    "fp_runtime": "30fc7b0c1e5830e40d463de31c0f9e2d",
+    "fp_sol": "e3c01148d63bfec52aaa64f137e02d6f",
+    "fp_sol2": "c482b564d029540966483fea7da51a1f",
+    "id": "0x9bf233b2f9eea51708c0b345f28fc621f83daa78",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

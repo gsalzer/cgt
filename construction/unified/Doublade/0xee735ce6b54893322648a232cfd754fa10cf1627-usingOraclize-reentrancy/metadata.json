@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "usingOraclize",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xee735ce6b54893322648a232cfd754fa10cf1627",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xee735ce6b54893322648a232cfd754fa10cf1627",
+            "main",
+            "LockEther"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "9353fef9235f9e3c728dfac0d28a1796",
+    "fp_sol2": "507aed5cc59b567ded641eb61253954a",
+    "id": "0xee735ce6b54893322648a232cfd754fa10cf1627-usingOraclize-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3641.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

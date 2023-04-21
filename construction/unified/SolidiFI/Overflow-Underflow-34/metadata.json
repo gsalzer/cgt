@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "LollypopToken",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "ade6965df3ba76076d5f383338856ec1",
+    "fp_sol2": "04ee78aff2adc9ccc9e6a4c5fb80da7e",
+    "id": "Overflow-Underflow-34",
+    "info": [
+        "info/BugLog_34.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_34.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,2 @@
+{u'source_code/test3760.sol': {u'C5PMCrowdsale': {'vulnerabilities': {'callstack': [], 'time_dependency': [u'source_code/test3760.sol:26:9: Warning: Timestamp Dependency.\n        require(now > startDate)', u'source_code/test3760.sol:27:9: Warning: Timestamp Dependency.\n        require(now < endDate)'], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '96.2'}}}
+

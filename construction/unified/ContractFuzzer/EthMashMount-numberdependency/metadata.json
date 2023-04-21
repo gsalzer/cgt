@@ -1,0 +1,38 @@
+{
+    "addr": "0xadea1a12d74a54e914cecfcd024223d40d68d7eb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "EthMashMount",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b41e7631ec5d16852beffb9567d33a50",
+    "fp_runtime": "9aa3de7a9ac1e65570d9225fae833171",
+    "fp_sol": "0f7db6bbb35fa3a203c4b3c1356cfd47",
+    "fp_sol2": "d8fd38cf4aa27969d1d62e3afc785465",
+    "id": "EthMashMount-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_EthMashMount.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_EthMashMount.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

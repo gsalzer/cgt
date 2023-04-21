@@ -1,0 +1,2745 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'dc48c9b99a94ffd60557ed6dc9a4649db0fb2b33', 'name': 'setPricer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '29390370'}
+1 : {'tx_caller': 'dc48c9b99a94ffd60557ed6dc9a4649db0fb2b33', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae10000000000000000000000000000000000000000000000000000000000000001'}
+2 : {'tx_caller': 'dc48c9b99a94ffd60557ed6dc9a4649db0fb2b33', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae10000000000000000000000000000000000000000000000000000000000000003'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'RetStatic', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3cad71cf'}
+4 : {'tx_caller': 'dc48c9b99a94ffd60557ed6dc9a4649db0fb2b33', 'name': 'setCoins', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4863ed97'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'RetStatic', 'tx_blocknumber': '0', 'tx_value': '0', 'tx_timestamp': '0', 'tx_input': '3cad71cf'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'NewRisk', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '199f4045'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'RetRisk', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '450b6079'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'RetRisk', 'tx_blocknumber': '0', 'tx_value': '0', 'tx_timestamp': '0', 'tx_input': '450b6079'}
+--------------------------------------------------------------------------------
+
+Full traces: 910
+--------------------------------------------------------------------------------
+4 0   :  setCoins setPricer 
+0 4   :  setPricer setCoins 
+------------------------------------------------------------
+0 4 1   :  setPricer setCoins changeOwner 
+4 0 1   :  setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 4   :  setPricer RetStatic setCoins 
+3 4 0   :  RetStatic setCoins setPricer 
+------------------------------------------------------------
+3 4 0   :  RetStatic setCoins setPricer 
+3 0 4   :  RetStatic setPricer setCoins 
+------------------------------------------------------------
+0 6 4   :  setPricer NewRisk setCoins 
+6 4 0   :  NewRisk setCoins setPricer 
+------------------------------------------------------------
+6 0 4   :  NewRisk setPricer setCoins 
+6 4 0   :  NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 4   :  setPricer RetRisk setCoins 
+7 4 0   :  RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 0 4   :  RetRisk setPricer setCoins 
+7 4 0   :  RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 3 4 1   :  setPricer RetStatic setCoins changeOwner 
+3 4 0 1   :  RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 4 1   :  RetStatic setPricer setCoins changeOwner 
+3 4 0 1   :  RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 4 1   :  setPricer NewRisk setCoins changeOwner 
+6 4 0 1   :  NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 4 0 1   :  NewRisk setCoins setPricer changeOwner 
+6 0 4 1   :  NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+7 4 0 1   :  RetRisk setCoins setPricer changeOwner 
+0 7 4 1   :  setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+7 4 0 1   :  RetRisk setCoins setPricer changeOwner 
+7 0 4 1   :  RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+5 3 4 0   :  RetStatic RetStatic setCoins setPricer 
+5 0 3 4   :  RetStatic setPricer RetStatic setCoins 
+------------------------------------------------------------
+5 3 4 0   :  RetStatic RetStatic setCoins setPricer 
+5 3 0 4   :  RetStatic RetStatic setPricer setCoins 
+------------------------------------------------------------
+6 0 3 4   :  NewRisk setPricer RetStatic setCoins 
+6 3 4 0   :  NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+6 0 3 4   :  NewRisk setPricer RetStatic setCoins 
+3 6 4 0   :  RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+3 6 0 4   :  RetStatic NewRisk setPricer setCoins 
+6 3 4 0   :  NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+3 6 0 4   :  RetStatic NewRisk setPricer setCoins 
+3 6 4 0   :  RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 3 6 4   :  setPricer RetStatic NewRisk setCoins 
+6 3 4 0   :  NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+0 3 6 4   :  setPricer RetStatic NewRisk setCoins 
+3 6 4 0   :  RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+6 3 4 0   :  NewRisk RetStatic setCoins setPricer 
+6 3 0 4   :  NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+6 3 4 0   :  NewRisk RetStatic setCoins setPricer 
+0 6 3 4   :  setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+6 3 4 0   :  NewRisk RetStatic setCoins setPricer 
+3 0 6 4   :  RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+6 3 0 4   :  NewRisk RetStatic setPricer setCoins 
+3 6 4 0   :  RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 3 4   :  setPricer NewRisk RetStatic setCoins 
+3 6 4 0   :  RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+3 0 6 4   :  RetStatic setPricer NewRisk setCoins 
+3 6 4 0   :  RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+3 7 4 0   :  RetStatic RetRisk setCoins setPricer 
+0 3 7 4   :  setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+3 7 4 0   :  RetStatic RetRisk setCoins setPricer 
+3 7 0 4   :  RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+3 7 4 0   :  RetStatic RetRisk setCoins setPricer 
+7 0 3 4   :  RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+3 7 4 0   :  RetStatic RetRisk setCoins setPricer 
+3 0 7 4   :  RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+3 7 4 0   :  RetStatic RetRisk setCoins setPricer 
+0 7 3 4   :  setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+3 7 4 0   :  RetStatic RetRisk setCoins setPricer 
+7 3 0 4   :  RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+0 3 7 4   :  setPricer RetStatic RetRisk setCoins 
+7 3 4 0   :  RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+3 7 0 4   :  RetStatic RetRisk setPricer setCoins 
+7 3 4 0   :  RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+7 0 3 4   :  RetRisk setPricer RetStatic setCoins 
+7 3 4 0   :  RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+3 0 7 4   :  RetStatic setPricer RetRisk setCoins 
+7 3 4 0   :  RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+0 7 3 4   :  setPricer RetRisk RetStatic setCoins 
+7 3 4 0   :  RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+7 3 0 4   :  RetRisk RetStatic setPricer setCoins 
+7 3 4 0   :  RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+7 6 4 0   :  RetRisk NewRisk setCoins setPricer 
+6 0 7 4   :  NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+7 6 4 0   :  RetRisk NewRisk setCoins setPricer 
+6 7 0 4   :  NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+7 6 4 0   :  RetRisk NewRisk setCoins setPricer 
+0 7 6 4   :  setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+7 6 4 0   :  RetRisk NewRisk setCoins setPricer 
+7 6 0 4   :  RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+7 6 4 0   :  RetRisk NewRisk setCoins setPricer 
+0 6 7 4   :  setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+7 6 4 0   :  RetRisk NewRisk setCoins setPricer 
+7 0 6 4   :  RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+6 0 7 4   :  NewRisk setPricer RetRisk setCoins 
+6 7 4 0   :  NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 7 0 4   :  NewRisk RetRisk setPricer setCoins 
+6 7 4 0   :  NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 6 4   :  setPricer RetRisk NewRisk setCoins 
+6 7 4 0   :  NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 6 0 4   :  RetRisk NewRisk setPricer setCoins 
+6 7 4 0   :  NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 7 4   :  setPricer NewRisk RetRisk setCoins 
+6 7 4 0   :  NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 0 6 4   :  RetRisk setPricer NewRisk setCoins 
+6 7 4 0   :  NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 4   :  RetRisk RetRisk setPricer setCoins 
+8 7 4 0   :  RetRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 7 4   :  RetRisk setPricer RetRisk setCoins 
+8 7 4 0   :  RetRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 3 4 1   :  RetStatic setPricer RetStatic setCoins changeOwner 
+5 3 4 0 1   :  RetStatic RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 0 4 1   :  RetStatic RetStatic setPricer setCoins changeOwner 
+5 3 4 0 1   :  RetStatic RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 4 1   :  setPricer NewRisk RetStatic setCoins changeOwner 
+6 3 4 0 1   :  NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 4 1   :  setPricer NewRisk RetStatic setCoins changeOwner 
+3 6 4 0 1   :  RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 6 4 1   :  RetStatic setPricer NewRisk setCoins changeOwner 
+6 3 4 0 1   :  NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 6 4 1   :  RetStatic setPricer NewRisk setCoins changeOwner 
+3 6 4 0 1   :  RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 4 0 1   :  NewRisk RetStatic setCoins setPricer changeOwner 
+0 3 6 4 1   :  setPricer RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+6 3 4 0 1   :  NewRisk RetStatic setCoins setPricer changeOwner 
+6 0 3 4 1   :  NewRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+6 3 4 0 1   :  NewRisk RetStatic setCoins setPricer changeOwner 
+6 3 0 4 1   :  NewRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+6 3 4 0 1   :  NewRisk RetStatic setCoins setPricer changeOwner 
+3 6 0 4 1   :  RetStatic NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+0 3 6 4 1   :  setPricer RetStatic NewRisk setCoins changeOwner 
+3 6 4 0 1   :  RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 4 1   :  NewRisk setPricer RetStatic setCoins changeOwner 
+3 6 4 0 1   :  RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 0 4 1   :  NewRisk RetStatic setPricer setCoins changeOwner 
+3 6 4 0 1   :  RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 4 0 1   :  RetStatic NewRisk setCoins setPricer changeOwner 
+3 6 0 4 1   :  RetStatic NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+0 7 3 4 1   :  setPricer RetRisk RetStatic setCoins changeOwner 
+7 3 4 0 1   :  RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 7 3 4 1   :  setPricer RetRisk RetStatic setCoins changeOwner 
+3 7 4 0 1   :  RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 4 1   :  RetStatic setPricer RetRisk setCoins changeOwner 
+7 3 4 0 1   :  RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 4 1   :  RetStatic setPricer RetRisk setCoins changeOwner 
+3 7 4 0 1   :  RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 4 1   :  setPricer RetStatic RetRisk setCoins changeOwner 
+7 3 4 0 1   :  RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 4 1   :  setPricer RetStatic RetRisk setCoins changeOwner 
+3 7 4 0 1   :  RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 4 0 1   :  RetRisk RetStatic setCoins setPricer changeOwner 
+7 0 3 4 1   :  RetRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+7 3 4 0 1   :  RetRisk RetStatic setCoins setPricer changeOwner 
+3 7 0 4 1   :  RetStatic RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+7 3 4 0 1   :  RetRisk RetStatic setCoins setPricer changeOwner 
+7 3 0 4 1   :  RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+7 0 3 4 1   :  RetRisk setPricer RetStatic setCoins changeOwner 
+3 7 4 0 1   :  RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 4 0 1   :  RetStatic RetRisk setCoins setPricer changeOwner 
+3 7 0 4 1   :  RetStatic RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+3 7 4 0 1   :  RetStatic RetRisk setCoins setPricer changeOwner 
+7 3 0 4 1   :  RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+6 0 7 4 1   :  NewRisk setPricer RetRisk setCoins changeOwner 
+6 7 4 0 1   :  NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 4 1   :  NewRisk setPricer RetRisk setCoins changeOwner 
+7 6 4 0 1   :  RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 4 0 1   :  NewRisk RetRisk setCoins setPricer changeOwner 
+0 6 7 4 1   :  setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+6 7 4 0 1   :  NewRisk RetRisk setCoins setPricer changeOwner 
+0 7 6 4 1   :  setPricer RetRisk NewRisk setCoins changeOwner 
+------------------------------------------------------------
+6 7 4 0 1   :  NewRisk RetRisk setCoins setPricer changeOwner 
+7 0 6 4 1   :  RetRisk setPricer NewRisk setCoins changeOwner 
+------------------------------------------------------------
+6 7 4 0 1   :  NewRisk RetRisk setCoins setPricer changeOwner 
+7 6 0 4 1   :  RetRisk NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+6 7 4 0 1   :  NewRisk RetRisk setCoins setPricer changeOwner 
+6 7 0 4 1   :  NewRisk RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+7 6 4 0 1   :  RetRisk NewRisk setCoins setPricer changeOwner 
+0 6 7 4 1   :  setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+7 6 4 0 1   :  RetRisk NewRisk setCoins setPricer changeOwner 
+0 7 6 4 1   :  setPricer RetRisk NewRisk setCoins changeOwner 
+------------------------------------------------------------
+7 6 4 0 1   :  RetRisk NewRisk setCoins setPricer changeOwner 
+7 0 6 4 1   :  RetRisk setPricer NewRisk setCoins changeOwner 
+------------------------------------------------------------
+7 6 4 0 1   :  RetRisk NewRisk setCoins setPricer changeOwner 
+7 6 0 4 1   :  RetRisk NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+7 6 4 0 1   :  RetRisk NewRisk setCoins setPricer changeOwner 
+6 7 0 4 1   :  NewRisk RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 7 4 0 1   :  RetRisk RetRisk setCoins setPricer changeOwner 
+8 0 7 4 1   :  RetRisk setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+8 7 4 0 1   :  RetRisk RetRisk setCoins setPricer changeOwner 
+8 7 0 4 1   :  RetRisk RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+5 3 6 4 0   :  RetStatic RetStatic NewRisk setCoins setPricer 
+5 6 0 3 4   :  RetStatic NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+5 3 6 4 0   :  RetStatic RetStatic NewRisk setCoins setPricer 
+5 0 3 6 4   :  RetStatic setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 3 6 4 0   :  RetStatic RetStatic NewRisk setCoins setPricer 
+5 3 6 0 4   :  RetStatic RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 3 6 4 0   :  RetStatic RetStatic NewRisk setCoins setPricer 
+5 0 6 3 4   :  RetStatic setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 3 6 4 0   :  RetStatic RetStatic NewRisk setCoins setPricer 
+5 6 3 0 4   :  RetStatic NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 3 6 4 0   :  RetStatic RetStatic NewRisk setCoins setPricer 
+5 3 0 6 4   :  RetStatic RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 6 0 3 4   :  RetStatic NewRisk setPricer RetStatic setCoins 
+5 6 3 4 0   :  RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 3 6 4   :  RetStatic setPricer RetStatic NewRisk setCoins 
+5 6 3 4 0   :  RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 6 3 4 0   :  RetStatic NewRisk RetStatic setCoins setPricer 
+5 3 6 0 4   :  RetStatic RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 6 3 4 0   :  RetStatic NewRisk RetStatic setCoins setPricer 
+5 0 6 3 4   :  RetStatic setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 6 3 4 0   :  RetStatic NewRisk RetStatic setCoins setPricer 
+5 6 3 0 4   :  RetStatic NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 6 3 4 0   :  RetStatic NewRisk RetStatic setCoins setPricer 
+5 3 0 6 4   :  RetStatic RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 3 7 4 0   :  RetStatic RetStatic RetRisk setCoins setPricer 
+5 7 0 3 4   :  RetStatic RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+5 3 7 4 0   :  RetStatic RetStatic RetRisk setCoins setPricer 
+5 3 7 0 4   :  RetStatic RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 3 7 4 0   :  RetStatic RetStatic RetRisk setCoins setPricer 
+5 7 3 0 4   :  RetStatic RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 3 7 4 0   :  RetStatic RetStatic RetRisk setCoins setPricer 
+5 3 0 7 4   :  RetStatic RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 3 7 4 0   :  RetStatic RetStatic RetRisk setCoins setPricer 
+5 0 3 7 4   :  RetStatic setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 3 7 4 0   :  RetStatic RetStatic RetRisk setCoins setPricer 
+5 0 7 3 4   :  RetStatic setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 0 3 4   :  RetStatic RetRisk setPricer RetStatic setCoins 
+5 7 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 7 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+5 3 7 0 4   :  RetStatic RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+5 7 3 0 4   :  RetStatic RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 7 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+5 3 0 7 4   :  RetStatic RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+5 0 3 7 4   :  RetStatic setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+5 0 7 3 4   :  RetStatic setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 4 0   :  RetRisk RetStatic RetStatic setCoins setPricer 
+8 5 3 0 4   :  RetRisk RetStatic RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 3 4 0   :  RetRisk RetStatic RetStatic setCoins setPricer 
+5 8 0 3 4   :  RetStatic RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 4 0   :  RetRisk RetStatic RetStatic setCoins setPricer 
+8 5 0 3 4   :  RetRisk RetStatic setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 4 0   :  RetRisk RetStatic RetStatic setCoins setPricer 
+5 8 3 0 4   :  RetStatic RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 3 0 4   :  RetRisk RetStatic RetStatic setPricer setCoins 
+5 8 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 4   :  RetRisk RetStatic setPricer RetStatic setCoins 
+5 8 3 4 0   :  RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+6 0 3 7 4   :  NewRisk setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+0 7 3 6 4   :  setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+0 6 3 7 4   :  setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+6 0 7 3 4   :  NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+3 7 0 6 4   :  RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+3 0 7 6 4   :  RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+7 3 0 6 4   :  RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+0 3 7 6 4   :  setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+6 7 0 3 4   :  NewRisk RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+7 0 3 6 4   :  RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+0 3 6 7 4   :  setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+3 6 7 0 4   :  RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+3 6 0 7 4   :  RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+3 7 6 0 4   :  RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+6 3 0 7 4   :  NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+0 6 7 3 4   :  setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+3 0 6 7 4   :  RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+0 7 6 3 4   :  setPricer RetRisk NewRisk RetStatic setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+6 3 7 0 4   :  NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+7 6 3 0 4   :  RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+7 3 6 0 4   :  RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+7 0 6 3 4   :  RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+6 7 3 0 4   :  NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+6 7 3 4 0   :  NewRisk RetRisk RetStatic setCoins setPricer 
+7 6 0 3 4   :  RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+6 0 3 7 4   :  NewRisk setPricer RetStatic RetRisk setCoins 
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+6 0 3 7 4   :  NewRisk setPricer RetStatic RetRisk setCoins 
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+6 0 3 7 4   :  NewRisk setPricer RetStatic RetRisk setCoins 
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+6 0 3 7 4   :  NewRisk setPricer RetStatic RetRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 0 3 7 4   :  NewRisk setPricer RetStatic RetRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+0 7 3 6 4   :  setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+0 6 3 7 4   :  setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+6 0 7 3 4   :  NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+3 7 0 6 4   :  RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+3 0 7 6 4   :  RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+7 3 0 6 4   :  RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+0 3 7 6 4   :  setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+6 7 0 3 4   :  NewRisk RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+7 0 3 6 4   :  RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+0 3 6 7 4   :  setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+3 6 7 0 4   :  RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+3 6 0 7 4   :  RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+3 7 6 0 4   :  RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+6 3 0 7 4   :  NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+0 6 7 3 4   :  setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+3 0 6 7 4   :  RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+0 7 6 3 4   :  setPricer RetRisk NewRisk RetStatic setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+6 3 7 0 4   :  NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+7 6 3 0 4   :  RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+7 3 6 0 4   :  RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+7 0 6 3 4   :  RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+6 7 3 0 4   :  NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+7 6 3 4 0   :  RetRisk NewRisk RetStatic setCoins setPricer 
+7 6 0 3 4   :  RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+0 7 3 6 4   :  setPricer RetRisk RetStatic NewRisk setCoins 
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 3 6 4   :  setPricer RetRisk RetStatic NewRisk setCoins 
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 3 6 4   :  setPricer RetRisk RetStatic NewRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 3 6 4   :  setPricer RetRisk RetStatic NewRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 3 7 4   :  setPricer NewRisk RetStatic RetRisk setCoins 
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 3 7 4   :  setPricer NewRisk RetStatic RetRisk setCoins 
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 3 7 4   :  setPricer NewRisk RetStatic RetRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 3 7 4   :  setPricer NewRisk RetStatic RetRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+6 0 7 3 4   :  NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+3 7 0 6 4   :  RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+3 0 7 6 4   :  RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+7 3 0 6 4   :  RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+0 3 7 6 4   :  setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+6 7 0 3 4   :  NewRisk RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+7 0 3 6 4   :  RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+0 3 6 7 4   :  setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+3 6 7 0 4   :  RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+3 6 0 7 4   :  RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+3 7 6 0 4   :  RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+6 3 0 7 4   :  NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+0 6 7 3 4   :  setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+3 0 6 7 4   :  RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+0 7 6 3 4   :  setPricer RetRisk NewRisk RetStatic setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+6 3 7 0 4   :  NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+7 6 3 0 4   :  RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+7 3 6 0 4   :  RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+7 0 6 3 4   :  RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+6 7 3 0 4   :  NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+3 7 6 4 0   :  RetStatic RetRisk NewRisk setCoins setPricer 
+7 6 0 3 4   :  RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+6 0 7 3 4   :  NewRisk setPricer RetRisk RetStatic setCoins 
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+6 0 7 3 4   :  NewRisk setPricer RetRisk RetStatic setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 0 7 3 4   :  NewRisk setPricer RetRisk RetStatic setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+3 7 0 6 4   :  RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+3 0 7 6 4   :  RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+7 3 0 6 4   :  RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+0 3 7 6 4   :  setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+6 7 0 3 4   :  NewRisk RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+7 0 3 6 4   :  RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+0 3 6 7 4   :  setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+3 6 7 0 4   :  RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+3 6 0 7 4   :  RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+3 7 6 0 4   :  RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+6 3 0 7 4   :  NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+0 6 7 3 4   :  setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+3 0 6 7 4   :  RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+0 7 6 3 4   :  setPricer RetRisk NewRisk RetStatic setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+6 3 7 0 4   :  NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+7 6 3 0 4   :  RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+7 3 6 0 4   :  RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+7 0 6 3 4   :  RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+6 7 3 0 4   :  NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+7 3 6 4 0   :  RetRisk RetStatic NewRisk setCoins setPricer 
+7 6 0 3 4   :  RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+3 7 0 6 4   :  RetStatic RetRisk setPricer NewRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 7 0 6 4   :  RetStatic RetRisk setPricer NewRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 0 7 6 4   :  RetStatic setPricer RetRisk NewRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 0 7 6 4   :  RetStatic setPricer RetRisk NewRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 3 0 6 4   :  RetRisk RetStatic setPricer NewRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 3 0 6 4   :  RetRisk RetStatic setPricer NewRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 3 7 6 4   :  setPricer RetStatic RetRisk NewRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 3 7 6 4   :  setPricer RetStatic RetRisk NewRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 7 0 3 4   :  NewRisk RetRisk setPricer RetStatic setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 7 0 3 4   :  NewRisk RetRisk setPricer RetStatic setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 0 3 6 4   :  RetRisk setPricer RetStatic NewRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 0 3 6 4   :  RetRisk setPricer RetStatic NewRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 3 6 7 4   :  setPricer RetStatic NewRisk RetRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 3 6 7 4   :  setPricer RetStatic NewRisk RetRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 6 7 0 4   :  RetStatic NewRisk RetRisk setPricer setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 6 7 0 4   :  RetStatic NewRisk RetRisk setPricer setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 6 0 7 4   :  RetStatic NewRisk setPricer RetRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 6 0 7 4   :  RetStatic NewRisk setPricer RetRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 7 6 0 4   :  RetStatic RetRisk NewRisk setPricer setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 7 6 0 4   :  RetStatic RetRisk NewRisk setPricer setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 3 0 7 4   :  NewRisk RetStatic setPricer RetRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 3 0 7 4   :  NewRisk RetStatic setPricer RetRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 7 3 4   :  setPricer NewRisk RetRisk RetStatic setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 6 7 3 4   :  setPricer NewRisk RetRisk RetStatic setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 0 6 7 4   :  RetStatic setPricer NewRisk RetRisk setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 0 6 7 4   :  RetStatic setPricer NewRisk RetRisk setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 6 3 4   :  setPricer RetRisk NewRisk RetStatic setCoins 
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+0 7 6 3 4   :  setPricer RetRisk NewRisk RetStatic setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+6 3 7 0 4   :  NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+7 6 3 0 4   :  RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+7 3 6 0 4   :  RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+7 0 6 3 4   :  RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+6 7 3 0 4   :  NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+3 6 7 4 0   :  RetStatic NewRisk RetRisk setCoins setPricer 
+7 6 0 3 4   :  RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+6 3 7 0 4   :  NewRisk RetStatic RetRisk setPricer setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 6 3 0 4   :  RetRisk NewRisk RetStatic setPricer setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 3 6 0 4   :  RetRisk RetStatic NewRisk setPricer setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+7 0 6 3 4   :  RetRisk setPricer NewRisk RetStatic setCoins 
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+6 7 3 0 4   :  NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+6 3 7 4 0   :  NewRisk RetStatic RetRisk setCoins setPricer 
+7 6 0 3 4   :  RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 7 0 3 4   :  RetRisk RetRisk setPricer RetStatic setCoins 
+8 7 3 4 0   :  RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 0 3 4   :  RetRisk RetRisk setPricer RetStatic setCoins 
+8 3 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 4   :  RetRisk setPricer RetStatic RetRisk setCoins 
+8 7 3 4 0   :  RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 4   :  RetRisk setPricer RetStatic RetRisk setCoins 
+8 3 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 0 4   :  RetRisk RetRisk RetStatic setPricer setCoins 
+8 7 3 4 0   :  RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 3 0 4   :  RetRisk RetRisk RetStatic setPricer setCoins 
+8 3 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 0 7 4   :  RetRisk RetStatic setPricer RetRisk setCoins 
+8 7 3 4 0   :  RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 0 7 4   :  RetRisk RetStatic setPricer RetRisk setCoins 
+8 3 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 4 0   :  RetRisk RetRisk RetStatic setCoins setPricer 
+8 3 7 0 4   :  RetRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+8 7 3 4 0   :  RetRisk RetRisk RetStatic setCoins setPricer 
+8 0 7 3 4   :  RetRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+8 3 7 0 4   :  RetRisk RetStatic RetRisk setPricer setCoins 
+8 3 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+8 0 7 3 4   :  RetRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 8 7 4 0   :  RetStatic RetRisk RetRisk setCoins setPricer 
+5 8 7 0 4   :  RetStatic RetRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 4 0   :  RetStatic RetRisk RetRisk setCoins setPricer 
+5 8 0 7 4   :  RetStatic RetRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 8 7 4 0   :  RetStatic RetRisk RetRisk setCoins setPricer 
+8 5 7 0 4   :  RetRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 4 0   :  RetStatic RetRisk RetRisk setCoins setPricer 
+8 5 0 7 4   :  RetRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 5 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+5 8 7 0 4   :  RetStatic RetRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+8 5 7 4 0   :  RetRisk RetStatic RetRisk setCoins setPricer 
+5 8 0 7 4   :  RetStatic RetRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 7 6 0 4   :  RetRisk RetRisk NewRisk setPricer setCoins 
+8 6 7 4 0   :  RetRisk NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 4   :  RetRisk RetRisk NewRisk setPricer setCoins 
+8 7 6 4 0   :  RetRisk RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 4   :  RetRisk setPricer NewRisk RetRisk setCoins 
+8 6 7 4 0   :  RetRisk NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 4   :  RetRisk setPricer NewRisk RetRisk setCoins 
+8 7 6 4 0   :  RetRisk RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 4   :  RetRisk RetRisk setPricer NewRisk setCoins 
+8 6 7 4 0   :  RetRisk NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 4   :  RetRisk RetRisk setPricer NewRisk setCoins 
+8 7 6 4 0   :  RetRisk RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 4   :  RetRisk NewRisk RetRisk setPricer setCoins 
+8 6 7 4 0   :  RetRisk NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 4   :  RetRisk NewRisk RetRisk setPricer setCoins 
+8 7 6 4 0   :  RetRisk RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 4 0   :  RetRisk NewRisk RetRisk setCoins setPricer 
+8 0 7 6 4   :  RetRisk setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 6 7 4 0   :  RetRisk NewRisk RetRisk setCoins setPricer 
+8 6 0 7 4   :  RetRisk NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 7 6 4 0   :  RetRisk RetRisk NewRisk setCoins setPricer 
+8 0 7 6 4   :  RetRisk setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 7 6 4 0   :  RetRisk RetRisk NewRisk setCoins setPricer 
+8 6 0 7 4   :  RetRisk NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 6 3 4 0 1   :  RetStatic NewRisk RetStatic setCoins setPricer changeOwner 
+5 0 6 3 4 1   :  RetStatic setPricer NewRisk RetStatic setCoins changeOwner 
+------------------------------------------------------------
+5 6 3 4 0 1   :  RetStatic NewRisk RetStatic setCoins setPricer changeOwner 
+5 6 0 3 4 1   :  RetStatic NewRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+5 6 3 4 0 1   :  RetStatic NewRisk RetStatic setCoins setPricer changeOwner 
+5 3 0 6 4 1   :  RetStatic RetStatic setPricer NewRisk setCoins changeOwner 
+------------------------------------------------------------
+5 6 3 4 0 1   :  RetStatic NewRisk RetStatic setCoins setPricer changeOwner 
+5 6 3 0 4 1   :  RetStatic NewRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+5 6 3 4 0 1   :  RetStatic NewRisk RetStatic setCoins setPricer changeOwner 
+5 3 6 0 4 1   :  RetStatic RetStatic NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+5 6 3 4 0 1   :  RetStatic NewRisk RetStatic setCoins setPricer changeOwner 
+5 0 3 6 4 1   :  RetStatic setPricer RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+5 0 6 3 4 1   :  RetStatic setPricer NewRisk RetStatic setCoins changeOwner 
+5 3 6 4 0 1   :  RetStatic RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 6 0 3 4 1   :  RetStatic NewRisk setPricer RetStatic setCoins changeOwner 
+5 3 6 4 0 1   :  RetStatic RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 0 6 4 1   :  RetStatic RetStatic setPricer NewRisk setCoins changeOwner 
+5 3 6 4 0 1   :  RetStatic RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 6 3 0 4 1   :  RetStatic NewRisk RetStatic setPricer setCoins changeOwner 
+5 3 6 4 0 1   :  RetStatic RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 6 4 0 1   :  RetStatic RetStatic NewRisk setCoins setPricer changeOwner 
+5 3 6 0 4 1   :  RetStatic RetStatic NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+5 3 6 4 0 1   :  RetStatic RetStatic NewRisk setCoins setPricer changeOwner 
+5 0 3 6 4 1   :  RetStatic setPricer RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+5 3 7 0 4 1   :  RetStatic RetStatic RetRisk setPricer setCoins changeOwner 
+5 3 7 4 0 1   :  RetStatic RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 7 0 4 1   :  RetStatic RetStatic RetRisk setPricer setCoins changeOwner 
+5 7 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 0 3 7 4 1   :  RetStatic setPricer RetStatic RetRisk setCoins changeOwner 
+5 3 7 4 0 1   :  RetStatic RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 0 3 7 4 1   :  RetStatic setPricer RetStatic RetRisk setCoins changeOwner 
+5 7 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 7 0 3 4 1   :  RetStatic RetRisk setPricer RetStatic setCoins changeOwner 
+5 3 7 4 0 1   :  RetStatic RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 7 0 3 4 1   :  RetStatic RetRisk setPricer RetStatic setCoins changeOwner 
+5 7 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 0 7 4 1   :  RetStatic RetStatic setPricer RetRisk setCoins changeOwner 
+5 3 7 4 0 1   :  RetStatic RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 0 7 4 1   :  RetStatic RetStatic setPricer RetRisk setCoins changeOwner 
+5 7 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 7 3 0 4 1   :  RetStatic RetRisk RetStatic setPricer setCoins changeOwner 
+5 3 7 4 0 1   :  RetStatic RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 7 3 0 4 1   :  RetStatic RetRisk RetStatic setPricer setCoins changeOwner 
+5 7 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 7 4 0 1   :  RetStatic RetStatic RetRisk setCoins setPricer changeOwner 
+5 0 7 3 4 1   :  RetStatic setPricer RetRisk RetStatic setCoins changeOwner 
+------------------------------------------------------------
+5 0 7 3 4 1   :  RetStatic setPricer RetRisk RetStatic setCoins changeOwner 
+5 7 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 8 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+8 5 3 0 4 1   :  RetRisk RetStatic RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+5 8 3 4 0 1   :  RetStatic RetRisk RetStatic setCoins setPricer changeOwner 
+8 5 0 3 4 1   :  RetRisk RetStatic setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+8 5 3 4 0 1   :  RetRisk RetStatic RetStatic setCoins setPricer changeOwner 
+5 8 3 0 4 1   :  RetStatic RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 5 3 4 0 1   :  RetRisk RetStatic RetStatic setCoins setPricer changeOwner 
+5 8 0 3 4 1   :  RetStatic RetRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+8 5 3 4 0 1   :  RetRisk RetStatic RetStatic setCoins setPricer changeOwner 
+8 5 3 0 4 1   :  RetRisk RetStatic RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 5 3 4 0 1   :  RetRisk RetStatic RetStatic setCoins setPricer changeOwner 
+8 5 0 3 4 1   :  RetRisk RetStatic setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+6 3 7 0 4 1   :  NewRisk RetStatic RetRisk setPricer setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 7 0 4 1   :  NewRisk RetStatic RetRisk setPricer setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 7 0 4 1   :  NewRisk RetStatic RetRisk setPricer setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 7 0 4 1   :  NewRisk RetStatic RetRisk setPricer setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 7 0 4 1   :  NewRisk RetStatic RetRisk setPricer setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 7 0 4 1   :  NewRisk RetStatic RetRisk setPricer setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 6 4 1   :  RetStatic setPricer RetRisk NewRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 6 4 1   :  RetStatic setPricer RetRisk NewRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 6 4 1   :  RetStatic setPricer RetRisk NewRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 6 4 1   :  RetStatic setPricer RetRisk NewRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 6 4 1   :  RetStatic setPricer RetRisk NewRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 7 6 4 1   :  RetStatic setPricer RetRisk NewRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 7 4 1   :  setPricer NewRisk RetStatic RetRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 7 4 1   :  setPricer NewRisk RetStatic RetRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 7 4 1   :  setPricer NewRisk RetStatic RetRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 7 4 1   :  setPricer NewRisk RetStatic RetRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 7 4 1   :  setPricer NewRisk RetStatic RetRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 3 7 4 1   :  setPricer NewRisk RetStatic RetRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 0 4 1   :  RetStatic NewRisk RetRisk setPricer setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 0 4 1   :  RetStatic NewRisk RetRisk setPricer setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 0 4 1   :  RetStatic NewRisk RetRisk setPricer setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 0 4 1   :  RetStatic NewRisk RetRisk setPricer setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 0 4 1   :  RetStatic NewRisk RetRisk setPricer setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 0 4 1   :  RetStatic NewRisk RetRisk setPricer setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 7 3 4 1   :  setPricer NewRisk RetRisk RetStatic setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 7 3 4 1   :  setPricer NewRisk RetRisk RetStatic setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 7 3 4 1   :  setPricer NewRisk RetRisk RetStatic setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 7 3 4 1   :  setPricer NewRisk RetRisk RetStatic setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 7 3 4 1   :  setPricer NewRisk RetRisk RetStatic setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 6 7 3 4 1   :  setPricer NewRisk RetRisk RetStatic setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 6 7 4 1   :  setPricer RetStatic NewRisk RetRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 6 7 4 1   :  setPricer RetStatic NewRisk RetRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 6 7 4 1   :  setPricer RetStatic NewRisk RetRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 6 7 4 1   :  setPricer RetStatic NewRisk RetRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 6 7 4 1   :  setPricer RetStatic NewRisk RetRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 6 7 4 1   :  setPricer RetStatic NewRisk RetRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 0 6 4 1   :  RetRisk RetStatic setPricer NewRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 0 6 4 1   :  RetRisk RetStatic setPricer NewRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 0 6 4 1   :  RetRisk RetStatic setPricer NewRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 0 6 4 1   :  RetRisk RetStatic setPricer NewRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 0 6 4 1   :  RetRisk RetStatic setPricer NewRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 0 6 4 1   :  RetRisk RetStatic setPricer NewRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 0 4 1   :  RetRisk NewRisk RetStatic setPricer setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 0 4 1   :  RetRisk NewRisk RetStatic setPricer setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 0 4 1   :  RetRisk NewRisk RetStatic setPricer setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 0 4 1   :  RetRisk NewRisk RetStatic setPricer setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 0 4 1   :  RetRisk NewRisk RetStatic setPricer setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 0 4 1   :  RetRisk NewRisk RetStatic setPricer setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 6 4 1   :  setPricer RetStatic RetRisk NewRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 6 4 1   :  setPricer RetStatic RetRisk NewRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 6 4 1   :  setPricer RetStatic RetRisk NewRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 6 4 1   :  setPricer RetStatic RetRisk NewRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 6 4 1   :  setPricer RetStatic RetRisk NewRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 3 7 6 4 1   :  setPricer RetStatic RetRisk NewRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 6 3 4 1   :  RetRisk setPricer NewRisk RetStatic setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 6 3 4 1   :  RetRisk setPricer NewRisk RetStatic setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 6 3 4 1   :  RetRisk setPricer NewRisk RetStatic setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 6 3 4 1   :  RetRisk setPricer NewRisk RetStatic setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 6 3 4 1   :  RetRisk setPricer NewRisk RetStatic setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 6 3 4 1   :  RetRisk setPricer NewRisk RetStatic setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 0 6 4 1   :  RetStatic RetRisk setPricer NewRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 0 6 4 1   :  RetStatic RetRisk setPricer NewRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 0 6 4 1   :  RetStatic RetRisk setPricer NewRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 0 6 4 1   :  RetStatic RetRisk setPricer NewRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 0 6 4 1   :  RetStatic RetRisk setPricer NewRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 0 6 4 1   :  RetStatic RetRisk setPricer NewRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 0 4 1   :  RetStatic RetRisk NewRisk setPricer setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 0 4 1   :  RetStatic RetRisk NewRisk setPricer setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 0 4 1   :  RetStatic RetRisk NewRisk setPricer setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 0 4 1   :  RetStatic RetRisk NewRisk setPricer setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 0 4 1   :  RetStatic RetRisk NewRisk setPricer setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 0 4 1   :  RetStatic RetRisk NewRisk setPricer setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 3 4 1   :  NewRisk setPricer RetRisk RetStatic setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 3 4 1   :  NewRisk setPricer RetRisk RetStatic setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 3 4 1   :  NewRisk setPricer RetRisk RetStatic setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 3 4 1   :  NewRisk setPricer RetRisk RetStatic setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 3 4 1   :  NewRisk setPricer RetRisk RetStatic setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 7 3 4 1   :  NewRisk setPricer RetRisk RetStatic setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 0 3 4 1   :  NewRisk RetRisk setPricer RetStatic setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 0 3 4 1   :  NewRisk RetRisk setPricer RetStatic setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 0 3 4 1   :  NewRisk RetRisk setPricer RetStatic setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 0 3 4 1   :  NewRisk RetRisk setPricer RetStatic setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 0 3 4 1   :  NewRisk RetRisk setPricer RetStatic setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 0 3 4 1   :  NewRisk RetRisk setPricer RetStatic setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 6 0 4 1   :  RetRisk RetStatic NewRisk setPricer setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 6 0 4 1   :  RetRisk RetStatic NewRisk setPricer setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 6 0 4 1   :  RetRisk RetStatic NewRisk setPricer setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 6 0 4 1   :  RetRisk RetStatic NewRisk setPricer setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 6 0 4 1   :  RetRisk RetStatic NewRisk setPricer setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 3 6 0 4 1   :  RetRisk RetStatic NewRisk setPricer setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 7 4 1   :  NewRisk setPricer RetStatic RetRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 7 4 1   :  NewRisk setPricer RetStatic RetRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 7 4 1   :  NewRisk setPricer RetStatic RetRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 7 4 1   :  NewRisk setPricer RetStatic RetRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 7 4 1   :  NewRisk setPricer RetStatic RetRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 0 3 7 4 1   :  NewRisk setPricer RetStatic RetRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 3 6 4 1   :  RetRisk setPricer RetStatic NewRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 3 6 4 1   :  RetRisk setPricer RetStatic NewRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 3 6 4 1   :  RetRisk setPricer RetStatic NewRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 3 6 4 1   :  RetRisk setPricer RetStatic NewRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 3 6 4 1   :  RetRisk setPricer RetStatic NewRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 0 3 6 4 1   :  RetRisk setPricer RetStatic NewRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 0 7 4 1   :  RetStatic NewRisk setPricer RetRisk setCoins changeOwner 
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 0 7 4 1   :  RetStatic NewRisk setPricer RetRisk setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 0 7 4 1   :  RetStatic NewRisk setPricer RetRisk setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 0 7 4 1   :  RetStatic NewRisk setPricer RetRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 0 7 4 1   :  RetStatic NewRisk setPricer RetRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 0 7 4 1   :  RetStatic NewRisk setPricer RetRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+7 6 0 3 4 1   :  RetRisk NewRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+6 7 3 0 4 1   :  NewRisk RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+6 3 0 7 4 1   :  NewRisk RetStatic setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+0 7 6 3 4 1   :  setPricer RetRisk NewRisk RetStatic setCoins changeOwner 
+------------------------------------------------------------
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+3 0 6 7 4 1   :  RetStatic setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+6 7 3 4 0 1   :  NewRisk RetRisk RetStatic setCoins setPricer changeOwner 
+0 7 3 6 4 1   :  setPricer RetRisk RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+7 6 0 3 4 1   :  RetRisk NewRisk setPricer RetStatic setCoins changeOwner 
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 0 3 4 1   :  RetRisk NewRisk setPricer RetStatic setCoins changeOwner 
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 0 3 4 1   :  RetRisk NewRisk setPricer RetStatic setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 0 3 4 1   :  RetRisk NewRisk setPricer RetStatic setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 0 3 4 1   :  RetRisk NewRisk setPricer RetStatic setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+6 7 3 0 4 1   :  NewRisk RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+6 3 0 7 4 1   :  NewRisk RetStatic setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+0 7 6 3 4 1   :  setPricer RetRisk NewRisk RetStatic setCoins changeOwner 
+------------------------------------------------------------
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+3 0 6 7 4 1   :  RetStatic setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+3 6 7 4 0 1   :  RetStatic NewRisk RetRisk setCoins setPricer changeOwner 
+0 7 3 6 4 1   :  setPricer RetRisk RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+6 7 3 0 4 1   :  NewRisk RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+6 3 0 7 4 1   :  NewRisk RetStatic setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+0 7 6 3 4 1   :  setPricer RetRisk NewRisk RetStatic setCoins changeOwner 
+------------------------------------------------------------
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+3 0 6 7 4 1   :  RetStatic setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+7 3 6 4 0 1   :  RetRisk RetStatic NewRisk setCoins setPricer changeOwner 
+0 7 3 6 4 1   :  setPricer RetRisk RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+6 7 3 0 4 1   :  NewRisk RetRisk RetStatic setPricer setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 3 0 4 1   :  NewRisk RetRisk RetStatic setPricer setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 7 3 0 4 1   :  NewRisk RetRisk RetStatic setPricer setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 0 7 4 1   :  NewRisk RetStatic setPricer RetRisk setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 0 7 4 1   :  NewRisk RetStatic setPricer RetRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+6 3 0 7 4 1   :  NewRisk RetStatic setPricer RetRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 7 6 3 4 1   :  setPricer RetRisk NewRisk RetStatic setCoins changeOwner 
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 7 6 3 4 1   :  setPricer RetRisk NewRisk RetStatic setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+0 7 6 3 4 1   :  setPricer RetRisk NewRisk RetStatic setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+3 0 6 7 4 1   :  RetStatic setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+7 6 3 4 0 1   :  RetRisk NewRisk RetStatic setCoins setPricer changeOwner 
+0 7 3 6 4 1   :  setPricer RetRisk RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+3 0 6 7 4 1   :  RetStatic setPricer NewRisk RetRisk setCoins changeOwner 
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 0 6 7 4 1   :  RetStatic setPricer NewRisk RetRisk setCoins changeOwner 
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+3 7 6 4 0 1   :  RetStatic RetRisk NewRisk setCoins setPricer changeOwner 
+0 7 3 6 4 1   :  setPricer RetRisk RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+6 3 7 4 0 1   :  NewRisk RetStatic RetRisk setCoins setPricer changeOwner 
+0 7 3 6 4 1   :  setPricer RetRisk RetStatic NewRisk setCoins changeOwner 
+------------------------------------------------------------
+8 0 7 3 4 1   :  RetRisk setPricer RetRisk RetStatic setCoins changeOwner 
+8 3 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 0 7 3 4 1   :  RetRisk setPricer RetRisk RetStatic setCoins changeOwner 
+8 7 3 4 0 1   :  RetRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 3 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+8 3 0 7 4 1   :  RetRisk RetStatic setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+8 3 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+8 0 3 7 4 1   :  RetRisk setPricer RetStatic RetRisk setCoins changeOwner 
+------------------------------------------------------------
+8 3 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+8 3 7 0 4 1   :  RetRisk RetStatic RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 3 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+8 7 0 3 4 1   :  RetRisk RetRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+8 3 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+8 7 3 0 4 1   :  RetRisk RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 3 0 7 4 1   :  RetRisk RetStatic setPricer RetRisk setCoins changeOwner 
+8 7 3 4 0 1   :  RetRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 0 3 7 4 1   :  RetRisk setPricer RetStatic RetRisk setCoins changeOwner 
+8 7 3 4 0 1   :  RetRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 3 7 0 4 1   :  RetRisk RetStatic RetRisk setPricer setCoins changeOwner 
+8 7 3 4 0 1   :  RetRisk RetRisk RetStatic setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 7 3 4 0 1   :  RetRisk RetRisk RetStatic setCoins setPricer changeOwner 
+8 7 0 3 4 1   :  RetRisk RetRisk setPricer RetStatic setCoins changeOwner 
+------------------------------------------------------------
+8 7 3 4 0 1   :  RetRisk RetRisk RetStatic setCoins setPricer changeOwner 
+8 7 3 0 4 1   :  RetRisk RetRisk RetStatic setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 5 0 7 4 1   :  RetRisk RetStatic setPricer RetRisk setCoins changeOwner 
+5 8 7 4 0 1   :  RetStatic RetRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 5 7 0 4 1   :  RetRisk RetStatic RetRisk setPricer setCoins changeOwner 
+5 8 7 4 0 1   :  RetStatic RetRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 8 0 7 4 1   :  RetStatic RetRisk setPricer RetRisk setCoins changeOwner 
+5 8 7 4 0 1   :  RetStatic RetRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 8 0 7 4 1   :  RetStatic RetRisk setPricer RetRisk setCoins changeOwner 
+8 5 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 8 7 0 4 1   :  RetStatic RetRisk RetRisk setPricer setCoins changeOwner 
+5 8 7 4 0 1   :  RetStatic RetRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 8 7 0 4 1   :  RetStatic RetRisk RetRisk setPricer setCoins changeOwner 
+8 5 7 4 0 1   :  RetRisk RetStatic RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 7 6 4 0 1   :  RetRisk RetRisk NewRisk setCoins setPricer changeOwner 
+8 7 6 0 4 1   :  RetRisk RetRisk NewRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 7 6 4 0 1   :  RetRisk RetRisk NewRisk setCoins setPricer changeOwner 
+8 0 7 6 4 1   :  RetRisk setPricer RetRisk NewRisk setCoins changeOwner 
+------------------------------------------------------------
+8 7 6 4 0 1   :  RetRisk RetRisk NewRisk setCoins setPricer changeOwner 
+8 7 0 6 4 1   :  RetRisk RetRisk setPricer NewRisk setCoins changeOwner 
+------------------------------------------------------------
+8 7 6 4 0 1   :  RetRisk RetRisk NewRisk setCoins setPricer changeOwner 
+8 6 0 7 4 1   :  RetRisk NewRisk setPricer RetRisk setCoins changeOwner 
+------------------------------------------------------------
+8 7 6 4 0 1   :  RetRisk RetRisk NewRisk setCoins setPricer changeOwner 
+8 6 7 0 4 1   :  RetRisk NewRisk RetRisk setPricer setCoins changeOwner 
+------------------------------------------------------------
+8 7 6 4 0 1   :  RetRisk RetRisk NewRisk setCoins setPricer changeOwner 
+8 0 6 7 4 1   :  RetRisk setPricer NewRisk RetRisk setCoins changeOwner 
+------------------------------------------------------------
+8 7 6 0 4 1   :  RetRisk RetRisk NewRisk setPricer setCoins changeOwner 
+8 6 7 4 0 1   :  RetRisk NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 0 7 6 4 1   :  RetRisk setPricer RetRisk NewRisk setCoins changeOwner 
+8 6 7 4 0 1   :  RetRisk NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 7 0 6 4 1   :  RetRisk RetRisk setPricer NewRisk setCoins changeOwner 
+8 6 7 4 0 1   :  RetRisk NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 6 0 7 4 1   :  RetRisk NewRisk setPricer RetRisk setCoins changeOwner 
+8 6 7 4 0 1   :  RetRisk NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 6 7 0 4 1   :  RetRisk NewRisk RetRisk setPricer setCoins changeOwner 
+8 6 7 4 0 1   :  RetRisk NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+8 0 6 7 4 1   :  RetRisk setPricer NewRisk RetRisk setCoins changeOwner 
+8 6 7 4 0 1   :  RetRisk NewRisk RetRisk setCoins setPricer changeOwner 
+------------------------------------------------------------
+5 3 7 0 6 4   :  RetStatic RetStatic RetRisk setPricer NewRisk setCoins 
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 7 0 6 4   :  RetStatic RetStatic RetRisk setPricer NewRisk setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 7 0 6 4   :  RetStatic RetStatic RetRisk setPricer NewRisk setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 7 0 6 4   :  RetStatic RetStatic RetRisk setPricer NewRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 7 0 6 4   :  RetStatic RetStatic RetRisk setPricer NewRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 7 0 6 4   :  RetStatic RetStatic RetRisk setPricer NewRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 7 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 7 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 0 3 7 4   :  RetStatic NewRisk setPricer RetStatic RetRisk setCoins 
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 0 3 7 4   :  RetStatic NewRisk setPricer RetStatic RetRisk setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 6 0 3 7 4   :  RetStatic NewRisk setPricer RetStatic RetRisk setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 0 3 7 4   :  RetStatic NewRisk setPricer RetStatic RetRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 6 0 3 7 4   :  RetStatic NewRisk setPricer RetStatic RetRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 0 3 7 4   :  RetStatic NewRisk setPricer RetStatic RetRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 6 7 0 3 4   :  RetStatic NewRisk RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 0 7 3 6 4   :  RetStatic setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 3 6 7 0 4   :  RetStatic RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 0 7 6 3 4   :  RetStatic setPricer RetRisk NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 3 6 0 7 4   :  RetStatic RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 7 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 6 3 7 0 4   :  RetStatic NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 0 3 6 7 4   :  RetStatic setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 7 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 0 3 7 6 4   :  RetStatic setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 3 0 6 7 4   :  RetStatic RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 3 7 6 0 4   :  RetStatic RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 0 6 7 3 4   :  RetStatic setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 3 0 7 6 4   :  RetStatic RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 6 3 0 7 4   :  RetStatic NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 7 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 6 7 3 0 4   :  RetStatic NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 0 6 3 7 4   :  RetStatic setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 7 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 6 0 7 3 4   :  RetStatic NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+5 7 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 6 7 0 3 4   :  RetStatic NewRisk RetRisk setPricer RetStatic setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 6 7 0 3 4   :  RetStatic NewRisk RetRisk setPricer RetStatic setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 7 0 3 4   :  RetStatic NewRisk RetRisk setPricer RetStatic setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 6 7 0 3 4   :  RetStatic NewRisk RetRisk setPricer RetStatic setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 7 0 3 4   :  RetStatic NewRisk RetRisk setPricer RetStatic setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 7 3 6 4   :  RetStatic setPricer RetRisk RetStatic NewRisk setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 7 3 6 4   :  RetStatic setPricer RetRisk RetStatic NewRisk setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 7 3 6 4   :  RetStatic setPricer RetRisk RetStatic NewRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 7 3 6 4   :  RetStatic setPricer RetRisk RetStatic NewRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 7 3 6 4   :  RetStatic setPricer RetRisk RetStatic NewRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 7 0 4   :  RetStatic RetStatic NewRisk RetRisk setPricer setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 6 7 0 4   :  RetStatic RetStatic NewRisk RetRisk setPricer setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 7 0 4   :  RetStatic RetStatic NewRisk RetRisk setPricer setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 6 7 0 4   :  RetStatic RetStatic NewRisk RetRisk setPricer setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 7 0 4   :  RetStatic RetStatic NewRisk RetRisk setPricer setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 7 6 3 4   :  RetStatic setPricer RetRisk NewRisk RetStatic setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 7 6 3 4   :  RetStatic setPricer RetRisk NewRisk RetStatic setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 7 6 3 4   :  RetStatic setPricer RetRisk NewRisk RetStatic setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 7 6 3 4   :  RetStatic setPricer RetRisk NewRisk RetStatic setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 7 6 3 4   :  RetStatic setPricer RetRisk NewRisk RetStatic setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 0 7 4   :  RetStatic RetStatic NewRisk setPricer RetRisk setCoins 
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 6 0 7 4   :  RetStatic RetStatic NewRisk setPricer RetRisk setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 0 7 4   :  RetStatic RetStatic NewRisk setPricer RetRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 6 0 7 4   :  RetStatic RetStatic NewRisk setPricer RetRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 0 7 4   :  RetStatic RetStatic NewRisk setPricer RetRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 7 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 6 3 7 0 4   :  RetStatic NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 0 3 6 7 4   :  RetStatic setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 7 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 0 3 7 6 4   :  RetStatic setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 3 0 6 7 4   :  RetStatic RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 3 7 6 0 4   :  RetStatic RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 0 6 7 3 4   :  RetStatic setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 3 0 7 6 4   :  RetStatic RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 6 3 0 7 4   :  RetStatic NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 7 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 6 7 3 0 4   :  RetStatic NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 0 6 3 7 4   :  RetStatic setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 7 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 6 0 7 3 4   :  RetStatic NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 7 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+5 7 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 7 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 7 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 6 3 7 0 4   :  RetStatic NewRisk RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 0 3 6 7 4   :  RetStatic setPricer RetStatic NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 7 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 0 3 7 6 4   :  RetStatic setPricer RetStatic RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 3 0 6 7 4   :  RetStatic RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 3 7 6 0 4   :  RetStatic RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 0 6 7 3 4   :  RetStatic setPricer NewRisk RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 3 0 7 6 4   :  RetStatic RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 6 3 0 7 4   :  RetStatic NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 7 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 6 7 3 0 4   :  RetStatic NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 0 6 3 7 4   :  RetStatic setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 7 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 6 0 7 3 4   :  RetStatic NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 6 3 7 4 0   :  RetStatic NewRisk RetStatic RetRisk setCoins setPricer 
+5 7 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 6 3 7 0 4   :  RetStatic NewRisk RetStatic RetRisk setPricer setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 6 3 7 0 4   :  RetStatic NewRisk RetStatic RetRisk setPricer setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 3 7 0 4   :  RetStatic NewRisk RetStatic RetRisk setPricer setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 3 6 7 4   :  RetStatic setPricer RetStatic NewRisk RetRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 3 6 7 4   :  RetStatic setPricer RetStatic NewRisk RetRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 3 6 7 4   :  RetStatic setPricer RetStatic NewRisk RetRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 7 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 3 7 6 4   :  RetStatic setPricer RetStatic RetRisk NewRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 3 7 6 4   :  RetStatic setPricer RetStatic RetRisk NewRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 3 7 6 4   :  RetStatic setPricer RetStatic RetRisk NewRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 0 6 7 4   :  RetStatic RetStatic setPricer NewRisk RetRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 0 6 7 4   :  RetStatic RetStatic setPricer NewRisk RetRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 0 6 7 4   :  RetStatic RetStatic setPricer NewRisk RetRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 7 6 0 4   :  RetStatic RetStatic RetRisk NewRisk setPricer setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 7 6 0 4   :  RetStatic RetStatic RetRisk NewRisk setPricer setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 7 6 0 4   :  RetStatic RetStatic RetRisk NewRisk setPricer setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 6 7 3 4   :  RetStatic setPricer NewRisk RetRisk RetStatic setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 0 6 7 3 4   :  RetStatic setPricer NewRisk RetRisk RetStatic setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 6 7 3 4   :  RetStatic setPricer NewRisk RetRisk RetStatic setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 0 7 6 4   :  RetStatic RetStatic setPricer RetRisk NewRisk setCoins 
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 3 0 7 6 4   :  RetStatic RetStatic setPricer RetRisk NewRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 0 7 6 4   :  RetStatic RetStatic setPricer RetRisk NewRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 6 3 0 7 4   :  RetStatic NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 7 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 6 7 3 0 4   :  RetStatic NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 0 6 3 7 4   :  RetStatic setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 7 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 6 0 7 3 4   :  RetStatic NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 6 7 3 4 0   :  RetStatic NewRisk RetRisk RetStatic setCoins setPricer 
+5 7 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 6 3 0 7 4   :  RetStatic NewRisk RetStatic setPricer RetRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 3 0 7 4   :  RetStatic NewRisk RetStatic setPricer RetRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 7 3 0 4   :  RetStatic NewRisk RetRisk RetStatic setPricer setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 7 3 0 4   :  RetStatic NewRisk RetRisk RetStatic setPricer setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 6 3 7 4   :  RetStatic setPricer NewRisk RetStatic RetRisk setCoins 
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 0 6 3 7 4   :  RetStatic setPricer NewRisk RetStatic RetRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+5 7 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+5 6 0 7 3 4   :  RetStatic NewRisk setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 3 6 7 4 0   :  RetStatic RetStatic NewRisk RetRisk setCoins setPricer 
+5 7 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+5 7 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 6 0 7 3 4   :  RetStatic NewRisk setPricer RetRisk RetStatic setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 7 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+5 3 7 6 4 0   :  RetStatic RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 0 6 4   :  RetStatic RetRisk RetStatic setPricer NewRisk setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 3 6 0 4   :  RetRisk RetStatic RetStatic NewRisk setPricer setCoins 
+5 8 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 3 6 0 4   :  RetRisk RetStatic RetStatic NewRisk setPricer setCoins 
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 3 6 0 4   :  RetRisk RetStatic RetStatic NewRisk setPricer setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 3 6 0 4   :  RetRisk RetStatic RetStatic NewRisk setPricer setCoins 
+5 8 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 6 3 4   :  RetRisk RetStatic setPricer NewRisk RetStatic setCoins 
+5 8 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 0 6 3 4   :  RetRisk RetStatic setPricer NewRisk RetStatic setCoins 
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 0 6 3 4   :  RetRisk RetStatic setPricer NewRisk RetStatic setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 6 3 4   :  RetRisk RetStatic setPricer NewRisk RetStatic setCoins 
+5 8 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 6 3 0 4   :  RetRisk RetStatic NewRisk RetStatic setPricer setCoins 
+5 8 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 6 3 0 4   :  RetRisk RetStatic NewRisk RetStatic setPricer setCoins 
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 6 3 0 4   :  RetRisk RetStatic NewRisk RetStatic setPricer setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 6 3 0 4   :  RetRisk RetStatic NewRisk RetStatic setPricer setCoins 
+5 8 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 6 4   :  RetRisk RetStatic setPricer RetStatic NewRisk setCoins 
+5 8 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 6 4   :  RetRisk RetStatic setPricer RetStatic NewRisk setCoins 
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 6 4   :  RetRisk RetStatic setPricer RetStatic NewRisk setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 6 4   :  RetRisk RetStatic setPricer RetStatic NewRisk setCoins 
+5 8 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+8 5 6 0 3 4   :  RetRisk RetStatic NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+5 8 3 6 4 0   :  RetStatic RetRisk RetStatic NewRisk setCoins setPricer 
+8 5 3 0 6 4   :  RetRisk RetStatic RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 8 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 6 0 4   :  RetStatic RetRisk RetStatic NewRisk setPricer setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+8 5 6 0 3 4   :  RetRisk RetStatic NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+5 8 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+8 5 3 0 6 4   :  RetRisk RetStatic RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+5 8 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+5 8 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 5 3 6 4 0   :  RetRisk RetStatic RetStatic NewRisk setCoins setPricer 
+5 8 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+8 5 6 0 3 4   :  RetRisk RetStatic NewRisk setPricer RetStatic setCoins 
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 6 0 3 4   :  RetRisk RetStatic NewRisk setPricer RetStatic setCoins 
+5 8 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+5 8 6 3 0 4   :  RetStatic RetRisk NewRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+8 5 3 0 6 4   :  RetRisk RetStatic RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+5 8 6 0 3 4   :  RetStatic RetRisk NewRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+5 8 0 3 6 4   :  RetStatic RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 5 6 3 4 0   :  RetRisk RetStatic NewRisk RetStatic setCoins setPricer 
+5 8 0 6 3 4   :  RetStatic RetRisk setPricer NewRisk RetStatic setCoins 
+------------------------------------------------------------
+5 8 6 3 4 0   :  RetStatic RetRisk NewRisk RetStatic setCoins setPricer 
+8 5 3 0 6 4   :  RetRisk RetStatic RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 5 0 3 7 4   :  RetRisk RetStatic setPricer RetStatic RetRisk setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 7 4   :  RetRisk RetStatic setPricer RetStatic RetRisk setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 7 4   :  RetRisk RetStatic setPricer RetStatic RetRisk setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 0 3 7 4   :  RetRisk RetStatic setPricer RetStatic RetRisk setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 7 3 0 4   :  RetRisk RetStatic RetRisk RetStatic setPricer setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 7 3 0 4   :  RetRisk RetStatic RetRisk RetStatic setPricer setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 7 3 0 4   :  RetRisk RetStatic RetRisk RetStatic setPricer setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 7 3 0 4   :  RetRisk RetStatic RetRisk RetStatic setPricer setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 3 7 4   :  RetStatic RetRisk setPricer RetStatic RetRisk setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 3 7 4   :  RetStatic RetRisk setPricer RetStatic RetRisk setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 0 3 7 4   :  RetStatic RetRisk setPricer RetStatic RetRisk setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 0 3 7 4   :  RetStatic RetRisk setPricer RetStatic RetRisk setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 0 7 4   :  RetStatic RetRisk RetStatic setPricer RetRisk setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 0 7 4   :  RetStatic RetRisk RetStatic setPricer RetRisk setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 3 0 7 4   :  RetStatic RetRisk RetStatic setPricer RetRisk setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 3 0 7 4   :  RetStatic RetRisk RetStatic setPricer RetRisk setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 7 0 4   :  RetStatic RetRisk RetStatic RetRisk setPricer setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 3 7 0 4   :  RetStatic RetRisk RetStatic RetRisk setPricer setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 3 7 0 4   :  RetStatic RetRisk RetStatic RetRisk setPricer setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 3 7 0 4   :  RetStatic RetRisk RetStatic RetRisk setPricer setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 7 3 4   :  RetStatic RetRisk setPricer RetRisk RetStatic setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 7 3 4   :  RetStatic RetRisk setPricer RetRisk RetStatic setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 0 7 3 4   :  RetStatic RetRisk setPricer RetRisk RetStatic setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 0 7 3 4   :  RetStatic RetRisk setPricer RetRisk RetStatic setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 3 0 7 4   :  RetRisk RetStatic RetStatic setPricer RetRisk setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 3 0 7 4   :  RetRisk RetStatic RetStatic setPricer RetRisk setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 3 0 7 4   :  RetRisk RetStatic RetStatic setPricer RetRisk setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 3 0 7 4   :  RetRisk RetStatic RetStatic setPricer RetRisk setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 0 3 4   :  RetStatic RetRisk RetRisk setPricer RetStatic setCoins 
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 0 3 4   :  RetStatic RetRisk RetRisk setPricer RetStatic setCoins 
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 7 0 3 4   :  RetStatic RetRisk RetRisk setPricer RetStatic setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+5 8 7 0 3 4   :  RetStatic RetRisk RetRisk setPricer RetStatic setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+8 5 7 0 3 4   :  RetRisk RetStatic RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+8 5 3 7 0 4   :  RetRisk RetStatic RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+8 5 0 7 3 4   :  RetRisk RetStatic setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+8 5 3 7 4 0   :  RetRisk RetStatic RetStatic RetRisk setCoins setPricer 
+5 8 7 3 0 4   :  RetStatic RetRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+8 5 7 0 3 4   :  RetRisk RetStatic RetRisk setPricer RetStatic setCoins 
+------------------------------------------------------------
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+8 5 3 7 0 4   :  RetRisk RetStatic RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+8 5 0 7 3 4   :  RetRisk RetStatic setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+8 5 7 3 4 0   :  RetRisk RetStatic RetRisk RetStatic setCoins setPricer 
+5 8 7 3 0 4   :  RetStatic RetRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 7 0 3 4   :  RetRisk RetStatic RetRisk setPricer RetStatic setCoins 
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 5 7 0 3 4   :  RetRisk RetStatic RetRisk setPricer RetStatic setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+8 5 3 7 0 4   :  RetRisk RetStatic RetStatic RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+8 5 0 7 3 4   :  RetRisk RetStatic setPricer RetRisk RetStatic setCoins 
+------------------------------------------------------------
+5 8 7 3 4 0   :  RetStatic RetRisk RetRisk RetStatic setCoins setPricer 
+5 8 7 3 0 4   :  RetStatic RetRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 5 3 7 0 4   :  RetRisk RetStatic RetStatic RetRisk setPricer setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 0 7 3 4   :  RetRisk RetStatic setPricer RetRisk RetStatic setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 3 0 4   :  RetStatic RetRisk RetRisk RetStatic setPricer setCoins 
+5 8 3 7 4 0   :  RetStatic RetRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 6 4   :  RetRisk setPricer RetStatic RetRisk NewRisk setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 6 4   :  RetRisk setPricer RetStatic RetRisk NewRisk setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 6 4   :  RetRisk setPricer RetStatic RetRisk NewRisk setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 6 4   :  RetRisk setPricer RetStatic RetRisk NewRisk setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 6 4   :  RetRisk setPricer RetStatic RetRisk NewRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 7 6 4   :  RetRisk setPricer RetStatic RetRisk NewRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 3 4   :  RetRisk setPricer NewRisk RetRisk RetStatic setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 3 4   :  RetRisk setPricer NewRisk RetRisk RetStatic setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 3 4   :  RetRisk setPricer NewRisk RetRisk RetStatic setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 3 4   :  RetRisk setPricer NewRisk RetRisk RetStatic setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 3 4   :  RetRisk setPricer NewRisk RetRisk RetStatic setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 6 7 3 4   :  RetRisk setPricer NewRisk RetRisk RetStatic setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 3 6 7 4   :  RetRisk setPricer RetStatic NewRisk RetRisk setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 3 6 7 4   :  RetRisk setPricer RetStatic NewRisk RetRisk setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 6 7 4   :  RetRisk setPricer RetStatic NewRisk RetRisk setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 6 7 4   :  RetRisk setPricer RetStatic NewRisk RetRisk setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 6 7 4   :  RetRisk setPricer RetStatic NewRisk RetRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 3 6 7 4   :  RetRisk setPricer RetStatic NewRisk RetRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 6 3 0 4   :  RetRisk RetRisk NewRisk RetStatic setPricer setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 6 3 0 4   :  RetRisk RetRisk NewRisk RetStatic setPricer setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 3 0 4   :  RetRisk RetRisk NewRisk RetStatic setPricer setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 3 0 4   :  RetRisk RetRisk NewRisk RetStatic setPricer setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 3 0 4   :  RetRisk RetRisk NewRisk RetStatic setPricer setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 3 0 4   :  RetRisk RetRisk NewRisk RetStatic setPricer setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 0 7 3 4   :  RetRisk NewRisk setPricer RetRisk RetStatic setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 0 7 3 4   :  RetRisk NewRisk setPricer RetRisk RetStatic setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 0 7 3 4   :  RetRisk NewRisk setPricer RetRisk RetStatic setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 0 7 3 4   :  RetRisk NewRisk setPricer RetRisk RetStatic setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 0 7 3 4   :  RetRisk NewRisk setPricer RetRisk RetStatic setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 0 7 3 4   :  RetRisk NewRisk setPricer RetRisk RetStatic setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 0 4   :  RetRisk RetRisk RetStatic NewRisk setPricer setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 0 4   :  RetRisk RetRisk RetStatic NewRisk setPricer setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 0 4   :  RetRisk RetRisk RetStatic NewRisk setPricer setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 0 4   :  RetRisk RetRisk RetStatic NewRisk setPricer setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 0 4   :  RetRisk RetRisk RetStatic NewRisk setPricer setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 0 4   :  RetRisk RetRisk RetStatic NewRisk setPricer setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 3 4   :  RetRisk RetRisk NewRisk setPricer RetStatic setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 3 4   :  RetRisk RetRisk NewRisk setPricer RetStatic setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 3 4   :  RetRisk RetRisk NewRisk setPricer RetStatic setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 3 4   :  RetRisk RetRisk NewRisk setPricer RetStatic setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 3 4   :  RetRisk RetRisk NewRisk setPricer RetStatic setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 6 0 3 4   :  RetRisk RetRisk NewRisk setPricer RetStatic setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 3 4   :  RetRisk NewRisk RetRisk setPricer RetStatic setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 3 4   :  RetRisk NewRisk RetRisk setPricer RetStatic setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 3 4   :  RetRisk NewRisk RetRisk setPricer RetStatic setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 3 4   :  RetRisk NewRisk RetRisk setPricer RetStatic setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 3 4   :  RetRisk NewRisk RetRisk setPricer RetStatic setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 0 3 4   :  RetRisk NewRisk RetRisk setPricer RetStatic setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 3 7 0 4   :  RetRisk NewRisk RetStatic RetRisk setPricer setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 3 7 0 4   :  RetRisk NewRisk RetStatic RetRisk setPricer setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 3 7 0 4   :  RetRisk NewRisk RetStatic RetRisk setPricer setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 3 7 0 4   :  RetRisk NewRisk RetStatic RetRisk setPricer setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 3 7 0 4   :  RetRisk NewRisk RetStatic RetRisk setPricer setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 3 7 0 4   :  RetRisk NewRisk RetStatic RetRisk setPricer setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 3 4   :  RetRisk RetRisk setPricer NewRisk RetStatic setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 3 4   :  RetRisk RetRisk setPricer NewRisk RetStatic setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 3 4   :  RetRisk RetRisk setPricer NewRisk RetStatic setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 3 4   :  RetRisk RetRisk setPricer NewRisk RetStatic setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 3 4   :  RetRisk RetRisk setPricer NewRisk RetStatic setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 6 3 4   :  RetRisk RetRisk setPricer NewRisk RetStatic setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 7 6 3 4   :  RetRisk setPricer RetRisk NewRisk RetStatic setCoins 
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 0 7 6 3 4   :  RetRisk setPricer RetRisk NewRisk RetStatic setCoins 
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 7 6 3 4   :  RetRisk setPricer RetRisk NewRisk RetStatic setCoins 
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 7 6 3 4   :  RetRisk setPricer RetRisk NewRisk RetStatic setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 7 6 3 4   :  RetRisk setPricer RetRisk NewRisk RetStatic setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 0 7 6 3 4   :  RetRisk setPricer RetRisk NewRisk RetStatic setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 3 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 6 7 3 0 4   :  RetRisk NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 3 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 7 0 3 6 4   :  RetRisk RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 6 0 3 7 4   :  RetRisk NewRisk setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 7 3 0 6 4   :  RetRisk RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 3 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 6 3 0 7 4   :  RetRisk NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 3 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 0 7 3 6 4   :  RetRisk setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 6 7 3 4 0   :  RetRisk NewRisk RetRisk RetStatic setCoins setPricer 
+8 0 6 3 7 4   :  RetRisk setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 3 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 6 7 3 0 4   :  RetRisk NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 3 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 7 0 3 6 4   :  RetRisk RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 6 0 3 7 4   :  RetRisk NewRisk setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 7 3 0 6 4   :  RetRisk RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 3 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 6 3 0 7 4   :  RetRisk NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 3 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 0 7 3 6 4   :  RetRisk setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 6 3 7 4 0   :  RetRisk NewRisk RetStatic RetRisk setCoins setPricer 
+8 0 6 3 7 4   :  RetRisk setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 3 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 6 7 3 0 4   :  RetRisk NewRisk RetRisk RetStatic setPricer setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 3 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 7 0 3 6 4   :  RetRisk RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 6 0 3 7 4   :  RetRisk NewRisk setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 7 3 0 6 4   :  RetRisk RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 3 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 6 3 0 7 4   :  RetRisk NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 3 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 0 7 3 6 4   :  RetRisk setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 3 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+8 0 6 3 7 4   :  RetRisk setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 3 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 7 3 0 4   :  RetRisk NewRisk RetRisk RetStatic setPricer setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 3 0 4   :  RetRisk NewRisk RetRisk RetStatic setPricer setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 7 3 0 4   :  RetRisk NewRisk RetRisk RetStatic setPricer setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 3 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 7 0 3 6 4   :  RetRisk RetRisk setPricer RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 6 0 3 7 4   :  RetRisk NewRisk setPricer RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 7 3 0 6 4   :  RetRisk RetRisk RetStatic setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 3 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 6 3 0 7 4   :  RetRisk NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 3 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 0 7 3 6 4   :  RetRisk setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 3 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+8 0 6 3 7 4   :  RetRisk setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 7 0 3 6 4   :  RetRisk RetRisk setPricer RetStatic NewRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 0 3 6 4   :  RetRisk RetRisk setPricer RetStatic NewRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 6 0 3 7 4   :  RetRisk NewRisk setPricer RetStatic RetRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 6 0 3 7 4   :  RetRisk NewRisk setPricer RetStatic RetRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 3 0 6 4   :  RetRisk RetRisk RetStatic setPricer NewRisk setCoins 
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+------------------------------------------------------------
+8 7 3 0 6 4   :  RetRisk RetRisk RetStatic setPricer NewRisk setCoins 
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+------------------------------------------------------------
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+8 3 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+8 6 3 0 7 4   :  RetRisk NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+8 3 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+8 0 7 3 6 4   :  RetRisk setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 7 3 6 4 0   :  RetRisk RetRisk RetStatic NewRisk setCoins setPricer 
+8 0 6 3 7 4   :  RetRisk setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+8 3 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+8 6 3 0 7 4   :  RetRisk NewRisk RetStatic setPricer RetRisk setCoins 
+------------------------------------------------------------
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+8 3 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+8 0 7 3 6 4   :  RetRisk setPricer RetRisk RetStatic NewRisk setCoins 
+------------------------------------------------------------
+8 7 6 3 4 0   :  RetRisk RetRisk NewRisk RetStatic setCoins setPricer 
+8 0 6 3 7 4   :  RetRisk setPricer NewRisk RetStatic RetRisk setCoins 
+------------------------------------------------------------
+5 8 6 0 7 4   :  RetStatic RetRisk NewRisk setPricer RetRisk setCoins 
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 6 0 7 4   :  RetStatic RetRisk NewRisk setPricer RetRisk setCoins 
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 6 0 7 4   :  RetStatic RetRisk NewRisk setPricer RetRisk setCoins 
+8 5 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 6 0 7 4   :  RetStatic RetRisk NewRisk setPricer RetRisk setCoins 
+8 5 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+8 5 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+5 8 0 7 6 4   :  RetStatic RetRisk setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+8 5 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+5 8 6 7 0 4   :  RetStatic RetRisk NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+8 5 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+8 5 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+5 8 7 6 0 4   :  RetStatic RetRisk RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+5 8 0 6 7 4   :  RetStatic RetRisk setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+8 5 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+8 5 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 8 6 7 4 0   :  RetStatic RetRisk NewRisk RetRisk setCoins setPricer 
+5 8 7 0 6 4   :  RetStatic RetRisk RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 5 7 0 6 4   :  RetRisk RetStatic RetRisk setPricer NewRisk setCoins 
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+5 8 0 7 6 4   :  RetStatic RetRisk setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+8 5 7 6 0 4   :  RetRisk RetStatic RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+5 8 6 7 0 4   :  RetStatic RetRisk NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+8 5 6 7 0 4   :  RetRisk RetStatic NewRisk RetRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+8 5 0 7 6 4   :  RetRisk RetStatic setPricer RetRisk NewRisk setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+5 8 7 6 0 4   :  RetStatic RetRisk RetRisk NewRisk setPricer setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+5 8 0 6 7 4   :  RetStatic RetRisk setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+8 5 6 0 7 4   :  RetRisk RetStatic NewRisk setPricer RetRisk setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+8 5 0 6 7 4   :  RetRisk RetStatic setPricer NewRisk RetRisk setCoins 
+------------------------------------------------------------
+5 8 7 6 4 0   :  RetStatic RetRisk RetRisk NewRisk setCoins setPricer 
+5 8 7 0 6 4   :  RetStatic RetRisk RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+5 8 0 7 6 4   :  RetStatic RetRisk setPricer RetRisk NewRisk setCoins 
+8 5 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 7 6 4   :  RetStatic RetRisk setPricer RetRisk NewRisk setCoins 
+8 5 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 6 7 0 4   :  RetStatic RetRisk NewRisk RetRisk setPricer setCoins 
+8 5 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 6 7 0 4   :  RetStatic RetRisk NewRisk RetRisk setPricer setCoins 
+8 5 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 6 0 4   :  RetStatic RetRisk RetRisk NewRisk setPricer setCoins 
+8 5 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 7 6 0 4   :  RetStatic RetRisk RetRisk NewRisk setPricer setCoins 
+8 5 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 6 7 4   :  RetStatic RetRisk setPricer NewRisk RetRisk setCoins 
+8 5 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+------------------------------------------------------------
+5 8 0 6 7 4   :  RetStatic RetRisk setPricer NewRisk RetRisk setCoins 
+8 5 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+------------------------------------------------------------
+8 5 7 6 4 0   :  RetRisk RetStatic RetRisk NewRisk setCoins setPricer 
+5 8 7 0 6 4   :  RetStatic RetRisk RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------
+8 5 6 7 4 0   :  RetRisk RetStatic NewRisk RetRisk setCoins setPricer 
+5 8 7 0 6 4   :  RetStatic RetRisk RetRisk setPricer NewRisk setCoins 
+------------------------------------------------------------

@@ -1,0 +1,44 @@
+{
+    "addr": "0x152df2cb3868bef5c6ed6b9feb0fb091c9e11a96",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "ETHLCrowdsale",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x152df2cb3868bef5c6ed6b9feb0fb091c9e11a96",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "24f60f8fcb39d4ed763e63f1a5d4f254",
+    "fp_runtime": "c8cb6cdf23cb479e68ac6d7a1563cfbf",
+    "fp_sol": "d915085730f97b522e278a4546aa03d1",
+    "fp_sol2": "7de4261931f6bc046346c8fd9ce16779",
+    "id": "0x152df2cb3868bef5c6ed6b9feb0fb091c9e11a96-ETHLCrowdsale-selfdestruct_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test316.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

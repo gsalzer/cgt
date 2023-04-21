@@ -1,0 +1,37 @@
+{
+    "addr": "0xd8f760ac90208423ecf9a5f320037cb224de8909",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NYX.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "NYX",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "c24140b0dc97cb2c876fbf1f3c1c8681",
+    "fp_runtime": "5edef782623ddbf8e5f50107f8102e93",
+    "fp_sol": "6497645df2bb18a98abd503022e6062b",
+    "fp_sol2": "2d35ad6acae37c2a94074167c37a3170",
+    "id": "NYX-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_NYX.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

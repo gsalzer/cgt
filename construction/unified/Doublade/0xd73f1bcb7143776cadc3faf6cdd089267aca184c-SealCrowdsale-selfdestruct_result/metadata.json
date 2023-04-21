@@ -1,0 +1,44 @@
+{
+    "addr": "0xd73f1bcb7143776cadc3faf6cdd089267aca184c",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "SealCrowdsale",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xd73f1bcb7143776cadc3faf6cdd089267aca184c",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "8f2a89aef3621a6fca63f32213b15a16",
+    "fp_runtime": "ae265a29265c5e6cf0915e55fe1bd8e6",
+    "fp_sol": "5612b3b62c3508e67ec3309b68e7d1e2",
+    "fp_sol2": "acf1bae17e21b6ab989780f7929568f0",
+    "id": "0xd73f1bcb7143776cadc3faf6cdd089267aca184c-SealCrowdsale-selfdestruct_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test3289.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

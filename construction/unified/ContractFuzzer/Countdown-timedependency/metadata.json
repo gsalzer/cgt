@@ -1,0 +1,37 @@
+{
+    "addr": "0x0f1cd99bea68f0d994064395d2b45315b185882e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Countdown.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Countdown",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "7ceab3a33371c2709ff341c2987459b0",
+    "fp_runtime": "3b139fd1a05c589b5ba99dd382776ea3",
+    "fp_sol": "570022731e452a43a792ea0dccea89b7",
+    "fp_sol2": "36c7efc844fa0d0bf0d6a18b919ae983",
+    "id": "Countdown-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Countdown.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

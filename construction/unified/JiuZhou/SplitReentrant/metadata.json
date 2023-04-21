@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy vulnerability",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "SplitReentrancy",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "ffc0115fba893c5ed89821461581d091",
+    "fp_runtime": "4389fd653ca84ac5b797ec6670c97f87",
+    "fp_sol": "424c69bd0b1d3c4d153c99eddce01b27",
+    "fp_sol2": "6727428f7522d8a09bfeab80c11311d0",
+    "id": "SplitReentrant",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/SplitReentrant.sol"
+    ],
+    "sol_orig": true
+}

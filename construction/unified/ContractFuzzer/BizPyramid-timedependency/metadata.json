@@ -1,0 +1,37 @@
+{
+    "addr": "0x7b533e19de8c1a2594e0d170c4131aba2d7ba39d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BizPyramid.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "BizPyramid",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "cb79114cbea232d94402c1185f8c9489",
+    "fp_runtime": "52b61357aa1e59c2548bddc2fc2134b1",
+    "fp_sol": "5b8599ba149d02b310f1b28ebb3ff2e5",
+    "fp_sol2": "71c414e9e6998c553b2307e5528d903e",
+    "id": "BizPyramid-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BizPyramid.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.12+commit.194ff033",
+    "compiler_orig": false,
+    "contractname": "ScamSeal",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x085bf17d6c557254d0370514b97d16307b8f0775",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x085bf17d6c557254d0370514b97d16307b8f0775",
+            "main",
+            "ScamSealToken"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d71107a7dcddc6a25ba217df9fb09296",
+    "fp_sol2": "9554633265704dbce226d8dff2825b3b",
+    "id": "0x085bf17d6c557254d0370514b97d16307b8f0775-ScamSeal-unexpectedrevert_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test127.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

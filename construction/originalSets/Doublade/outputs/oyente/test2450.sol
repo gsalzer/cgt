@@ -1,0 +1,2 @@
+{u'source_code/test2450.sol': {u'GCOClaim': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test2450.sol:16:13: Warning: Transaction-Ordering Dependency.\n            msg.sender.transfer(address(this).balance)'], [u'source_code/test2450.sol:12:13: Warning: Transaction-Ordering Dependency.\n            selfdestruct(msg.sender)']], 'assertion_failure': []}, 'evm_code_coverage': '94.1'}}}
+

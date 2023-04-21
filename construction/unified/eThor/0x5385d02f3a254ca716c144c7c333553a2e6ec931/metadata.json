@@ -1,0 +1,37 @@
+{
+    "addr": "0x5385d02f3a254ca716c144c7c333553a2e6ec931",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "CertifierDb",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "f867781b6d7f67d126e9d20afb5d79f6",
+    "fp_runtime": "a066f4a95a779c3313d5ee9253e49ba3",
+    "fp_sol": "a9cc5116934c947b30eb5e57df386e26",
+    "fp_sol2": "5b234ceb73261eaacf783839301e83f4",
+    "id": "0x5385d02f3a254ca716c144c7c333553a2e6ec931",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

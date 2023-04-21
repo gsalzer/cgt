@@ -1,0 +1,2 @@
+{u'source_code/test94.sol': {u'SpecialTransferContract': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test94.sol:48:5: Warning: Transaction-Ordering Dependency.\n    owner.transfer(msg.value)'], [u'source_code/test94.sol:73:9: Warning: Transaction-Ordering Dependency.\n        msg.sender.transfer(address(this).balance)']], 'assertion_failure': []}, 'evm_code_coverage': '95.2'}}}
+

@@ -1,0 +1,37 @@
+{
+    "addr": "0x1e2e3cc6ce2e87a9aa1684e948e41a17c5ac3ecc",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-10-5f97274",
+    "compiler_orig": true,
+    "contractname": "WithdrawDAO",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "19046982a3d6edb36e479c262b75bb98",
+    "fp_runtime": "c0f95b04323248281aab367e9e19e2fb",
+    "fp_sol": "0fbab693f1d854ab81e71b92c52bcfdf",
+    "fp_sol2": "0fbab693f1d854ab81e71b92c52bcfdf",
+    "id": "0x1e2e3cc6ce2e87a9aa1684e948e41a17c5ac3ecc",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

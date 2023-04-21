@@ -1,0 +1,56 @@
+{
+    "addr": "0x870fe80e76dae4a4c12690dec52456ab13176202",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "ShinySquirrels",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "75e56c73dae9e23336aaa4f9d893cae1",
+    "fp_runtime": "5fce683c9cb0aeb4bffcab85f697fa8a",
+    "fp_sol": "c6712667e056b1fa05b19e6dea247361",
+    "fp_sol2": "c6712667e056b1fa05b19e6dea247361",
+    "id": "1031_Code_38_0x870FE80e76DaE4a4c12690dEc52456ab13176202",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

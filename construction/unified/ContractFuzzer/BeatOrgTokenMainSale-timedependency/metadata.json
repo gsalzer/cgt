@@ -1,0 +1,37 @@
+{
+    "addr": "0xc2b26fd43667ddb770689b13f95e4421080b7206",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BeatOrgTokenMainSale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "BeatOrgTokenMainSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "71aee6718dbbfd2093ee48f418168cdb",
+    "fp_runtime": "c79b52b3e1b4d1e39ddf881ef508e357",
+    "fp_sol": "dcb113815ad25cbb7bc2a13215d53871",
+    "fp_sol2": "a870728dc0bebd129d5c43502da032a5",
+    "id": "BeatOrgTokenMainSale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BeatOrgTokenMainSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

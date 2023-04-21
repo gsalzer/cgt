@@ -1,0 +1,38 @@
+{
+    "addr": "0xefe2481c6801ae124925db7fabcba71dc6da4cba",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "XG4KCrowdFunding",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "c75e4563e7864f6b8e14679c95a3fe7f",
+    "fp_runtime": "1eaa1d73de822cef9ffc1cd038ab9601",
+    "fp_sol": "dc1f29c4972ccacb88cf64936a7c7c40",
+    "fp_sol2": "c8f2b717dc2af7a31b0b4c5d00a5fb42",
+    "id": "XG4KCrowdFunding-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_XG4KCrowdFunding.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_XG4KCrowdFunding.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x1b05e6557768650c0df0c9377c32c621ac1ccf17",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NFTHouseGame.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "NFTHouseGame",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "4c196024d6bef8dbfeabbe2243a26aa3",
+    "fp_runtime": "d96432c7b7ce08d6d0771d08d8355bb7",
+    "fp_sol": "f9e857596ce224dfd74248643ebea734",
+    "fp_sol2": "7971aa9ee9bf57b81ce90a02222d2cb2",
+    "id": "NFTHouseGame-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_NFTHouseGame.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

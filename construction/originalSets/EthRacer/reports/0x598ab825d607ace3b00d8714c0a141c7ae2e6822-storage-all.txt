@@ -1,0 +1,33 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'authorizeSpender', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '793c0fd40000000000000000000000002222222222222222222222222222222222222222'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'delayPayment', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '846a5dde'}
+2 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'setSecurityGuard', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bb2a51d1'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'cancelPayment', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '8422927d'}
+4 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'setMaxSecurityGuardDelay', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'da4793ac'}
+5 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae10000000000000000000000002ff337d5ecd0bde459beb2e69437cf246a1d1822'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'cancelPayment', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8422927d'}
+7 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae1000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setTimelock', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1e891c0a0000000000000000000000000000000000000000000000000000000000000e10'}
+9 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae1'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setTimelock', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '1e891c0a'}
+11 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'setTimelock', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1e891c0a0000000000000000000000000000000000000000000000000000000000000e10'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'authorizeSpender', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '793c0fd40000000000000000000000001111111111111111111111111111111111111111'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'authorizeSpender', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '793c0fd40000000000000000000000002222222222222222222222222222222222222222'}
+14 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'changeEscapeCaller', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '681617c7'}
+15 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'delayPayment', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '846a5dde'}
+16 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'delayPayment', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '846a5dde'}
+17 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae10000000000000000000000000000000000000000000000000000000000000000'}
+18 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'escapeHatch', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1554611f'}
+19 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'authorizeSpender', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '793c0fd40000000000000000000000001111111111111111111111111111111111111111'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setMaxSecurityGuardDelay', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'da4793ac'}
+21 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'changeEscapeCaller', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '681617c7'}
+22 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'authorizeSpender', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '793c0fd4'}
+23 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'collectAuthorizedPayment', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '92e4b8a4'}
+24 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'setSecurityGuard', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bb2a51d1000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+25 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setSecurityGuard', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bb2a51d1'}
+26 : {'tx_caller': 'd00cc82a132f421ba6414d196bc830db95e2e7dd', 'name': 'escapeHatch', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1554611f'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "RampInstantEthPool",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d4cacee9e64ac2eafde5d0c0d4d594e4",
+    "fp_sol2": "5353ffb4f45bf812f93e4b812e3ebc55",
+    "id": "Re-entrancy-20",
+    "info": [
+        "info/BugLog_20.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_20.sol"
+    ],
+    "sol_orig": true
+}

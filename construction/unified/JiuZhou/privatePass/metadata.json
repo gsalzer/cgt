@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Non-public variables are accessed by public or external function",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "privatePass",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "88cebb0394efa4cd7751818ce136ae1f",
+    "fp_runtime": "eff2e1b6b29d99a9c815d79e8b9f49c0",
+    "fp_sol": "d5d543680c59c1f491a84bdb89c0a65a",
+    "fp_sol2": "ae16021cb76d18396fa0886a0e8395be",
+    "id": "privatePass",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/privatePass.sol"
+    ],
+    "sol_orig": true
+}

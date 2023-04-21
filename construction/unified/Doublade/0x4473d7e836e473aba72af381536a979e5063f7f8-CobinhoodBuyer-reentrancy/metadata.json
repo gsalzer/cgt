@@ -1,0 +1,37 @@
+{
+    "addr": "0x4473d7e836e473aba72af381536a979e5063f7f8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "CobinhoodBuyer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "b46b0b81cfe1c378fabfe897629fd109",
+    "fp_runtime": "c7366efabc4f965165c6411aa96bef29",
+    "fp_sol": "e6184a749b8354c86c131e72e2a1ea29",
+    "fp_sol2": "52a82a1ae9461b1d322d190714cb8471",
+    "id": "0x4473d7e836e473aba72af381536a979e5063f7f8-CobinhoodBuyer-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1090.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

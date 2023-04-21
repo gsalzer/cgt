@@ -1,0 +1,60 @@
+{
+    "addr": "0x78d4f849aab2b0a5a66f76b9b1ff47da5a9ae492",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": false,
+    "contractname": "DividendProfit",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "d122c937f3cf40c01e5c55301962c8bb",
+    "fp_runtime": "9b5938bc9ddea504ce672c2111965bc9",
+    "fp_sol": "a2188a5dd60810a4a88026fc0e5451a4",
+    "fp_sol2": "a2188a5dd60810a4a88026fc0e5451a4",
+    "id": "0597_Code_40_0x78d4f849aab2b0a5a66f76b9b1ff47da5a9ae492",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

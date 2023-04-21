@@ -1,0 +1,60 @@
+{
+    "addr": "0xb4e348c10b8f1dcf2b5bc524f1f2ab912fde4048",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": false,
+    "contractname": "ArithLib",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "839b3410c38219c838605a3a5ab26b6f",
+    "fp_runtime": "ec1d49c97e52226561fcdc697c5a3042",
+    "fp_sol": "63992c077fda3c7f58a757a0fd26dccc",
+    "fp_sol2": "155a445f6259fb84afb9d751bb73d3bc",
+    "id": "0218_Code_18_0xb4e348c10b8f1dcf2b5bc524f1f2ab912fde4048",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

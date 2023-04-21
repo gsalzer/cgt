@@ -1,0 +1,60 @@
+{
+    "addr": "0x1f36f2249ec89266ad4ee4351538148aaebc72e8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-13-9137506",
+    "compiler_orig": false,
+    "contractname": "euroteambet",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "0d5311b8f79e560708f15f00293c8b93",
+    "fp_runtime": "fa40e0130212b08684be18e3656d1025",
+    "fp_sol": "2f2465ad3109a56478eb2e2fc64ac459",
+    "fp_sol2": "2f2465ad3109a56478eb2e2fc64ac459",
+    "id": "0246_Code_34_0x1F36f2249eC89266Ad4EE4351538148aaEBc72e8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

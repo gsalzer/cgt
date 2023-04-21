@@ -1,0 +1,15 @@
+Bug types: 13
+--------------------------------------------------------------------------------
+250 : ['forceDivestOfAllInvestors', 'newInvestor']
+ 51 : ['forceDivestOfAllInvestors', 'newInvestor', 'newInvestor']
+ 39 : ['forceDivestOfAllInvestors', 'newInvestor', 'stopContract']
+ 35 : ['forceDivestOfAllInvestors']
+ 26 : ['newInvestor']
+ 15 : ['forceDivestOfAllInvestors', 'changeOwnerAddress', 'newInvestor']
+  5 : ['forceDivestOfAllInvestors', 'changeOwnerAddress', 'newInvestor', 'newInvestor']
+  4 : ['forceDivestOfAllInvestors', 'stopContract']
+  4 : ['newInvestor', 'newInvestor']
+  2 : ['changeOwnerAddress', 'newInvestor']
+  2 : ['newInvestor', 'stopContract']
+  1 : ['forceDivestOfAllInvestors', 'newInvestor', 'stopContract', 'newInvestor']
+  1 : ['forceDivestOfAllInvestors', 'newInvestor', 'stopContract', 'proposeEmergencyWithdrawal']

@@ -1,0 +1,2 @@
+{u'source_code/test2612.sol': {u'ThreesigWallet': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test2612.sol:12:3: Warning: Integer Overflow.\n  Tx[] public txs', u'source_code/test2612.sol:25:5: Warning: Integer Overflow.\n    balance += msg.value\nInteger Overflow occurs if:\n    balance = 1'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '69.7'}}}
+

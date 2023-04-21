@@ -1,0 +1,39 @@
+{
+    "addr": "0x20138727bad91ee61db094a5edba6343b6f67669",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_BlockFoodPreSale.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "BlockFoodPreSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "603d19934d69ee2235217ab3d42ed657",
+    "fp_runtime": "e36bdda95467bd00deec5f3d0e85912a",
+    "fp_sol": "82ccd5367f915d111504bd7afd3a29bf",
+    "fp_sol2": "585d4c198824072c0273c0cd54e0b70c",
+    "id": "BlockFoodPreSale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BlockFoodPreSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

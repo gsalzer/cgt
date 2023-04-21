@@ -1,0 +1,60 @@
+{
+    "addr": "0xdcb13fa157eebf22ddc8c9aa1d6e394810de6fa3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": false,
+    "contractname": "PiggyBank",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "361f3a9a872c8e96a388d8f25c3ba446",
+    "fp_runtime": "7b5ef6bd43686c8a8ce96bb4bb777e36",
+    "fp_sol": "f47037af209b1b14aeebf271feb6ce20",
+    "fp_sol2": "f47037af209b1b14aeebf271feb6ce20",
+    "id": "1303_Code_dcb13fa157eebf22ddc8c9aa1d6e394810de6fa3",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

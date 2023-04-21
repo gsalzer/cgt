@@ -1,0 +1,37 @@
+{
+    "addr": "0x60a76ea79ebc7264f2897ee7fe4f33f31ef25a74",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "BlockmaticsGraduationCertificate",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "15cca1fcc2e216a4e53728d01dd86db9",
+    "fp_runtime": "fb31d67a7520b860c475ef92159bc776",
+    "fp_sol": "189fc32c2d956ef31008eedfe9a880a0",
+    "fp_sol2": "cb8b6e4ccbf51da3e0069fcb2a155aea",
+    "id": "0x60a76ea79ebc7264f2897ee7fe4f33f31ef25a74",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

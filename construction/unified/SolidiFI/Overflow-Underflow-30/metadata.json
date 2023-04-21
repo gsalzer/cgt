@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "SKYBITToken",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "111f9893eb21cfe4ca31398422332ed4",
+    "fp_sol2": "d8af7d8f88d8aa46f22a61dca4a1564e",
+    "id": "Overflow-Underflow-30",
+    "info": [
+        "info/BugLog_30.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_30.sol"
+    ],
+    "sol_orig": true
+}

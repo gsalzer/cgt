@@ -1,0 +1,60 @@
+{
+    "addr": "0xb12c7df9f092814e7863b65035eb14d19fa61faf",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "Megaloh",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "fdc459c203440bc73d89a4adf6dbafbf",
+    "fp_runtime": "ae95b01721a3e2cebe840a1d14a2f5b3",
+    "fp_sol": "6502040890bb3ce8e3e073be8117b0c1",
+    "fp_sol2": "e10032afc208238b0749574dd968477e",
+    "id": "0413_Code_5_0xb12C7DF9F092814e7863b65035Eb14D19FA61faF",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

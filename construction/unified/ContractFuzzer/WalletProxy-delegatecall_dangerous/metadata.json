@@ -1,0 +1,35 @@
+{
+    "addr": "0x229bdede3fa7ae8a113065d57978d0e16d887e02",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "WalletProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "67e3bf7a7c3ca652333b59c7d1baf1a0",
+    "fp_sol": "e08b284943b3305327c42034ec614c36",
+    "fp_sol2": "e08b284943b3305327c42034ec614c36",
+    "id": "WalletProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/WalletProxy.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_WalletProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

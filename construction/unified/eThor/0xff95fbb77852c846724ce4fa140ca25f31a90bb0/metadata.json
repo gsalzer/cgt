@@ -1,0 +1,37 @@
+{
+    "addr": "0xff95fbb77852c846724ce4fa140ca25f31a90bb0",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.3-nightly.2016.10.15+commit.482807f6",
+    "compiler_orig": true,
+    "contractname": "RoundToken",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "fad39837cd20c391e64db6627edfb4d9",
+    "fp_runtime": "f13958f03d719176825e0bf69d130436",
+    "fp_sol": "8b415ed140d67f607dabe900553d80cc",
+    "fp_sol2": "da4a102c484d5faf28bc6c64d649b76e",
+    "id": "0xff95fbb77852c846724ce4fa140ca25f31a90bb0",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

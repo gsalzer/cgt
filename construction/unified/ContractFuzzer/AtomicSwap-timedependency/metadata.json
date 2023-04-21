@@ -1,0 +1,37 @@
+{
+    "addr": "0x7702cbba3e02788dd50535afb691fabcb64308cd",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/AtomicSwap.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "AtomicSwap",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ed6455947b14a48de4843f974701f12d",
+    "fp_runtime": "ebb5d84461683f482fc593f0b99ad72f",
+    "fp_sol": "c344bf59b3a6e98b99143beaf895520d",
+    "fp_sol2": "cc8530e56f2e19e2d3d89dc6572f205b",
+    "id": "AtomicSwap-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AtomicSwap.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

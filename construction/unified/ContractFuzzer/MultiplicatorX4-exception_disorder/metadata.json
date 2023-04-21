@@ -1,0 +1,37 @@
+{
+    "addr": "0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/MultiplicatorX4.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "MultiplicatorX4",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b35c2997cd87cf54ccd81ee0c9c73ed0",
+    "fp_runtime": "38f02790c2b864535bdd9aa5d9d6ef53",
+    "fp_sol": "c38ee289214a9d4bd1fb30f1c100c28e",
+    "fp_sol2": "9c7ab2051144f1997895cb1f4a5e463b",
+    "id": "MultiplicatorX4-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MultiplicatorX4.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

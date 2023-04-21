@@ -1,0 +1,37 @@
+{
+    "addr": "0xa5dc0165b798779ac80acc84c4da4ee77b79843f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EosPizzaSliceDonationraiser.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "EosPizzaSliceDonationraiser",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e878941910d29547a1e0eaa8137994c9",
+    "fp_runtime": "33e057a71bc929fd84902bf50dd9705b",
+    "fp_sol": "893113696917d779789f5ea47150d56e",
+    "fp_sol2": "21267dc25a7754b3ea2bf2805c4735d2",
+    "id": "EosPizzaSliceDonationraiser-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EosPizzaSliceDonationraiser.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

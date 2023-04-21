@@ -1,0 +1,37 @@
+{
+    "addr": "0x4a56ebd89b2750bf42ddec1cd3845938983be0d2",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "Migrations",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "d2120b961dd3fcf830b86f799194e053",
+    "fp_runtime": "0947b9a5b276b5a572c98c31f89b5ef8",
+    "fp_sol": "f2b9683eb7bb0e23c29400bbb3bf4df4",
+    "fp_sol2": "c6899cfd581da7f51a778365c3131a69",
+    "id": "0x4a56ebd89b2750bf42ddec1cd3845938983be0d2",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

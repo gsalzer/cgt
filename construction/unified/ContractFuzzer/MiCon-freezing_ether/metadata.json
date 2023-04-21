@@ -1,0 +1,35 @@
+{
+    "addr": "0x3ad2b07946f84e77c081cd3e8355b3014cc77ae2",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "MiCon",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "3bc4c77c074f5fbead25c31d8d11b2d7",
+    "fp_sol": "23314beb8cf29c2f4ccdd7daadb6222e",
+    "fp_sol2": "a8865565ff7da38c6fe0b0978de5d2f1",
+    "id": "MiCon-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/MiCon.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_MiCon.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

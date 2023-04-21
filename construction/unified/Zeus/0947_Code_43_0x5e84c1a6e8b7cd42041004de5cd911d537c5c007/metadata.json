@@ -1,0 +1,60 @@
+{
+    "addr": "0x5e84c1a6e8b7cd42041004de5cd911d537c5c007",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.1-2016-01-30-91a6b35",
+    "compiler_orig": false,
+    "contractname": "Goodfellas",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "ef494843e917f53dfb2a1ec00bf54ce1",
+    "fp_runtime": "f0bd9fcb6d6fbdec297a90e03a9b459c",
+    "fp_sol": "dcf00afbf43dcb756383e3279e70055a",
+    "fp_sol2": "dcf00afbf43dcb756383e3279e70055a",
+    "id": "0947_Code_43_0x5e84c1a6e8b7cd42041004de5cd911d537c5c007",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "TheImmortals.deleteUser has external calls inside a loop: \"faceContract.removeFace()\" (reorder_contracts_2_3/test406.sol#61)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "faceContract.removeFace()",
+            "source_mapping": {
+              "start": 1800,
+              "length": 25,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test406.sol",
+              "filename_relative": "reorder_contracts_2_3/test406.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test406.sol",
+              "filename_short": "reorder_contracts_2_3/test406.sol",
+              "lines": [
+                61
+              ],
+              "starting_column": 10,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "deleteUser",
+                "source_mapping": {
+                  "start": 1589,
+                  "length": 295,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test406.sol",
+                  "filename_relative": "reorder_contracts_2_3/test406.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test406.sol",
+                  "filename_short": "reorder_contracts_2_3/test406.sol",
+                  "lines": [
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "TheImmortals",
+                    "source_mapping": {
+                      "start": 622,
+                      "length": 1379,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test406.sol",
+                      "filename_relative": "reorder_contracts_2_3/test406.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test406.sol",
+                      "filename_short": "reorder_contracts_2_3/test406.sol",
+                      "lines": [
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "deleteUser(address)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

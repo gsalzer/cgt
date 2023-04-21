@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Mengudara.drop has external calls inside a loop: \"token.transfer(recipients[i],values[i])\" (reorder_contracts_2_3/test3122.sol#10)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(recipients[i],values[i])",
+            "source_mapping": {
+              "start": 301,
+              "length": 40,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3122.sol",
+              "filename_relative": "reorder_contracts_2_3/test3122.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3122.sol",
+              "filename_short": "reorder_contracts_2_3/test3122.sol",
+              "lines": [
+                10
+              ],
+              "starting_column": 7,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "drop",
+                "source_mapping": {
+                  "start": 163,
+                  "length": 191,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3122.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3122.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3122.sol",
+                  "filename_short": "reorder_contracts_2_3/test3122.sol",
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Mengudara",
+                    "source_mapping": {
+                      "start": 139,
+                      "length": 218,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3122.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3122.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3122.sol",
+                      "filename_short": "reorder_contracts_2_3/test3122.sol",
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "drop(ERC20,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

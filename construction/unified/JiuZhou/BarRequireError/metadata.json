@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Improper use of require",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "Bar",
+            "Foo"
+        ]
+    },
+    "fp_bytecode": "952dcc5f61db9f140c8a34ae51469b42",
+    "fp_runtime": "ea4e2f74de3ed5cae520c7f93939c5ba",
+    "fp_sol": "03d0baf5a3e31dda5d1efe05d40658d8",
+    "fp_sol2": "19530d7f81f412da38efa6928c798950",
+    "id": "BarRequireError",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/BarRequireError.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0xdd40b5a5b00d8913f3e1d6bb5cbbcd18a956b215",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/REPOExchange.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "REPOExchange",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/numberdependency/verified_contract_sols/REPOExchange"
+    },
+    "fp_bytecode": "b194b3adc39106ade03ae1b279451bb2",
+    "fp_runtime": "03b1117b5964de40cc959bd49a9ddc50",
+    "fp_sol": "a98a29b4149089dce533b57576eea4e5",
+    "fp_sol2": "00f640ab6ab9cf43db2ab78622ec24b8",
+    "id": "REPOExchange-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

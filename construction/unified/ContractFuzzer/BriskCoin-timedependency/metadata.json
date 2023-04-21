@@ -1,0 +1,37 @@
+{
+    "addr": "0xe3d631a5fc2aa15d8f051e5ecc8b7979312c4aef",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BriskCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "BriskCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1719ef8801dc156bd1a21d1e9d88c17e",
+    "fp_runtime": "8b64b9d9c7a59033d39d01ac61b27c11",
+    "fp_sol": "80ebfc0b73433867a04f33c23a99f031",
+    "fp_sol2": "971e390ea7b4b22ccdcf0a9ac1af6ef6",
+    "id": "BriskCoin-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BriskCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

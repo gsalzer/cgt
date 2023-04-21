@@ -1,0 +1,60 @@
+{
+    "addr": "0xf74a6e92588ee0a524b44b251e0b47d1a15824f7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "BadgeReg",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "07f1c9b2b8132e362df794e27271f917",
+    "fp_runtime": "9a601a5712f0ab06c12067da47634edd",
+    "fp_sol": "4c8c53c8c930fd9003b740e3546e3164",
+    "fp_sol2": "5833ad5b622018a1b71771dff3886acf",
+    "id": "0318_Code_10_0xF74A6e92588eE0a524b44b251E0b47d1A15824f7",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

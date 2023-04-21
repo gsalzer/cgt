@@ -1,0 +1,60 @@
+{
+    "addr": "0x08d698358b31ca6926e329879db9525504802abf",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            true
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": false,
+    "contractname": "DaoChallenge",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "09283dddcfe8aacc000b66669f1fdca7",
+    "fp_runtime": "62b8c0fd677ce7c2e9637d84da507070",
+    "fp_sol": "f93e1d3edaba7258a69c6015d5787689",
+    "fp_sol2": "f93e1d3edaba7258a69c6015d5787689",
+    "id": "1308_Code_32_0x08d698358b31ca6926e329879db9525504802abf",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,54 @@
+{
+    "addr": "0x56facfe436b4b4f4228bfeecefe5174cb505bbe6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "ERC20Token",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "20abba8be5f11dfb90feb7c7ea7f6c64",
+    "fp_runtime": "acfc2d943ccc5327e942625aca2e7f72",
+    "fp_sol": "621ae5e0593de9101cc5c20df596e3c0",
+    "fp_sol2": "5fd680c55fedf2b28e411fe7fb09f4f3",
+    "id": "0x56facfe436b4b4f4228bfeecefe5174cb505bbe6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

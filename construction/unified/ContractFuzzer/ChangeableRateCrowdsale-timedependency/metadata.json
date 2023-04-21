@@ -1,0 +1,37 @@
+{
+    "addr": "0xf37c4a962e70d813a4d9825942141cd9bc5169fd",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ChangeableRateCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ChangeableRateCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "00b153842f15578938e77c9ba4d39677",
+    "fp_runtime": "c8a2e8a7413598a46b07487e6ab3b0d9",
+    "fp_sol": "bc7a0cbe96a3c5f1892e21bbc6c29ba7",
+    "fp_sol2": "7b38536d5689b6d2469d2d2124fab874",
+    "id": "ChangeableRateCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ChangeableRateCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

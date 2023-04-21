@@ -1,0 +1,38 @@
+{
+    "addr": "0xb35e9ad7e9ebf731e04c73845f1bf75e55828700",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "BRToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "382239113243beae98d0ed35cc6e6330",
+    "fp_runtime": "d680f767d2871aa7bd71177c81d8d53e",
+    "fp_sol": "6f50f5ef9a2e59584ee073dce492f60c",
+    "fp_sol2": "8f5962d706775639a6874e59acba5586",
+    "id": "BRToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_BRToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BRToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

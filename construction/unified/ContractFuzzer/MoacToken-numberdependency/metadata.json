@@ -1,0 +1,37 @@
+{
+    "addr": "0xcbce61316759d807c474441952ce41985bbc5a40",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/MoacToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "MoacToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "822555532539ce46e53d4f7d52f2418b",
+    "fp_runtime": "c57cf49a208a66a9ae30d551313c4e37",
+    "fp_sol": "4d20c611b983c1434f482a2e1b6c7cc0",
+    "fp_sol2": "60a85dc00b0f1da78dc4afde0ad9fe3c",
+    "id": "MoacToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MoacToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

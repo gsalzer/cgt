@@ -1,0 +1,48 @@
+{
+    "addr": "0x687a241422c92e3d15ce6a02c832f800b74c8b3c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6-2016-09-06-114502f",
+    "compiler_orig": false,
+    "contractname": "DepositHolder",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b39eb16201a4c1c6ae87e7a218bece69",
+    "fp_runtime": "5b8f66069862dec944c7e32959e4736b",
+    "fp_sol": "c59584b868fdd80450ebed89a7b9e675",
+    "fp_sol2": "0a89afe6654c9f56f108b8ebd020bfeb",
+    "id": "0901_Code_23_0x687a241422c92e3d15ce6a02c832f800b74c8b3c",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

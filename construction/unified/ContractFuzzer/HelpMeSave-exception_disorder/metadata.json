@@ -1,0 +1,37 @@
+{
+    "addr": "0x8b099bdcfea93faecfac13d0dbc1d08c4e1ec595",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HelpMeSave.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.5+commit.b318366e",
+    "compiler_orig": false,
+    "contractname": "HelpMeSave",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "d56f3078d990423899befad8fab6dd05",
+    "fp_runtime": "20335cf20c3614bf2cbcbbb8ea652bc5",
+    "fp_sol": "a8eca355ee72fa21205c613454e4b48a",
+    "fp_sol2": "37963b7aa070f63d9d8dfa5636b109cb",
+    "id": "HelpMeSave-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HelpMeSave.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xcbb447cc78f646af29df035a4ade69ab1eea22d4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Fermat.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Fermat",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "998536a0baf8bfeefd3add017a6a8587",
+    "fp_runtime": "96f6dd84e565fdd8d5b8093fb9b9e392",
+    "fp_sol": "d5b19d320858ef4c9356352d527ca633",
+    "fp_sol2": "86bcd78579b088fdf6727af6560b704e",
+    "id": "Fermat-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Fermat.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

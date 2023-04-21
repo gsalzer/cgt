@@ -1,0 +1,39 @@
+{
+    "addr": "0xa11e4ed59dc94e69612f3111942626ed513cb172",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "time_manipulation",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "EtherLotto",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://etherscan.io/address/0xa11e4ed59dc94e69612f3111942626ed513cb172#code"
+    },
+    "fp_bytecode": "0598e1415fab777cc4437d2c60c4db40",
+    "fp_runtime": "3fb765c30d2a58804ab6d8d61005985f",
+    "fp_sol": "7f5c1fd4bbfc11ac43e5996e0ed4fbd6",
+    "fp_sol2": "a7c6915361d057d81a8d233801d281a3",
+    "id": "ether_lotto",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ether_lotto.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

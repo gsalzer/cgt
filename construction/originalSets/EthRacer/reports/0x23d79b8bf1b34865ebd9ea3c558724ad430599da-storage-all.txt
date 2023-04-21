@@ -1,0 +1,1497 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'stop', 'tx_input': '07da68f5'}
+1 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+2 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'start', 'tx_input': 'be9a6555'}
+3 : {'tx_value': '0', 'tx_caller': '170e77f5d4ff201fa4f5fd1cc46bdbce53f6cde0', 'name': 'transferFrom', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000850694e4fb6c1d7f5858c5f4aa79b507c050ca200000000000000000000000000000000000000000000000000000000000000000'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'DeskToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '903e95a90000000000000000000000002222222222222222222222222222222222222222'}
+5 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000274678eba336d4e54688490058ba4d82beae82510000000000000000000000000000000000000000000000000000000000000001'}
+6 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000274678eba336d4e54688490058ba4d82beae82510000000000000000000000000000000000000000000000000000000000000003'}
+7 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000821c1c10'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'DeskToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '903e95a90000000000000000000000001111111111111111111111111111111111111111'}
+9 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000132a71bdfcd6b05c8ca54a3b8ad2cdc966f6cd700000000000000000000000000000000000000000000000000000000000000001'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000132a71bdfcd6b05c8ca54a3b8ad2cdc966f6cd700000000000000000000000000000000000000000000000000000000000000003'}
+11 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+13 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+14 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+15 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'DeskToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '903e95a9000000000000000000000000170e77f5d4ff201fa4f5fd1cc46bdbce53f6cde0'}
+16 : {'tx_caller': '170e77f5d4ff201fa4f5fd1cc46bdbce53f6cde0', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+17 : {'tx_caller': '170e77f5d4ff201fa4f5fd1cc46bdbce53f6cde0', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 491
+--------------------------------------------------------------------------------
+4 0 2   :  DeskToken stop start 
+4 2 0   :  DeskToken start stop 
+------------------------------------------------------------
+4 1 0 2   :  DeskToken approve stop start 
+4 1 2 0   :  DeskToken approve start stop 
+------------------------------------------------------------
+4 1 0 2   :  DeskToken approve stop start 
+4 2 1 0   :  DeskToken start approve stop 
+------------------------------------------------------------
+4 1 0 2   :  DeskToken approve stop start 
+1 4 2 0   :  approve DeskToken start stop 
+------------------------------------------------------------
+1 4 0 2   :  approve DeskToken stop start 
+4 1 2 0   :  DeskToken approve start stop 
+------------------------------------------------------------
+1 4 0 2   :  approve DeskToken stop start 
+4 2 1 0   :  DeskToken start approve stop 
+------------------------------------------------------------
+1 4 0 2   :  approve DeskToken stop start 
+1 4 2 0   :  approve DeskToken start stop 
+------------------------------------------------------------
+4 0 2 1   :  DeskToken stop start approve 
+4 1 2 0   :  DeskToken approve start stop 
+------------------------------------------------------------
+4 0 2 1   :  DeskToken stop start approve 
+4 2 1 0   :  DeskToken start approve stop 
+------------------------------------------------------------
+4 0 2 1   :  DeskToken stop start approve 
+1 4 2 0   :  approve DeskToken start stop 
+------------------------------------------------------------
+3 4 0 2   :  transferFrom DeskToken stop start 
+3 4 2 0   :  transferFrom DeskToken start stop 
+------------------------------------------------------------
+3 4 0 2   :  transferFrom DeskToken stop start 
+4 3 2 0   :  DeskToken transferFrom start stop 
+------------------------------------------------------------
+3 4 0 2   :  transferFrom DeskToken stop start 
+4 2 3 0   :  DeskToken start transferFrom stop 
+------------------------------------------------------------
+3 4 2 0   :  transferFrom DeskToken start stop 
+4 0 2 3   :  DeskToken stop start transferFrom 
+------------------------------------------------------------
+3 4 2 0   :  transferFrom DeskToken start stop 
+4 3 0 2   :  DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 3 2 0   :  DeskToken transferFrom start stop 
+4 0 2 3   :  DeskToken stop start transferFrom 
+------------------------------------------------------------
+4 3 2 0   :  DeskToken transferFrom start stop 
+4 3 0 2   :  DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 2 3 0   :  DeskToken start transferFrom stop 
+4 0 2 3   :  DeskToken stop start transferFrom 
+------------------------------------------------------------
+4 2 3 0   :  DeskToken start transferFrom stop 
+4 3 0 2   :  DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 0 2 5   :  DeskToken stop start transfer 
+4 5 2 0   :  DeskToken transfer start stop 
+------------------------------------------------------------
+4 0 2 5   :  DeskToken stop start transfer 
+4 2 5 0   :  DeskToken start transfer stop 
+------------------------------------------------------------
+4 5 0 2   :  DeskToken transfer stop start 
+4 5 2 0   :  DeskToken transfer start stop 
+------------------------------------------------------------
+4 5 0 2   :  DeskToken transfer stop start 
+4 2 5 0   :  DeskToken start transfer stop 
+------------------------------------------------------------
+8 4 0 2   :  DeskToken DeskToken stop start 
+8 2 0 4   :  DeskToken start stop DeskToken 
+------------------------------------------------------------
+8 4 0 2   :  DeskToken DeskToken stop start 
+8 4 2 0   :  DeskToken DeskToken start stop 
+------------------------------------------------------------
+8 4 0 2   :  DeskToken DeskToken stop start 
+8 2 4 0   :  DeskToken start DeskToken stop 
+------------------------------------------------------------
+8 0 4 2   :  DeskToken stop DeskToken start 
+8 2 0 4   :  DeskToken start stop DeskToken 
+------------------------------------------------------------
+8 0 4 2   :  DeskToken stop DeskToken start 
+8 4 2 0   :  DeskToken DeskToken start stop 
+------------------------------------------------------------
+8 0 4 2   :  DeskToken stop DeskToken start 
+8 2 4 0   :  DeskToken start DeskToken stop 
+------------------------------------------------------------
+4 2 8 0   :  DeskToken start DeskToken stop 
+4 0 2 8   :  DeskToken stop start DeskToken 
+------------------------------------------------------------
+8 2 0 4   :  DeskToken start stop DeskToken 
+8 0 2 4   :  DeskToken stop start DeskToken 
+------------------------------------------------------------
+8 4 2 0   :  DeskToken DeskToken start stop 
+8 0 2 4   :  DeskToken stop start DeskToken 
+------------------------------------------------------------
+4 2 11 0   :  DeskToken start burn stop 
+4 0 11 2   :  DeskToken stop burn start 
+------------------------------------------------------------
+4 2 11 0   :  DeskToken start burn stop 
+4 11 0 2   :  DeskToken burn stop start 
+------------------------------------------------------------
+4 2 11 0   :  DeskToken start burn stop 
+4 0 2 11   :  DeskToken stop start burn 
+------------------------------------------------------------
+4 0 11 2   :  DeskToken stop burn start 
+4 11 2 0   :  DeskToken burn start stop 
+------------------------------------------------------------
+4 0 11 2   :  DeskToken stop burn start 
+4 2 0 11   :  DeskToken start stop burn 
+------------------------------------------------------------
+4 11 0 2   :  DeskToken burn stop start 
+4 11 2 0   :  DeskToken burn start stop 
+------------------------------------------------------------
+4 11 0 2   :  DeskToken burn stop start 
+4 2 0 11   :  DeskToken start stop burn 
+------------------------------------------------------------
+4 0 2 11   :  DeskToken stop start burn 
+4 11 2 0   :  DeskToken burn start stop 
+------------------------------------------------------------
+4 0 2 11   :  DeskToken stop start burn 
+4 2 0 11   :  DeskToken start stop burn 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+4 1 3 2 0   :  DeskToken approve transferFrom start stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+3 1 4 2 0   :  transferFrom approve DeskToken start stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+------------------------------------------------------------
+3 4 0 2 1   :  transferFrom DeskToken stop start approve 
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+------------------------------------------------------------
+4 3 1 0 2   :  DeskToken transferFrom approve stop start 
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+4 3 1 2 0   :  DeskToken transferFrom approve start stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+1 3 4 2 0   :  approve transferFrom DeskToken start stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+4 2 3 1 0   :  DeskToken start transferFrom approve stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+------------------------------------------------------------
+3 1 4 0 2   :  transferFrom approve DeskToken stop start 
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+3 4 1 2 0   :  transferFrom DeskToken approve start stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+------------------------------------------------------------
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+------------------------------------------------------------
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+------------------------------------------------------------
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+------------------------------------------------------------
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+------------------------------------------------------------
+1 4 0 2 3   :  approve DeskToken stop start transferFrom 
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+4 3 2 1 0   :  DeskToken transferFrom start approve stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+1 4 3 2 0   :  approve DeskToken transferFrom start stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+------------------------------------------------------------
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+------------------------------------------------------------
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+------------------------------------------------------------
+4 1 0 2 3   :  DeskToken approve stop start transferFrom 
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+3 4 2 1 0   :  transferFrom DeskToken start approve stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+4 1 2 3 0   :  DeskToken approve start transferFrom stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+------------------------------------------------------------
+3 4 1 0 2   :  transferFrom DeskToken approve stop start 
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+------------------------------------------------------------
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+4 2 1 3 0   :  DeskToken start approve transferFrom stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+4 3 0 2 1   :  DeskToken transferFrom stop start approve 
+------------------------------------------------------------
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+1 4 3 0 2   :  approve DeskToken transferFrom stop start 
+------------------------------------------------------------
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+1 3 4 0 2   :  approve transferFrom DeskToken stop start 
+------------------------------------------------------------
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+4 0 2 3 1   :  DeskToken stop start transferFrom approve 
+------------------------------------------------------------
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+4 0 2 1 3   :  DeskToken stop start approve transferFrom 
+------------------------------------------------------------
+1 4 2 3 0   :  approve DeskToken start transferFrom stop 
+4 1 3 0 2   :  DeskToken approve transferFrom stop start 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+------------------------------------------------------------
+1 4 5 0 2   :  approve DeskToken transfer stop start 
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+4 1 2 5 0   :  DeskToken approve start transfer stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+------------------------------------------------------------
+4 0 2 1 5   :  DeskToken stop start approve transfer 
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+------------------------------------------------------------
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+------------------------------------------------------------
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+------------------------------------------------------------
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+------------------------------------------------------------
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+1 4 2 5 0   :  approve DeskToken start transfer stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+------------------------------------------------------------
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+------------------------------------------------------------
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+------------------------------------------------------------
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+------------------------------------------------------------
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+------------------------------------------------------------
+4 1 5 0 2   :  DeskToken approve transfer stop start 
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+------------------------------------------------------------
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+------------------------------------------------------------
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+------------------------------------------------------------
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+4 2 5 1 0   :  DeskToken start transfer approve stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+------------------------------------------------------------
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+------------------------------------------------------------
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+------------------------------------------------------------
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+------------------------------------------------------------
+4 1 0 2 5   :  DeskToken approve stop start transfer 
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+------------------------------------------------------------
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+------------------------------------------------------------
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+4 5 2 1 0   :  DeskToken transfer start approve stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+------------------------------------------------------------
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+4 1 5 2 0   :  DeskToken approve transfer start stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+------------------------------------------------------------
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+------------------------------------------------------------
+1 4 0 2 5   :  approve DeskToken stop start transfer 
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+------------------------------------------------------------
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+4 2 1 5 0   :  DeskToken start approve transfer stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+------------------------------------------------------------
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+1 4 5 2 0   :  approve DeskToken transfer start stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+4 5 1 0 2   :  DeskToken transfer approve stop start 
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+------------------------------------------------------------
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+4 5 0 2 1   :  DeskToken transfer stop start approve 
+------------------------------------------------------------
+4 5 1 2 0   :  DeskToken transfer approve start stop 
+4 0 2 5 1   :  DeskToken stop start transfer approve 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 4 1 0 2   :  DeskToken DeskToken approve stop start 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 0 2 4 1   :  DeskToken stop start DeskToken approve 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+1 8 0 2 4   :  approve DeskToken stop start DeskToken 
+------------------------------------------------------------
+8 4 1 2 0   :  DeskToken DeskToken approve start stop 
+8 0 4 2 1   :  DeskToken stop DeskToken start approve 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 4 1 0 2   :  DeskToken DeskToken approve stop start 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 0 2 4 1   :  DeskToken stop start DeskToken approve 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+1 8 0 2 4   :  approve DeskToken stop start DeskToken 
+------------------------------------------------------------
+8 4 2 1 0   :  DeskToken DeskToken start approve stop 
+8 0 4 2 1   :  DeskToken stop DeskToken start approve 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+4 1 2 8 0   :  DeskToken approve start DeskToken stop 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+1 4 2 0 8   :  approve DeskToken start stop DeskToken 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+1 4 8 2 0   :  approve DeskToken DeskToken start stop 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+4 1 2 0 8   :  DeskToken approve start stop DeskToken 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+4 0 8 2 1   :  DeskToken stop DeskToken start approve 
+1 4 2 8 0   :  approve DeskToken start DeskToken stop 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+4 1 2 8 0   :  DeskToken approve start DeskToken stop 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+1 4 2 0 8   :  approve DeskToken start stop DeskToken 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+1 4 8 2 0   :  approve DeskToken DeskToken start stop 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+4 1 2 0 8   :  DeskToken approve start stop DeskToken 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+4 0 2 8 1   :  DeskToken stop start DeskToken approve 
+1 4 2 8 0   :  approve DeskToken start DeskToken stop 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+4 1 2 8 0   :  DeskToken approve start DeskToken stop 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+1 4 2 0 8   :  approve DeskToken start stop DeskToken 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+1 4 8 2 0   :  approve DeskToken DeskToken start stop 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+4 1 2 0 8   :  DeskToken approve start stop DeskToken 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+1 4 0 2 8   :  approve DeskToken stop start DeskToken 
+1 4 2 8 0   :  approve DeskToken start DeskToken stop 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+8 4 1 0 2   :  DeskToken DeskToken approve stop start 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+1 8 4 2 0   :  approve DeskToken DeskToken start stop 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+8 4 1 0 2   :  DeskToken DeskToken approve stop start 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+8 1 2 4 0   :  DeskToken approve start DeskToken stop 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+8 4 1 0 2   :  DeskToken DeskToken approve stop start 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+8 1 2 0 4   :  DeskToken approve start stop DeskToken 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+4 8 1 0 2   :  DeskToken DeskToken approve stop start 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+4 1 0 8 2   :  DeskToken approve stop DeskToken start 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+4 0 2 1 8   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+4 1 8 0 2   :  DeskToken approve DeskToken stop start 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+4 8 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+4 1 0 2 8   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+1 4 8 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 2 1 0 8   :  DeskToken start approve stop DeskToken 
+1 4 0 8 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+------------------------------------------------------------
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+------------------------------------------------------------
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+8 2 4 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+8 2 1 4 0   :  DeskToken start approve DeskToken stop 
+------------------------------------------------------------
+8 1 0 4 2   :  DeskToken approve stop DeskToken start 
+8 1 4 2 0   :  DeskToken approve DeskToken start stop 
+------------------------------------------------------------
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+------------------------------------------------------------
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+------------------------------------------------------------
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+8 2 4 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+8 2 1 4 0   :  DeskToken start approve DeskToken stop 
+------------------------------------------------------------
+8 1 4 0 2   :  DeskToken approve DeskToken stop start 
+8 1 4 2 0   :  DeskToken approve DeskToken start stop 
+------------------------------------------------------------
+4 8 1 0 2   :  DeskToken DeskToken approve stop start 
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+------------------------------------------------------------
+4 8 1 0 2   :  DeskToken DeskToken approve stop start 
+1 4 2 0 8   :  approve DeskToken start stop DeskToken 
+------------------------------------------------------------
+4 8 1 0 2   :  DeskToken DeskToken approve stop start 
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+------------------------------------------------------------
+4 8 1 0 2   :  DeskToken DeskToken approve stop start 
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+4 8 1 0 2   :  DeskToken DeskToken approve stop start 
+1 4 2 8 0   :  approve DeskToken start DeskToken stop 
+------------------------------------------------------------
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+1 8 2 4 0   :  approve DeskToken start DeskToken stop 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+4 0 2 1 8   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+4 8 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+4 1 0 2 8   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+1 4 8 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 2 1 8 0   :  DeskToken start approve DeskToken stop 
+1 4 0 8 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+8 0 2 1 4   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+1 8 0 4 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+1 8 2 0 4   :  approve DeskToken start stop DeskToken 
+1 8 4 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+4 0 2 1 8   :  DeskToken stop start approve DeskToken 
+------------------------------------------------------------
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+4 8 0 2 1   :  DeskToken DeskToken stop start approve 
+------------------------------------------------------------
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+4 1 0 2 8   :  DeskToken approve stop start DeskToken 
+------------------------------------------------------------
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+1 4 8 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 1 8 2 0   :  DeskToken approve DeskToken start stop 
+1 4 0 8 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+8 4 0 2 1   :  DeskToken DeskToken stop start approve 
+8 2 4 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+8 1 0 2 4   :  DeskToken approve stop start DeskToken 
+8 2 4 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+4 0 2 1 8   :  DeskToken stop start approve DeskToken 
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+------------------------------------------------------------
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+1 4 8 0 2   :  approve DeskToken DeskToken stop start 
+------------------------------------------------------------
+4 2 8 1 0   :  DeskToken start DeskToken approve stop 
+1 4 0 8 2   :  approve DeskToken stop DeskToken start 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 1 0 2 11   :  DeskToken approve stop start burn 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+1 4 11 0 2   :  approve DeskToken burn stop start 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 0 2 11 1   :  DeskToken stop start burn approve 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 11 1 0 2   :  DeskToken burn approve stop start 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 0 11 2 1   :  DeskToken stop burn start approve 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 0 2 1 11   :  DeskToken stop start approve burn 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 2 11 1 0   :  DeskToken start burn approve stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 1 0 2 11   :  DeskToken approve stop start burn 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+1 4 11 0 2   :  approve DeskToken burn stop start 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 0 2 11 1   :  DeskToken stop start burn approve 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 11 1 0 2   :  DeskToken burn approve stop start 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 0 11 2 1   :  DeskToken stop burn start approve 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 0 2 1 11   :  DeskToken stop start approve burn 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+1 4 2 11 0   :  approve DeskToken start burn stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 2 1 11 0   :  DeskToken start approve burn stop 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 11 2 1 0   :  DeskToken burn start approve stop 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+1 4 11 2 0   :  approve DeskToken burn start stop 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 1 2 11 0   :  DeskToken approve start burn stop 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 1 2 0 11   :  DeskToken approve start stop burn 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 1 11 2 0   :  DeskToken approve burn start stop 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 11 1 2 0   :  DeskToken burn approve start stop 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+4 2 1 0 11   :  DeskToken start approve stop burn 
+------------------------------------------------------------
+4 1 0 2 11   :  DeskToken approve stop start burn 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 2 1 11 0   :  DeskToken start approve burn stop 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 11 2 1 0   :  DeskToken burn start approve stop 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+1 4 11 2 0   :  approve DeskToken burn start stop 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 1 2 11 0   :  DeskToken approve start burn stop 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 1 2 0 11   :  DeskToken approve start stop burn 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 1 11 2 0   :  DeskToken approve burn start stop 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 11 1 2 0   :  DeskToken burn approve start stop 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+4 2 1 0 11   :  DeskToken start approve stop burn 
+------------------------------------------------------------
+1 4 11 0 2   :  approve DeskToken burn stop start 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 0 2 11 1   :  DeskToken stop start burn approve 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 11 1 0 2   :  DeskToken burn approve stop start 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 0 11 2 1   :  DeskToken stop burn start approve 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 0 2 1 11   :  DeskToken stop start approve burn 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 2 1 11 0   :  DeskToken start approve burn stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+4 11 2 1 0   :  DeskToken burn start approve stop 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+1 4 11 2 0   :  approve DeskToken burn start stop 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+4 1 2 11 0   :  DeskToken approve start burn stop 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+4 1 2 0 11   :  DeskToken approve start stop burn 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+4 1 11 2 0   :  DeskToken approve burn start stop 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+4 11 1 2 0   :  DeskToken burn approve start stop 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+4 2 1 0 11   :  DeskToken start approve stop burn 
+------------------------------------------------------------
+4 0 2 11 1   :  DeskToken stop start burn approve 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+4 11 2 1 0   :  DeskToken burn start approve stop 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+1 4 11 2 0   :  approve DeskToken burn start stop 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+4 1 2 11 0   :  DeskToken approve start burn stop 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+4 1 2 0 11   :  DeskToken approve start stop burn 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+4 1 11 2 0   :  DeskToken approve burn start stop 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+4 11 1 2 0   :  DeskToken burn approve start stop 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+4 2 1 0 11   :  DeskToken start approve stop burn 
+------------------------------------------------------------
+4 11 1 0 2   :  DeskToken burn approve stop start 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+4 11 2 1 0   :  DeskToken burn start approve stop 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+1 4 11 2 0   :  approve DeskToken burn start stop 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+4 1 2 11 0   :  DeskToken approve start burn stop 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+4 1 2 0 11   :  DeskToken approve start stop burn 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+4 1 11 2 0   :  DeskToken approve burn start stop 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+4 11 1 2 0   :  DeskToken burn approve start stop 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+4 2 1 0 11   :  DeskToken start approve stop burn 
+------------------------------------------------------------
+4 0 11 2 1   :  DeskToken stop burn start approve 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+4 11 2 1 0   :  DeskToken burn start approve stop 
+4 0 2 1 11   :  DeskToken stop start approve burn 
+------------------------------------------------------------
+4 11 2 1 0   :  DeskToken burn start approve stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 11 2 1 0   :  DeskToken burn start approve stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 11 2 1 0   :  DeskToken burn start approve stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 11 2 1 0   :  DeskToken burn start approve stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 11 2 1 0   :  DeskToken burn start approve stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+1 4 11 2 0   :  approve DeskToken burn start stop 
+4 0 2 1 11   :  DeskToken stop start approve burn 
+------------------------------------------------------------
+1 4 11 2 0   :  approve DeskToken burn start stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+1 4 11 2 0   :  approve DeskToken burn start stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+1 4 11 2 0   :  approve DeskToken burn start stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+1 4 11 2 0   :  approve DeskToken burn start stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+1 4 11 2 0   :  approve DeskToken burn start stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 1 2 11 0   :  DeskToken approve start burn stop 
+4 0 2 1 11   :  DeskToken stop start approve burn 
+------------------------------------------------------------
+4 1 2 11 0   :  DeskToken approve start burn stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 1 2 11 0   :  DeskToken approve start burn stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 1 2 11 0   :  DeskToken approve start burn stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 1 2 11 0   :  DeskToken approve start burn stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 1 2 11 0   :  DeskToken approve start burn stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 0 2 1 11   :  DeskToken stop start approve burn 
+4 1 2 0 11   :  DeskToken approve start stop burn 
+------------------------------------------------------------
+4 0 2 1 11   :  DeskToken stop start approve burn 
+4 1 11 2 0   :  DeskToken approve burn start stop 
+------------------------------------------------------------
+4 0 2 1 11   :  DeskToken stop start approve burn 
+4 11 1 2 0   :  DeskToken burn approve start stop 
+------------------------------------------------------------
+4 0 2 1 11   :  DeskToken stop start approve burn 
+4 2 1 0 11   :  DeskToken start approve stop burn 
+------------------------------------------------------------
+4 0 2 1 11   :  DeskToken stop start approve burn 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+4 1 2 0 11   :  DeskToken approve start stop burn 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 1 2 0 11   :  DeskToken approve start stop burn 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 1 2 0 11   :  DeskToken approve start stop burn 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 1 2 0 11   :  DeskToken approve start stop burn 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 1 2 0 11   :  DeskToken approve start stop burn 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 1 11 2 0   :  DeskToken approve burn start stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 1 11 2 0   :  DeskToken approve burn start stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 1 11 2 0   :  DeskToken approve burn start stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 1 11 2 0   :  DeskToken approve burn start stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 1 11 2 0   :  DeskToken approve burn start stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 11 1 2 0   :  DeskToken burn approve start stop 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 11 1 2 0   :  DeskToken burn approve start stop 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 11 1 2 0   :  DeskToken burn approve start stop 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 11 1 2 0   :  DeskToken burn approve start stop 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 11 1 2 0   :  DeskToken burn approve start stop 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+4 2 1 0 11   :  DeskToken start approve stop burn 
+1 4 0 2 11   :  approve DeskToken stop start burn 
+------------------------------------------------------------
+4 2 1 0 11   :  DeskToken start approve stop burn 
+1 4 0 11 2   :  approve DeskToken stop burn start 
+------------------------------------------------------------
+4 2 1 0 11   :  DeskToken start approve stop burn 
+4 1 0 11 2   :  DeskToken approve stop burn start 
+------------------------------------------------------------
+4 2 1 0 11   :  DeskToken start approve stop burn 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+4 2 1 0 11   :  DeskToken start approve stop burn 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------
+1 4 0 2 11   :  approve DeskToken stop start burn 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+1 4 0 11 2   :  approve DeskToken stop burn start 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+4 1 0 11 2   :  DeskToken approve stop burn start 
+1 4 2 0 11   :  approve DeskToken start stop burn 
+------------------------------------------------------------
+1 4 2 0 11   :  approve DeskToken start stop burn 
+4 11 0 2 1   :  DeskToken burn stop start approve 
+------------------------------------------------------------
+1 4 2 0 11   :  approve DeskToken start stop burn 
+4 1 11 0 2   :  DeskToken approve burn stop start 
+------------------------------------------------------------

@@ -1,0 +1,39 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "EtherTool",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "52f9f121da668c6483327ad1901b5a33",
+    "fp_sol": "b1a122f7e0f55faa95ffffc716a4ea7a",
+    "fp_sol2": "6a3e791d93ddaf6533021012d5f581e8",
+    "id": "EtherTool-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/EtherTool.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/EtherTool.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0x3730117f77ac04eec364bf72a656010fa4703d76",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/PassDao.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "PassDao",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/PassDao.sol"
+    },
+    "fp_bytecode": "2ac48df5c55b13687dedf5c23096ed46",
+    "fp_runtime": "3d4f36a3b4216f45ab5c52c85d771543",
+    "fp_sol": "13ad1dbd6f3646ec41535cd1dc3bc01f",
+    "fp_sol2": "98de7bd75d1f52f0ecc5c9deea6056d5",
+    "id": "PassDao-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

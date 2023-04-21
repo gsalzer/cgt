@@ -1,0 +1,39 @@
+{
+    "addr": "0x85f1752fcaf37c45aa77d677e54e94f533c49874",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_CoinCrowdICO.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Ambassador",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "67ed06cf7f8e17f310c66481b46b416b",
+    "fp_runtime": "a3f4b3f58fcf00010951076fd1925f99",
+    "fp_sol": "af09bbd76f52399f5a770684f8037795",
+    "fp_sol2": "4050aa981421bce366fb796ff931dd02",
+    "id": "CoinCrowdICO-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CoinCrowdICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

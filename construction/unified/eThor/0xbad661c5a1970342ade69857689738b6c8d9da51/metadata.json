@@ -1,0 +1,37 @@
+{
+    "addr": "0xbad661c5a1970342ade69857689738b6c8d9da51",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": true,
+    "contractname": "AddressReg",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "fb0118301087550c688aab07ebcffbfa",
+    "fp_runtime": "56acaf209f1d327cc59ad07abaf1e152",
+    "fp_sol": "99bf576e55920cc6f06fabad5b1ddeb8",
+    "fp_sol2": "99bf576e55920cc6f06fabad5b1ddeb8",
+    "id": "0xbad661c5a1970342ade69857689738b6c8d9da51",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

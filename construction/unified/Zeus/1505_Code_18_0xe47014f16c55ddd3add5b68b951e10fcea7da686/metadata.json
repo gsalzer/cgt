@@ -1,0 +1,60 @@
+{
+    "addr": "0xe47014f16c55ddd3add5b68b951e10fcea7da686",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "BlocklabTokenV1",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c5c212c499bf18aea9eabab02ef9cd2d",
+    "fp_runtime": "ac4144b6fd8a25fde5e3de3a0a7cd37a",
+    "fp_sol": "a59f8a1c156d3208c10523b405773f2a",
+    "fp_sol2": "3602592cdab1c2f3dcb32cb26a0a67b4",
+    "id": "1505_Code_18_0xe47014f16c55ddd3add5b68b951e10fcea7da686",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

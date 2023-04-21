@@ -1,0 +1,51 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': 0, 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'fallback', 'tx_input': '11111111'}
+1 : {'tx_timestamp': '593f3184', 'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'performPayouts', 'tx_input': 'f0ba96ff'}
+2 : {'tx_value': 0, 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'Make_Deposit', 'tx_input': '2f5c3102'}
+--------------------------------------------------------------------------------
+
+Full traces: 14
+--------------------------------------------------------------------------------
+0 1   :  fallback performPayouts 
+1 0   :  performPayouts fallback 
+------------------------------------------------------------
+1 2   :  performPayouts Make_Deposit 
+2 1   :  Make_Deposit performPayouts 
+------------------------------------------------------------
+2 1 0   :  Make_Deposit performPayouts fallback 
+1 0 2   :  performPayouts fallback Make_Deposit 
+------------------------------------------------------------
+2 1 0   :  Make_Deposit performPayouts fallback 
+2 0 1   :  Make_Deposit fallback performPayouts 
+------------------------------------------------------------
+2 1 0   :  Make_Deposit performPayouts fallback 
+0 2 1   :  fallback Make_Deposit performPayouts 
+------------------------------------------------------------
+2 1 0   :  Make_Deposit performPayouts fallback 
+1 2 0   :  performPayouts Make_Deposit fallback 
+------------------------------------------------------------
+0 1 2   :  fallback performPayouts Make_Deposit 
+1 0 2   :  performPayouts fallback Make_Deposit 
+------------------------------------------------------------
+0 1 2   :  fallback performPayouts Make_Deposit 
+2 0 1   :  Make_Deposit fallback performPayouts 
+------------------------------------------------------------
+0 1 2   :  fallback performPayouts Make_Deposit 
+0 2 1   :  fallback Make_Deposit performPayouts 
+------------------------------------------------------------
+0 1 2   :  fallback performPayouts Make_Deposit 
+1 2 0   :  performPayouts Make_Deposit fallback 
+------------------------------------------------------------
+1 0 2   :  performPayouts fallback Make_Deposit 
+2 0 1   :  Make_Deposit fallback performPayouts 
+------------------------------------------------------------
+1 0 2   :  performPayouts fallback Make_Deposit 
+0 2 1   :  fallback Make_Deposit performPayouts 
+------------------------------------------------------------
+2 0 1   :  Make_Deposit fallback performPayouts 
+1 2 0   :  performPayouts Make_Deposit fallback 
+------------------------------------------------------------
+0 2 1   :  fallback Make_Deposit performPayouts 
+1 2 0   :  performPayouts Make_Deposit fallback 
+------------------------------------------------------------

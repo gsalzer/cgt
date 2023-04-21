@@ -1,0 +1,37 @@
+{
+    "addr": "0x293a7b4e8ad029ee50e52081b10df266fb1cb99d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TUStoken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "TUStoken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1d3ebf49db9966a60c08170f5fda9ce4",
+    "fp_runtime": "2c4b9982e6bb67a0a2851937933e0cde",
+    "fp_sol": "b9073f4201d57b8ce19b4c7914565fd2",
+    "fp_sol2": "6a04c68a4df9862def8aa8595cabce9c",
+    "id": "TUStoken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TUStoken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

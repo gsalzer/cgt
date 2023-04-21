@@ -1,0 +1,37 @@
+{
+    "addr": "0x5b5afaa565aba14833de0cee321e63a807fd407b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TulipMania.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "TulipMania",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "5146b6045c0969058b1a28ef6331c026",
+    "fp_runtime": "1b9b35951d097592bddc68f80c6cda14",
+    "fp_sol": "9016e301e22705ec7e7cf14ec427ee70",
+    "fp_sol2": "8ec99526b8205cfb874c82ede7213062",
+    "id": "TulipMania-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TulipMania.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

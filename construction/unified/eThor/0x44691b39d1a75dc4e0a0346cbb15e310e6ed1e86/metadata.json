@@ -1,0 +1,37 @@
+{
+    "addr": "0x44691b39d1a75dc4e0a0346cbb15e310e6ed1e86",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "SignatureReg",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b4c7e61153bf7ba64fd729105e930b79",
+    "fp_runtime": "0cc4c592b92092b1742fdde65b9780f1",
+    "fp_sol": "6e15a796e67f49d461c272a239b2f8c1",
+    "fp_sol2": "407bb9c58d28010ead90802399c75282",
+    "id": "0x44691b39d1a75dc4e0a0346cbb15e310e6ed1e86",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

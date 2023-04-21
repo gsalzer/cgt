@@ -1,0 +1,37 @@
+{
+    "addr": "0x3cfd32fc860c7458be0dd597ea995b425662d3e9",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "MultiSigWallet",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "a395a74a4a1b0fbe2a164d1ea401bced",
+    "fp_runtime": "621466cffc03471ab96ea4fb9083ed74",
+    "fp_sol": "d4f8b6e3e2f15960352277a3ed19324b",
+    "fp_sol2": "d4f8b6e3e2f15960352277a3ed19324b",
+    "id": "0x3cfd32fc860c7458be0dd597ea995b425662d3e9-MultiSigWallet-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test970.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

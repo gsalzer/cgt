@@ -1,0 +1,38 @@
+{
+    "addr": "0xb7f8065814b6026af33d0c5e527d0cdb4438661b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.22-nightly.2018.3.8+commit.fbc29f6d",
+    "compiler_orig": false,
+    "contractname": "GGPCToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "4c5e35eb180358d44952fc59a59b790a",
+    "fp_runtime": "c933f3e440272d0674ab16c97235f00a",
+    "fp_sol": "d7b981269323b03288945b843c48d68a",
+    "fp_sol2": "7deb6d8f2f8bda28e90b9d36b07f1e3e",
+    "id": "GGPCToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_GGPCToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_GGPCToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

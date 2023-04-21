@@ -1,0 +1,31 @@
+Minimal found traces: 10 
+--------------------------------------------------------------------------------
+['Revoce', 'SetPass']
+['SetPass', 'Revoce']
+--------------------------------------------------------------------------------
+['SetPass', 'Revoce', 'PassHasBeenSet']
+['PassHasBeenSet', 'Revoce', 'SetPass']
+--------------------------------------------------------------------------------
+['SetPass', 'Revoce', 'PassHasBeenSet']
+['Revoce', 'PassHasBeenSet', 'SetPass']
+--------------------------------------------------------------------------------
+['SetPass', 'Revoce', 'PassHasBeenSet']
+['Revoce', 'SetPass', 'PassHasBeenSet']
+--------------------------------------------------------------------------------
+['PassHasBeenSet', 'Revoce', 'SetPass']
+['SetPass', 'PassHasBeenSet', 'Revoce']
+--------------------------------------------------------------------------------
+['PassHasBeenSet', 'Revoce', 'SetPass']
+['PassHasBeenSet', 'SetPass', 'Revoce']
+--------------------------------------------------------------------------------
+['Revoce', 'PassHasBeenSet', 'SetPass']
+['SetPass', 'PassHasBeenSet', 'Revoce']
+--------------------------------------------------------------------------------
+['Revoce', 'PassHasBeenSet', 'SetPass']
+['PassHasBeenSet', 'SetPass', 'Revoce']
+--------------------------------------------------------------------------------
+['SetPass', 'PassHasBeenSet', 'Revoce']
+['Revoce', 'SetPass', 'PassHasBeenSet']
+--------------------------------------------------------------------------------
+['PassHasBeenSet', 'SetPass', 'Revoce']
+['Revoce', 'SetPass', 'PassHasBeenSet']

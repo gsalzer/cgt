@@ -1,0 +1,29 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '7461ccf1fd55c069ce13e07d163c65c78c8b48d1', 'name': 'removeAdmin', 'tx_input': '1785f53c0000000000000000000000001111111111111111111111111111111111111111'}
+1 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'waterTree', 'tx_input': '998b723b0000000000000000000000001111111111111111111111111111111111111111'}
+2 : {'tx_caller': '7461ccf1fd55c069ce13e07d163c65c78c8b48d1', 'name': 'addAdmin', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '704802750000000000000000000000001111111111111111111111111111111111111111'}
+3 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'generateTrees', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'c4ad32be0000000000000000000000000000000000000000000000000000000000000001'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'generateTrees', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'c4ad32be0000000000000000000000000000000000000000000000000000000000000003'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'putTreeOnSale', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79f3b4810000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'cancelTreeSell', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9b3510870000000000000000000000001111111111111111111111111111111111111111'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'putTreeOnSale', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79f3b4810000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'cancelTreeSell', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9b3510870000000000000000000000002222222222222222222222222222222222222222'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'putTreeOnSale', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79f3b4810000000000000000000000007461ccf1fd55c069ce13e07d163c65c78c8b48d1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'cancelTreeSell', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9b3510870000000000000000000000007461ccf1fd55c069ce13e07d163c65c78c8b48d1'}
+11 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'buyTree', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '2ab28ce400000000000000000000000011111111111111111111111111111111111111110000000000000000000000001111111111111111111111111111111111111111'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'buyTree', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '2ab28ce400000000000000000000000011111111111111111111111111111111111111110000000000000000000000002222222222222222222222222222222222222222'}
+13 : {'tx_caller': '7461ccf1fd55c069ce13e07d163c65c78c8b48d1', 'name': 'buyTree', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '2ab28ce400000000000000000000000011111111111111111111111111111111111111110000000000000000000000007461ccf1fd55c069ce13e07d163c65c78c8b48d1'}
+--------------------------------------------------------------------------------
+
+Full traces: 3
+--------------------------------------------------------------------------------
+2 0   :  addAdmin removeAdmin 
+0 2   :  removeAdmin addAdmin 
+------------------------------------------------------------
+0 2 3   :  removeAdmin addAdmin generateTrees 
+2 3 0   :  addAdmin generateTrees removeAdmin 
+------------------------------------------------------------
+0 2 3 4   :  removeAdmin addAdmin generateTrees generateTrees 
+2 3 4 0   :  addAdmin generateTrees generateTrees removeAdmin 
+------------------------------------------------------------

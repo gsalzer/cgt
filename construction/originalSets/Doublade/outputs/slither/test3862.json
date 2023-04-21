@@ -1,0 +1,124 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "batchTransfer.distribute has external calls inside a loop: \"myAddresses[i].transfer(distr)\" (reorder_contracts_2_3/test3862.sol#73)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "myAddresses[i].transfer(distr)",
+            "source_mapping": {
+              "start": 1860,
+              "length": 30,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3862.sol",
+              "filename_relative": "reorder_contracts_2_3/test3862.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3862.sol",
+              "filename_short": "reorder_contracts_2_3/test3862.sol",
+              "lines": [
+                73
+              ],
+              "starting_column": 21,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "distribute",
+                "source_mapping": {
+                  "start": 1370,
+                  "length": 744,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3862.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3862.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3862.sol",
+                  "filename_short": "reorder_contracts_2_3/test3862.sol",
+                  "lines": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "batchTransfer",
+                    "source_mapping": {
+                      "start": 1189,
+                      "length": 928,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3862.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3862.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3862.sol",
+                      "filename_short": "reorder_contracts_2_3/test3862.sol",
+                      "lines": [
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "distribute(address[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+    "addr": "0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aef",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            true
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            false
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            false
+        ],
+        [
+            "Missing Interrupter",
+            false
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "LVRCrowdsale",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aef",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "aebd3537815212fe52590bbf9ca82e87",
+    "fp_runtime": "0a24d24458107bd94466f01ed1923f8b",
+    "fp_sol": "c0103edee5c2f2f0d148e0030100a67e",
+    "fp_sol2": "1ba1f1cf6ee47711a829caca2baf300e",
+    "id": "0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aef",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

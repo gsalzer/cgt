@@ -1,0 +1,38 @@
+{
+    "addr": "0x5e7a9b977df27b80dfcb1bf015909d3a812d0556",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19-nightly.2017.11.11+commit.284c3839",
+    "compiler_orig": false,
+    "contractname": "DeveryFUND",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "4ab708178632714c98839bee327e1c41",
+    "fp_runtime": "7c85c8400ed90ff4a36ce4a1395b2873",
+    "fp_sol": "553e36a737b05e3a38d005c34c9f1c51",
+    "fp_sol2": "271775d840a9f2b56c441eebdfd00f23",
+    "id": "DeveryFUND-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_DeveryFUND.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DeveryFUND.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x438301bbb5941f2d6c6db74ee90474cad8692087",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "CryptoThingWithDescendants",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "4895bf7b04149b384c2840ecf6d621c0",
+    "fp_runtime": "9818f7c35bcd069c61a3f7c2c7a14432",
+    "fp_sol": "10a0fa3d293d39d19f99449399c2cd13",
+    "fp_sol2": "d9700d7b493a9bec24525e10596518d0",
+    "id": "0x438301bbb5941f2d6c6db74ee90474cad8692087-CryptoThingWithDescendants-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1067.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

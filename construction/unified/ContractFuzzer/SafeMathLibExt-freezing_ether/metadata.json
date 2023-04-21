@@ -1,0 +1,38 @@
+{
+    "addr": "0x0e817b59e61cf9fd2ee74efd899b135ac15771d6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/SafeMathLibExt.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "SafeMathLibExt",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/freezing_ether/verified_contract_sols/SafeMathLibExt.sol"
+    },
+    "fp_bytecode": "fdf356983e8a6e97045718374124e87b",
+    "fp_runtime": "0e8aa7f837d6b45caed2149acdb171e1",
+    "fp_sol": "b0c49ea327f723906b8eb12011337300",
+    "fp_sol2": "19a800b907d5051da041bd09be9cf046",
+    "id": "SafeMathLibExt-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

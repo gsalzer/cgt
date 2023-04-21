@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ERH",
+            "StandardToken",
+            "Token"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "0d056dcd0efe8aa61e812d82d5a273f7",
+    "fp_sol": "ba8ba143d173828ce237b624ba9e964a",
+    "fp_sol2": "e25887a24221c8d2379af6764a105479",
+    "id": "ERH-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/ERH.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/ERH.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,43 @@
+{
+    "addr": "0x96fe4328429a14b9cb0872a6337d6f8422d422a6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "honeypot",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "Lottesy10eth",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x96fe4328429a14b9cb0872a6337d6f8422d422a6",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "616cb1816dd1448df359350cde6b4f12",
+    "fp_runtime": "bd9a7ebc3a03a9b4632e0e6e22a22327",
+    "fp_sol": "16d93ccd85ebf14f100e72868501fed2",
+    "fp_sol2": "6701df874bb91e4954e7d7575bebe0d0",
+    "id": "0x96fe4328429a14b9cb0872a6337d6f8422d422a6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

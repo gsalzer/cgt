@@ -1,0 +1,37 @@
+{
+    "addr": "0x24a7de87b3bd7298bbf8966fdf170c558d69ecc4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "METADOLLAR",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "ddccefff392a45ccff9c3c598eb824c0",
+    "fp_runtime": "aec9f532dd1530e928ae152a3a2a13e7",
+    "fp_sol": "ce073ec2e068cc214160b2f5195c92f8",
+    "fp_sol2": "3c73badd7a7c4f2afe1315b02cf4c3b1",
+    "id": "0x24a7de87b3bd7298bbf8966fdf170c558d69ecc4-METADOLLAR-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test568.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

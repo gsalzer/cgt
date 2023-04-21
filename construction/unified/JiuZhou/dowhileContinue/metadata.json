@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "continue in do-while",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "doWhileContinue",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            26
+        ],
+        "BugName": "Continue in do-while",
+        "BugReason": "Prior to Solidity version 0.5.0, executing a continue statement in a do-while statement would cause the conditional judgment to be skipped once, which in some cases would result in a loss (eg, an infinite loop).",
+        "ContractSource": "Jiuzhou"
+    },
+    "fp_bytecode": "778af1a34d4caf0eb6b57e94fd2fb1ce",
+    "fp_runtime": "2fb67d54d09c84ee7294411b9abf0a29",
+    "fp_sol": "f0765707dffab55d365be3234f36686e",
+    "fp_sol2": "3575086be222c9ba8f47a3bff51bed11",
+    "id": "dowhileContinue",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/dowhileContinue.sol"
+    ],
+    "sol_orig": true
+}

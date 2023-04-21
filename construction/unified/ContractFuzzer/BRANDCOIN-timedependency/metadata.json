@@ -1,0 +1,37 @@
+{
+    "addr": "0xe73dc97b050e3b7afa5aea0b0ba192712162899b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BRANDCOIN.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "BRANDCOIN",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f410bf14f78b1c4fe75171168b0e9255",
+    "fp_runtime": "77d6978eef7ed3f43947edc1db530595",
+    "fp_sol": "d09506a32b5b02639cedfad23dd77dfa",
+    "fp_sol2": "9156f12255ccba5ab3ae5ab9e20bb754",
+    "id": "BRANDCOIN-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BRANDCOIN.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

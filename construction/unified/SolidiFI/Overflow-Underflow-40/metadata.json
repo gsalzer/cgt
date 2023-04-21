@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "SimpleSwapCoin",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d1c6de0bd6af24c7bbc8deb35ec64f71",
+    "fp_sol2": "73240d84ac40bbb4b4aec02dd0a7c9c2",
+    "id": "Overflow-Underflow-40",
+    "info": [
+        "info/BugLog_40.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_40.sol"
+    ],
+    "sol_orig": true
+}

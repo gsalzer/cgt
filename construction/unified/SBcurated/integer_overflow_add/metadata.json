@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "arithmetic",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "IntegerOverflowAdd",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite/blob/master/benchmarks/integer_overflow_add.sol"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "a2604245d40ab6790ec47c8a3bc062d7",
+    "fp_sol2": "3308ddb32b61dc25190ba29a34ce5962",
+    "id": "integer_overflow_add",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/integer_overflow_add.sol"
+    ],
+    "sol_orig": true
+}

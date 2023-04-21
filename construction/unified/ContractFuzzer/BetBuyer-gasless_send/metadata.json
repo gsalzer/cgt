@@ -1,0 +1,38 @@
+{
+    "addr": "0xd3e55b1c1da60e7e995e70d85c847c975fed5d37",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BetBuyer.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "BetBuyer",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/BetBuyer.sol"
+    },
+    "fp_bytecode": "77b2d5dce2cdd9b51a8a9f381881b077",
+    "fp_runtime": "0e14901c6689432ddb54ec6ace8c9448",
+    "fp_sol": "223f15405fd0de3af7930a3a3e831efe",
+    "fp_sol2": "db2185e42ebf09580f013e0ee9e67a87",
+    "id": "BetBuyer-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

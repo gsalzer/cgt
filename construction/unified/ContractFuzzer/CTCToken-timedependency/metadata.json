@@ -1,0 +1,37 @@
+{
+    "addr": "0x074d894cc81539853b77ed0f5cb5058a740010c3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CTCToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "CTCToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "18b0a2c78834dc1608cec3333dfa955c",
+    "fp_runtime": "7ad5f076cbb2257a4bc5862f901ad190",
+    "fp_sol": "18749a29f44c5961f01a56641548d8ff",
+    "fp_sol2": "5b81308ec8baba79326dad40674eae6c",
+    "id": "CTCToken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CTCToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0x8ead30dd1b8f516bcd54b534a79c86f156f47da6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "ConfToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "45e08fc9a88a43826888c5e1bd90d28c",
+    "fp_runtime": "507619b25c2af3be2cda6f3db667d9a4",
+    "fp_sol": "41966f478574e8ae5b828590377cee74",
+    "fp_sol2": "65204f579872734f72ea9c8135d7e101",
+    "id": "ConfToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_ConfToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ConfToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

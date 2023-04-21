@@ -1,0 +1,48 @@
+{
+    "addr": "0x9f8bf604abeb04d32b0ffae9c3a083be5858cf96",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-03-31-c67926c",
+    "compiler_orig": false,
+    "contractname": "GameOfThrones",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "be5297205fe6de5385fd438eae2e3bc6",
+    "fp_runtime": "83faa0e75ef3d501bc83fc559135c68e",
+    "fp_sol": "8c660b98a1c85d47b834849eda14d3a8",
+    "fp_sol2": "8c660b98a1c85d47b834849eda14d3a8",
+    "id": "0864_Code_36_0x9F8Bf604AbeB04D32B0FFAE9c3A083be5858CF96",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

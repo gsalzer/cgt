@@ -1,0 +1,41 @@
+{
+    "addr": "0x041d26dcceda7fd82898cd7dce0ae7da6031ee51",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_SimpleAuction.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.14-nightly.2017.7.31+commit.22326189",
+    "compiler_orig": false,
+    "contractname": "SimpleAuction",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/SimpleAuction.sol"
+    },
+    "fp_bytecode": "46fb87a5e85b4fc68d30e78906fead2b",
+    "fp_runtime": "97aa6505d9439534bf9157112d023d64",
+    "fp_sol": "9531ef97f59019c62d2348001e458830",
+    "fp_sol2": "15470f88b57f12de98345afd09bb2dfe",
+    "id": "SimpleAuction-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SimpleAuction.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

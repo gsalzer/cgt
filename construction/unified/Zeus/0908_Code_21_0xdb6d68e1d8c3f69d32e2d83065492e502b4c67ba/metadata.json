@@ -1,0 +1,60 @@
+{
+    "addr": "0xdb6d68e1d8c3f69d32e2d83065492e502b4c67ba",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": false,
+    "contractname": "ETCSurvey",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "18338f193fb74406a957bc872271ceed",
+    "fp_runtime": "b1c0f0dec3dd94008491b16cd4531e52",
+    "fp_sol": "b07343205c5a20fea1f03a63d2cb2d85",
+    "fp_sol2": "b07343205c5a20fea1f03a63d2cb2d85",
+    "id": "0908_Code_21_0xdb6d68e1d8c3f69d32e2d83065492e502b4c67ba",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

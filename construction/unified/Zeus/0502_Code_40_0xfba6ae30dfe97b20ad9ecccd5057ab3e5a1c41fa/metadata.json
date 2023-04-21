@@ -1,0 +1,60 @@
+{
+    "addr": "0xfba6ae30dfe97b20ad9ecccd5057ab3e5a1c41fa",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": false,
+    "contractname": "NiceGuyTax",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "a6bb8d9444dfb68f45f0f73656d89aa8",
+    "fp_runtime": "53bd3be0a403c0e23ebfa343b88fc41f",
+    "fp_sol": "bbc1345212ec699ebe601c0221b070ef",
+    "fp_sol2": "bbc1345212ec699ebe601c0221b070ef",
+    "id": "0502_Code_40_0xfba6ae30dfe97b20ad9ecccd5057ab3e5a1c41fa",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

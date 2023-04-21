@@ -1,0 +1,775 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getPrices has external calls inside a loop: \"i < moneyMarket.getCollateralMarketsLength()\" (reorder_contracts_2_3/test318.sol#65-67)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < moneyMarket.getCollateralMarketsLength()",
+            "source_mapping": {
+              "start": 3504,
+              "length": 168,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                65,
+                66,
+                67
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getPrices",
+                "source_mapping": {
+                  "start": 3289,
+                  "length": 419,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getPrices()"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getPrices has external calls inside a loop: \"tokenPrices.push(moneyMarket.assetPrices(moneyMarket.collateralMarkets(i)))\" (reorder_contracts_2_3/test318.sol#66)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenPrices.push(moneyMarket.assetPrices(moneyMarket.collateralMarkets(i)))",
+            "source_mapping": {
+              "start": 3585,
+              "length": 75,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                66
+              ],
+              "starting_column": 13,
+              "ending_column": 88
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getPrices",
+                "source_mapping": {
+                  "start": 3289,
+                  "length": 419,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getPrices()"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getTokenHolding has external calls inside a loop: \"i < moneyMarket.getCollateralMarketsLength()\" (reorder_contracts_2_3/test318.sol#74-76)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < moneyMarket.getCollateralMarketsLength()",
+            "source_mapping": {
+              "start": 3959,
+              "length": 179,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                74,
+                75,
+                76
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokenHolding",
+                "source_mapping": {
+                  "start": 3716,
+                  "length": 459,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokenHolding(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getTokenHolding has external calls inside a loop: \"tokenHolding.push(EIP20Interface(moneyMarket.collateralMarkets(i)).balanceOf(account))\" (reorder_contracts_2_3/test318.sol#75)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenHolding.push(EIP20Interface(moneyMarket.collateralMarkets(i)).balanceOf(account))",
+            "source_mapping": {
+              "start": 4040,
+              "length": 86,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                75
+              ],
+              "starting_column": 13,
+              "ending_column": 99
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokenHolding",
+                "source_mapping": {
+                  "start": 3716,
+                  "length": 459,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokenHolding(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getBalances has external calls inside a loop: \"i < moneyMarket.getCollateralMarketsLength()\" (reorder_contracts_2_3/test318.sol#84-87)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < moneyMarket.getCollateralMarketsLength()",
+            "source_mapping": {
+              "start": 4485,
+              "length": 290,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                84,
+                85,
+                86,
+                87
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getBalances",
+                "source_mapping": {
+                  "start": 4183,
+                  "length": 840,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getBalances(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getBalances has external calls inside a loop: \"supplyBalances.push(moneyMarket.getSupplyBalance(account,moneyMarket.collateralMarkets(i)))\" (reorder_contracts_2_3/test318.sol#85)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "supplyBalances.push(moneyMarket.getSupplyBalance(account,moneyMarket.collateralMarkets(i)))",
+            "source_mapping": {
+              "start": 4564,
+              "length": 92,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                85
+              ],
+              "starting_column": 13,
+              "ending_column": 105
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getBalances",
+                "source_mapping": {
+                  "start": 4183,
+                  "length": 840,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getBalances(address)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CompoundReader.getBalances has external calls inside a loop: \"borrowBalances.push(moneyMarket.getBorrowBalance(account,moneyMarket.collateralMarkets(i)))\" (reorder_contracts_2_3/test318.sol#86)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "borrowBalances.push(moneyMarket.getBorrowBalance(account,moneyMarket.collateralMarkets(i)))",
+            "source_mapping": {
+              "start": 4671,
+              "length": 92,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_relative": "reorder_contracts_2_3/test318.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+              "filename_short": "reorder_contracts_2_3/test318.sol",
+              "lines": [
+                86
+              ],
+              "starting_column": 13,
+              "ending_column": 105
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getBalances",
+                "source_mapping": {
+                  "start": 4183,
+                  "length": 840,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_relative": "reorder_contracts_2_3/test318.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                  "filename_short": "reorder_contracts_2_3/test318.sol",
+                  "lines": [
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CompoundReader",
+                    "source_mapping": {
+                      "start": 3256,
+                      "length": 1772,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_relative": "reorder_contracts_2_3/test318.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test318.sol",
+                      "filename_short": "reorder_contracts_2_3/test318.sol",
+                      "lines": [
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getBalances(address)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

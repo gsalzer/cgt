@@ -1,0 +1,2 @@
+{u'source_code/test2733.sol': {u'theCyberClubhouse': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test2733.sol:23:3: Warning: Integer Overflow.\n  function theCyberMessage(string _passphrase) public membersOnly {\r\n  ^\nSpanning multiple lines.\nInteger Overflow occurs if:\n    _passphrase = 115792089237316195423570985008687907853269984665640564039457584007913129639935'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '29.1'}}}
+

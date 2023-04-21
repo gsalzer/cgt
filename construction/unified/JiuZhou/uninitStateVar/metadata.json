@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Uninitialized state variables",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "uninitStateVar",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "ff4047bc95022f547411139f8df638c8",
+    "fp_runtime": "b21844f76c0b29df340a1dbfb4c80530",
+    "fp_sol": "8af84449b0a1b225c9bbc6667028f723",
+    "fp_sol2": "7c590f3620c8452526af06cbbbfc7d2d",
+    "id": "uninitStateVar",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/uninitStateVar.sol"
+    ],
+    "sol_orig": true
+}

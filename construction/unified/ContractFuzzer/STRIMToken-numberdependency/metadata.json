@@ -1,0 +1,37 @@
+{
+    "addr": "0x4d33f3c3de7918c31517dec283d698bf4f17cd60",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/STRIMToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "STRIMToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "458684a566ee189ebbe1733e722a8559",
+    "fp_runtime": "19dd1a2706af8d127bc263cad71f08df",
+    "fp_sol": "95f5ef44672747e24dd94325e31e4f13",
+    "fp_sol2": "d2bb4e3f71728859d4f6d3a99235dcd3",
+    "id": "STRIMToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_STRIMToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

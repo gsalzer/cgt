@@ -1,0 +1,37 @@
+{
+    "addr": "0xe736091fc36f1ad476f5e4e03e4425940822d3ba",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5+commit.5f97274",
+    "compiler_orig": true,
+    "contractname": "SingularDTVFund",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "730d872ffb99cab4409953fca63986b9",
+    "fp_runtime": "adb369ca115a76609d06f2bb024f23aa",
+    "fp_sol": "886d5f79bdb6e8adacafc1cc518304bf",
+    "fp_sol2": "886d5f79bdb6e8adacafc1cc518304bf",
+    "id": "0xe736091fc36f1ad476f5e4e03e4425940822d3ba",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

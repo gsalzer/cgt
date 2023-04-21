@@ -1,0 +1,60 @@
+{
+    "addr": "0x5f5d7147adb6ed31a2ca03ce3defb070a3be0ebb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.1+commit.4fc6fc2c",
+    "compiler_orig": false,
+    "contractname": "EtherLovers",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "ee3090104bd3ff77a5fb8f412b59187c",
+    "fp_runtime": "613dce5d8f776431d2cc0de47b9331fc",
+    "fp_sol": "920ec53e51a9724286fc749adc496cfc",
+    "fp_sol2": "b2142e7ea94bc04fcef9256e0aafd1de",
+    "id": "1472_Code_350_0x5f5d7147adb6ed31a2ca03ce3defb070a3be0eb",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

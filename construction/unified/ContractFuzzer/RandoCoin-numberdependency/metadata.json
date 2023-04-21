@@ -1,0 +1,37 @@
+{
+    "addr": "0xe2c78ad6bbbd5bda29b98d47fef86975787cdbc4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/RandoCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "RandoCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e084a3b7fdb7a9cbfd20f4f3ce11d1d6",
+    "fp_runtime": "90398569041b2ab59ca9f5af2182e7d9",
+    "fp_sol": "e2f33f7064c4869718a833179b079db1",
+    "fp_sol2": "0f2c6ed9ee25c66608221ee4aac12756",
+    "id": "RandoCoin-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_RandoCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

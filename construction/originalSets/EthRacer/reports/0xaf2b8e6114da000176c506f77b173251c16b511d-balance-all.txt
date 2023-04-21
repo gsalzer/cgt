@@ -1,0 +1,39 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'buyTokens', 'tx_input': '7975ce2800000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001'}
+1 : {'tx_value': '0', 'tx_caller': '70d6f75468965add1133f9dcbf4550ceb7d5c7d7', 'name': 'withdraw', 'tx_input': '3ccfd60b'}
+2 : {'tx_value': '8ac7230489e80000', 'tx_caller': '70d6f75468965add1133f9dcbf4550ceb7d5c7d7', 'name': 'fallback', 'tx_input': '11111111'}
+--------------------------------------------------------------------------------
+
+Full traces: 10
+--------------------------------------------------------------------------------
+1 2   :  withdraw fallback 
+2 1   :  fallback withdraw 
+------------------------------------------------------------
+2 1 0   :  fallback withdraw buyTokens 
+0 1 2   :  buyTokens withdraw fallback 
+------------------------------------------------------------
+2 1 0   :  fallback withdraw buyTokens 
+1 0 2   :  withdraw buyTokens fallback 
+------------------------------------------------------------
+2 1 0   :  fallback withdraw buyTokens 
+1 2 0   :  withdraw fallback buyTokens 
+------------------------------------------------------------
+0 1 2   :  buyTokens withdraw fallback 
+2 0 1   :  fallback buyTokens withdraw 
+------------------------------------------------------------
+0 1 2   :  buyTokens withdraw fallback 
+0 2 1   :  buyTokens fallback withdraw 
+------------------------------------------------------------
+1 0 2   :  withdraw buyTokens fallback 
+2 0 1   :  fallback buyTokens withdraw 
+------------------------------------------------------------
+1 0 2   :  withdraw buyTokens fallback 
+0 2 1   :  buyTokens fallback withdraw 
+------------------------------------------------------------
+2 0 1   :  fallback buyTokens withdraw 
+1 2 0   :  withdraw fallback buyTokens 
+------------------------------------------------------------
+0 2 1   :  buyTokens fallback withdraw 
+1 2 0   :  withdraw fallback buyTokens 
+------------------------------------------------------------

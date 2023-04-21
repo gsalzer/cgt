@@ -1,0 +1,54 @@
+{
+    "addr": "0x4aac9f93f325035527633e4598c469dea47baa8a",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            true
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "Presale",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "fallback is vulnerable for TOD attack; use block.number to estimate time can cause confusion "
+    },
+    "fp_bytecode": "b72c70d19ecae57533b8e5d5c88edc43",
+    "fp_runtime": "6a881a53116e217542f854de4f22361c",
+    "fp_sol": "104f0bb37ed8235a5567542988a0eef4",
+    "fp_sol2": "733e8d0e333db65a8051dcd253d5bdf1",
+    "id": "0x4aac9f93f325035527633e4598c469dea47baa8a",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

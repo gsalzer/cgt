@@ -1,0 +1,37 @@
+{
+    "addr": "0xe9fcd2ded4a1c35cc84b4504e1d7df609a00ee43",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-136",
+            true
+        ]
+    ],
+    "compiler": "0.5.14+commit.01f1aaa4.Windows.msvc",
+    "compiler_orig": true,
+    "contractname": "OddEven",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "52d7d3ac4ee28ddb8ef151a400dbd003",
+    "fp_runtime": "f20e994975e1d6e6968c040f9206c444",
+    "fp_sol": "f256e776f378c5c2115313380118d8a4",
+    "fp_sol2": "496c165937d816d68acebc1d73f2416e",
+    "id": "odd_even",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_odd_even.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

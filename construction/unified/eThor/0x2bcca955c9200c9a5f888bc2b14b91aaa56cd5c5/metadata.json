@@ -1,0 +1,37 @@
+{
+    "addr": "0x2bcca955c9200c9a5f888bc2b14b91aaa56cd5c5",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-08-08-c3ed550",
+    "compiler_orig": true,
+    "contractname": "Dice",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "9d807fffe599ecae65378f5426852a85",
+    "fp_runtime": "847aa0833ae3ffc2e017f419f88d9923",
+    "fp_sol": "5af153165394eb7917db796aaac9be6f",
+    "fp_sol2": "5af153165394eb7917db796aaac9be6f",
+    "id": "0x2bcca955c9200c9a5f888bc2b14b91aaa56cd5c5",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

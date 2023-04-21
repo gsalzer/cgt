@@ -1,0 +1,24 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'approve', 'tx_input': '095ea7b30000000000000000000000004d7d1205ec7df53963be34691ed810a7131b15930000000000000000000000000000000000000000000000000000000000000001'}
+1 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79ba5097'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000001111111111111111111111111111111111111111'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000004d7d1205ec7df53963be34691ed810a7131b1593'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+6 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000000'}
+9 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+10 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd'}
+11 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000004d7d1205ec7df53963be34691ed810a7131b1593ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+12 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd'}
+13 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+14 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000be04c0ef67be81c4ed3b0f6f72cf6469ae66594900000000000000000000000000000000000000000000000000070de45fc20000'}
+15 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c00000000000000000000000082acbae5a0c4c0ef9f631b7f5dc77448a9416963'}
+16 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000004d7d1205ec7df53963be34691ed810a7131b15930000000000000000000000000000000000000000000000000000000000000000'}
+17 : {'tx_caller': '4d7d1205ec7df53963be34691ed810a7131b1593', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000010000000'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

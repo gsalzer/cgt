@@ -1,0 +1,39 @@
+{
+    "addr": "0x5ace17f87c7391e5792a7683069a8025b83bbd85",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "bad_randomness",
+            true
+        ]
+    ],
+    "compiler": "v0.4.14+commit.c2215d46",
+    "compiler_orig": false,
+    "contractname": "SmartBillions",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://etherscan.io/address/0x5ace17f87c7391e5792a7683069a8025b83bbd85#code"
+    },
+    "fp_bytecode": "8daf5f32484be95ab38ada6207fcb363",
+    "fp_runtime": "9b32c63fd1a1e63c663cbbd53ef5c717",
+    "fp_sol": "01d5174c4f395cefa0658f18d270d976",
+    "fp_sol2": "bf7bd3cdc7a56ee7bb1e327c640d4824",
+    "id": "smart_billions",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_smart_billions.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

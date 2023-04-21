@@ -1,0 +1,60 @@
+{
+    "addr": "0xe0cfa488bb6442d39a4abf844d5876f209f03871",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.4-2016-06-04-602bcd3",
+    "compiler_orig": false,
+    "contractname": "dEthereumlotteryNet",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "6e2c415957574455aa9356901997a653",
+    "fp_runtime": "5b5bc3b78515945c42e5966e05a1cf0e",
+    "fp_sol": "8ec93afa609fb9f50c59a5fe3492c75a",
+    "fp_sol2": "8ec93afa609fb9f50c59a5fe3492c75a",
+    "id": "0877_Code_e0cfa488bb6442d39a4abf844d5876f209f03871",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

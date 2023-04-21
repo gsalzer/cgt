@@ -1,0 +1,37 @@
+{
+    "addr": "0xcb46169ef2e76a41c944b33d1b0842d40898c5ea",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Etheramid.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Etheramid",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "fd8d2c21b300f02ba4f918194cc47c2e",
+    "fp_runtime": "61a15b7b40f253af8a5d2c1c7276d0a1",
+    "fp_sol": "c9eb7e4da50ec23f1e17d1a1ff5d4ac6",
+    "fp_sol2": "6f9a2768b08b3d9e6ce1a402bd20810e",
+    "id": "Etheramid-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Etheramid.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,61 @@
+Minimal found traces: 20 
+--------------------------------------------------------------------------------
+['withdraw', 'setInvestor']
+['setInvestor', 'withdraw']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'transferOwnership']
+['withdraw', 'setInvestor', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'setFailed']
+['withdraw', 'setInvestor', 'setFailed']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'setFailed']
+['setFailed', 'withdraw', 'setInvestor']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'setFailed']
+['withdraw', 'setFailed', 'setInvestor']
+--------------------------------------------------------------------------------
+['withdraw', 'setInvestor', 'setFailed']
+['setFailed', 'setInvestor', 'withdraw']
+--------------------------------------------------------------------------------
+['withdraw', 'setInvestor', 'setFailed']
+['setInvestor', 'setFailed', 'withdraw']
+--------------------------------------------------------------------------------
+['setFailed', 'setInvestor', 'withdraw']
+['setFailed', 'withdraw', 'setInvestor']
+--------------------------------------------------------------------------------
+['setFailed', 'setInvestor', 'withdraw']
+['withdraw', 'setFailed', 'setInvestor']
+--------------------------------------------------------------------------------
+['setFailed', 'withdraw', 'setInvestor']
+['setInvestor', 'setFailed', 'withdraw']
+--------------------------------------------------------------------------------
+['setInvestor', 'setFailed', 'withdraw']
+['withdraw', 'setFailed', 'setInvestor']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'setFailed', 'transferOwnership']
+['withdraw', 'setInvestor', 'setFailed', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'setFailed', 'transferOwnership']
+['withdraw', 'setFailed', 'setInvestor', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setInvestor', 'withdraw', 'setFailed', 'transferOwnership']
+['setFailed', 'withdraw', 'setInvestor', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setFailed', 'setInvestor', 'withdraw', 'transferOwnership']
+['withdraw', 'setInvestor', 'setFailed', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setFailed', 'setInvestor', 'withdraw', 'transferOwnership']
+['withdraw', 'setFailed', 'setInvestor', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setFailed', 'setInvestor', 'withdraw', 'transferOwnership']
+['setFailed', 'withdraw', 'setInvestor', 'transferOwnership']
+--------------------------------------------------------------------------------
+['withdraw', 'setInvestor', 'setFailed', 'transferOwnership']
+['setInvestor', 'setFailed', 'withdraw', 'transferOwnership']
+--------------------------------------------------------------------------------
+['withdraw', 'setFailed', 'setInvestor', 'transferOwnership']
+['setInvestor', 'setFailed', 'withdraw', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setFailed', 'withdraw', 'setInvestor', 'transferOwnership']
+['setInvestor', 'setFailed', 'withdraw', 'transferOwnership']

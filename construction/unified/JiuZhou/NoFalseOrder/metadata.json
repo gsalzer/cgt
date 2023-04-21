@@ -1,0 +1,46 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Incorrect inheritance order",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "note": "Bytecode irrelevant for weakness"
+    },
+    "fp_bytecode": "d7d9693f8cd3e406e32ba1710abbc831",
+    "fp_runtime": "0d23f87e62fc3d3b27595e65caae256e",
+    "fp_sol": "53844e55fbaa3f5af497297a11c3ca29",
+    "fp_sol2": "e8ec10ce32f8c350651870f1b69a34c1",
+    "id": "NoFalseOrder",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoFalseOrder.sol"
+    ],
+    "sol_orig": true
+}

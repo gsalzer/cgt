@@ -1,0 +1,77 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000008000000000000000000000000000000000000000'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setInvestor', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '773041ce'}
+2 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000800000'}
+3 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'setInvestor', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '773041ce'}
+4 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+5 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'setFailed', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '146901db'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'withdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3ccfd60b'}
+7 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000040000000000000'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setFailed', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '146901db'}
+9 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000040000000000000000000000000000000'}
+10 : {'tx_caller': '316bb5df2be73fe6d9ef8c801829b2f1e02f0160', 'name': 'withdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3ccfd60b'}
+--------------------------------------------------------------------------------
+
+Full traces: 20
+--------------------------------------------------------------------------------
+3 10   :  setInvestor withdraw 
+10 3   :  withdraw setInvestor 
+------------------------------------------------------------
+3 10 0   :  setInvestor withdraw transferOwnership 
+10 3 0   :  withdraw setInvestor transferOwnership 
+------------------------------------------------------------
+3 10 5   :  setInvestor withdraw setFailed 
+10 3 5   :  withdraw setInvestor setFailed 
+------------------------------------------------------------
+3 10 5   :  setInvestor withdraw setFailed 
+10 5 3   :  withdraw setFailed setInvestor 
+------------------------------------------------------------
+3 10 5   :  setInvestor withdraw setFailed 
+5 10 3   :  setFailed withdraw setInvestor 
+------------------------------------------------------------
+5 3 10   :  setFailed setInvestor withdraw 
+10 3 5   :  withdraw setInvestor setFailed 
+------------------------------------------------------------
+5 3 10   :  setFailed setInvestor withdraw 
+10 5 3   :  withdraw setFailed setInvestor 
+------------------------------------------------------------
+5 3 10   :  setFailed setInvestor withdraw 
+5 10 3   :  setFailed withdraw setInvestor 
+------------------------------------------------------------
+3 5 10   :  setInvestor setFailed withdraw 
+10 3 5   :  withdraw setInvestor setFailed 
+------------------------------------------------------------
+3 5 10   :  setInvestor setFailed withdraw 
+10 5 3   :  withdraw setFailed setInvestor 
+------------------------------------------------------------
+3 5 10   :  setInvestor setFailed withdraw 
+5 10 3   :  setFailed withdraw setInvestor 
+------------------------------------------------------------
+10 5 3 0   :  withdraw setFailed setInvestor transferOwnership 
+3 10 5 0   :  setInvestor withdraw setFailed transferOwnership 
+------------------------------------------------------------
+10 5 3 0   :  withdraw setFailed setInvestor transferOwnership 
+3 5 10 0   :  setInvestor setFailed withdraw transferOwnership 
+------------------------------------------------------------
+10 5 3 0   :  withdraw setFailed setInvestor transferOwnership 
+5 3 10 0   :  setFailed setInvestor withdraw transferOwnership 
+------------------------------------------------------------
+5 10 3 0   :  setFailed withdraw setInvestor transferOwnership 
+3 10 5 0   :  setInvestor withdraw setFailed transferOwnership 
+------------------------------------------------------------
+5 10 3 0   :  setFailed withdraw setInvestor transferOwnership 
+3 5 10 0   :  setInvestor setFailed withdraw transferOwnership 
+------------------------------------------------------------
+5 10 3 0   :  setFailed withdraw setInvestor transferOwnership 
+5 3 10 0   :  setFailed setInvestor withdraw transferOwnership 
+------------------------------------------------------------
+3 10 5 0   :  setInvestor withdraw setFailed transferOwnership 
+10 3 5 0   :  withdraw setInvestor setFailed transferOwnership 
+------------------------------------------------------------
+10 3 5 0   :  withdraw setInvestor setFailed transferOwnership 
+3 5 10 0   :  setInvestor setFailed withdraw transferOwnership 
+------------------------------------------------------------
+10 3 5 0   :  withdraw setInvestor setFailed transferOwnership 
+5 3 10 0   :  setFailed setInvestor withdraw transferOwnership 
+------------------------------------------------------------

@@ -1,0 +1,60 @@
+{
+    "addr": "0x9bf233b2f9eea51708c0b345f28fc621f83daa78",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "Crowdsale",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "eb49da2b606ff41842b785aca84e142d",
+    "fp_runtime": "30fc7b0c1e5830e40d463de31c0f9e2d",
+    "fp_sol": "e3c01148d63bfec52aaa64f137e02d6f",
+    "fp_sol2": "c482b564d029540966483fea7da51a1f",
+    "id": "0396_Code_7_0x9bf233b2f9eea51708c0b345f28fc621f83daa78",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

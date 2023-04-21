@@ -1,0 +1,135 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "BatchedPayments.multisend has external calls inside a loop: \"require(bool)(ERC20(_tokenAddr).transfer(dests[i],values[i]))\" (reorder_contracts_2_3/test1171.sol#88)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "require(bool)(ERC20(_tokenAddr).transfer(dests[i],values[i]))",
+            "source_mapping": {
+              "start": 2328,
+              "length": 56,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1171.sol",
+              "filename_relative": "reorder_contracts_2_3/test1171.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1171.sol",
+              "filename_short": "reorder_contracts_2_3/test1171.sol",
+              "lines": [
+                88
+              ],
+              "starting_column": 12,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multisend",
+                "source_mapping": {
+                  "start": 1964,
+                  "length": 533,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1171.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1171.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1171.sol",
+                  "filename_short": "reorder_contracts_2_3/test1171.sol",
+                  "lines": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BatchedPayments",
+                    "source_mapping": {
+                      "start": 1411,
+                      "length": 1095,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1171.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1171.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1171.sol",
+                      "filename_short": "reorder_contracts_2_3/test1171.sol",
+                      "lines": [
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multisend(address,bytes32,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

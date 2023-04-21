@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ArtBlockToken",
+            "ERC20",
+            "Owned",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "8cf2696623d5bdeaef270b3447e991da",
+    "fp_sol": "94580b41000310eecc101b37dc9cf639",
+    "fp_sol2": "c590381c8e3ea6f2011fe0b23c73d04c",
+    "id": "ArtBlockToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/ArtBlockToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/ArtBlockToken.sol"
+    ],
+    "sol_orig": true
+}

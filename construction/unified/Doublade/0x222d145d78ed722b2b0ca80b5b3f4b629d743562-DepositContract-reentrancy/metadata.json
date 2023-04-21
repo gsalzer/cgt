@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "DepositContract",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x222d145d78ed722b2b0ca80b5b3f4b629d743562",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x222d145d78ed722b2b0ca80b5b3f4b629d743562",
+            "main",
+            "DepositMasterContract"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "c75b5b8436f23ee7f9cdbe1e0cf7ed1b",
+    "fp_sol2": "8fe5ec95972d4fb7500a0dc5468f366e",
+    "id": "0x222d145d78ed722b2b0ca80b5b3f4b629d743562-DepositContract-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test527.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

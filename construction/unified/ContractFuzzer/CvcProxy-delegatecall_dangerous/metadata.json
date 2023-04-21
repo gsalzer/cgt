@@ -1,0 +1,38 @@
+{
+    "addr": "0x4b4a7aa3d100676deed616e51a562e77e56b224a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "CvcProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "199b995b12f9c88ecc58a97399b6e8d2",
+    "fp_runtime": "03c497630a6bfe732d7669079fa12cba",
+    "fp_sol": "19774ef629713a9b35f21d32b48ecb37",
+    "fp_sol2": "00a64b78dd588260bc101cd883d12387",
+    "id": "CvcProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_CvcProxy.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_CvcProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

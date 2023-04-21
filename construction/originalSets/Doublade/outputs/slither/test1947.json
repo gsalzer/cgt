@@ -1,0 +1,169 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "CCCRSale.airdrop has external calls inside a loop: \"tokenReward.transfer(arrayAddress[i],arrayAmount[i])\" (reorder_contracts_2_3/test1947.sol#216)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenReward.transfer(arrayAddress[i],arrayAmount[i])",
+            "source_mapping": {
+              "start": 5970,
+              "length": 53,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1947.sol",
+              "filename_relative": "reorder_contracts_2_3/test1947.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1947.sol",
+              "filename_short": "reorder_contracts_2_3/test1947.sol",
+              "lines": [
+                216
+              ],
+              "starting_column": 12,
+              "ending_column": 65
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airdrop",
+                "source_mapping": {
+                  "start": 5641,
+                  "length": 427,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1947.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1947.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1947.sol",
+                  "filename_short": "reorder_contracts_2_3/test1947.sol",
+                  "lines": [
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "CCCRSale",
+                    "source_mapping": {
+                      "start": 2950,
+                      "length": 3123,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1947.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1947.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1947.sol",
+                      "filename_short": "reorder_contracts_2_3/test1947.sol",
+                      "lines": [
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "airdrop(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

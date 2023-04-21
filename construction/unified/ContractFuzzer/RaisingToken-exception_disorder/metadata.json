@@ -1,0 +1,37 @@
+{
+    "addr": "0xda0af93134b0e1325fda263326bb6202f82cfb94",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/RaisingToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "RaisingToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "2dff50fac9bad8965a108e47622a6119",
+    "fp_runtime": "cc672521fbea5eae9d03eab863dbd333",
+    "fp_sol": "fe26ab984b28c3245a9312aba657f5ed",
+    "fp_sol2": "1cd61de43689a5366c0c3966e93c3d4e",
+    "id": "RaisingToken-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_RaisingToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

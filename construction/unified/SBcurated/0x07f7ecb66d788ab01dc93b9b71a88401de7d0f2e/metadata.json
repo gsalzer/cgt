@@ -1,0 +1,39 @@
+{
+    "addr": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "PoCGame",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "2ad80da241aac26ad35bb88dc2d20a72",
+    "fp_runtime": "c8f314b08496ba18116ab0c95dee1568",
+    "fp_sol": "496d4aaf2411621a61975ed7495b426a",
+    "fp_sol2": "6ef18940773949abe37558a43d34ca54",
+    "id": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

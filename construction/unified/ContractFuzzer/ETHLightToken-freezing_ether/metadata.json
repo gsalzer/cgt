@@ -1,0 +1,38 @@
+{
+    "addr": "0x06c299dbd4d53ee82812c15bc4c997a2a998dd9e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "ETHLightToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b91cffe3bff613eea602e9b845a3c72c",
+    "fp_runtime": "cce220387031fe1a42e226c1b1d90036",
+    "fp_sol": "9662c2bde0470506a50d43a6d7fb1937",
+    "fp_sol2": "3540ee0eb133caaad155151a103653d8",
+    "id": "ETHLightToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_ETHLightToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_ETHLightToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

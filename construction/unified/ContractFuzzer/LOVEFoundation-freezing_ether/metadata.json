@@ -1,0 +1,38 @@
+{
+    "addr": "0x8eee81d817c9548615d69c485074b55df487ab95",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "LOVEFoundation",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e629e27c6d97315bcbeabe5f11cc7bbe",
+    "fp_runtime": "2efaffee3f0bec8eebec8ae6eb2b3cd3",
+    "fp_sol": "1b29598c14a80baa9fba38d86be02c17",
+    "fp_sol2": "c32412e438362d3be77a9a2884819161",
+    "id": "LOVEFoundation-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_LOVEFoundation.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LOVEFoundation.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,39 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BurnablePayment",
+            "BurnablePaymentFactory"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "82359f80b0df832e311ae1048c52deb9",
+    "fp_sol": "630db584a83676a1a9bfdbb00380c4c6",
+    "fp_sol2": "2e3645f6e39d57b306746d7f2267a669",
+    "id": "BurnablePaymentFactory-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/BurnablePaymentFactory.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BurnablePaymentFactory.sol"
+    ],
+    "sol_orig": true
+}

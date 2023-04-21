@@ -1,0 +1,60 @@
+{
+    "addr": "0xc70fd22c9821006fb469e4ed14324a991d0296cc",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-02-32f3a65",
+    "compiler_orig": false,
+    "contractname": "KittenRegistry",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "66a5f665614749e43439f8c40730f3ee",
+    "fp_runtime": "b1a0ec8ebbade7852fb7c6537813d0b4",
+    "fp_sol": "7c87059cd0be68164be88f79ca2aa411",
+    "fp_sol2": "7c87059cd0be68164be88f79ca2aa411",
+    "id": "1183_Code_c70fd22c9821006fb469e4ed14324a991d0296cc",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

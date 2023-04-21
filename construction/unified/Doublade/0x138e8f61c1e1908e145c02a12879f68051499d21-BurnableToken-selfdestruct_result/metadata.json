@@ -1,0 +1,37 @@
+{
+    "addr": "0x138e8f61c1e1908e145c02a12879f68051499d21",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "BurnableToken",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "82777a2f7f2081976eefe80718ad6e52",
+    "fp_runtime": "0809712cb55e8df90c774737bae35749",
+    "fp_sol": "bf2e5b1865590a72d6fc8ddb061091cc",
+    "fp_sol2": "e8650f5e0d8529fb4101f6a40b923ec4",
+    "id": "0x138e8f61c1e1908e145c02a12879f68051499d21-BurnableToken-selfdestruct_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test283.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,2 @@
+{u'source_code/test2912.sol': {u'eth666': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test2912.sol:113:53: Warning: Integer Underflow.\n        return deposited[_address] * 666 / 10000 * (block.number - blocklock[_address]\nInteger Underflow occurs if:\n    blocklock[_address] = 1'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '69.1'}}}
+

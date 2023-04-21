@@ -1,0 +1,60 @@
+{
+    "addr": "0xfabe292d8019bfa02e5fead2c78ef71a1bf35ce8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.5-nightly.2016.11.4+commit.d97d267a",
+    "compiler_orig": false,
+    "contractname": "TestNetworkToken",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1fe24061953dc0480f0658102ee8d9c6",
+    "fp_runtime": "03118b43dc45db9bc953c750bec9d391",
+    "fp_sol": "9703b6d3eca721b099cc230f954d9471",
+    "fp_sol2": "114df46c2ebae653335de00e7e4926fd",
+    "id": "0040_Code_18_0xfabe292d8019bfa02e5fead2c78ef71a1bf35ce8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,39 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'vote', 'tx_input': 'b3f98adc'}
+1 : {'tx_value': '0', 'tx_caller': 'c84e2c4d3beb4e34a5b262b7187fc63fdc961423', 'name': 'delegate', 'tx_input': '5c19a95c0000000000000000000000007dc1f884f8cf31542cb49e68f336f1cad4c8175c'}
+2 : {'tx_value': '0', 'tx_caller': 'c84e2c4d3beb4e34a5b262b7187fc63fdc961423', 'name': 'giveRightToVote', 'tx_input': '9e7b8d61000000000000000000000000c84e2c4d3beb4e34a5b262b7187fc63fdc961423'}
+--------------------------------------------------------------------------------
+
+Full traces: 10
+--------------------------------------------------------------------------------
+1 2   :  delegate giveRightToVote 
+2 1   :  giveRightToVote delegate 
+------------------------------------------------------------
+2 1 0   :  giveRightToVote delegate vote 
+0 1 2   :  vote delegate giveRightToVote 
+------------------------------------------------------------
+2 1 0   :  giveRightToVote delegate vote 
+1 0 2   :  delegate vote giveRightToVote 
+------------------------------------------------------------
+2 1 0   :  giveRightToVote delegate vote 
+1 2 0   :  delegate giveRightToVote vote 
+------------------------------------------------------------
+0 1 2   :  vote delegate giveRightToVote 
+2 0 1   :  giveRightToVote vote delegate 
+------------------------------------------------------------
+0 1 2   :  vote delegate giveRightToVote 
+0 2 1   :  vote giveRightToVote delegate 
+------------------------------------------------------------
+1 0 2   :  delegate vote giveRightToVote 
+2 0 1   :  giveRightToVote vote delegate 
+------------------------------------------------------------
+1 0 2   :  delegate vote giveRightToVote 
+0 2 1   :  vote giveRightToVote delegate 
+------------------------------------------------------------
+2 0 1   :  giveRightToVote vote delegate 
+1 2 0   :  delegate giveRightToVote vote 
+------------------------------------------------------------
+0 2 1   :  vote giveRightToVote delegate 
+1 2 0   :  delegate giveRightToVote vote 
+------------------------------------------------------------

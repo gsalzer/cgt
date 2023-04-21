@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy vulnerability",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "EtherStore",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "b8192be4cb1d226ad5147435da9e4f3a",
+    "fp_runtime": "e13992624c2cced3e5c9309ba38d96ca",
+    "fp_sol": "560ed84c5c67a0d82a341905ba33741e",
+    "fp_sol2": "c39972cbfa1ba731686ef6feaa4a7f8e",
+    "id": "gray_re_entrancy",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/gray_re_entrancy.sol"
+    ],
+    "sol_orig": true
+}

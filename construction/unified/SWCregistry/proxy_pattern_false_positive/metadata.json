@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-112",
+            false
+        ]
+    ],
+    "compiler": "0.4.24+commit.e67f0147.Linux.g++",
+    "compiler_orig": true,
+    "contractname": "proxy",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "b99e593c2bcaa0d3b1308d0908272c76",
+    "fp_runtime": "378ecdfd8b15eee495f8c829c41da5b3",
+    "fp_sol": "2a7fe1e6e21d90a99d66af3d8623f47c",
+    "fp_sol2": "757547b019f0ac247ebacebbf8fa5bb9",
+    "id": "proxy_pattern_false_positive",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/proxy_pattern_false_positive.sol"
+    ],
+    "sol_orig": true
+}

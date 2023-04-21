@@ -1,0 +1,37 @@
+{
+    "addr": "0x4fdb91dbce6cee2e08cf85d26eaa3e9bca0c12fe",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.21+commit.dfe3193c",
+    "compiler_orig": false,
+    "contractname": "UnicornBreeding",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "ade6236d32d9dd50a8852d43003b24d9",
+    "fp_runtime": "6e256ac241ab83f730937df2acc30116",
+    "fp_sol": "cae97654b597003da41941406a92b94b",
+    "fp_sol2": "6ccef509475cc633697ef3198e004f6f",
+    "id": "0x4fdb91dbce6cee2e08cf85d26eaa3e9bca0c12fe-UnicornBreeding-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1266.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

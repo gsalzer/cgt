@@ -1,0 +1,34 @@
+Minimal found traces: 11 
+--------------------------------------------------------------------------------
+['setImporter', 'payImporterBankForGoodsBought']
+['payImporterBankForGoodsBought', 'setImporter']
+--------------------------------------------------------------------------------
+['acceptBankDraft', 'setExporter']
+['setExporter', 'acceptBankDraft']
+--------------------------------------------------------------------------------
+['setExporter', 'acceptBankDraft', 'setImporter', 'payImporterBankForGoodsBought']
+['setImporter', 'setExporter', 'payImporterBankForGoodsBought', 'acceptBankDraft']
+--------------------------------------------------------------------------------
+['setExporter', 'acceptBankDraft', 'setImporter', 'payImporterBankForGoodsBought']
+['setImporter', 'payImporterBankForGoodsBought', 'setExporter', 'acceptBankDraft']
+--------------------------------------------------------------------------------
+['setExporter', 'acceptBankDraft', 'setImporter', 'payImporterBankForGoodsBought']
+['setExporter', 'setImporter', 'payImporterBankForGoodsBought', 'acceptBankDraft']
+--------------------------------------------------------------------------------
+['setImporter', 'setExporter', 'payImporterBankForGoodsBought', 'acceptBankDraft']
+['setExporter', 'setImporter', 'acceptBankDraft', 'payImporterBankForGoodsBought']
+--------------------------------------------------------------------------------
+['setImporter', 'setExporter', 'payImporterBankForGoodsBought', 'acceptBankDraft']
+['setImporter', 'setExporter', 'acceptBankDraft', 'payImporterBankForGoodsBought']
+--------------------------------------------------------------------------------
+['setExporter', 'setImporter', 'acceptBankDraft', 'payImporterBankForGoodsBought']
+['setImporter', 'payImporterBankForGoodsBought', 'setExporter', 'acceptBankDraft']
+--------------------------------------------------------------------------------
+['setExporter', 'setImporter', 'acceptBankDraft', 'payImporterBankForGoodsBought']
+['setExporter', 'setImporter', 'payImporterBankForGoodsBought', 'acceptBankDraft']
+--------------------------------------------------------------------------------
+['setImporter', 'payImporterBankForGoodsBought', 'setExporter', 'acceptBankDraft']
+['setImporter', 'setExporter', 'acceptBankDraft', 'payImporterBankForGoodsBought']
+--------------------------------------------------------------------------------
+['setExporter', 'setImporter', 'payImporterBankForGoodsBought', 'acceptBankDraft']
+['setImporter', 'setExporter', 'acceptBankDraft', 'payImporterBankForGoodsBought']

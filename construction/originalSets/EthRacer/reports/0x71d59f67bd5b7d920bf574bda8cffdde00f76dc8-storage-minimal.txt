@@ -1,0 +1,10 @@
+Minimal found traces: 3 
+--------------------------------------------------------------------------------
+['transferOwnership', 'buy']
+['buy', 'transferOwnership']
+--------------------------------------------------------------------------------
+['setBuyRate', 'buy']
+['buy', 'setBuyRate']
+--------------------------------------------------------------------------------
+['approve', 'approve', 'transferFrom']
+['approve', 'transferFrom', 'approve']

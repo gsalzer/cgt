@@ -1,0 +1,38 @@
+{
+    "addr": "0xc5c5aa3f03523c3e5442cd6bc41076cb194e4d11",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/OurRoulette.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "OurRoulette",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/numberdependency/verified_contract_sols/OurRoulette"
+    },
+    "fp_bytecode": "8f00371979e254fb099ae53fa42d68d9",
+    "fp_runtime": "3af009846ff4a753c10583885ee96e60",
+    "fp_sol": "1ce43114b74f2ce8e1f215f9e15d7829",
+    "fp_sol2": "fbfa4212673688341487f17e77f3e495",
+    "id": "OurRoulette-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

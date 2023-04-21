@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "TokenSale",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x07c1c8c2bce6290daa554118b7d208041615ce54",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x07c1c8c2bce6290daa554118b7d208041615ce54",
+            "main",
+            "RCpro"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "b29f1793eb60e269dcb7dbe9c4fdfa55",
+    "fp_sol2": "b8713be1feb830823edb6c86e8dcddd9",
+    "id": "0x07c1c8c2bce6290daa554118b7d208041615ce54-TokenSale-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test118.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

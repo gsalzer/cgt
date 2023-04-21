@@ -1,0 +1,54 @@
+{
+    "addr": "0x40ebf2d6e998a76a848c41908733b26e04adffe2",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-19-427deb4",
+    "compiler_orig": false,
+    "contractname": "ReplaySafeSend",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "5ddb5fa24bfa817feea44fb53b58258c",
+    "fp_runtime": "a99a0b40b473316617924cef2b824d89",
+    "fp_sol": "8d4ca61d5436b206bb6bf79dd195e0dd",
+    "fp_sol2": "8d4ca61d5436b206bb6bf79dd195e0dd",
+    "id": "0x40ebf2d6e998a76a848c41908733b26e04adffe2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

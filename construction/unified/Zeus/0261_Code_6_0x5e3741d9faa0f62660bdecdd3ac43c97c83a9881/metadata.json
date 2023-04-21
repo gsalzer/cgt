@@ -1,0 +1,60 @@
+{
+    "addr": "0x5e3741d9faa0f62660bdecdd3ac43c97c83a9881",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "Presale",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "d47418de13c6fc998445f5d64c8cd4b1",
+    "fp_runtime": "12bccef86a806823d1f94d0c1b4018f3",
+    "fp_sol": "1ace4789a1fed6463552756539eeb658",
+    "fp_sol2": "25753a59a15f9fc4b0804303c9f5d3e0",
+    "id": "0261_Code_6_0x5e3741d9faa0f62660bdecdd3ac43c97c83a9881",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

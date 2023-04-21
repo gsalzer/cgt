@@ -1,0 +1,11 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': 'd19e13d40188a0123da1561c8f063ce5cadecd56', 'name': 'transferOwnership', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+1 : {'tx_value': '0', 'tx_caller': 'd19e13d40188a0123da1561c8f063ce5cadecd56', 'name': 'changeTokenContract', 'tx_input': '523aee69000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+--------------------------------------------------------------------------------
+
+Full traces: 1
+--------------------------------------------------------------------------------
+0 1   :  transferOwnership changeTokenContract 
+1 0   :  changeTokenContract transferOwnership 
+------------------------------------------------------------

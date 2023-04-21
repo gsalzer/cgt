@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "DOS by gaslimit",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "gray_ConstlyLoop",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "7558185623a9547665e4da1c97818b66",
+    "fp_runtime": "fe0552c4431894edcc3b03bcf7e80e43",
+    "fp_sol": "b7bd4ae865662908993f5895ef5e113f",
+    "fp_sol2": "ee618ca27673c896e309582905d4a902",
+    "id": "NoInfiniteLoop",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoInfiniteLoop.sol"
+    ],
+    "sol_orig": true
+}

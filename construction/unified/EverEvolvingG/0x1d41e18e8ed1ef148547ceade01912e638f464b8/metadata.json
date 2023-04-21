@@ -1,0 +1,43 @@
+{
+    "addr": "0x1d41e18e8ed1ef148547ceade01912e638f464b8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "airdrop-hunting",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "Casper",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x1d41e18e8ed1ef148547ceade01912e638f464b8",
+                "rinkeby"
+            ]
+        ]
+    },
+    "fp_bytecode": "4867fe6fd67a62ee2c378c1d6d697a31",
+    "fp_runtime": "04072785b4e2e5235dea427a48f28251",
+    "fp_sol": "df380879c1611ff41a8ddd8668956568",
+    "fp_sol2": "f06cd11ca16f1f91123945c36a2de718",
+    "id": "0x1d41e18e8ed1ef148547ceade01912e638f464b8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

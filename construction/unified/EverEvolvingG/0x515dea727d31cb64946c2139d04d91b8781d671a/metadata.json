@@ -1,0 +1,43 @@
+{
+    "addr": "0x515dea727d31cb64946c2139d04d91b8781d671a",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "airdrop-hunting",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "ByteCashCoin",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x515dea727d31cb64946c2139d04d91b8781d671a",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "9bee621b9167606803aeff18b77585f9",
+    "fp_runtime": "05470552c8698b86fe248d0c75cfaa72",
+    "fp_sol": "599adde1c28fe29bc6d775bcab184919",
+    "fp_sol2": "e352e65763e1f4932b7d1043775ab63c",
+    "id": "0x515dea727d31cb64946c2139d04d91b8781d671a",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

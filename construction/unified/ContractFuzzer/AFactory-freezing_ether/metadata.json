@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "AFactory",
+            "CloneFactory",
+            "Code"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "d24f122b1ccc173124e5df4cb0fd23b3",
+    "fp_sol": "9655b190574417c63451f1f3e1fdee1b",
+    "fp_sol2": "12233f31b88b86e6a544e7e20b1bec7f",
+    "id": "AFactory-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/AFactory.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/AFactory.sol"
+    ],
+    "sol_orig": true
+}

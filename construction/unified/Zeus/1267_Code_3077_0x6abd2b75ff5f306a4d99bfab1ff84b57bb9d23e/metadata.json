@@ -1,0 +1,60 @@
+{
+    "addr": "0x6abd2b75ff5f306a4d99bfab1ff84b57bb9d23e7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-08-07-f7af7de",
+    "compiler_orig": false,
+    "contractname": "ThisExternalAssembly",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c65d4bc61dd8e4780dab20bb03fba9fe",
+    "fp_runtime": "49585285cc8ab4d9967cadae51d03c5d",
+    "fp_sol": "daf2521beb1068c7a4af37957f04539a",
+    "fp_sol2": "daf2521beb1068c7a4af37957f04539a",
+    "id": "1267_Code_3077_0x6abd2b75ff5f306a4d99bfab1ff84b57bb9d23e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xf74a6e92588ee0a524b44b251e0b47d1a15824f7",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": true,
+    "contractname": "BadgeReg",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "07f1c9b2b8132e362df794e27271f917",
+    "fp_runtime": "9a601a5712f0ab06c12067da47634edd",
+    "fp_sol": "4c8c53c8c930fd9003b740e3546e3164",
+    "fp_sol2": "5833ad5b622018a1b71771dff3886acf",
+    "id": "0xf74a6e92588ee0a524b44b251e0b47d1a15824f7",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,39 @@
+{
+    "addr": "0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_WhaleGiveaway1.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "WhaleGiveaway1",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a717c256ac5597f3b23801bcaa243e90",
+    "fp_runtime": "b0ccedf5e164278d9ad43485ed141e45",
+    "fp_sol": "0631b0de9a3a0e8bfa7461055a38f15f",
+    "fp_sol2": "4b53c323dbfd999be98c6186ab82a722",
+    "id": "WhaleGiveaway1-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_WhaleGiveaway1.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x9b27a23006b6612b2dfc840d0a25f4e347121d21",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "Escrow",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "488720b1dc271775cbe0b79e00a4cab7",
+    "fp_runtime": "69f6a25316cd1d9ccf11d69a8f8a5cd8",
+    "fp_sol": "939379d8ebfd82074e9c18b270679079",
+    "fp_sol2": "939379d8ebfd82074e9c18b270679079",
+    "id": "0x9b27a23006b6612b2dfc840d0a25f4e347121d21",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

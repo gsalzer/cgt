@@ -1,0 +1,2584 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_input': 'a9059cbb0000000000000000000000000d66a8478ec1e58fd216b3cf2191fe3ac19df6470000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_caller': '55bea1a0335a8ea56572b8e66f17196290ca6467', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000055bea1a0335a8ea56572b8e66f17196290ca64670000000000000000000000000000000000000000000000000000000000000001'}
+2 : {'tx_caller': '55bea1a0335a8ea56572b8e66f17196290ca6467', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000062bb22f63f1f4743379ca00fcd3325ac81c33e4b'}
+3 : {'tx_caller': '55bea1a0335a8ea56572b8e66f17196290ca6467', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000055bea1a0335a8ea56572b8e66f17196290ca64670000000000000000000000000000000000000000000000000000000000000003'}
+4 : {'tx_caller': '55bea1a0335a8ea56572b8e66f17196290ca6467', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000055bea1a0335a8ea56572b8e66f17196290ca6467'}
+5 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd6230000000000000000000000001111111111111111111111111111111111111111'}
+6 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000588d44ae13db8ec670d2423304f502cd004f7205'}
+7 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111'}
+8 : {'tx_caller': '55bea1a0335a8ea56572b8e66f17196290ca6467', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000011111111111111111111111111111111111111110000000000000000000000003f20391552053835ff9be243d93fa083c7a570a90000000000000000000000000000000000000000000000000000000000000000'}
+9 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd623000000000000000000000000574b78d11726d584f0b5629016565d30285e3ba3'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd62300000000000000000000000055bea1a0335a8ea56572b8e66f17196290ca6467'}
+11 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000c96b0617fa5e8e368c8ebd5ea9b5ca9838c8a6820000000000000000000000000000000000000000000000000000000000000000'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000000ee6d5b9ebd4e94f1b8e5f342b879ae87869c6fd'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222'}
+14 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd623000000000000000000000000630fa5e3fdd0371a06dfcd6135daace80b709edd'}
+15 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd62300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+17 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd62300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 853
+--------------------------------------------------------------------------------
+16 13   :  increaseApproval approve 
+13 16   :  approve increaseApproval 
+------------------------------------------------------------
+13 16 0   :  approve increaseApproval transfer 
+16 13 0   :  increaseApproval approve transfer 
+------------------------------------------------------------
+13 16 0   :  approve increaseApproval transfer 
+16 0 13   :  increaseApproval transfer approve 
+------------------------------------------------------------
+13 16 0   :  approve increaseApproval transfer 
+0 16 13   :  transfer increaseApproval approve 
+------------------------------------------------------------
+16 13 0   :  increaseApproval approve transfer 
+0 13 16   :  transfer approve increaseApproval 
+------------------------------------------------------------
+16 13 0   :  increaseApproval approve transfer 
+13 0 16   :  approve transfer increaseApproval 
+------------------------------------------------------------
+16 0 13   :  increaseApproval transfer approve 
+0 13 16   :  transfer approve increaseApproval 
+------------------------------------------------------------
+16 0 13   :  increaseApproval transfer approve 
+13 0 16   :  approve transfer increaseApproval 
+------------------------------------------------------------
+0 13 16   :  transfer approve increaseApproval 
+0 16 13   :  transfer increaseApproval approve 
+------------------------------------------------------------
+0 16 13   :  transfer increaseApproval approve 
+13 0 16   :  approve transfer increaseApproval 
+------------------------------------------------------------
+1 16 13   :  decreaseApproval increaseApproval approve 
+13 16 1   :  approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 13   :  decreaseApproval increaseApproval approve 
+1 13 16   :  decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 16 13   :  decreaseApproval increaseApproval approve 
+13 1 16   :  approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 16 1   :  approve increaseApproval decreaseApproval 
+16 13 1   :  increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 16 1   :  approve increaseApproval decreaseApproval 
+16 1 13   :  increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 13 16   :  decreaseApproval approve increaseApproval 
+16 13 1   :  increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 13 16   :  decreaseApproval approve increaseApproval 
+16 1 13   :  increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+16 13 1   :  increaseApproval approve decreaseApproval 
+13 1 16   :  approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 1 16   :  approve decreaseApproval increaseApproval 
+16 1 13   :  increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+2 13 16   :  approve approve increaseApproval 
+16 2 13   :  increaseApproval approve approve 
+------------------------------------------------------------
+2 13 16   :  approve approve increaseApproval 
+2 16 13   :  approve increaseApproval approve 
+------------------------------------------------------------
+13 16 2   :  approve increaseApproval approve 
+16 13 2   :  increaseApproval approve approve 
+------------------------------------------------------------
+5 13 16   :  increaseApproval approve increaseApproval 
+5 16 13   :  increaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 5 16   :  approve increaseApproval increaseApproval 
+5 16 13   :  increaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 16 5   :  approve increaseApproval increaseApproval 
+16 13 5   :  increaseApproval approve increaseApproval 
+------------------------------------------------------------
+8 16 13   :  transferFrom increaseApproval approve 
+13 8 16   :  approve transferFrom increaseApproval 
+------------------------------------------------------------
+8 16 13   :  transferFrom increaseApproval approve 
+13 16 8   :  approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 16 13   :  transferFrom increaseApproval approve 
+8 13 16   :  transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 13 8   :  increaseApproval approve transferFrom 
+13 8 16   :  approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 8   :  increaseApproval approve transferFrom 
+13 16 8   :  approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 8   :  increaseApproval approve transferFrom 
+8 13 16   :  transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 8 16   :  approve transferFrom increaseApproval 
+16 8 13   :  increaseApproval transferFrom approve 
+------------------------------------------------------------
+13 16 8   :  approve increaseApproval transferFrom 
+16 8 13   :  increaseApproval transferFrom approve 
+------------------------------------------------------------
+16 8 13   :  increaseApproval transferFrom approve 
+8 13 16   :  transferFrom approve increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+0 1 16 13   :  transfer decreaseApproval increaseApproval approve 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 0 16 13   :  decreaseApproval transfer increaseApproval approve 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 13 1 0   :  increaseApproval approve decreaseApproval transfer 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 16 13 0   :  decreaseApproval increaseApproval approve transfer 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+13 1 0 16   :  approve decreaseApproval transfer increaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 0 13 1   :  increaseApproval transfer approve decreaseApproval 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+0 16 1 13   :  transfer increaseApproval decreaseApproval approve 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+------------------------------------------------------------
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+1 13 16 0   :  decreaseApproval approve increaseApproval transfer 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 16 0 13   :  decreaseApproval increaseApproval transfer approve 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+------------------------------------------------------------
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+0 13 16 1   :  transfer approve increaseApproval decreaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+------------------------------------------------------------
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+13 1 16 0   :  approve decreaseApproval increaseApproval transfer 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 1 0 13   :  increaseApproval decreaseApproval transfer approve 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+0 13 1 16   :  transfer approve decreaseApproval increaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+1 0 13 16   :  decreaseApproval transfer approve increaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+------------------------------------------------------------
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+------------------------------------------------------------
+13 16 1 0   :  approve increaseApproval decreaseApproval transfer 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 1 13 0   :  increaseApproval decreaseApproval approve transfer 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+0 16 13 1   :  transfer increaseApproval approve decreaseApproval 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 0 1 13   :  increaseApproval transfer decreaseApproval approve 
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+------------------------------------------------------------
+13 0 16 1   :  approve transfer increaseApproval decreaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+1 13 0 16   :  decreaseApproval approve transfer increaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+13 0 1 16   :  approve transfer decreaseApproval increaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+0 1 13 16   :  transfer decreaseApproval approve increaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+13 16 0 1   :  approve increaseApproval transfer decreaseApproval 
+16 13 0 1   :  increaseApproval approve transfer decreaseApproval 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+13 2 16 0   :  approve approve increaseApproval transfer 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+13 0 16 2   :  approve transfer increaseApproval approve 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+13 2 0 16   :  approve approve transfer increaseApproval 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+0 13 16 2   :  transfer approve increaseApproval approve 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+0 13 2 16   :  transfer approve approve increaseApproval 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+13 16 0 2   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+13 16 2 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+16 13 0 2   :  increaseApproval approve transfer approve 
+13 0 2 16   :  approve transfer approve increaseApproval 
+------------------------------------------------------------
+0 16 2 13   :  transfer increaseApproval approve approve 
+0 2 13 16   :  transfer approve approve increaseApproval 
+------------------------------------------------------------
+0 16 2 13   :  transfer increaseApproval approve approve 
+2 0 13 16   :  approve transfer approve increaseApproval 
+------------------------------------------------------------
+0 16 2 13   :  transfer increaseApproval approve approve 
+2 13 0 16   :  approve approve transfer increaseApproval 
+------------------------------------------------------------
+0 16 2 13   :  transfer increaseApproval approve approve 
+2 13 16 0   :  approve approve increaseApproval transfer 
+------------------------------------------------------------
+13 2 16 0   :  approve approve increaseApproval transfer 
+16 0 13 2   :  increaseApproval transfer approve approve 
+------------------------------------------------------------
+13 2 16 0   :  approve approve increaseApproval transfer 
+16 13 2 0   :  increaseApproval approve approve transfer 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+13 0 16 2   :  approve transfer increaseApproval approve 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+13 2 0 16   :  approve approve transfer increaseApproval 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+0 13 16 2   :  transfer approve increaseApproval approve 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+0 13 2 16   :  transfer approve approve increaseApproval 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+13 16 0 2   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+13 16 2 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+16 0 13 2   :  increaseApproval transfer approve approve 
+13 0 2 16   :  approve transfer approve increaseApproval 
+------------------------------------------------------------
+13 0 16 2   :  approve transfer increaseApproval approve 
+16 13 2 0   :  increaseApproval approve approve transfer 
+------------------------------------------------------------
+13 0 16 2   :  approve transfer increaseApproval approve 
+0 16 13 2   :  transfer increaseApproval approve approve 
+------------------------------------------------------------
+0 2 13 16   :  transfer approve approve increaseApproval 
+0 2 16 13   :  transfer approve increaseApproval approve 
+------------------------------------------------------------
+0 2 13 16   :  transfer approve approve increaseApproval 
+2 0 16 13   :  approve transfer increaseApproval approve 
+------------------------------------------------------------
+0 2 13 16   :  transfer approve approve increaseApproval 
+16 2 13 0   :  increaseApproval approve approve transfer 
+------------------------------------------------------------
+0 2 13 16   :  transfer approve approve increaseApproval 
+2 16 0 13   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+0 2 13 16   :  transfer approve approve increaseApproval 
+2 16 13 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+2 0 13 16   :  approve transfer approve increaseApproval 
+0 2 16 13   :  transfer approve increaseApproval approve 
+------------------------------------------------------------
+2 0 13 16   :  approve transfer approve increaseApproval 
+2 0 16 13   :  approve transfer increaseApproval approve 
+------------------------------------------------------------
+2 0 13 16   :  approve transfer approve increaseApproval 
+16 2 13 0   :  increaseApproval approve approve transfer 
+------------------------------------------------------------
+2 0 13 16   :  approve transfer approve increaseApproval 
+2 16 0 13   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+2 0 13 16   :  approve transfer approve increaseApproval 
+2 16 13 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+16 13 2 0   :  increaseApproval approve approve transfer 
+13 2 0 16   :  approve approve transfer increaseApproval 
+------------------------------------------------------------
+16 13 2 0   :  increaseApproval approve approve transfer 
+0 13 16 2   :  transfer approve increaseApproval approve 
+------------------------------------------------------------
+16 13 2 0   :  increaseApproval approve approve transfer 
+13 16 0 2   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+16 13 2 0   :  increaseApproval approve approve transfer 
+13 16 2 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+2 13 0 16   :  approve approve transfer increaseApproval 
+0 2 16 13   :  transfer approve increaseApproval approve 
+------------------------------------------------------------
+2 13 0 16   :  approve approve transfer increaseApproval 
+2 0 16 13   :  approve transfer increaseApproval approve 
+------------------------------------------------------------
+2 13 0 16   :  approve approve transfer increaseApproval 
+2 16 0 13   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+2 13 0 16   :  approve approve transfer increaseApproval 
+2 16 13 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+0 13 16 2   :  transfer approve increaseApproval approve 
+0 16 13 2   :  transfer increaseApproval approve approve 
+------------------------------------------------------------
+0 2 16 13   :  transfer approve increaseApproval approve 
+2 13 16 0   :  approve approve increaseApproval transfer 
+------------------------------------------------------------
+13 16 0 2   :  approve increaseApproval transfer approve 
+0 16 13 2   :  transfer increaseApproval approve approve 
+------------------------------------------------------------
+2 0 16 13   :  approve transfer increaseApproval approve 
+2 13 16 0   :  approve approve increaseApproval transfer 
+------------------------------------------------------------
+13 16 2 0   :  approve increaseApproval approve transfer 
+0 16 13 2   :  transfer increaseApproval approve approve 
+------------------------------------------------------------
+2 13 16 0   :  approve approve increaseApproval transfer 
+2 16 0 13   :  approve increaseApproval transfer approve 
+------------------------------------------------------------
+2 13 16 0   :  approve approve increaseApproval transfer 
+2 16 13 0   :  approve increaseApproval approve transfer 
+------------------------------------------------------------
+0 13 5 16   :  transfer approve increaseApproval increaseApproval 
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+------------------------------------------------------------
+0 13 5 16   :  transfer approve increaseApproval increaseApproval 
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+------------------------------------------------------------
+0 13 5 16   :  transfer approve increaseApproval increaseApproval 
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+0 13 5 16   :  transfer approve increaseApproval increaseApproval 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 5 16 0   :  approve increaseApproval increaseApproval transfer 
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+------------------------------------------------------------
+13 5 16 0   :  approve increaseApproval increaseApproval transfer 
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+------------------------------------------------------------
+13 5 16 0   :  approve increaseApproval increaseApproval transfer 
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+13 5 16 0   :  approve increaseApproval increaseApproval transfer 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+0 13 16 5   :  transfer approve increaseApproval increaseApproval 
+0 16 13 5   :  transfer increaseApproval approve increaseApproval 
+------------------------------------------------------------
+0 13 16 5   :  transfer approve increaseApproval increaseApproval 
+16 13 5 0   :  increaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+0 13 16 5   :  transfer approve increaseApproval increaseApproval 
+16 0 13 5   :  increaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+0 13 16 5   :  transfer approve increaseApproval increaseApproval 
+16 13 0 5   :  increaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+13 0 5 16   :  approve transfer increaseApproval increaseApproval 
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+------------------------------------------------------------
+13 0 5 16   :  approve transfer increaseApproval increaseApproval 
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+------------------------------------------------------------
+13 0 5 16   :  approve transfer increaseApproval increaseApproval 
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+13 0 5 16   :  approve transfer increaseApproval increaseApproval 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+0 16 13 5   :  transfer increaseApproval approve increaseApproval 
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+------------------------------------------------------------
+0 16 13 5   :  transfer increaseApproval approve increaseApproval 
+13 16 5 0   :  approve increaseApproval increaseApproval transfer 
+------------------------------------------------------------
+0 16 13 5   :  transfer increaseApproval approve increaseApproval 
+13 0 16 5   :  approve transfer increaseApproval increaseApproval 
+------------------------------------------------------------
+16 0 5 13   :  increaseApproval transfer increaseApproval approve 
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+------------------------------------------------------------
+16 13 5 0   :  increaseApproval approve increaseApproval transfer 
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+------------------------------------------------------------
+16 13 5 0   :  increaseApproval approve increaseApproval transfer 
+13 16 5 0   :  approve increaseApproval increaseApproval transfer 
+------------------------------------------------------------
+16 13 5 0   :  increaseApproval approve increaseApproval transfer 
+13 0 16 5   :  approve transfer increaseApproval increaseApproval 
+------------------------------------------------------------
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+5 13 0 16   :  increaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+5 0 13 16   :  increaseApproval transfer approve increaseApproval 
+------------------------------------------------------------
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+5 13 16 0   :  increaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+5 0 16 13   :  increaseApproval transfer increaseApproval approve 
+0 5 13 16   :  transfer increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 13 0 16   :  increaseApproval approve transfer increaseApproval 
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+------------------------------------------------------------
+5 13 0 16   :  increaseApproval approve transfer increaseApproval 
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+5 13 0 16   :  increaseApproval approve transfer increaseApproval 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 0 13 16   :  increaseApproval transfer approve increaseApproval 
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+------------------------------------------------------------
+5 0 13 16   :  increaseApproval transfer approve increaseApproval 
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+5 0 13 16   :  increaseApproval transfer approve increaseApproval 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+5 13 16 0   :  increaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+0 5 13 16   :  transfer increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 16 13 0   :  increaseApproval increaseApproval approve transfer 
+13 5 0 16   :  approve increaseApproval transfer increaseApproval 
+------------------------------------------------------------
+16 0 13 5   :  increaseApproval transfer approve increaseApproval 
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+------------------------------------------------------------
+16 0 13 5   :  increaseApproval transfer approve increaseApproval 
+13 16 5 0   :  approve increaseApproval increaseApproval transfer 
+------------------------------------------------------------
+16 0 13 5   :  increaseApproval transfer approve increaseApproval 
+13 0 16 5   :  approve transfer increaseApproval increaseApproval 
+------------------------------------------------------------
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+0 16 5 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+16 13 0 5   :  increaseApproval approve transfer increaseApproval 
+------------------------------------------------------------
+13 16 0 5   :  approve increaseApproval transfer increaseApproval 
+16 5 0 13   :  increaseApproval increaseApproval transfer approve 
+------------------------------------------------------------
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+5 13 16 0   :  increaseApproval approve increaseApproval transfer 
+------------------------------------------------------------
+5 16 0 13   :  increaseApproval increaseApproval transfer approve 
+0 5 13 16   :  transfer increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 13 16 0   :  increaseApproval approve increaseApproval transfer 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 13 0 5   :  increaseApproval approve transfer increaseApproval 
+13 16 5 0   :  approve increaseApproval increaseApproval transfer 
+------------------------------------------------------------
+16 13 0 5   :  increaseApproval approve transfer increaseApproval 
+13 0 16 5   :  approve transfer increaseApproval increaseApproval 
+------------------------------------------------------------
+0 5 13 16   :  transfer increaseApproval approve increaseApproval 
+0 5 16 13   :  transfer increaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+16 13 8 0   :  increaseApproval approve transferFrom transfer 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+13 16 0 8   :  approve increaseApproval transfer transferFrom 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+16 13 0 8   :  increaseApproval approve transfer transferFrom 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+8 0 13 16   :  transferFrom transfer approve increaseApproval 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+0 16 8 13   :  transfer increaseApproval transferFrom approve 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+13 8 16 0   :  approve transferFrom increaseApproval transfer 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+8 0 16 13   :  transferFrom transfer increaseApproval approve 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+16 0 13 8   :  increaseApproval transfer approve transferFrom 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+13 0 16 8   :  approve transfer increaseApproval transferFrom 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+0 8 16 13   :  transfer transferFrom increaseApproval approve 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+------------------------------------------------------------
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+13 8 0 16   :  approve transferFrom transfer increaseApproval 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+------------------------------------------------------------
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+0 13 16 8   :  transfer approve increaseApproval transferFrom 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+------------------------------------------------------------
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+------------------------------------------------------------
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+------------------------------------------------------------
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+16 8 0 13   :  increaseApproval transferFrom transfer approve 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+0 13 8 16   :  transfer approve transferFrom increaseApproval 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+13 0 8 16   :  approve transfer transferFrom increaseApproval 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+8 13 16 0   :  transferFrom approve increaseApproval transfer 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+------------------------------------------------------------
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+------------------------------------------------------------
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+------------------------------------------------------------
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+------------------------------------------------------------
+8 13 0 16   :  transferFrom approve transfer increaseApproval 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+16 8 13 0   :  increaseApproval transferFrom approve transfer 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+8 16 0 13   :  transferFrom increaseApproval transfer approve 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+0 16 13 8   :  transfer increaseApproval approve transferFrom 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+------------------------------------------------------------
+16 0 8 13   :  increaseApproval transfer transferFrom approve 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 16 8 0   :  approve increaseApproval transferFrom transfer 
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+------------------------------------------------------------
+8 16 13 0   :  transferFrom increaseApproval approve transfer 
+0 8 13 16   :  transfer transferFrom approve increaseApproval 
+------------------------------------------------------------
+1 16 2 13   :  decreaseApproval increaseApproval approve approve 
+1 2 13 16   :  decreaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+13 1 2 16   :  approve decreaseApproval approve increaseApproval 
+16 1 13 2   :  increaseApproval decreaseApproval approve approve 
+------------------------------------------------------------
+13 1 2 16   :  approve decreaseApproval approve increaseApproval 
+1 16 13 2   :  decreaseApproval increaseApproval approve approve 
+------------------------------------------------------------
+13 1 2 16   :  approve decreaseApproval approve increaseApproval 
+16 13 1 2   :  increaseApproval approve decreaseApproval approve 
+------------------------------------------------------------
+16 1 13 2   :  increaseApproval decreaseApproval approve approve 
+13 1 16 2   :  approve decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 1 13 2   :  increaseApproval decreaseApproval approve approve 
+1 13 2 16   :  decreaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+16 1 13 2   :  increaseApproval decreaseApproval approve approve 
+13 16 1 2   :  approve increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+16 1 13 2   :  increaseApproval decreaseApproval approve approve 
+1 13 16 2   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+13 1 16 2   :  approve decreaseApproval increaseApproval approve 
+1 16 13 2   :  decreaseApproval increaseApproval approve approve 
+------------------------------------------------------------
+13 1 16 2   :  approve decreaseApproval increaseApproval approve 
+16 13 1 2   :  increaseApproval approve decreaseApproval approve 
+------------------------------------------------------------
+1 2 13 16   :  decreaseApproval approve approve increaseApproval 
+1 2 16 13   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+1 13 2 16   :  decreaseApproval approve approve increaseApproval 
+16 13 1 2   :  increaseApproval approve decreaseApproval approve 
+------------------------------------------------------------
+1 16 13 2   :  decreaseApproval increaseApproval approve approve 
+13 16 1 2   :  approve increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 16 13 2   :  decreaseApproval increaseApproval approve approve 
+1 13 16 2   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+16 13 1 2   :  increaseApproval approve decreaseApproval approve 
+13 16 1 2   :  approve increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+16 13 1 2   :  increaseApproval approve decreaseApproval approve 
+1 13 16 2   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+16 13 3 1   :  increaseApproval approve decreaseApproval decreaseApproval 
+13 3 16 1   :  approve decreaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 3 1   :  increaseApproval approve decreaseApproval decreaseApproval 
+13 16 3 1   :  approve increaseApproval decreaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 3 1   :  increaseApproval approve decreaseApproval decreaseApproval 
+3 1 13 16   :  decreaseApproval decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 13 3 1   :  increaseApproval approve decreaseApproval decreaseApproval 
+13 3 1 16   :  approve decreaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 3 1   :  increaseApproval approve decreaseApproval decreaseApproval 
+3 13 1 16   :  decreaseApproval approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 3 1   :  increaseApproval approve decreaseApproval decreaseApproval 
+3 13 16 1   :  decreaseApproval approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 13 16 3   :  decreaseApproval approve increaseApproval decreaseApproval 
+16 1 3 13   :  increaseApproval decreaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 13 16 3   :  decreaseApproval approve increaseApproval decreaseApproval 
+1 16 13 3   :  decreaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 13 16 3   :  decreaseApproval approve increaseApproval decreaseApproval 
+16 1 13 3   :  increaseApproval decreaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 13 16 3   :  decreaseApproval approve increaseApproval decreaseApproval 
+1 3 16 13   :  decreaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+1 13 16 3   :  decreaseApproval approve increaseApproval decreaseApproval 
+1 16 3 13   :  decreaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 13 3 16   :  decreaseApproval approve decreaseApproval increaseApproval 
+16 1 3 13   :  increaseApproval decreaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 13 3 16   :  decreaseApproval approve decreaseApproval increaseApproval 
+1 16 13 3   :  decreaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 13 3 16   :  decreaseApproval approve decreaseApproval increaseApproval 
+16 1 13 3   :  increaseApproval decreaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 13 3 16   :  decreaseApproval approve decreaseApproval increaseApproval 
+1 3 16 13   :  decreaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+1 13 3 16   :  decreaseApproval approve decreaseApproval increaseApproval 
+1 16 3 13   :  decreaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 3 16 1   :  approve decreaseApproval increaseApproval decreaseApproval 
+3 16 1 13   :  decreaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 3 16 1   :  approve decreaseApproval increaseApproval decreaseApproval 
+3 1 16 13   :  decreaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 3 16 1   :  approve decreaseApproval increaseApproval decreaseApproval 
+3 16 13 1   :  decreaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 3 16 1   :  approve decreaseApproval increaseApproval decreaseApproval 
+16 3 13 1   :  increaseApproval decreaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 3 16 1   :  approve decreaseApproval increaseApproval decreaseApproval 
+16 3 1 13   :  increaseApproval decreaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 1 3 16   :  approve decreaseApproval decreaseApproval increaseApproval 
+16 1 3 13   :  increaseApproval decreaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 1 3 16   :  approve decreaseApproval decreaseApproval increaseApproval 
+1 16 13 3   :  decreaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 1 3 16   :  approve decreaseApproval decreaseApproval increaseApproval 
+16 1 13 3   :  increaseApproval decreaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 1 3 16   :  approve decreaseApproval decreaseApproval increaseApproval 
+1 3 16 13   :  decreaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 1 3 16   :  approve decreaseApproval decreaseApproval increaseApproval 
+1 16 3 13   :  decreaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+16 1 3 13   :  increaseApproval decreaseApproval decreaseApproval approve 
+1 3 13 16   :  decreaseApproval decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 1 3 13   :  increaseApproval decreaseApproval decreaseApproval approve 
+13 16 1 3   :  approve increaseApproval decreaseApproval decreaseApproval 
+------------------------------------------------------------
+3 16 1 13   :  decreaseApproval increaseApproval decreaseApproval approve 
+13 16 3 1   :  approve increaseApproval decreaseApproval decreaseApproval 
+------------------------------------------------------------
+3 16 1 13   :  decreaseApproval increaseApproval decreaseApproval approve 
+3 1 13 16   :  decreaseApproval decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+13 16 3 1   :  approve increaseApproval decreaseApproval decreaseApproval 
+3 1 16 13   :  decreaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 16 3 1   :  approve increaseApproval decreaseApproval decreaseApproval 
+3 16 13 1   :  decreaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 16 3 1   :  approve increaseApproval decreaseApproval decreaseApproval 
+16 3 13 1   :  increaseApproval decreaseApproval approve decreaseApproval 
+------------------------------------------------------------
+3 1 13 16   :  decreaseApproval decreaseApproval approve increaseApproval 
+3 1 16 13   :  decreaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+3 1 13 16   :  decreaseApproval decreaseApproval approve increaseApproval 
+3 16 13 1   :  decreaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+3 1 13 16   :  decreaseApproval decreaseApproval approve increaseApproval 
+16 3 13 1   :  increaseApproval decreaseApproval approve decreaseApproval 
+------------------------------------------------------------
+5 13 16 1   :  increaseApproval approve increaseApproval decreaseApproval 
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+5 13 16 1   :  increaseApproval approve increaseApproval decreaseApproval 
+1 5 16 13   :  decreaseApproval increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 13 16 1   :  increaseApproval approve increaseApproval decreaseApproval 
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 13 16 1   :  increaseApproval approve increaseApproval decreaseApproval 
+5 16 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+5 1 13 16   :  increaseApproval decreaseApproval approve increaseApproval 
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+5 1 13 16   :  increaseApproval decreaseApproval approve increaseApproval 
+1 5 16 13   :  decreaseApproval increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 1 13 16   :  increaseApproval decreaseApproval approve increaseApproval 
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 1 13 16   :  increaseApproval decreaseApproval approve increaseApproval 
+5 16 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 16 13 5   :  decreaseApproval increaseApproval approve increaseApproval 
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 13 5   :  decreaseApproval increaseApproval approve increaseApproval 
+13 16 5 1   :  approve increaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 13 5   :  decreaseApproval increaseApproval approve increaseApproval 
+13 16 1 5   :  approve increaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 13 5   :  decreaseApproval increaseApproval approve increaseApproval 
+13 1 16 5   :  approve decreaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 5 1   :  increaseApproval approve increaseApproval decreaseApproval 
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 5 1   :  increaseApproval approve increaseApproval decreaseApproval 
+13 16 5 1   :  approve increaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 5 1   :  increaseApproval approve increaseApproval decreaseApproval 
+13 16 1 5   :  approve increaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 5 1   :  increaseApproval approve increaseApproval decreaseApproval 
+13 1 16 5   :  approve decreaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 5 13   :  decreaseApproval increaseApproval increaseApproval approve 
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 5 13   :  decreaseApproval increaseApproval increaseApproval approve 
+13 16 5 1   :  approve increaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 5 13   :  decreaseApproval increaseApproval increaseApproval approve 
+13 16 1 5   :  approve increaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 5 13   :  decreaseApproval increaseApproval increaseApproval approve 
+13 1 16 5   :  approve decreaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+5 13 1 16   :  increaseApproval approve decreaseApproval increaseApproval 
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+5 13 1 16   :  increaseApproval approve decreaseApproval increaseApproval 
+1 5 16 13   :  decreaseApproval increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 13 1 16   :  increaseApproval approve decreaseApproval increaseApproval 
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 13 1 16   :  increaseApproval approve decreaseApproval increaseApproval 
+5 16 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 5 13 16   :  decreaseApproval increaseApproval approve increaseApproval 
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 5 13 16   :  decreaseApproval increaseApproval approve increaseApproval 
+1 5 16 13   :  decreaseApproval increaseApproval increaseApproval approve 
+------------------------------------------------------------
+1 5 13 16   :  decreaseApproval increaseApproval approve increaseApproval 
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+1 5 13 16   :  decreaseApproval increaseApproval approve increaseApproval 
+5 16 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+13 1 5 16   :  approve decreaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+1 13 5 16   :  decreaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+13 5 1 16   :  approve increaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+5 16 13 1   :  increaseApproval increaseApproval approve decreaseApproval 
+13 5 16 1   :  approve increaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+13 1 5 16   :  approve decreaseApproval increaseApproval increaseApproval 
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 1 5 16   :  approve decreaseApproval increaseApproval increaseApproval 
+5 16 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+16 5 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+16 1 13 5   :  increaseApproval decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+16 13 1 5   :  increaseApproval approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 13 16 5   :  decreaseApproval approve increaseApproval increaseApproval 
+16 1 5 13   :  increaseApproval decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 5 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+13 16 5 1   :  approve increaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 5 1 13   :  increaseApproval increaseApproval decreaseApproval approve 
+13 16 1 5   :  approve increaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+13 5 1 16   :  approve increaseApproval decreaseApproval increaseApproval 
+------------------------------------------------------------
+5 1 16 13   :  increaseApproval decreaseApproval increaseApproval approve 
+13 5 16 1   :  approve increaseApproval increaseApproval decreaseApproval 
+------------------------------------------------------------
+13 16 5 1   :  approve increaseApproval increaseApproval decreaseApproval 
+16 1 13 5   :  increaseApproval decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+13 16 5 1   :  approve increaseApproval increaseApproval decreaseApproval 
+16 13 1 5   :  increaseApproval approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 16 1 5   :  approve increaseApproval decreaseApproval increaseApproval 
+16 1 13 5   :  increaseApproval decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+13 16 1 5   :  approve increaseApproval decreaseApproval increaseApproval 
+16 13 1 5   :  increaseApproval approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 1 13 5   :  increaseApproval decreaseApproval approve increaseApproval 
+13 1 16 5   :  approve decreaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 1 5   :  increaseApproval approve decreaseApproval increaseApproval 
+13 1 16 5   :  approve decreaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 13 6   :  decreaseApproval increaseApproval approve approve 
+13 16 6 1   :  approve increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+1 16 13 6   :  decreaseApproval increaseApproval approve approve 
+13 6 16 1   :  approve approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 13 6   :  decreaseApproval increaseApproval approve approve 
+13 6 1 16   :  approve approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+1 13 6 16   :  decreaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+13 16 6 1   :  approve increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+1 13 16 6   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+13 16 1 6   :  approve increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+13 1 6 16   :  approve decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+13 6 16 1   :  approve approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+13 1 16 6   :  approve decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 13 6 1   :  increaseApproval approve approve decreaseApproval 
+13 6 1 16   :  approve approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 16 6 1   :  approve increaseApproval approve decreaseApproval 
+16 1 13 6   :  increaseApproval decreaseApproval approve approve 
+------------------------------------------------------------
+13 16 6 1   :  approve increaseApproval approve decreaseApproval 
+16 13 1 6   :  increaseApproval approve decreaseApproval approve 
+------------------------------------------------------------
+6 1 16 13   :  approve decreaseApproval increaseApproval approve 
+1 6 13 16   :  decreaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+6 1 16 13   :  approve decreaseApproval increaseApproval approve 
+6 1 13 16   :  approve decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+6 1 16 13   :  approve decreaseApproval increaseApproval approve 
+6 13 16 1   :  approve approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+6 1 16 13   :  approve decreaseApproval increaseApproval approve 
+6 13 1 16   :  approve approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 1 6 13   :  increaseApproval decreaseApproval approve approve 
+6 13 16 1   :  approve approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 1 6 13   :  increaseApproval decreaseApproval approve approve 
+6 13 1 16   :  approve approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 6 13 16   :  decreaseApproval approve approve increaseApproval 
+6 16 1 13   :  approve increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 6 13 16   :  decreaseApproval approve approve increaseApproval 
+6 16 13 1   :  approve increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+6 1 13 16   :  approve decreaseApproval approve increaseApproval 
+6 16 1 13   :  approve increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+6 1 13 16   :  approve decreaseApproval approve increaseApproval 
+6 16 13 1   :  approve increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+6 1 13 16   :  approve decreaseApproval approve increaseApproval 
+1 6 16 13   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+6 16 1 13   :  approve increaseApproval decreaseApproval approve 
+6 13 16 1   :  approve approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+6 16 1 13   :  approve increaseApproval decreaseApproval approve 
+6 13 1 16   :  approve approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 6 1 13   :  increaseApproval approve decreaseApproval approve 
+6 13 16 1   :  approve approve increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 6 1 13   :  increaseApproval approve decreaseApproval approve 
+6 13 1 16   :  approve approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+6 13 16 1   :  approve approve increaseApproval decreaseApproval 
+6 16 13 1   :  approve increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+6 13 16 1   :  approve approve increaseApproval decreaseApproval 
+1 6 16 13   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+6 13 1 16   :  approve approve decreaseApproval increaseApproval 
+6 16 13 1   :  approve increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+6 13 1 16   :  approve approve decreaseApproval increaseApproval 
+1 6 16 13   :  decreaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+8 13 16 1   :  transferFrom approve increaseApproval decreaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+13 16 1 8   :  approve increaseApproval decreaseApproval transferFrom 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 1 13 8   :  increaseApproval decreaseApproval approve transferFrom 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 8 1 13   :  increaseApproval transferFrom decreaseApproval approve 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+13 16 8 1   :  approve increaseApproval transferFrom decreaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+1 8 16 13   :  decreaseApproval transferFrom increaseApproval approve 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 16 13 1   :  transferFrom increaseApproval approve decreaseApproval 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 1 16 13   :  transferFrom decreaseApproval increaseApproval approve 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+13 1 16 8   :  approve decreaseApproval increaseApproval transferFrom 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+13 8 1 16   :  approve transferFrom decreaseApproval increaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+1 8 13 16   :  decreaseApproval transferFrom approve increaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+1 16 13 8   :  decreaseApproval increaseApproval approve transferFrom 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+1 16 8 13   :  decreaseApproval increaseApproval transferFrom approve 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 16 1 13   :  transferFrom increaseApproval decreaseApproval approve 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+------------------------------------------------------------
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 8 1   :  increaseApproval approve transferFrom decreaseApproval 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+------------------------------------------------------------
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+13 8 16 1   :  approve transferFrom increaseApproval decreaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 1 8   :  increaseApproval approve decreaseApproval transferFrom 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+13 1 8 16   :  approve decreaseApproval transferFrom increaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+1 13 8 16   :  decreaseApproval approve transferFrom increaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+------------------------------------------------------------
+8 1 13 16   :  transferFrom decreaseApproval approve increaseApproval 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 8 13 1   :  increaseApproval transferFrom approve decreaseApproval 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+1 13 16 8   :  decreaseApproval approve increaseApproval transferFrom 
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+------------------------------------------------------------
+16 1 8 13   :  increaseApproval decreaseApproval transferFrom approve 
+8 13 1 16   :  transferFrom approve decreaseApproval increaseApproval 
+------------------------------------------------------------
+2 13 16 4   :  approve approve increaseApproval approve 
+16 2 13 4   :  increaseApproval approve approve approve 
+------------------------------------------------------------
+2 13 16 4   :  approve approve increaseApproval approve 
+2 16 13 4   :  approve increaseApproval approve approve 
+------------------------------------------------------------
+4 2 16 13   :  approve approve increaseApproval approve 
+4 2 13 16   :  approve approve approve increaseApproval 
+------------------------------------------------------------
+16 2 13 4   :  increaseApproval approve approve approve 
+2 13 4 16   :  approve approve approve increaseApproval 
+------------------------------------------------------------
+2 13 4 16   :  approve approve approve increaseApproval 
+2 16 13 4   :  approve increaseApproval approve approve 
+------------------------------------------------------------
+16 13 4 2   :  increaseApproval approve approve approve 
+13 16 4 2   :  approve increaseApproval approve approve 
+------------------------------------------------------------
+2 5 13 16   :  approve increaseApproval approve increaseApproval 
+5 16 2 13   :  increaseApproval increaseApproval approve approve 
+------------------------------------------------------------
+2 5 13 16   :  approve increaseApproval approve increaseApproval 
+5 2 16 13   :  increaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+2 5 13 16   :  approve increaseApproval approve increaseApproval 
+2 5 16 13   :  approve increaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 13 5 2   :  increaseApproval approve increaseApproval approve 
+13 16 5 2   :  approve increaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 13 5 2   :  increaseApproval approve increaseApproval approve 
+13 2 16 5   :  approve approve increaseApproval increaseApproval 
+------------------------------------------------------------
+16 5 13 2   :  increaseApproval increaseApproval approve approve 
+13 16 5 2   :  approve increaseApproval increaseApproval approve 
+------------------------------------------------------------
+16 5 13 2   :  increaseApproval increaseApproval approve approve 
+13 2 16 5   :  approve approve increaseApproval increaseApproval 
+------------------------------------------------------------
+5 16 13 2   :  increaseApproval increaseApproval approve approve 
+5 13 2 16   :  increaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+5 16 13 2   :  increaseApproval increaseApproval approve approve 
+5 13 16 2   :  increaseApproval approve increaseApproval approve 
+------------------------------------------------------------
+2 13 16 5   :  approve approve increaseApproval increaseApproval 
+16 2 13 5   :  increaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+2 13 16 5   :  approve approve increaseApproval increaseApproval 
+2 16 13 5   :  approve increaseApproval approve increaseApproval 
+------------------------------------------------------------
+2 13 16 5   :  approve approve increaseApproval increaseApproval 
+2 16 5 13   :  approve increaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 16 5 2   :  approve increaseApproval increaseApproval approve 
+16 13 2 5   :  increaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+5 2 16 13   :  increaseApproval approve increaseApproval approve 
+5 2 13 16   :  increaseApproval approve approve increaseApproval 
+------------------------------------------------------------
+16 13 2 5   :  increaseApproval approve approve increaseApproval 
+13 16 2 5   :  approve increaseApproval approve increaseApproval 
+------------------------------------------------------------
+8 13 16 2   :  transferFrom approve increaseApproval approve 
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+------------------------------------------------------------
+8 13 16 2   :  transferFrom approve increaseApproval approve 
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+------------------------------------------------------------
+8 13 16 2   :  transferFrom approve increaseApproval approve 
+16 13 8 2   :  increaseApproval approve transferFrom approve 
+------------------------------------------------------------
+8 13 16 2   :  transferFrom approve increaseApproval approve 
+16 8 13 2   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+13 16 2 8   :  approve increaseApproval approve transferFrom 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+13 8 2 16   :  approve transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+13 8 16 2   :  approve transferFrom increaseApproval approve 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+13 16 8 2   :  approve increaseApproval transferFrom approve 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+13 2 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+13 2 8 16   :  approve approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 2 8   :  increaseApproval approve approve transferFrom 
+8 13 2 16   :  transferFrom approve approve increaseApproval 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+2 8 16 13   :  approve transferFrom increaseApproval approve 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+8 16 2 13   :  transferFrom increaseApproval approve approve 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+2 16 8 13   :  approve increaseApproval transferFrom approve 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+2 16 13 8   :  approve increaseApproval approve transferFrom 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+16 2 8 13   :  increaseApproval approve transferFrom approve 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+8 2 16 13   :  transferFrom approve increaseApproval approve 
+------------------------------------------------------------
+2 13 8 16   :  approve approve transferFrom increaseApproval 
+16 8 2 13   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+13 16 2 8   :  approve increaseApproval approve transferFrom 
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+------------------------------------------------------------
+13 16 2 8   :  approve increaseApproval approve transferFrom 
+16 13 8 2   :  increaseApproval approve transferFrom approve 
+------------------------------------------------------------
+13 16 2 8   :  approve increaseApproval approve transferFrom 
+16 8 13 2   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+2 8 16 13   :  approve transferFrom increaseApproval approve 
+2 8 13 16   :  approve transferFrom approve increaseApproval 
+------------------------------------------------------------
+2 8 16 13   :  approve transferFrom increaseApproval approve 
+8 2 13 16   :  transferFrom approve approve increaseApproval 
+------------------------------------------------------------
+2 8 16 13   :  approve transferFrom increaseApproval approve 
+2 13 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+13 8 2 16   :  approve transferFrom approve increaseApproval 
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+------------------------------------------------------------
+13 8 2 16   :  approve transferFrom approve increaseApproval 
+16 13 8 2   :  increaseApproval approve transferFrom approve 
+------------------------------------------------------------
+13 8 2 16   :  approve transferFrom approve increaseApproval 
+16 8 13 2   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+13 8 16 2   :  approve transferFrom increaseApproval approve 
+------------------------------------------------------------
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+13 16 8 2   :  approve increaseApproval transferFrom approve 
+------------------------------------------------------------
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+13 2 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 16 13 2   :  transferFrom increaseApproval approve approve 
+8 13 2 16   :  transferFrom approve approve increaseApproval 
+------------------------------------------------------------
+2 16 8 13   :  approve increaseApproval transferFrom approve 
+2 8 13 16   :  approve transferFrom approve increaseApproval 
+------------------------------------------------------------
+2 16 8 13   :  approve increaseApproval transferFrom approve 
+8 2 13 16   :  transferFrom approve approve increaseApproval 
+------------------------------------------------------------
+2 16 8 13   :  approve increaseApproval transferFrom approve 
+2 13 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+2 8 13 16   :  approve transferFrom approve increaseApproval 
+2 16 13 8   :  approve increaseApproval approve transferFrom 
+------------------------------------------------------------
+2 8 13 16   :  approve transferFrom approve increaseApproval 
+8 2 16 13   :  transferFrom approve increaseApproval approve 
+------------------------------------------------------------
+2 16 13 8   :  approve increaseApproval approve transferFrom 
+8 2 13 16   :  transferFrom approve approve increaseApproval 
+------------------------------------------------------------
+2 16 13 8   :  approve increaseApproval approve transferFrom 
+2 13 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+16 2 8 13   :  increaseApproval approve transferFrom approve 
+8 2 13 16   :  transferFrom approve approve increaseApproval 
+------------------------------------------------------------
+16 2 8 13   :  increaseApproval approve transferFrom approve 
+2 13 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+13 8 16 2   :  approve transferFrom increaseApproval approve 
+16 13 8 2   :  increaseApproval approve transferFrom approve 
+------------------------------------------------------------
+13 8 16 2   :  approve transferFrom increaseApproval approve 
+16 8 13 2   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+13 16 8 2   :  approve increaseApproval transferFrom approve 
+16 13 8 2   :  increaseApproval approve transferFrom approve 
+------------------------------------------------------------
+13 16 8 2   :  approve increaseApproval transferFrom approve 
+16 8 13 2   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+13 2 16 8   :  approve approve increaseApproval transferFrom 
+16 8 13 2   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+8 2 13 16   :  transferFrom approve approve increaseApproval 
+8 2 16 13   :  transferFrom approve increaseApproval approve 
+------------------------------------------------------------
+8 2 13 16   :  transferFrom approve approve increaseApproval 
+16 8 2 13   :  increaseApproval transferFrom approve approve 
+------------------------------------------------------------
+8 2 16 13   :  transferFrom approve increaseApproval approve 
+2 13 16 8   :  approve approve increaseApproval transferFrom 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+5 8 13 16   :  increaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+5 13 16 8   :  increaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+13 8 5 16   :  approve transferFrom increaseApproval increaseApproval 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+8 5 13 16   :  transferFrom increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+5 13 8 16   :  increaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+8 13 5 16   :  transferFrom approve increaseApproval increaseApproval 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+13 5 16 8   :  approve increaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+5 16 13 8   :  increaseApproval increaseApproval approve transferFrom 
+13 5 8 16   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+16 5 8 13   :  increaseApproval increaseApproval transferFrom approve 
+8 13 16 5   :  transferFrom approve increaseApproval increaseApproval 
+------------------------------------------------------------
+16 5 8 13   :  increaseApproval increaseApproval transferFrom approve 
+13 16 5 8   :  approve increaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+16 5 8 13   :  increaseApproval increaseApproval transferFrom approve 
+13 8 16 5   :  approve transferFrom increaseApproval increaseApproval 
+------------------------------------------------------------
+16 5 8 13   :  increaseApproval increaseApproval transferFrom approve 
+13 16 8 5   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+5 8 13 16   :  increaseApproval transferFrom approve increaseApproval 
+5 16 8 13   :  increaseApproval increaseApproval transferFrom approve 
+------------------------------------------------------------
+5 8 13 16   :  increaseApproval transferFrom approve increaseApproval 
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 8 13 16   :  increaseApproval transferFrom approve increaseApproval 
+5 8 16 13   :  increaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+5 16 8 13   :  increaseApproval increaseApproval transferFrom approve 
+5 13 16 8   :  increaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+5 16 8 13   :  increaseApproval increaseApproval transferFrom approve 
+8 5 13 16   :  transferFrom increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 16 8 13   :  increaseApproval increaseApproval transferFrom approve 
+5 13 8 16   :  increaseApproval approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 8 5   :  increaseApproval approve transferFrom increaseApproval 
+8 13 16 5   :  transferFrom approve increaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 8 5   :  increaseApproval approve transferFrom increaseApproval 
+13 16 5 8   :  approve increaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+16 13 8 5   :  increaseApproval approve transferFrom increaseApproval 
+13 8 16 5   :  approve transferFrom increaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 8 5   :  increaseApproval approve transferFrom increaseApproval 
+13 16 8 5   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+5 13 16 8   :  increaseApproval approve increaseApproval transferFrom 
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 13 16 8   :  increaseApproval approve increaseApproval transferFrom 
+5 8 16 13   :  increaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+13 8 5 16   :  approve transferFrom increaseApproval increaseApproval 
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+------------------------------------------------------------
+13 8 5 16   :  approve transferFrom increaseApproval increaseApproval 
+5 8 16 13   :  increaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+8 5 13 16   :  transferFrom increaseApproval approve increaseApproval 
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+------------------------------------------------------------
+8 5 13 16   :  transferFrom increaseApproval approve increaseApproval 
+5 8 16 13   :  increaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+16 8 5 13   :  increaseApproval transferFrom increaseApproval approve 
+8 13 16 5   :  transferFrom approve increaseApproval increaseApproval 
+------------------------------------------------------------
+16 8 5 13   :  increaseApproval transferFrom increaseApproval approve 
+13 16 5 8   :  approve increaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+16 8 5 13   :  increaseApproval transferFrom increaseApproval approve 
+13 16 8 5   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+5 13 8 16   :  increaseApproval approve transferFrom increaseApproval 
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+------------------------------------------------------------
+5 13 8 16   :  increaseApproval approve transferFrom increaseApproval 
+5 8 16 13   :  increaseApproval transferFrom increaseApproval approve 
+------------------------------------------------------------
+8 13 5 16   :  transferFrom approve increaseApproval increaseApproval 
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+------------------------------------------------------------
+8 13 16 5   :  transferFrom approve increaseApproval increaseApproval 
+16 8 13 5   :  increaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+8 13 16 5   :  transferFrom approve increaseApproval increaseApproval 
+16 13 5 8   :  increaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+8 13 16 5   :  transferFrom approve increaseApproval increaseApproval 
+8 16 13 5   :  transferFrom increaseApproval approve increaseApproval 
+------------------------------------------------------------
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+13 5 16 8   :  approve increaseApproval increaseApproval transferFrom 
+------------------------------------------------------------
+8 5 16 13   :  transferFrom increaseApproval increaseApproval approve 
+13 5 8 16   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+13 16 5 8   :  approve increaseApproval increaseApproval transferFrom 
+16 8 13 5   :  increaseApproval transferFrom approve increaseApproval 
+------------------------------------------------------------
+13 16 5 8   :  approve increaseApproval increaseApproval transferFrom 
+16 13 5 8   :  increaseApproval approve increaseApproval transferFrom 
+------------------------------------------------------------
+13 16 5 8   :  approve increaseApproval increaseApproval transferFrom 
+8 16 13 5   :  transferFrom increaseApproval approve increaseApproval 
+------------------------------------------------------------
+16 8 13 5   :  increaseApproval transferFrom approve increaseApproval 
+13 8 16 5   :  approve transferFrom increaseApproval increaseApproval 
+------------------------------------------------------------
+16 8 13 5   :  increaseApproval transferFrom approve increaseApproval 
+13 16 8 5   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+16 13 5 8   :  increaseApproval approve increaseApproval transferFrom 
+13 8 16 5   :  approve transferFrom increaseApproval increaseApproval 
+------------------------------------------------------------
+16 13 5 8   :  increaseApproval approve increaseApproval transferFrom 
+13 16 8 5   :  approve increaseApproval transferFrom increaseApproval 
+------------------------------------------------------------
+13 8 16 5   :  approve transferFrom increaseApproval increaseApproval 
+8 16 13 5   :  transferFrom increaseApproval approve increaseApproval 
+------------------------------------------------------------
+13 16 8 5   :  approve increaseApproval transferFrom increaseApproval 
+8 16 13 5   :  transferFrom increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 9 16 13   :  increaseApproval increaseApproval increaseApproval approve 
+5 13 9 16   :  increaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+5 9 16 13   :  increaseApproval increaseApproval increaseApproval approve 
+5 9 13 16   :  increaseApproval increaseApproval approve increaseApproval 
+------------------------------------------------------------
+5 9 16 13   :  increaseApproval increaseApproval increaseApproval approve 
+13 5 9 16   :  approve increaseApproval increaseApproval increaseApproval 
+------------------------------------------------------------
+13 5 16 9   :  approve increaseApproval increaseApproval increaseApproval 
+5 16 13 9   :  increaseApproval increaseApproval approve increaseApproval 
+------------------------------------------------------------
+9 16 13 5   :  increaseApproval increaseApproval approve increaseApproval 
+9 13 16 5   :  increaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+13 16 5 9   :  approve increaseApproval increaseApproval increaseApproval 
+16 13 5 9   :  increaseApproval approve increaseApproval increaseApproval 
+------------------------------------------------------------
+11 13 16 8   :  transferFrom approve increaseApproval transferFrom 
+11 16 8 13   :  transferFrom increaseApproval transferFrom approve 
+------------------------------------------------------------
+11 13 16 8   :  transferFrom approve increaseApproval transferFrom 
+11 8 16 13   :  transferFrom transferFrom increaseApproval approve 
+------------------------------------------------------------
+11 13 16 8   :  transferFrom approve increaseApproval transferFrom 
+16 11 13 8   :  increaseApproval transferFrom approve transferFrom 
+------------------------------------------------------------
+11 13 16 8   :  transferFrom approve increaseApproval transferFrom 
+11 16 13 8   :  transferFrom increaseApproval approve transferFrom 
+------------------------------------------------------------
+11 13 16 8   :  transferFrom approve increaseApproval transferFrom 
+16 11 8 13   :  increaseApproval transferFrom transferFrom approve 
+------------------------------------------------------------
+11 16 8 13   :  transferFrom increaseApproval transferFrom approve 
+11 8 13 16   :  transferFrom transferFrom approve increaseApproval 
+------------------------------------------------------------
+11 16 8 13   :  transferFrom increaseApproval transferFrom approve 
+11 13 8 16   :  transferFrom approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 8 11 13   :  increaseApproval transferFrom transferFrom approve 
+8 11 13 16   :  transferFrom transferFrom approve increaseApproval 
+------------------------------------------------------------
+11 8 16 13   :  transferFrom transferFrom increaseApproval approve 
+11 8 13 16   :  transferFrom transferFrom approve increaseApproval 
+------------------------------------------------------------
+11 8 16 13   :  transferFrom transferFrom increaseApproval approve 
+11 13 8 16   :  transferFrom approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 11 13 8   :  increaseApproval transferFrom approve transferFrom 
+11 8 13 16   :  transferFrom transferFrom approve increaseApproval 
+------------------------------------------------------------
+16 11 13 8   :  increaseApproval transferFrom approve transferFrom 
+11 13 8 16   :  transferFrom approve transferFrom increaseApproval 
+------------------------------------------------------------
+11 16 13 8   :  transferFrom increaseApproval approve transferFrom 
+11 8 13 16   :  transferFrom transferFrom approve increaseApproval 
+------------------------------------------------------------
+11 16 13 8   :  transferFrom increaseApproval approve transferFrom 
+11 13 8 16   :  transferFrom approve transferFrom increaseApproval 
+------------------------------------------------------------
+16 11 8 13   :  increaseApproval transferFrom transferFrom approve 
+11 13 8 16   :  transferFrom approve transferFrom increaseApproval 
+------------------------------------------------------------
+8 18 11 15   :  transferFrom increaseApproval transferFrom approve 
+15 18 8 11   :  approve increaseApproval transferFrom transferFrom 
+------------------------------------------------------------
+8 18 11 15   :  transferFrom increaseApproval transferFrom approve 
+15 8 18 11   :  approve transferFrom increaseApproval transferFrom 
+------------------------------------------------------------
+8 18 11 15   :  transferFrom increaseApproval transferFrom approve 
+15 8 11 18   :  approve transferFrom transferFrom increaseApproval 
+------------------------------------------------------------
+18 8 11 15   :  increaseApproval transferFrom transferFrom approve 
+15 18 8 11   :  approve increaseApproval transferFrom transferFrom 
+------------------------------------------------------------
+18 8 11 15   :  increaseApproval transferFrom transferFrom approve 
+15 8 18 11   :  approve transferFrom increaseApproval transferFrom 
+------------------------------------------------------------
+18 8 11 15   :  increaseApproval transferFrom transferFrom approve 
+15 8 11 18   :  approve transferFrom transferFrom increaseApproval 
+------------------------------------------------------------
+11 8 15 18   :  transferFrom transferFrom approve increaseApproval 
+18 15 11 8   :  increaseApproval approve transferFrom transferFrom 
+------------------------------------------------------------
+15 18 8 11   :  approve increaseApproval transferFrom transferFrom 
+18 8 15 11   :  increaseApproval transferFrom approve transferFrom 
+------------------------------------------------------------
+15 18 8 11   :  approve increaseApproval transferFrom transferFrom 
+18 15 8 11   :  increaseApproval approve transferFrom transferFrom 
+------------------------------------------------------------
+15 18 8 11   :  approve increaseApproval transferFrom transferFrom 
+8 18 15 11   :  transferFrom increaseApproval approve transferFrom 
+------------------------------------------------------------
+15 18 8 11   :  approve increaseApproval transferFrom transferFrom 
+8 11 18 15   :  transferFrom transferFrom increaseApproval approve 
+------------------------------------------------------------
+11 8 18 15   :  transferFrom transferFrom increaseApproval approve 
+15 11 18 8   :  approve transferFrom increaseApproval transferFrom 
+------------------------------------------------------------
+11 8 18 15   :  transferFrom transferFrom increaseApproval approve 
+15 11 8 18   :  approve transferFrom transferFrom increaseApproval 
+------------------------------------------------------------
+18 15 11 8   :  increaseApproval approve transferFrom transferFrom 
+11 15 18 8   :  transferFrom approve increaseApproval transferFrom 
+------------------------------------------------------------
+18 15 11 8   :  increaseApproval approve transferFrom transferFrom 
+15 11 18 8   :  approve transferFrom increaseApproval transferFrom 
+------------------------------------------------------------
+18 15 11 8   :  increaseApproval approve transferFrom transferFrom 
+11 15 8 18   :  transferFrom approve transferFrom increaseApproval 
+------------------------------------------------------------
+18 15 11 8   :  increaseApproval approve transferFrom transferFrom 
+15 11 8 18   :  approve transferFrom transferFrom increaseApproval 
+------------------------------------------------------------
+18 8 15 11   :  increaseApproval transferFrom approve transferFrom 
+15 8 18 11   :  approve transferFrom increaseApproval transferFrom 
+------------------------------------------------------------
+18 8 15 11   :  increaseApproval transferFrom approve transferFrom 
+15 8 11 18   :  approve transferFrom transferFrom increaseApproval 
+------------------------------------------------------------
+11 18 15 8   :  transferFrom increaseApproval approve transferFrom 
+15 11 18 8   :  approve transferFrom increaseApproval transferFrom 
+------------------------------------------------------------
+11 18 15 8   :  transferFrom increaseApproval approve transferFrom 
+15 11 8 18   :  approve transferFrom transferFrom increaseApproval 
+------------------------------------------------------------

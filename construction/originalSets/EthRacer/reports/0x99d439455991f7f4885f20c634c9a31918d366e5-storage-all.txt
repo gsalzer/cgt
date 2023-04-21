@@ -1,0 +1,30 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+1 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'toggleMigrationStatus', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f3191443'}
+2 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+3 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'toggleTokenSaleOnHold', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f653d286'}
+4 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'finalize', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4bb278f3'}
+5 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000003eb948cac9f048ecd40a04f8b99710416f2f93810000000000000000000000000000000000000000000000000000000000000000'}
+6 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+7 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '597fde26', 'tx_input': '11111111'}
+8 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'finalize', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '599dba2d', 'tx_input': '4bb278f3'}
+9 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '597fde26', 'tx_input': '11111111'}
+10 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000020000000000000000'}
+11 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '59872a91', 'tx_input': '11111111'}
+12 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '59872a91', 'tx_input': '11111111'}
+13 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000800000'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'toggleMigrationStatus', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f3191443'}
+15 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000040000000000000000000000000000000'}
+16 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000100000000000000000000000000'}
+17 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'finalize', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4bb278f3'}
+18 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createTokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '59872a91', 'tx_input': 'cedbbeee0000000000000000000000001111111111111111111111111111111111111111'}
+19 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'toggleTokenSaleOnHold', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f653d286'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createTokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '597fde26', 'tx_input': 'cedbbeee0000000000000000000000004b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf'}
+21 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createTokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '597fde26', 'tx_input': 'cedbbeee0000000000000000000000001111111111111111111111111111111111111111'}
+22 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000022222222222222222222222222222222222222220000000000000000000000004b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf0000000000000000000000000000000000000000000000000000000000000000'}
+23 : {'tx_caller': '4b9c3ec1875eb2090bf0ccba4c8a057963ac3ccf', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

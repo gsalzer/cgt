@@ -1,0 +1,13 @@
+Bug types: 11
+--------------------------------------------------------------------------------
+ 12 : ['ownerBurnToken']
+ 11 : ['mint']
+  9 : ['mint', 'ownerSetStakeStartTime']
+  7 : ['mint', 'ownerBurnToken']
+  5 : ['transfer', 'ownerBurnToken']
+  5 : ['ownerSetStakeStartTime', 'ownerBurnToken']
+  3 : ['mint', 'ownerSetStakeStartTime', 'ownerBurnToken']
+  2 : ['transfer']
+  1 : ['transferFrom', 'ownerBurnToken']
+  1 : ['transferFrom']
+  1 : ['ownerSetStakeStartTime']

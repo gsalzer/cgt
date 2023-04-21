@@ -1,0 +1,430 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '8c5cbe9b28618dd2d7e6a4110fb52dfa378a0196', 'name': 'changeDeveloperETHDestinationAddress', 'tx_input': 'b5ef06d0'}
+1 : {'tx_value': '0', 'tx_caller': '8c5cbe9b28618dd2d7e6a4110fb52dfa378a0196', 'name': 'changeDeveloperSFTDestinationAddress', 'tx_input': '581847d6'}
+2 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000f65f6e32e71d4385093d958eb8aa9af7621381490000000000000000000000000000000000000000000000000000000000000000'}
+3 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000efe02873358242fe103a7d7d9250ef7cf1bc1c320000000000000000000000000000000000000000000000000000000000000000'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+5 : {'tx_caller': '8c5cbe9b28618dd2d7e6a4110fb52dfa378a0196', 'name': 'triggerRefund', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '263d4878'}
+6 : {'tx_caller': '8c5cbe9b28618dd2d7e6a4110fb52dfa378a0196', 'name': 'triggerMinCap', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'c2812f74'}
+7 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+8 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000061efab5fda3649dbf2b5c241dff754797116f9950000000000000000000000000000000000000000000000000000000000000000'}
+9 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+10 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+11 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000c2eaf8ae2b73882466f2a8e47a9a8ee380c0483200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000c2eaf8ae2b73882466f2a8e47a9a8ee380c048320000000000000000000000008c5cbe9b28618dd2d7e6a4110fb52dfa378a01960000000000000000000000000000000000000000000000000000000000000000'}
+14 : {'tx_caller': '8c5cbe9b28618dd2d7e6a4110fb52dfa378a0196', 'name': 'endSale', 'contract_balance': '2710', 'tx_value': '0', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '380d831b'}
+15 : {'tx_caller': '8c5cbe9b28618dd2d7e6a4110fb52dfa378a0196', 'name': 'endSale', 'contract_balance': '0', 'tx_value': '0', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '380d831b'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+17 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000008a4984b1177071df2c1eb02abdbfa52fa71ea7510000000000000000000000000000000000000000000000000000000000000001'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000008a4984b1177071df2c1eb02abdbfa52fa71ea7510000000000000000000000000000000000000000000000000000000000000003'}
+19 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'withdrawFunds', 'contract_balance': '2710', 'tx_value': '0', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '24600fc3'}
+20 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'createTokens', 'tx_blocknumber': '3f93c0', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '4e3acd40', 'tx_input': 'b4427263'}
+21 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000007e31f6891758addc2a4151fdf48af6be6cdab791000000000000000000000000000000000000000000045498000000000000000f'}
+22 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'createTokens', 'tx_blocknumber': '4000e9', 'tx_value': '8000000000', 'tx_timestamp': '4ec11eb3', 'tx_input': 'b4427263'}
+23 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000001111111111111111111111111111111111111111000000000000000000000000c90a592dd7270e5de0bd8e5f5ddfab1ff030e0df0000000000000000000000000000000000000000000000000000000000000000'}
+24 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+--------------------------------------------------------------------------------
+
+Full traces: 133
+--------------------------------------------------------------------------------
+1 6 14   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 14 1   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 14 1   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+6 1 14   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+0 1 6 14   :  changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+0 1 6 14   :  changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+0 1 6 14   :  changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+0 1 6 14   :  changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+1 0 6 14   :  changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+1 6 0 14   :  changeDeveloperSFTDestinationAddress triggerMinCap changeDeveloperETHDestinationAddress endSale 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+6 0 1 14   :  triggerMinCap changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+6 1 0 14   :  triggerMinCap changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress endSale 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+0 6 1 14   :  changeDeveloperETHDestinationAddress triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+1 6 14 0   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+6 14 1 0   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress 
+6 1 14 0   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+1 0 6 14   :  changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress triggerMinCap endSale 
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 0 6 14   :  changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress triggerMinCap endSale 
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 0 6 14   :  changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress triggerMinCap endSale 
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 0 14   :  changeDeveloperSFTDestinationAddress triggerMinCap changeDeveloperETHDestinationAddress endSale 
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 0 14   :  changeDeveloperSFTDestinationAddress triggerMinCap changeDeveloperETHDestinationAddress endSale 
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 0 14   :  changeDeveloperSFTDestinationAddress triggerMinCap changeDeveloperETHDestinationAddress endSale 
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 0 1 14   :  triggerMinCap changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress endSale 
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 0 1 14   :  triggerMinCap changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress endSale 
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 0 1 14   :  triggerMinCap changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress endSale 
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+6 1 0 14   :  triggerMinCap changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress endSale 
+------------------------------------------------------------
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+0 6 1 14   :  changeDeveloperETHDestinationAddress triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+1 6 14 0   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+6 0 14 1   :  triggerMinCap changeDeveloperETHDestinationAddress endSale changeDeveloperSFTDestinationAddress 
+6 1 14 0   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+6 1 0 14   :  triggerMinCap changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress endSale 
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 0 14   :  triggerMinCap changeDeveloperSFTDestinationAddress changeDeveloperETHDestinationAddress endSale 
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+0 6 1 14   :  changeDeveloperETHDestinationAddress triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 6 14 0   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+0 6 14 1   :  changeDeveloperETHDestinationAddress triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+6 1 14 0   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+0 6 1 14   :  changeDeveloperETHDestinationAddress triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+1 6 14 0   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+6 14 0 1   :  triggerMinCap endSale changeDeveloperETHDestinationAddress changeDeveloperSFTDestinationAddress 
+6 1 14 0   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale changeDeveloperETHDestinationAddress 
+------------------------------------------------------------
+6 1 14 2   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transfer 
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+------------------------------------------------------------
+6 1 14 2   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transfer 
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 14 2   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transfer 
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 14 2   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transfer 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+1 2 6 14   :  changeDeveloperSFTDestinationAddress transfer triggerMinCap endSale 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+6 1 2 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transfer endSale 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+2 6 1 14   :  transfer triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+1 6 2 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transfer endSale 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+6 2 1 14   :  triggerMinCap transfer changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+2 1 6 14   :  transfer changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+6 14 1 2   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transfer 
+1 6 14 2   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transfer 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+1 2 6 14   :  changeDeveloperSFTDestinationAddress transfer triggerMinCap endSale 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+6 1 2 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transfer endSale 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+2 6 1 14   :  transfer triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+1 6 2 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transfer endSale 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+6 2 1 14   :  triggerMinCap transfer changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+2 1 6 14   :  transfer changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+6 2 14 1   :  triggerMinCap transfer endSale changeDeveloperSFTDestinationAddress 
+1 6 14 2   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transfer 
+------------------------------------------------------------
+1 2 6 14   :  changeDeveloperSFTDestinationAddress transfer triggerMinCap endSale 
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 2 6 14   :  changeDeveloperSFTDestinationAddress transfer triggerMinCap endSale 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 2 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transfer endSale 
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 2 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transfer endSale 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+2 6 1 14   :  transfer triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+2 6 1 14   :  transfer triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 6 2 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transfer endSale 
+------------------------------------------------------------
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+6 2 1 14   :  triggerMinCap transfer changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+2 1 6 14   :  transfer changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+2 6 14 1   :  transfer triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 6 14 2   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transfer 
+------------------------------------------------------------
+1 6 2 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transfer endSale 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 2 1 14   :  triggerMinCap transfer changeDeveloperSFTDestinationAddress endSale 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+2 1 6 14   :  transfer changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 14 2 1   :  triggerMinCap endSale transfer changeDeveloperSFTDestinationAddress 
+1 6 14 2   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transfer 
+------------------------------------------------------------
+1 6 14 3   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transferFrom 
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 14 3   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transferFrom 
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 14 3   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transferFrom 
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 14 3   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale transferFrom 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+3 6 1 14   :  transferFrom triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+3 6 1 14   :  transferFrom triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+3 6 1 14   :  transferFrom triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+3 6 1 14   :  transferFrom triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+6 3 1 14   :  triggerMinCap transferFrom changeDeveloperSFTDestinationAddress endSale 
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 3 1 14   :  triggerMinCap transferFrom changeDeveloperSFTDestinationAddress endSale 
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 3 1 14   :  triggerMinCap transferFrom changeDeveloperSFTDestinationAddress endSale 
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 3 1 14   :  triggerMinCap transferFrom changeDeveloperSFTDestinationAddress endSale 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+6 1 14 3   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transferFrom 
+------------------------------------------------------------
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+3 1 6 14   :  transferFrom changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 3 6 14   :  changeDeveloperSFTDestinationAddress transferFrom triggerMinCap endSale 
+------------------------------------------------------------
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 6 3 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transferFrom endSale 
+------------------------------------------------------------
+3 6 14 1   :  transferFrom triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+6 1 3 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transferFrom endSale 
+------------------------------------------------------------
+6 1 14 3   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transferFrom 
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 14 3   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transferFrom 
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 14 3   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale transferFrom 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+3 1 6 14   :  transferFrom changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+3 1 6 14   :  transferFrom changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+3 1 6 14   :  transferFrom changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+1 3 6 14   :  changeDeveloperSFTDestinationAddress transferFrom triggerMinCap endSale 
+------------------------------------------------------------
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+1 6 3 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transferFrom endSale 
+------------------------------------------------------------
+6 14 3 1   :  triggerMinCap endSale transferFrom changeDeveloperSFTDestinationAddress 
+6 1 3 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transferFrom endSale 
+------------------------------------------------------------
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+1 3 6 14   :  changeDeveloperSFTDestinationAddress transferFrom triggerMinCap endSale 
+------------------------------------------------------------
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+1 6 3 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transferFrom endSale 
+------------------------------------------------------------
+6 3 14 1   :  triggerMinCap transferFrom endSale changeDeveloperSFTDestinationAddress 
+6 1 3 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transferFrom endSale 
+------------------------------------------------------------
+1 3 6 14   :  changeDeveloperSFTDestinationAddress transferFrom triggerMinCap endSale 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+1 6 3 14   :  changeDeveloperSFTDestinationAddress triggerMinCap transferFrom endSale 
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+------------------------------------------------------------
+6 14 1 3   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress transferFrom 
+6 1 3 14   :  triggerMinCap changeDeveloperSFTDestinationAddress transferFrom endSale 
+------------------------------------------------------------
+5 6 14 1   :  triggerRefund triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+5 6 1 14   :  triggerRefund triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+------------------------------------------------------------
+5 6 14 1   :  triggerRefund triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 5 6 14   :  changeDeveloperSFTDestinationAddress triggerRefund triggerMinCap endSale 
+------------------------------------------------------------
+5 6 14 1   :  triggerRefund triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+5 1 6 14   :  triggerRefund changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+6 1 10 14   :  triggerMinCap changeDeveloperSFTDestinationAddress approve endSale 
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 10 14   :  triggerMinCap changeDeveloperSFTDestinationAddress approve endSale 
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 10 14   :  triggerMinCap changeDeveloperSFTDestinationAddress approve endSale 
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+------------------------------------------------------------
+6 1 10 14   :  triggerMinCap changeDeveloperSFTDestinationAddress approve endSale 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 10 1 14   :  triggerMinCap approve changeDeveloperSFTDestinationAddress endSale 
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 10 1 14   :  triggerMinCap approve changeDeveloperSFTDestinationAddress endSale 
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 10 1 14   :  triggerMinCap approve changeDeveloperSFTDestinationAddress endSale 
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+------------------------------------------------------------
+6 10 1 14   :  triggerMinCap approve changeDeveloperSFTDestinationAddress endSale 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+10 6 1 14   :  approve triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+10 6 1 14   :  approve triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+10 6 1 14   :  approve triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+------------------------------------------------------------
+10 6 1 14   :  approve triggerMinCap changeDeveloperSFTDestinationAddress endSale 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 10 6 14   :  changeDeveloperSFTDestinationAddress approve triggerMinCap endSale 
+------------------------------------------------------------
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+10 1 6 14   :  approve changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 6 10 14   :  changeDeveloperSFTDestinationAddress triggerMinCap approve endSale 
+------------------------------------------------------------
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+1 6 14 10   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale approve 
+------------------------------------------------------------
+10 6 14 1   :  approve triggerMinCap endSale changeDeveloperSFTDestinationAddress 
+6 1 14 10   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale approve 
+------------------------------------------------------------
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+1 10 6 14   :  changeDeveloperSFTDestinationAddress approve triggerMinCap endSale 
+------------------------------------------------------------
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+10 1 6 14   :  approve changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+1 6 10 14   :  changeDeveloperSFTDestinationAddress triggerMinCap approve endSale 
+------------------------------------------------------------
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+1 6 14 10   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale approve 
+------------------------------------------------------------
+6 14 10 1   :  triggerMinCap endSale approve changeDeveloperSFTDestinationAddress 
+6 1 14 10   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale approve 
+------------------------------------------------------------
+1 10 6 14   :  changeDeveloperSFTDestinationAddress approve triggerMinCap endSale 
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+------------------------------------------------------------
+1 10 6 14   :  changeDeveloperSFTDestinationAddress approve triggerMinCap endSale 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+10 1 6 14   :  approve changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+------------------------------------------------------------
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+1 6 10 14   :  changeDeveloperSFTDestinationAddress triggerMinCap approve endSale 
+------------------------------------------------------------
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+1 6 14 10   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale approve 
+------------------------------------------------------------
+6 14 1 10   :  triggerMinCap endSale changeDeveloperSFTDestinationAddress approve 
+6 1 14 10   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale approve 
+------------------------------------------------------------
+10 1 6 14   :  approve changeDeveloperSFTDestinationAddress triggerMinCap endSale 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 10 14   :  changeDeveloperSFTDestinationAddress triggerMinCap approve endSale 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+1 6 14 10   :  changeDeveloperSFTDestinationAddress triggerMinCap endSale approve 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------
+6 1 14 10   :  triggerMinCap changeDeveloperSFTDestinationAddress endSale approve 
+6 10 14 1   :  triggerMinCap approve endSale changeDeveloperSFTDestinationAddress 
+------------------------------------------------------------

@@ -1,0 +1,35 @@
+{
+    "addr": "0xd56e2434e96dc8940050d110d581002bffe8d315",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "LetMeIn",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "0120581211627bb150f139a73e0394d2",
+    "fp_sol": "79b778e987482f63935ae67cd057e222",
+    "fp_sol2": "a979e5148c80264edea76e8b056a4bc6",
+    "id": "LetMeIn-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/LetMeIn.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_LetMeIn.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

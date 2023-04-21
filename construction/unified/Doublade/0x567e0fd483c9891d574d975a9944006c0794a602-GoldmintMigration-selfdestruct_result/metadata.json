@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "GoldmintMigration",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x567e0fd483c9891d574d975a9944006c0794a602",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x567e0fd483c9891d574d975a9944006c0794a602",
+            "main",
+            "GoldFee"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "cb35bf7d2afc362f28ce6a0156e6f5e9",
+    "fp_sol2": "3151c504fa99bd345deac352806972b8",
+    "id": "0x567e0fd483c9891d574d975a9944006c0794a602-GoldmintMigration-selfdestruct_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test1362.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

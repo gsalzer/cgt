@@ -1,0 +1,60 @@
+{
+    "addr": "0xdda65daa223aaae4add64e4e390cda7101c4ab41",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            true
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6-2016-08-17-c499470",
+    "compiler_orig": false,
+    "contractname": "CrossWhitehatWithdraw",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "904259a0130aaaa87ce4a9f607eab56b",
+    "fp_runtime": "0de32d13a716f0d74366ca177ddd72f9",
+    "fp_sol": "1a5d927054ea9dbfcc7903c503f2924a",
+    "fp_sol2": "1a5d927054ea9dbfcc7903c503f2924a",
+    "id": "0394_Code_25_0xdda65daa223aaae4add64e4e390cda7101c4ab41",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

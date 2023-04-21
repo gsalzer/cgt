@@ -1,0 +1,37 @@
+{
+    "addr": "0x79ec9b050ec82c31d4fc90fb169d968256c5cb11",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-08-08-c3ed550",
+    "compiler_orig": true,
+    "contractname": "StakeProver",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "3e6899ae30e1d0f83dd9ee1a2484577d",
+    "fp_runtime": "331e979ac66262297dc5d6f38e4ac296",
+    "fp_sol": "d775ad574408923f54eaf91ab5876bac",
+    "fp_sol2": "d775ad574408923f54eaf91ab5876bac",
+    "id": "0x79ec9b050ec82c31d4fc90fb169d968256c5cb11",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

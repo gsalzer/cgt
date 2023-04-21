@@ -1,0 +1,2 @@
+{u'source_code/test1846.sol': {u'P4PState': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test1846.sol:11:5: Warning: Integer Overflow.\n    function addGames(bytes32[] states, bytes32[] boards) {}\nInteger Overflow occurs if:\n    states = 115792089237316195423570985008687907853269984665640564039457584007913129639935'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '36.8'}}}
+

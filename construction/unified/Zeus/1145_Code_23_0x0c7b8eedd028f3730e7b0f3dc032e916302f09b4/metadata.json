@@ -1,0 +1,60 @@
+{
+    "addr": "0x0c7b8eedd028f3730e7b0f3dc032e916302f09b4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-10-5f97274",
+    "compiler_orig": false,
+    "contractname": "CafeMaker",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "6d6c95d89b0e1dc5a06b4fb2388c230b",
+    "fp_runtime": "c01e878f31b30762338bfa10f3065af1",
+    "fp_sol": "f5d6ba561c0ea71db4b4295cb0619c2e",
+    "fp_sol2": "f5d6ba561c0ea71db4b4295cb0619c2e",
+    "id": "1145_Code_23_0x0c7b8eedd028f3730e7b0f3dc032e916302f09b4",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

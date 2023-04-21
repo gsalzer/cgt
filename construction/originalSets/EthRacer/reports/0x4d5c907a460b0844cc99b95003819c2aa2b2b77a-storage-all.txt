@@ -1,0 +1,54 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '1111111111111111111111111111111111111111', 'name': 'increaseApproval', 'tx_input': 'd73dd6230000000000000000000000001111111111111111111111111111111111111111'}
+1 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000006956e2f4c16aaae08aee6ae428a8e653d529e4360000000000000000000000000000000000000000000000000000000000000000'}
+2 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'setAdmin', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '704b6c02'}
+3 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000001111111111111111111111111111111111111111000000000000000000000000516f0e8ad0bfdc784e7386d266f5bf7a70fd155c0000000000000000000000000000000000000000000000000000000000000000'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000000'}
+5 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'setAdmin', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '704b6c0200000000000000000000000069cc12b9e95b74d7e04fbc5072c8e767730fe98d'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setTransferEnabled', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9fe9f623'}
+7 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000009633ed4616a48b281fb043af8d3718988cf0167200000000000000000000000022267f6ae47fca996174e5075fb374ffb190f5000000000000000000000000000000000000000000000000000000000000000000'}
+8 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c6800000000000000000000000000000000000000002565e511551003d580000000'}
+9 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'setTransferEnabled', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9fe9f623'}
+10 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+11 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000004e35acd4237dada3be3038ebab74d75b277233cc'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222'}
+14 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000075bc5f983374e4cef8aef3dd675d42b39e24b9d40000000000000000000000000000000000000000000000000000000000000001'}
+15 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c68000000000000000000000000000000000000000037f7e7ebff2803ceccf00000'}
+16 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000075bc5f983374e4cef8aef3dd675d42b39e24b9d40000000000000000000000000000000000000000000000000000000000000003'}
+17 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'setTransferEnabled', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9fe9f6230000000000000000000000000000000000000000000000000000000000000001'}
+18 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'setTransferEnabled', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9fe9f6230000000000000000000000000000000000000000000000000000000000000003'}
+19 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burnFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79cc679000000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+20 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000e1856b0da361331836223615c40e410823fd7ec00000000000000000000000000000000000000000000000000000000000000000'}
+21 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000098671507084501aafc12a13ad31b95bd870c8513'}
+22 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111'}
+23 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000009633ed4616a48b281fb043af8d3718988cf01672000000000000000000000000b5923f2ad4014c624daf16c96fef6958c56759b30000000000000000000000000000000000000000000000000000000000000000'}
+24 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+25 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000022222222222222222222222222222222222222220000000000000000000000001a4443faf9c11beaaf46a11cfa00c469d6ad06e90000000000000000000000000000000000000000000000000000000000000000'}
+26 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+27 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burnFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79cc679000000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+28 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+29 : {'tx_caller': '9633ed4616a48b281fb043af8d3718988cf01672', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 6
+--------------------------------------------------------------------------------
+9 3 2   :  setTransferEnabled transferFrom setAdmin 
+9 2 3   :  setTransferEnabled setAdmin transferFrom 
+------------------------------------------------------------
+3 9 2   :  transferFrom setTransferEnabled setAdmin 
+9 2 3   :  setTransferEnabled setAdmin transferFrom 
+------------------------------------------------------------
+9 14 2   :  setTransferEnabled transfer setAdmin 
+9 2 14   :  setTransferEnabled setAdmin transfer 
+------------------------------------------------------------
+14 9 2   :  transfer setTransferEnabled setAdmin 
+9 2 14   :  setTransferEnabled setAdmin transfer 
+------------------------------------------------------------
+9 15 2   :  setTransferEnabled burn setAdmin 
+9 2 15   :  setTransferEnabled setAdmin burn 
+------------------------------------------------------------
+9 2 15   :  setTransferEnabled setAdmin burn 
+15 9 2   :  burn setTransferEnabled setAdmin 
+------------------------------------------------------------

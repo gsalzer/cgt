@@ -1,0 +1,37 @@
+{
+    "addr": "0x81190d066c1cca9a778a41703c9c7f6c506629d1",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EthDickMeasuringGamev3.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "EthDickMeasuringGamev3",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "9d3b8ac7e74fbf89ea47dcd8b2d28ea6",
+    "fp_runtime": "161cc8e58fd4c195754b40037aff2843",
+    "fp_sol": "855222da5dfcf3ecdb7d4cd2d510ee8f",
+    "fp_sol2": "37b2abe5f70e73eb95cb61fa78c17b9f",
+    "id": "EthDickMeasuringGamev3-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EthDickMeasuringGamev3.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

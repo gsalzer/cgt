@@ -1,0 +1,39 @@
+{
+    "addr": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "TokenBank",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "005bf7f4e7fbae4948eaf4d68f163037",
+    "fp_runtime": "89cb0bf7f5a4370f10c06430aec6b7c3",
+    "fp_sol": "9625bb2120997df38d1c2c3abad544d4",
+    "fp_sol2": "8788741dcb3e66d4bd257f6029b6ef75",
+    "id": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

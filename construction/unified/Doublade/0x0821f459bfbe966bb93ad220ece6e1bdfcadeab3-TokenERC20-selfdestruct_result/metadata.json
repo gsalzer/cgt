@@ -1,0 +1,37 @@
+{
+    "addr": "0x0821f459bfbe966bb93ad220ece6e1bdfcadeab3",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "TokenERC20",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "3ab12539423268ef8fd694e600ecd593",
+    "fp_runtime": "2225b2f43ef913002b6e609a974664d7",
+    "fp_sol": "13ec4d8eb68d8d4290d02e9d8a8c8897",
+    "fp_sol2": "7a1b82445dd38f0591dd426f7788f8db",
+    "id": "0x0821f459bfbe966bb93ad220ece6e1bdfcadeab3-TokenERC20-selfdestruct_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test120.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

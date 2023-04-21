@@ -1,0 +1,37 @@
+{
+    "addr": "0x9922bff8380e9062eda0ad2f5712d96a88c3d0b3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Bounty0xPresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "Bounty0xPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ab8cf149b12d6068b75c3591567612d2",
+    "fp_runtime": "32fe5b6a9bc08e810f86bf12f8d55e02",
+    "fp_sol": "9a17f7eb142dbbc787f0820d389c2c9e",
+    "fp_sol2": "6cc32cd563ea5798054b81735099e801",
+    "id": "Bounty0xPresale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Bounty0xPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

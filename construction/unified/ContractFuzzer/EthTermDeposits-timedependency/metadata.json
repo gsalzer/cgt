@@ -1,0 +1,37 @@
+{
+    "addr": "0x8b2c66d91f5751b905fa801668c9b61ae3975282",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EthTermDeposits.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.12+commit.194ff033",
+    "compiler_orig": false,
+    "contractname": "EthTermDeposits",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "95a99247e9d4379b119a40e9d326d71d",
+    "fp_runtime": "92010254204429b83f305fd3f21c40ed",
+    "fp_sol": "1447d0e6626f4acc11c127a76405ed54",
+    "fp_sol2": "a0235a57868ecc1e539aeffcdd67d3e2",
+    "id": "EthTermDeposits-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EthTermDeposits.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

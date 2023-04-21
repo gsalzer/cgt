@@ -1,0 +1,37 @@
+{
+    "addr": "0x02e01e9a73ed2cb24b32628c935256e455b0a078",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-03-31-c492d9b",
+    "compiler_orig": true,
+    "contractname": "RaceFTW",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "5774f30038c01999b4fae30e61972e94",
+    "fp_runtime": "5c0ca26b8db46b117b9e965dae960f67",
+    "fp_sol": "5acdbdbff460465e6590f86299fe642b",
+    "fp_sol2": "5acdbdbff460465e6590f86299fe642b",
+    "id": "0x02e01e9a73ed2cb24b32628c935256e455b0a078",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

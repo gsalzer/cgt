@@ -1,0 +1,1546 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'a1201a92b56cb45860808c1f2fde9f482ccd2790', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000a1201a92b56cb45860808c1f2fde9f482ccd2790'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'decimals', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '313ce567'}
+3 : {'tx_caller': 'a1201a92b56cb45860808c1f2fde9f482ccd2790', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000a1201a92b56cb45860808c1f2fde9f482ccd27900000000000000000000000000000000000000000013d0e6c97d4801cec000000'}
+4 : {'tx_caller': 'a1201a92b56cb45860808c1f2fde9f482ccd2790', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000a1201a92b56cb45860808c1f2fde9f482ccd2790000000000000000000000000eea79c64a3c81709e53b598913a529328a74ac210000000000000000000000000000000000000000013d0e6c97d4801cec000000'}
+5 : {'tx_caller': 'a1201a92b56cb45860808c1f2fde9f482ccd2790', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000a1201a92b56cb45860808c1f2fde9f482ccd27900000000000000000000000000000000000000000017000000000000000000000'}
+6 : {'tx_caller': 'a1201a92b56cb45860808c1f2fde9f482ccd2790', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000a1201a92b56cb45860808c1f2fde9f482ccd2790000000000000000000000000a1201a92b56cb45860808c1f2fde9f482ccd27900000000000000000000000000000000000000000017000000000000000000000'}
+--------------------------------------------------------------------------------
+
+Full traces: 511
+--------------------------------------------------------------------------------
+3 4 5   :  approve transferFrom approve 
+3 5 4   :  approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 5   :  approve approve transferFrom approve 
+0 3 5 4   :  approve approve approve transferFrom 
+------------------------------------------------------------
+3 4 0 5   :  approve transferFrom approve approve 
+3 0 5 4   :  approve approve approve transferFrom 
+------------------------------------------------------------
+3 4 5 1   :  approve transferFrom approve totalSupply 
+1 3 5 4   :  totalSupply approve approve transferFrom 
+------------------------------------------------------------
+3 4 5 1   :  approve transferFrom approve totalSupply 
+3 1 5 4   :  approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 5 1   :  approve transferFrom approve totalSupply 
+3 5 1 4   :  approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 5 1   :  approve transferFrom approve totalSupply 
+3 5 4 1   :  approve approve transferFrom totalSupply 
+------------------------------------------------------------
+1 3 5 4   :  totalSupply approve approve transferFrom 
+3 4 1 5   :  approve transferFrom totalSupply approve 
+------------------------------------------------------------
+1 3 5 4   :  totalSupply approve approve transferFrom 
+3 1 4 5   :  approve totalSupply transferFrom approve 
+------------------------------------------------------------
+1 3 5 4   :  totalSupply approve approve transferFrom 
+1 3 4 5   :  totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 4 1 5   :  approve transferFrom totalSupply approve 
+3 1 5 4   :  approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 1 5   :  approve transferFrom totalSupply approve 
+3 5 1 4   :  approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 1 5   :  approve transferFrom totalSupply approve 
+3 5 4 1   :  approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 1 5 4   :  approve totalSupply approve transferFrom 
+3 1 4 5   :  approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 1 5 4   :  approve totalSupply approve transferFrom 
+1 3 4 5   :  totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 1 4 5   :  approve totalSupply transferFrom approve 
+3 5 1 4   :  approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 1 4 5   :  approve totalSupply transferFrom approve 
+3 5 4 1   :  approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 5 1 4   :  approve approve totalSupply transferFrom 
+1 3 4 5   :  totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 5 4 1   :  approve approve transferFrom totalSupply 
+1 3 4 5   :  totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 5 2 4   :  approve approve decimals transferFrom 
+3 2 4 5   :  approve decimals transferFrom approve 
+------------------------------------------------------------
+3 5 2 4   :  approve approve decimals transferFrom 
+3 4 2 5   :  approve transferFrom decimals approve 
+------------------------------------------------------------
+3 5 2 4   :  approve approve decimals transferFrom 
+3 4 5 2   :  approve transferFrom approve decimals 
+------------------------------------------------------------
+3 5 2 4   :  approve approve decimals transferFrom 
+2 3 4 5   :  decimals approve transferFrom approve 
+------------------------------------------------------------
+2 3 5 4   :  decimals approve approve transferFrom 
+3 2 4 5   :  approve decimals transferFrom approve 
+------------------------------------------------------------
+2 3 5 4   :  decimals approve approve transferFrom 
+3 4 2 5   :  approve transferFrom decimals approve 
+------------------------------------------------------------
+2 3 5 4   :  decimals approve approve transferFrom 
+3 4 5 2   :  approve transferFrom approve decimals 
+------------------------------------------------------------
+2 3 5 4   :  decimals approve approve transferFrom 
+2 3 4 5   :  decimals approve transferFrom approve 
+------------------------------------------------------------
+3 2 4 5   :  approve decimals transferFrom approve 
+3 2 5 4   :  approve decimals approve transferFrom 
+------------------------------------------------------------
+3 2 4 5   :  approve decimals transferFrom approve 
+3 5 4 2   :  approve approve transferFrom decimals 
+------------------------------------------------------------
+3 2 5 4   :  approve decimals approve transferFrom 
+3 4 2 5   :  approve transferFrom decimals approve 
+------------------------------------------------------------
+3 2 5 4   :  approve decimals approve transferFrom 
+3 4 5 2   :  approve transferFrom approve decimals 
+------------------------------------------------------------
+3 2 5 4   :  approve decimals approve transferFrom 
+2 3 4 5   :  decimals approve transferFrom approve 
+------------------------------------------------------------
+3 4 2 5   :  approve transferFrom decimals approve 
+3 5 4 2   :  approve approve transferFrom decimals 
+------------------------------------------------------------
+3 5 4 2   :  approve approve transferFrom decimals 
+3 4 5 2   :  approve transferFrom approve decimals 
+------------------------------------------------------------
+3 5 4 2   :  approve approve transferFrom decimals 
+2 3 4 5   :  decimals approve transferFrom approve 
+------------------------------------------------------------
+0 1 3 5 4   :  approve totalSupply approve approve transferFrom 
+0 1 3 4 5   :  approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 1 3 5 4   :  approve totalSupply approve approve transferFrom 
+0 3 4 5 1   :  approve approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 1 3 5 4   :  approve totalSupply approve approve transferFrom 
+0 3 1 4 5   :  approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 1 3 5 4   :  approve totalSupply approve approve transferFrom 
+0 3 4 1 5   :  approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 1 3 4 5   :  approve totalSupply approve transferFrom approve 
+0 3 5 1 4   :  approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 1 3 4 5   :  approve totalSupply approve transferFrom approve 
+0 3 5 4 1   :  approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 1 3 4 5   :  approve totalSupply approve transferFrom approve 
+0 3 1 5 4   :  approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 1   :  approve approve transferFrom approve totalSupply 
+0 3 5 1 4   :  approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 5 1   :  approve approve transferFrom approve totalSupply 
+0 3 5 4 1   :  approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 5 1   :  approve approve transferFrom approve totalSupply 
+0 3 1 5 4   :  approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 0 5 1 4   :  approve approve approve totalSupply transferFrom 
+3 4 0 1 5   :  approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 1 4   :  approve approve approve totalSupply transferFrom 
+3 4 0 5 1   :  approve transferFrom approve approve totalSupply 
+------------------------------------------------------------
+0 3 5 1 4   :  approve approve approve totalSupply transferFrom 
+0 3 1 4 5   :  approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 3 5 1 4   :  approve approve approve totalSupply transferFrom 
+0 3 4 1 5   :  approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+3 4 0 1 5   :  approve transferFrom approve totalSupply approve 
+3 0 5 4 1   :  approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 0 1 5   :  approve transferFrom approve totalSupply approve 
+3 0 1 5 4   :  approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 1 4 5   :  approve approve totalSupply transferFrom approve 
+0 3 5 4 1   :  approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 1 4 5   :  approve approve totalSupply transferFrom approve 
+0 3 1 5 4   :  approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 0 5 4 1   :  approve approve approve transferFrom totalSupply 
+3 4 0 5 1   :  approve transferFrom approve approve totalSupply 
+------------------------------------------------------------
+3 0 1 5 4   :  approve approve totalSupply approve transferFrom 
+3 4 0 5 1   :  approve transferFrom approve approve totalSupply 
+------------------------------------------------------------
+0 3 4 1 5   :  approve approve transferFrom totalSupply approve 
+0 3 5 4 1   :  approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 1 5   :  approve approve transferFrom totalSupply approve 
+0 3 1 5 4   :  approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 5   :  approve decimals approve transferFrom approve 
+0 3 5 4 2   :  approve approve approve transferFrom decimals 
+------------------------------------------------------------
+0 2 3 4 5   :  approve decimals approve transferFrom approve 
+0 3 5 2 4   :  approve approve approve decimals transferFrom 
+------------------------------------------------------------
+0 2 3 4 5   :  approve decimals approve transferFrom approve 
+0 3 2 5 4   :  approve approve decimals approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 5   :  approve decimals approve transferFrom approve 
+2 0 3 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 5   :  approve decimals approve transferFrom approve 
+0 2 3 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+3 2 4 0 5   :  approve decimals transferFrom approve approve 
+3 0 5 4 2   :  approve approve approve transferFrom decimals 
+------------------------------------------------------------
+3 2 4 0 5   :  approve decimals transferFrom approve approve 
+3 0 2 5 4   :  approve approve decimals approve transferFrom 
+------------------------------------------------------------
+3 2 4 0 5   :  approve decimals transferFrom approve approve 
+3 0 5 2 4   :  approve approve approve decimals transferFrom 
+------------------------------------------------------------
+3 2 4 0 5   :  approve decimals transferFrom approve approve 
+3 2 0 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+3 2 4 0 5   :  approve decimals transferFrom approve approve 
+2 3 0 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+3 0 5 4 2   :  approve approve approve transferFrom decimals 
+3 4 2 0 5   :  approve transferFrom decimals approve approve 
+------------------------------------------------------------
+3 0 5 4 2   :  approve approve approve transferFrom decimals 
+3 4 0 5 2   :  approve transferFrom approve approve decimals 
+------------------------------------------------------------
+3 0 5 4 2   :  approve approve approve transferFrom decimals 
+3 4 0 2 5   :  approve transferFrom approve decimals approve 
+------------------------------------------------------------
+3 0 5 4 2   :  approve approve approve transferFrom decimals 
+2 3 4 0 5   :  decimals approve transferFrom approve approve 
+------------------------------------------------------------
+3 0 2 5 4   :  approve approve decimals approve transferFrom 
+3 4 2 0 5   :  approve transferFrom decimals approve approve 
+------------------------------------------------------------
+3 0 2 5 4   :  approve approve decimals approve transferFrom 
+3 4 0 5 2   :  approve transferFrom approve approve decimals 
+------------------------------------------------------------
+3 0 2 5 4   :  approve approve decimals approve transferFrom 
+3 4 0 2 5   :  approve transferFrom approve decimals approve 
+------------------------------------------------------------
+3 0 2 5 4   :  approve approve decimals approve transferFrom 
+2 3 4 0 5   :  decimals approve transferFrom approve approve 
+------------------------------------------------------------
+3 4 2 0 5   :  approve transferFrom decimals approve approve 
+3 0 5 2 4   :  approve approve approve decimals transferFrom 
+------------------------------------------------------------
+3 4 2 0 5   :  approve transferFrom decimals approve approve 
+3 2 0 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+3 4 2 0 5   :  approve transferFrom decimals approve approve 
+2 3 0 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+3 0 5 2 4   :  approve approve approve decimals transferFrom 
+3 4 0 5 2   :  approve transferFrom approve approve decimals 
+------------------------------------------------------------
+3 0 5 2 4   :  approve approve approve decimals transferFrom 
+3 4 0 2 5   :  approve transferFrom approve decimals approve 
+------------------------------------------------------------
+3 0 5 2 4   :  approve approve approve decimals transferFrom 
+2 3 4 0 5   :  decimals approve transferFrom approve approve 
+------------------------------------------------------------
+0 3 4 2 5   :  approve approve transferFrom decimals approve 
+0 3 5 4 2   :  approve approve approve transferFrom decimals 
+------------------------------------------------------------
+0 3 4 2 5   :  approve approve transferFrom decimals approve 
+0 3 5 2 4   :  approve approve approve decimals transferFrom 
+------------------------------------------------------------
+0 3 4 2 5   :  approve approve transferFrom decimals approve 
+0 3 2 5 4   :  approve approve decimals approve transferFrom 
+------------------------------------------------------------
+0 3 4 2 5   :  approve approve transferFrom decimals approve 
+2 0 3 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 2 5   :  approve approve transferFrom decimals approve 
+0 2 3 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+3 2 0 5 4   :  approve decimals approve approve transferFrom 
+3 4 0 5 2   :  approve transferFrom approve approve decimals 
+------------------------------------------------------------
+3 2 0 5 4   :  approve decimals approve approve transferFrom 
+3 4 0 2 5   :  approve transferFrom approve decimals approve 
+------------------------------------------------------------
+3 2 0 5 4   :  approve decimals approve approve transferFrom 
+2 3 4 0 5   :  decimals approve transferFrom approve approve 
+------------------------------------------------------------
+0 3 5 4 2   :  approve approve approve transferFrom decimals 
+0 3 4 5 2   :  approve approve transferFrom approve decimals 
+------------------------------------------------------------
+0 3 5 4 2   :  approve approve approve transferFrom decimals 
+0 3 2 4 5   :  approve approve decimals transferFrom approve 
+------------------------------------------------------------
+0 3 5 4 2   :  approve approve approve transferFrom decimals 
+2 0 3 4 5   :  decimals approve approve transferFrom approve 
+------------------------------------------------------------
+0 3 5 2 4   :  approve approve approve decimals transferFrom 
+0 3 4 5 2   :  approve approve transferFrom approve decimals 
+------------------------------------------------------------
+0 3 5 2 4   :  approve approve approve decimals transferFrom 
+0 3 2 4 5   :  approve approve decimals transferFrom approve 
+------------------------------------------------------------
+0 3 5 2 4   :  approve approve approve decimals transferFrom 
+2 0 3 4 5   :  decimals approve approve transferFrom approve 
+------------------------------------------------------------
+0 3 4 5 2   :  approve approve transferFrom approve decimals 
+0 3 2 5 4   :  approve approve decimals approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 2   :  approve approve transferFrom approve decimals 
+2 0 3 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 2   :  approve approve transferFrom approve decimals 
+0 2 3 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5   :  approve approve decimals transferFrom approve 
+0 3 2 5 4   :  approve approve decimals approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5   :  approve approve decimals transferFrom approve 
+2 0 3 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5   :  approve approve decimals transferFrom approve 
+0 2 3 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 5   :  decimals approve approve transferFrom approve 
+0 3 2 5 4   :  approve approve decimals approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 5   :  decimals approve approve transferFrom approve 
+2 0 3 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 5   :  decimals approve approve transferFrom approve 
+0 2 3 5 4   :  approve decimals approve approve transferFrom 
+------------------------------------------------------------
+3 4 0 5 2   :  approve transferFrom approve approve decimals 
+2 3 0 5 4   :  decimals approve approve approve transferFrom 
+------------------------------------------------------------
+2 3 0 5 4   :  decimals approve approve approve transferFrom 
+3 4 0 2 5   :  approve transferFrom approve decimals approve 
+------------------------------------------------------------
+2 3 0 5 4   :  decimals approve approve approve transferFrom 
+2 3 4 0 5   :  decimals approve transferFrom approve approve 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+2 3 1 5 4   :  decimals approve totalSupply approve transferFrom 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+3 5 2 4 1   :  approve approve decimals transferFrom totalSupply 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 5 2 1   :  approve transferFrom approve decimals totalSupply 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+3 2 4 5 1   :  approve decimals transferFrom approve totalSupply 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 1 5   :  decimals approve transferFrom totalSupply approve 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+3 5 4 2 1   :  approve approve transferFrom decimals totalSupply 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 2 5 1   :  approve transferFrom decimals approve totalSupply 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 2 1 5   :  approve transferFrom decimals totalSupply approve 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+2 3 5 1 4   :  decimals approve approve totalSupply transferFrom 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 5 1   :  decimals approve transferFrom approve totalSupply 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+2 3 5 4 1   :  decimals approve approve transferFrom totalSupply 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+3 5 2 1 4   :  approve approve decimals totalSupply transferFrom 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+2 1 3 5 4   :  decimals totalSupply approve approve transferFrom 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 1 4 5   :  decimals approve totalSupply transferFrom approve 
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+3 2 5 4 1   :  approve decimals approve transferFrom totalSupply 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+3 2 1 5 4   :  approve decimals totalSupply approve transferFrom 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+2 1 3 4 5   :  decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+3 2 1 4 5   :  approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+3 2 5 1 4   :  approve decimals approve totalSupply transferFrom 
+3 2 4 1 5   :  approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 1 4 5   :  approve decimals approve totalSupply transferFrom approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 0 5 1   :  decimals approve transferFrom approve approve totalSupply 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 5 2 1   :  approve approve transferFrom approve decimals totalSupply 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 5 1   :  decimals approve approve transferFrom approve totalSupply 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 5 1   :  approve approve decimals transferFrom approve totalSupply 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 1 4 5   :  approve approve decimals totalSupply transferFrom approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 0 2 5 1   :  approve transferFrom approve decimals approve totalSupply 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 5 2 1 4   :  approve approve approve decimals totalSupply transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 4 1 5   :  approve decimals approve transferFrom totalSupply approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 2 1 5 4   :  approve approve decimals totalSupply approve transferFrom 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 2 3 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 0 2 1 5   :  approve transferFrom approve decimals totalSupply approve 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 0 1 3 5 4   :  decimals approve totalSupply approve approve transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 2 3 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 2 1 3 4 5   :  approve decimals totalSupply approve transferFrom approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+------------------------------------------------------------
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+------------------------------------------------------------
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 5 4 2 1   :  approve approve approve transferFrom decimals totalSupply 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 2 5 1   :  approve approve transferFrom decimals approve totalSupply 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 4 0 5 1   :  approve decimals transferFrom approve approve totalSupply 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 4 0 1 5   :  decimals approve transferFrom approve totalSupply approve 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+------------------------------------------------------------
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 0 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 3 4 2 1 5   :  approve approve transferFrom decimals totalSupply approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 0 5 1   :  approve transferFrom decimals approve approve totalSupply 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+2 3 0 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+------------------------------------------------------------
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+------------------------------------------------------------
+3 2 0 1 5 4   :  approve decimals approve totalSupply approve transferFrom 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+------------------------------------------------------------
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 2 3 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+2 0 3 4 1 5   :  decimals approve approve transferFrom totalSupply approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 3 2 4 1 5   :  approve approve decimals transferFrom totalSupply approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 0 3 5 4 1   :  decimals approve approve approve transferFrom totalSupply 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 4 2 0 1 5   :  approve transferFrom decimals approve totalSupply approve 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+------------------------------------------------------------
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 2 5 4 1   :  approve approve decimals approve transferFrom totalSupply 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+------------------------------------------------------------
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+------------------------------------------------------------
+0 2 3 4 5 1   :  approve decimals approve transferFrom approve totalSupply 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+------------------------------------------------------------
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 4 0 1 5   :  approve decimals transferFrom approve totalSupply approve 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+3 2 0 5 4 1   :  approve decimals approve approve transferFrom totalSupply 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+3 0 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+------------------------------------------------------------
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 2 1 3 5 4   :  approve decimals totalSupply approve approve transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+2 0 3 5 1 4   :  decimals approve approve approve totalSupply transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 2 5 1 4   :  approve approve decimals approve totalSupply transferFrom 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+------------------------------------------------------------
+0 3 5 2 4 1   :  approve approve approve decimals transferFrom totalSupply 
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+------------------------------------------------------------
+2 0 1 3 4 5   :  decimals approve totalSupply approve transferFrom approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------
+3 4 0 5 2 1   :  approve transferFrom approve approve decimals totalSupply 
+3 2 0 5 1 4   :  approve decimals approve approve totalSupply transferFrom 
+------------------------------------------------------------
+2 0 3 1 4 5   :  decimals approve approve totalSupply transferFrom approve 
+2 0 3 1 5 4   :  decimals approve approve totalSupply approve transferFrom 
+------------------------------------------------------------

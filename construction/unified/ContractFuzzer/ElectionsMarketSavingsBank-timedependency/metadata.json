@@ -1,0 +1,37 @@
+{
+    "addr": "0x03cf94938696812a3615a98cdfcf82598ef30158",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ElectionsMarketSavingsBank.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.21-nightly.2018.2.22+commit.71a34abd",
+    "compiler_orig": false,
+    "contractname": "ElectionsMarketSavingsBank",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "d3340886e87c9690d0d07095fbbcbc71",
+    "fp_runtime": "43a92a0a7d8d29be024924735aacdf80",
+    "fp_sol": "1531c28d7e01a4fe9d92f4d317d59862",
+    "fp_sol2": "b75419548876c7bd41963c34cc28a8ea",
+    "id": "ElectionsMarketSavingsBank-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ElectionsMarketSavingsBank.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

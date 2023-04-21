@@ -1,0 +1,534 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000002a393a95ad3d92340c1cbd73865f6aedd34414710000000000000000000000000000000000000000000000000000000000000001'}
+1 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c6800000000000000000000000000000000000000000000d3c21bcecceda0000000'}
+2 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000002a393a95ad3d92340c1cbd73865f6aedd34414710000000000000000000000000000000000000000000000000000000000000003'}
+3 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001ea4c9beb64617d22f0111aedd272f226ff689cf000000000000000000000000000000000000000000000bc84be8eaada4400000'}
+4 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'burnFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79cc67900000000000000000000000001ea4c9beb64617d22f0111aedd272f226ff689cf000000000000000000000000000000000000000000000bc84be8eaada4400000'}
+5 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+6 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000f09c6ca0c8408d5eb1c1b378cd4bb77ab986b438ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+7 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000022222222222222222222222222222222222222229ff01fffbdbffa28decc6ce5627ea4021877fefb295c33c49fd24716b2d097e3'}
+8 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222221fcc1fff7d3febba1b4ad4531e9a8c02491ffed64f4833a682b013df259a2197'}
+9 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000003df41cfc0e7cc9b4ea7648a6778c08acbdf7c660000000000000000000000000000000000000000000009e000205064b0000000'}
+10 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000001ea4c9beb64617d22f0111aedd272f226ff689cfffffffffffffffffffffffffffffffffffffffffffff361de45183770effffff'}
+11 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222'}
+12 : {'tx_caller': '1ea4c9beb64617d22f0111aedd272f226ff689cf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000e15b364149b9e82dd0feee5122d8d0dd90097630'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000001ea4c9beb64617d22f0111aedd272f226ff689cf'}
+--------------------------------------------------------------------------------
+
+Full traces: 171
+--------------------------------------------------------------------------------
+9 10 1 5   :  transfer mintToken burn mintToken 
+9 10 5 1   :  transfer mintToken mintToken burn 
+------------------------------------------------------------
+3 9 4 10   :  approve transfer burnFrom mintToken 
+3 9 10 4   :  approve transfer mintToken burnFrom 
+------------------------------------------------------------
+3 9 4 10   :  approve transfer burnFrom mintToken 
+9 3 10 4   :  transfer approve mintToken burnFrom 
+------------------------------------------------------------
+3 9 4 10   :  approve transfer burnFrom mintToken 
+9 10 3 4   :  transfer mintToken approve burnFrom 
+------------------------------------------------------------
+3 4 9 10   :  approve burnFrom transfer mintToken 
+3 9 10 4   :  approve transfer mintToken burnFrom 
+------------------------------------------------------------
+3 4 9 10   :  approve burnFrom transfer mintToken 
+9 3 10 4   :  transfer approve mintToken burnFrom 
+------------------------------------------------------------
+3 4 9 10   :  approve burnFrom transfer mintToken 
+9 10 3 4   :  transfer mintToken approve burnFrom 
+------------------------------------------------------------
+3 9 10 4   :  approve transfer mintToken burnFrom 
+9 3 4 10   :  transfer approve burnFrom mintToken 
+------------------------------------------------------------
+9 3 10 4   :  transfer approve mintToken burnFrom 
+9 3 4 10   :  transfer approve burnFrom mintToken 
+------------------------------------------------------------
+9 3 4 10   :  transfer approve burnFrom mintToken 
+9 10 3 4   :  transfer mintToken approve burnFrom 
+------------------------------------------------------------
+0 9 10 1 5   :  transfer transfer mintToken burn mintToken 
+0 9 10 5 1   :  transfer transfer mintToken mintToken burn 
+------------------------------------------------------------
+9 10 0 1 5   :  transfer mintToken transfer burn mintToken 
+9 10 0 5 1   :  transfer mintToken transfer mintToken burn 
+------------------------------------------------------------
+9 10 0 1 5   :  transfer mintToken transfer burn mintToken 
+9 10 5 0 1   :  transfer mintToken mintToken transfer burn 
+------------------------------------------------------------
+9 10 0 1 5   :  transfer mintToken transfer burn mintToken 
+9 0 10 5 1   :  transfer transfer mintToken mintToken burn 
+------------------------------------------------------------
+9 10 0 5 1   :  transfer mintToken transfer mintToken burn 
+9 0 10 1 5   :  transfer transfer mintToken burn mintToken 
+------------------------------------------------------------
+9 10 5 0 1   :  transfer mintToken mintToken transfer burn 
+9 0 10 1 5   :  transfer transfer mintToken burn mintToken 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 0 3 10 4   :  transfer transfer approve mintToken burnFrom 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+3 0 9 4 10   :  approve transfer transfer burnFrom mintToken 
+0 9 10 3 4   :  transfer transfer mintToken approve burnFrom 
+------------------------------------------------------------
+3 0 9 4 10   :  approve transfer transfer burnFrom mintToken 
+3 0 9 10 4   :  approve transfer transfer mintToken burnFrom 
+------------------------------------------------------------
+3 0 9 4 10   :  approve transfer transfer burnFrom mintToken 
+0 3 9 10 4   :  transfer approve transfer mintToken burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+------------------------------------------------------------
+9 3 0 4 10   :  transfer approve transfer burnFrom mintToken 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 3 10 4 0   :  transfer approve mintToken burnFrom transfer 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+------------------------------------------------------------
+9 3 4 0 10   :  transfer approve burnFrom transfer mintToken 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+------------------------------------------------------------
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 0 10 3 4   :  transfer transfer mintToken approve burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+------------------------------------------------------------
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+3 9 0 10 4   :  approve transfer transfer mintToken burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+------------------------------------------------------------
+9 0 3 4 10   :  transfer transfer approve burnFrom mintToken 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+3 9 10 0 4   :  approve transfer mintToken transfer burnFrom 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 3 0 10 4   :  transfer approve transfer mintToken burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+------------------------------------------------------------
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 10 3 0 4   :  transfer mintToken approve transfer burnFrom 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+------------------------------------------------------------
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+------------------------------------------------------------
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+------------------------------------------------------------
+3 4 9 0 10   :  approve burnFrom transfer transfer mintToken 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 10 3 4 0   :  transfer mintToken approve burnFrom transfer 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+3 9 10 4 0   :  approve transfer mintToken burnFrom transfer 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+------------------------------------------------------------
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+------------------------------------------------------------
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+------------------------------------------------------------
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+------------------------------------------------------------
+9 3 10 0 4   :  transfer approve mintToken transfer burnFrom 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+9 3 4 10 0   :  transfer approve burnFrom mintToken transfer 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+3 4 9 10 0   :  approve burnFrom transfer mintToken transfer 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+3 9 4 0 10   :  approve transfer burnFrom transfer mintToken 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+3 9 4 10 0   :  approve transfer burnFrom mintToken transfer 
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+------------------------------------------------------------
+9 10 0 3 4   :  transfer mintToken transfer approve burnFrom 
+3 9 0 4 10   :  approve transfer transfer burnFrom mintToken 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+9 3 10 4 1   :  transfer approve mintToken burnFrom burn 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+9 10 3 1 4   :  transfer mintToken approve burn burnFrom 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+3 9 10 1 4   :  approve transfer mintToken burn burnFrom 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+9 10 1 3 4   :  transfer mintToken burn approve burnFrom 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+3 9 10 4 1   :  approve transfer mintToken burnFrom burn 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+9 10 3 4 1   :  transfer mintToken approve burnFrom burn 
+------------------------------------------------------------
+3 4 9 10 1   :  approve burnFrom transfer mintToken burn 
+9 3 10 1 4   :  transfer approve mintToken burn burnFrom 
+------------------------------------------------------------
+9 3 10 4 1   :  transfer approve mintToken burnFrom burn 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+9 3 10 4 1   :  transfer approve mintToken burnFrom burn 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+9 10 3 1 4   :  transfer mintToken approve burn burnFrom 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+9 10 3 1 4   :  transfer mintToken approve burn burnFrom 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+3 9 10 1 4   :  approve transfer mintToken burn burnFrom 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+3 9 10 1 4   :  approve transfer mintToken burn burnFrom 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+9 10 1 3 4   :  transfer mintToken burn approve burnFrom 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+9 10 1 3 4   :  transfer mintToken burn approve burnFrom 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+3 9 10 4 1   :  approve transfer mintToken burnFrom burn 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+3 9 10 4 1   :  approve transfer mintToken burnFrom burn 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+9 10 3 4 1   :  transfer mintToken approve burnFrom burn 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+9 10 3 4 1   :  transfer mintToken approve burnFrom burn 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+9 3 10 1 4   :  transfer approve mintToken burn burnFrom 
+3 9 4 10 1   :  approve transfer burnFrom mintToken burn 
+------------------------------------------------------------
+9 3 10 1 4   :  transfer approve mintToken burn burnFrom 
+9 3 4 10 1   :  transfer approve burnFrom mintToken burn 
+------------------------------------------------------------
+3 9 10 5 1   :  approve transfer mintToken mintToken burn 
+9 10 3 1 5   :  transfer mintToken approve burn mintToken 
+------------------------------------------------------------
+3 9 10 5 1   :  approve transfer mintToken mintToken burn 
+9 3 10 1 5   :  transfer approve mintToken burn mintToken 
+------------------------------------------------------------
+3 9 10 5 1   :  approve transfer mintToken mintToken burn 
+9 10 1 5 3   :  transfer mintToken burn mintToken approve 
+------------------------------------------------------------
+3 9 10 5 1   :  approve transfer mintToken mintToken burn 
+3 9 10 1 5   :  approve transfer mintToken burn mintToken 
+------------------------------------------------------------
+3 9 10 5 1   :  approve transfer mintToken mintToken burn 
+9 10 1 3 5   :  transfer mintToken burn approve mintToken 
+------------------------------------------------------------
+9 10 5 3 1   :  transfer mintToken mintToken approve burn 
+9 10 3 1 5   :  transfer mintToken approve burn mintToken 
+------------------------------------------------------------
+9 10 5 3 1   :  transfer mintToken mintToken approve burn 
+9 3 10 1 5   :  transfer approve mintToken burn mintToken 
+------------------------------------------------------------
+9 10 5 3 1   :  transfer mintToken mintToken approve burn 
+9 10 1 5 3   :  transfer mintToken burn mintToken approve 
+------------------------------------------------------------
+9 10 5 3 1   :  transfer mintToken mintToken approve burn 
+3 9 10 1 5   :  approve transfer mintToken burn mintToken 
+------------------------------------------------------------
+9 10 5 3 1   :  transfer mintToken mintToken approve burn 
+9 10 1 3 5   :  transfer mintToken burn approve mintToken 
+------------------------------------------------------------
+9 10 3 1 5   :  transfer mintToken approve burn mintToken 
+9 10 5 1 3   :  transfer mintToken mintToken burn approve 
+------------------------------------------------------------
+9 10 3 1 5   :  transfer mintToken approve burn mintToken 
+9 10 3 5 1   :  transfer mintToken approve mintToken burn 
+------------------------------------------------------------
+9 10 3 1 5   :  transfer mintToken approve burn mintToken 
+9 3 10 5 1   :  transfer approve mintToken mintToken burn 
+------------------------------------------------------------
+9 3 10 1 5   :  transfer approve mintToken burn mintToken 
+9 10 5 1 3   :  transfer mintToken mintToken burn approve 
+------------------------------------------------------------
+9 3 10 1 5   :  transfer approve mintToken burn mintToken 
+9 10 3 5 1   :  transfer mintToken approve mintToken burn 
+------------------------------------------------------------
+9 3 10 1 5   :  transfer approve mintToken burn mintToken 
+9 3 10 5 1   :  transfer approve mintToken mintToken burn 
+------------------------------------------------------------
+9 10 1 5 3   :  transfer mintToken burn mintToken approve 
+9 10 5 1 3   :  transfer mintToken mintToken burn approve 
+------------------------------------------------------------
+9 10 1 5 3   :  transfer mintToken burn mintToken approve 
+9 10 3 5 1   :  transfer mintToken approve mintToken burn 
+------------------------------------------------------------
+9 10 1 5 3   :  transfer mintToken burn mintToken approve 
+9 3 10 5 1   :  transfer approve mintToken mintToken burn 
+------------------------------------------------------------
+9 10 5 1 3   :  transfer mintToken mintToken burn approve 
+3 9 10 1 5   :  approve transfer mintToken burn mintToken 
+------------------------------------------------------------
+9 10 5 1 3   :  transfer mintToken mintToken burn approve 
+9 10 1 3 5   :  transfer mintToken burn approve mintToken 
+------------------------------------------------------------
+9 10 3 5 1   :  transfer mintToken approve mintToken burn 
+3 9 10 1 5   :  approve transfer mintToken burn mintToken 
+------------------------------------------------------------
+9 10 3 5 1   :  transfer mintToken approve mintToken burn 
+9 10 1 3 5   :  transfer mintToken burn approve mintToken 
+------------------------------------------------------------
+3 9 10 1 5   :  approve transfer mintToken burn mintToken 
+9 3 10 5 1   :  transfer approve mintToken mintToken burn 
+------------------------------------------------------------
+9 10 1 3 5   :  transfer mintToken burn approve mintToken 
+9 3 10 5 1   :  transfer approve mintToken mintToken burn 
+------------------------------------------------------------
+9 10 5 6 1   :  transfer mintToken mintToken transfer burn 
+9 10 1 5 6   :  transfer mintToken burn mintToken transfer 
+------------------------------------------------------------
+9 10 5 1 6   :  transfer mintToken mintToken burn transfer 
+9 10 1 5 6   :  transfer mintToken burn mintToken transfer 
+------------------------------------------------------------
+11 9 10 5 1   :  mintToken transfer mintToken mintToken burn 
+11 9 10 1 5   :  mintToken transfer mintToken burn mintToken 
+------------------------------------------------------------
+11 9 10 5 1   :  mintToken transfer mintToken mintToken burn 
+9 11 10 1 5   :  transfer mintToken mintToken burn mintToken 
+------------------------------------------------------------
+9 10 1 5 11   :  transfer mintToken burn mintToken mintToken 
+9 10 5 11 1   :  transfer mintToken mintToken mintToken burn 
+------------------------------------------------------------
+9 10 1 5 11   :  transfer mintToken burn mintToken mintToken 
+9 10 5 1 11   :  transfer mintToken mintToken burn mintToken 
+------------------------------------------------------------
+9 11 10 5 1   :  transfer mintToken mintToken mintToken burn 
+11 9 10 1 5   :  mintToken transfer mintToken burn mintToken 
+------------------------------------------------------------
+9 11 10 5 1   :  transfer mintToken mintToken mintToken burn 
+9 11 10 1 5   :  transfer mintToken mintToken burn mintToken 
+------------------------------------------------------------
+9 10 1 5 12   :  transfer mintToken burn mintToken transferOwnership 
+9 10 5 12 1   :  transfer mintToken mintToken transferOwnership burn 
+------------------------------------------------------------
+9 10 1 5 12   :  transfer mintToken burn mintToken transferOwnership 
+9 10 5 1 12   :  transfer mintToken mintToken burn transferOwnership 
+------------------------------------------------------------

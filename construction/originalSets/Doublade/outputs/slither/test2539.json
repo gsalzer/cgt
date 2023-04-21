@@ -1,0 +1,209 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "MultiSendCoinCrowd.multisend has external calls inside a loop: \"tokenContract.transfer(_dests[i],_values[i])\" (reorder_contracts_2_3/test2539.sol#51)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenContract.transfer(_dests[i],_values[i])",
+            "source_mapping": {
+              "start": 1388,
+              "length": 45,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+              "filename_relative": "reorder_contracts_2_3/test2539.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+              "filename_short": "reorder_contracts_2_3/test2539.sol",
+              "lines": [
+                51
+              ],
+              "starting_column": 12,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multisend",
+                "source_mapping": {
+                  "start": 1137,
+                  "length": 355,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2539.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                  "filename_short": "reorder_contracts_2_3/test2539.sol",
+                  "lines": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MultiSendCoinCrowd",
+                    "source_mapping": {
+                      "start": 910,
+                      "length": 1002,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2539.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                      "filename_short": "reorder_contracts_2_3/test2539.sol",
+                      "lines": [
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multisend(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "MultiSendCoinCrowd.airdrop has external calls inside a loop: \"tokenContract.transfer(_dests[i],_value)\" (reorder_contracts_2_3/test2539.sol#60)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenContract.transfer(_dests[i],_value)",
+            "source_mapping": {
+              "start": 1661,
+              "length": 41,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+              "filename_relative": "reorder_contracts_2_3/test2539.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+              "filename_short": "reorder_contracts_2_3/test2539.sol",
+              "lines": [
+                60
+              ],
+              "starting_column": 13,
+              "ending_column": 54
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airdrop",
+                "source_mapping": {
+                  "start": 1498,
+                  "length": 263,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2539.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                  "filename_short": "reorder_contracts_2_3/test2539.sol",
+                  "lines": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MultiSendCoinCrowd",
+                    "source_mapping": {
+                      "start": 910,
+                      "length": 1002,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2539.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2539.sol",
+                      "filename_short": "reorder_contracts_2_3/test2539.sol",
+                      "lines": [
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "airdrop(uint256,address[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

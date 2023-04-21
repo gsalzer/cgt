@@ -1,0 +1,46 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BIAToken",
+            "BurnableToken",
+            "ERC20Basic",
+            "MintableToken",
+            "Ownable",
+            "Pausable",
+            "PausableToken",
+            "SafeMath",
+            "StandardToken"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "7f11a1983d4882f352236e50a1e8c91f",
+    "fp_sol": "47bc537a61bcf1af452dbfd17b4c7763",
+    "fp_sol2": "45dc72432ce6b41c8955b5b31e78c7e8",
+    "id": "BIAToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/BIAToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BIAToken.sol"
+    ],
+    "sol_orig": true
+}

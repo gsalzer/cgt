@@ -1,0 +1,37 @@
+{
+    "addr": "0xc70fd22c9821006fb469e4ed14324a991d0296cc",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-02-32f3a65",
+    "compiler_orig": true,
+    "contractname": "KittenRegistry",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "66a5f665614749e43439f8c40730f3ee",
+    "fp_runtime": "b1a0ec8ebbade7852fb7c6537813d0b4",
+    "fp_sol": "7c87059cd0be68164be88f79ca2aa411",
+    "fp_sol2": "7c87059cd0be68164be88f79ca2aa411",
+    "id": "0xc70fd22c9821006fb469e4ed14324a991d0296cc",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

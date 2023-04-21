@@ -1,0 +1,37 @@
+{
+    "addr": "0x8a6aa2091c68287d4c37e486e89850fd0e79633f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/WolkToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "WolkToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0a2db4d43959588ba91c34a5bac19457",
+    "fp_runtime": "f0e84d4b7a8f13fdefe21ab4179a5806",
+    "fp_sol": "abcf03c1d63140b322ae87dc87932d5a",
+    "fp_sol2": "6bdbfc0f222bc0cc50e3e41c0462ef10",
+    "id": "WolkToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_WolkToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

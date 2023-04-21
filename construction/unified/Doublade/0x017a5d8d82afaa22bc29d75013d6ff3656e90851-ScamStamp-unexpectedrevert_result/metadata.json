@@ -1,0 +1,37 @@
+{
+    "addr": "0x017a5d8d82afaa22bc29d75013d6ff3656e90851",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.12+commit.194ff033",
+    "compiler_orig": false,
+    "contractname": "ScamStamp",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "941482d171a84a7d101fa32b7ce7eea3",
+    "fp_runtime": "bf0c860b6203d95b7c3d6a591db100bc",
+    "fp_sol": "5aa296a6d9b465e72225483ceac51f02",
+    "fp_sol2": "2d32e20df5319dc0a40d3ffd32daf415",
+    "id": "0x017a5d8d82afaa22bc29d75013d6ff3656e90851-ScamStamp-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test19.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

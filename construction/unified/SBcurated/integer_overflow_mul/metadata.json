@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "arithmetic",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "IntegerOverflowMul",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_mul.sol"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d500badaaa785a2588259a6625923c70",
+    "fp_sol2": "3fc322c483945bfe69a373c15cde910d",
+    "id": "integer_overflow_mul",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/integer_overflow_mul.sol"
+    ],
+    "sol_orig": true
+}

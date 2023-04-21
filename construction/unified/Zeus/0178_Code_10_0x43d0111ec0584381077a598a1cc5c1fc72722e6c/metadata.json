@@ -1,0 +1,60 @@
+{
+    "addr": "0x43d0111ec0584381077a598a1cc5c1fc72722e6c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.7+commit.822622cf",
+    "compiler_orig": false,
+    "contractname": "StarbaseEarlyPurchase",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "26d671a807642af23d45b393acb15a29",
+    "fp_runtime": "293940178b32b7f1251b9a05773efd03",
+    "fp_sol": "c419debfa371679d1c8f644efcf33620",
+    "fp_sol2": "c419debfa371679d1c8f644efcf33620",
+    "id": "0178_Code_10_0x43d0111ec0584381077a598a1cc5c1fc72722e6c",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

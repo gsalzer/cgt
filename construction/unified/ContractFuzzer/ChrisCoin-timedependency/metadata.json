@@ -1,0 +1,37 @@
+{
+    "addr": "0x8dcff3aff91f0922f14e1c11cc409086cd1e4692",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ChrisCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ChrisCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "c4363572e3fdefa0025c37b4e5aef97d",
+    "fp_runtime": "222b0760b36daa3b1c89ea2500bd1c41",
+    "fp_sol": "6e474b7a3e12ef562419ab71c0520aea",
+    "fp_sol2": "20dbe2578d7a3aba09e12f99a4c47011",
+    "id": "ChrisCoin-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ChrisCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

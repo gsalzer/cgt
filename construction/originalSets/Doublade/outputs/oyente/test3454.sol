@@ -1,0 +1,2 @@
+{u'source_code/test3454.sol': {u'Escrow': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test3454.sol:8:9: Warning: Integer Overflow.\n        balances[_recipient] += msg.value\nInteger Overflow occurs if:\n    balances[_recipient] = 89660649888868366171417216235708288031085258661234677303951427843448891257349'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '98.6'}}}
+

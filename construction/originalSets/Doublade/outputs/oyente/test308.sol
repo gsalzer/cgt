@@ -1,0 +1,2 @@
+{u'source_code/test308.sol': {u'MultiMonday': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test308.sol:11:13: Warning: Transaction-Ordering Dependency.\n            tx.origin.transfer(this.balance)'], [u'source_code/test308.sol:11:13: Warning: Transaction-Ordering Dependency.\n            tx.origin.transfer(this.balance)']], 'assertion_failure': []}, 'evm_code_coverage': '92.7'}}}
+

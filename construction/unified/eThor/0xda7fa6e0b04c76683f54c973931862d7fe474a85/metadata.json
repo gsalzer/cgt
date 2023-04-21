@@ -1,0 +1,37 @@
+{
+    "addr": "0xda7fa6e0b04c76683f54c973931862d7fe474a85",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": true,
+    "contractname": "ReverseRegistrar",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "95d9a00f215094472920dcd16476143c",
+    "fp_runtime": "dac3176f688dc206ebdaf8585b9576eb",
+    "fp_sol": "eebbd1de0bd005402b5dde75513c45f6",
+    "fp_sol2": "e535017bfaba64d1a8c58854b048912b",
+    "id": "0xda7fa6e0b04c76683f54c973931862d7fe474a85",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

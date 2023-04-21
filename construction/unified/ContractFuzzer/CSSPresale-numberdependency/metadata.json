@@ -1,0 +1,38 @@
+{
+    "addr": "0xb3d5f0210cd4f4631aa634103388fb759a73385d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "CSSPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "53d562db65e057e6ad38cbc18dd67844",
+    "fp_runtime": "a740b70bd04beb9d07a22e7fba6b626e",
+    "fp_sol": "5e20db814fe4fe1d465f2019236f1d96",
+    "fp_sol2": "8335830c62bfc6ac25e4731ba31a158a",
+    "id": "CSSPresale-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_CSSPresale.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CSSPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

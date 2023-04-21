@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "lowlevelcall_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "NamiExchange",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x8d80de8a78198396329dfa769ad54d24bf90e7aa",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x8d80de8a78198396329dfa769ad54d24bf90e7aa",
+            "main",
+            "NamiCrowdSale"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "19d3998c8fcabb202bbe202e16493f44",
+    "fp_sol2": "1cc99430cdad0ec95e8de3e298c71416",
+    "id": "0x8d80de8a78198396329dfa769ad54d24bf90e7aa-NamiExchange-lowlevelcall_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2168.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

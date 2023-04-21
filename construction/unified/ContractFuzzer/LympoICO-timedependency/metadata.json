@@ -1,0 +1,37 @@
+{
+    "addr": "0x919c9b9621b3da0809431b213c431a796cb8fa1f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/LympoICO.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "LympoICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0e61adb75b2e2a51f19836fa801b13ea",
+    "fp_runtime": "2215efa538c8a92029f347f4c70aa339",
+    "fp_sol": "76c0fb3498bd12505069726eabf3f30f",
+    "fp_sol2": "928c65e872d1037692472d44690d6d02",
+    "id": "LympoICO-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LympoICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

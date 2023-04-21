@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "StableDEX",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "0ea3915f17c0944325ed918e9960f957",
+    "fp_sol2": "9651f0fa6d5a457492c93e86b8ddb2b0",
+    "id": "Overflow-Underflow-21",
+    "info": [
+        "info/BugLog_21.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_21.sol"
+    ],
+    "sol_orig": true
+}

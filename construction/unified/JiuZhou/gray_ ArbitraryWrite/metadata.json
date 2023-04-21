@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Storage overlap attack",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Wallet",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "ea590efb24c1c21b9a505e76d2b1302c",
+    "fp_runtime": "16533fb0db7813c7eb2f4415af9e7e10",
+    "fp_sol": "3429415407626a1246b53444471dd625",
+    "fp_sol2": "36669634d519dcb1221dd0ba1175f453",
+    "id": "gray_ ArbitraryWrite",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/gray_ ArbitraryWrite.sol"
+    ],
+    "sol_orig": true
+}

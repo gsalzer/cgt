@@ -1,0 +1,37 @@
+{
+    "addr": "0x2771ef07defb079c309542e11219d97b562ab6b0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Avalanche.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Avalanche",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e28f3734671ce2a95de744887dd38372",
+    "fp_runtime": "6368817340e94844e0c769fa0047c5cc",
+    "fp_sol": "0f455b192d1356519b25a44a5a8651c1",
+    "fp_sol2": "2b3833f39760de4564431ff663189c14",
+    "id": "Avalanche-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Avalanche.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

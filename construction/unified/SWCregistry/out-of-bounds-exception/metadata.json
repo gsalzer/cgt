@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-110",
+            true
+        ]
+    ],
+    "compiler": "0.5.5+commit.47a71e8f.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "OutOfBoundsException",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "0b1cd30b4eaf5ea10ff89e867f93f3ec",
+    "fp_runtime": "d12838e6566322454cd60a23a3057912",
+    "fp_sol": "d62d77ef05286d5f6a0568f5d4eca99c",
+    "fp_sol2": "334513d586cd56e0d253a5afd472a1a0",
+    "id": "out-of-bounds-exception",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/out-of-bounds-exception.sol"
+    ],
+    "sol_orig": true
+}

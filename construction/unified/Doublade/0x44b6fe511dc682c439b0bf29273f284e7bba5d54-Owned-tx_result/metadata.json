@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Owned",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x44b6fe511dc682c439b0bf29273f284e7bba5d54",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x44b6fe511dc682c439b0bf29273f284e7bba5d54",
+            "main",
+            "NapNickel"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "abd4fdd5f0ebdbf50eb3bbe13d5515e5",
+    "fp_sol2": "3d494ce805ebb8e52b10e030ba8aa82e",
+    "id": "0x44b6fe511dc682c439b0bf29273f284e7bba5d54-Owned-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test1095.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

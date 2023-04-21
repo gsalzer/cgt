@@ -1,0 +1,60 @@
+{
+    "addr": "0x1e9d5e4ed8ef31cfece10b4c92c9057f991f36bc",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": false,
+    "contractname": "EtherVote",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "d6cf2cf709165cee9cff14f9a0ebd30f",
+    "fp_runtime": "7e89b06edf5c4eb4d8b60dc50c4ab1bd",
+    "fp_sol": "7e22311b4e039bc3e5fa87fef6c8c99d",
+    "fp_sol2": "7e22311b4e039bc3e5fa87fef6c8c99d",
+    "id": "1520_Code_32_0x1e9d5e4ed8ef31cfece10b4c92c9057f991f36bc",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

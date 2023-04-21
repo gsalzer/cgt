@@ -1,0 +1,60 @@
+{
+    "addr": "0xc8d9890df1ff2e87be05e9edab3cca26f054b611",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            true
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": false,
+    "contractname": "SellETCSafely",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "7a1941702687eb2df558fee3ab7b5bff",
+    "fp_runtime": "f42d7db4e52be57412506133308c0f3c",
+    "fp_sol": "c345948aa72330d38cf07554482748f4",
+    "fp_sol2": "c345948aa72330d38cf07554482748f4",
+    "id": "1206_Code_29_0xc8d9890df1ff2e87be05e9edab3cca26f054b611",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

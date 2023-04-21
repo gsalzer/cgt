@@ -1,0 +1,60 @@
+{
+    "addr": "0xb5aff01f3e820735fac9abb594dc9993cb9e5bd2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-05-12797ed",
+    "compiler_orig": false,
+    "contractname": "TheGame",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "68a543ae03a9ba0ccd396ed0b629424f",
+    "fp_runtime": "6c9b1673528620cdb9ac63d91613cae2",
+    "fp_sol": "f3a76c87b976bb10c7300ee53d6831fa",
+    "fp_sol2": "f3a76c87b976bb10c7300ee53d6831fa",
+    "id": "0780_Code_41_0xb5aff01f3e820735fac9abb594dc9993cb9e5bd2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

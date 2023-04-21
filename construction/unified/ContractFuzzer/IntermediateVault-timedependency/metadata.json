@@ -1,0 +1,37 @@
+{
+    "addr": "0x4b667a378c1d9b2134cc4fa02d9cfba2cc2b11d4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/IntermediateVault.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "IntermediateVault",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "3d28281f41eacaf3abb4f7a27f2e4ba2",
+    "fp_runtime": "22903fa90dd46c8ab9038e9cbf9133a2",
+    "fp_sol": "1fcecaf0692abbfda4bf068199f2e07f",
+    "fp_sol2": "1fcecaf0692abbfda4bf068199f2e07f",
+    "id": "IntermediateVault-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_IntermediateVault.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

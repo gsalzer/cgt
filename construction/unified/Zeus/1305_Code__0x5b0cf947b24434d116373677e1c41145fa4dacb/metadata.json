@@ -1,0 +1,60 @@
+{
+    "addr": "0x5b0cf947b24434d116373677e1c41145fa4dacb5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "SYLVIe",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "d236ba08f5596d4c7b18e65066d65321",
+    "fp_runtime": "36612b603cb57c55d934f998d8d3ffc5",
+    "fp_sol": "eb053adcb90dea53033c9bda292cfa7d",
+    "fp_sol2": "8e139374b659c55c26dd3087fbea9e94",
+    "id": "1305_Code__0x5b0cf947b24434d116373677e1c41145fa4dacb",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

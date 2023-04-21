@@ -1,0 +1,37 @@
+{
+    "addr": "0x26b7dedab33c58bc9edc26d9cd81b8eee43c24dd",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "FeeDisbursal",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "978c6c5cd017dcb985e55cd414c8777b",
+    "fp_runtime": "df147f91f76958eec804655f85b88bbe",
+    "fp_sol": "81239aa2114d057b46a45c916bd9aa96",
+    "fp_sol2": "2ec20669f0b68f05d3277a2ca4cfd2f4",
+    "id": "0x26b7dedab33c58bc9edc26d9cd81b8eee43c24dd-FeeDisbursal-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test604.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,43 @@
+{
+    "addr": "0x4fd8ba5d02259931438c325338bf543a5d2ad733",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "airdrop-hunting",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "BitcoinPublic",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x4fd8ba5d02259931438c325338bf543a5d2ad733",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "af5b28412d57a5d7f5546996d95bfb6e",
+    "fp_runtime": "99effe7f7e5074d985f5a98b082f0f9c",
+    "fp_sol": "ba5bb04ca3d03913850d51ef61b7fa10",
+    "fp_sol2": "e965c320daeb261861d7294f2221b8d8",
+    "id": "0x4fd8ba5d02259931438c325338bf543a5d2ad733",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

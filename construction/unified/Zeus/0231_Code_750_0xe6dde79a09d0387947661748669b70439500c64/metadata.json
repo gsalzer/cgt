@@ -1,0 +1,60 @@
+{
+    "addr": "0xe6dde79a09d0387947661748669b70439500c64b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": false,
+    "contractname": "Laundromat",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "220517553ab1363149fbeac490ea39c7",
+    "fp_runtime": "09f61bdd9ac7755a1fc8b429fd67051e",
+    "fp_sol": "466b11d7fb76d05f1de40cf86e2c5e2f",
+    "fp_sol2": "63492d580151ed085fadd6cc3c40ec46",
+    "id": "0231_Code_750_0xe6dde79a09d0387947661748669b70439500c64",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

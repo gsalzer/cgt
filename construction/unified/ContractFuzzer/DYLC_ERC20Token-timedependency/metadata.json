@@ -1,0 +1,37 @@
+{
+    "addr": "0x1d840cb510f084e6154c85d14d98cdc8f7a3b4d5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DYLC_ERC20Token.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "DYLC_ERC20Token",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "87218cb74c74be25f78c4d548c9c93ee",
+    "fp_runtime": "ac26700143dfda496e54640da25dde32",
+    "fp_sol": "aed168a2e75be07378c9abb0e3524676",
+    "fp_sol2": "911af150bb567a809f27a01440c9498c",
+    "id": "DYLC_ERC20Token-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DYLC_ERC20Token.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

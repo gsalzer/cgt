@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "SwapController.onTransfer has external calls inside a loop: \"! guards[i].onTokenTransfer(_from,_to,_amount)\" (reorder_contracts_2_3/test655.sol#157-160)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "! guards[i].onTokenTransfer(_from,_to,_amount)",
+            "source_mapping": {
+              "start": 5413,
+              "length": 113,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test655.sol",
+              "filename_relative": "reorder_contracts_2_3/test655.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test655.sol",
+              "filename_short": "reorder_contracts_2_3/test655.sol",
+              "lines": [
+                157,
+                158,
+                159,
+                160
+              ],
+              "starting_column": 13,
+              "ending_column": 14
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "onTransfer",
+                "source_mapping": {
+                  "start": 5252,
+                  "length": 316,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test655.sol",
+                  "filename_relative": "reorder_contracts_2_3/test655.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test655.sol",
+                  "filename_short": "reorder_contracts_2_3/test655.sol",
+                  "lines": [
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SwapController",
+                    "source_mapping": {
+                      "start": 4658,
+                      "length": 1162,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test655.sol",
+                      "filename_relative": "reorder_contracts_2_3/test655.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test655.sol",
+                      "filename_short": "reorder_contracts_2_3/test655.sol",
+                      "lines": [
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "onTransfer(address,address,uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

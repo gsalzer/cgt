@@ -1,0 +1,37 @@
+{
+    "addr": "0x43d702ee5e08465522e93ae2dd39077aefd42702",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/MidnightCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "MidnightCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ad646321f85dc794499b22c1e8d22bd3",
+    "fp_runtime": "76ad5920b5c6d23a865dc06382d6b4a8",
+    "fp_sol": "bd9f59f0f4890d782742737282e3b86c",
+    "fp_sol2": "f19f78e18dc086062385667d3df79293",
+    "id": "MidnightCoin-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MidnightCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

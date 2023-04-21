@@ -1,0 +1,2 @@
+{u'source_code/test2839.sol': {u'Magic10': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test2839.sol:30:5: Warning: Integer Overflow.\n    mapping(uint64 => Deposit) public deposits', u'source_code/test2839.sol:74:9: Warning: Integer Overflow.\n        deposits[depositId] = _deposit'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '79.1'}}}
+

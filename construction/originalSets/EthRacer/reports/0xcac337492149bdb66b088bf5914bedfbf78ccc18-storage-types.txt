@@ -1,0 +1,12 @@
+Bug types: 10
+--------------------------------------------------------------------------------
+ 68 : ['fallback', 'GetAndReduceFeesByFraction', 'ChangeOwnership', 'CollectAllFees']
+ 20 : ['fallback', 'GetAndReduceFeesByFraction', 'ChangeOwnership']
+ 20 : ['GetAndReduceFeesByFraction', 'ChangeOwnership', 'CollectAllFees']
+ 19 : ['GetAndReduceFeesByFraction', 'ChangeOwnership']
+  8 : ['fallback', 'GetAndReduceFeesByFraction', 'CollectAllFees']
+  8 : ['fallback', 'ChangeOwnership', 'CollectAllFees']
+  5 : ['fallback', 'GetAndReduceFeesByFraction']
+  5 : ['fallback', 'ChangeOwnership']
+  5 : ['GetAndReduceFeesByFraction', 'CollectAllFees']
+  5 : ['ChangeOwnership', 'CollectAllFees']

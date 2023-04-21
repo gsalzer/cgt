@@ -1,0 +1,136 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000009473e0dd3af9db662e9b45ad832609744cd1edce0000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'changeSaleAgent', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5e8714d5000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+2 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000008000000000000000000000000000000000000000'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'changeSaleAgent', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5e8714d5000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+4 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000080000000000000000000000000000000000000'}
+5 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'changeSaleAgent', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5e8714d5000000000000000000000000bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44'}
+6 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'emission', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '58292a3d'}
+7 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'changeSaleAgent', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5e8714d50000000000000000000000001111111111111111111111111111111111111111'}
+8 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000080000000000000000000000'}
+9 : {'tx_caller': 'bfc5ed5b0b38e2304600dbdb1ce42fc187ce2b44', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+--------------------------------------------------------------------------------
+
+Full traces: 40
+--------------------------------------------------------------------------------
+5 6 1   :  changeSaleAgent emission changeSaleAgent 
+5 1 6   :  changeSaleAgent changeSaleAgent emission 
+------------------------------------------------------------
+5 0 1 6   :  changeSaleAgent transfer changeSaleAgent emission 
+0 5 6 1   :  transfer changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+5 0 1 6   :  changeSaleAgent transfer changeSaleAgent emission 
+5 6 0 1   :  changeSaleAgent emission transfer changeSaleAgent 
+------------------------------------------------------------
+5 0 1 6   :  changeSaleAgent transfer changeSaleAgent emission 
+5 0 6 1   :  changeSaleAgent transfer emission changeSaleAgent 
+------------------------------------------------------------
+0 5 1 6   :  transfer changeSaleAgent changeSaleAgent emission 
+0 5 6 1   :  transfer changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+0 5 1 6   :  transfer changeSaleAgent changeSaleAgent emission 
+5 6 0 1   :  changeSaleAgent emission transfer changeSaleAgent 
+------------------------------------------------------------
+0 5 1 6   :  transfer changeSaleAgent changeSaleAgent emission 
+5 0 6 1   :  changeSaleAgent transfer emission changeSaleAgent 
+------------------------------------------------------------
+5 6 1 2   :  changeSaleAgent emission changeSaleAgent transferOwnership 
+5 1 6 2   :  changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+5 7 6 1   :  changeSaleAgent changeSaleAgent emission changeSaleAgent 
+5 7 1 6   :  changeSaleAgent changeSaleAgent changeSaleAgent emission 
+------------------------------------------------------------
+5 0 6 1 2   :  changeSaleAgent transfer emission changeSaleAgent transferOwnership 
+5 0 1 6 2   :  changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+5 0 6 1 2   :  changeSaleAgent transfer emission changeSaleAgent transferOwnership 
+0 5 1 6 2   :  transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+0 5 6 1 2   :  transfer changeSaleAgent emission changeSaleAgent transferOwnership 
+5 0 1 6 2   :  changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+0 5 6 1 2   :  transfer changeSaleAgent emission changeSaleAgent transferOwnership 
+0 5 1 6 2   :  transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+5 6 0 1 2   :  changeSaleAgent emission transfer changeSaleAgent transferOwnership 
+5 0 1 6 2   :  changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+5 6 0 1 2   :  changeSaleAgent emission transfer changeSaleAgent transferOwnership 
+0 5 1 6 2   :  transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+5 7 0 6 1   :  changeSaleAgent changeSaleAgent transfer emission changeSaleAgent 
+0 5 7 1 6   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission 
+------------------------------------------------------------
+5 7 0 6 1   :  changeSaleAgent changeSaleAgent transfer emission changeSaleAgent 
+5 0 7 1 6   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission 
+------------------------------------------------------------
+5 7 0 6 1   :  changeSaleAgent changeSaleAgent transfer emission changeSaleAgent 
+5 7 0 1 6   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission 
+------------------------------------------------------------
+0 7 5 1 6   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission 
+0 7 5 6 1   :  transfer changeSaleAgent changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+0 7 5 1 6   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission 
+7 0 5 6 1   :  changeSaleAgent transfer changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+0 7 5 1 6   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission 
+7 5 6 0 1   :  changeSaleAgent changeSaleAgent emission transfer changeSaleAgent 
+------------------------------------------------------------
+7 0 5 1 6   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission 
+0 7 5 6 1   :  transfer changeSaleAgent changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+7 0 5 1 6   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission 
+7 0 5 6 1   :  changeSaleAgent transfer changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+7 0 5 1 6   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission 
+7 5 6 0 1   :  changeSaleAgent changeSaleAgent emission transfer changeSaleAgent 
+------------------------------------------------------------
+7 5 0 1 6   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission 
+0 7 5 6 1   :  transfer changeSaleAgent changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+7 5 0 1 6   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission 
+7 0 5 6 1   :  changeSaleAgent transfer changeSaleAgent emission changeSaleAgent 
+------------------------------------------------------------
+7 5 0 1 6   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission 
+7 5 6 0 1   :  changeSaleAgent changeSaleAgent emission transfer changeSaleAgent 
+------------------------------------------------------------
+7 5 1 6 2   :  changeSaleAgent changeSaleAgent changeSaleAgent emission transferOwnership 
+7 5 6 1 2   :  changeSaleAgent changeSaleAgent emission changeSaleAgent transferOwnership 
+------------------------------------------------------------
+7 5 0 1 6 2   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+7 0 5 6 1 2   :  changeSaleAgent transfer changeSaleAgent emission changeSaleAgent transferOwnership 
+------------------------------------------------------------
+7 5 0 1 6 2   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+7 5 0 6 1 2   :  changeSaleAgent changeSaleAgent transfer emission changeSaleAgent transferOwnership 
+------------------------------------------------------------
+7 5 0 1 6 2   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+0 7 5 6 1 2   :  transfer changeSaleAgent changeSaleAgent emission changeSaleAgent transferOwnership 
+------------------------------------------------------------
+7 5 0 1 6 2   :  changeSaleAgent changeSaleAgent transfer changeSaleAgent emission transferOwnership 
+7 5 6 0 1 2   :  changeSaleAgent changeSaleAgent emission transfer changeSaleAgent transferOwnership 
+------------------------------------------------------------
+7 0 5 6 1 2   :  changeSaleAgent transfer changeSaleAgent emission changeSaleAgent transferOwnership 
+0 7 5 1 6 2   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+7 0 5 6 1 2   :  changeSaleAgent transfer changeSaleAgent emission changeSaleAgent transferOwnership 
+7 0 5 1 6 2   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+0 5 7 6 1 2   :  transfer changeSaleAgent changeSaleAgent emission changeSaleAgent transferOwnership 
+0 5 7 1 6 2   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+0 5 7 6 1 2   :  transfer changeSaleAgent changeSaleAgent emission changeSaleAgent transferOwnership 
+5 0 7 1 6 2   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+0 5 7 1 6 2   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission transferOwnership 
+5 7 0 6 1 2   :  changeSaleAgent changeSaleAgent transfer emission changeSaleAgent transferOwnership 
+------------------------------------------------------------
+0 5 7 1 6 2   :  transfer changeSaleAgent changeSaleAgent changeSaleAgent emission transferOwnership 
+5 7 6 0 1 2   :  changeSaleAgent changeSaleAgent emission transfer changeSaleAgent transferOwnership 
+------------------------------------------------------------
+7 5 0 6 1 2   :  changeSaleAgent changeSaleAgent transfer emission changeSaleAgent transferOwnership 
+7 0 5 1 6 2   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+------------------------------------------------------------
+5 0 7 1 6 2   :  changeSaleAgent transfer changeSaleAgent changeSaleAgent emission transferOwnership 
+5 7 6 0 1 2   :  changeSaleAgent changeSaleAgent emission transfer changeSaleAgent transferOwnership 
+------------------------------------------------------------

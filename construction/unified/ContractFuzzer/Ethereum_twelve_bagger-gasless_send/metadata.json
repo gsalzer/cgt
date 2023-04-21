@@ -1,0 +1,37 @@
+{
+    "addr": "0xd77c717b04d056902e6304c9be464d12aefb9db6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Ethereum_twelve_bagger.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-03-31-c492d9b",
+    "compiler_orig": false,
+    "contractname": "Ethereum_twelve_bagger",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "8af99e5233f4b6b474c9119990ba253d",
+    "fp_runtime": "b7caff388abfbce406b82c1903dded8d",
+    "fp_sol": "c5e5488008580a43217411a8f644abe5",
+    "fp_sol2": "c5e5488008580a43217411a8f644abe5",
+    "id": "Ethereum_twelve_bagger-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Ethereum_twelve_bagger.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x32ff276e98517ef6e0ad7bc7b2674baa0f1c388b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BillPokerPreICO.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "BillPokerPreICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1d082b10ad62a7a905812a06b888dd4c",
+    "fp_runtime": "caca7f1a69060879158353a8afc31e55",
+    "fp_sol": "e9469221238f5f3f5c8deccfccaa4e09",
+    "fp_sol2": "7f8939aa991ebde26684155a301582b2",
+    "id": "BillPokerPreICO-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BillPokerPreICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "RaffleTokenExchange",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "1fc95fb5ae7fac3c4bf9046e265f3b96",
+    "fp_sol2": "df6526e7c4acb796848613427ae81eee",
+    "id": "Overflow-Underflow-29",
+    "info": [
+        "info/BugLog_29.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_29.sol"
+    ],
+    "sol_orig": true
+}

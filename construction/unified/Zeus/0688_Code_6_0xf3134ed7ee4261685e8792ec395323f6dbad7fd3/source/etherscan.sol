@@ -1,0 +1,1 @@
+contract test{string public name;function setName(string _name){name=_name;}}

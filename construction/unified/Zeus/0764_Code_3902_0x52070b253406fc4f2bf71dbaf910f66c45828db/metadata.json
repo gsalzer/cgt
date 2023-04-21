@@ -1,0 +1,60 @@
+{
+    "addr": "0x52070b253406fc4f2bf71dbaf910f66c45828dba",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2-nightly.2016.9.17+commit.62f13ad8",
+    "compiler_orig": false,
+    "contractname": "EtherUnitConverter",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "9aeac3e5c38c3097c14c8198c8f79460",
+    "fp_runtime": "3256a6f01e355490f2d292366ba79fe9",
+    "fp_sol": "213ac78de52b1d5b73222a4e647269ac",
+    "fp_sol2": "489f3e7bd5de432eabc9090b0814b509",
+    "id": "0764_Code_3902_0x52070b253406fc4f2bf71dbaf910f66c45828db",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

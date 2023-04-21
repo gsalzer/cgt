@@ -1,0 +1,2 @@
+{u'source_code/test1672.sol': {u'untrustedChildWithdraw': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test1672.sol:25:3: Warning: Integer Overflow.\n  mapping (uint => childDAO) public whiteList'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '67.3'}}}
+

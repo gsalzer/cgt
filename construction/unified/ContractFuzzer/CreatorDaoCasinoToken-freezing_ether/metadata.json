@@ -1,0 +1,42 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "CreatorDaoCasinoToken",
+            "DaoCasinoToken",
+            "ERC20Token",
+            "Owned",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "507005d4a4d8b80119965ce764cce54e",
+    "fp_sol": "e60796f7e074ad12dde9ca9816924495",
+    "fp_sol2": "274bebbe248c7b3d01f209a6f9b47dac",
+    "id": "CreatorDaoCasinoToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/CreatorDaoCasinoToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/CreatorDaoCasinoToken.sol"
+    ],
+    "sol_orig": true
+}

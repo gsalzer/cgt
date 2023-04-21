@@ -1,0 +1,60 @@
+{
+    "addr": "0xc9c1bfb27e97531ecfe005faa2b2ed4828b08a0b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-08-08-c3ed550",
+    "compiler_orig": false,
+    "contractname": "Etherandom",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "8d321974e23d31f307d25dcbd757feec",
+    "fp_runtime": "089183b85a32b6bfeaecfda597f32df8",
+    "fp_sol": "949b86f26eab1ef14b4ea3b2065a3473",
+    "fp_sol2": "949b86f26eab1ef14b4ea3b2065a3473",
+    "id": "0193_Code_25_0xc9c1bfb27e97531ecfe005faa2b2ed4828b08a0b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

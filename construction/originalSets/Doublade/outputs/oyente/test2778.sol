@@ -1,0 +1,2 @@
+{u'source_code/test2778.sol': {u'Maths': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test2778.sol:18:11: Warning: Integer Overflow.\n    sum = addendA + addendB\nInteger Overflow occurs if:\n    addendA = 1\n    addendB = 115792089237316195423570985008687907853269984665640564039457584007913129639935'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '90.2'}}}
+

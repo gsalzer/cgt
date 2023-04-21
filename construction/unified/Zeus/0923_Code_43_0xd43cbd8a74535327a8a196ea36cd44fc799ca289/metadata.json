@@ -1,0 +1,60 @@
+{
+    "addr": "0xd43cbd8a74535327a8a196ea36cd44fc799ca289",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-18-e759a24",
+    "compiler_orig": false,
+    "contractname": "SimpleLotto",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "8006fc439d7f835a669b9c94ac1673c4",
+    "fp_runtime": "04ccd032a3694026acf8a9ee952a612f",
+    "fp_sol": "4846f8f5778f8a8c711cf8b98c8a1d1f",
+    "fp_sol2": "4846f8f5778f8a8c711cf8b98c8a1d1f",
+    "id": "0923_Code_43_0xd43cbd8a74535327a8a196ea36cd44fc799ca289",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

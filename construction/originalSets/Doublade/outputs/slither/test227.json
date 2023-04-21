@@ -1,0 +1,381 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Airdrop.batchTransferToken has external calls inside a loop: \"erc20.transfer(_toList[i],_values[i])\" (reorder_contracts_2_3/test227.sol#145)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "erc20.transfer(_toList[i],_values[i])",
+            "source_mapping": {
+              "start": 4182,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+              "filename_relative": "reorder_contracts_2_3/test227.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+              "filename_short": "reorder_contracts_2_3/test227.sol",
+              "lines": [
+                145
+              ],
+              "starting_column": 13,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "batchTransferToken",
+                "source_mapping": {
+                  "start": 3869,
+                  "length": 391,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                  "filename_relative": "reorder_contracts_2_3/test227.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                  "filename_short": "reorder_contracts_2_3/test227.sol",
+                  "lines": [
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Airdrop",
+                    "source_mapping": {
+                      "start": 3585,
+                      "length": 1860,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                      "filename_relative": "reorder_contracts_2_3/test227.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                      "filename_short": "reorder_contracts_2_3/test227.sol",
+                      "lines": [
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "batchTransferToken(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Airdrop.batchTransferETH has external calls inside a loop: \"_toList[i].transfer(_values[i])\" (reorder_contracts_2_3/test227.sol#169)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "_toList[i].transfer(_values[i])",
+            "source_mapping": {
+              "start": 5084,
+              "length": 31,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+              "filename_relative": "reorder_contracts_2_3/test227.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+              "filename_short": "reorder_contracts_2_3/test227.sol",
+              "lines": [
+                169
+              ],
+              "starting_column": 13,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "batchTransferETH",
+                "source_mapping": {
+                  "start": 4843,
+                  "length": 312,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                  "filename_relative": "reorder_contracts_2_3/test227.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                  "filename_short": "reorder_contracts_2_3/test227.sol",
+                  "lines": [
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Airdrop",
+                    "source_mapping": {
+                      "start": 3585,
+                      "length": 1860,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                      "filename_relative": "reorder_contracts_2_3/test227.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                      "filename_short": "reorder_contracts_2_3/test227.sol",
+                      "lines": [
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "batchTransferETH(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Airdrop.transferETHs has external calls inside a loop: \"_toList[i].transfer(_value)\" (reorder_contracts_2_3/test227.sol#178)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "_toList[i].transfer(_value)",
+            "source_mapping": {
+              "start": 5375,
+              "length": 27,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+              "filename_relative": "reorder_contracts_2_3/test227.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+              "filename_short": "reorder_contracts_2_3/test227.sol",
+              "lines": [
+                178
+              ],
+              "starting_column": 13,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferETHs",
+                "source_mapping": {
+                  "start": 5163,
+                  "length": 279,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                  "filename_relative": "reorder_contracts_2_3/test227.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                  "filename_short": "reorder_contracts_2_3/test227.sol",
+                  "lines": [
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Airdrop",
+                    "source_mapping": {
+                      "start": 3585,
+                      "length": 1860,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                      "filename_relative": "reorder_contracts_2_3/test227.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test227.sol",
+                      "filename_short": "reorder_contracts_2_3/test227.sol",
+                      "lines": [
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferETHs(address[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

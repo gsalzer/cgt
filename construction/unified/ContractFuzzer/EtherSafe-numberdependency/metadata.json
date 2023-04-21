@@ -1,0 +1,38 @@
+{
+    "addr": "0x968fb04cdede76860e00324fb7d37338c0404e6c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "EtherSafe",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "6f80483d166685e49b80719eb76962b3",
+    "fp_runtime": "dec30570b5c4b40d436bfd5481746cad",
+    "fp_sol": "7f766de805ddcc3f0884df8daaae6e56",
+    "fp_sol2": "7f766de805ddcc3f0884df8daaae6e56",
+    "id": "EtherSafe-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_EtherSafe.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EtherSafe.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

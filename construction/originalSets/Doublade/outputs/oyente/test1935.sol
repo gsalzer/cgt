@@ -1,0 +1,2 @@
+{u'source_code/test1935.sol': {u'Highfiveeth': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test1935.sol:144:79: Warning: Integer Underflow.\n        uint256 amount = invested[_deposit] * getPercent(_deposit) / 10000 * (block.number - atBlock[_deposit]\nInteger Underflow occurs if:\n    atBlock[_deposit] = 1'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '62.4'}}}
+

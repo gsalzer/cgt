@@ -1,0 +1,35 @@
+{
+    "addr": "0xea3a5d86b0d1fd28fc24cb95c30f086e594030eb",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "DealarConstant",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "266bb45f4cc96e23e3ee9c1d820a3c44",
+    "fp_sol": "a20b9a72db8d8ab5974fdd91744f857b",
+    "fp_sol2": "7a6e3f4d8da868ade2da9a74b1e6852f",
+    "id": "DealarConstant-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/DealarConstant.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_DealarConstant.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

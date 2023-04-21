@@ -1,0 +1,35 @@
+{
+    "addr": "0x1143094db076646d7ca60d1c75126f7fd0c279df",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "TransferMoney",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "f5e10060290526da34aed980a314890f",
+    "fp_sol": "469625513d621be385f5813cabc10409",
+    "fp_sol2": "548f0f6ba90278070439db6290602aa3",
+    "id": "TransferMoney-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/TransferMoney.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_TransferMoney.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

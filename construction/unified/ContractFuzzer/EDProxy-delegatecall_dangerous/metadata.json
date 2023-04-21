@@ -1,0 +1,38 @@
+{
+    "addr": "0x02f66a7d5657ee67be39349988aa1f944206ead3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "EDProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0cf78835d2dc215f90a85c9ff285c0c9",
+    "fp_runtime": "bfdad28dfc9fa62454315a8987d24fbe",
+    "fp_sol": "5c990d1152f99cdc49500e4276369a21",
+    "fp_sol2": "7e0700d6696ed63923939a9f51091716",
+    "id": "EDProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_EDProxy.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EDProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

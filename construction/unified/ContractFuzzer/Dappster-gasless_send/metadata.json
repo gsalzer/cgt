@@ -1,0 +1,38 @@
+{
+    "addr": "0x7f2b1d5133053f9cc5b750d2245db607233a770d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Dappster.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Dappster",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/Dappster.sol"
+    },
+    "fp_bytecode": "35b241dea2fadfe2445d03f89d753280",
+    "fp_runtime": "cb21e3d454876395fb14f7bc60f8103a",
+    "fp_sol": "01ba843f6c182b199f84e31c24935fc1",
+    "fp_sol2": "3cdc09897acdf2dfd4131298a4259fa6",
+    "id": "Dappster-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

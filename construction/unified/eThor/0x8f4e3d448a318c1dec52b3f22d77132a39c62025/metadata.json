@@ -1,0 +1,37 @@
+{
+    "addr": "0x8f4e3d448a318c1dec52b3f22d77132a39c62025",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.1+commit.4fc6fc2c",
+    "compiler_orig": true,
+    "contractname": "ForceSend",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "466b92e967bff0fb7e2ef4a876621d56",
+    "fp_runtime": "49516e127c39610d86de6dd9700eceb1",
+    "fp_sol": "4db17c016d7caf4387984599ed87e9cc",
+    "fp_sol2": "ee3a38447a271eafb4dd1620a9f4fc37",
+    "id": "0x8f4e3d448a318c1dec52b3f22d77132a39c62025",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "EscrowChecker.checkAccountSchedule has external calls inside a loop: \"pair = havven_escrow.getVestingScheduleEntry(account,i)\" (reorder_contracts_2_3/test959.sol#24)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "pair = havven_escrow.getVestingScheduleEntry(account,i)",
+            "source_mapping": {
+              "start": 666,
+              "length": 71,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test959.sol",
+              "filename_relative": "reorder_contracts_2_3/test959.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test959.sol",
+              "filename_short": "reorder_contracts_2_3/test959.sol",
+              "lines": [
+                24
+              ],
+              "starting_column": 13,
+              "ending_column": 84
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "checkAccountSchedule",
+                "source_mapping": {
+                  "start": 393,
+                  "length": 466,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test959.sol",
+                  "filename_relative": "reorder_contracts_2_3/test959.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test959.sol",
+                  "filename_short": "reorder_contracts_2_3/test959.sol",
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EscrowChecker",
+                    "source_mapping": {
+                      "start": 227,
+                      "length": 635,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test959.sol",
+                      "filename_relative": "reorder_contracts_2_3/test959.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test959.sol",
+                      "filename_short": "reorder_contracts_2_3/test959.sol",
+                      "lines": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "checkAccountSchedule(address)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xd8912c10681d8b21fd3742244f44658dba12264e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.6-2016-09-02-341c943",
+    "compiler_orig": true,
+    "contractname": "Pluton",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b8c9e33f29938434e5dd6660b42a8d16",
+    "fp_runtime": "42b440105f6a19f1dcdcaa37ee07de07",
+    "fp_sol": "668a31c1379246b2b11c4ce5861b6357",
+    "fp_sol2": "668a31c1379246b2b11c4ce5861b6357",
+    "id": "0xd8912c10681d8b21fd3742244f44658dba12264e",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

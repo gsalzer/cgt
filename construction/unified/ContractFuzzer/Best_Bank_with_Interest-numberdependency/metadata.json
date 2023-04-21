@@ -1,0 +1,38 @@
+{
+    "addr": "0xc99b3615724b7c4d3e4b348cfc8a25b9e2133828",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.5+commit.b318366e",
+    "compiler_orig": false,
+    "contractname": "Best_Bank_with_Interest",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "4b7354c08fa17e5cb14c9a27c13f6f7c",
+    "fp_runtime": "371f0719511e428e001e06f3f72ae452",
+    "fp_sol": "03db73cf0a20259b803a8b76d4f08a93",
+    "fp_sol2": "28709de7bf304adc6aafd6d16d58d9fb",
+    "id": "Best_Bank_with_Interest-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_Best_Bank_with_Interest.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Best_Bank_with_Interest.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

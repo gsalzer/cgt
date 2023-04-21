@@ -1,0 +1,119 @@
+{
+    "addr": "0x4f232a41b26bf07c37240f0cb3bde5727074a0f6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            false
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            false
+        ],
+        [
+            "Missing Interrupter",
+            false
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "EthereumTrustFund",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x4f232a41b26bf07c37240f0cb3bde5727074a0f6",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "c54664367a51e2b88f9c8c12bd7adfe6",
+    "fp_runtime": "5825550d8fefb9ab3e99f63db69598f5",
+    "fp_sol": "79014d6f885758843fa6d94cd03caf89",
+    "fp_sol2": "3cddb4451847ccfa35451e2cf1692ea6",
+    "id": "0x4f232a41b26bf07c37240f0cb3bde5727074a0f6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

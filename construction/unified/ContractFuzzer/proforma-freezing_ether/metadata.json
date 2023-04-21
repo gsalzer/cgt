@@ -1,0 +1,35 @@
+{
+    "addr": "0x31d996718512ae67d4b439178feef4cc69fc3722",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "proforma",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "d801973f3577713f7e1ad634a00a16f1",
+    "fp_sol": "ebd40bf1da36d24ec7d1366326bfeee4",
+    "fp_sol2": "a677b678a40636799b69b9de0fd838ab",
+    "id": "proforma-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/proforma.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_proforma.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

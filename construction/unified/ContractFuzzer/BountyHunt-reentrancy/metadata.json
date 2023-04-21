@@ -1,0 +1,38 @@
+{
+    "addr": "0xb5766f61911f8b520b0e938aae100834aa3048c6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BountyHunt.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16-nightly.2017.8.11+commit.c84de7fa",
+    "compiler_orig": false,
+    "contractname": "BountyHunt",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/reentrancy/verified_contract_sols/BountyHunt.sol"
+    },
+    "fp_bytecode": "bff4770c4b61b6526d0fd4b70e645dba",
+    "fp_runtime": "87526befe3bca6083c82db560b4085bf",
+    "fp_sol": "261a8729f567dd034042a37e29ee9ff0",
+    "fp_sol2": "8d3d39a628ebd3e46a58462852fd4a72",
+    "id": "BountyHunt-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

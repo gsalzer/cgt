@@ -1,0 +1,193 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "WhaleGiveaway2.Command (reorder_contracts_2_3/test3763.sol#32-38) ignores return value by low-level calls \"adr.call.value(msg.value)(data)\" (reorder_contracts_2_3/test3763.sol#37)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 9232,
+              "length": 31,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+              "filename_relative": "reorder_contracts_2_3/test3763.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+              "filename_short": "reorder_contracts_2_3/test3763.sol",
+              "lines": [
+                37
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 9111,
+                  "length": 160,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3763.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+                  "filename_short": "reorder_contracts_2_3/test3763.sol",
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WhaleGiveaway2",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 9246,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3763.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+                      "filename_short": "reorder_contracts_2_3/test3763.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 9111,
+              "length": 160,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+              "filename_relative": "reorder_contracts_2_3/test3763.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+              "filename_short": "reorder_contracts_2_3/test3763.sol",
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 9246,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3763.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3763.sol",
+                  "filename_short": "reorder_contracts_2_3/test3763.sol",
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

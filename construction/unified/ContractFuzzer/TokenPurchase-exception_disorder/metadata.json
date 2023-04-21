@@ -1,0 +1,38 @@
+{
+    "addr": "0x599a4b8188676224d4c9b393b947e332b60b15e3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TokenPurchase.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "TokenPurchase",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/TokenPurchase.sol"
+    },
+    "fp_bytecode": "622bd25ac1c034438b5977d9211e94da",
+    "fp_runtime": "c3e8537d6e00c37e376d5028e6174eba",
+    "fp_sol": "8490bf74f9ca206ad6ac31e894ffa919",
+    "fp_sol2": "87f26e1cdcc52fb7e3ce2bb23bca43c3",
+    "id": "TokenPurchase-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

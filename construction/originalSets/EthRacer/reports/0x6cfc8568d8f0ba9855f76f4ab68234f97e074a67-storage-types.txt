@@ -1,0 +1,18 @@
+Bug types: 16
+--------------------------------------------------------------------------------
+112 : ['transfer', 'transferOwnership', 'approve', 'approve', 'transferFrom']
+106 : ['transfer', 'transferOwnership', 'approve', 'transferFrom']
+ 30 : ['transfer', 'approve', 'transferFrom']
+ 30 : ['transferOwnership', 'approve', 'transferFrom']
+ 29 : ['approve', 'transferFrom']
+ 24 : ['transfer', 'approve', 'approve', 'transferFrom']
+ 24 : ['transferOwnership', 'approve', 'approve', 'transferFrom']
+ 22 : ['transfer', 'transferOwnership', 'approve', 'approve']
+ 10 : ['transfer', 'transferOwnership', 'transferFrom']
+ 10 : ['transfer', 'transferOwnership', 'approve']
+  6 : ['transfer', 'transferFrom']
+  6 : ['transferOwnership', 'transferFrom']
+  6 : ['transferOwnership', 'approve', 'approve']
+  6 : ['transferOwnership', 'approve']
+  6 : ['transfer', 'approve', 'approve']
+  6 : ['transfer', 'approve']

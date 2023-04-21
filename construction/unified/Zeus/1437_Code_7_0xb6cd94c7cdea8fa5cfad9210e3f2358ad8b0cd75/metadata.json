@@ -1,0 +1,60 @@
+{
+    "addr": "0xb6cd94c7cdea8fa5cfad9210e3f2358ad8b0cd75",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "BlockmaticsGraduationCertificate_02102017",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "945336de3cebe4d6e60fc9d766d49431",
+    "fp_runtime": "cfed9dde7acefa021cb2a1df010bbde7",
+    "fp_sol": "83dbed8ce361bc7f871867f9af62150d",
+    "fp_sol2": "42df74c67d4d4ed09705d25f858ae64d",
+    "id": "1437_Code_7_0xb6cd94c7cdea8fa5cfad9210e3f2358ad8b0cd75",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

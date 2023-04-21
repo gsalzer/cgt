@@ -1,0 +1,54 @@
+{
+    "addr": "0x139a5a0812bfc9b3d9234c9fd2d8c5d790f71e18",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "Escrow",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "856f4fdf447cd02edcb2bdfba5fd3ae0",
+    "fp_runtime": "69f6a25316cd1d9ccf11d69a8f8a5cd8",
+    "fp_sol": "939379d8ebfd82074e9c18b270679079",
+    "fp_sol2": "939379d8ebfd82074e9c18b270679079",
+    "id": "0x139a5a0812bfc9b3d9234c9fd2d8c5d790f71e18",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

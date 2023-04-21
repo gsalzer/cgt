@@ -1,0 +1,2 @@
+{u'source_code/test2179.sol': {u'HelpMeTokenPart2': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test2179.sol:13:5: Warning: Integer Underflow.\n    string public symbol = ") I WAS FUCKEDUP LIVING IN RUSSIA"', u'source_code/test2179.sol:12:5: Warning: Integer Underflow.\n    string public name = ") I WAS FUCKEDUP LIVING IN RUSSIA"'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '72.6'}}}
+

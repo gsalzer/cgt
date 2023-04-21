@@ -1,0 +1,38 @@
+{
+    "addr": "0x487c73f2acdd11cb79870d90294c7a692e4d797c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/UintLib.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "UintLib",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/freezing_ether/verified_contract_sols/UintLib.sol"
+    },
+    "fp_bytecode": "97101ad5bf92d0d82247a1331bb36825",
+    "fp_runtime": "4fd68ce1b9245f55780a45ac05f0486e",
+    "fp_sol": "c8c725069c43cc12301f3457f0dca1d0",
+    "fp_sol2": "89ebea12de04547c425723b4a3ed75cf",
+    "id": "UintLib-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,2 @@
+{u'source_code/test2480.sol': {u'SECRETSanity': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test2480.sol:91:5: Warning: Transaction-Ordering Dependency.\n    developer.transfer(fees)'], [u'source_code/test2480.sol:81:5: Warning: Transaction-Ordering Dependency.\n    msg.sender.transfer(eth_to_withdraw)']], 'assertion_failure': []}, 'evm_code_coverage': '91.6'}}}
+

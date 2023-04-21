@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "BatchReleaser.batchRelease has external calls inside a loop: \"vesting.release(token)\" (reorder_contracts_2_3/test530.sol#283)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "vesting.release(token)",
+            "source_mapping": {
+              "start": 8385,
+              "length": 22,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test530.sol",
+              "filename_relative": "reorder_contracts_2_3/test530.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test530.sol",
+              "filename_short": "reorder_contracts_2_3/test530.sol",
+              "lines": [
+                283
+              ],
+              "starting_column": 13,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "batchRelease",
+                "source_mapping": {
+                  "start": 8133,
+                  "length": 293,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test530.sol",
+                  "filename_relative": "reorder_contracts_2_3/test530.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test530.sol",
+                  "filename_short": "reorder_contracts_2_3/test530.sol",
+                  "lines": [
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BatchReleaser",
+                    "source_mapping": {
+                      "start": 8097,
+                      "length": 338,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test530.sol",
+                      "filename_relative": "reorder_contracts_2_3/test530.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test530.sol",
+                      "filename_short": "reorder_contracts_2_3/test530.sol",
+                      "lines": [
+                        278,
+                        279,
+                        280,
+                        281,
+                        282,
+                        283,
+                        284,
+                        285,
+                        286,
+                        287
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "batchRelease(address[],ERC20Basic)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

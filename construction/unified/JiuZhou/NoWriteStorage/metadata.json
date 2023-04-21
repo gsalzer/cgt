@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Storage overlap attack",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "gray_Wallet",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "26121f866172b2104398cbcf925126ea",
+    "fp_runtime": "1b68426350ebc8a3e797288f575047e2",
+    "fp_sol": "b0c1599142e6be971f5ba94a4264a64b",
+    "fp_sol2": "e31968e5d5a20f6e36623a99234428f3",
+    "id": "NoWriteStorage",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoWriteStorage.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x9047ef7c3d52956dd0909c1c1e011e986ce60691",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "EdgelessToken",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b54da5b877700a32b9e1334453a94983",
+    "fp_runtime": "d241eccc11cbdd4ca7ea040e673a7dda",
+    "fp_sol": "a25eaf6c167062c2d664cebccee1c0c6",
+    "fp_sol2": "76431e7ab66683f287aaa80eeaa13998",
+    "id": "0341_Code_2453_0x9047ef7c3d52956dd0909c1c1e011e986ce6069",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

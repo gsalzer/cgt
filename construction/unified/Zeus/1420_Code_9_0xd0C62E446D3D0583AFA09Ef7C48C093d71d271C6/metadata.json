@@ -1,0 +1,56 @@
+{
+    "addr": "0xd0c62e446d3d0583afa09ef7c48c093d71d271c6",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9-nightly.2017.1.13+commit.392ef5f4",
+    "compiler_orig": false,
+    "contractname": "SwicoCoin3",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "10e497422f3c9e6016ceee18efbf511a",
+    "fp_sol2": "4d97b02e2252f4e337abc6e1e1d7275f",
+    "id": "1420_Code_9_0xd0C62E446D3D0583AFA09Ef7C48C093d71d271C6",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

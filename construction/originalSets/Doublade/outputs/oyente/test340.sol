@@ -1,0 +1,2 @@
+{u'source_code/test340.sol': {u'AutoSplit': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test340.sol:38:9: Warning: Transaction-Ordering Dependency.\n        suicide(msg.sender)'], [u'source_code/test340.sol:34:9: Warning: Transaction-Ordering Dependency.\n        msg.sender.transfer(this.balance)']], 'assertion_failure': []}, 'evm_code_coverage': '88.2'}}}
+

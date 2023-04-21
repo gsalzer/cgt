@@ -1,0 +1,60 @@
+{
+    "addr": "0x81a47e985b7a133728e97efc7f9ec3654b6e73f0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "Omnipurse",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "efbfebd8f32f2c0f083e47a07adff4f7",
+    "fp_runtime": "c7a0c172a34b6b4d9a13e9f93f0e3783",
+    "fp_sol": "7a3d32f14c635dbccb9a869664b4463c",
+    "fp_sol2": "cccfc08c34b75ce0893a7d8fbf75c9fb",
+    "id": "0443_Code_9_0x81a47e985b7a133728e97efc7f9ec3654b6e73f0",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

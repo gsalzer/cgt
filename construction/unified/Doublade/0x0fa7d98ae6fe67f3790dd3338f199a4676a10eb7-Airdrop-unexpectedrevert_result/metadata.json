@@ -1,0 +1,37 @@
+{
+    "addr": "0x0fa7d98ae6fe67f3790dd3338f199a4676a10eb7",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "Airdrop",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "109bf32406b304701b5d0cd8a36a0083",
+    "fp_runtime": "455499d44d6ba40faefe778ba33b41d7",
+    "fp_sol": "4f87729005429b2dd44d0a12a82719ca",
+    "fp_sol2": "1acd89dc108ed01c75b77e394fa940b6",
+    "id": "0x0fa7d98ae6fe67f3790dd3338f199a4676a10eb7-Airdrop-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test227.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

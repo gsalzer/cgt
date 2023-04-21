@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "front_running",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "ERC20",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/transaction_order_dependence/ERC20.sol"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "e451458f0dae796e25f570a8bd4cb2f4",
+    "fp_sol2": "29bc64d7bd5495db0e770b232d1cdfab",
+    "id": "ERC20",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/ERC20.sol"
+    ],
+    "sol_orig": true
+}

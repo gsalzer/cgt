@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "denial_of_service-113",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Refunder",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#dos-with-unexpected-revert"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "f2c3552764ea97a8f99a60c7fec7afb3",
+    "fp_sol2": "f216e7e6be92ac8dca758d8d7edfd917",
+    "id": "send_loop",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/send_loop.sol"
+    ],
+    "sol_orig": true
+}

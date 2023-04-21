@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "bad_randomness",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "PredictTheBlockHashChallenge",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/weak_randomness/old_blockhash.sol"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "0c11eade660c549fd30cc7b4007f6ef2",
+    "fp_sol2": "63885a405733f81e94d4244b49c1539b",
+    "id": "old_blockhash",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/old_blockhash.sol"
+    ],
+    "sol_orig": true
+}

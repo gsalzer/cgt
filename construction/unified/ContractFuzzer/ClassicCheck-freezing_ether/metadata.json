@@ -1,0 +1,37 @@
+{
+    "addr": "0x882fb4240f9a11e197923d0507de9a983ed69239",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ClassicCheck.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": false,
+    "contractname": "ClassicCheck",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "9d3429eb3a44032204b3a25204fd6642",
+    "fp_runtime": "7ca9c8339eed99f3292a3e2de615aca5",
+    "fp_sol": "fe8a32ad306e8ec0a206214fb3e59780",
+    "fp_sol2": "fe8a32ad306e8ec0a206214fb3e59780",
+    "id": "ClassicCheck-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ClassicCheck.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

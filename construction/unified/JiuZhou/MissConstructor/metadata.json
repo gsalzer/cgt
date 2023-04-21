@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Write the wrong constructor name",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "MissConstructor",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "379e275a7b5d912590128cd161904368",
+    "fp_runtime": "a565a114a185362c9cf174f4c83f60fc",
+    "fp_sol": "730f512b4e7a90ffb1776a2edd87101b",
+    "fp_sol2": "f4e27e88b2a031c21491958e279d0192",
+    "id": "MissConstructor",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/MissConstructor.sol"
+    ],
+    "sol_orig": true
+}

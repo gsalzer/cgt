@@ -1,0 +1,37 @@
+{
+    "addr": "0xcf0c7e3ad3b2c82bddd286a301afaafd185f30ec",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-18-81ae2a7",
+    "compiler_orig": true,
+    "contractname": "EtherTransfer",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "e6b4b7761b13a947269fc4d2c55cb8e5",
+    "fp_runtime": "cd352c88983b3fd546efdffb87da54c7",
+    "fp_sol": "f044d3334e676d85cbf2d524c7ee4b97",
+    "fp_sol2": "f044d3334e676d85cbf2d524c7ee4b97",
+    "id": "0xcf0c7e3ad3b2c82bddd286a301afaafd185f30ec",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

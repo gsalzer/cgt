@@ -1,0 +1,2 @@
+{u'source_code/test2662.sol': {u'TimeLock': {'vulnerabilities': {'callstack': [], 'time_dependency': [u'source_code/test2662.sol:19:9: Warning: Timestamp Dependency.\n        if (block.timestamp-depositTime<20*60){\r\n        ^\nSpanning multiple lines.'], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '97.9'}}}
+

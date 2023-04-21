@@ -1,0 +1,38 @@
+{
+    "addr": "0xfc3c1c0550188c649f70e78787c8cd9ff9d3b8d4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Cubic.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "Cubic",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/numberdependency/verified_contract_sols/Cubic.sol"
+    },
+    "fp_bytecode": "fe47f8e9a95fa90b08f28dafed7740b8",
+    "fp_runtime": "25c10a1c61db92ec4492056fc0486e67",
+    "fp_sol": "2906b81bd1cfedb11b52f75ca551985e",
+    "fp_sol2": "5952f930c0badfaf6c739dee6a905363",
+    "id": "Cubic-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xcfc60841bb8a64446771704159a1130a526d4b86",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DepositBank.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "DepositBank",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "bede9526351416856d556b3c3989487a",
+    "fp_runtime": "1bed07ab60035866d8aac5a2c1a7fc67",
+    "fp_sol": "056e44e7eb5f00cae045e0b5a34b9c3d",
+    "fp_sol2": "2e483ba540c891aaf18e850b0d876184",
+    "id": "DepositBank-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DepositBank.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

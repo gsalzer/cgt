@@ -1,0 +1,37 @@
+{
+    "addr": "0xcb466ff479a7d53755bec07926ac61ae8f494eca",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Freeze.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Freeze",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "9cedc5daad4a00649a14d325b312b93e",
+    "fp_runtime": "d42423a6b2627135b8fa18c0618c1d7f",
+    "fp_sol": "e8aa00604d5fcaa858ecaae3d086ad9f",
+    "fp_sol2": "2fa6a1717dc99221d8438a05d388d3c2",
+    "id": "Freeze-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Freeze.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

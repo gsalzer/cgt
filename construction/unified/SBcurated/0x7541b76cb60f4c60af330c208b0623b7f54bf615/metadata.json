@@ -1,0 +1,39 @@
+{
+    "addr": "0x7541b76cb60f4c60af330c208b0623b7f54bf615",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "U_BANK",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "7ba84f0802854c1a01962df0949f7223",
+    "fp_runtime": "807093c9ecd66ae8d3045208c8d3333c",
+    "fp_sol": "828105a81b9c451dad83348131c07d5d",
+    "fp_sol2": "1cd91fb958fe4ebc61d4df60f068e0eb",
+    "id": "0x7541b76cb60f4c60af330c208b0623b7f54bf615",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

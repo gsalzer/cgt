@@ -1,0 +1,149 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High",
+        "description": "GrungeTuesday.multi_x (reorder_contracts_2_3/test83.sol#9-13) allows anyone to destruct the contract\n",
+        "elements": [
+          {
+            "type": "function",
+            "name": "multi_x",
+            "source_mapping": {
+              "start": 125,
+              "length": 151,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+              "filename_relative": "reorder_contracts_2_3/test83.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+              "filename_short": "reorder_contracts_2_3/test83.sol",
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GrungeTuesday",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 252,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+                  "filename_relative": "reorder_contracts_2_3/test83.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+                  "filename_short": "reorder_contracts_2_3/test83.sol",
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 3
+                }
+              },
+              "signature": "multi_x()"
+            }
+          }
+        ]
+      },
+      {
+        "check": "tx-origin",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "GrungeTuesday.multi_x uses tx.origin for authorization: \"msg.value >= this.balance || tx.origin == O\" (reorder_contracts_2_3/test83.sol#10-12)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "msg.value >= this.balance || tx.origin == O",
+            "source_mapping": {
+              "start": 170,
+              "length": 99,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+              "filename_relative": "reorder_contracts_2_3/test83.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+              "filename_short": "reorder_contracts_2_3/test83.sol",
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multi_x",
+                "source_mapping": {
+                  "start": 125,
+                  "length": 151,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+                  "filename_relative": "reorder_contracts_2_3/test83.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+                  "filename_short": "reorder_contracts_2_3/test83.sol",
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GrungeTuesday",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 252,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+                      "filename_relative": "reorder_contracts_2_3/test83.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test83.sol",
+                      "filename_short": "reorder_contracts_2_3/test83.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "multi_x()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

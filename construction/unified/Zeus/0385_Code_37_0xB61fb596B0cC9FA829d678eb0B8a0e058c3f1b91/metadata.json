@@ -1,0 +1,56 @@
+{
+    "addr": "0xb61fb596b0cc9fa829d678eb0b8a0e058c3f1b91",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.1-2016-01-30-91a6b35",
+    "compiler_orig": false,
+    "contractname": "JackPot",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "cd7f2a99e120e1b8116443d3ec57b5b9",
+    "fp_runtime": "2d27352a1779e14448fb53379270d99e",
+    "fp_sol": "6529e1c593d73cefdb0cbb3bcaed9c41",
+    "fp_sol2": "6529e1c593d73cefdb0cbb3bcaed9c41",
+    "id": "0385_Code_37_0xB61fb596B0cC9FA829d678eb0B8a0e058c3f1b91",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

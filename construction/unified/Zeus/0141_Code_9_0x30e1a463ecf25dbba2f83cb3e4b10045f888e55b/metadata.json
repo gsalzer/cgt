@@ -1,0 +1,60 @@
+{
+    "addr": "0x30e1a463ecf25dbba2f83cb3e4b10045f888e55b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "GivethDirectory",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "20cbc9e6f19283a7da1f27407e07fd3a",
+    "fp_runtime": "00aafe1e56c37f9f9d415767620c85aa",
+    "fp_sol": "64a52ae72e4952e5b373d8453b51d12e",
+    "fp_sol2": "4669e64378bf1d1edec8667bf985bff6",
+    "id": "0141_Code_9_0x30e1a463ecf25dbba2f83cb3e4b10045f888e55b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xe65c53087e1a40b7c53b9a0ea3c2562ae2dfeb24",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/RichestTakeAll.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "RichestTakeAll",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "6207eb641f8596c4453f371b4b4ac9f6",
+    "fp_runtime": "a6be043b7c1201e43ec59f354a75c71c",
+    "fp_sol": "31eeb099e77105315e7837c7b9296a18",
+    "fp_sol2": "f9b0eab007d23c42a6c2c1ace5fb9505",
+    "id": "RichestTakeAll-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_RichestTakeAll.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

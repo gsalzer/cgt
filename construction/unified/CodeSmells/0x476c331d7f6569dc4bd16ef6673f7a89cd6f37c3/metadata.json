@@ -1,0 +1,119 @@
+{
+    "addr": "0x476c331d7f6569dc4bd16ef6673f7a89cd6f37c3",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": true,
+    "classifications": [
+        [
+            "Unchecked External Call",
+            false
+        ],
+        [
+            "Dos Under external influence",
+            false
+        ],
+        [
+            "strict balance equality",
+            false
+        ],
+        [
+            "Unmatched type assignment",
+            false
+        ],
+        [
+            "Transaction state Dependency",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Hard Code Address",
+            false
+        ],
+        [
+            "Block Info Dependency",
+            false
+        ],
+        [
+            "Nest Call",
+            false
+        ],
+        [
+            "Deprecated APIs",
+            false
+        ],
+        [
+            "Compiler Version not fixed",
+            true
+        ],
+        [
+            "Misleading Data Location",
+            false
+        ],
+        [
+            "Unused statement",
+            false
+        ],
+        [
+            "Unmatched ERC-20 standard",
+            null
+        ],
+        [
+            "Missing Return statement",
+            true
+        ],
+        [
+            "Missing Interrupter",
+            true
+        ],
+        [
+            "Missing Reminder",
+            false
+        ],
+        [
+            "Greedy Contract",
+            false
+        ],
+        [
+            "High Gas Consumption Function Type",
+            true
+        ],
+        [
+            "High Gas Consumption Data Type",
+            false
+        ]
+    ],
+    "compiler": "v0.4.20-nightly.2018.1.6+commit.2548228b",
+    "compiler_orig": false,
+    "contractname": "PoliticianToken",
+    "contractname_orig": false,
+    "dataset": "CodeSmells",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0x476c331d7f6569dc4bd16ef6673f7a89cd6f37c3",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "2768109980b4dd796756d3b5ffe8a337",
+    "fp_runtime": "85003070845c69a18d284e69ecda07eb",
+    "fp_sol": "b82c119f73b2e79a10e6e3c22c77ec27",
+    "fp_sol2": "291dc89ad5263c6e9b6fc72bb968c8ea",
+    "id": "0x476c331d7f6569dc4bd16ef6673f7a89cd6f37c3",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

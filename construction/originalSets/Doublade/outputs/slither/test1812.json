@@ -1,0 +1,149 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High",
+        "description": "EtherTime.Xply (reorder_contracts_2_3/test1812.sol#9-13) allows anyone to destruct the contract\n",
+        "elements": [
+          {
+            "type": "function",
+            "name": "Xply",
+            "source_mapping": {
+              "start": 126,
+              "length": 161,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+              "filename_relative": "reorder_contracts_2_3/test1812.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+              "filename_short": "reorder_contracts_2_3/test1812.sol",
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EtherTime",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 263,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1812.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+                  "filename_short": "reorder_contracts_2_3/test1812.sol",
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 3
+                }
+              },
+              "signature": "Xply()"
+            }
+          }
+        ]
+      },
+      {
+        "check": "tx-origin",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "EtherTime.Xply uses tx.origin for authorization: \"msg.value >= address(this).balance || tx.origin == Owner\" (reorder_contracts_2_3/test1812.sol#10-12)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "msg.value >= address(this).balance || tx.origin == Owner",
+            "source_mapping": {
+              "start": 168,
+              "length": 112,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+              "filename_relative": "reorder_contracts_2_3/test1812.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+              "filename_short": "reorder_contracts_2_3/test1812.sol",
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Xply",
+                "source_mapping": {
+                  "start": 126,
+                  "length": 161,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1812.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+                  "filename_short": "reorder_contracts_2_3/test1812.sol",
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EtherTime",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 263,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1812.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1812.sol",
+                      "filename_short": "reorder_contracts_2_3/test1812.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "Xply()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,591 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'ownerSetStakeStartTime', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2a9edf6f000000000000000000000000000000000000000000000000000000005a8e575b'}
+1 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000002222222222222222222222222222222222222222'}
+2 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000001111111111111111111111111111111111111111'}
+3 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'ownerBurnToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '90762a8b000000000000000000000000000000000000000000000001fffffffff8000000'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000da0dd6ee316182920f6a242a7d7670d49f7adfc0000000000000000000000000000000000000000000000000000000000000000'}
+5 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a30000000000000000000000000000000000000000000000000000000000000000'}
+6 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000001111111111111111111111111111111111111111000000000000000000000000c76b68e18d3dcb8eb61707116dc4654a611491ff0000000000000000000000000000000000000000000000000000000000000000'}
+7 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+8 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a30000000000000000000000000000000000000000000000000000000000000001'}
+9 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000e3685614a6c3ab157d4391a184e902799be03889000000000000000000000000cccc81c1801f3611cf8129cf669aa1260bbcd31d0000000000000000000000000000000000000000000000000000000000000000'}
+10 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a30000000000000000000000000000000000000000000000000000000000000003'}
+11 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000e3685614a6c3ab157d4391a184e902799be03889000000000000000000000000e3685614a6c3ab157d4391a184e902799be038890000000000000000000000000000000000000000000000000000000000000000'}
+12 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a3'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a300000000000000000000000079e8add0ce2ff10394ab35ea4073e6317189e4f00000000000000000000000000000000000000000000000000000000000000000'}
+14 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a300000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a30000000000000000000000000000000000000000000000000000000000000000'}
+15 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000022222222222222222222222222222222222222220000000000000000000000005f6e6d99d9c8bf4defa961d2ba167c92cbbae8fd0000000000000000000000000000000000000000000000000000000000000000'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000cf460217049305e0f9fc4a9854ce363fc60c0f3d0000000000000000000000000000000000000000000000000000000000000001'}
+17 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000cf460217049305e0f9fc4a9854ce363fc60c0f3d0000000000000000000000000000000000000000000000000000000000000003'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a30000000000000000000000000000000000000000000000000000000000000001'}
+19 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000058d1f2285c78715e5fab9d6b452b9aeedb2020a30000000000000000000000000000000000000000000000000000000000000003'}
+20 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1249c58b'}
+21 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1249c58b'}
+22 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000f15445fcd9eea59e425ebc8526b2b6f2523a88960000000000000000000000000000000000000000000000000000000000000000'}
+23 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+24 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000040000000000000'}
+25 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'ownerSetStakeStartTime', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2a9edf6f000000000000000000000000000000000000000000000000000000005a8e575b'}
+26 : {'tx_caller': '58d1f2285c78715e5fab9d6b452b9aeedb2020a3', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1249c58b'}
+--------------------------------------------------------------------------------
+
+Full traces: 186
+--------------------------------------------------------------------------------
+14 3   :  transferFrom ownerBurnToken 
+3 14   :  ownerBurnToken transferFrom 
+------------------------------------------------------------
+14 3 0   :  transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 0 14   :  ownerBurnToken ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+14 3 0   :  transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 14 0   :  ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 3 0   :  transferFrom ownerBurnToken ownerSetStakeStartTime 
+0 3 14   :  ownerSetStakeStartTime ownerBurnToken transferFrom 
+------------------------------------------------------------
+0 14 3   :  ownerSetStakeStartTime transferFrom ownerBurnToken 
+3 0 14   :  ownerBurnToken ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+0 14 3   :  ownerSetStakeStartTime transferFrom ownerBurnToken 
+3 14 0   :  ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+0 14 3   :  ownerSetStakeStartTime transferFrom ownerBurnToken 
+0 3 14   :  ownerSetStakeStartTime ownerBurnToken transferFrom 
+------------------------------------------------------------
+14 0 3   :  transferFrom ownerSetStakeStartTime ownerBurnToken 
+3 0 14   :  ownerBurnToken ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+14 0 3   :  transferFrom ownerSetStakeStartTime ownerBurnToken 
+3 14 0   :  ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 0 3   :  transferFrom ownerSetStakeStartTime ownerBurnToken 
+0 3 14   :  ownerSetStakeStartTime ownerBurnToken transferFrom 
+------------------------------------------------------------
+1 3 14   :  transfer ownerBurnToken transferFrom 
+14 3 1   :  transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+1 3 14   :  transfer ownerBurnToken transferFrom 
+1 14 3   :  transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+1 3 14   :  transfer ownerBurnToken transferFrom 
+14 1 3   :  transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+3 1 14   :  ownerBurnToken transfer transferFrom 
+14 3 1   :  transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 1 14   :  ownerBurnToken transfer transferFrom 
+1 14 3   :  transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 1 14   :  ownerBurnToken transfer transferFrom 
+14 1 3   :  transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+14 3 1   :  transferFrom ownerBurnToken transfer 
+3 14 1   :  ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+1 14 3   :  transfer transferFrom ownerBurnToken 
+3 14 1   :  ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+14 1 3   :  transferFrom transfer ownerBurnToken 
+3 14 1   :  ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+3 14 4   :  ownerBurnToken transferFrom transferFrom 
+14 3 4   :  transferFrom ownerBurnToken transferFrom 
+------------------------------------------------------------
+14 6 3   :  transferFrom transferFrom ownerBurnToken 
+3 14 6   :  ownerBurnToken transferFrom transferFrom 
+------------------------------------------------------------
+6 14 3   :  transferFrom transferFrom ownerBurnToken 
+6 3 14   :  transferFrom ownerBurnToken transferFrom 
+------------------------------------------------------------
+8 3 14   :  approve ownerBurnToken transferFrom 
+14 8 3   :  transferFrom approve ownerBurnToken 
+------------------------------------------------------------
+8 3 14   :  approve ownerBurnToken transferFrom 
+8 14 3   :  approve transferFrom ownerBurnToken 
+------------------------------------------------------------
+8 3 14   :  approve ownerBurnToken transferFrom 
+14 3 8   :  transferFrom ownerBurnToken approve 
+------------------------------------------------------------
+14 8 3   :  transferFrom approve ownerBurnToken 
+3 8 14   :  ownerBurnToken approve transferFrom 
+------------------------------------------------------------
+14 8 3   :  transferFrom approve ownerBurnToken 
+3 14 8   :  ownerBurnToken transferFrom approve 
+------------------------------------------------------------
+3 8 14   :  ownerBurnToken approve transferFrom 
+8 14 3   :  approve transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 8 14   :  ownerBurnToken approve transferFrom 
+14 3 8   :  transferFrom ownerBurnToken approve 
+------------------------------------------------------------
+8 14 3   :  approve transferFrom ownerBurnToken 
+3 14 8   :  ownerBurnToken transferFrom approve 
+------------------------------------------------------------
+14 3 8   :  transferFrom ownerBurnToken approve 
+3 14 8   :  ownerBurnToken transferFrom approve 
+------------------------------------------------------------
+3 14 20   :  ownerBurnToken transferFrom mint 
+14 3 20   :  transferFrom ownerBurnToken mint 
+------------------------------------------------------------
+3 14 20   :  ownerBurnToken transferFrom mint 
+20 14 3   :  mint transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 14 20   :  ownerBurnToken transferFrom mint 
+14 20 3   :  transferFrom mint ownerBurnToken 
+------------------------------------------------------------
+14 3 20   :  transferFrom ownerBurnToken mint 
+3 20 14   :  ownerBurnToken mint transferFrom 
+------------------------------------------------------------
+14 3 20   :  transferFrom ownerBurnToken mint 
+20 3 14   :  mint ownerBurnToken transferFrom 
+------------------------------------------------------------
+3 20 14   :  ownerBurnToken mint transferFrom 
+20 14 3   :  mint transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 20 14   :  ownerBurnToken mint transferFrom 
+14 20 3   :  transferFrom mint ownerBurnToken 
+------------------------------------------------------------
+20 14 3   :  mint transferFrom ownerBurnToken 
+20 3 14   :  mint ownerBurnToken transferFrom 
+------------------------------------------------------------
+20 3 14   :  mint ownerBurnToken transferFrom 
+14 20 3   :  transferFrom mint ownerBurnToken 
+------------------------------------------------------------
+3 24 14   :  ownerBurnToken transferOwnership transferFrom 
+14 3 24   :  transferFrom ownerBurnToken transferOwnership 
+------------------------------------------------------------
+14 3 24   :  transferFrom ownerBurnToken transferOwnership 
+3 14 24   :  ownerBurnToken transferFrom transferOwnership 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+1 3 0 14   :  transfer ownerBurnToken ownerSetStakeStartTime transferFrom 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+3 14 0 1   :  ownerBurnToken transferFrom ownerSetStakeStartTime transfer 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+1 14 3 0   :  transfer transferFrom ownerBurnToken ownerSetStakeStartTime 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+14 3 0 1   :  transferFrom ownerBurnToken ownerSetStakeStartTime transfer 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+1 0 3 14   :  transfer ownerSetStakeStartTime ownerBurnToken transferFrom 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+14 1 0 3   :  transferFrom transfer ownerSetStakeStartTime ownerBurnToken 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+3 0 1 14   :  ownerBurnToken ownerSetStakeStartTime transfer transferFrom 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+0 1 3 14   :  ownerSetStakeStartTime transfer ownerBurnToken transferFrom 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+0 14 1 3   :  ownerSetStakeStartTime transferFrom transfer ownerBurnToken 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+1 0 14 3   :  transfer ownerSetStakeStartTime transferFrom ownerBurnToken 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+14 1 3 0   :  transferFrom transfer ownerBurnToken ownerSetStakeStartTime 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+1 3 14 0   :  transfer ownerBurnToken transferFrom ownerSetStakeStartTime 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+------------------------------------------------------------
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+3 1 14 0   :  ownerBurnToken transfer transferFrom ownerSetStakeStartTime 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+------------------------------------------------------------
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+------------------------------------------------------------
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+------------------------------------------------------------
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+14 0 1 3   :  transferFrom ownerSetStakeStartTime transfer ownerBurnToken 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+3 0 14 1   :  ownerBurnToken ownerSetStakeStartTime transferFrom transfer 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+0 3 14 1   :  ownerSetStakeStartTime ownerBurnToken transferFrom transfer 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+------------------------------------------------------------
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+3 1 0 14   :  ownerBurnToken transfer ownerSetStakeStartTime transferFrom 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+0 1 14 3   :  ownerSetStakeStartTime transfer transferFrom ownerBurnToken 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+------------------------------------------------------------
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+3 14 1 0   :  ownerBurnToken transferFrom transfer ownerSetStakeStartTime 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------
+0 14 3 1   :  ownerSetStakeStartTime transferFrom ownerBurnToken transfer 
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+------------------------------------------------------------
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+1 14 0 3   :  transfer transferFrom ownerSetStakeStartTime ownerBurnToken 
+------------------------------------------------------------
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+14 3 1 0   :  transferFrom ownerBurnToken transfer ownerSetStakeStartTime 
+------------------------------------------------------------
+0 3 1 14   :  ownerSetStakeStartTime ownerBurnToken transfer transferFrom 
+14 0 3 1   :  transferFrom ownerSetStakeStartTime ownerBurnToken transfer 
+------------------------------------------------------------

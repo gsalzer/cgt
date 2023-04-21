@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BJCToken",
+            "ERC20",
+            "Ownable",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "d36e0a43399caed80b49beb44f2313f7",
+    "fp_sol": "e2ba623e8a849138d75ce0710e15feff",
+    "fp_sol2": "35107d6e59e6ce2560b02c1a117519cf",
+    "id": "BJCToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/BJCToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BJCToken.sol"
+    ],
+    "sol_orig": true
+}

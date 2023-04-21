@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "front_running",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "EthTxOrderDependenceMinimal",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "6cb8409b6c9e9271ee3264a63dafc311",
+    "fp_sol2": "45b247064497fcc8410a6cb8e06d75c3",
+    "id": "eth_tx_order_dependence_minimal",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/eth_tx_order_dependence_minimal.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0xbb27ad42cbe9534cec452b0134a350cbfe1ba337",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "Sacrific3d",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "9d6b9893890b2ff8252bb63b9bb52445",
+    "fp_runtime": "85257c57ccf71d5fb349785575b9202a",
+    "fp_sol": "d3fab1c75102eab807085914089d2d52",
+    "fp_sol2": "f46fe248874f2efba634746928ab702d",
+    "id": "Sacrific3d-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_Sacrific3d.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Sacrific3d.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

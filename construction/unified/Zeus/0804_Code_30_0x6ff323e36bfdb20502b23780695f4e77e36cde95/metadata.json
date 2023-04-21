@@ -1,0 +1,60 @@
+{
+    "addr": "0x6ff323e36bfdb20502b23780695f4e77e36cde95",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            true
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": false,
+    "contractname": "TriWallet",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "05a21c7a213f5b4757286b2c2d1d3fc0",
+    "fp_runtime": "d7446c1013bcc60217d75b3ca7920d4b",
+    "fp_sol": "94daf252f5d1002a2b19f7b584f8a974",
+    "fp_sol2": "94daf252f5d1002a2b19f7b584f8a974",
+    "id": "0804_Code_30_0x6ff323e36bfdb20502b23780695f4e77e36cde95",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xaa1a6e3e6ef20068f7f8d8c835d2d22fd5116444",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-19-427deb4",
+    "compiler_orig": true,
+    "contractname": "ReplaySafeSplit",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "28dc32312982994b95be6d7a47ef9dd1",
+    "fp_runtime": "7e105bcb309ae9e6da41d9f130db6e28",
+    "fp_sol": "ae25d8db7078f0326a84d9d81d9c5717",
+    "fp_sol2": "ae25d8db7078f0326a84d9d81d9c5717",
+    "id": "0xaa1a6e3e6ef20068f7f8d8c835d2d22fd5116444",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

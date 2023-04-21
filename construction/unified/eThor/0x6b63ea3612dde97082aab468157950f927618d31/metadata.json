@@ -1,0 +1,37 @@
+{
+    "addr": "0x6b63ea3612dde97082aab468157950f927618d31",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "Mapoc",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "dcf930ea320ccd0227ed6b6fe023ed47",
+    "fp_runtime": "9ec07ca83a4fc31f602c62c9890c89c5",
+    "fp_sol": "45037dafe5fc50ac5d93e46ae10bc318",
+    "fp_sol2": "45037dafe5fc50ac5d93e46ae10bc318",
+    "id": "0x6b63ea3612dde97082aab468157950f927618d31",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

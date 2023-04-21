@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "arithmetic",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "IntegerOverflowSingleTransaction",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "5fe1361f2c3f5f849d45a42ce014f7e9",
+    "fp_sol2": "f07c1785b3506090e4d30e5aee0d51ce",
+    "id": "overflow_single_tx",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/overflow_single_tx.sol"
+    ],
+    "sol_orig": true
+}

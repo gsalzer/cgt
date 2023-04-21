@@ -1,0 +1,37 @@
+{
+    "addr": "0xa0174f796d3b901adaa16cfbb589330462be0329",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "PrivateInvestment",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "0ec09d72c853be46d542d324c85ba6fd",
+    "fp_runtime": "dd43ed903ce5245ef146916371bc0953",
+    "fp_sol": "aba947005886a69336e96e0800c01537",
+    "fp_sol2": "eacb5e53a33cd6b82db88aac5a676957",
+    "id": "0xa0174f796d3b901adaa16cfbb589330462be0329-PrivateInvestment-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2454.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

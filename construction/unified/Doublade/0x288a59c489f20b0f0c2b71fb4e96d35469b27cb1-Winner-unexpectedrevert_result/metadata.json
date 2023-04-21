@@ -1,0 +1,37 @@
+{
+    "addr": "0x288a59c489f20b0f0c2b71fb4e96d35469b27cb1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "Winner",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "fcd354da701e3d64a8fe8744ab6c9d81",
+    "fp_runtime": "cf9331f87eede68a04ef1a541e83246d",
+    "fp_sol": "8d9af7fd029ad27b2fbaeff446cbf634",
+    "fp_sol2": "51909811c4fea4b8fbb8ecee15d60643",
+    "id": "0x288a59c489f20b0f0c2b71fb4e96d35469b27cb1-Winner-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test634.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

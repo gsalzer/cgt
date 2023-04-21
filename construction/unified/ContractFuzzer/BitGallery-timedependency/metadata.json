@@ -1,0 +1,37 @@
+{
+    "addr": "0x13dccb630ba92989299bbc276486c28673ca69e8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BitGallery.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "BitGallery",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "48b8d828ec1e54703876a279fabab180",
+    "fp_runtime": "55c4d86143999bfd491a5e513b5650ec",
+    "fp_sol": "12b69872386fe619845b5f2bfa50dafc",
+    "fp_sol2": "07d5b6b722801d6d3a9c4a8e2aaef430",
+    "id": "BitGallery-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BitGallery.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

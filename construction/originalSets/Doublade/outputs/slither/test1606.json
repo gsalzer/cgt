@@ -1,0 +1,104 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High",
+        "description": "SecureDeposit.kill (reorder_contracts_2_3/test1606.sol#76) allows anyone to destruct the contract\n",
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 2411,
+              "length": 75,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1606.sol",
+              "filename_relative": "reorder_contracts_2_3/test1606.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1606.sol",
+              "filename_short": "reorder_contracts_2_3/test1606.sol",
+              "lines": [
+                76
+              ],
+              "starting_column": 5,
+              "ending_column": 80
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SecureDeposit",
+                "source_mapping": {
+                  "start": 864,
+                  "length": 1704,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1606.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1606.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1606.sol",
+                  "filename_short": "reorder_contracts_2_3/test1606.sol",
+                  "lines": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "kill()"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

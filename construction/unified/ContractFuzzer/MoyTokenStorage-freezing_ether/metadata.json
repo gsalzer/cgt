@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "MoyTokenStorage",
+            "StandardToken",
+            "owned",
+            "safeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "5b2d756ac76437bf7cc52b40fb87c082",
+    "fp_sol": "12d02a3ee2fbe923f2d14674d4105a47",
+    "fp_sol2": "0ef15ae1db3e003c92a81ee27d2b3713",
+    "id": "MoyTokenStorage-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/MoyTokenStorage.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/MoyTokenStorage.sol"
+    ],
+    "sol_orig": true
+}

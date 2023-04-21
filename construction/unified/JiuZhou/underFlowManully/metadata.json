@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "integer overflow and underflow",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "gray_Token",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "e911748802d67684242c33d83da29a5b",
+    "fp_runtime": "ae735b7cc13b6f80504828df0556727e",
+    "fp_sol": "07645408707f4f4bf4775fa41370f6f9",
+    "fp_sol2": "0f8b09b0fe8eb3d4c0872764f0a278e1",
+    "id": "underFlowManully",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/underFlowManully.sol"
+    ],
+    "sol_orig": true
+}

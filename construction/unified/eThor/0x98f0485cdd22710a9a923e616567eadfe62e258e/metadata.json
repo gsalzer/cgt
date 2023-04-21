@@ -1,0 +1,37 @@
+{
+    "addr": "0x98f0485cdd22710a9a923e616567eadfe62e258e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": true,
+    "contractname": "TradeFinancing",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "2501ff9f68cfe2eb64af6db1050d9bb1",
+    "fp_runtime": "efa730738b59f54d6fd3d73ff9f8b7e3",
+    "fp_sol": "889466336997b9c74eb1bed8a69ddeb5",
+    "fp_sol2": "889466336997b9c74eb1bed8a69ddeb5",
+    "id": "0x98f0485cdd22710a9a923e616567eadfe62e258e",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

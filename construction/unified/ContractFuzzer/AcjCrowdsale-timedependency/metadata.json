@@ -1,0 +1,37 @@
+{
+    "addr": "0xace518c4cb2b823c2ab2b12c709e71e11cfb8896",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/AcjCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "AcjCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "9cbc3364a4c5027b567deb56708161b5",
+    "fp_runtime": "a96c8c2eb65519dc56b2d478189b27a3",
+    "fp_sol": "54a677c318d073acf258209072419a0b",
+    "fp_sol2": "58892c7042500462495990cddd899f3c",
+    "id": "AcjCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AcjCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,39 @@
+{
+    "addr": "0xa138fdb33b51f8533b5e7a435f263ba9d4100c69",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_SnovCrowdsale.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "SnovCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "7994eb087442ee4ba7db1b5d25395827",
+    "fp_runtime": "70d901a017e05e44219bbd1ccd77764b",
+    "fp_sol": "19923f55954365aea2560fcde3ab2ec1",
+    "fp_sol2": "12cb0d951aa3aade6d2fa42554f42443",
+    "id": "SnovCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SnovCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

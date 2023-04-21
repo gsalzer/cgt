@@ -1,0 +1,31 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111'}
+1 : {'tx_blocknumber': '0', 'tx_value': '0', 'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'tx_input': '23b872dd00000000000000000000000011111111111111111111111111111111111111110000000000000000000000009b3014427489e5edcd646d68bd3222ef8a93d1500000000000000000000000000000000000000000000000000000000000000001', 'name': 'transferFrom'}
+2 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'fallback', 'tx_blocknumber': '2f4e0c', 'tx_value': '0', 'tx_timestamp': '3a3508c4', 'tx_input': '11111111'}
+3 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'halt', 'tx_blocknumber': '2f4fff', 'tx_value': '0', 'tx_timestamp': '3a376ec5', 'tx_input': '5ed7ca5b'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'fallback', 'tx_blocknumber': '2f4e0c', 'tx_value': '0', 'tx_timestamp': '3a3508c4', 'tx_input': '11111111'}
+5 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+6 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'changeFounder', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '93c32e06000000000000000000000000bb7a0bb55e0664bc429bffa793e4d5fd13d9c13f'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'founderWithdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '050c09ee'}
+9 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'allocateFounderTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bcfcb03e'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'unhalt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cb3e64fd'}
+11 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'changeFounder', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '93c32e060000000000000000000000002222222222222222222222222222222222222222'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'allocateFounderTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bcfcb03e'}
+13 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'founderWithdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '050c09ee'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'buyRecipient', 'tx_blocknumber': '2f4e0c', 'tx_value': '0', 'tx_timestamp': '3a3508c4', 'tx_input': '11a4c7100000000000000000000000002222222222222222222222222222222222222222'}
+15 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'transfer', 'tx_blocknumber': '3808', 'tx_value': '0', 'tx_timestamp': '44f1d8', 'tx_input': 'a9059cbb0000000000000000000000000daa52200bfcdf8465b2de1c119f83a52e0e7ca00000000000000000000000000000000000000000000000000000000000000001'}
+16 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'transfer', 'tx_blocknumber': '3808', 'tx_value': '0', 'tx_timestamp': '44f1d8', 'tx_input': 'a9059cbb0000000000000000000000000daa52200bfcdf8465b2de1c119f83a52e0e7ca00000000000000000000000000000000000000000000000000000000000000003'}
+17 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'transfer', 'tx_blocknumber': '3808', 'tx_value': '0', 'tx_timestamp': '44f1d8', 'tx_input': 'a9059cbb0000000000000000000000004485f44aa1f99b43bd6400586c1b2a02ec263ec00000000000000000000000000000000000000000000000000000000000000001'}
+18 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'transfer', 'tx_blocknumber': '3808', 'tx_value': '0', 'tx_timestamp': '44f1d8', 'tx_input': 'a9059cbb0000000000000000000000004485f44aa1f99b43bd6400586c1b2a02ec263ec00000000000000000000000000000000000000000000000000000000000000003'}
+19 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'unhalt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cb3e64fd'}
+20 : {'tx_caller': '4485f44aa1f99b43bd6400586c1b2a02ec263ec0', 'name': 'changeFounder', 'tx_blocknumber': '20340', 'tx_value': '0', 'tx_timestamp': '279ffc0', 'tx_input': '93c32e060000000000000000000000002222222222222222222222222222222222222222'}
+21 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': 'f5f80', 'tx_value': '0', 'tx_timestamp': '12ea8280', 'tx_input': 'a9059cbb000000000000000000000000c055d4f564d474da7f3ea60e7225eb73ddb9d81c0000000000000000000000000000000000000000000000000000000000000001'}
+22 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': 'f5f80', 'tx_value': '0', 'tx_timestamp': '12ea8280', 'tx_input': 'a9059cbb000000000000000000000000c055d4f564d474da7f3ea60e7225eb73ddb9d81c0000000000000000000000000000000000000000000000000000000000000003'}
+23 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': 'f5f80', 'tx_value': '0', 'tx_timestamp': '12ea8280', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+24 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': 'f5f80', 'tx_value': '0', 'tx_timestamp': '12ea8280', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

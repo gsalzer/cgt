@@ -1,0 +1,37 @@
+{
+    "addr": "0xe4a3192659bfe56c740b0ed64570a4156cf2bcb3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/FarmCoinSale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "FarmCoinSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b89d6358e6a63d6a7d8a5e0ed3a927ff",
+    "fp_runtime": "dbaf918debe34aebd9729b679921d24f",
+    "fp_sol": "39cf38f42bd0b51b036f0fbfbec4ef20",
+    "fp_sol2": "285bb21df2dcfb70587480521267746c",
+    "id": "FarmCoinSale-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_FarmCoinSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

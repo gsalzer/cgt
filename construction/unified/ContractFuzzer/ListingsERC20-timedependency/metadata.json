@@ -1,0 +1,39 @@
+{
+    "addr": "0xa667f7c9f8d9e7f54814f312ae42d08a31154889",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_ListingsERC20.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ListingsERC20",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e794e9c2e137c11a20d9d5e25cacbbe2",
+    "fp_runtime": "0f3735e82880337347b87e5f61883811",
+    "fp_sol": "4cb0147e085a037e42dd892923e23214",
+    "fp_sol2": "edcd2c6162d7bca854ad801d4ade802a",
+    "id": "ListingsERC20-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ListingsERC20.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

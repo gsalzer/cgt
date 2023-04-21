@@ -1,0 +1,39 @@
+{
+    "addr": "0xe894d54dca59cb53fe9cbc5155093605c7068220",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "airDrop",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "6735b5abd118589bd8042f05c844891f",
+    "fp_runtime": "39f4945c4a85c4b2713b0ebadd852bc7",
+    "fp_sol": "33f2be2e1138eeb24108e39c23ed1aac",
+    "fp_sol2": "2cd6d16918bde5eeb4bd436177c61e46",
+    "id": "0xe894d54dca59cb53fe9cbc5155093605c7068220",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

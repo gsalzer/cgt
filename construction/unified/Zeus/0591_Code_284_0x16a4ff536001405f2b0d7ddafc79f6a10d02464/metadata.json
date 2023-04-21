@@ -1,0 +1,60 @@
+{
+    "addr": "0x16a4ff536001405f2b0d7ddafc79f6a10d024640",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "plusOnePonzi",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "3f555a6f3b24a75755415178207c0a1e",
+    "fp_runtime": "3d823238bd5075f99625c8991a800ef6",
+    "fp_sol": "2de4ef5d700b7b6ebbec9a0b21e0a35f",
+    "fp_sol2": "2de4ef5d700b7b6ebbec9a0b21e0a35f",
+    "id": "0591_Code_284_0x16a4ff536001405f2b0d7ddafc79f6a10d02464",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

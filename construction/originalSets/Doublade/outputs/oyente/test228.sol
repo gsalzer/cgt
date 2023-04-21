@@ -1,0 +1,2 @@
+{u'source_code/test228.sol': {u'Genatum': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test228.sol:28:5: Warning: Integer Underflow.\n    string public name = "Genatum"', u'source_code/test228.sol:30:5: Warning: Integer Underflow.\n    string public symbol = "XTM"'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '57.1'}}}
+

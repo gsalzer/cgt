@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "PornSceneToken",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x3a630495c7611b4da41bf133554374caa3963b75",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x3a630495c7611b4da41bf133554374caa3963b75",
+            "main",
+            "CryptoPornstarAward"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "6c9ab920b9cdadd878ae8b7096af7d99",
+    "fp_sol2": "513106f02fa9f9ce0bea6524c4353c42",
+    "id": "0x3a630495c7611b4da41bf133554374caa3963b75-PornSceneToken-unexpectedrevert_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test915.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

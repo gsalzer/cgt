@@ -1,0 +1,38 @@
+{
+    "addr": "0x793ae8c1b1a160bfc07bfb0d04f85eab1a71f4f2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.1.1+commit.6ff4cd6",
+    "compiler_orig": false,
+    "contractname": "Faucet",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ef884b5bd0ff140cafa8f4f2f6e896d7",
+    "fp_runtime": "f965ddf68b2ceb9f87f9dd880dc22b1b",
+    "fp_sol": "f98d172f8f953b3c6ad79bdd9afa11f3",
+    "fp_sol2": "f98d172f8f953b3c6ad79bdd9afa11f3",
+    "id": "Faucet-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_Faucet.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Faucet.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

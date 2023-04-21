@@ -1,0 +1,140 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "EthVenturePlugin.fallback has external calls inside a loop: \"owner.send(minimal)\" (reorder_contracts_2_3/test3689.sol#34)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "owner.send(minimal)",
+            "source_mapping": {
+              "start": 688,
+              "length": 19,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3689.sol",
+              "filename_relative": "reorder_contracts_2_3/test3689.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3689.sol",
+              "filename_short": "reorder_contracts_2_3/test3689.sol",
+              "lines": [
+                34
+              ],
+              "starting_column": 2,
+              "ending_column": 21
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 243,
+                  "length": 571,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3689.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3689.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3689.sol",
+                  "filename_short": "reorder_contracts_2_3/test3689.sol",
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EthVenturePlugin",
+                    "source_mapping": {
+                      "start": 45,
+                      "length": 808,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3689.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3689.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3689.sol",
+                      "filename_short": "reorder_contracts_2_3/test3689.sol",
+                      "lines": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

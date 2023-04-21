@@ -1,0 +1,60 @@
+{
+    "addr": "0x276c5c6ca8507ed7bac085fc9b9521f4f54b58d3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.0-2015-12-10-e709895",
+    "compiler_orig": false,
+    "contractname": "ElcoinDb",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "00ae1d2932d347bd26865fbf19ed3187",
+    "fp_runtime": "8359f05cfe8ba6cb1dad84e4bc2aa5e9",
+    "fp_sol": "795bef97938b69c10b08d0fc6733340b",
+    "fp_sol2": "795bef97938b69c10b08d0fc6733340b",
+    "id": "0056_Code_276c5c6ca8507ed7bac085fc9b9521f4f54b58d3",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

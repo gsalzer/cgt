@@ -1,0 +1,500 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '6fed95ad39777938aae0baaa11b4cb33df0f5a', 'name': 'updateAvailability', 'tx_input': '48330cf6'}
+1 : {'tx_value': '0', 'tx_caller': '6fed95ad39777938aae0baaa11b4cb33df0f5a', 'name': 'updatePrice', 'tx_input': '8d6cc56d'}
+2 : {'tx_value': '0', 'tx_caller': '6fed95ad39777938aae0baaa11b4cb33df0f5a', 'name': 'resumePurchases', 'tx_input': '60e6fb26'}
+3 : {'tx_caller': '6fed95ad39777938aae0baaa11b4cb33df0f5a', 'name': 'purchase', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '64edfbf0'}
+4 : {'tx_caller': '6fed95ad39777938aae0baaa11b4cb33df0f5a', 'name': 'haltPurchases', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '08551d34'}
+--------------------------------------------------------------------------------
+
+Full traces: 163
+--------------------------------------------------------------------------------
+4 2   :  haltPurchases resumePurchases 
+2 4   :  resumePurchases haltPurchases 
+------------------------------------------------------------
+0 4 2   :  updateAvailability haltPurchases resumePurchases 
+2 4 0   :  resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+0 4 2   :  updateAvailability haltPurchases resumePurchases 
+2 0 4   :  resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+0 4 2   :  updateAvailability haltPurchases resumePurchases 
+0 2 4   :  updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+2 4 0   :  resumePurchases haltPurchases updateAvailability 
+4 2 0   :  haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+2 4 0   :  resumePurchases haltPurchases updateAvailability 
+4 0 2   :  haltPurchases updateAvailability resumePurchases 
+------------------------------------------------------------
+2 0 4   :  resumePurchases updateAvailability haltPurchases 
+4 2 0   :  haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+2 0 4   :  resumePurchases updateAvailability haltPurchases 
+4 0 2   :  haltPurchases updateAvailability resumePurchases 
+------------------------------------------------------------
+4 2 0   :  haltPurchases resumePurchases updateAvailability 
+0 2 4   :  updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 0 2   :  haltPurchases updateAvailability resumePurchases 
+0 2 4   :  updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+1 2 4   :  updatePrice resumePurchases haltPurchases 
+4 2 1   :  haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+1 2 4   :  updatePrice resumePurchases haltPurchases 
+1 4 2   :  updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+1 2 4   :  updatePrice resumePurchases haltPurchases 
+4 1 2   :  haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+2 1 4   :  resumePurchases updatePrice haltPurchases 
+4 2 1   :  haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+2 1 4   :  resumePurchases updatePrice haltPurchases 
+1 4 2   :  updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+2 1 4   :  resumePurchases updatePrice haltPurchases 
+4 1 2   :  haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+4 2 1   :  haltPurchases resumePurchases updatePrice 
+2 4 1   :  resumePurchases haltPurchases updatePrice 
+------------------------------------------------------------
+1 4 2   :  updatePrice haltPurchases resumePurchases 
+2 4 1   :  resumePurchases haltPurchases updatePrice 
+------------------------------------------------------------
+2 4 1   :  resumePurchases haltPurchases updatePrice 
+4 1 2   :  haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+2 0 4 1   :  resumePurchases updateAvailability haltPurchases updatePrice 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+2 4 0 1   :  resumePurchases haltPurchases updateAvailability updatePrice 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+1 0 4 2   :  updatePrice updateAvailability haltPurchases resumePurchases 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 0 2 1   :  haltPurchases updateAvailability resumePurchases updatePrice 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 1 2 0   :  haltPurchases updatePrice resumePurchases updateAvailability 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+0 2 4 1   :  updateAvailability resumePurchases haltPurchases updatePrice 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+1 4 0 2   :  updatePrice haltPurchases updateAvailability resumePurchases 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+2 1 4 0   :  resumePurchases updatePrice haltPurchases updateAvailability 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+2 4 1 0   :  resumePurchases haltPurchases updatePrice updateAvailability 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+0 4 2 1   :  updateAvailability haltPurchases resumePurchases updatePrice 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+0 4 1 2   :  updateAvailability haltPurchases updatePrice resumePurchases 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+------------------------------------------------------------
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+------------------------------------------------------------
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+------------------------------------------------------------
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+1 2 0 4   :  updatePrice resumePurchases updateAvailability haltPurchases 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+1 4 2 0   :  updatePrice haltPurchases resumePurchases updateAvailability 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 1 0 2   :  haltPurchases updatePrice updateAvailability resumePurchases 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+------------------------------------------------------------
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+------------------------------------------------------------
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 2 0 1   :  haltPurchases resumePurchases updateAvailability updatePrice 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+0 2 1 4   :  updateAvailability resumePurchases updatePrice haltPurchases 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+------------------------------------------------------------
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+------------------------------------------------------------
+2 1 0 4   :  resumePurchases updatePrice updateAvailability haltPurchases 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 2 1 0   :  haltPurchases resumePurchases updatePrice updateAvailability 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+------------------------------------------------------------
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+------------------------------------------------------------
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+4 0 1 2   :  haltPurchases updateAvailability updatePrice resumePurchases 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------
+0 1 2 4   :  updateAvailability updatePrice resumePurchases haltPurchases 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+2 0 1 4   :  resumePurchases updateAvailability updatePrice haltPurchases 
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+------------------------------------------------------------
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+1 0 2 4   :  updatePrice updateAvailability resumePurchases haltPurchases 
+------------------------------------------------------------
+0 1 4 2   :  updateAvailability updatePrice haltPurchases resumePurchases 
+1 2 4 0   :  updatePrice resumePurchases haltPurchases updateAvailability 
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+{
+    "addr": "0x8c6f3d75873c66cf0300c9d6dfe8d607d1824204",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "ICOSyndicate",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "7cbadb2c86d440f7f8289849b671e6b3",
+    "fp_runtime": "f9c292b7cd7e07f19a94a9ec12c8fbe1",
+    "fp_sol": "ac09cdde645a2a499ee33d7f0808b73d",
+    "fp_sol2": "94491cdd5adf8cac8a6d63c98ba25867",
+    "id": "0x8c6f3d75873c66cf0300c9d6dfe8d607d1824204-ICOSyndicate-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2153.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

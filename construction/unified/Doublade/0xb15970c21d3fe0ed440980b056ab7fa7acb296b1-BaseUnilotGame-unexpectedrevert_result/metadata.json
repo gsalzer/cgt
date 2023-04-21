@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "BaseUnilotGame",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xb15970c21d3fe0ed440980b056ab7fa7acb296b1",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xb15970c21d3fe0ed440980b056ab7fa7acb296b1",
+            "main",
+            "UnilotTailEther"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "4b5a3982a516ce37927c255f5a1039de",
+    "fp_sol2": "8d07e6d90f5e246f8a6d208dd4c6a102",
+    "id": "0xb15970c21d3fe0ed440980b056ab7fa7acb296b1-BaseUnilotGame-unexpectedrevert_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2714.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

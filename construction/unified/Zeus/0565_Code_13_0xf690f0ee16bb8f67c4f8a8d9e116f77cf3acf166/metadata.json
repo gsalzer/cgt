@@ -1,0 +1,60 @@
+{
+    "addr": "0xf690f0ee16bb8f67c4f8a8d9e116f77cf3acf166",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "LongLiveThe2ndLaw",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "2c8089adc670378590a8070a77ac375a",
+    "fp_runtime": "603fa20c8e367998f20819d8a814d88f",
+    "fp_sol": "171af2fd7bef50426872837352d07322",
+    "fp_sol2": "6fb88c06ade1de124bbe946d954db7d5",
+    "id": "0565_Code_13_0xf690f0ee16bb8f67c4f8a8d9e116f77cf3acf166",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

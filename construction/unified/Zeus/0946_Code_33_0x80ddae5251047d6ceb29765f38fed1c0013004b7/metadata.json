@@ -1,0 +1,60 @@
+{
+    "addr": "0x80ddae5251047d6ceb29765f38fed1c0013004b7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-03-31-c492d9b",
+    "compiler_orig": false,
+    "contractname": "Lottery",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "0418c2ccecb11e015753062d6a5e0f18",
+    "fp_runtime": "dae57f51349206ef8bae2e7019e69d0c",
+    "fp_sol": "1b3e25c38211fee7f1105a9fe7dae37b",
+    "fp_sol2": "1b3e25c38211fee7f1105a9fe7dae37b",
+    "id": "0946_Code_33_0x80ddae5251047d6ceb29765f38fed1c0013004b7",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

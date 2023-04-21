@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Multisend.multisend has external calls inside a loop: \"ERC20(_tokenAddr).transfer(dests[i],values[i])\" (reorder_contracts_2_3/test2570.sol#72)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "ERC20(_tokenAddr).transfer(dests[i],values[i])",
+            "source_mapping": {
+              "start": 1751,
+              "length": 47,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2570.sol",
+              "filename_relative": "reorder_contracts_2_3/test2570.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2570.sol",
+              "filename_short": "reorder_contracts_2_3/test2570.sol",
+              "lines": [
+                72
+              ],
+              "starting_column": 12,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multisend",
+                "source_mapping": {
+                  "start": 1563,
+                  "length": 295,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2570.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2570.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2570.sol",
+                  "filename_short": "reorder_contracts_2_3/test2570.sol",
+                  "lines": [
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Multisend",
+                    "source_mapping": {
+                      "start": 1278,
+                      "length": 583,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2570.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2570.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2570.sol",
+                      "filename_short": "reorder_contracts_2_3/test2570.sol",
+                      "lines": [
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multisend(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

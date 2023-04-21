@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "The call address or data are externally controlled",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Proxy",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            20
+        ],
+        "BugName": "Call information controlled by external",
+        "BugReason": "Malicious users can make this contract call any function at any address, which will put the contract into great risk.",
+        "ContractSource": "https://swcregistry.io/"
+    },
+    "fp_bytecode": "e5610e2073993ffe3f70bed60f9f1903",
+    "fp_runtime": "94094f5084de85b0ab3b68a80b7ee1ef",
+    "fp_sol": "fecaf839766fc72798f0a61f3179f5f3",
+    "fp_sol2": "4953df93d4f7d77fb382d4a2d02f38bd",
+    "id": "badDelegate",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/badDelegate.sol"
+    ],
+    "sol_orig": true
+}

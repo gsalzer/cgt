@@ -1,0 +1,35 @@
+{
+    "addr": "0xbae0cb98b50e9d1d1700d7f102ce04fcc9d4271d",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "Masker",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "046e66e1b062eb7453c1d25724a06e33",
+    "fp_sol": "7b6192d6c8d9fe4e88ee1db4fff0a70e",
+    "fp_sol2": "f7b17e73fd6636eff47ee9ba02997e18",
+    "id": "Masker-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/Masker.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_Masker.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

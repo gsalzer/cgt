@@ -1,0 +1,37 @@
+{
+    "addr": "0xab7f12a452f44ff040ff25b0ad66a1d784438d70",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/FidgETHSpinner.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "FidgETHSpinner",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "de7fd1d9ea28d8899ca7c8970600b8a9",
+    "fp_runtime": "4d4f87db110692aab5e04fd0c4476338",
+    "fp_sol": "f89e892fe981d3e35671a658a776a808",
+    "fp_sol2": "98d5203646430b397f3ce933fec8e38f",
+    "id": "FidgETHSpinner-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_FidgETHSpinner.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

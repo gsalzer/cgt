@@ -1,0 +1,60 @@
+{
+    "addr": "0x93eeabbe86d19bda39ea2d1049baf2c0878ded23",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "DiceRoll",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "157b453e916c5b2f66869efa51f8e032",
+    "fp_runtime": "3a8b27409ebdefa60ec8f94b14445f2a",
+    "fp_sol": "af6fbfec82166b05b7d7a13082c509d0",
+    "fp_sol2": "c68479d36170b4046178d15654b21977",
+    "id": "0491_Code_1243_0x93eeabbe86d19bda39ea2d1049baf2c0878ded2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

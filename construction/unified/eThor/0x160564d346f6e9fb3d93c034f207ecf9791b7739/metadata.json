@@ -1,0 +1,37 @@
+{
+    "addr": "0x160564d346f6e9fb3d93c034f207ecf9791b7739",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8-nightly.2017.1.11+commit.4f5da2ea",
+    "compiler_orig": true,
+    "contractname": "AgriChainProductionContract",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "75c89f8f2cf52a1cfb048594281a7eb8",
+    "fp_runtime": "a47e17c54736db23635b3ef06b769cba",
+    "fp_sol": "f18ad371bdbe9e87d8c38cf708621d63",
+    "fp_sol2": "34ae83d9a956be144982cbe7126ad68a",
+    "id": "0x160564d346f6e9fb3d93c034f207ecf9791b7739",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

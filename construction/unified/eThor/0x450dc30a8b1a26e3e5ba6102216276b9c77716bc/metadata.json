@@ -1,0 +1,37 @@
+{
+    "addr": "0x450dc30a8b1a26e3e5ba6102216276b9c77716bc",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.4-nightly.2016.6.8+commit.d593166",
+    "compiler_orig": true,
+    "contractname": "AlarmClockTipFaucet",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "7aacbbf2bd1a16a06c927dfdcc25892d",
+    "fp_runtime": "b17d44be92a2fe3bf28684fdd49e3989",
+    "fp_sol": "7c4200c10e1c54bbf609cde91c975168",
+    "fp_sol2": "7c4200c10e1c54bbf609cde91c975168",
+    "id": "0x450dc30a8b1a26e3e5ba6102216276b9c77716bc",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

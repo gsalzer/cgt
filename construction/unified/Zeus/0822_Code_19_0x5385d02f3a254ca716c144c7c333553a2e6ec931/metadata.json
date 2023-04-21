@@ -1,0 +1,60 @@
+{
+    "addr": "0x5385d02f3a254ca716c144c7c333553a2e6ec931",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "CertifierDb",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f867781b6d7f67d126e9d20afb5d79f6",
+    "fp_runtime": "a066f4a95a779c3313d5ee9253e49ba3",
+    "fp_sol": "a9cc5116934c947b30eb5e57df386e26",
+    "fp_sol2": "5b234ceb73261eaacf783839301e83f4",
+    "id": "0822_Code_19_0x5385d02f3a254ca716c144c7c333553a2e6ec931",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

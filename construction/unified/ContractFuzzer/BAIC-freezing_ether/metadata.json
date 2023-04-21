@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BAIC",
+            "BasicToken",
+            "ERC20",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "7179009405be91de8b6379179e62cc0c",
+    "fp_sol": "49474ebf992161f71b8e41fb235e2ead",
+    "fp_sol2": "9174e62c01cb240a5c4535722d540789",
+    "id": "BAIC-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/BAIC.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BAIC.sol"
+    ],
+    "sol_orig": true
+}

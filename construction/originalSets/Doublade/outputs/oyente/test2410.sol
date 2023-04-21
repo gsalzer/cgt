@@ -1,0 +1,2 @@
+{u'source_code/test2410.sol': {u'HelpMeTokenPart3': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test2410.sol:12:5: Warning: Integer Underflow.\n    string public name = ") STUPID GOVERNMENT DESTROYS ME"', u'source_code/test2410.sol:13:5: Warning: Integer Underflow.\n    string public symbol = ") STUPID GOVERNMENT DESTROYS ME"'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '72.6'}}}
+

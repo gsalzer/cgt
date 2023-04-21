@@ -1,0 +1,332 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'burnFrom', 'tx_input': '79cc679000000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'setPrices', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '05fefda7'}
+2 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b00000000000000000000000035eadaf498971e319218629bd1e683b88e8972aa'}
+3 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000001111111111111111111111111111111111111111'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setPrices', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '05fefda7'}
+5 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+6 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d550000000000000000000000000000000000000000000000000000000000000001'}
+7 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+8 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d550000000000000000000000000000000000000000000000000000000000000003'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000001111111111111111111111111111111111111111'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d55'}
+11 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000007af281'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d5500000000000000000000000091e812c04cb0ba26248dba3db7f6aba60ad5d2d80000000000000000000000000000000000000000000000000000000000000001'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d5500000000000000000000000091e812c04cb0ba26248dba3db7f6aba60ad5d2d80000000000000000000000000000000000000000000000000000000000000003'}
+14 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000007fff81'}
+15 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d55000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d550000000000000000000000000000000000000000000000000000000000000001'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d55000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d550000000000000000000000000000000000000000000000000000000000000003'}
+17 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000022222222222222222222222222222222222222228000000000000000000000000000000000000000000000000000000000000001'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000006d58d1b14180d68a8a2e3bed1de216add4c95c2d0000000000000000000000000000000000000000000000000000000000000001'}
+19 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000006d58d1b14180d68a8a2e3bed1de216add4c95c2d0000000000000000000000000000000000000000000000000000000000000003'}
+20 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000022222222222222222222222222222222222222229824b114964412402114ad5d12f3b8aaa50b6cbc1856a7fa5a18e23802cf0747'}
+21 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+22 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+23 : {'tx_caller': 'ca15250b6768e1ce6de79d642e197c4771768d55', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222'}
+24 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000001111111111111111111111111111111111111111'}
+25 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000ca15250b6768e1ce6de79d642e197c4771768d55'}
+--------------------------------------------------------------------------------
+
+Full traces: 100
+--------------------------------------------------------------------------------
+11 12 14   :  approve transferFrom approve 
+11 14 12   :  approve approve transferFrom 
+------------------------------------------------------------
+11 14 0 12   :  approve approve burnFrom transferFrom 
+11 12 0 14   :  approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 14 0 12   :  approve approve burnFrom transferFrom 
+0 11 12 14   :  burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 14 0 12   :  approve approve burnFrom transferFrom 
+11 0 12 14   :  approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 14 0 12   :  approve approve burnFrom transferFrom 
+11 12 14 0   :  approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 14 12 0   :  approve approve transferFrom burnFrom 
+11 12 0 14   :  approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 14 12 0   :  approve approve transferFrom burnFrom 
+0 11 12 14   :  burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 14 12 0   :  approve approve transferFrom burnFrom 
+11 0 12 14   :  approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 14 12 0   :  approve approve transferFrom burnFrom 
+11 12 14 0   :  approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 0 14 12   :  approve burnFrom approve transferFrom 
+11 12 0 14   :  approve transferFrom burnFrom approve 
+------------------------------------------------------------
+11 0 14 12   :  approve burnFrom approve transferFrom 
+0 11 12 14   :  burnFrom approve transferFrom approve 
+------------------------------------------------------------
+11 0 14 12   :  approve burnFrom approve transferFrom 
+11 0 12 14   :  approve burnFrom transferFrom approve 
+------------------------------------------------------------
+11 0 14 12   :  approve burnFrom approve transferFrom 
+11 12 14 0   :  approve transferFrom approve burnFrom 
+------------------------------------------------------------
+11 12 0 14   :  approve transferFrom burnFrom approve 
+0 11 14 12   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 11 12 14   :  burnFrom approve transferFrom approve 
+0 11 14 12   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 0 12 14   :  approve burnFrom transferFrom approve 
+0 11 14 12   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 14 0   :  approve transferFrom approve burnFrom 
+0 11 14 12   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+11 12 1 14   :  approve transferFrom setPrices approve 
+11 14 12 1   :  approve approve transferFrom setPrices 
+------------------------------------------------------------
+11 12 1 14   :  approve transferFrom setPrices approve 
+1 11 14 12   :  setPrices approve approve transferFrom 
+------------------------------------------------------------
+11 12 1 14   :  approve transferFrom setPrices approve 
+11 14 1 12   :  approve approve setPrices transferFrom 
+------------------------------------------------------------
+11 12 1 14   :  approve transferFrom setPrices approve 
+11 1 14 12   :  approve setPrices approve transferFrom 
+------------------------------------------------------------
+11 1 12 14   :  approve setPrices transferFrom approve 
+11 14 12 1   :  approve approve transferFrom setPrices 
+------------------------------------------------------------
+11 1 12 14   :  approve setPrices transferFrom approve 
+1 11 14 12   :  setPrices approve approve transferFrom 
+------------------------------------------------------------
+11 1 12 14   :  approve setPrices transferFrom approve 
+11 14 1 12   :  approve approve setPrices transferFrom 
+------------------------------------------------------------
+11 1 12 14   :  approve setPrices transferFrom approve 
+11 1 14 12   :  approve setPrices approve transferFrom 
+------------------------------------------------------------
+11 14 12 1   :  approve approve transferFrom setPrices 
+1 11 12 14   :  setPrices approve transferFrom approve 
+------------------------------------------------------------
+11 14 12 1   :  approve approve transferFrom setPrices 
+11 12 14 1   :  approve transferFrom approve setPrices 
+------------------------------------------------------------
+1 11 14 12   :  setPrices approve approve transferFrom 
+1 11 12 14   :  setPrices approve transferFrom approve 
+------------------------------------------------------------
+1 11 14 12   :  setPrices approve approve transferFrom 
+11 12 14 1   :  approve transferFrom approve setPrices 
+------------------------------------------------------------
+1 11 12 14   :  setPrices approve transferFrom approve 
+11 14 1 12   :  approve approve setPrices transferFrom 
+------------------------------------------------------------
+1 11 12 14   :  setPrices approve transferFrom approve 
+11 1 14 12   :  approve setPrices approve transferFrom 
+------------------------------------------------------------
+11 14 1 12   :  approve approve setPrices transferFrom 
+11 12 14 1   :  approve transferFrom approve setPrices 
+------------------------------------------------------------
+11 1 14 12   :  approve setPrices approve transferFrom 
+11 12 14 1   :  approve transferFrom approve setPrices 
+------------------------------------------------------------
+11 12 14 2   :  approve transferFrom approve transferOwnership 
+11 2 14 12   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+11 12 14 2   :  approve transferFrom approve transferOwnership 
+2 11 14 12   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+11 12 14 2   :  approve transferFrom approve transferOwnership 
+11 14 12 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+11 12 14 2   :  approve transferFrom approve transferOwnership 
+11 14 2 12   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 2 14 12   :  approve transferOwnership approve transferFrom 
+11 2 12 14   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 2 14 12   :  approve transferOwnership approve transferFrom 
+2 11 12 14   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+11 2 14 12   :  approve transferOwnership approve transferFrom 
+11 12 2 14   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 11 14 12   :  transferOwnership approve approve transferFrom 
+11 2 12 14   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 11 14 12   :  transferOwnership approve approve transferFrom 
+2 11 12 14   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+2 11 14 12   :  transferOwnership approve approve transferFrom 
+11 12 2 14   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 14 12 2   :  approve approve transferFrom transferOwnership 
+11 2 12 14   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+11 14 12 2   :  approve approve transferFrom transferOwnership 
+2 11 12 14   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+11 14 12 2   :  approve approve transferFrom transferOwnership 
+11 12 2 14   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 2 12 14   :  approve transferOwnership transferFrom approve 
+11 14 2 12   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 12 14   :  transferOwnership approve transferFrom approve 
+11 14 2 12   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+11 14 2 12   :  approve approve transferOwnership transferFrom 
+11 12 2 14   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+11 14 3 12   :  approve approve freezeAccount transferFrom 
+3 11 12 14   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+11 14 3 12   :  approve approve freezeAccount transferFrom 
+11 12 3 14   :  approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+11 14 3 12   :  approve approve freezeAccount transferFrom 
+11 12 14 3   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+11 14 3 12   :  approve approve freezeAccount transferFrom 
+11 3 12 14   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+3 11 12 14   :  freezeAccount approve transferFrom approve 
+3 11 14 12   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+3 11 12 14   :  freezeAccount approve transferFrom approve 
+11 3 14 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+3 11 12 14   :  freezeAccount approve transferFrom approve 
+11 14 12 3   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 3 14   :  approve transferFrom freezeAccount approve 
+3 11 14 12   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 12 3 14   :  approve transferFrom freezeAccount approve 
+11 3 14 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 3 14   :  approve transferFrom freezeAccount approve 
+11 14 12 3   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 14 3   :  approve transferFrom approve freezeAccount 
+3 11 14 12   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+11 12 14 3   :  approve transferFrom approve freezeAccount 
+11 3 14 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 12 14 3   :  approve transferFrom approve freezeAccount 
+11 14 12 3   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+3 11 14 12   :  freezeAccount approve approve transferFrom 
+11 3 12 14   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+11 3 12 14   :  approve freezeAccount transferFrom approve 
+11 3 14 12   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+11 3 12 14   :  approve freezeAccount transferFrom approve 
+11 14 12 3   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+11 12 14 5   :  approve transferFrom approve burn 
+11 5 14 12   :  approve burn approve transferFrom 
+------------------------------------------------------------
+11 12 14 5   :  approve transferFrom approve burn 
+11 14 12 5   :  approve approve transferFrom burn 
+------------------------------------------------------------
+11 12 14 5   :  approve transferFrom approve burn 
+5 11 14 12   :  burn approve approve transferFrom 
+------------------------------------------------------------
+11 12 14 5   :  approve transferFrom approve burn 
+11 14 5 12   :  approve approve burn transferFrom 
+------------------------------------------------------------
+11 5 14 12   :  approve burn approve transferFrom 
+11 12 5 14   :  approve transferFrom burn approve 
+------------------------------------------------------------
+11 5 14 12   :  approve burn approve transferFrom 
+11 5 12 14   :  approve burn transferFrom approve 
+------------------------------------------------------------
+11 5 14 12   :  approve burn approve transferFrom 
+5 11 12 14   :  burn approve transferFrom approve 
+------------------------------------------------------------
+11 14 12 5   :  approve approve transferFrom burn 
+11 12 5 14   :  approve transferFrom burn approve 
+------------------------------------------------------------
+11 14 12 5   :  approve approve transferFrom burn 
+11 5 12 14   :  approve burn transferFrom approve 
+------------------------------------------------------------
+11 14 12 5   :  approve approve transferFrom burn 
+5 11 12 14   :  burn approve transferFrom approve 
+------------------------------------------------------------
+11 12 5 14   :  approve transferFrom burn approve 
+5 11 14 12   :  burn approve approve transferFrom 
+------------------------------------------------------------
+11 12 5 14   :  approve transferFrom burn approve 
+11 14 5 12   :  approve approve burn transferFrom 
+------------------------------------------------------------
+11 5 12 14   :  approve burn transferFrom approve 
+5 11 14 12   :  burn approve approve transferFrom 
+------------------------------------------------------------
+11 5 12 14   :  approve burn transferFrom approve 
+11 14 5 12   :  approve approve burn transferFrom 
+------------------------------------------------------------
+5 11 14 12   :  burn approve approve transferFrom 
+5 11 12 14   :  burn approve transferFrom approve 
+------------------------------------------------------------
+5 11 12 14   :  burn approve transferFrom approve 
+11 14 5 12   :  approve approve burn transferFrom 
+------------------------------------------------------------
+11 6 12 14   :  approve mintToken transferFrom approve 
+11 14 6 12   :  approve approve mintToken transferFrom 
+------------------------------------------------------------
+11 6 12 14   :  approve mintToken transferFrom approve 
+11 6 14 12   :  approve mintToken approve transferFrom 
+------------------------------------------------------------
+11 6 12 14   :  approve mintToken transferFrom approve 
+6 11 14 12   :  mintToken approve approve transferFrom 
+------------------------------------------------------------
+11 6 12 14   :  approve mintToken transferFrom approve 
+11 14 12 6   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+11 14 6 12   :  approve approve mintToken transferFrom 
+11 12 14 6   :  approve transferFrom approve mintToken 
+------------------------------------------------------------
+11 14 6 12   :  approve approve mintToken transferFrom 
+6 11 12 14   :  mintToken approve transferFrom approve 
+------------------------------------------------------------
+11 14 6 12   :  approve approve mintToken transferFrom 
+11 12 6 14   :  approve transferFrom mintToken approve 
+------------------------------------------------------------
+11 12 14 6   :  approve transferFrom approve mintToken 
+11 6 14 12   :  approve mintToken approve transferFrom 
+------------------------------------------------------------
+11 12 14 6   :  approve transferFrom approve mintToken 
+6 11 14 12   :  mintToken approve approve transferFrom 
+------------------------------------------------------------
+11 12 14 6   :  approve transferFrom approve mintToken 
+11 14 12 6   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+11 6 14 12   :  approve mintToken approve transferFrom 
+6 11 12 14   :  mintToken approve transferFrom approve 
+------------------------------------------------------------
+11 6 14 12   :  approve mintToken approve transferFrom 
+11 12 6 14   :  approve transferFrom mintToken approve 
+------------------------------------------------------------
+6 11 14 12   :  mintToken approve approve transferFrom 
+6 11 12 14   :  mintToken approve transferFrom approve 
+------------------------------------------------------------
+6 11 14 12   :  mintToken approve approve transferFrom 
+11 12 6 14   :  approve transferFrom mintToken approve 
+------------------------------------------------------------
+6 11 12 14   :  mintToken approve transferFrom approve 
+11 14 12 6   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+11 12 6 14   :  approve transferFrom mintToken approve 
+11 14 12 6   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+11 14 12 13   :  approve approve transferFrom transferFrom 
+11 12 13 14   :  approve transferFrom transferFrom approve 
+------------------------------------------------------------
+11 14 12 13   :  approve approve transferFrom transferFrom 
+11 12 14 13   :  approve transferFrom approve transferFrom 
+------------------------------------------------------------
+11 13 14 12   :  approve transferFrom approve transferFrom 
+11 13 12 14   :  approve transferFrom transferFrom approve 
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+{
+    "addr": "0xa839d4b5a36265795eba6894651a8af3d0ae2e68",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/WyvernDAOProxy.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "WyvernDAOProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e6bb73b07f2c174e6c80c4048995eac0",
+    "fp_runtime": "72247d06b55f9e328f4fed7df716721f",
+    "fp_sol": "e40833aa665123701fa6377269d56251",
+    "fp_sol2": "c3fabd1bf35f831a48d627858a812b4e",
+    "id": "WyvernDAOProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_WyvernDAOProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy vulnerability",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "NoSimpleDAOByTransfer",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "46b7f899fa00e5f3c1ebb7d7b6a19f34",
+    "fp_runtime": "fc2bf5c5bf86e68eb158235c32ae2490",
+    "fp_sol": "32bcfb9e179885981f5723508c10f1b1",
+    "fp_sol2": "1d9cfd66dcc44a3484dd28067aee0942",
+    "id": "NoReentranceByTransfer",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoReentranceByTransfer.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,190 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa'}
+1 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000a63d06bbb7ac5cf3b42397e45f207cdf6fa69755'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000001111111111111111111111111111111111111111'}
+4 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000000001c786a94ae724f78060be8128eb6ddb7137d00000000000000000000000000000000000000000000581b6d300d0225a000000'}
+5 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000001000000000000000000000'}
+6 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000000000000000000000011bc200401e024d7e17b06'}
+7 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c68000000000000000000000000000000000000000000078032420090141a000000'}
+8 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000000000000000000000000184b6d30890285a000000'}
+9 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000061e64f88e20824a181e961c1a823560c911354020000000000000000000000000000000000000000000184b6d30890285a000000'}
+10 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000000000000000000000001302b00daf081000000000'}
+11 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000000000000000000000001302b00daf081000000000'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a200000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000007c466dd434e4f879cb9a1b4290c506d1e3bd451b0000000000000000000000000000000000000000000ec0da698c6a7728000000'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a200000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000000000000000000000012c0db698068112f000000'}
+14 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000002'}
+15 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a20000000000000000000000002222222222222222222222222222222222222222000000000000000000000000c18f2f7e72537b30341d59a505ca3198207f1a300000000000000000000000000000000000000000000000000000000000000001'}
+16 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000222222222222222222222222222222222222222284c49559085bc421cc0034e488fdc2011a286e6eff173c2103424a0008290e09'}
+17 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a2000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+18 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a2000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+19 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a200000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000088f9cde85c33a8df04cc74ebbdf7ad752e6eaf360000000000000000000000000000000000000000000181b6d300d0225a000000'}
+20 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a200000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa000000000000000000000000000000000000000000003f23967f97eed4000000'}
+21 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000000000000000000000000580f69300d02258000000'}
+22 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'burnFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79cc679000000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000000000000000000000000580f69300d02258000000'}
+23 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000cd4ad9f893e0addceb7b1c774e639f4896c50e300000000000000000000000000000000000000000000000000000000000000001'}
+24 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000022222222222222222222222222222222222222229c34c0b3c7754a8178e216f920a408917c89001402331b8bf8e9937d00422439'}
+25 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+26 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+27 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222'}
+28 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a200000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa000000000000000000000000c39f0015957544ebff3207c6c9ffc2a804b10bcb0000000000000000000000000000000000000000000ffc000000000000000000'}
+29 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000585b6d300d0225a000000'}
+30 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'OwnerTransfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd30796a200000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa00000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa0000000000000000000000000000000000000000000601000db8044099064560'}
+31 : {'tx_caller': '59c2f9444853a30c4bdc681ba0df8320905968aa', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000fc06c0000000000000000'}
+32 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000059c2f9444853a30c4bdc681ba0df8320905968aa'}
+33 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000001111111111111111111111111111111111111111'}
+--------------------------------------------------------------------------------
+
+Full traces: 50
+--------------------------------------------------------------------------------
+8 9 10   :  approve transferFrom approve 
+8 10 9   :  approve approve transferFrom 
+------------------------------------------------------------
+21 10 22   :  approve approve burnFrom 
+21 22 10   :  approve burnFrom approve 
+------------------------------------------------------------
+8 9 0 10   :  approve transferFrom freezeAccount approve 
+8 0 10 9   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+8 9 0 10   :  approve transferFrom freezeAccount approve 
+8 10 9 0   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+8 9 0 10   :  approve transferFrom freezeAccount approve 
+0 8 10 9   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+8 9 0 10   :  approve transferFrom freezeAccount approve 
+8 10 0 9   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+8 0 10 9   :  approve freezeAccount approve transferFrom 
+0 8 9 10   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+8 0 10 9   :  approve freezeAccount approve transferFrom 
+8 0 9 10   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+8 0 10 9   :  approve freezeAccount approve transferFrom 
+8 9 10 0   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+8 10 9 0   :  approve approve transferFrom freezeAccount 
+0 8 9 10   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+8 10 9 0   :  approve approve transferFrom freezeAccount 
+8 0 9 10   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+8 10 9 0   :  approve approve transferFrom freezeAccount 
+8 9 10 0   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+0 8 9 10   :  freezeAccount approve transferFrom approve 
+0 8 10 9   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 8 9 10   :  freezeAccount approve transferFrom approve 
+8 10 0 9   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 8 10 9   :  freezeAccount approve approve transferFrom 
+8 0 9 10   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+0 8 10 9   :  freezeAccount approve approve transferFrom 
+8 9 10 0   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+8 0 9 10   :  approve freezeAccount transferFrom approve 
+8 10 0 9   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+8 9 10 0   :  approve transferFrom approve freezeAccount 
+8 10 0 9   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+21 10 22 0   :  approve approve burnFrom freezeAccount 
+21 22 10 0   :  approve burnFrom approve freezeAccount 
+------------------------------------------------------------
+21 10 22 0   :  approve approve burnFrom freezeAccount 
+21 22 0 10   :  approve burnFrom freezeAccount approve 
+------------------------------------------------------------
+21 10 22 0   :  approve approve burnFrom freezeAccount 
+21 0 22 10   :  approve freezeAccount burnFrom approve 
+------------------------------------------------------------
+21 10 22 0   :  approve approve burnFrom freezeAccount 
+0 21 22 10   :  freezeAccount approve burnFrom approve 
+------------------------------------------------------------
+0 21 10 22   :  freezeAccount approve approve burnFrom 
+21 22 10 0   :  approve burnFrom approve freezeAccount 
+------------------------------------------------------------
+0 21 10 22   :  freezeAccount approve approve burnFrom 
+21 22 0 10   :  approve burnFrom freezeAccount approve 
+------------------------------------------------------------
+0 21 10 22   :  freezeAccount approve approve burnFrom 
+21 0 22 10   :  approve freezeAccount burnFrom approve 
+------------------------------------------------------------
+0 21 10 22   :  freezeAccount approve approve burnFrom 
+0 21 22 10   :  freezeAccount approve burnFrom approve 
+------------------------------------------------------------
+21 22 10 0   :  approve burnFrom approve freezeAccount 
+21 0 10 22   :  approve freezeAccount approve burnFrom 
+------------------------------------------------------------
+21 22 10 0   :  approve burnFrom approve freezeAccount 
+21 10 0 22   :  approve approve freezeAccount burnFrom 
+------------------------------------------------------------
+21 22 0 10   :  approve burnFrom freezeAccount approve 
+21 0 10 22   :  approve freezeAccount approve burnFrom 
+------------------------------------------------------------
+21 22 0 10   :  approve burnFrom freezeAccount approve 
+21 10 0 22   :  approve approve freezeAccount burnFrom 
+------------------------------------------------------------
+21 0 10 22   :  approve freezeAccount approve burnFrom 
+21 0 22 10   :  approve freezeAccount burnFrom approve 
+------------------------------------------------------------
+21 0 10 22   :  approve freezeAccount approve burnFrom 
+0 21 22 10   :  freezeAccount approve burnFrom approve 
+------------------------------------------------------------
+21 10 0 22   :  approve approve freezeAccount burnFrom 
+21 0 22 10   :  approve freezeAccount burnFrom approve 
+------------------------------------------------------------
+21 10 0 22   :  approve approve freezeAccount burnFrom 
+0 21 22 10   :  freezeAccount approve burnFrom approve 
+------------------------------------------------------------
+8 10 9 1   :  approve approve transferFrom transferOwnership 
+1 8 9 10   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+8 10 9 1   :  approve approve transferFrom transferOwnership 
+8 9 1 10   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+8 10 9 1   :  approve approve transferFrom transferOwnership 
+8 1 9 10   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+8 10 9 1   :  approve approve transferFrom transferOwnership 
+8 9 10 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+8 1 10 9   :  approve transferOwnership approve transferFrom 
+1 8 9 10   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+8 1 10 9   :  approve transferOwnership approve transferFrom 
+8 9 1 10   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+8 1 10 9   :  approve transferOwnership approve transferFrom 
+8 1 9 10   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+8 1 10 9   :  approve transferOwnership approve transferFrom 
+8 9 10 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+8 10 1 9   :  approve approve transferOwnership transferFrom 
+1 8 9 10   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+8 10 1 9   :  approve approve transferOwnership transferFrom 
+8 9 1 10   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+8 10 1 9   :  approve approve transferOwnership transferFrom 
+8 1 9 10   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+8 10 1 9   :  approve approve transferOwnership transferFrom 
+8 9 10 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+1 8 9 10   :  transferOwnership approve transferFrom approve 
+1 8 10 9   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+8 9 1 10   :  approve transferFrom transferOwnership approve 
+1 8 10 9   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+8 1 9 10   :  approve transferOwnership transferFrom approve 
+1 8 10 9   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+1 8 10 9   :  transferOwnership approve approve transferFrom 
+8 9 10 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------

@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Replay attack",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "transaction_malleablity",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            23
+        ],
+        "BugName": "Replay attack",
+        "BugReason": "{Cite from https://swcregistry.io/} The implementation of a cryptographic signature system in Ethereum contracts often assumes that the signature is unique, but signatures can be altered without the possession of the private key and still be valid. The EVM specification defines several so-called \u2018precompiled\u2019 contracts one of them being ecrecover which executes the elliptic curve public key recovery. A malicious user can slightly modify the three values v, r and s to create other valid signatures. A system that performs signature verification on contract level might be susceptible to attacks if the signature is part of the signed message hash. Valid signatures could be created by a malicious user to replay previously signed messages.",
+        "ContractSource": "https://swcregistry.io/"
+    },
+    "fp_bytecode": "76bf834932b8380925425f5c0a443bd9",
+    "fp_runtime": "1370364c5e1c202caae6ecf5d1bde311",
+    "fp_sol": "d4a14eb891662065a01bd8e8d6128da6",
+    "fp_sol2": "c23976f4ce2e45d4c2eb105968621a84",
+    "id": "replayAttack1",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/replayAttack1.sol"
+    ],
+    "sol_orig": true
+}

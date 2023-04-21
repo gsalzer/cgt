@@ -1,0 +1,54 @@
+{
+    "addr": "0xa0139f5ab522c86d7f377336c50eefcd6caf696e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "Giver",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "cacafcd918c567ab24392d60b916c83e",
+    "fp_runtime": "4a2725e5253fd246f14dfbce396b0d86",
+    "fp_sol": "08c780e746242435dab4f0edfdd708e4",
+    "fp_sol2": "08c780e746242435dab4f0edfdd708e4",
+    "id": "0xa0139f5ab522c86d7f377336c50eefcd6caf696e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

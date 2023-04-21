@@ -1,0 +1,499 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '47244b04311eb97b381e7038a28a9e1f97c2fb7a', 'name': 'recoverUser', 'tx_input': 'f32efd3c0000000000000000000000001111111111111111111111111111111111111111'}
+1 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'addUser', 'tx_input': '213ac932'}
+2 : {'tx_value': '0', 'tx_caller': '47244b04311eb97b381e7038a28a9e1f97c2fb7a', 'name': 'setOracle', 'tx_input': '7adbf973'}
+3 : {'tx_value': '0', 'tx_caller': '47244b04311eb97b381e7038a28a9e1f97c2fb7a', 'name': 'configure', 'tx_input': '305b73d9'}
+--------------------------------------------------------------------------------
+
+Full traces: 163
+--------------------------------------------------------------------------------
+3 2   :  configure setOracle 
+2 3   :  setOracle configure 
+------------------------------------------------------------
+3 0 2   :  configure recoverUser setOracle 
+2 0 3   :  setOracle recoverUser configure 
+------------------------------------------------------------
+3 0 2   :  configure recoverUser setOracle 
+0 2 3   :  recoverUser setOracle configure 
+------------------------------------------------------------
+3 0 2   :  configure recoverUser setOracle 
+2 3 0   :  setOracle configure recoverUser 
+------------------------------------------------------------
+3 2 0   :  configure setOracle recoverUser 
+2 0 3   :  setOracle recoverUser configure 
+------------------------------------------------------------
+3 2 0   :  configure setOracle recoverUser 
+0 2 3   :  recoverUser setOracle configure 
+------------------------------------------------------------
+3 2 0   :  configure setOracle recoverUser 
+2 3 0   :  setOracle configure recoverUser 
+------------------------------------------------------------
+2 0 3   :  setOracle recoverUser configure 
+0 3 2   :  recoverUser configure setOracle 
+------------------------------------------------------------
+0 2 3   :  recoverUser setOracle configure 
+0 3 2   :  recoverUser configure setOracle 
+------------------------------------------------------------
+2 3 0   :  setOracle configure recoverUser 
+0 3 2   :  recoverUser configure setOracle 
+------------------------------------------------------------
+1 3 2   :  addUser configure setOracle 
+2 1 3   :  setOracle addUser configure 
+------------------------------------------------------------
+1 3 2   :  addUser configure setOracle 
+1 2 3   :  addUser setOracle configure 
+------------------------------------------------------------
+1 3 2   :  addUser configure setOracle 
+2 3 1   :  setOracle configure addUser 
+------------------------------------------------------------
+3 2 1   :  configure setOracle addUser 
+2 1 3   :  setOracle addUser configure 
+------------------------------------------------------------
+3 2 1   :  configure setOracle addUser 
+1 2 3   :  addUser setOracle configure 
+------------------------------------------------------------
+3 2 1   :  configure setOracle addUser 
+2 3 1   :  setOracle configure addUser 
+------------------------------------------------------------
+2 1 3   :  setOracle addUser configure 
+3 1 2   :  configure addUser setOracle 
+------------------------------------------------------------
+3 1 2   :  configure addUser setOracle 
+1 2 3   :  addUser setOracle configure 
+------------------------------------------------------------
+3 1 2   :  configure addUser setOracle 
+2 3 1   :  setOracle configure addUser 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+1 2 3 0   :  addUser setOracle configure recoverUser 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+2 0 1 3   :  setOracle recoverUser addUser configure 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+0 2 1 3   :  recoverUser setOracle addUser configure 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+1 0 2 3   :  addUser recoverUser setOracle configure 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+1 0 3 2   :  addUser recoverUser configure setOracle 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+1 2 3 0   :  addUser setOracle configure recoverUser 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+2 0 1 3   :  setOracle recoverUser addUser configure 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+0 2 1 3   :  recoverUser setOracle addUser configure 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+1 0 2 3   :  addUser recoverUser setOracle configure 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+3 0 2 1   :  configure recoverUser setOracle addUser 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+1 2 3 0   :  addUser setOracle configure recoverUser 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+2 0 1 3   :  setOracle recoverUser addUser configure 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+0 2 1 3   :  recoverUser setOracle addUser configure 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+1 0 2 3   :  addUser recoverUser setOracle configure 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+3 1 2 0   :  configure addUser setOracle recoverUser 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+3 0 1 2   :  configure recoverUser addUser setOracle 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+0 1 3 2   :  recoverUser addUser configure setOracle 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+3 2 1 0   :  configure setOracle addUser recoverUser 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+1 3 2 0   :  addUser configure setOracle recoverUser 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+0 3 2 1   :  recoverUser configure setOracle addUser 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+3 1 0 2   :  configure addUser recoverUser setOracle 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+3 2 0 1   :  configure setOracle recoverUser addUser 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+1 2 3 0   :  addUser setOracle configure recoverUser 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+3 0 1 2   :  configure recoverUser addUser setOracle 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+0 1 3 2   :  recoverUser addUser configure setOracle 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+3 2 1 0   :  configure setOracle addUser recoverUser 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+1 3 2 0   :  addUser configure setOracle recoverUser 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+0 3 2 1   :  recoverUser configure setOracle addUser 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+3 1 0 2   :  configure addUser recoverUser setOracle 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+3 2 0 1   :  configure setOracle recoverUser addUser 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+2 0 1 3   :  setOracle recoverUser addUser configure 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+0 2 1 3   :  recoverUser setOracle addUser configure 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+1 0 2 3   :  addUser recoverUser setOracle configure 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+3 0 1 2   :  configure recoverUser addUser setOracle 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+0 2 1 3   :  recoverUser setOracle addUser configure 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+1 0 2 3   :  addUser recoverUser setOracle configure 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+0 1 3 2   :  recoverUser addUser configure setOracle 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+3 2 1 0   :  configure setOracle addUser recoverUser 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+1 3 2 0   :  addUser configure setOracle recoverUser 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+0 3 2 1   :  recoverUser configure setOracle addUser 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+3 1 0 2   :  configure addUser recoverUser setOracle 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+3 2 0 1   :  configure setOracle recoverUser addUser 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+0 2 1 3   :  recoverUser setOracle addUser configure 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+1 0 2 3   :  addUser recoverUser setOracle configure 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+3 2 1 0   :  configure setOracle addUser recoverUser 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+1 0 2 3   :  addUser recoverUser setOracle configure 
+1 3 2 0   :  addUser configure setOracle recoverUser 
+------------------------------------------------------------
+1 0 2 3   :  addUser recoverUser setOracle configure 
+0 3 2 1   :  recoverUser configure setOracle addUser 
+------------------------------------------------------------
+1 0 2 3   :  addUser recoverUser setOracle configure 
+3 1 0 2   :  configure addUser recoverUser setOracle 
+------------------------------------------------------------
+1 0 2 3   :  addUser recoverUser setOracle configure 
+3 2 0 1   :  configure setOracle recoverUser addUser 
+------------------------------------------------------------
+1 0 2 3   :  addUser recoverUser setOracle configure 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+1 0 2 3   :  addUser recoverUser setOracle configure 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+1 3 2 0   :  addUser configure setOracle recoverUser 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+0 3 2 1   :  recoverUser configure setOracle addUser 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+0 1 2 3   :  recoverUser addUser setOracle configure 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+2 0 3 1   :  setOracle recoverUser configure addUser 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+3 1 0 2   :  configure addUser recoverUser setOracle 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+0 1 2 3   :  recoverUser addUser setOracle configure 
+3 2 0 1   :  configure setOracle recoverUser addUser 
+------------------------------------------------------------
+0 1 2 3   :  recoverUser addUser setOracle configure 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+0 1 2 3   :  recoverUser addUser setOracle configure 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+2 0 3 1   :  setOracle recoverUser configure addUser 
+3 2 0 1   :  configure setOracle recoverUser addUser 
+------------------------------------------------------------
+2 0 3 1   :  setOracle recoverUser configure addUser 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+2 0 3 1   :  setOracle recoverUser configure addUser 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+3 2 0 1   :  configure setOracle recoverUser addUser 
+0 2 3 1   :  recoverUser setOracle configure addUser 
+------------------------------------------------------------
+3 2 0 1   :  configure setOracle recoverUser addUser 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+3 2 0 1   :  configure setOracle recoverUser addUser 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+3 2 0 1   :  configure setOracle recoverUser addUser 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+3 2 0 1   :  configure setOracle recoverUser addUser 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+3 2 0 1   :  configure setOracle recoverUser addUser 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+0 2 3 1   :  recoverUser setOracle configure addUser 
+0 3 1 2   :  recoverUser configure addUser setOracle 
+------------------------------------------------------------
+0 2 3 1   :  recoverUser setOracle configure addUser 
+1 3 0 2   :  addUser configure recoverUser setOracle 
+------------------------------------------------------------
+0 3 1 2   :  recoverUser configure addUser setOracle 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+0 3 1 2   :  recoverUser configure addUser setOracle 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+0 3 1 2   :  recoverUser configure addUser setOracle 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+0 3 1 2   :  recoverUser configure addUser setOracle 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+0 3 1 2   :  recoverUser configure addUser setOracle 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------
+1 3 0 2   :  addUser configure recoverUser setOracle 
+2 3 0 1   :  setOracle configure recoverUser addUser 
+------------------------------------------------------------
+1 3 0 2   :  addUser configure recoverUser setOracle 
+1 2 0 3   :  addUser setOracle recoverUser configure 
+------------------------------------------------------------
+1 3 0 2   :  addUser configure recoverUser setOracle 
+2 1 0 3   :  setOracle addUser recoverUser configure 
+------------------------------------------------------------
+1 3 0 2   :  addUser configure recoverUser setOracle 
+2 3 1 0   :  setOracle configure addUser recoverUser 
+------------------------------------------------------------
+1 3 0 2   :  addUser configure recoverUser setOracle 
+2 1 3 0   :  setOracle addUser configure recoverUser 
+------------------------------------------------------------

@@ -1,0 +1,126 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+1 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000008ef3cfdeeb6d59ac3c472ec2fc70cd178c0da2d2'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setPrices', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '05fefda7'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d'}
+5 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d000000000000000000000000000000000000000000000000002911791f8c0002'}
+6 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000003f9f62a9efa3641a67a0364bbeafa66476f7b02b000000000000000000000000000000000000000000000000002911791f8c0002'}
+7 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b3000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000000000000000000000000000000029517c1d920002'}
+8 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000000000000000000000000000000029517c1d920002'}
+9 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000904212eac9c0290716442d20cf602aa0af2adca00000000000000000000000000000000000000000000000000000000000000000'}
+10 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000001'}
+11 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000003'}
+12 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d00000000000000000000000000000000000000000000000003fffffff91e0000'}
+13 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000022b80d1c1ee84e6ded64aa5d0f5d178b5969a77b0000000000000000000000000000000000000000000000000563457856a80000'}
+14 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000000000000000000000000000000000000000000001'}
+15 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000000000000000000000000000000000000000000001'}
+16 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000000000000000000000000000000000000000000003'}
+17 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d0000000000000000000000000000000000000000000000000000000000000003'}
+18 : {'tx_caller': '710c30211492a653c3b8d13d038f32e873f25d2d', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d'}
+19 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000710c30211492a653c3b8d13d038f32e873f25d2d'}
+--------------------------------------------------------------------------------
+
+Full traces: 33
+--------------------------------------------------------------------------------
+5 7 6   :  approve approve transferFrom 
+5 6 7   :  approve transferFrom approve 
+------------------------------------------------------------
+5 0 6 7   :  approve freezeAccount transferFrom approve 
+0 5 7 6   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 0 6 7   :  approve freezeAccount transferFrom approve 
+5 7 6 0   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 7   :  approve freezeAccount transferFrom approve 
+5 0 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 6 7   :  approve freezeAccount transferFrom approve 
+5 7 0 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 7   :  freezeAccount approve transferFrom approve 
+0 5 7 6   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 5 6 7   :  freezeAccount approve transferFrom approve 
+5 7 6 0   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 7   :  freezeAccount approve transferFrom approve 
+5 0 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 5 6 7   :  freezeAccount approve transferFrom approve 
+5 7 0 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom freezeAccount approve 
+0 5 7 6   :  freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom freezeAccount approve 
+5 7 6 0   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom freezeAccount approve 
+5 0 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom freezeAccount approve 
+5 7 0 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 7 6   :  freezeAccount approve approve transferFrom 
+5 6 7 0   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+5 6 7 0   :  approve transferFrom approve freezeAccount 
+5 7 6 0   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 0   :  approve transferFrom approve freezeAccount 
+5 0 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 6 7 0   :  approve transferFrom approve freezeAccount 
+5 7 0 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 5 7 6   :  transferOwnership approve approve transferFrom 
+5 6 7 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+1 5 7 6   :  transferOwnership approve approve transferFrom 
+5 1 6 7   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+1 5 7 6   :  transferOwnership approve approve transferFrom 
+5 6 1 7   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+1 5 7 6   :  transferOwnership approve approve transferFrom 
+1 5 6 7   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+5 6 7 1   :  approve transferFrom approve transferOwnership 
+5 7 1 6   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+5 6 7 1   :  approve transferFrom approve transferOwnership 
+5 1 7 6   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+5 6 7 1   :  approve transferFrom approve transferOwnership 
+5 7 6 1   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+5 1 6 7   :  approve transferOwnership transferFrom approve 
+5 7 1 6   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+5 1 6 7   :  approve transferOwnership transferFrom approve 
+5 1 7 6   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+5 1 6 7   :  approve transferOwnership transferFrom approve 
+5 7 6 1   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+5 6 1 7   :  approve transferFrom transferOwnership approve 
+5 7 1 6   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+5 6 1 7   :  approve transferFrom transferOwnership approve 
+5 1 7 6   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+5 6 1 7   :  approve transferFrom transferOwnership approve 
+5 7 6 1   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+5 7 1 6   :  approve approve transferOwnership transferFrom 
+1 5 6 7   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+1 5 6 7   :  transferOwnership approve transferFrom approve 
+5 1 7 6   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+1 5 6 7   :  transferOwnership approve transferFrom approve 
+5 7 6 1   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------

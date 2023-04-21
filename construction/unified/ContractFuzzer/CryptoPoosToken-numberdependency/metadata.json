@@ -1,0 +1,39 @@
+{
+    "addr": "0x826f6d1242231b70832d009f7d2c99a0ca8b7a12",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CryptoPoosToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "CryptoPoosToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/numberdependency/verified_contract_sols/CryptoPoosToken.sol"
+    },
+    "fp_bytecode": "4953fe14ed0fde2273320c658f676493",
+    "fp_runtime": "cb57eb675beaacf288abbe939d59f7ef",
+    "fp_sol": "4d260e06d4353d45acea48b899368753",
+    "fp_sol2": "66880270ec40d7586ff3768885118f37",
+    "id": "CryptoPoosToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CryptoPoosToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

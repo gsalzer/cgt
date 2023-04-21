@@ -1,0 +1,38 @@
+{
+    "addr": "0x27a54aefbddfa43cbf5f22139e9f969ce42fe22f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.21+commit.dfe3193c",
+    "compiler_orig": false,
+    "contractname": "Arena",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "73b798214e71f6dcf06fade31df1dad7",
+    "fp_runtime": "fac5410cd85be02583d99ef05df76375",
+    "fp_sol": "834151a5395a22f7720711b4c973a780",
+    "fp_sol2": "c1047ec43c1d20ceaaf031ae3468a8ba",
+    "id": "Arena-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_Arena.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Arena.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

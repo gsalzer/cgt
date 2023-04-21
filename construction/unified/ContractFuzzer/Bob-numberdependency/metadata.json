@@ -1,0 +1,39 @@
+{
+    "addr": "0xfef736cfa3b884669a4e0efd6a081250cce228e7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_Bob.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.22-nightly.2018.3.14+commit.c3f07b52",
+    "compiler_orig": false,
+    "contractname": "Bob",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "fff45105bb4f93a763326255452770c7",
+    "fp_runtime": "de9e8b36ff57cbcc939eb1b869bb9c28",
+    "fp_sol": "326ea512b78abc574ed38fe840807d76",
+    "fp_sol2": "d51ece982516595834ecb17ca7619418",
+    "id": "Bob-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Bob.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

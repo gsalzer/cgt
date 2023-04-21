@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "Question",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xea13bfa584e6d7e4c8409a1178805a367821e2f6",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xea13bfa584e6d7e4c8409a1178805a367821e2f6",
+            "main",
+            "PredictionMarket"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "3ec2c41d5fbb7f932114cd0e4048bf6b",
+    "fp_sol2": "beae53f938aafc149300a9f2198e0cc0",
+    "id": "0xea13bfa584e6d7e4c8409a1178805a367821e2f6-Question-selfdestruct_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3575.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

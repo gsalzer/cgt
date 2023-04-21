@@ -1,0 +1,35 @@
+{
+    "addr": "0x9be485bed1bbd5ab50d8efd5c8b845230afa3b9b",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "whoDepositV3",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "2ca6b51339878d5d3b9adce748c3300c",
+    "fp_sol": "f1e6d06970a4f8421d731610998b0bc0",
+    "fp_sol2": "ef8c033bea2e27e4a8b6bef3591a3de8",
+    "id": "whoDepositV3-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/whoDepositV3.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_whoDepositV3.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

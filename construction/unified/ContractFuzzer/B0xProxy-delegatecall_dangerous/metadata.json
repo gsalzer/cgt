@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "B0xObjects",
+            "B0xProxy",
+            "B0xStorage",
+            "Debugger",
+            "GasTracker",
+            "Ownable",
+            "Proxiable",
+            "ReentrancyGuard"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "16d2872edbb04f225698d5ebb48bc1eb",
+    "fp_sol": "7848a47f82448ab51c7cbd690123fc16",
+    "fp_sol2": "a84bcfaafecb83c6ec2554b21d907255",
+    "id": "B0xProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/B0xProxy.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/B0xProxy.sol"
+    ],
+    "sol_orig": true
+}

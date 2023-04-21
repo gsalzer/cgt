@@ -1,0 +1,60 @@
+{
+    "addr": "0x32304cdbe41fe4f1c48b08356414a52957d22d3b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-20-9da08ac",
+    "compiler_orig": false,
+    "contractname": "BlockhashFetch",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b13c20344d22917779fc498a01110dd9",
+    "fp_runtime": "61f69dc33d59bfe43445e69a6051be75",
+    "fp_sol": "08a89586e0406a9fd58d7c8c32bdb6bc",
+    "fp_sol2": "08a89586e0406a9fd58d7c8c32bdb6bc",
+    "id": "0028_Code_33_0x32304cdbe41fe4f1c48b08356414a52957d22d3b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

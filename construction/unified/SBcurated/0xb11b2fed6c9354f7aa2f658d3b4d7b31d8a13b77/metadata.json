@@ -1,0 +1,39 @@
+{
+    "addr": "0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "DepositProxy",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "606f7979f973a8a83fb6accd43a75782",
+    "fp_runtime": "b96736d8cbb84c2c602d769eee92829f",
+    "fp_sol": "c599ca8789430a35547c945cf7307687",
+    "fp_sol2": "d6bcb4d366c4c92f52f5d62478c3fcac",
+    "id": "0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

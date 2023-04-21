@@ -1,0 +1,1432 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burnFrom', 'tx_input': '79cc679000000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000001111111111111111111111111111111111111111'}
+2 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000f7d9f456087057042ba714a11c91ec76fe5949a4'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000001111111111111111111111111111111111111111'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'freezeAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e724529c0000000000000000000000002222222222222222222222222222222222222222'}
+5 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b0000000000000000000000000000000000000000000000000000000000000001'}
+6 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b000000000000000000000000fd9335363c48c9505c4a86dab412ae060de589970000000000000000000000000000000000000000000000000000000000000001'}
+7 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b0000000000000000000000000000000000000000000000000000000000000003'}
+8 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b000000000000000000000000fd9335363c48c9505c4a86dab412ae060de589970000000000000000000000000000000000000000000000000000000000000003'}
+9 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b000000000000000000000000000000000000000000000000000461d000000000'}
+10 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b00000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b000000000000000000000000000000000000000000000000000461d000000000'}
+11 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65bc00044008a05f1f9bf77ffffffffffffffffffffffffffffffffbfffff58f800'}
+12 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000005d3b714330866a5fa7299c189b582aee13930e1620000000480400030000000000000000000000000000000000039ffc51041c00'}
+13 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b7c8657f75777fffffffffffffffffffffffffffffffffffffffb3d240006140b'}
+14 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b4d17782487840000000000000000000000000000000000000000910c26080000'}
+15 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c65068000000000000000000000000222222222222222222222222222222222222222249f1d6ff98027ffd6dba86a00ffffffffffffffffffffffffffe7c0fa2f82ffe'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c68180c99c8100023fe0051a7001000000000000000000001000003fffffce01000'}
+17 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c6820000000480400030000000000000000000000000000000000039ffc51041c00'}
+18 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000008260ba9f78fa8fbd458eb5ee36e138901a6b65b7c7ffffffffffffffffffffffffffffffffffffffffffffffffe46d7affec000'}
+19 : {'tx_caller': '8260ba9f78fa8fbd458eb5ee36e138901a6b65b', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c6506800000000000000000000000022222222222222222222222222222222222222227c7ffffffffffffffffffffffffffffffffffffffffffffffffe46d7affec000'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000001111111111111111111111111111111111111111ffffffffffffdffffffffffffffffffffffffffffffffffffffc890c9bfc0000'}
+21 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79c650680000000000000000000000002222222222222222222222222222222222222222ffffffffffffdffffffffffffffffffffffffffffffffffffffc890c9bfc0000'}
+--------------------------------------------------------------------------------
+
+Full traces: 468
+--------------------------------------------------------------------------------
+5 7 6   :  approve approve transferFrom 
+5 6 7   :  approve transferFrom approve 
+------------------------------------------------------------
+5 0 6 7   :  approve burnFrom transferFrom approve 
+0 5 7 6   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 0 6 7   :  approve burnFrom transferFrom approve 
+5 7 6 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+5 0 6 7   :  approve burnFrom transferFrom approve 
+5 0 7 6   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 0 6 7   :  approve burnFrom transferFrom approve 
+5 7 0 6   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 5 6 7   :  burnFrom approve transferFrom approve 
+0 5 7 6   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 5 6 7   :  burnFrom approve transferFrom approve 
+5 7 6 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+0 5 6 7   :  burnFrom approve transferFrom approve 
+5 0 7 6   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+0 5 6 7   :  burnFrom approve transferFrom approve 
+5 7 0 6   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom burnFrom approve 
+0 5 7 6   :  burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom burnFrom approve 
+5 7 6 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom burnFrom approve 
+5 0 7 6   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 0 7   :  approve transferFrom burnFrom approve 
+5 7 0 6   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 5 7 6   :  burnFrom approve approve transferFrom 
+5 6 7 0   :  approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 6 7 0   :  approve transferFrom approve burnFrom 
+5 7 6 0   :  approve approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 7 0   :  approve transferFrom approve burnFrom 
+5 0 7 6   :  approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 7 0   :  approve transferFrom approve burnFrom 
+5 7 0 6   :  approve approve burnFrom transferFrom 
+------------------------------------------------------------
+1 5 7 6   :  freezeAccount approve approve transferFrom 
+5 6 7 1   :  approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 7 6   :  freezeAccount approve approve transferFrom 
+5 1 6 7   :  approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 5 7 6   :  freezeAccount approve approve transferFrom 
+5 6 1 7   :  approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 7 6   :  freezeAccount approve approve transferFrom 
+1 5 6 7   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+5 6 7 1   :  approve transferFrom approve freezeAccount 
+5 7 1 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 1   :  approve transferFrom approve freezeAccount 
+5 1 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 6 7 1   :  approve transferFrom approve freezeAccount 
+5 7 6 1   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 7   :  approve freezeAccount transferFrom approve 
+5 7 1 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 7   :  approve freezeAccount transferFrom approve 
+5 1 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 1 6 7   :  approve freezeAccount transferFrom approve 
+5 7 6 1   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 1 7   :  approve transferFrom freezeAccount approve 
+5 7 1 6   :  approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 1 7   :  approve transferFrom freezeAccount approve 
+5 1 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 6 1 7   :  approve transferFrom freezeAccount approve 
+5 7 6 1   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 7 1 6   :  approve approve freezeAccount transferFrom 
+1 5 6 7   :  freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+1 5 6 7   :  freezeAccount approve transferFrom approve 
+5 1 7 6   :  approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 5 6 7   :  freezeAccount approve transferFrom approve 
+5 7 6 1   :  approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 2 6 7   :  approve transferOwnership transferFrom approve 
+5 7 2 6   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+5 2 6 7   :  approve transferOwnership transferFrom approve 
+5 2 7 6   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+5 2 6 7   :  approve transferOwnership transferFrom approve 
+2 5 7 6   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+5 2 6 7   :  approve transferOwnership transferFrom approve 
+5 7 6 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+5 7 2 6   :  approve approve transferOwnership transferFrom 
+2 5 6 7   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+5 7 2 6   :  approve approve transferOwnership transferFrom 
+5 6 2 7   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+5 7 2 6   :  approve approve transferOwnership transferFrom 
+5 6 7 2   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 5 6 7   :  transferOwnership approve transferFrom approve 
+5 2 7 6   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+2 5 6 7   :  transferOwnership approve transferFrom approve 
+2 5 7 6   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+2 5 6 7   :  transferOwnership approve transferFrom approve 
+5 7 6 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+5 2 7 6   :  approve transferOwnership approve transferFrom 
+5 6 2 7   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+5 2 7 6   :  approve transferOwnership approve transferFrom 
+5 6 7 2   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+2 5 7 6   :  transferOwnership approve approve transferFrom 
+5 6 2 7   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+2 5 7 6   :  transferOwnership approve approve transferFrom 
+5 6 7 2   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+5 6 2 7   :  approve transferFrom transferOwnership approve 
+5 7 6 2   :  approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+5 7 6 2   :  approve approve transferFrom transferOwnership 
+5 6 7 2   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+5 9 7 6   :  approve approve approve transferFrom 
+5 6 9 7   :  approve transferFrom approve approve 
+------------------------------------------------------------
+5 9 7 6   :  approve approve approve transferFrom 
+5 9 6 7   :  approve approve transferFrom approve 
+------------------------------------------------------------
+11 5 7 6   :  mintToken approve approve transferFrom 
+5 6 7 11   :  approve transferFrom approve mintToken 
+------------------------------------------------------------
+11 5 7 6   :  mintToken approve approve transferFrom 
+11 5 6 7   :  mintToken approve transferFrom approve 
+------------------------------------------------------------
+11 5 7 6   :  mintToken approve approve transferFrom 
+5 6 11 7   :  approve transferFrom mintToken approve 
+------------------------------------------------------------
+11 5 7 6   :  mintToken approve approve transferFrom 
+5 11 6 7   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+5 6 7 11   :  approve transferFrom approve mintToken 
+5 11 7 6   :  approve mintToken approve transferFrom 
+------------------------------------------------------------
+5 6 7 11   :  approve transferFrom approve mintToken 
+5 7 6 11   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+5 6 7 11   :  approve transferFrom approve mintToken 
+5 7 11 6   :  approve approve mintToken transferFrom 
+------------------------------------------------------------
+5 11 7 6   :  approve mintToken approve transferFrom 
+11 5 6 7   :  mintToken approve transferFrom approve 
+------------------------------------------------------------
+5 11 7 6   :  approve mintToken approve transferFrom 
+5 6 11 7   :  approve transferFrom mintToken approve 
+------------------------------------------------------------
+5 11 7 6   :  approve mintToken approve transferFrom 
+5 11 6 7   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+11 5 6 7   :  mintToken approve transferFrom approve 
+5 7 6 11   :  approve approve transferFrom mintToken 
+------------------------------------------------------------
+11 5 6 7   :  mintToken approve transferFrom approve 
+5 7 11 6   :  approve approve mintToken transferFrom 
+------------------------------------------------------------
+5 7 6 11   :  approve approve transferFrom mintToken 
+5 6 11 7   :  approve transferFrom mintToken approve 
+------------------------------------------------------------
+5 7 6 11   :  approve approve transferFrom mintToken 
+5 11 6 7   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+5 6 11 7   :  approve transferFrom mintToken approve 
+5 7 11 6   :  approve approve mintToken transferFrom 
+------------------------------------------------------------
+5 7 11 6   :  approve approve mintToken transferFrom 
+5 11 6 7   :  approve mintToken transferFrom approve 
+------------------------------------------------------------
+5 6 9 8   :  approve transferFrom approve transferFrom 
+5 9 6 8   :  approve approve transferFrom transferFrom 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+1 5 7 6 0   :  freezeAccount approve approve transferFrom burnFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 1 7   :  approve burnFrom transferFrom freezeAccount approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 7 6 1 0   :  approve approve transferFrom freezeAccount burnFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 7 0   :  approve freezeAccount transferFrom approve burnFrom 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 0 1   :  approve transferFrom approve burnFrom freezeAccount 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 1 6 7   :  approve burnFrom freezeAccount transferFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+1 5 6 0 7   :  freezeAccount approve transferFrom burnFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+1 5 0 7 6   :  freezeAccount approve burnFrom approve transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 1 6 7   :  burnFrom approve freezeAccount transferFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 0 6 7 1   :  approve burnFrom transferFrom approve freezeAccount 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 0 1 7 6   :  approve burnFrom freezeAccount approve transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 6 0 7   :  approve freezeAccount transferFrom burnFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 1 7 0 6   :  approve freezeAccount approve burnFrom transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+0 5 1 7 6   :  burnFrom approve freezeAccount approve transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 1 7   :  burnFrom approve transferFrom freezeAccount approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 7 1 0   :  approve transferFrom approve freezeAccount burnFrom 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 7 1   :  approve transferFrom burnFrom approve freezeAccount 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+1 5 7 0 6   :  freezeAccount approve approve burnFrom transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+0 5 6 7 1   :  burnFrom approve transferFrom approve freezeAccount 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 0 7 6 1   :  approve burnFrom approve transferFrom freezeAccount 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+1 0 5 6 7   :  freezeAccount burnFrom approve transferFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 1 0 7   :  approve transferFrom freezeAccount burnFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 7 0 1 6   :  approve approve burnFrom freezeAccount transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+0 5 7 6 1   :  burnFrom approve approve transferFrom freezeAccount 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+------------------------------------------------------------
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+------------------------------------------------------------
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+1 0 5 7 6   :  freezeAccount burnFrom approve approve transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+0 1 5 6 7   :  burnFrom freezeAccount approve transferFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+1 5 0 6 7   :  freezeAccount approve burnFrom transferFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 1 0 7 6   :  approve freezeAccount burnFrom approve transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 0 7 1 6   :  approve burnFrom approve freezeAccount transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+------------------------------------------------------------
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 7 1 0 6   :  approve approve freezeAccount burnFrom transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+------------------------------------------------------------
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 1 0 6 7   :  approve freezeAccount burnFrom transferFrom approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+------------------------------------------------------------
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+0 1 5 7 6   :  burnFrom freezeAccount approve approve transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+------------------------------------------------------------
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+------------------------------------------------------------
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 0 1 7   :  approve transferFrom burnFrom freezeAccount approve 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 7 6 0 1   :  approve approve transferFrom burnFrom freezeAccount 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+5 1 7 6 0   :  approve freezeAccount approve transferFrom burnFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+------------------------------------------------------------
+0 5 7 1 6   :  burnFrom approve approve freezeAccount transferFrom 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+------------------------------------------------------------
+5 6 1 7 0   :  approve transferFrom freezeAccount approve burnFrom 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------
+5 7 0 6 1   :  approve approve burnFrom transferFrom freezeAccount 
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+------------------------------------------------------------
+1 5 6 7 0   :  freezeAccount approve transferFrom approve burnFrom 
+5 7 1 6 0   :  approve approve freezeAccount transferFrom burnFrom 
+------------------------------------------------------------

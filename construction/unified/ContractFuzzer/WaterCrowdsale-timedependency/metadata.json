@@ -1,0 +1,37 @@
+{
+    "addr": "0x1e1fe9186c223ee1679634e3cfb7c03276b19493",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/WaterCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "WaterCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b75d04394be58dc62cc942d5488b32a4",
+    "fp_runtime": "e87c5dd4824a05aca1aa545eff300cf2",
+    "fp_sol": "187c97cc295dfaaac4b85f7c829214fc",
+    "fp_sol2": "dc49aeccccd9ced819125cec3a9ac15f",
+    "id": "WaterCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_WaterCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

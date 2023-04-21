@@ -1,0 +1,46 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BurnableToken",
+            "ERC20Basic",
+            "MintableToken",
+            "Ownable",
+            "PARKToken",
+            "Pausable",
+            "PausableToken",
+            "SafeMath",
+            "StandardToken"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "7f11a1983d4882f352236e50a1e8c91f",
+    "fp_sol": "beff8a81925c1e067c4367539b1ec572",
+    "fp_sol2": "51160c80e654cea024873963bd117c34",
+    "id": "PARKToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/PARKToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/PARKToken.sol"
+    ],
+    "sol_orig": true
+}

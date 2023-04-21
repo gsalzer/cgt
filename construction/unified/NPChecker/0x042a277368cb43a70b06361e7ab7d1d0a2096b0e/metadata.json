@@ -1,0 +1,54 @@
+{
+    "addr": "0x042a277368cb43a70b06361e7ab7d1d0a2096b0e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "FundariaBonusFund",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "withdrawBonus for TOD and system proerty                                                     "
+    },
+    "fp_bytecode": "1747dbd7ddbf8e41509971b1a40e131d",
+    "fp_runtime": "79b637df7461b9443b1649dc5cf43541",
+    "fp_sol": "7d5378a37d0e1e25de822ff1548bd50b",
+    "fp_sol2": "27f50bd4ebd9e8727eaddf4e4c658e01",
+    "id": "0x042a277368cb43a70b06361e7ab7d1d0a2096b0e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

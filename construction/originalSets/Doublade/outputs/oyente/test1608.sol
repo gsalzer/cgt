@@ -1,0 +1,2 @@
+{u'source_code/test1608.sol': {u'TgeProxy': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test1608.sol:22:5: Warning: Transaction-Ordering Dependency.\n    votesAddr[managers[0]].transfer(msg.value)'], [u'source_code/test1608.sol:22:5: Warning: Transaction-Ordering Dependency.\n    votesAddr[managers[0]].transfer(msg.value)']], 'assertion_failure': []}, 'evm_code_coverage': '92.0'}}}
+

@@ -1,0 +1,60 @@
+{
+    "addr": "0x5088c2985210925d15ea470a160fc08b352818d0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "VIUREFoundersTokenSale",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b368857827ca9e0d90a19ba80b8009c3",
+    "fp_runtime": "024620c0731972ae8fb4b16f944bfe31",
+    "fp_sol": "89808e226752d1bee3ff46a1dea1544a",
+    "fp_sol2": "d363022c5f8be23e61e1cbd87510f5cb",
+    "id": "0730_Code_5_0x5088c2985210925d15ea470a160fc08b352818d0",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

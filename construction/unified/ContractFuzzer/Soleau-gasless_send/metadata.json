@@ -1,0 +1,37 @@
+{
+    "addr": "0x39aa4006ee5941c0c0e41b924fdafcb2c4c918e8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Soleau.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-27-2ccfea8",
+    "compiler_orig": false,
+    "contractname": "Soleau",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "d2f11ee4ffca47d5afa9efc4ba904f38",
+    "fp_runtime": "51f0fbbe91a9939ebf2302fc0e78b51a",
+    "fp_sol": "088a6b121b5742a6ec67c97e98ff5d78",
+    "fp_sol2": "088a6b121b5742a6ec67c97e98ff5d78",
+    "id": "Soleau-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Soleau.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

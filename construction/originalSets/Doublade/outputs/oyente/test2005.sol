@@ -1,0 +1,2 @@
+{u'source_code/test2005.sol': {u'KALIFORCOINICO': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test2005.sol:82:9: Warning: Transaction-Ordering Dependency.\n        selfdestruct(beneficiary)'], [u'source_code/test2005.sol:99:17: Warning: Transaction-Ordering Dependency.\n            if (beneficiary.send(amounted)']], 'assertion_failure': []}, 'evm_code_coverage': '98.6'}}}
+

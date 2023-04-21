@@ -1,0 +1,60 @@
+{
+    "addr": "0x3ff8c78e266395d08f41ef1631391f0050d48081",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "WavesEthereumSwap",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1934dcaa3b8abe0cabb8a5aaf181d925",
+    "fp_runtime": "63905372514b1dae68053aa38f2eff6c",
+    "fp_sol": "6bdd8ffce1fc121427f11ca151a61bbf",
+    "fp_sol2": "393086eeb9e79b9c136dd1c288d5ffe1",
+    "id": "0854_Code_834_0x3ff8c78e266395d08f41ef1631391f0050d4808",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0x555636dbc591d418ea9aabfd6abcce57740d14ac",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Ciphs.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Ciphs",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/delegatecall_dangerous/verified_contract_sols/Ciphs.sol"
+    },
+    "fp_bytecode": "1e69d7d467f41a4e2a219f785133dfc3",
+    "fp_runtime": "fa272bddb4562edff15f4b69a79a1e61",
+    "fp_sol": "ec8e3958c4c88f45bb61a02ef6f389ac",
+    "fp_sol2": "79cf5a7b368057a427c66f4780705b0d",
+    "id": "Ciphs-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

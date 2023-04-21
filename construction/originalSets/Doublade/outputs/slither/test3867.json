@@ -1,0 +1,234 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "SweetTokenLogic.SweetTokenLogic has external calls inside a loop: \"data.setBalances(initialWallets[i],initialBalances[i])\" (reorder_contracts_2_3/test3867.sol#726)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "data.setBalances(initialWallets[i],initialBalances[i])",
+            "source_mapping": {
+              "start": 24470,
+              "length": 55,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+              "filename_relative": "reorder_contracts_2_3/test3867.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+              "filename_short": "reorder_contracts_2_3/test3867.sol",
+              "lines": [
+                726
+              ],
+              "starting_column": 17,
+              "ending_column": 72
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "SweetTokenLogic",
+                "source_mapping": {
+                  "start": 23990,
+                  "length": 778,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3867.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                  "filename_short": "reorder_contracts_2_3/test3867.sol",
+                  "lines": [
+                    714,
+                    715,
+                    716,
+                    717,
+                    718,
+                    719,
+                    720,
+                    721,
+                    722,
+                    723,
+                    724,
+                    725,
+                    726,
+                    727,
+                    728,
+                    729,
+                    730,
+                    731,
+                    732
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SweetTokenLogic",
+                    "source_mapping": {
+                      "start": 23942,
+                      "length": 1115,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3867.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                      "filename_short": "reorder_contracts_2_3/test3867.sol",
+                      "lines": [
+                        712,
+                        713,
+                        714,
+                        715,
+                        716,
+                        717,
+                        718,
+                        719,
+                        720,
+                        721,
+                        722,
+                        723,
+                        724,
+                        725,
+                        726,
+                        727,
+                        728,
+                        729,
+                        730,
+                        731,
+                        732,
+                        733,
+                        734,
+                        735,
+                        736,
+                        737,
+                        738,
+                        739,
+                        740,
+                        741,
+                        742,
+                        743
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "SweetTokenLogic(address,address,address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "SweetTokenLogic.SweetTokenLogic has external calls inside a loop: \"token.triggerTransfer(address(0x0),initialWallets[i],initialBalances[i])\" (reorder_contracts_2_3/test3867.sol#727)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.triggerTransfer(address(0x0),initialWallets[i],initialBalances[i])",
+            "source_mapping": {
+              "start": 24544,
+              "length": 74,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+              "filename_relative": "reorder_contracts_2_3/test3867.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+              "filename_short": "reorder_contracts_2_3/test3867.sol",
+              "lines": [
+                727
+              ],
+              "starting_column": 17,
+              "ending_column": 91
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "SweetTokenLogic",
+                "source_mapping": {
+                  "start": 23990,
+                  "length": 778,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3867.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                  "filename_short": "reorder_contracts_2_3/test3867.sol",
+                  "lines": [
+                    714,
+                    715,
+                    716,
+                    717,
+                    718,
+                    719,
+                    720,
+                    721,
+                    722,
+                    723,
+                    724,
+                    725,
+                    726,
+                    727,
+                    728,
+                    729,
+                    730,
+                    731,
+                    732
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SweetTokenLogic",
+                    "source_mapping": {
+                      "start": 23942,
+                      "length": 1115,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3867.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3867.sol",
+                      "filename_short": "reorder_contracts_2_3/test3867.sol",
+                      "lines": [
+                        712,
+                        713,
+                        714,
+                        715,
+                        716,
+                        717,
+                        718,
+                        719,
+                        720,
+                        721,
+                        722,
+                        723,
+                        724,
+                        725,
+                        726,
+                        727,
+                        728,
+                        729,
+                        730,
+                        731,
+                        732,
+                        733,
+                        734,
+                        735,
+                        736,
+                        737,
+                        738,
+                        739,
+                        740,
+                        741,
+                        742,
+                        743
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "SweetTokenLogic(address,address,address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

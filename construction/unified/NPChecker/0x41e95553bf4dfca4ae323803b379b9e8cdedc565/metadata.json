@@ -1,0 +1,54 @@
+{
+    "addr": "0x41e95553bf4dfca4ae323803b379b9e8cdedc565",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "TokenBurner",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "b45c3349ef58e42ae5b2b4c10720a6b9",
+    "fp_runtime": "bfd02c4550117855a06871491e6974b8",
+    "fp_sol": "fd4ee69a534238270ed5fdc4ae33dd4b",
+    "fp_sol2": "f64103826a7691e2d987b238fb6bea1c",
+    "id": "0x41e95553bf4dfca4ae323803b379b9e8cdedc565",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-107",
+            false
+        ]
+    ],
+    "compiler": "0.5.6+commit.b259423e.Linux.g++",
+    "compiler_orig": true,
+    "contractname": "ModifierEntrancy",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "1aac80c433b49f0065fb0cdefce60cf4",
+    "fp_runtime": "d2124d04bc19a9c608e1104ab350be14",
+    "fp_sol": "a683a4d85394724502e4b2d76e0e6fed",
+    "fp_sol2": "284bedf9d36f6c4fac40dfb03f00bb8c",
+    "id": "modifier_reentrancy_fixed",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/modifier_reentrancy_fixed.sol"
+    ],
+    "sol_orig": true
+}

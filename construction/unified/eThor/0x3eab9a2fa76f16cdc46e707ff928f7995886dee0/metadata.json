@@ -1,0 +1,37 @@
+{
+    "addr": "0x3eab9a2fa76f16cdc46e707ff928f7995886dee0",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "MyAdvancedToken",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "893006dc5cb2f9a0828307e3ce20dc07",
+    "fp_runtime": "97be1fe94685e97f7cdbc61708601015",
+    "fp_sol": "2d93ae9fd839232fe744648dd698e48e",
+    "fp_sol2": "f9856e7d5250db087106e079c9529282",
+    "id": "0x3eab9a2fa76f16cdc46e707ff928f7995886dee0",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

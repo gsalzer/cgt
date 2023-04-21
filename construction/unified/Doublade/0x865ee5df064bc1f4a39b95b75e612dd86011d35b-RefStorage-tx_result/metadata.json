@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "RefStorage",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x865ee5df064bc1f4a39b95b75e612dd86011d35b",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x865ee5df064bc1f4a39b95b75e612dd86011d35b",
+            "main",
+            "Lottery1ETH"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "850e20ffd822901c58124abee41f2a25",
+    "fp_sol2": "0465ab0a0afa2cdadc5842a0721242a0",
+    "id": "0x865ee5df064bc1f4a39b95b75e612dd86011d35b-RefStorage-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2059.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

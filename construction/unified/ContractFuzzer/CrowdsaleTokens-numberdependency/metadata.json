@@ -1,0 +1,37 @@
+{
+    "addr": "0x7a4932bb54c978489826dbc2d65d46c1bd38dd69",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CrowdsaleTokens.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "CrowdsaleTokens",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "481b895ee0e063b7128485465fab5c89",
+    "fp_runtime": "f0035f1bd7c2919c22b97730be4fe113",
+    "fp_sol": "75b8e2bbd0ac7871eabc57470f3ac29e",
+    "fp_sol2": "75b8e2bbd0ac7871eabc57470f3ac29e",
+    "id": "CrowdsaleTokens-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CrowdsaleTokens.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

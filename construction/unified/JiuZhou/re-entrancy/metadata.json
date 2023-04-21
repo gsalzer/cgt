@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy vulnerability",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Reentrance",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "1c3a619561698c78e5cc1239e9f78ef0",
+    "fp_runtime": "ec0663d97878ee69d971aa90dc5dbc8e",
+    "fp_sol": "f26ed098ddfa730dd9cebaaaab1bceac",
+    "fp_sol2": "edf6ed141f7b5a0498c9e57369987d7b",
+    "id": "re-entrancy",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/re-entrancy.sol"
+    ],
+    "sol_orig": true
+}

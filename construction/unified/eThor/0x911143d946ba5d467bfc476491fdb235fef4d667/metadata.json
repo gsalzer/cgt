@@ -1,0 +1,37 @@
+{
+    "addr": "0x911143d946ba5d467bfc476491fdb235fef4d667",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": true,
+    "contractname": "MultiSigWallet",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "5257b12f64bf9a4adc202b788a2108f5",
+    "fp_runtime": "45dc99692bd8d68032b162f3b94ac2dd",
+    "fp_sol": "af23f64f2837b1a629f6c7903507ad68",
+    "fp_sol2": "d4f8b6e3e2f15960352277a3ed19324b",
+    "id": "0x911143d946ba5d467bfc476491fdb235fef4d667",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

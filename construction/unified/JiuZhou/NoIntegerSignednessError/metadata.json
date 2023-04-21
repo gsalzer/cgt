@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Integer signedness",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "NoSignednessError",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "f214bac3255b337a3b830057ee6ca88f",
+    "fp_runtime": "c0b349dff5bf5646ee26a396a3f9e585",
+    "fp_sol": "7fa2835457a05ecd631c5d23a48deabd",
+    "fp_sol2": "baefe11903b7c267adabc06d2e4fc149",
+    "id": "NoIntegerSignednessError",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoIntegerSignednessError.sol"
+    ],
+    "sol_orig": true
+}

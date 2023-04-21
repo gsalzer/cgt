@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "SelfDesctructionContract",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x903ec4ef3d003f05356f3890f13e53421fa4e42a",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x903ec4ef3d003f05356f3890f13e53421fa4e42a",
+            "main",
+            "ERC20"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "a8803e8927f33ef1366c3367e5d71926",
+    "fp_sol2": "ff31882527c2eea5f64e29c2d7ea0167",
+    "id": "0x903ec4ef3d003f05356f3890f13e53421fa4e42a-SelfDesctructionContract-selfdestruct_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2222.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

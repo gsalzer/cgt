@@ -1,0 +1,69 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'withdrawWinnings', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'cc42e83a'}
+1 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'addCascade', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ef685294'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'deleteCascade', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cbe566de'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'forceChooseRandomWinner', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '82ade405'}
+4 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'deactivate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '51b42b00'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'forceChooseRandomWinner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '82ade405'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateRandomSource', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'e9b1f1ce'}
+7 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateRandomSource', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e9b1f1ce'}
+9 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'retryWinners', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b2c50b92'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'retryWinner', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'f40e8d8b'}
+11 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'retryWinner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f40e8d8b'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateRandomSource', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'e9b1f1ce'}
+13 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c8'}
+14 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c8'}
+15 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c8'}
+16 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'withdrawWinnings', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cc42e83a'}
+17 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateRewardDistributor', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '497cd426'}
+18 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+19 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'purchaseTicket', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '3d0c7eb6'}
+20 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'deactivate', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '51b42b00'}
+21 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'deactivate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '51b42b00'}
+22 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'deactivate', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '51b42b00'}
+23 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'withdrawWinnings', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'cc42e83a'}
+24 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'destroy', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '83197ef0'}
+25 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'destroy', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '83197ef0'}
+26 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'destroy', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '83197ef0'}
+27 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'forceRefund', 'tx_blocknumber': '493e00', 'tx_value': '0', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'bd7427f8'}
+28 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'purchaseTicket', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3d0c7eb60000000000000000000000000000000000000000000000000000000000010000'}
+29 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'purchaseTicket', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3d0c7eb6000000000000000000000000000000000000000000000000000000000000ffff'}
+30 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000200000000000000000000000'}
+31 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateToken', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '7ad3def2'}
+32 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '7ad3def2'}
+33 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'destroy', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '83197ef0'}
+34 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c8'}
+35 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateRandomSource', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'e9b1f1ce'}
+36 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateRandomSource', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e9b1f1ce0000000000000000000000000000000000000000000000000000000000000001'}
+37 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateTokenTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f03d43ed'}
+38 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'forceRefund', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'bd7427f8'}
+39 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'activate', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '0f15f4c0'}
+40 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'forceChooseRandomWinner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '82ade405'}
+41 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'activate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0f15f4c0'}
+42 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'activate', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '0f15f4c0'}
+43 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'forceChooseRandomWinner', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '82ade405'}
+44 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'activate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0f15f4c0'}
+45 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'deleteCascade', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'cbe566de'}
+46 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c8'}
+47 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'forceRefund', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'bd7427f8'}
+48 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c80000000000000000000000000000000000000000000000000000000000000001'}
+49 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateTicketPrice', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f02137c80000000000000000000000000000000000000000000000000000000000000003'}
+50 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'withdrawWinnings', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cc42e83a'}
+51 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateToken', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '7ad3def2'}
+52 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'addCascade', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'ef685294'}
+53 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'deleteCascade', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'cbe566de'}
+54 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateFee', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9012c4a80000000000000000000000000000000000000000000000000000000000000001'}
+55 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000080000000000000000000000'}
+56 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateFee', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9012c4a80000000000000000000000000000000000000000000000000000000000000003'}
+57 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateOraclizeGas', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'f450096f'}
+58 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateOraclizeGas', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f450096f'}
+59 : {'tx_caller': '9ffc7dc18320ba388852456209ca4a9caef4967b', 'name': 'updateOraclizeGas', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f450096f'}
+60 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'destroy', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '83197ef0'}
+61 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'activate', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '0f15f4c0'}
+62 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'updateToken', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '7ad3def2'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

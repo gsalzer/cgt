@@ -1,0 +1,53 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Incorrect inheritance order",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            28
+        ],
+        "BugName": "Wrong inheritance order",
+        "BugReason": "Now, you want getNum in C, but you end up with getNum in A because you specified the wrong inheritance order. (A is the last one)",
+        "ContractSource": "Jiuzhou",
+        "contract names": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "note": "Bytecode irrelevant for weakness"
+    },
+    "fp_bytecode": "d7d9693f8cd3e406e32ba1710abbc831",
+    "fp_runtime": "0d23f87e62fc3d3b27595e65caae256e",
+    "fp_sol": "0e7d44697efe5ffbd4a6888f9254516c",
+    "fp_sol2": "79772812feb113e89182edcb4929b5dc",
+    "id": "FalseOrder",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/FalseOrder.sol"
+    ],
+    "sol_orig": true
+}

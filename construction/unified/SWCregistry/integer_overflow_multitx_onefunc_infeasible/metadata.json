@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-101",
+            false
+        ]
+    ],
+    "compiler": "0.4.24+commit.e67f0147.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "IntegerOverflowMultiTxOneFuncInfeasible",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "faf387d35a26a16ebfca6fee82ddf010",
+    "fp_runtime": "c823637dc375bb95b518e82797485bd8",
+    "fp_sol": "4cba07901d5977d051b652e5cdb714ad",
+    "fp_sol2": "32d38892a68f5de1ecda17d16ee18cbf",
+    "id": "integer_overflow_multitx_onefunc_infeasible",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/integer_overflow_multitx_onefunc_infeasible.sol"
+    ],
+    "sol_orig": true
+}

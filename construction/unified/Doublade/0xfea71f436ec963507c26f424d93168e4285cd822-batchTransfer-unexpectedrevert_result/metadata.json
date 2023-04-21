@@ -1,0 +1,37 @@
+{
+    "addr": "0xfea71f436ec963507c26f424d93168e4285cd822",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "batchTransfer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "1f3c761d7f7f9247231033ec4136e12e",
+    "fp_runtime": "4bfbe58b2954474221ae7be2dce62612",
+    "fp_sol": "4703a8f7b7da3f307b26c9344414169c",
+    "fp_sol2": "2217f49cce0d31558e0361af2e84952c",
+    "id": "0xfea71f436ec963507c26f424d93168e4285cd822-batchTransfer-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test3862.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

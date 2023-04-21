@@ -1,0 +1,38 @@
+{
+    "addr": "0x341e790174e3a4d35b65fdc067b6b5634a61caea",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ReplaySafeSplit.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-19-427deb4",
+    "compiler_orig": false,
+    "contractname": "ReplaySafeSplit",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/ReplaySafeSplit.sol"
+    },
+    "fp_bytecode": "573eb8e93f49912e9f5a3ea5d2eb7cd4",
+    "fp_runtime": "aa748acb14f25873bb0b4a2f841b1a14",
+    "fp_sol": "015dae34f46e9ffa688fe4f48b39805d",
+    "fp_sol2": "015dae34f46e9ffa688fe4f48b39805d",
+    "id": "ReplaySafeSplit-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

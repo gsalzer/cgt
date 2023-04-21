@@ -1,0 +1,60 @@
+{
+    "addr": "0x80d9c4f6209044de069c545f68644419b520a02f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "The10ETHPyramid",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "37c193f4079aee4353b0e9d8971e9301",
+    "fp_runtime": "15e7cd7c32040af1ce93352ecf6f2f38",
+    "fp_sol": "4bdbef3760c7ba1d90d40bab480ab421",
+    "fp_sol2": "4bdbef3760c7ba1d90d40bab480ab421",
+    "id": "1181_Code_328_0x80d9c4f6209044de069c545f68644419b520a02",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

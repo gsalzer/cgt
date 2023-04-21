@@ -1,0 +1,60 @@
+{
+    "addr": "0x8e66ffe69b3f8d78f2a696e40c02f7454c0a01d9",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "SwarmRedistribution",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f80cce182db45edbd2bafd455b0dc19a",
+    "fp_runtime": "262cfa03305cb316709c449bef760a4f",
+    "fp_sol": "9bd06932291dd60f23e061081c125389",
+    "fp_sol2": "f38d43abca003c956a04a885abb11d0d",
+    "id": "1062_Code_12_0x8e66ffe69b3f8d78f2a696e40c02f7454c0a01d9",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

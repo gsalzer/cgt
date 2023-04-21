@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Hash Collisions With Multiple Variable Length Arguments",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "ECDSA",
+            "Singel_NoHashCollision"
+        ]
+    },
+    "fp_bytecode": "7c27d85664fa154de94f8998b87c1b5a",
+    "fp_runtime": "eeffa48dd3bccb6de2409d121e223124",
+    "fp_sol": "25d94b6ffc6ab36ebf7150a56e6a1902",
+    "fp_sol2": "51ea6292505c66610e062db18542cd99",
+    "id": "Single_NoHashCollision",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/Singel_NoHashCollision.sol"
+    ],
+    "sol_orig": true
+}

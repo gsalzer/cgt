@@ -1,0 +1,37 @@
+{
+    "addr": "0x393709845c63b7ac16ea60b6cda230a53693f2f4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/MallcoinCrowdSale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "MallcoinCrowdSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "d19201a1c8236037a16c3db69412eb70",
+    "fp_runtime": "de40c5c64c57ef8b5cdad6a02e6bc8e7",
+    "fp_sol": "59c84cbe2890a0c791884c02dd21073d",
+    "fp_sol2": "23c384f7ea3880b95106b67494c84a17",
+    "id": "MallcoinCrowdSale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MallcoinCrowdSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

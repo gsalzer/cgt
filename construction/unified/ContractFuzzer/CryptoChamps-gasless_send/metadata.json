@@ -1,0 +1,37 @@
+{
+    "addr": "0x9720b742c04e272b5fd5be56f4b4881aa3597b82",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CryptoChamps.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "CryptoChamps",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "974d58ad5acf2254938c9815fe06cf5f",
+    "fp_runtime": "0f0b1469daeadb59fb6d67a5d68b68c9",
+    "fp_sol": "3c1f318c444b9637a65abda1decaf406",
+    "fp_sol2": "8094ed577c2c3594408a3909ad90fc79",
+    "id": "CryptoChamps-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CryptoChamps.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

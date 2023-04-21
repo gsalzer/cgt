@@ -1,0 +1,37 @@
+{
+    "addr": "0x96978ba07d6476a47a3f69c8ddebae8dcb16edbd",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/PotPotato.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.21+commit.dfe3193c",
+    "compiler_orig": false,
+    "contractname": "PotPotato",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ca3e313be188aaa8315e7d9bf212453b",
+    "fp_runtime": "226a75b37ce550b4b40720e6b1a312e9",
+    "fp_sol": "f16fb3a6c9f659a7cfe49f37c71460d9",
+    "fp_sol2": "6524507467652003e7cf2232a4381f94",
+    "id": "PotPotato-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PotPotato.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

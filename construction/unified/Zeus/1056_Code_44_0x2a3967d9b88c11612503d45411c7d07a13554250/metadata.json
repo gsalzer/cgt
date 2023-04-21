@@ -1,0 +1,56 @@
+{
+    "addr": "0x2a3967d9b88c11612503d45411c7d07a13554250",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-18-e759a24",
+    "compiler_orig": false,
+    "contractname": "Market",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "60d853f0897c643c354e03fb9bd75984",
+    "fp_runtime": "97f1dbefbe5ab5279b49429bbcb9ff9d",
+    "fp_sol": "feb42ba9fde1a9ff7419e94c0a835c4e",
+    "fp_sol2": "feb42ba9fde1a9ff7419e94c0a835c4e",
+    "id": "1056_Code_44_0x2a3967d9b88c11612503d45411c7d07a13554250",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

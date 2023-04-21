@@ -1,0 +1,60 @@
+{
+    "addr": "0x1d3b2638a7cc9f2cb3d298a3da7a90b67e5506ed",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.2+commit.81ae2a7",
+    "compiler_orig": false,
+    "contractname": "OraclizeAddrResolver",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "3caa27835b86cd73256d21c8bb49c1fd",
+    "fp_runtime": "ab227e6c7f9c01e69e2fb891e46c5fd2",
+    "fp_sol": "8e9b05a4217c2664383f9257116942a9",
+    "fp_sol2": "8e9b05a4217c2664383f9257116942a9",
+    "id": "1517_Code_1d3b2638a7cc9f2cb3d298a3da7a90b67e5506ed",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

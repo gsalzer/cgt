@@ -1,0 +1,38 @@
+{
+    "addr": "0xc2b624f8d9d16db2064b976e9a4f51ddaa3eef32",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "AsaCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ecab7aeef6a8ee6ef8926fa33d750cb9",
+    "fp_runtime": "cce220387031fe1a42e226c1b1d90036",
+    "fp_sol": "600e8b527ca235300ffac8cdc539abe6",
+    "fp_sol2": "ba3d77dd0bd88f10d02d3e471abfb348",
+    "id": "AsaCoin-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_AsaCoin.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_AsaCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

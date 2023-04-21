@@ -1,0 +1,60 @@
+{
+    "addr": "0xf45717552f12ef7cb65e95476f217ea008167ae3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.1-2016-01-30-91a6b35",
+    "compiler_orig": false,
+    "contractname": "Government",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1c651b2a2a848a14c7627d947d6186cb",
+    "fp_runtime": "697e491aa9a499c0c9741e2c3e440e68",
+    "fp_sol": "69d4401a52cea40d0ef3fc1382679984",
+    "fp_sol2": "69d4401a52cea40d0ef3fc1382679984",
+    "id": "0308_Code_f45717552f12ef7cb65e95476f217ea008167ae3",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

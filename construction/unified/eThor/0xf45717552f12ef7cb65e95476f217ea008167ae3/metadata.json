@@ -1,0 +1,37 @@
+{
+    "addr": "0xf45717552f12ef7cb65e95476f217ea008167ae3",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.1-2016-01-30-91a6b35",
+    "compiler_orig": true,
+    "contractname": "Government",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "1c651b2a2a848a14c7627d947d6186cb",
+    "fp_runtime": "697e491aa9a499c0c9741e2c3e440e68",
+    "fp_sol": "69d4401a52cea40d0ef3fc1382679984",
+    "fp_sol2": "69d4401a52cea40d0ef3fc1382679984",
+    "id": "0xf45717552f12ef7cb65e95476f217ea008167ae3",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

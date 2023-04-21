@@ -1,0 +1,37 @@
+{
+    "addr": "0xb0a00896f34655edff6c8d915fb342194c4a6d48",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ProxyCreationAndExecute.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "ProxyCreationAndExecute",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "75a0c7966b9095c4e4f9d399f5ed1b32",
+    "fp_runtime": "af0c22bd88f2cfb597d5fea3cd8dbe49",
+    "fp_sol": "91736024b2dde0f5c842eb191a05ffaa",
+    "fp_sol2": "925fbd49115eee1f38f83c85cbfb4c20",
+    "id": "ProxyCreationAndExecute-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ProxyCreationAndExecute.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

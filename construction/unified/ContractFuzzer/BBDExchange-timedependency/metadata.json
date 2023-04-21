@@ -1,0 +1,37 @@
+{
+    "addr": "0xbad989ff10f07c76b89abb1ecdad183e512b345e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BBDExchange.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "BBDExchange",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f129e7f9bc1ef01668ce7762187d7e07",
+    "fp_runtime": "53ef457d4d259f35da5f00f88dbf719f",
+    "fp_sol": "42e267c21c222ab5cb97cccaf17a92ef",
+    "fp_sol2": "dd38d5d8a9875cc98e9cf59bf8e98033",
+    "id": "BBDExchange-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BBDExchange.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

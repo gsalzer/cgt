@@ -1,0 +1,60 @@
+{
+    "addr": "0xf9ac5e26d7ec113f42b18c78c05fab68181adfbf",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6-2016-08-24-e20afc7",
+    "compiler_orig": false,
+    "contractname": "WHAuthorizeAddress",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "79c6dfe85f0bab6c7509b32d0bd01236",
+    "fp_runtime": "ce46b8f459c62a5650452702aa01aa16",
+    "fp_sol": "a7bd263983d251859bbd7c2464c14c25",
+    "fp_sol2": "a7bd263983d251859bbd7c2464c14c25",
+    "id": "1175_Code_24_0xf9ac5e26d7ec113f42b18c78c05fab68181adfbf",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

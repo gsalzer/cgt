@@ -1,0 +1,37 @@
+{
+    "addr": "0xc27590378690620a44b1382e7cf31db5a1f9b99e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HodlContract.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "HodlContract",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "fc8ea769d8b0bd46738a6c87addc3a4e",
+    "fp_runtime": "9f37ddb3b5978483795f3bf2b6f0dc6f",
+    "fp_sol": "9ac0a5c5fc7b95661b63034ed62da6df",
+    "fp_sol2": "05b2648821feff5c5f839e5f1c95a2ef",
+    "id": "HodlContract-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HodlContract.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

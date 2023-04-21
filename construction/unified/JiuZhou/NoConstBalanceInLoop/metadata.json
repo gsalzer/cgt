@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Invariant in loop",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "NoWaste1",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "054c01c823b046c301fe7d967965e5d6",
+    "fp_runtime": "90e7d2c065a31acbb8d53a05ccfe44d4",
+    "fp_sol": "cae8328b3655792d4869b75f04a56804",
+    "fp_sol2": "7ee43655d232db7bfd3bd492c4e19288",
+    "id": "NoConstBalanceInLoop",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoConstBalanceInLoop.sol"
+    ],
+    "sol_orig": true
+}

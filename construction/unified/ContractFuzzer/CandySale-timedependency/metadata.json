@@ -1,0 +1,37 @@
+{
+    "addr": "0x34d1857175eb5693bbee49c214e2cd44b2f3058c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CandySale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "CandySale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "06cb5a3cc651327b60e2703b06cbaa90",
+    "fp_runtime": "51c491d8874a86d436a60d3eae388762",
+    "fp_sol": "7153ece55e0d2b480dee9c138b42988b",
+    "fp_sol2": "cef9dcebf5d4da73223bf58f43e41674",
+    "id": "CandySale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CandySale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

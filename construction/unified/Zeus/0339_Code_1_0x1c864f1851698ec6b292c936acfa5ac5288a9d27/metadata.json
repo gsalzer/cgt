@@ -1,0 +1,63 @@
+{
+    "addr": "0x1c864f1851698ec6b292c936acfa5ac5288a9d27",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "DiceRoll",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {
+        "alternative addresses": [
+            [
+                "0x1c864f1851698ec6b292c936acfa5ac5288a9d27",
+                "kovan"
+            ]
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "c36ba7591f4a2b84b50df6355ee4123d",
+    "fp_sol2": "7c6e0a1dc89ea52cb0fb5c9773fdab7b",
+    "id": "0339_Code_1_0x1c864f1851698ec6b292c936acfa5ac5288a9d27",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

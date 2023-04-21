@@ -1,0 +1,37 @@
+{
+    "addr": "0x7d56485e026d5d3881f778e99969d2b1f90c50af",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": true,
+    "contractname": "ProtectTheCastle",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "7c2cb1538478717321e3a972d04121dc",
+    "fp_runtime": "a93c87041135925397dbd4f3eef7b9f6",
+    "fp_sol": "6e5827590a4e4b190d2d322aca517def",
+    "fp_sol2": "6e5827590a4e4b190d2d322aca517def",
+    "id": "0x7d56485e026d5d3881f778e99969d2b1f90c50af",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

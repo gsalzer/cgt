@@ -1,0 +1,39 @@
+{
+    "addr": "0x0215c96d7badf65cfe9b897d232e53451c3876d3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_PrayerCoin.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PrayerCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "361389eedebe474987861c24a2b7e256",
+    "fp_runtime": "14d036d79c034294ee84a61d83832c57",
+    "fp_sol": "023f3948c8f45b566e362749fd58f978",
+    "fp_sol2": "d33db3ab81c0726cb2cf666423dfe9cf",
+    "id": "PrayerCoin-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PrayerCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,56 @@
+{
+    "addr": "0x38a270b06f52190a6c5dba516d2e6f94b0418f5e",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.4-nightly.2016.10.25+commit.f99a418b",
+    "compiler_orig": false,
+    "contractname": "BlogRegistry",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "0450981ed4e1a1aae348f25d6c0d44f5",
+    "fp_sol2": "b663377725038637b32110e5110e105e",
+    "id": "1063_Code_12_0x38a270b06f52190a6c5dba516d2e6f94b0418f5e",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

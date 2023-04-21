@@ -1,0 +1,37 @@
+{
+    "addr": "0xe7f4f5abba4a0ae18eaa31796876d137e19b93ad",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": true,
+    "contractname": "ChainSensitive",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "7baef8039b1f0c89c2cd03987ce90de5",
+    "fp_runtime": "9eef708572b0ed3130cc457e611a13e1",
+    "fp_sol": "f1912431eb332e08b5a85b7acab675a6",
+    "fp_sol2": "f1912431eb332e08b5a85b7acab675a6",
+    "id": "0xe7f4f5abba4a0ae18eaa31796876d137e19b93ad",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x13f11c9905a08ca76e3e853be63d4f0944326c72",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DIVXToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "DIVXToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "569dd22f8362f98ad8dd755a62356e70",
+    "fp_runtime": "95e1b4cf8095ce619c9985983974f63a",
+    "fp_sol": "7dc7720b503a74033307f0f08e68a077",
+    "fp_sol2": "97dc971030a9759f625a932d25781c68",
+    "id": "DIVXToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DIVXToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

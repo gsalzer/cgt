@@ -1,0 +1,19 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_input': 'a9059cbb000000000000000000000000a5cae20467359b0d528a7a5cbf0990594aec726c0000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_input': '23b872dd000000000000000000000000c109deef352b2908ff209a3b05c6536b1f12bd1300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+2 : {'tx_value': '0', 'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'approve', 'tx_input': '095ea7b3000000000000000000000000c109deef352b2908ff209a3b05c6536b1f12bd130000000000000000000000000000000000000000000000000000000000000001'}
+3 : {'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'setMintAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'fab371540000000000000000000000000000000000000000000000000000000000000002'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f190000000000000000000000002222222222222222222222222222222222222222'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f190000000000000000000000001111111111111111111111111111111111111111'}
+6 : {'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'finishMinting', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '7d64bcb4'}
+7 : {'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'setMintAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'fab37154'}
+8 : {'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+9 : {'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000008000000000000000000000000000000000000000'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setMintAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'fab37154'}
+11 : {'tx_caller': 'c109deef352b2908ff209a3b05c6536b1f12bd13', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000800000'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'finishMinting', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '7d64bcb4'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

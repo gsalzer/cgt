@@ -1,0 +1,38 @@
+{
+    "addr": "0x07222fc4cdacedfbcfc03cbed6e72fb329e8d0b6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CryptoCarsRent.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "CryptoCarsRent",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/CryptoCarsRent"
+    },
+    "fp_bytecode": "49e89b3d41289e01de0e26b8e00d07e2",
+    "fp_runtime": "75d74ec3b4d87178d02cf9718d57e8db",
+    "fp_sol": "f85dbe258a15f07feff04ac8dace2466",
+    "fp_sol2": "9298d0f2370028db82f173a880de8e43",
+    "id": "CryptoCarsRent-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

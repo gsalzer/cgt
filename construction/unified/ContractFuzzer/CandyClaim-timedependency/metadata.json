@@ -1,0 +1,37 @@
+{
+    "addr": "0x053e43d155519efc4616bdc2a8fef5a4eb4cec4e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CandyClaim.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "CandyClaim",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "52afa21d1f32848fb2d6793429a38120",
+    "fp_runtime": "64b0b0f6e4a0911c4566c07e2e0007c7",
+    "fp_sol": "9645fb29c3b580d31224ab038a45bc30",
+    "fp_sol2": "8571437894418dc3f8056856eaae08af",
+    "id": "CandyClaim-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CandyClaim.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

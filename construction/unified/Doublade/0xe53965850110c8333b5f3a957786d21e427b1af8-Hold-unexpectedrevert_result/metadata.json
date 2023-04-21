@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Hold",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xe53965850110c8333b5f3a957786d21e427b1af8",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xe53965850110c8333b5f3a957786d21e427b1af8",
+            "main",
+            "Crowdsale"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "68ac095194c0a74b2fb42dc58ae8c270",
+    "fp_sol2": "1e53af7cd42b8d889aee3b4a18cdc467",
+    "id": "0xe53965850110c8333b5f3a957786d21e427b1af8-Hold-unexpectedrevert_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3495.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

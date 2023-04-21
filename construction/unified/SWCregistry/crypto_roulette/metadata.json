@@ -1,0 +1,39 @@
+{
+    "addr": "0x94602b0e2512ddad62a935763bf1277c973b2758",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_bytecode.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-109",
+            true
+        ]
+    ],
+    "compiler": "0.4.24+commit.e67f0147.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "CryptoRoulette",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "3f21348cb73345977c365b25f7610b53",
+    "fp_runtime": "69916099e9b068f51fe422e107987657",
+    "fp_sol": "f787a3b683932a30e4beb0e4a57b41f2",
+    "fp_sol2": "f4bc1fead64e0350aac35d19e47d0ea2",
+    "id": "crypto_roulette",
+    "info": [],
+    "runtime": [
+        "runtime/1_runtime.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_crypto_roulette.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0xb02bd126cd5477b2c166f8a31fab75db0c074371",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "MyPasswordHint",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "518d8a9bb7488c2f7d4db954b61ef551",
+    "fp_runtime": "0ec6c4470a7d56fd59db582510479254",
+    "fp_sol": "88ad8be2e148f056b8d2845dc5d93248",
+    "fp_sol2": "d08e3a99f31df0c3febbec47612a32ba",
+    "id": "0625_Code_936_0xb02bd126cd5477b2c166f8a31fab75db0c07437",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

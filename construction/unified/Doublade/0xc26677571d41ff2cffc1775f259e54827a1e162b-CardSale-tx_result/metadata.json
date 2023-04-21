@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "CardSale",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xc26677571d41ff2cffc1775f259e54827a1e162b",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xc26677571d41ff2cffc1775f259e54827a1e162b",
+            "main",
+            "TokenSale"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "ed122653bbbb7cae08f3600ad7541cbb",
+    "fp_sol2": "2da352864abffd378b0bee5cb8465be5",
+    "id": "0xc26677571d41ff2cffc1775f259e54827a1e162b-CardSale-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2956.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x673f0dec1416803a39d50760c697fb26f4c539b0",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": true,
+    "contractname": "ProofOfEmail",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "d01ebe910c55113feb6bb791b7ab77c3",
+    "fp_runtime": "014cccf03cb1c12605515e61579c8f01",
+    "fp_sol": "8d7b4fa64f6cb6099fd382789095795e",
+    "fp_sol2": "95ed543d965cb20def5c78aac3b4c2bd",
+    "id": "0x673f0dec1416803a39d50760c697fb26f4c539b0",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x85b846d361f861c9363f769e65f76b83dc80b531",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "Ballot",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "420dce80fd40b3ae2091f128de3bde31",
+    "fp_runtime": "7731c6d3438cc689530445a122ad807b",
+    "fp_sol": "006c279183cae9ae552fdbfd3fd8f058",
+    "fp_sol2": "054dfb94bef344e5a4fd141d5f95ff03",
+    "id": "1318_Code_19_0x85b846d361f861c9363f769e65f76b83dc80b531",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

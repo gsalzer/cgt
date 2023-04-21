@@ -1,0 +1,36 @@
+{
+    "addr": "0x8cd448c5fdbf2c79f640a5326a6f86fbce03d3bb",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "call-after-destruct",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20-nightly.2018.1.6+commit.2548228b",
+    "compiler_orig": false,
+    "contractname": "EthFlip",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "5f5b7b000b4b777b645a4ff11d4228cb",
+    "fp_runtime": "66bbd7873b7f2028ad4e3102de6714c2",
+    "fp_sol": "d85b83299bcfcc4a9f64b53321e3bde0",
+    "fp_sol2": "c553197ff794956a31db14a5e88d375b",
+    "id": "0x8cd448c5fdbf2c79f640a5326a6f86fbce03d3bb",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

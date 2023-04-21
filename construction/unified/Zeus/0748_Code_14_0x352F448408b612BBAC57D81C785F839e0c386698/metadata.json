@@ -1,0 +1,60 @@
+{
+    "addr": "0x352f448408b612bbac57d81c785f839e0c386698",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "TheGreatEtherRace",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "4b9cc0e3bc1f81e37566ee09dda627c3",
+    "fp_runtime": "f7e00837e94083684dfd41e808c6bde1",
+    "fp_sol": "4267dc54c20681ce22869cc8bbdd4a61",
+    "fp_sol2": "1bd3c132d1bc0d708edb8586360ae897",
+    "id": "0748_Code_14_0x352F448408b612BBAC57D81C785F839e0c386698",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

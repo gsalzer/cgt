@@ -1,0 +1,38 @@
+{
+    "addr": "0x9caa3424cb91900ef7ac41a7b04a246304c02d3a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Parsec.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Parsec",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/delegatecall_dangerous/verified_contract_sols/Parsec.sol"
+    },
+    "fp_bytecode": "d3bf1b9a837555130b80d9f2b4ccbfb2",
+    "fp_runtime": "bfc325e259d669863f51fcfc4dc7ae09",
+    "fp_sol": "e09a524dee385624dcabfd9ab9dee6a5",
+    "fp_sol2": "b57878315c3f1808ab0cb072ec708009",
+    "id": "Parsec-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

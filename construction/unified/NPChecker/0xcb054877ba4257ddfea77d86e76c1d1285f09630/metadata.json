@@ -1,0 +1,54 @@
+{
+    "addr": "0xcb054877ba4257ddfea77d86e76c1d1285f09630",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            true
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "AutoWallet",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "4ddae6be7c20f547be99fa4f73ad6f6a",
+    "fp_runtime": "e05dcb912b059d46deb56650af3f01b4",
+    "fp_sol": "4c7eda457bb013264b3a749886513cbf",
+    "fp_sol2": "fc9d85b984d2f992eb2869ef798c8dc1",
+    "id": "0xcb054877ba4257ddfea77d86e76c1d1285f09630",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

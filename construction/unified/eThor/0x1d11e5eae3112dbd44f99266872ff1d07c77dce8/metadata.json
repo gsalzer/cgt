@@ -1,0 +1,37 @@
+{
+    "addr": "0x1d11e5eae3112dbd44f99266872ff1d07c77dce8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.0-2016-01-20-67c855c",
+    "compiler_orig": true,
+    "contractname": "OraclizeAddrResolver",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "f30e73496a62f8ebca582af3b723326e",
+    "fp_runtime": "605111068a9eec442e8de0b6a8047180",
+    "fp_sol": "de2880ebe7ac58b67313325d045de876",
+    "fp_sol2": "de2880ebe7ac58b67313325d045de876",
+    "id": "0x1d11e5eae3112dbd44f99266872ff1d07c77dce8",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

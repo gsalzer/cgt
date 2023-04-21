@@ -1,0 +1,54 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '762662f1f663da61df057452ebe789066a6e3eb3', 'name': 'setSignUpOnOff', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1a3e42d00000000000000000000000000000000000000000000000000000000000000001'}
+1 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'signUp', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bf96ae63'}
+2 : {'tx_caller': '762662f1f663da61df057452ebe789066a6e3eb3', 'name': 'setSignUpOnOff', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1a3e42d00000000000000000000000000000000000000000000000000000000000000003'}
+3 : {'tx_caller': '762662f1f663da61df057452ebe789066a6e3eb3', 'name': 'signUp', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'bf96ae63'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '11111111'}
+5 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'fallback', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '11111111'}
+--------------------------------------------------------------------------------
+
+Full traces: 14
+--------------------------------------------------------------------------------
+0 4 1   :  setSignUpOnOff fallback signUp 
+0 1 4   :  setSignUpOnOff signUp fallback 
+------------------------------------------------------------
+0 2 1 4   :  setSignUpOnOff setSignUpOnOff signUp fallback 
+0 2 4 1   :  setSignUpOnOff setSignUpOnOff fallback signUp 
+------------------------------------------------------------
+0 1 3 4   :  setSignUpOnOff signUp signUp fallback 
+0 4 1 3   :  setSignUpOnOff fallback signUp signUp 
+------------------------------------------------------------
+0 1 3 4   :  setSignUpOnOff signUp signUp fallback 
+0 1 4 3   :  setSignUpOnOff signUp fallback signUp 
+------------------------------------------------------------
+0 4 1 3   :  setSignUpOnOff fallback signUp signUp 
+0 1 4 3   :  setSignUpOnOff signUp fallback signUp 
+------------------------------------------------------------
+0 5 4 3   :  setSignUpOnOff fallback fallback signUp 
+0 5 3 4   :  setSignUpOnOff fallback signUp fallback 
+------------------------------------------------------------
+0 5 4 3   :  setSignUpOnOff fallback fallback signUp 
+0 3 5 4   :  setSignUpOnOff signUp fallback fallback 
+------------------------------------------------------------
+0 3 4 5   :  setSignUpOnOff signUp fallback fallback 
+0 4 3 5   :  setSignUpOnOff fallback signUp fallback 
+------------------------------------------------------------
+2 0 3 4 1   :  setSignUpOnOff setSignUpOnOff signUp fallback signUp 
+2 0 4 3 1   :  setSignUpOnOff setSignUpOnOff fallback signUp signUp 
+------------------------------------------------------------
+2 0 3 4 1   :  setSignUpOnOff setSignUpOnOff signUp fallback signUp 
+2 0 3 1 4   :  setSignUpOnOff setSignUpOnOff signUp signUp fallback 
+------------------------------------------------------------
+2 0 4 1 3   :  setSignUpOnOff setSignUpOnOff fallback signUp signUp 
+2 0 1 3 4   :  setSignUpOnOff setSignUpOnOff signUp signUp fallback 
+------------------------------------------------------------
+0 2 4 3 5   :  setSignUpOnOff setSignUpOnOff fallback signUp fallback 
+0 2 4 5 3   :  setSignUpOnOff setSignUpOnOff fallback fallback signUp 
+------------------------------------------------------------
+0 2 4 3 5   :  setSignUpOnOff setSignUpOnOff fallback signUp fallback 
+0 2 3 4 5   :  setSignUpOnOff setSignUpOnOff signUp fallback fallback 
+------------------------------------------------------------
+0 2 4 5 3   :  setSignUpOnOff setSignUpOnOff fallback fallback signUp 
+0 2 3 4 5   :  setSignUpOnOff setSignUpOnOff signUp fallback fallback 
+------------------------------------------------------------

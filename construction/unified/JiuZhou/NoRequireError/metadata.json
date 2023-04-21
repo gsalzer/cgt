@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Improper use of require",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "Foo",
+            "RightBar"
+        ]
+    },
+    "fp_bytecode": "d19f769077e416bc4435de18e46ab737",
+    "fp_runtime": "e71d2d98b98dc7f0378429eae86dbeec",
+    "fp_sol": "b034f1c33a31e7874066edd7833b5320",
+    "fp_sol2": "9a120f9e4c6154212807379c428c5ee3",
+    "id": "NoRequireError",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoRequireError.sol"
+    ],
+    "sol_orig": true
+}

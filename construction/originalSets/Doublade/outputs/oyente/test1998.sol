@@ -1,0 +1,2 @@
+{u'source_code/test1998.sol': {u'BITSEACoinERC20Token': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test1998.sol:6:3: Warning: Integer Underflow.\n  string public symbol', u'source_code/test1998.sol:5:3: Warning: Integer Underflow.\n  string public name'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '56.3'}}}
+

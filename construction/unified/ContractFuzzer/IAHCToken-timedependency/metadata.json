@@ -1,0 +1,37 @@
+{
+    "addr": "0xfacc5e3ee7e8a27215963e1a9440075cc50510a3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/IAHCToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.21+commit.dfe3193c",
+    "compiler_orig": false,
+    "contractname": "IAHCToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "974a23c0b92f7e9f1bbf81932bc9a4b2",
+    "fp_runtime": "c28aefa71dac78ed0dd3a95bc00f7617",
+    "fp_sol": "530aa81dc323f2b072e098be8cc52917",
+    "fp_sol2": "de10f406c8c46e8ca654741632f20028",
+    "id": "IAHCToken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_IAHCToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

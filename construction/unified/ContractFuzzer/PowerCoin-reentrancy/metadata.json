@@ -1,0 +1,37 @@
+{
+    "addr": "0x5689774160fb27235337d328b45664e0d33f05c1",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/PowerCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PowerCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "78985a271936da0a03b7fe81533566a7",
+    "fp_runtime": "ff63bc7068e806dbba311e57a6334006",
+    "fp_sol": "ffb80f16332c0d6d30c4b5288b11be77",
+    "fp_sol2": "235e61bb9f9804b3405f02e682961f9d",
+    "id": "PowerCoin-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PowerCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,58 @@
+{
+    "addr": "0xac1ff2cdb6e88138d78f0ed39a4bfa1dad9d27aa",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b57d7b9d6a51f84bac2f88a17a4f4508",
+    "fp_runtime": "180a558c68b3d2c3163021360202dc67",
+    "fp_sol": null,
+    "fp_sol2": null,
+    "id": "0577_Code_ac1ff2cdb6e88138d78f0ed39a4bfa1dad9d27aa",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [],
+    "sol_orig": null
+}

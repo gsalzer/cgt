@@ -1,0 +1,60 @@
+{
+    "addr": "0x0312855bb6e548578a36fa8de63b8f0d3d7d7dc2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.2-2016-02-22-8339330",
+    "compiler_orig": false,
+    "contractname": "BetOnHashV84",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "95d51db4f68d6ea2bd6f4831bd8de76a",
+    "fp_runtime": "cff9333318a2e945dc01ae9744d0044a",
+    "fp_sol": "eb735ff57f5529259a078b3ac7aaf044",
+    "fp_sol2": "eb735ff57f5529259a078b3ac7aaf044",
+    "id": "0719_Code_42_0x0312855BB6E548578a36fA8DE63B8F0d3D7D7dc2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

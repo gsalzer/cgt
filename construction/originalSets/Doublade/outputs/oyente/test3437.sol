@@ -1,0 +1,2 @@
+{u'source_code/test3437.sol': {u'HubTokenPurchase': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [u'source_code/test3437.sol:99:13: Warning: Re-Entrancy Vulnerability.\n    require(msg.sender.call.gas(gas).value(address(this).balance)()'], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '84.3'}}}
+

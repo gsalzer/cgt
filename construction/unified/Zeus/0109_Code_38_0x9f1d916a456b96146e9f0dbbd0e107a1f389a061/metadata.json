@@ -1,0 +1,60 @@
+{
+    "addr": "0x9f1d916a456b96146e9f0dbbd0e107a1f389a061",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            true
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "NanoPyramid",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f4cfd9923db178a44c4c20d1586712ab",
+    "fp_runtime": "46300003b493a8bcb7f683c7aaa20ed2",
+    "fp_sol": "d8f1c6f2d5f7cef31d80bf62f1702376",
+    "fp_sol2": "d8f1c6f2d5f7cef31d80bf62f1702376",
+    "id": "0109_Code_38_0x9f1d916a456b96146e9f0dbbd0e107a1f389a061",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

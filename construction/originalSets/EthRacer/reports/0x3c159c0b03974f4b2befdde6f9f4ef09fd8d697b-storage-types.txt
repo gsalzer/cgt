@@ -1,0 +1,10 @@
+Bug types: 8
+--------------------------------------------------------------------------------
+132 : ['pause', 'claimTokens']
+121 : ['pause']
+ 33 : ['pause', 'transferFrom']
+ 20 : ['claimTokens']
+ 14 : ['pause', 'transferFrom', 'claimTokens']
+  2 : ['transferFrom']
+  2 : ['transferFrom', 'claimTokens']
+  1 : ['pause', 'transferFrom', 'transferFrom']

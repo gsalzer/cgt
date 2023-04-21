@@ -1,0 +1,39 @@
+{
+    "addr": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "MONEY_BOX",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "eb8278f28160ccaccb6eef909dcf2b3a",
+    "fp_runtime": "8c2edc4faacf21a21749e77e1ec03164",
+    "fp_sol": "b260e0b0ad7cbe377e6f3db1280f014d",
+    "fp_sol2": "698b475c46f4fac4f96b7a0e570d715d",
+    "id": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0x6ce8b8eed077f9b49c1fa684008ebb7562bb41ad",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "LeanFund",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "9ce803435982e74bf56ad392bef18bd6",
+    "fp_runtime": "1d435a8eb6a22bc95d69204075f603e4",
+    "fp_sol": "e3fb364f2e4f1e757971cda2fe3c78d3",
+    "fp_sol2": "9d55da2cef10f72e8a2ac3a790edee8f",
+    "id": "LeanFund-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_LeanFund.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LeanFund.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

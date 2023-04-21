@@ -1,0 +1,44 @@
+{
+    "addr": "0xbedb3a6957a892c6fe6419d80691647380717e1b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "HFTCrowdsale",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xbedb3a6957a892c6fe6419d80691647380717e1b",
+                "ropsten"
+            ]
+        ]
+    },
+    "fp_bytecode": "6d270984f8db52d69ce99655a6dbbe47",
+    "fp_runtime": "40f93ff47978c6212ca6e242cd122a14",
+    "fp_sol": "bd32386ca9d9f19130cee3cb773c9456",
+    "fp_sol2": "0718a93e5a934c217a9bace95861ad13",
+    "id": "0xbedb3a6957a892c6fe6419d80691647380717e1b-HFTCrowdsale-selfdestruct_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2903.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

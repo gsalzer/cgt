@@ -1,0 +1,39 @@
+{
+    "addr": "0x9a6ad871e40e3ad74c55d94495e0207bce77c762",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_Lescovex.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Lescovex",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1e75a47730b7b37cad2eee252f123e65",
+    "fp_runtime": "dbfa1a1deca83b4959f37c3cdd8f44a8",
+    "fp_sol": "a84845e6b0248a6af1046fe66de11770",
+    "fp_sol2": "edb0f2149c27dd7feff4f3622c5fb739",
+    "id": "Lescovex-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Lescovex.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

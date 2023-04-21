@@ -1,0 +1,19 @@
+Minimal found traces: 6 
+--------------------------------------------------------------------------------
+['Play', 'fallback']
+['fallback', 'Play']
+--------------------------------------------------------------------------------
+['Matching_Ethers', 'deactivate', 'reactivate']
+['Matching_Ethers', 'reactivate', 'deactivate']
+--------------------------------------------------------------------------------
+['Matching_Ethers', 'reactivate', 'refundRound']
+['Matching_Ethers', 'refundRound', 'reactivate']
+--------------------------------------------------------------------------------
+['fallback', 'Play', 'Matching_Ethers']
+['fallback', 'Matching_Ethers', 'Play']
+--------------------------------------------------------------------------------
+['Matching_Ethers', 'refundRound', 'reactivate', 'Play']
+['Play', 'Matching_Ethers', 'refundRound', 'reactivate']
+--------------------------------------------------------------------------------
+['Matching_Ethers', 'refundRound', 'reactivate', 'Play']
+['Matching_Ethers', 'Play', 'refundRound', 'reactivate']

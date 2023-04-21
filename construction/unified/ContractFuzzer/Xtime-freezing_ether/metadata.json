@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "StandardToken",
+            "Token",
+            "Xtime"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "ccd5f08fa21bc2bf3ffb4375f3238845",
+    "fp_sol": "9446113f9958916d39daf776a5d5dd97",
+    "fp_sol2": "4f0454a15b145cf58616311d45ae25c6",
+    "id": "Xtime-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/Xtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/Xtime.sol"
+    ],
+    "sol_orig": true
+}

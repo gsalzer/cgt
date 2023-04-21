@@ -1,0 +1,37 @@
+{
+    "addr": "0x2ae9d68295f8b6c3a12ee5279271980830775f30",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "WinEthFree",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "a045971c4ccce9f6b19005a40022e079",
+    "fp_runtime": "d2aead65ecf94c7587ff2d99ce4b68fa",
+    "fp_sol": "37fc3d36b0915862338e3accdee5ac35",
+    "fp_sol2": "f2262ae2e43dac278f5437c364d8a34f",
+    "id": "0x2ae9d68295f8b6c3a12ee5279271980830775f30-WinEthFree-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test672.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

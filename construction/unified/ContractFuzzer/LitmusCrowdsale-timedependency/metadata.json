@@ -1,0 +1,37 @@
+{
+    "addr": "0x18a4d3c8b51713355adc925e9a23ef278fd51f2f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/LitmusCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "LitmusCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f077fa791d877169f83669582b51f58d",
+    "fp_runtime": "ba7f199fa2ae0d22b5258dc275225a93",
+    "fp_sol": "aad40d98e7b55661f66efb05f190968e",
+    "fp_sol2": "61288c89bfbed416f64e7ac74e7e065d",
+    "id": "LitmusCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LitmusCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

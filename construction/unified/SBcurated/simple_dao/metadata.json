@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "SimpleDAO",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#simpledao"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "5bedf6bbf39fbf476429737541632f60",
+    "fp_sol2": "20e3275563186ac18063723b0e99f1e4",
+    "id": "simple_dao",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/simple_dao.sol"
+    ],
+    "sol_orig": true
+}

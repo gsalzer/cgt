@@ -1,0 +1,39 @@
+{
+    "addr": "0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PENNY_BY_PENNY",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "548e513237ecb0a88168bca6214f980f",
+    "fp_runtime": "081f044d52c1c19d428fe961fd6ba6ca",
+    "fp_sol": "6c95c2086e5a58f7a5fbede278fd7aff",
+    "fp_sol2": "786adf5aa7383a273106b73a0f3d7e23",
+    "id": "0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

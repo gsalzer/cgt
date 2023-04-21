@@ -1,0 +1,60 @@
+{
+    "addr": "0x7d56485e026d5d3881f778e99969d2b1f90c50af",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": false,
+    "contractname": "ProtectTheCastle",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "7c2cb1538478717321e3a972d04121dc",
+    "fp_runtime": "a93c87041135925397dbd4f3eef7b9f6",
+    "fp_sol": "6e5827590a4e4b190d2d322aca517def",
+    "fp_sol2": "6e5827590a4e4b190d2d322aca517def",
+    "id": "0753_Code_7d56485e026d5d3881f778e99969d2b1f90c50af",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

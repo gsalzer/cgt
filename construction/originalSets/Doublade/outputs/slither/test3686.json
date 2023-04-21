@@ -1,0 +1,179 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Caller.f has external calls inside a loop: \"i < c.getOwnerCount()\" (reorder_contracts_2_3/test3686.sol#12-17)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "i < c.getOwnerCount()",
+            "source_mapping": {
+              "start": 362,
+              "length": 212,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+              "filename_relative": "reorder_contracts_2_3/test3686.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+              "filename_short": "reorder_contracts_2_3/test3686.sol",
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "f",
+                "source_mapping": {
+                  "start": 263,
+                  "length": 318,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3686.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                  "filename_short": "reorder_contracts_2_3/test3686.sol",
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Caller",
+                    "source_mapping": {
+                      "start": 190,
+                      "length": 394,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3686.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                      "filename_short": "reorder_contracts_2_3/test3686.sol",
+                      "lines": [
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "f()"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "Caller.f has external calls inside a loop: \"(addr,amount) = c.getOwner(i)\" (reorder_contracts_2_3/test3686.sol#15)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "(addr,amount) = c.getOwner(i)",
+            "source_mapping": {
+              "start": 485,
+              "length": 31,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+              "filename_relative": "reorder_contracts_2_3/test3686.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+              "filename_short": "reorder_contracts_2_3/test3686.sol",
+              "lines": [
+                15
+              ],
+              "starting_column": 17,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "f",
+                "source_mapping": {
+                  "start": 263,
+                  "length": 318,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3686.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                  "filename_short": "reorder_contracts_2_3/test3686.sol",
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Caller",
+                    "source_mapping": {
+                      "start": 190,
+                      "length": 394,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3686.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3686.sol",
+                      "filename_short": "reorder_contracts_2_3/test3686.sol",
+                      "lines": [
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "f()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

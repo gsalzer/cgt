@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.12+commit.194ff033",
+    "compiler_orig": false,
+    "contractname": "DefaultSweeper",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x84b6241ed47e935597bc5a14d5e9ef9fb53e77de",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x84b6241ed47e935597bc5a14d5e9ef9fb53e77de",
+            "main",
+            "Controller"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "20e72cb95d983104a0963965538d7243",
+    "fp_sol2": "4ea1d9b6c0036928f55a0eec1c170346",
+    "id": "0x84b6241ed47e935597bc5a14d5e9ef9fb53e77de-DefaultSweeper-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2035.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

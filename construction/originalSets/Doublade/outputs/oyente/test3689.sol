@@ -1,0 +1,2 @@
+{u'source_code/test3689.sol': {u'EthVenturePlugin': {'vulnerabilities': {'callstack': [u'source_code/test3689.sol:25:8: Warning: Callstack Depth Attack Vulnerability.\n      \towner.send(Fees)', u'source_code/test3689.sol:34:2: Warning: Callstack Depth Attack Vulnerability.\n\towner.send(minimal)'], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '42.9'}}}
+

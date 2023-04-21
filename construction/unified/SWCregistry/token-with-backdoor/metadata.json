@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-110",
+            true
+        ]
+    ],
+    "compiler": "0.4.25+commit.59dbf8f1.Linux.g++",
+    "compiler_orig": true,
+    "contractname": "Token",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "93c98c8d05091a5880b8db45cb6cc11a",
+    "fp_runtime": "3ba5ddecbf919536a5c691cf622a6e13",
+    "fp_sol": "2863d65e378a66fddd0f96c51964ee62",
+    "fp_sol2": "2671833fc1cf9ccc4b8262fc8e8cf6c0",
+    "id": "token-with-backdoor",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/token-with-backdoor.sol"
+    ],
+    "sol_orig": true
+}

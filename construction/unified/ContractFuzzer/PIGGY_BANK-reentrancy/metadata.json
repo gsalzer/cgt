@@ -1,0 +1,37 @@
+{
+    "addr": "0xe610af01f92f19679327715b426c35849c47c657",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/PIGGY_BANK.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PIGGY_BANK",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "63ae01b2570ea0f56b61e0690d089895",
+    "fp_runtime": "d07517d081e06191cf59a4bd05949141",
+    "fp_sol": "23a3cb62fda4329258d822b9666cf64b",
+    "fp_sol2": "ff5abebf9f86773fc5eaa5d639d76bb6",
+    "id": "PIGGY_BANK-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PIGGY_BANK.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

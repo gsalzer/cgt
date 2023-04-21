@@ -1,0 +1,37 @@
+{
+    "addr": "0xf6acaf5aa6b25abdb2af45c7590948ee29a812b5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/RaffleStrangeLoop.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "RaffleStrangeLoop",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "39df4017fdc59a6da6503b1de6a291f8",
+    "fp_runtime": "16e453874b9688f7cd9665572294627e",
+    "fp_sol": "07a549b14805e8b9b1e5ad1445ec4c87",
+    "fp_sol2": "c978802340c2e5735ec9686bbcf1f52d",
+    "id": "RaffleStrangeLoop-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_RaffleStrangeLoop.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

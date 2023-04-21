@@ -1,0 +1,43 @@
+{
+    "addr": "0xfc62a32da21052fb3086e8f68ad10a7118a98606",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "honeypot",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "Who_Wants_to_Be_a_Millionaire",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0xfc62a32da21052fb3086e8f68ad10a7118a98606",
+                "rinkeby"
+            ]
+        ]
+    },
+    "fp_bytecode": "d201616820a52bd7f8c40b8c9d0551c3",
+    "fp_runtime": "85ca745494b2d2de8aadfc00d1d4c833",
+    "fp_sol": "d7643fee34bd6d578a2dae4dabb58402",
+    "fp_sol2": "bd1a01c38b19979ceb2c7509856eb207",
+    "id": "0xfc62a32da21052fb3086e8f68ad10a7118a98606",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

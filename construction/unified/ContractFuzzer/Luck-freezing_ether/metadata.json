@@ -1,0 +1,38 @@
+{
+    "addr": "0x790ef78af6a82b52c92a4082de66c8d3f49f21ad",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "Luck",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b0ea11d779c863d9fdf1d69824018eb1",
+    "fp_runtime": "71cc2e3da338668c848f9adea0f7e337",
+    "fp_sol": "1472b670cce841c4d8d59713d7ecb061",
+    "fp_sol2": "09d729a0e31b3e228ca9d163d1454331",
+    "id": "Luck-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_Luck.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Luck.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

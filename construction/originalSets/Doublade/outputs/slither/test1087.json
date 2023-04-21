@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "ASTRDrop.multisend has external calls inside a loop: \"token.transferFrom(ownerAddress,dests[i],AIRDROP_AMOUNT)\" (reorder_contracts_2_3/test1087.sol#84)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transferFrom(ownerAddress,dests[i],AIRDROP_AMOUNT)",
+            "source_mapping": {
+              "start": 2452,
+              "length": 58,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1087.sol",
+              "filename_relative": "reorder_contracts_2_3/test1087.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1087.sol",
+              "filename_short": "reorder_contracts_2_3/test1087.sol",
+              "lines": [
+                84
+              ],
+              "starting_column": 9,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multisend",
+                "source_mapping": {
+                  "start": 2086,
+                  "length": 477,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1087.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1087.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1087.sol",
+                  "filename_short": "reorder_contracts_2_3/test1087.sol",
+                  "lines": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ASTRDrop",
+                    "source_mapping": {
+                      "start": 1703,
+                      "length": 1213,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1087.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1087.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1087.sol",
+                      "filename_short": "reorder_contracts_2_3/test1087.sol",
+                      "lines": [
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multisend(address[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

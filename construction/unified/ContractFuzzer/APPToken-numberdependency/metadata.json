@@ -1,0 +1,37 @@
+{
+    "addr": "0xef828938155cabfe83affbe726b55d188b4f45c0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/APPToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "APPToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "56a173b90cd1c075a47a3051f6b8130c",
+    "fp_runtime": "c2ed19d2e28d17f492261820297dfe26",
+    "fp_sol": "1af1de9c9345b5323a83ebb2a38458d3",
+    "fp_sol2": "56b6d53387b399b24836ec0e3d6b0cff",
+    "id": "APPToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_APPToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0xcb4fc459c926e5e10b698009f6f3c1ed658faef7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Coinflip",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "328cb749e99921573701f529391a10fa",
+    "fp_runtime": "b932020e9d34ef7206ee97da181a0862",
+    "fp_sol": "9045fc7594e11f67ccb16b64c92f665e",
+    "fp_sol2": "0fbc6945942ada2cdb971b05c08c9bcd",
+    "id": "Coinflip-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_Coinflip.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Coinflip.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

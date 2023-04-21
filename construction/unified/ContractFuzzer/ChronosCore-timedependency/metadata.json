@@ -1,0 +1,39 @@
+{
+    "addr": "0x5ba708a7d74e3f87b719c234231548d3de0cabad",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_ChronosCore.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ChronosCore",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "2c47564eb4036c7b4db3fe837ecd02b8",
+    "fp_runtime": "968f4ebfd37315991ffe49cace64a806",
+    "fp_sol": "deceef5dfe102267ed92ad36c3f15169",
+    "fp_sol2": "4ae22ea461d3da894107a93292afe764",
+    "id": "ChronosCore-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ChronosCore.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

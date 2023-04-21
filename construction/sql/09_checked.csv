@@ -1,0 +1,81 @@
+swc;dataset;id;property;property_holds;evaluation;comment
+101;Zeus;0924_Code_15_0x1c3c643f49be262c3040e917e7d2299b9bc081a1;Int_overflow;t;f;Has unchecked operations but only with constants -> no danger of over/underflowing
+101;Zeus;0141_Code_9_0x30e1a463ecf25dbba2f83cb3e4b10045f888e55b;Int_overflow;t;f;uint256 overflow with +1 increment per call would take forever 
+101;Zeus;1162_Code_14_0x472d4827266f0e83d12feb52f785c7e22ab5f0b6;Int_overflow;t;t;"Calling GetFileStorage with an unused key makes files[key].length return 0; subtracting 1 results in an underflow."
+101;Zeus;1258_Code_16_0x9828953884b857380a80d177c38d95aeb42cd34c;Int_overflow;t;t;
+101;Zeus;0483_Code_19_0xd70994d7020df8052a1124561ff548f3b88744d8;Int_overflow;t;f;Contract does not contain arithmetic operations (except for one array.push per call)
+101;Zeus;1505_Code_18_0xe47014f16c55ddd3add5b68b951e10fcea7da686;Int_overflow;t;f;contract logic prohibits overflow/underflow: The sum of all balances is 100000, and amount <= balances[msg.sender], hence balances[receiver] += amount cannot overflow.
+104;CodeSmells;0xda4a4626d3e16e094de3225a751aab7128e96526;Unchecked External Call;t;t;1 unchecked ll-call without state change afterwards, 1 unchecked ll-call with
+104;ContractFuzzer;Soleau-exception_disorder;exception_disorder;t;t;
+104;ContractFuzzer;CreditDepositBank-exception_disorder;exception_disorder;t;t;
+104;ContractFuzzer;TranferInTwoPart-exception_disorder;exception_disorder;t;t;
+104;ContractFuzzer;HelpMeSave-exception_disorder;exception_disorder;t;t;"Unchecked send without write to state; cannot be exploited"
+104;ContractFuzzer;TokenBank-exception_disorder;exception_disorder;t;t;
+104;ContractFuzzer;Reward-exception_disorder;exception_disorder;t;t;1 checked send with throw, 1 checked send without throw
+104;ContractFuzzer;CrowdSalePreICO-exception_disorder;exception_disorder;t;t;
+104;ContractFuzzer;Ethsplit-exception_disorder;exception_disorder;t;t;"Unchecked send without write to state; Zeus definition is strange, as Ether gets locked in case of failed send."
+104;ContractFuzzer;Ethereum_twelve_bagger-exception_disorder;exception_disorder;t;t;
+104;ContractFuzzer;HFConditionalTransfer-exception_disorder;exception_disorder;t;t;"Unchecked send without write to state; Zeus definition is strange, as Ether gets locked in case of failed send."
+104;Doublade;0x9f8bf604abeb04d32b0ffae9c3a083be5858cf96-GameOfThrones-lowlevelcall_result;lowlevelcall_result;t;t;
+104;NPChecker;0x253137971b86074021334fb5b7e03ebf2545ead3;Unchecked Call;t;t;1 unchecked ll-call without state change afterwards, 1 unchecked ll-call with
+104;NPChecker;0x9f1d916a456b96146e9f0dbbd0e107a1f389a061;Unchecked Call;t;t;
+104;NPChecker;0x9f8bf604abeb04d32b0ffae9c3a083be5858cf96;Unchecked Call;t;t;
+104;NPChecker;0x7eab824bdbb0982ade9b601de5c483de8ebafb9d;Unchecked Call;f;f;"Unchecked send without write to state; Zeus definition is strange, as Ether gets locked in case of failed send."
+104;SBcurated;0x8fd1e427396ddb511533cf9abdbebd0a7e08da35;unchecked_low_level_calls;t;t;
+104;Zeus;1054_Code_35_0x50f54ed2cafd4b7245e60557a6b56d9ac9193025;Unchkd_send;f;t;1 unchecked ll-call without state change afterwards, 1 unchecked ll-call with
+104;Zeus;1010_Code_15_0x8b099BDCfea93FAeCFAC13D0dBc1D08c4e1EC595;Unchkd_send;f;t;"Unchecked send without write to state; cannot be exploited"
+104;Zeus;0109_Code_38_0x9f1d916a456b96146e9f0dbbd0e107a1f389a061;Unchkd_send;t;t;
+104;Zeus;0864_Code_36_0x9F8Bf604AbeB04D32B0FFAE9c3A083be5858CF96;Unchkd_send;t;t;
+104;Zeus;1223_Code_15_0xad2b1feb2153cd5a6b8a5f37a820ba013a89cabf;Unchkd_send;f;t;1 checked send with throw, 1 checked send without throw
+104;Zeus;1352_Code_29_0xc5B2508E878af367Ba4957BDBEb2bBc6DA5BB349;Unchkd_send;f;t;"Unchecked send without write to state; Zeus definition is strange, as Ether gets locked in case of failed send."
+104;Zeus;1445_Code_323_0x0131c603b0da00a560bde23306815e0577c366e;Unchkd_send;f;t;"Unchecked send without write to state; Zeus definition is strange, as Ether gets locked in case of failed send."
+107;CodeSmells;0x14cf6193935b17fc72649ba420fdd5bfdf1f0001;Reentrancy;t;t;
+107;CodeSmells;0xe386b139ed3715ca4b18fd52671bdcea1cdfe4b1;Reentrancy;t;t;
+107;CodeSmells;0xfb6916095ca1df60bb79ce92ce3ea74c37c5d359;Reentrancy;t;t;
+107;ContractFuzzer;PrivateDeposit-reentrancy;reentrancy;t;t;
+107;ContractFuzzer;Private_Bank-reentrancy;reentrancy;t;t;
+107;ContractFuzzer;PIGGY_BANK-reentrancy;reentrancy;t;t;
+107;Doublade;0x7a8721a9d64c74da899424c1b52acbf58ddc9782-PrivateDeposit-reentrancy;reentrancy;t;t;
+107;Doublade;0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4-PrivateBank-reentrancy;reentrancy;t;t;
+107;SBcurated;0x7a8721a9d64c74da899424c1b52acbf58ddc9782;reentrancy;t;t;
+107;SBcurated;0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4;reentrancy;t;t;
+112;ContractFuzzer;WalletProxy-delegatecall_dangerous;delegatecall_dangerous;t;t;target address is set by the owner, but msg.data is handed unmodified to delegatecall. Should not be a problem, as the target contract is under control, but according to ContractFuzzer’s oracle it is vulnerable.
+112;ContractFuzzer;MultiSigStub-delegatecall_dangerous;delegatecall_dangerous;t;t;target address is hard-coded, but in the fallback function, msg.data is handed unmodified to delegatecall. Should not be a problem, as the target contract is under control, but according to ContractFuzzer’s oracle it is vulnerable.
+112;ContractFuzzer;StackDepthLib-delegatecall_dangerous;delegatecall_dangerous;t;f;target is fixed (same contract), first four bytes of delegatecall are fixed as well.
+112;ContractFuzzer;ZwtTokenProxy-delegatecall_dangerous;delegatecall_dangerous;t;t;target address is set by the owner, but msg.data is handed unmodified to delegatecall. Should not be a problem, as the target contract is under control, but according to ContractFuzzer’s oracle it is vulnerable.
+112;ContractFuzzer;Router-delegatecall_dangerous;delegatecall_dangerous;t;f;target address is set by the owner. The first four bytes determining the target function are hard-coded, so no vulnerability according to ContractFuzzer’s oracle.
+112;ContractFuzzer;Parsec-delegatecall_dangerous;delegatecall_dangerous;t;t;target address is set by the owner, but msg.data is handed unmodified to delegatecall. Should not be a problem, as the target contract is under control, but according to ContractFuzzer’s oracle it is vulnerable.
+112;ContractFuzzer;RiskSharingToken-delegatecall_dangerous;delegatecall_dangerous;t;t;target address is set by the owner, but msg.data is handed unmodified to delegatecall. Should not be a problem, as the target contract is under control, but according to ContractFuzzer’s oracle it is vulnerable.
+112;ContractFuzzer;WyvernDAOProxy-delegatecall_dangerous;delegatecall_dangerous;t;t;target address is set by the owner, but msg.data is handed unmodified to delegatecall. Should not be a problem, as the target contract is under control, but according to ContractFuzzer’s oracle it is vulnerable.
+112;ContractFuzzer;RipplePayMain-delegatecall_dangerous;delegatecall_dangerous;t;f;Contract does not contain any delegatecall operation.
+112;ContractFuzzer;Masker-delegatecall_dangerous;delegatecall_dangerous;t;t;
+112;ContractFuzzer;LetMeIn-delegatecall_dangerous;delegatecall_dangerous;t;f;hardcoded address, first argument not determined by caller but fixed
+113;CodeSmells;0x1e02f2293a67bc57700c542d7ca135394193c038;Dos Under external influence;t;t;
+113;CodeSmells;0x365267181bc0ef38bbb8d8ca9b330dc0c3ac01d1;Dos Under external influence;t;t;
+113;CodeSmells;0xc16b542ff490e01fcc0dc58a60e1efdc3e357ca6;Dos Under external influence;t;t;
+113;Zeus;0195_Code_feeb8a968f0d7fd58e29fbfc525051f50ee2fedc;Failed_send;t;t;Zeus checks whether return value of send is checked in case of a throw. Contract contains one send to msg.sender with this property, hence Zeus is ok. However, not exploitable, as msg.sender is called.
+114;Zeus;0031_Code__0x019d7e5ae8d2ba9a292244311dc7355058ab1b0;Tx_Order_Dep;t;t;
+114;Zeus;0753_Code_7d56485e026d5d3881f778e99969d2b1f90c50af;Tx_Order_Dep;t;t;
+114;Zeus;1031_Code_38_0x870FE80e76DaE4a4c12690dEc52456ab13176202;Tx_Order_Dep;t;t;
+114;Zeus;0323_Code_89d64bc7e46bdc49a89652ae9bb167418cbad62e;Tx_Order_Dep;f;t;"Classic transaction order dependence regarding approve/transferfrom; however, Zeus checks for a subcase involving send/call only."
+115;Doublade;0x903643251af408a3c5269c836b9a2a4a1f04d1cf-SysEscrow-tx_result;tx_result;t;t;
+120;ContractFuzzer;SatoshiDice-numberdependency;numberdependency;t;t;
+120;ContractFuzzer;EthMashChain-numberdependency;numberdependency;t;t;
+120;ContractFuzzer;EtherSafe-numberdependency;numberdependency;t;t;
+120;ContractFuzzer;EthMashMount-numberdependency;numberdependency;t;t;
+997;CodeSmells;0x13ce614e9d7ce609dedba1b42ba2163426ba5ace;Greedy Contract;t;t;
+997;CodeSmells;0x2c1180e2818069e5a9f911e636fb8f3db5106a9f;Greedy Contract;t;t;
+997;CodeSmells;0x4d09c5e758ca68be27240f29fb681e5a5341ca98;Greedy Contract;t;t;
+997;CodeSmells;0x8eee81d817c9548615d69c485074b55df487ab95;Greedy Contract;f;f;contract is greedy (accepts payment, but has no payout function)
+997;CodeSmells;0xbaaffc2f4074863bf0ced1dc61e5410fad075cec;Greedy Contract;t;t;
+997;CodeSmells;0xe752483412490481d193194d293db5cd0ed054a8;Greedy Contract;t;t;
+997;CodeSmells;0xee4e09a72c5f8d60ce09b4b90dd1ee680fc375fe;Greedy Contract;f;f;If the judgement is about the code deployed at the given address, then the contract locks Ether: Solidity source was compiled with 0.4.4, hence the functions accept Ether, but cannot pay out. Starting with 0.4.20 (pragma in source is ^0.4.0), however, the code can only be called via delegatecall, hence does not accept Ether anymore.
+997;ContractFuzzer;MySuperToken-freezing_ether;freezing_ether;t;t;
+997;ContractFuzzer;LiteConnectToken-freezing_ether;freezing_ether;t;t;
+997;ContractFuzzer;Luck-freezing_ether;freezing_ether;t;t;
+997;ContractFuzzer;ClassicCheck-freezing_ether;freezing_ether;t;t;
+997;ContractFuzzer;ConfToken-freezing_ether;freezing_ether;t;t;
+997;ContractFuzzer;LOVEFoundation-freezing_ether;freezing_ether;t;t;contract is greedy (accepts payment, but has no payout function)
+997;ContractFuzzer;TokenEventLib-freezing_ether;freezing_ether;t;t;If the judgement is about the code deployed at the given address, then the contract locks Ether: Solidity source was compiled with 0.4.4, hence the functions accept Ether, but cannot pay out. Starting with 0.4.20 (pragma in source is ^0.4.0), however, the code can only be called via delegatecall, hence does not accept Ether anymore.
+997;ContractFuzzer;testeot-freezing_ether;freezing_ether;t;t;
+997;ContractFuzzer;LaolaiManage-freezing_ether;freezing_ether;t;t;

@@ -1,0 +1,37 @@
+{
+    "addr": "0x747fb90f7f5d7dfde8421764b203bbb8f1fca074",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TranferInTwoPart.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "TranferInTwoPart",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "de21791b13b48647ed2be55e2ec7127d",
+    "fp_runtime": "22cd36cded08d114d0cd7a8d37b8a8fe",
+    "fp_sol": "c318eda6d6dc069417dabd3e6202a134",
+    "fp_sol2": "c318eda6d6dc069417dabd3e6202a134",
+    "id": "TranferInTwoPart-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TranferInTwoPart.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

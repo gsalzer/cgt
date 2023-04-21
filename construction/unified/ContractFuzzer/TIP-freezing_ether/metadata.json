@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BasicToken",
+            "ERC20",
+            "ERC20Basic",
+            "SafeMath",
+            "StandardToken",
+            "TIP"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "6546db6461f11d0cb089fbeab9af63be",
+    "fp_sol": "17d5d4e0c845e8d9ead4d85011127c69",
+    "fp_sol2": "4b2344dbfa70001261a246af51d28398",
+    "id": "TIP-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/TIP.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/TIP.sol"
+    ],
+    "sol_orig": true
+}

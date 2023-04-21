@@ -1,0 +1,25 @@
+Minimal found traces: 8 
+--------------------------------------------------------------------------------
+['setEndBlock', 'processContributions', 'setWallet']
+['setEndBlock', 'setWallet', 'processContributions']
+--------------------------------------------------------------------------------
+['setEndBlock', 'processContributions', 'setWallet']
+['setWallet', 'setEndBlock', 'processContributions']
+--------------------------------------------------------------------------------
+['setWallet', 'setEndBlock', 'fallback']
+['setEndBlock', 'fallback', 'setWallet']
+--------------------------------------------------------------------------------
+['setEndBlock', 'fallback', 'setWallet']
+['setEndBlock', 'setWallet', 'fallback']
+--------------------------------------------------------------------------------
+['setStartBlock', 'setWallet', 'setEndBlock', 'processContributions']
+['setStartBlock', 'setEndBlock', 'processContributions', 'setWallet']
+--------------------------------------------------------------------------------
+['setStartBlock', 'setEndBlock', 'processContributions', 'setWallet']
+['setStartBlock', 'setEndBlock', 'setWallet', 'processContributions']
+--------------------------------------------------------------------------------
+['setStartBlock', 'setWallet', 'setEndBlock', 'fallback']
+['setStartBlock', 'setEndBlock', 'fallback', 'setWallet']
+--------------------------------------------------------------------------------
+['setStartBlock', 'setEndBlock', 'fallback', 'setWallet']
+['setStartBlock', 'setEndBlock', 'setWallet', 'fallback']

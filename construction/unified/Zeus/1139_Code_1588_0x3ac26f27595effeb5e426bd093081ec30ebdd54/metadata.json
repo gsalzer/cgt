@@ -1,0 +1,60 @@
+{
+    "addr": "0x3ac26f27595effeb5e426bd093081ec30ebdd545",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "BirthdayPuzzle",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b42c5abe1eeae3d12dec8150476ca958",
+    "fp_runtime": "3b05511412bc5aac1db766bd6a8f1a8a",
+    "fp_sol": "51e3db2348306e22a0f109c0d8756be9",
+    "fp_sol2": "4a7a1cb67e495d1eb601a6ba31d7ffae",
+    "id": "1139_Code_1588_0x3ac26f27595effeb5e426bd093081ec30ebdd54",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

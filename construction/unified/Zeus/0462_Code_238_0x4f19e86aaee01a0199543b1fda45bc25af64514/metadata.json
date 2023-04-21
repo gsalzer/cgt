@@ -1,0 +1,60 @@
+{
+    "addr": "0x4f19e86aaee01a0199543b1fda45bc25af645146",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.10+commit.f0d539ae",
+    "compiler_orig": false,
+    "contractname": "BurnableOpenPayment",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "3ab026d1ef90ed375f9d2ea820909699",
+    "fp_runtime": "9c9aac01b7725c90d14826aa5da91ee7",
+    "fp_sol": "d1cb4dd66663151973e7194ed24db0d7",
+    "fp_sol2": "006246b6d01eaa71c9353100e91f039b",
+    "id": "0462_Code_238_0x4f19e86aaee01a0199543b1fda45bc25af64514",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x76eacde255403972bde24dea3f464d0a4104d7da",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ObizcoinCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.14+commit.c2215d46",
+    "compiler_orig": false,
+    "contractname": "ObizcoinCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "dd9f27fa60a3229fe84ececf70d75a90",
+    "fp_runtime": "fe284aa406ddd0584dcf75600098538c",
+    "fp_sol": "a03b3277883e8c3203d32726883fb048",
+    "fp_sol2": "3553b1a0fe684b1e69e8b373bed30182",
+    "id": "ObizcoinCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ObizcoinCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

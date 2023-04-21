@@ -1,0 +1,37 @@
+{
+    "addr": "0x7627de4b93263a6a7570b8dafa64bae812e5c394",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NexxusToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "NexxusToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "58e61a6f7a648c355f00e09b43139ee2",
+    "fp_runtime": "8b24350fa11306c4646872a3e650fe0b",
+    "fp_sol": "18e16f1661507f25e2055363a186a1ca",
+    "fp_sol2": "4a0faafc18e77321d55c2156078a82a1",
+    "id": "NexxusToken-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_NexxusToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

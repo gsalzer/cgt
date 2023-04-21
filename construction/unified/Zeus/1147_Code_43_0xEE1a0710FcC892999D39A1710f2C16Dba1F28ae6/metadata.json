@@ -1,0 +1,60 @@
+{
+    "addr": "0xee1a0710fcc892999d39a1710f2c16dba1f28ae6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.1-2016-01-30-91a6b35",
+    "compiler_orig": false,
+    "contractname": "TossMyCoin",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "31e6b0c7c42f6406e89af98f58308045",
+    "fp_runtime": "8cc7264da5ecb89b921860a5c17a49b8",
+    "fp_sol": "e899eb25cdfc17cc9f8e67445cc63bf8",
+    "fp_sol2": "e899eb25cdfc17cc9f8e67445cc63bf8",
+    "id": "1147_Code_43_0xEE1a0710FcC892999D39A1710f2C16Dba1F28ae6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

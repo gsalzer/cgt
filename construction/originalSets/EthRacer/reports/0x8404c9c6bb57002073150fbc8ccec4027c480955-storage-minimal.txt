@@ -1,0 +1,16 @@
+Minimal found traces: 5 
+--------------------------------------------------------------------------------
+['MyToken', 'updateActivation']
+['updateActivation', 'MyToken']
+--------------------------------------------------------------------------------
+['MyToken', 'transfer', 'updateActivation']
+['MyToken', 'updateActivation', 'transfer']
+--------------------------------------------------------------------------------
+['transfer', 'MyToken', 'updateActivation']
+['MyToken', 'updateActivation', 'transfer']
+--------------------------------------------------------------------------------
+['MyToken', 'approve', 'updateActivation']
+['MyToken', 'updateActivation', 'approve']
+--------------------------------------------------------------------------------
+['approve', 'MyToken', 'updateActivation']
+['MyToken', 'updateActivation', 'approve']

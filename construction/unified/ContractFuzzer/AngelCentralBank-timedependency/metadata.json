@@ -1,0 +1,39 @@
+{
+    "addr": "0xc499ea948a1ad5d8eaf12abd2f67975c4dbe21aa",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_AngelCentralBank.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "AngelToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1f1a43ca27cbfdf554be983a5c8ac5c0",
+    "fp_runtime": "407442c977d5b8957b7eaa788c17dc67",
+    "fp_sol": "af39bce3ef2680348d7af3ceb97a03d9",
+    "fp_sol2": "6a7d8c52e187796350db0cc9feda1b3a",
+    "id": "AngelCentralBank-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AngelCentralBank.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

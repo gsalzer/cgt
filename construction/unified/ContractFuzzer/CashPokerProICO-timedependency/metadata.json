@@ -1,0 +1,37 @@
+{
+    "addr": "0xa746a9a309e7d498f830cffeb683b6d5bb39cadb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CashPokerProICO.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "CashPokerProICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ebcf693d3b8637238f85117a20daccdf",
+    "fp_runtime": "69d7690dce028d40c901ff592ca19133",
+    "fp_sol": "1e25239c7d3418f4f5b7308dc29e67f7",
+    "fp_sol2": "137f83926766087ecc4f04f8d973d684",
+    "id": "CashPokerProICO-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CashPokerProICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

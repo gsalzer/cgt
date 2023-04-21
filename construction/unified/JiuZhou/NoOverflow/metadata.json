@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "integer overflow and underflow",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "SafeMath",
+            "gray_Overflow"
+        ]
+    },
+    "fp_bytecode": "f661e21f543c723afa7196731fd6a7a8",
+    "fp_runtime": "7ac0291d0526e84a91a76c985694b383",
+    "fp_sol": "5009c38ebc5c06c002afa411f672bc81",
+    "fp_sol2": "22443d536c53c32408420661eec89e20",
+    "id": "NoOverflow",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoOverflow.sol"
+    ],
+    "sol_orig": true
+}

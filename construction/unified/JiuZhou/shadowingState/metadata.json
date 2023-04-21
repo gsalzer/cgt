@@ -1,0 +1,49 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Hide state variables",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            17
+        ],
+        "BugName": "Hide state variables",
+        "BugReason": "The transfer keyword is overwritten, causing the built-in keyword to fail.",
+        "ContractSource": "https://github.com/crytic/slither",
+        "contract names": [
+            "FatherContract",
+            "SonContract"
+        ]
+    },
+    "fp_bytecode": "27c1ac0659998dd1f1aec307f15d43e1",
+    "fp_runtime": "7f6a3a3525ab22ba55d71a728426192f",
+    "fp_sol": "1cf4ed67642a496429b5e106368e4a23",
+    "fp_sol2": "400a0e80dee0672124a7383eb6a86383",
+    "id": "shadowingState",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/shadowingState.sol"
+    ],
+    "sol_orig": true
+}

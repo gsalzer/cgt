@@ -1,0 +1,42 @@
+{
+    "addr": "0x1a135adbf33cb363c4b6c609409522ecd5d0aa29",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "fe5181eb4ace568fb78afd7173da0b4a",
+    "fp_runtime": "1f8599608c87cd9908b60436f06ff6c2",
+    "fp_sol": null,
+    "fp_sol2": null,
+    "id": "0277_Code_1a135adbf33cb363c4b6c609409522ecd5d0aa29",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [],
+    "sol_orig": null
+}

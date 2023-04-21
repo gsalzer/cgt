@@ -1,0 +1,37 @@
+{
+    "addr": "0xd4fb7fd0c254a8c6211e441f7236fa9479708a99",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6-2016-08-26-3eeefb5",
+    "compiler_orig": true,
+    "contractname": "WHAuthorizeAddress",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "18f13b6590a8c979e3bdf198059f1ea9",
+    "fp_runtime": "6fe41f20189eb50ea52c2ed91c64bf5d",
+    "fp_sol": "012b77d1fa64612af6fef88f508da29f",
+    "fp_sol2": "012b77d1fa64612af6fef88f508da29f",
+    "id": "0xd4fb7fd0c254a8c6211e441f7236fa9479708a99",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

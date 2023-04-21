@@ -1,0 +1,39 @@
+{
+    "addr": "0x48299b98d25c700e8f8c4393b4ee49d525162513",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_QuasacoinTokenCrowdsale.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "QuasacoinTokenCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e0f66f06ee66be2750d5965ff081b0a8",
+    "fp_runtime": "cff377a7fbb8b206496d78c1baab18bd",
+    "fp_sol": "fba8edc34456e83401445955fb0cc9e8",
+    "fp_sol2": "f0a5122fa6b7cca8dd8e4a457bcc4284",
+    "id": "QuasacoinTokenCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_QuasacoinTokenCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

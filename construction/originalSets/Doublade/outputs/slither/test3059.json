@@ -1,0 +1,1798 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#23)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 791,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                23
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#24)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 840,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                24
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#25)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 889,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                25
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#26)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 938,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                26
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#27)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 987,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                27
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#28)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 1036,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                28
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#29)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 1085,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                29
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#30)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 1134,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                30
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#31)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 1183,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                31
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "FruitFarm.getTokens (reorder_contracts_2_3/test3059.sol#22-33) ignores return value by low-level calls \"tokenBuyerContract.call.value(0)()\" (reorder_contracts_2_3/test3059.sol#32)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenBuyerContract.call.value(0)()",
+            "source_mapping": {
+              "start": 1232,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                32
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getTokens",
+                "source_mapping": {
+                  "start": 716,
+                  "length": 562,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FruitFarm",
+                    "source_mapping": {
+                      "start": 193,
+                      "length": 1088,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                      "filename_short": "reorder_contracts_2_3/test3059.sol",
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "getTokens(uint256,address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "getTokens",
+            "source_mapping": {
+              "start": 716,
+              "length": 562,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_relative": "reorder_contracts_2_3/test3059.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+              "filename_short": "reorder_contracts_2_3/test3059.sol",
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FruitFarm",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 1088,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3059.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3059.sol",
+                  "filename_short": "reorder_contracts_2_3/test3059.sol",
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "getTokens(uint256,address)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

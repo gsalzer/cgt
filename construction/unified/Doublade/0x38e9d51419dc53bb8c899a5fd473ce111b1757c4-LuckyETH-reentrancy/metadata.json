@@ -1,0 +1,37 @@
+{
+    "addr": "0x38e9d51419dc53bb8c899a5fd473ce111b1757c4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "LuckyETH",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "7b3772fe4e212bdd397ec5b0469ec8be",
+    "fp_runtime": "57e78a4466684632e0f117aa1332db7e",
+    "fp_sol": "db4ed99c2e2fcd0c9e14f3b44d134460",
+    "fp_sol2": "60ac42b2679d254852dab77faee1d58e",
+    "id": "0x38e9d51419dc53bb8c899a5fd473ce111b1757c4-LuckyETH-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test892.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

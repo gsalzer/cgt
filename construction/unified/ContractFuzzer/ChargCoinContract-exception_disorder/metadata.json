@@ -1,0 +1,39 @@
+{
+    "addr": "0xa3c1772b12a7598568cee1e2d72281176d8b1f3d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_ChargCoinContract.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "ChargCoinContract",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "fa95c054c165a838630aa868d38ce25c",
+    "fp_runtime": "0508ed23a21ba520c5670b855af729a0",
+    "fp_sol": "150bcc774616c2e2cb947ef0647ece10",
+    "fp_sol2": "0a30f5d9e68e5ae7f2807f4080f3d18a",
+    "id": "ChargCoinContract-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ChargCoinContract.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": "0xba21d6cff33978e0696fdd2f2262a6b1b667f506",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "EmojisanAuctionHouse",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "22f931ec20cee81ecbbfd2ee98352c2c",
+    "fp_runtime": "e2ddb4b79d381e31bc796d705f99d004",
+    "fp_sol": "b0d131e4fe035abd75bcf15f0d048fc6",
+    "fp_sol2": "903c22fe87544f16dfa4f65527650bbe",
+    "id": "EmojisanAuctionHouse-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_EmojisanAuctionHouse.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EmojisanAuctionHouse.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

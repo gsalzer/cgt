@@ -1,0 +1,37 @@
+{
+    "addr": "0xc75175d7de7e8036f7c00a8e89f30dcf6e733f2e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": true,
+    "contractname": "ArithLib",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "d364a0f404f3c981ee5684116cf42f21",
+    "fp_runtime": "10695ab7613f4cab3e0d5516b4d239fe",
+    "fp_sol": "34a85b58d9dced4dbba67cafd562533f",
+    "fp_sol2": "1b0dd3069fc3c5c88f9d2e8bd3f2f56b",
+    "id": "0xc75175d7de7e8036f7c00a8e89f30dcf6e733f2e",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

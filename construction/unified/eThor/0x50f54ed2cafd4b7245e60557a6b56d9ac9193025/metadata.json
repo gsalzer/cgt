@@ -1,0 +1,37 @@
+{
+    "addr": "0x50f54ed2cafd4b7245e60557a6b56d9ac9193025",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": true,
+    "contractname": "Wallet",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "a862e7e6e8ea6f521e8132fac35d6546",
+    "fp_runtime": "281dc887d3e71587d31702165977b136",
+    "fp_sol": "e35ff142af0bda886bfa941faf169e28",
+    "fp_sol2": "e35ff142af0bda886bfa941faf169e28",
+    "id": "0x50f54ed2cafd4b7245e60557a6b56d9ac9193025",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

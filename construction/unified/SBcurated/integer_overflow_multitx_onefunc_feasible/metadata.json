@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "arithmetic",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "IntegerOverflowMultiTxOneFuncFeasible",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "85b7df96a3e81b56ad5a89dec6529cb6",
+    "fp_sol2": "6786aa989ed02464f4c3c65b369c9c63",
+    "id": "integer_overflow_multitx_onefunc_feasible",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/integer_overflow_multitx_onefunc_feasible.sol"
+    ],
+    "sol_orig": true
+}

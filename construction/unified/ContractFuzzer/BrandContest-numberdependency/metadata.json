@@ -1,0 +1,39 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BrandContest",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "c1eb6c156116fbe6e35898ec4b055117",
+    "fp_sol": "95fd41e1024acb327bd39a3f0c542e5d",
+    "fp_sol2": "a5b9569b4093afa6ea33b77927dcbce9",
+    "id": "BrandContest-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/BrandContest.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BrandContest.sol"
+    ],
+    "sol_orig": true
+}

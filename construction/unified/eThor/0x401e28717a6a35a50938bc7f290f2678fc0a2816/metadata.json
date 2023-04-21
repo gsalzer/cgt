@@ -1,0 +1,37 @@
+{
+    "addr": "0x401e28717a6a35a50938bc7f290f2678fc0a2816",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": true,
+    "contractname": "Laundromat",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "e4b65afac601c3203d0c040ec74c9e0c",
+    "fp_runtime": "09f61bdd9ac7755a1fc8b429fd67051e",
+    "fp_sol": "466b11d7fb76d05f1de40cf86e2c5e2f",
+    "fp_sol2": "63492d580151ed085fadd6cc3c40ec46",
+    "id": "0x401e28717a6a35a50938bc7f290f2678fc0a2816",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

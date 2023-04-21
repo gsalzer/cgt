@@ -1,0 +1,37 @@
+{
+    "addr": "0x53a2fd0d693c79efd2fe1fd628bfcce3f0a89314",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/MultiSigStub.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "MultiSigStub",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "02052a7044d06e5a5fb78272e7774796",
+    "fp_runtime": "dcd38a5add312f95f5895002ce0671e6",
+    "fp_sol": "cae4e180243fef4541d0e34eae86d398",
+    "fp_sol2": "b409255ca1af70346a99971f81b668ec",
+    "id": "MultiSigStub-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MultiSigStub.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

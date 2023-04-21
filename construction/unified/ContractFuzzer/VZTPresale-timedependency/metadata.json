@@ -1,0 +1,38 @@
+{
+    "addr": "0xfd26d4fedea09da1bb2c4e410c747dda72fdb506",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/VZTPresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "VZTPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/VZTPresale"
+    },
+    "fp_bytecode": "93ed507a18c963b5b048855506e415b2",
+    "fp_runtime": "3b5820e1529ed0da9d0028bcb67b705c",
+    "fp_sol": "6871df0c3243dfc75a20b14f8ec39b9b",
+    "fp_sol2": "845221f4b1757860fa0de8bc5ec86ede",
+    "id": "VZTPresale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

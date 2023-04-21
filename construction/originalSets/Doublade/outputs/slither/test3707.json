@@ -1,0 +1,254 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "AirDrop.doAirDrop has external calls inside a loop: \"tokenInstance.transfer(_address[i],_amount[i])\" (reorder_contracts_2_3/test3707.sol#70)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "tokenInstance.transfer(_address[i],_amount[i])",
+            "source_mapping": {
+              "start": 1840,
+              "length": 48,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+              "filename_relative": "reorder_contracts_2_3/test3707.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+              "filename_short": "reorder_contracts_2_3/test3707.sol",
+              "lines": [
+                70
+              ],
+              "starting_column": 7,
+              "ending_column": 55
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirDrop",
+                "source_mapping": {
+                  "start": 1582,
+                  "length": 457,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3707.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                  "filename_short": "reorder_contracts_2_3/test3707.sol",
+                  "lines": [
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1090,
+                      "length": 1264,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3707.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                      "filename_short": "reorder_contracts_2_3/test3707.sol",
+                      "lines": [
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "doAirDrop(address[],uint256[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "AirDrop.doAirDrop has external calls inside a loop: \"require(bool)(_address[i].send(_ethAmount))\" (reorder_contracts_2_3/test3707.sol#73)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "require(bool)(_address[i].send(_ethAmount))",
+            "source_mapping": {
+              "start": 1979,
+              "length": 38,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+              "filename_relative": "reorder_contracts_2_3/test3707.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+              "filename_short": "reorder_contracts_2_3/test3707.sol",
+              "lines": [
+                73
+              ],
+              "starting_column": 9,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirDrop",
+                "source_mapping": {
+                  "start": 1582,
+                  "length": 457,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3707.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                  "filename_short": "reorder_contracts_2_3/test3707.sol",
+                  "lines": [
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1090,
+                      "length": 1264,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3707.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3707.sol",
+                      "filename_short": "reorder_contracts_2_3/test3707.sol",
+                      "lines": [
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "doAirDrop(address[],uint256[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

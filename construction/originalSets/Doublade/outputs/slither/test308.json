@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "tx-origin",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "MultiMonday.Today uses tx.origin for authorization: \"msg.value >= this.balance || tx.origin == O\" (reorder_contracts_2_3/test308.sol#10-12)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "msg.value >= this.balance || tx.origin == O",
+            "source_mapping": {
+              "start": 166,
+              "length": 108,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test308.sol",
+              "filename_relative": "reorder_contracts_2_3/test308.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test308.sol",
+              "filename_short": "reorder_contracts_2_3/test308.sol",
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Today",
+                "source_mapping": {
+                  "start": 123,
+                  "length": 158,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test308.sol",
+                  "filename_relative": "reorder_contracts_2_3/test308.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test308.sol",
+                  "filename_short": "reorder_contracts_2_3/test308.sol",
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MultiMonday",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 257,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test308.sol",
+                      "filename_relative": "reorder_contracts_2_3/test308.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test308.sol",
+                      "filename_short": "reorder_contracts_2_3/test308.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "Today()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

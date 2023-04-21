@@ -1,0 +1,37 @@
+{
+    "addr": "0xaae91d6c616ac2b07cd8cc0956ea8e60d4c220c5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Bombs.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Bombs",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "31cfbc6b35d469764c7ba2d4e228eedb",
+    "fp_runtime": "0390b6a872b3c180809e53017f08558b",
+    "fp_sol": "65f9a69efef994274c0cc42977a85bd9",
+    "fp_sol2": "dd6f14edeea5be9599e673d10d9e7354",
+    "id": "Bombs-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Bombs.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

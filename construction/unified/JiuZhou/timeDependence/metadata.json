@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Time affected by miners",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "TimedCrowdsale",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            37
+        ],
+        "BugName": "Results of contract execution affected by miners",
+        "BugReason": "Miners can know the value of answer by obtaining the values of now and block.number, thus gaining a competitive advantage.",
+        "ContractSource": "https://swcregistry.io/"
+    },
+    "fp_bytecode": "64d3478aef15f78bea6e0439a84ce234",
+    "fp_runtime": "44f562d977b27610049a550abfecfc2b",
+    "fp_sol": "816d6a19201b207309c5dbecfa2d7df6",
+    "fp_sol2": "ba153d2aa53e7b158525703fe9ecc3f4",
+    "id": "timeDependence",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/timeDependence.sol"
+    ],
+    "sol_orig": true
+}

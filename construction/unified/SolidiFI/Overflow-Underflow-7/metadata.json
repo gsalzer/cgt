@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "AccountWallet",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "1b15a0a530394a1ff5768af418ebfecc",
+    "fp_sol2": "f89522f8dd093bd59d6dfeb3659f7c5b",
+    "id": "Overflow-Underflow-7",
+    "info": [
+        "info/BugLog_7.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_7.sol"
+    ],
+    "sol_orig": true
+}

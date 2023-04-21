@@ -1,0 +1,36 @@
+{
+    "addr": "0x1c98eea5fe5e15d77feeabc0dfcfad32314fd481",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "EthConnectPonzi",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "dea4c09b6e5da4cad76201f4d498b554",
+    "fp_runtime": "39de2e80015ebb5cea122fcd02b29d76",
+    "fp_sol": "110a2d9d5afe9c2cee6d98fe6f0d6dbb",
+    "fp_sol2": "12c80db5d657907145975a94387d9b7d",
+    "id": "0x1c98eea5fe5e15d77feeabc0dfcfad32314fd481",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

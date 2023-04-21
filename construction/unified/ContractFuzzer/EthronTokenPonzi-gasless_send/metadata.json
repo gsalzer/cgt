@@ -1,0 +1,38 @@
+{
+    "addr": "0xc608f567bcf51b0d84edef669b9d7d47440b7bb7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EthronTokenPonzi.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "EthronTokenPonzi",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/EthronTokenPonzi.sol"
+    },
+    "fp_bytecode": "f942269e57e51bcfdb401f77c0e1983a",
+    "fp_runtime": "ae9d77d878fd366b67be3d3b7a45f43e",
+    "fp_sol": "59ff7186b0520b713f577d61f3e9b247",
+    "fp_sol2": "63b75c563038a32448650f190ff5173c",
+    "id": "EthronTokenPonzi-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

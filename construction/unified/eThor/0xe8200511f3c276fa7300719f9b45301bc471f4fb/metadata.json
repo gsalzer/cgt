@@ -1,0 +1,37 @@
+{
+    "addr": "0xe8200511f3c276fa7300719f9b45301bc471f4fb",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "BonusDealer",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "0e9874bf2745445c7afdc27ad1c2c936",
+    "fp_runtime": "50b97053f342ac8c8580b9a8cdb0e73c",
+    "fp_sol": "628633b12b0408bc5db864fe26cee05f",
+    "fp_sol2": "7f12145c3e67143156261991e313b12f",
+    "id": "0xe8200511f3c276fa7300719f9b45301bc471f4fb",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

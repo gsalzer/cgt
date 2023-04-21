@@ -1,0 +1,37 @@
+{
+    "addr": "0x460dc8b70a189bee176d22d3f0272d171bd4c5ed",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "EdgelessToken",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b8e1e4edcc0ae72faf5f3db66df391ed",
+    "fp_runtime": "e522b1ebd3e369ccceadeba0e102a34f",
+    "fp_sol": "dc498839242fbbe2a85394a543657f04",
+    "fp_sol2": "d231523f42a3de8be4a4a6bc8258d4a1",
+    "id": "0x460dc8b70a189bee176d22d3f0272d171bd4c5ed",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

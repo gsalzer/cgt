@@ -1,0 +1,36 @@
+{
+    "addr": "0x07419940b9a2d1eb54e123bd4853240ffac77186",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PowhCoin4",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "50199a9f052a52f705a7e27859f44744",
+    "fp_runtime": "f263834ac4680777ad0e8ddce59bf962",
+    "fp_sol": "e9e4c851cf597ec522baac78b4b3db92",
+    "fp_sol2": "44d33fc722da9cf92d08456717bea191",
+    "id": "0x07419940b9a2d1eb54e123bd4853240ffac77186",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

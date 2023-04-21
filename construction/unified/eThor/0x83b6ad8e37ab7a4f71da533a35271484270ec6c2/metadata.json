@@ -1,0 +1,37 @@
+{
+    "addr": "0x83b6ad8e37ab7a4f71da533a35271484270ec6c2",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": true,
+    "contractname": "WelfareTokenFund",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "f4d826327f9d3c7bc78bf9f9013837ae",
+    "fp_runtime": "2a946b332cb5336dfead53d2f52685de",
+    "fp_sol": "426a9337cebe33fa1ef13e6bd63e22dc",
+    "fp_sol2": "da0a8ad133425048bc21d631584241ae",
+    "id": "0x83b6ad8e37ab7a4f71da533a35271484270ec6c2",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

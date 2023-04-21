@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Improper use of revert",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "alwaysFalse",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "b03e91d7c3f9d812c277ac1c3acc3358",
+    "fp_runtime": "5190f7b9866b3c4cf7d3371e2a1d5946",
+    "fp_sol": "e41c59a4fffd06867b4622dc84f6227f",
+    "fp_sol2": "3a62673f50d267dd0f829bf4aefbd957",
+    "id": "RevertError",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/RevertError.sol"
+    ],
+    "sol_orig": true
+}

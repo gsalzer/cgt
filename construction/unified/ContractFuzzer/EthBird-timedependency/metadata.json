@@ -1,0 +1,37 @@
+{
+    "addr": "0xa5b99587151ea5e63c642c474c6ce375812e5627",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EthBird.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.21+commit.dfe3193c",
+    "compiler_orig": false,
+    "contractname": "EthBird",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "6104e511602a006a241cda91ec71eefe",
+    "fp_runtime": "c6afbf7bb0a617ad764affc4b5d84e89",
+    "fp_sol": "b51fa5a295e5eee06b4a53af73b55217",
+    "fp_sol2": "1b2d1f3e1bd8e4cd1395f341e1813cc5",
+    "id": "EthBird-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EthBird.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

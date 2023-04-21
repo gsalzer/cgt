@@ -1,0 +1,37 @@
+{
+    "addr": "0x4865e85c72a27ca6c362da75ba6707c07464b953",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": true,
+    "contractname": "TreasureChest",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "41175b100deb8689123ec15b933936b8",
+    "fp_runtime": "3086469e816ab60b47ef34e55095a2a7",
+    "fp_sol": "b8be08b836382e0d0b7ce2500d5b471d",
+    "fp_sol2": "b8be08b836382e0d0b7ce2500d5b471d",
+    "id": "0x4865e85c72a27ca6c362da75ba6707c07464b953",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

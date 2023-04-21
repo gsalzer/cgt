@@ -1,0 +1,37 @@
+{
+    "addr": "0xb61802c06fc7d5bea7d8b4853e6a7fcb53c6a8b0",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HolyCoin.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "HolyCoin",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "84c03d4d50ce0eec0a26d005c10f9a11",
+    "fp_runtime": "791a8e6168aa23c62d2926283d1c46f8",
+    "fp_sol": "aedb904ae894f07b5bc5bfcc94fa4c9e",
+    "fp_sol2": "29f71c67b32b82cb7eda19bab4443e3d",
+    "id": "HolyCoin-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HolyCoin.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

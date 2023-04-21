@@ -1,0 +1,60 @@
+{
+    "addr": "0x02e01e9a73ed2cb24b32628c935256e455b0a078",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-03-31-c492d9b",
+    "compiler_orig": false,
+    "contractname": "RaceFTW",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "5774f30038c01999b4fae30e61972e94",
+    "fp_runtime": "5c0ca26b8db46b117b9e965dae960f67",
+    "fp_sol": "5acdbdbff460465e6590f86299fe642b",
+    "fp_sol2": "5acdbdbff460465e6590f86299fe642b",
+    "id": "0314_Code_408_0x02e01e9a73ed2cb24b32628c935256e455b0a07",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,32 @@
+source;lines;filename;contract;classification;info;exploit
+incorrect_interface/Bob.sol,incorrect_interface/Alice.sol;1:5,6:12,16:27,31:;BobAlice.sol;Bob;Incorrect interface:True;incorrect_interface/README.md;
+incorrect_interface/Bob.sol,incorrect_interface/Alice.sol;1:4,5:9,13:23,27:;BobAlice_fixed.sol;Bob;Incorrect interface:False;incorrect_interface/README.md;
+race_condition/RaceCondition.sol;:;RaceCondition.sol;RaceCondition;SWC-114:True;race_condition/README.md;
+denial_of_service/auction.sol;:22;DosAuction.sol;DosAuction;SWC-113:True;denial_of_service/README.md;
+denial_of_service/auction.sol;:2,24:;SecureAuction.sol;SecureAuction;SWC-113:False;denial_of_service/README.md;
+denial_of_service/list_dos.sol;:12;CrowdFundBad.sol;CrowdFundBad;SWC-113:True,SWC-128:True;denial_of_service/README.md;
+denial_of_service/list_dos.sol;:2,13:23;CrowdFundPull.sol;CrowdFundPull;SWC-113:False,SWC-128:False;denial_of_service/README.md;
+denial_of_service/list_dos.sol;:2,25:;CrowdFundSafe.sol;CrowdFundSafe;SWC-113:True,SWC-128:False;denial_of_service/README.md;
+unprotected_function/Unprotected.sol;:22,29:;Unprotected.sol;Unprotected;SWC-124:True;unprotected_function/README.md;
+unprotected_function/Unprotected.sol;:15,22:;Unprotected_fixed.sol;Unprotected;SWC-124:False;unprotected_function/README.md;
+unprotected_function/WalletLibrary_source_code/WalletLibrary.sol;:;WalletLibrary.sol;WalletLibrary;SWC-124:True;unprotected_function/README.md;
+integer_overflow/integer_overflow_1.sol;:11,16:;integer_overflow_1.sol;Overflow;SWC-101:True;integer_overflow/README.md;
+integer_overflow/integer_overflow_1.sol;:5,12:;integer_overflow_1_fixed.sol;Overflow;SWC-101:False;integer_overflow/README.md;
+unchecked_external_call/KotET_source_code/KingOfTheEtherThrone.sol;:;KingOfTheEtherThrone.sol;KingOfTheEtherThrone;SWC-104:True;unchecked_external_call/README.md;
+forced_ether_reception/coin.sol;:;coin.sol;MyAdvancedToken;SWC-132:True;forced_ether_reception/README.md;
+honeypots/Multiplicator/Multiplicator.sol;:;Multiplicator.sol;Multiplicator;Honeypot Balance disorder:True;honeypots/README.md;
+honeypots/Lottery/Lottery.sol;:;Lottery.sol;OpenAddressLottery;Honeypot Uninitialised struct:True;honeypots/Lottery/README.md;
+honeypots/VarLoop/VarLoop.sol;:;VarLoop.sol;Test1;Honeypot Type overflow:True;honeypots/README.md;
+honeypots/KOTH/KOTH.sol;:;KOTH.sol;CEOThrone;Honeypot Inheritance disorder:True;honeypots/README.md;
+honeypots/GiftBox/GiftBox.sol;:;GiftBox.sol;NEW_YEARS_GIFT;Honeypot Hidden state update:True;honeypots/GiftBox/README.md;
+honeypots/PrivateBank/PrivateBank.sol;:;PrivateBank.sol;Private_Bank;Honeypot Straw man contract:True;honeypots/README.md;
+variable shadowing/inherited_state.sol;:;inherited_state.sol;C;SWC-119:True;variable shadowing/README.md;
+bad_randomness/theRun_source_code/theRun.sol;:;theRun.sol;theRun;SWC-120:True;bad_randomness/README.md;
+reentrancy/DAO_source_code/DAO.sol;:;DAO.sol;;SWC-107:True;reentrancy/README.md;
+reentrancy/Reentrancy.sol;:21,41:;Reentrancy.sol;Reentrance;SWC-107:True;reentrancy/README.md;reentrancy/ReentrancyExploit.sol
+reentrancy/Reentrancy.sol;:13,22:31,41:;Reentrancy_fixed1.sol;Reentrance;SWC-107:False;reentrancy/README.md;
+reentrancy/Reentrancy.sol;:13,32:;Reentrancy_fixed2.sol;Reentrance;SWC-107:False;reentrancy/README.md;
+reentrancy/SpankChain_source_code/SpankChain.sol;:;SpankChain.sol;HumanStandardToken;SWC-107:False;reentrancy/SpankChain_source_code/README.md;
+reentrancy/SpankChain_source_code/SpankChain_Payment.sol;:;SpankChain_Payment.sol;LedgerChannel;SWC-107:True;reentrancy/SpankChain_source_code/README.md;
+wrong_constructor_name/incorrect_constructor.sol;:;incorrect_constructor.sol;Missing;SWC-118:True;wrong_constructor_name/README.md;
+wrong_constructor_name/Rubixi_source_code/Rubixi.sol;:;Rubixi.sol;Rubixi;SWC-118:True;wrong_constructor_name/README.md;

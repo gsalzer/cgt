@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "StockBet",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "2ef5c829e796b8cd723a49c55dccb39f",
+    "fp_sol2": "596f4d68a2d0ae1d9335c7062b45cd75",
+    "id": "Re-entrancy-45",
+    "info": [
+        "info/BugLog_45.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_45.sol"
+    ],
+    "sol_orig": true
+}

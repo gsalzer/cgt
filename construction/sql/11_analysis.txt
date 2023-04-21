@@ -1,0 +1,162 @@
+ANALYSIS OF IGNORES
+===================
+
+Ignored assessments by dataset
+------------------------------
+    dataset     | count 
+----------------+-------
+ CodeSmells     |  1330
+ ContractFuzzer |     4
+ Doublade       |    40
+ eThor          |    18
+ EthRacer       |    16
+ EverEvolvingG  |    52
+ JiuZhou        |     3
+ NPChecker      |    31
+ SBcurated      |    16
+ SolidiFI       |     7
+ SWCregistry    |     1
+ Zeus           |  3210
+(12 rows)
+
+
+Ignored assessments by reason
+-----------------------------
+           reason           | count 
+----------------------------+-------
+ invalid contract reference |   153
+ property status is na      |   397
+ contradiction for id       |    18
+ conflict for address       |    21
+ conflict for source        |    59
+ conflict for bytecode      |     2
+ conflict for runtime code  |    60
+ duplicate own id           |    72
+ duplicate address          |  2299
+ duplicate source           |  1491
+ duplicate bytecode         |    60
+ duplicate runtime code     |    96
+(12 rows)
+
+
+Ignored assessments by reason and dataset
+-----------------------------------------
+           reason           | CodeSmells | ContractFuzzer | Doublade | eThor | EthRacer | EverEvolvingG | JiuZhou | NotSoSmartC | NPChecker | SBcurated | SolidiFI | SWCregistry | Zeus 
+----------------------------+------------+----------------+----------+-------+----------+---------------+---------+-------------+-----------+-----------+----------+-------------+------
+ invalid contract reference |          0 |              0 |        0 |     0 |        0 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |  153
+ property status is na      |        374 |              0 |        0 |    12 |       11 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |    0
+ contradiction for id       |          0 |              0 |        0 |     0 |        0 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |   18
+ conflict for address       |          0 |              0 |        0 |     0 |        0 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |   21
+ conflict for source        |         48 |              0 |        6 |     0 |        0 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |    5
+ conflict for bytecode      |          0 |              0 |        0 |     0 |        0 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |    2
+ conflict for runtime code  |         55 |              0 |        0 |     0 |        0 |             0 |       3 |           0 |         0 |         0 |        0 |           0 |    2
+ duplicate own id           |          0 |              0 |        0 |     0 |        2 |             0 |       0 |           0 |         0 |         0 |        0 |           0 |   70
+ duplicate address          |          0 |              0 |        0 |     0 |        0 |             0 |       0 |           0 |         0 |         0 |        0 |           0 | 2299
+ duplicate source           |        807 |              0 |       24 |     3 |        3 |            44 |       0 |           0 |        30 |         0 |        7 |           1 |  572
+ duplicate bytecode         |          0 |              3 |        5 |     0 |        0 |             8 |       0 |           0 |         0 |        10 |        0 |           0 |   34
+ duplicate runtime code     |         46 |              1 |        5 |     3 |        0 |             0 |       0 |           0 |         1 |         6 |        0 |           0 |   34
+(12 rows)
+
+
+Retained assessments by dataset
+-------------------------------
+    dataset     | count 
+----------------+-------
+ CodeSmells     | 10410
+ ContractFuzzer |   375
+ Doublade       |   279
+ eThor          |   702
+ EthRacer       |   111
+ EverEvolvingG  |   292
+ JiuZhou        |   165
+ NotSoSmartC    |    34
+ NPChecker      |   219
+ SBcurated      |   129
+ SolidiFI       |   343
+ SWCregistry    |   116
+ Zeus           |  7323
+(13 rows)
+
+
+
+ANALYSIS OF OVERLAPS
+====================
+
+    dataset     | singles | overlapping | total | CodeSmells | ContractFuzzer | Doublade | eThor | EthRacer | EverEvolvingG | NPChecker | Zeus | JiuZhou | NotSoSmartC | SBcurated | SolidiFI | SWCregistry 
+----------------+---------+-------------+-------+------------+----------------+----------+-------+----------+---------------+-----------+------+---------+-------------+-----------+----------+-------------
+ CodeSmells     |    5136 |         164 |  5300 |       5300 |              6 |        4 |    26 |        0 |             0 |        14 |  145 |       0 |           1 |         0 |        0 |           0
+ ContractFuzzer |     343 |          32 |   375 |          6 |            375 |        6 |     0 |        0 |             0 |         3 |   15 |       0 |           0 |        10 |        0 |           0
+ Doublade       |     257 |          22 |   279 |          4 |              6 |      279 |     2 |        0 |             0 |         2 |   10 |       0 |           0 |         7 |        0 |           0
+ eThor          |       6 |         696 |   702 |         26 |              0 |        2 |   702 |        0 |             0 |        25 |  691 |       0 |           0 |         0 |        0 |           0
+ EthRacer       |     106 |           5 |   111 |          0 |              0 |        0 |     0 |      111 |             0 |         0 |    5 |       0 |           0 |         0 |        0 |           0
+ EverEvolvingG  |      65 |           0 |    65 |          0 |              0 |        0 |     0 |        0 |            65 |         0 |    0 |       0 |           0 |         0 |        0 |           0
+ NPChecker      |      81 |         138 |   219 |         14 |              3 |        2 |    25 |        0 |             0 |       219 |  128 |       0 |           0 |         0 |        0 |           0
+ Zeus           |    6385 |         938 |  7323 |        145 |             15 |       10 |   691 |        5 |             0 |       128 | 7323 |       0 |           0 |         1 |        0 |           0
+ JiuZhou        |     127 |           2 |   129 |          0 |              0 |        0 |     0 |        0 |             0 |         0 |    0 |     129 |           0 |         0 |        0 |           2
+ NotSoSmartC    |      24 |           8 |    32 |          1 |              0 |        0 |     0 |        0 |             0 |         0 |    0 |       0 |          32 |         7 |        0 |           0
+ SBcurated      |      78 |          51 |   129 |          0 |             10 |        7 |     0 |        0 |             0 |         0 |    1 |       0 |           7 |       129 |        0 |          31
+ SolidiFI       |     343 |           0 |   343 |          0 |              0 |        0 |     0 |        0 |             0 |         0 |    0 |       0 |           0 |         0 |      343 |           0
+ SWCregistry    |      83 |          33 |   116 |          0 |              0 |        0 |     0 |        0 |             0 |         0 |    0 |       2 |           0 |        31 |        0 |         116
+(13 rows)
+
+
+
+ANALYSIS OF DISCREPANCIES
+=========================
+
+Maximal number of assessments involved in discrepancies
+-------------------------------------------------------
+ swc | yes | no | count 
+-----+-----+----+-------
+ 104 |   1 |  1 |    15
+ 104 |   1 |  2 |     2
+ 104 |   2 |  1 |     2
+ 107 |   1 |  1 |   156
+ 107 |   1 |  2 |     9
+ 107 |   1 |  3 |     1
+ 107 |   2 |  1 |     2
+ 113 |   1 |  1 |    15
+ 114 |   1 |  1 |     4
+ 120 |   1 |  1 |    11
+ 120 |   1 |  2 |     1
+ 997 |   1 |  1 |     2
+(12 rows)
+
+
+Discrepancies per dataset
+-------------------------
+    dataset     | count |          swc          
+----------------+-------+-----------------------
+ CodeSmells     |    34 | {104,107,113,120,997}
+ ContractFuzzer |    13 | {104,120,997}
+ Doublade       |     6 | {104,107}
+ eThor          |   166 | {107}
+ EthRacer       |     2 | {114}
+ NotSoSmartC    |     1 | {107}
+ NPChecker      |    25 | {104,107,113,114,120}
+ Zeus           |   211 | {104,107,113,114,120}
+(8 rows)
+
+
+Discrepancies with errors per dataset and SWC class
+---------------------------------------------------
+    dataset     | totalerr | total | 104err | 104 | 107err | 107 | 113err | 113 | 114err | 114 | 120err | 120 | 997err | 997 
+----------------+----------+-------+--------+-----+--------+-----+--------+-----+--------+-----+--------+-----+--------+-----
+ CodeSmells     |       15 |    34 |        |   8 |      6 |   9 |        |   8 |        |     |      7 |   7 |      2 |   2
+ ContractFuzzer |        4 |    13 |        |   7 |        |     |        |     |        |     |      4 |   4 |        |   2
+ Doublade       |        3 |     6 |        |   3 |      3 |   3 |        |     |        |     |        |     |        |    
+ eThor          |          |   166 |        |     |        | 166 |        |     |        |     |        |     |        |    
+ EthRacer       |        2 |     2 |        |     |        |     |        |     |      2 |   2 |        |     |        |    
+ NotSoSmartC    |          |     1 |        |     |        |   1 |        |     |        |     |        |     |        |    
+ NPChecker      |        7 |    25 |      3 |   6 |      1 |   7 |        |   7 |      1 |   2 |      2 |   3 |        |    
+ Zeus           |        4 |   211 |        |  18 |      3 | 163 |        |  15 |      1 |   4 |        |  11 |        |    
+(8 rows)
+
+
+Discrepancies with errors per SWC class (total)
+-----------------------------------------------
+ dataset | totalerr | total | 104err | 104 | 107err | 107 | 113err | 113 | 114err | 114 | 120err | 120 | 997err | 997 
+---------+----------+-------+--------+-----+--------+-----+--------+-----+--------+-----+--------+-----+--------+-----
+ total   |       35 |   458 |      3 |  42 |     13 | 349 |        |  30 |      4 |   8 |     13 |  25 |      2 |   4
+(1 row)
+

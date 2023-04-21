@@ -1,0 +1,38 @@
+{
+    "addr": "0xb70f62853d7a56f58339a9e850bd7e91f3adfac8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DSProxy.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "DSProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/delegatecall_dangerous/verified_contract_sols/DSProxy.sol"
+    },
+    "fp_bytecode": "53b35025b2fae7ac9aa83d7933696bae",
+    "fp_runtime": "d53d7008f55b5458098ca4ae6f1dfdb5",
+    "fp_sol": "6284ce9462bc66786c706a49896073b2",
+    "fp_sol2": "8bcc1553e73dffe3c2136ca4dae732ec",
+    "id": "DSProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

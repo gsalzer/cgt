@@ -1,0 +1,60 @@
+{
+    "addr": "0xad87e48d553c2308dccab428537f6d0809593ba4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "GameRegistry",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "ff78bd26b3c28ea4355323522962715f",
+    "fp_runtime": "f312d86da17a4a1b56bd1eeb4b2ee9ef",
+    "fp_sol": "bfefe4003cddd929bd86d180e451e732",
+    "fp_sol2": "bfefe4003cddd929bd86d180e451e732",
+    "id": "0760_Code_ad87e48d553c2308dccab428537f6d0809593ba4",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x27c41d20014fa87291006d02ddd81b2128039bd7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": false,
+    "contractname": "GithubHint",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "22f6ea51175851d5ee5e2a8458e97642",
+    "fp_runtime": "45f557035f01aa3bfedb069fc9a45dc2",
+    "fp_sol": "121176e78c672c5ffa433a6df7bdb7f9",
+    "fp_sol2": "121176e78c672c5ffa433a6df7bdb7f9",
+    "id": "1346_Code_19_0x27c41d20014fa87291006d02ddd81b2128039bd7",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

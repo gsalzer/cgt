@@ -1,0 +1,60 @@
+{
+    "addr": "0xe1388626c8de5fd7e5683a83d8da6a34153e9b18",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "NiceGuyPonzi",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "ce254a002451882d7f15113d87ae58e2",
+    "fp_runtime": "e74d60d9ec48d0bc38bbd18467209852",
+    "fp_sol": "88421dd04b6e54a38330d8a7bdced17e",
+    "fp_sol2": "88421dd04b6e54a38330d8a7bdced17e",
+    "id": "1188_Code_41_0xe1388626C8dE5Fd7E5683A83d8da6a34153e9B18",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x0be4da7701ffb8467c7445503312b2e13d90686e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DateTimeLib.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "DateTimeLib",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "630e870c5fc4ae65b8a8f94e0e2b32f7",
+    "fp_runtime": "e9cd4df04690a3584ba4992b50cc51da",
+    "fp_sol": "3ec92a383dda2043bfe7c435e852a1ed",
+    "fp_sol2": "e951eb3582bbac51ffa2546606018bf7",
+    "id": "DateTimeLib-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DateTimeLib.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

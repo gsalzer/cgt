@@ -1,0 +1,48 @@
+{
+    "addr": "0x26c4e381ffbdc825be9b986c3ba40525f0771e8d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": false,
+    "contractname": "Coinflip",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b05aec14b4160f598a25cb5073f80367",
+    "fp_runtime": "8aac41eadec402cb0e0e1df3e7c3b68c",
+    "fp_sol": "25d2d97c3a0974f61dc2ab988b910a62",
+    "fp_sol2": "25d2d97c3a0974f61dc2ab988b910a62",
+    "id": "0176_Code_40_0x26C4E381FfbDc825Be9B986c3BA40525f0771E8d",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

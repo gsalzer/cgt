@@ -1,0 +1,26 @@
+reorder_contracts_2_3/test2828.sol
+jar:file:/usr/local/lib/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 6
+column: 2
+content: functionbalanceOf(addresswho)publicconstantreturns(uint256);
+
+ruleId: SOLIDITY_OVERPOWERED_ROLE
+patternId: j83hf7
+severity: 2
+line: 67
+column: 2
+content: functionsetBountyAmount(uint256_BountyAmount)publiconlyOwner{require(_BountyAmount>0);BountyAmount=_BountyAmount;emitBountyAmountUpdate(BountyAmount);}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 1
+column: 16
+content: ^
+
+SOLIDITY_OVERPOWERED_ROLE :1
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :1
+SOLIDITY_PRAGMAS_VERSION :1
+

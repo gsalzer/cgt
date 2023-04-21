@@ -1,0 +1,2 @@
+{u'source_code/test1653.sol': {u'BritainGlobalCurrencyToken': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test1653.sol:23:2: Warning: Integer Underflow.\n\tstring public name', u"source_code/test1653.sol:26:5: Warning: Integer Underflow.\n    string public version = 'H0.1'", u'source_code/test1653.sol:25:5: Warning: Integer Underflow.\n    string public symbol'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '54.0'}}}
+

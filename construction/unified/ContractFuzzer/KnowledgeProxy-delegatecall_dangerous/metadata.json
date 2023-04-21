@@ -1,0 +1,38 @@
+{
+    "addr": "0x217375af2de10c73f94408c3258a956df106ba98",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "KnowledgeProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0d32db1520abef3fbdfac4b880b4c09d",
+    "fp_runtime": "0ae08d89568a44f8da63fca832e4aa26",
+    "fp_sol": "8fe4bdcbc46db4e9bb7d853e10cbdb5d",
+    "fp_sol2": "b631ee890a832213b5184effe1ab1b74",
+    "id": "KnowledgeProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_KnowledgeProxy.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_KnowledgeProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

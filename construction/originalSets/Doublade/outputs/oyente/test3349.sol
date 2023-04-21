@@ -1,0 +1,2 @@
+{u'source_code/test3349.sol': {u'Fundraiser': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test3349.sol:122:7: Warning: Transaction-Ordering Dependency.\n      signer1_proposal.destination.transfer(this.balance)'], [u'source_code/test3349.sol:122:7: Warning: Transaction-Ordering Dependency.\n      signer1_proposal.destination.transfer(this.balance)']], 'assertion_failure': []}, 'evm_code_coverage': '97.0'}}}
+

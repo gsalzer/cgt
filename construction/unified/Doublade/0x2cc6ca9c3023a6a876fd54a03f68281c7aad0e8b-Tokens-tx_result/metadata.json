@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "Tokens",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x2cc6ca9c3023a6a876fd54a03f68281c7aad0e8b",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x2cc6ca9c3023a6a876fd54a03f68281c7aad0e8b",
+            "main",
+            "ICOPreSale"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "1dcedd4e071062609a31ee343b1e6688",
+    "fp_sol2": "3b5964cb0e79204b20c816fbd70e6c45",
+    "id": "0x2cc6ca9c3023a6a876fd54a03f68281c7aad0e8b-Tokens-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test701.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

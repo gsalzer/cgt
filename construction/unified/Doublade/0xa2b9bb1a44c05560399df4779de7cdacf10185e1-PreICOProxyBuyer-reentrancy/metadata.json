@@ -1,0 +1,37 @@
+{
+    "addr": "0xa2b9bb1a44c05560399df4779de7cdacf10185e1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.14+commit.c2215d46",
+    "compiler_orig": false,
+    "contractname": "PreICOProxyBuyer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "77fc10e2127a235fe224664fcab73702",
+    "fp_runtime": "1597fa9e84808f51d8938e8b91f17814",
+    "fp_sol": "b4477ef57617863fe3525e116c295d6b",
+    "fp_sol2": "b4477ef57617863fe3525e116c295d6b",
+    "id": "0xa2b9bb1a44c05560399df4779de7cdacf10185e1-PreICOProxyBuyer-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2488.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,39 @@
+{
+    "addr": "0x13c547ff0888a0a876e6f1304eaefe9e6e06fc4b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Honeypot Hidden state update",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "NEW_YEARS_GIFT",
+    "contractname_orig": true,
+    "dataset": "NotSoSmartC",
+    "etc": {},
+    "fp_bytecode": "caea4515beb28c4b6412be8b0d0e07f9",
+    "fp_runtime": "7a0b4247781c2b6cc6201d8bdcde28b1",
+    "fp_sol": "2ee2dcf24eb99743fbe0392f8bf6ad4b",
+    "fp_sol2": "7338c3990123b2ade052847e8aa7e8a2",
+    "id": "GiftBox",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_GiftBox.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

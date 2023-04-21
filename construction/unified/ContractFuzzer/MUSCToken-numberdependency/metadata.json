@@ -1,0 +1,37 @@
+{
+    "addr": "0x63bccbd675267ac12e3bf57b52e95c97edae3027",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/MUSCToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "MUSCToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1b18cf90228a930eae3d0f402cf3a908",
+    "fp_runtime": "7f0e3bbfaec4e00ae555727ed359fd9a",
+    "fp_sol": "a22cf5d78c42244bc5ff0cd0e291eae3",
+    "fp_sol2": "703430c5a5746b1a94a37c9f542b275e",
+    "id": "MUSCToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MUSCToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

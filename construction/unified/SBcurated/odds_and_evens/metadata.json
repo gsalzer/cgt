@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "front_running",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "OddsAndEvens",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#oddsandevens"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "9280f2f8a04f559485d7bdfd31fcc34b",
+    "fp_sol2": "0c1a4514ce38ca752959f86965c6f769",
+    "id": "odds_and_evens",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/odds_and_evens.sol"
+    ],
+    "sol_orig": true
+}

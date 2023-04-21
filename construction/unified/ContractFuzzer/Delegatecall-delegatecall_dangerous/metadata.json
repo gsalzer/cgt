@@ -1,0 +1,35 @@
+{
+    "addr": "0x47fb2afa895f351db519827677e59ee70e5454ef",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "Delegatecall",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "23ec2e8feb21356fea59a5d696a16f08",
+    "fp_sol": "46e6ccc99aa5cfb01a12d3041e32fa93",
+    "fp_sol2": "7c4ba9638d4f0251d4577c7b7abe6ae8",
+    "id": "Delegatecall-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/Delegatecall.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_Delegatecall.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x7dd8d4c556d2005c5bafc3d5449a99fb46279e6b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "SmartRouletteToken",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "3cdcbd1e5dc5d44e9d3532b3004ef4e8",
+    "fp_runtime": "3ac839da7d8e3d628115f2098c0c1a1b",
+    "fp_sol": "14319577d4aab901474740f6e6c012b7",
+    "fp_sol2": "766d007c043a4282c7739af1c8ee266a",
+    "id": "1101_Code_1_0x7dd8d4c556d2005c5bafc3d5449a99fb46279e6b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

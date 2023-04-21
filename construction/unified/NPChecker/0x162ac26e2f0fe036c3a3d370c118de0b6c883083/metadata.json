@@ -1,0 +1,54 @@
+{
+    "addr": "0x162ac26e2f0fe036c3a3d370c118de0b6c883083",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.3+commit.2353da71",
+    "compiler_orig": false,
+    "contractname": "InchainICO",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "send function is translated into a code with jump table, llvm ir with about 1500 LOC.        "
+    },
+    "fp_bytecode": "63f0afa1cfd208958d745eec3926ec70",
+    "fp_runtime": "c27da94d910fa32e392724beeb25c2e4",
+    "fp_sol": "1d911a75645a7e93361992321040b1b9",
+    "fp_sol2": "9cb9282b35d515156201ac6622207bb5",
+    "id": "0x162ac26e2f0fe036c3a3d370c118de0b6c883083",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

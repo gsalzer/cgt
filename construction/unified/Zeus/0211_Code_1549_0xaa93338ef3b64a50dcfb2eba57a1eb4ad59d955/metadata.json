@@ -1,0 +1,60 @@
+{
+    "addr": "0xaa93338ef3b64a50dcfb2eba57a1eb4ad59d955b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "PPBC_Ether_Claim",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b35b8c1562b5c2156b504c3575879fc8",
+    "fp_runtime": "70549c92cac684cd1427c013d7ec20dd",
+    "fp_sol": "28c6c43a8b56f1bb8e68a71e1b248780",
+    "fp_sol2": "4efb3f4253752d0209e9a602d4e910e0",
+    "id": "0211_Code_1549_0xaa93338ef3b64a50dcfb2eba57a1eb4ad59d955",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

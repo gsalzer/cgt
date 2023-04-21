@@ -1,0 +1,60 @@
+{
+    "addr": "0x6ba4313d6b01efd3c81224a1d34794b2a0b0cf76",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "SignedDigitalAsset",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "3368a7d0b418ffbc283e014d9ddac80c",
+    "fp_runtime": "c573fc15416b5d6dc0fb548079154d13",
+    "fp_sol": "2c4b91cc4be3826201e30804297a6566",
+    "fp_sol2": "36c173980e250ac666cad38e974bb4bb",
+    "id": "1229_Code_2116_0x6ba4313d6b01efd3c81224a1d34794b2a0b0cf7",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

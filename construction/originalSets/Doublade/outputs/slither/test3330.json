@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "coinScheduleReferral.fallback (reorder_contracts_2_3/test3330.sol#173-180) ignores return value by low-level calls \"wwamICOcontractAddress.call.gas(300000).value(msg.value)()\" (reorder_contracts_2_3/test3330.sol#174)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "wwamICOcontractAddress.call.gas(300000).value(msg.value)()",
+            "source_mapping": {
+              "start": 5516,
+              "length": 58,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+              "filename_relative": "reorder_contracts_2_3/test3330.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+              "filename_short": "reorder_contracts_2_3/test3330.sol",
+              "lines": [
+                174
+              ],
+              "starting_column": 9,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 5486,
+                  "length": 425,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3330.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+                  "filename_short": "reorder_contracts_2_3/test3330.sol",
+                  "lines": [
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "coinScheduleReferral",
+                    "source_mapping": {
+                      "start": 5069,
+                      "length": 845,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3330.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+                      "filename_short": "reorder_contracts_2_3/test3330.sol",
+                      "lines": [
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 5486,
+              "length": 425,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+              "filename_relative": "reorder_contracts_2_3/test3330.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+              "filename_short": "reorder_contracts_2_3/test3330.sol",
+              "lines": [
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "coinScheduleReferral",
+                "source_mapping": {
+                  "start": 5069,
+                  "length": 845,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3330.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3330.sol",
+                  "filename_short": "reorder_contracts_2_3/test3330.sol",
+                  "lines": [
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

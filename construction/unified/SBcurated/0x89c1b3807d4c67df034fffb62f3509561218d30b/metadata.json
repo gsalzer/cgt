@@ -1,0 +1,39 @@
+{
+    "addr": "0x89c1b3807d4c67df034fffb62f3509561218d30b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "TownCrier",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "b825007bbd7148e83de85816047e9771",
+    "fp_runtime": "596b9fc88fedb7d58ab39d30b4ed7e32",
+    "fp_sol": "e2e2dfdd5b2aef9cb589386db546b554",
+    "fp_sol2": "83bc1c5632f7c13d088642b75c237160",
+    "id": "0x89c1b3807d4c67df034fffb62f3509561218d30b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

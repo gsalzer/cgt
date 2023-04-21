@@ -1,0 +1,42 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "Ownable",
+            "PercentRateFeature",
+            "PercentRateProvider",
+            "SafeMath",
+            "SpecialWallet"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "b2a42b00ee1a9fa8ec2f4fa50884aeb2",
+    "fp_sol": "4d14aab75a63ecdb68728c8960d405d5",
+    "fp_sol2": "5c96ae0d74209e18f6870015d9648071",
+    "id": "SpecialWallet-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/SpecialWallet.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/SpecialWallet.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x1d77340d3819007bbfd7fdd37c22bd3b5c311350",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": true,
+    "contractname": "RockPaperScissors",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "1f2365ece65b2ed095ac4347b4635598",
+    "fp_runtime": "16fe2d6338edee7590b45a682f34279d",
+    "fp_sol": "fb1b19c504cabb3d4dd87e1a8e741e4a",
+    "fp_sol2": "fb1b19c504cabb3d4dd87e1a8e741e4a",
+    "id": "0x1d77340d3819007bbfd7fdd37c22bd3b5c311350",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "continue in do-while",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "gray_doWhileContinue",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "09ac0598056d6e09d8d8cbc925acc57f",
+    "fp_runtime": "d611f0cfa105013d56ea926d2c8fcaf6",
+    "fp_sol": "74e28c126192caa488f28fd004dcc94a",
+    "fp_sol2": "51b85f5384772275a41e95d074591014",
+    "id": "dowhileButNoContinue",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/dowhileButNoContinue.sol"
+    ],
+    "sol_orig": true
+}

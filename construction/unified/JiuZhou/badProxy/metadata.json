@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "The call address or data are externally controlled",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Proxy",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            20
+        ],
+        "BugName": "Call information controlled by external",
+        "BugReason": "The address and parameters of the delegate call are controlled by external input, which is dangerous, meaning that an attacker can load any piece of code that is executed in this contract.",
+        "ContractSource": "https://swcregistry.io/"
+    },
+    "fp_bytecode": "e2fc925e40214d60e5cac3ad5f0e8224",
+    "fp_runtime": "b9a1e6f2026ef0aced146b055ed12cbb",
+    "fp_sol": "1ff0e80d13c4b745b35c863a71f92e50",
+    "fp_sol2": "1f771076e242fc0ffe59937535e09bd7",
+    "id": "badProxy",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/badProxy.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x20073a27811c561ab54fd2f57f31c54717da49ce",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BsPresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "BsPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "bce66f6cf6020a9ec6d0fda0adf4a6f7",
+    "fp_runtime": "4821ce0904429a5461e8d06b73c210e9",
+    "fp_sol": "7d0e3f58927a4b3e5651892d5045b74c",
+    "fp_sol2": "b849d25b408e21e8bdffbb8e1e694893",
+    "id": "BsPresale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BsPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

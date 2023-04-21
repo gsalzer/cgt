@@ -1,0 +1,37 @@
+{
+    "addr": "0x1368e088682b3ea455c4856297365542ca6828d8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": true,
+    "contractname": "ResetPonzi",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "e4c10abab70648159fb97f371b00035f",
+    "fp_runtime": "4071a308098778d97a7ae905395ba611",
+    "fp_sol": "13756dcaa931f496a490936b90088471",
+    "fp_sol2": "13756dcaa931f496a490936b90088471",
+    "id": "0x1368e088682b3ea455c4856297365542ca6828d8",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

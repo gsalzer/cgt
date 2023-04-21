@@ -1,0 +1,11 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': 0, 'tx_caller': 'cd43dd592d465e037f21551cad2fe5d8902c8fb8', 'name': 'withdraw', 'tx_input': '3ccfd60b'}
+1 : {'tx_value': '0', 'tx_caller': 'cd43dd592d465e037f21551cad2fe5d8902c8fb8', 'name': 'setMultiSigWallet', 'tx_input': 'f03b0c0b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+--------------------------------------------------------------------------------
+
+Full traces: 1
+--------------------------------------------------------------------------------
+0 1   :  withdraw setMultiSigWallet 
+1 0   :  setMultiSigWallet withdraw 
+------------------------------------------------------------

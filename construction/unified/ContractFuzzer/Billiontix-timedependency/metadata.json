@@ -1,0 +1,37 @@
+{
+    "addr": "0x096d7ce60278e623c0b5763a0d04fde844d2c537",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Billiontix.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Billiontix",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "4cdef2a73a20244704e227082f5cac1c",
+    "fp_runtime": "8c5b7935bd2e0ebd3a38a490afa9c85b",
+    "fp_sol": "a0e294c1408a762fbfbf508e1e207be9",
+    "fp_sol2": "875a92088fbc0074cb086a1b01b0d7d6",
+    "id": "Billiontix-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Billiontix.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

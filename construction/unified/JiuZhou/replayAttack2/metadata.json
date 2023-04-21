@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Replay attack",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "proxy",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            27
+        ],
+        "BugName": "Results of contract execution affected by miners",
+        "BugReason": "In function transferProxy, the nonce value can be pre-judgmented, so that the transaction can be replayed on another chain through identity verification.",
+        "ContractSource": "https://swcregistry.io/"
+    },
+    "fp_bytecode": "72df655588f9b2337481844267647d7f",
+    "fp_runtime": "3dadb696cf780ad9d63a14edc591f51e",
+    "fp_sol": "91ccd3e999b8b46d20346233a4bf94ee",
+    "fp_sol2": "ca9a73f7876fe0d04c269a7d78d9009d",
+    "id": "replayAttack2",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/replatAttack2.sol"
+    ],
+    "sol_orig": true
+}

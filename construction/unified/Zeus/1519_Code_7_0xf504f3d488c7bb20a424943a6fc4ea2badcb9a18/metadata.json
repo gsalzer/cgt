@@ -1,0 +1,60 @@
+{
+    "addr": "0xf504f3d488c7bb20a424943a6fc4ea2badcb9a18",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "BalanceReader",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "a983509ec22eaabbfb4c42af5771897b",
+    "fp_runtime": "61c6932c407998a78aaebdd939860f07",
+    "fp_sol": "2596839d2345f66c2722d4cfed4eec5e",
+    "fp_sol2": "da5b21ad32133e00e77d871c71f156dd",
+    "id": "1519_Code_7_0xf504f3d488c7bb20a424943a6fc4ea2badcb9a18",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

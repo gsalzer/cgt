@@ -1,0 +1,36 @@
+{
+    "addr": "0x0ec4207aa379dfcd9239e987530b95a55178e5eb",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "MtcToken",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "9bdef4ffb08cc51b100dfae658cc35a0",
+    "fp_runtime": "da17d9210701f99ef7b6183900c09a0b",
+    "fp_sol": "f2e587be555b9046ca3ad3c17d0d17ae",
+    "fp_sol2": "c17caf2b51b661996e01f9528247c2e9",
+    "id": "0x0ec4207aa379dfcd9239e987530b95a55178e5eb",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

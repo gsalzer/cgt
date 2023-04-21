@@ -1,0 +1,35 @@
+{
+    "addr": "0x6280c8a4301e4775412563146e8f5e483853bc31",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "ZwtTokenProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "0ff0a2722f164b4cde7d964ff416ccd2",
+    "fp_sol": "e8b236eb59e9f5c43f463b9c54f7c7ec",
+    "fp_sol2": "f09bd9c1a64c7f2bf724d71d58e570f1",
+    "id": "ZwtTokenProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/ZwtTokenProxy.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_ZwtTokenProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

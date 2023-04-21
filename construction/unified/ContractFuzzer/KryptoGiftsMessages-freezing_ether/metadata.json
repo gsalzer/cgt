@@ -1,0 +1,35 @@
+{
+    "addr": "0xc42e21781939623c5b24a7335c01087e0ed2ae8f",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "KryptoGiftsMessages",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "dbb2d81a25b6b821230283f555cc889b",
+    "fp_sol": "3092bb01c3ed21e8dd06dcb4555bda4b",
+    "fp_sol2": "aa374a497fa66c86e1f2d0233141ccf7",
+    "id": "KryptoGiftsMessages-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/KryptoGiftsMessages.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_KryptoGiftsMessages.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

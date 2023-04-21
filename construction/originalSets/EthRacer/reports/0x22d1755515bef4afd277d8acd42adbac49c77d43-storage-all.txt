@@ -1,0 +1,46 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'name', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '06fdde03'}
+1 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'getTokenBalance', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'c489744b'}
+2 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'getTokenBalance', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'c489744b'}
+3 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'getTokenBalance', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'c489744b'}
+4 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+5 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'enableWhitelist', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '9c09c835'}
+6 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'enableWhitelist', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '9c09c835'}
+7 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000008fbd6b6d5fa77d81ce9da486513a0d1eb054f060ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+8 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'decimals', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '313ce567'}
+9 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'decimals', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '313ce567'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'distribution', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'f3e4877c'}
+11 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'distribution', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'f3e4877c'}
+12 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+13 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'name', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '06fdde03'}
+14 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'name', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '06fdde03'}
+15 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'withdrawForeignTokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'e58fc54c'}
+16 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'withdrawForeignTokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'e58fc54c'}
+17 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'withdrawForeignTokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'e58fc54c'}
+18 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000008fbd6b6d5fa77d81ce9da486513a0d1eb054f060c00000000000000000000000000000000000000000000000000289ffffffbffe'}
+19 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000008fbd6b6d5fa77d81ce9da486513a0d1eb054f06000000000000000000000000014f933787dced46ac587344cf7d994e86401cc880000000000000000000000000000000000000000000000000005c6f800e04000'}
+20 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000008fbd6b6d5fa77d81ce9da486513a0d1eb054f0608000000004000040000000200000000410000000000000000003804000000000'}
+21 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000008fbd6b6d5fa77d81ce9da486513a0d1eb054f0600000000000000000000000008fbd6b6d5fa77d81ce9da486513a0d1eb054f0600000000000000000000000000000000000000000000000000023804000000000'}
+22 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+23 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+24 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+25 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'value', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '3fa4f245'}
+26 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'withdraw', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '3ccfd60b'}
+27 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'symbol', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '95d89b41'}
+28 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'distributeAmounts', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'a8c310d5'}
+29 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'distributeAmounts', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'a8c310d5'}
+30 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'distributeAmounts', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'a8c310d5'}
+31 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'disableWhitelist', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '502dadb0'}
+32 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'disableWhitelist', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '502dadb0'}
+33 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'disableWhitelist', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '502dadb0'}
+34 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'airdrop', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '729ad39e'}
+35 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'airdrop', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '729ad39e'}
+36 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'airdrop', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '729ad39e'}
+37 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'enableWhitelist', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '9c09c835'}
+38 : {'tx_caller': '8fbd6b6d5fa77d81ce9da486513a0d1eb054f060', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+39 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'value', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '3fa4f245'}
+--------------------------------------------------------------------------------
+
+Full traces: 0
+--------------------------------------------------------------------------------

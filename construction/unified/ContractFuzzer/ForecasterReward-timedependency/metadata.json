@@ -1,0 +1,37 @@
+{
+    "addr": "0x94b9188cb5b6980c88484b6ed38d8c4001108a04",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ForecasterReward.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "ForecasterReward",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "e884379973429348fa22ad685aaf3bde",
+    "fp_runtime": "683b923fc713b704f2363c8fbca3c5e1",
+    "fp_sol": "6fab2d27933e8c26e2bf144353ea4226",
+    "fp_sol2": "1b1e82e660eb4c9e2b04a42280640d70",
+    "id": "ForecasterReward-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ForecasterReward.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

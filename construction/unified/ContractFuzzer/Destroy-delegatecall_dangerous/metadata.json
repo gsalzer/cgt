@@ -1,0 +1,38 @@
+{
+    "addr": "0x5ecdaf39eb3228c634943e591eb08f3a66eae2ba",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "Destroy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f5c9fb0e69c2201ea56ae9a4dc005102",
+    "fp_runtime": "d024f3c9c3284c950a1a0c8496b7de0b",
+    "fp_sol": "1e844f3c1c41a6ef685bf2637730e6c8",
+    "fp_sol2": "0836dfda7f1cdf02b6a29f3879437a15",
+    "id": "Destroy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_Destroy.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Destroy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

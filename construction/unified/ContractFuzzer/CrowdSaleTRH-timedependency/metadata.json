@@ -1,0 +1,37 @@
+{
+    "addr": "0x7e0b06a487b0060d447ea0bb8415b5cc6d7bd1d8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CrowdSaleTRH.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.12+commit.194ff033",
+    "compiler_orig": false,
+    "contractname": "CrowdSaleTRH",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "256732ca07853af0df451ee46737ba2d",
+    "fp_runtime": "498c65708fd747e977aa9f715ff98991",
+    "fp_sol": "eed10a52c5dad384f20562413f6bf666",
+    "fp_sol2": "c0af6853e74241dfea6ea1eb237759e0",
+    "id": "CrowdSaleTRH-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CrowdSaleTRH.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

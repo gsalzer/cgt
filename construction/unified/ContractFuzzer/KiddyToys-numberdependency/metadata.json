@@ -1,0 +1,38 @@
+{
+    "addr": "0x6d500e4b6565c3c25a6edd51839d52269e3d293f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/KiddyToys.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "KiddyToys",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/numberdependency/verified_contract_sols/KiddyToys.sol"
+    },
+    "fp_bytecode": "0c09f0b3dfd54d1414806d6e6b61d339",
+    "fp_runtime": "3ae94afa921d52cc44aee0e93bfb341b",
+    "fp_sol": "16b82cbbe992a9b8a07770af9e24ab14",
+    "fp_sol2": "730597255f9a98b930b7a5543f585bd1",
+    "id": "KiddyToys-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

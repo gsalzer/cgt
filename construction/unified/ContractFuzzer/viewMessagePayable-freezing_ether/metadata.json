@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "viewMessagePayable",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "031b6b8e18058150760d9d095c3b33e1",
+    "fp_sol": "9c346c29a1dde2e87094c75bda812dda",
+    "fp_sol2": "aa321574a6ef35220c6f5a416c4e4927",
+    "id": "viewMessagePayable-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/viewMessagePayable.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/viewMessagePayable.sol"
+    ],
+    "sol_orig": true
+}

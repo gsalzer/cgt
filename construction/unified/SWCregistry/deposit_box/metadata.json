@@ -1,0 +1,37 @@
+{
+    "addr": "0x55011de64cffc2c79007f6aa82ec1e6df7193bf5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-135",
+            true
+        ]
+    ],
+    "compiler": "0.5.14+commit.01f1aaa4.Windows.msvc",
+    "compiler_orig": true,
+    "contractname": "DepositBox",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "c2f729a56136f45f9149662701a9aa0b",
+    "fp_runtime": "200b27dd612d0c35999158a18445b7ca",
+    "fp_sol": "df24862e145343b0fa2d9cea58a4fa42",
+    "fp_sol2": "5507cb8588f49f6de7684d338e75869b",
+    "id": "deposit_box",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_deposit_box.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x76e580f75bf01bffbf4f44167d5822346de4f176",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": true,
+    "contractname": "WillieWatts",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "15cc141bf3943b9b4e20f99e793a37bc",
+    "fp_runtime": "641ebc55d2990a7137fa77353b5bb51e",
+    "fp_sol": "2b7c74cabfe7d49ebe4d6bf7e1500dbc",
+    "fp_sol2": "36da03deb17d9d6ccc40db03e282468c",
+    "id": "0x76e580f75bf01bffbf4f44167d5822346de4f176",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

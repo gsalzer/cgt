@@ -1,0 +1,37 @@
+{
+    "addr": "0xad2d970edff30d8f166989470aaf4be3ff6375ae",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": true,
+    "contractname": "PassDao",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "31852645004c824205b5a4d1922c6fa8",
+    "fp_runtime": "38cb6a12929b44f25be33094aa7a7ce2",
+    "fp_sol": "36af7f1d3af5a203d51030f484a34753",
+    "fp_sol2": "350664bb9577f9c72c561aa69593e5af",
+    "id": "0xad2d970edff30d8f166989470aaf4be3ff6375ae",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xe200641890772fce8ee6edc5354ccea30ac92f49",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Who.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "Who",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f51d15f5bc2ffbfdc8c3056a5d0ccfb2",
+    "fp_runtime": "311d9805b28a58699e427d6429d20a9a",
+    "fp_sol": "964f94b10bde8775e94c9969cf91d519",
+    "fp_sol2": "bc9b9437f86efbbd6ef66f86a57841f8",
+    "id": "Who-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Who.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

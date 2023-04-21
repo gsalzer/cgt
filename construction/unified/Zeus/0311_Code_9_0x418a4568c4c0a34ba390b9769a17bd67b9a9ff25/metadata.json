@@ -1,0 +1,56 @@
+{
+    "addr": "0x418a4568c4c0a34ba390b9769a17bd67b9a9ff25",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9-nightly.2017.1.16+commit.79e5772b",
+    "compiler_orig": false,
+    "contractname": "TimeStamp",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "0d723ab4aa14119693f9deaaf0c196d6",
+    "fp_sol2": "9a52582ab91f3c696ed443a652b083e2",
+    "id": "0311_Code_9_0x418a4568c4c0a34ba390b9769a17bd67b9a9ff25",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

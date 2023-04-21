@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Hidden built-in symbols",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "HiddenBuiltinSymbols",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            12
+        ],
+        "BugName": "Hidden built-in symbols",
+        "BugReason": "The owner of FatherContract is overridden and not assigned. So the onlyOwner doesn't work.",
+        "ContractSource": "Jiuzhou"
+    },
+    "fp_bytecode": "c703407a7098fb4a87baf95b5db81df5",
+    "fp_runtime": "941cf515f0315293c781b5c51bda9b8a",
+    "fp_sol": "66c46209cfe6de4b1fe253c06763b809",
+    "fp_sol2": "bfc36676ae8367172d34b368ec6ad10d",
+    "id": "hiddenSymbol",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/hiddenSymbol.sol"
+    ],
+    "sol_orig": true
+}

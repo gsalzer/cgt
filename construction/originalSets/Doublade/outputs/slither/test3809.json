@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "YoobaBatchTransfer.batchTransfer has external calls inside a loop: \"assert(bool)(_token.transfer(_to[i],_amountOfEach))\" (reorder_contracts_2_3/test3809.sol#171)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "assert(bool)(_token.transfer(_to[i],_amountOfEach))",
+            "source_mapping": {
+              "start": 4795,
+              "length": 45,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3809.sol",
+              "filename_relative": "reorder_contracts_2_3/test3809.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3809.sol",
+              "filename_short": "reorder_contracts_2_3/test3809.sol",
+              "lines": [
+                171
+              ],
+              "starting_column": 11,
+              "ending_column": 56
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "batchTransfer",
+                "source_mapping": {
+                  "start": 4467,
+                  "length": 392,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3809.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3809.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3809.sol",
+                  "filename_short": "reorder_contracts_2_3/test3809.sol",
+                  "lines": [
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "YoobaBatchTransfer",
+                    "source_mapping": {
+                      "start": 4297,
+                      "length": 1090,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3809.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3809.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3809.sol",
+                      "filename_short": "reorder_contracts_2_3/test3809.sol",
+                      "lines": [
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "batchTransfer(IERC20Token,address[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

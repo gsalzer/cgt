@@ -1,0 +1,37 @@
+{
+    "addr": "0x748defc02aa6221ae4db129bbe7e6a97537a6f45",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": true,
+    "contractname": "Lottery",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "8cf1952a2ec93e6f7b1a4a5af6fc59f7",
+    "fp_runtime": "dc36ffff91e94031c9ea56b5cada0b2b",
+    "fp_sol": "652686c608ec7ca2db6321d1dce79846",
+    "fp_sol2": "652686c608ec7ca2db6321d1dce79846",
+    "id": "0x748defc02aa6221ae4db129bbe7e6a97537a6f45",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

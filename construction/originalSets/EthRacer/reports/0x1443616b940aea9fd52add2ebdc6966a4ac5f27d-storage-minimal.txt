@@ -1,0 +1,10 @@
+Minimal found traces: 3 
+--------------------------------------------------------------------------------
+['disablePurchasing', 'enablePurchasing']
+['enablePurchasing', 'disablePurchasing']
+--------------------------------------------------------------------------------
+['transfer', 'enablePurchasing', 'fallback']
+['enablePurchasing', 'fallback', 'transfer']
+--------------------------------------------------------------------------------
+['enablePurchasing', 'transfer', 'fallback']
+['enablePurchasing', 'fallback', 'transfer']

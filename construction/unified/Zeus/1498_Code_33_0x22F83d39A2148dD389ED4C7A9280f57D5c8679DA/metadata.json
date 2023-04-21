@@ -1,0 +1,60 @@
+{
+    "addr": "0x22f83d39a2148dd389ed4c7a9280f57d5c8679da",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-21-b23c300",
+    "compiler_orig": false,
+    "contractname": "Emailer",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "0b6d00be2505385315d1436f0dee7898",
+    "fp_runtime": "ecec079b6ffc68b62917181d360b0f47",
+    "fp_sol": "ae8faf841b910d5fd37bad60509f9f42",
+    "fp_sol2": "ae8faf841b910d5fd37bad60509f9f42",
+    "id": "1498_Code_33_0x22F83d39A2148dD389ED4C7A9280f57D5c8679DA",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

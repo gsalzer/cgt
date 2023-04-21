@@ -1,0 +1,37 @@
+{
+    "addr": "0xfd2d4e7c0876575bc879f0edb9b59f32d789856d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ChristmasClub.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "ChristmasClub",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "43f5bedfc26ee9a357e14e93cb587275",
+    "fp_runtime": "118028fdcec0fd6c1fe2e01061a464c1",
+    "fp_sol": "27d7a8f31eca79b168da6a4a8cd5b5a9",
+    "fp_sol2": "d091a912ef4d2bbf16b377e57e6b5dfa",
+    "id": "ChristmasClub-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ChristmasClub.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

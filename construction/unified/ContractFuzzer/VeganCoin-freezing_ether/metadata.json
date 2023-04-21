@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ERC20Token",
+            "StandardToken",
+            "VeganCoin"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "f245eb6d529a84380961092b624c5a50",
+    "fp_sol": "22aca3d60dda3694f3e6be3216b0061c",
+    "fp_sol2": "e46a53cd0d717d5d1796baa1e4b94985",
+    "id": "VeganCoin-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/VeganCoin.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/VeganCoin.sol"
+    ],
+    "sol_orig": true
+}

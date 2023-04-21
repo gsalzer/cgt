@@ -1,0 +1,37 @@
+{
+    "addr": "0x2c875e5ea4706b1978a41b59edf2d3af31d60e70",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "WavesEthereumSwap",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b52ee3faf4a32e93ac750e3983dfe9e8",
+    "fp_runtime": "ffabae15790a0a0931cf24b05416b727",
+    "fp_sol": "cd5684773f393f8fe28e4d3a42225cd4",
+    "fp_sol2": "dde4e22d2d9f4737589e7d5635454b6e",
+    "id": "0x2c875e5ea4706b1978a41b59edf2d3af31d60e70",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

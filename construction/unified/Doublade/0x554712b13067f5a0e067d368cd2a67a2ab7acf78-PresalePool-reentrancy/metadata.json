@@ -1,0 +1,37 @@
+{
+    "addr": "0x554712b13067f5a0e067d368cd2a67a2ab7acf78",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PresalePool",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "d8af598d755408bf224053889f84ae0b",
+    "fp_runtime": "1314bb715ad83b5037fc586ac0e80b07",
+    "fp_sol": "07601b034f8e36319188e57a49bd5ce8",
+    "fp_sol2": "440e14a9c0e98a7a78a168a08aab62a5",
+    "id": "0x554712b13067f5a0e067d368cd2a67a2ab7acf78-PresalePool-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1346.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0xe736091fc36f1ad476f5e4e03e4425940822d3ba",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5+commit.5f97274",
+    "compiler_orig": false,
+    "contractname": "SingularDTVFund",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "730d872ffb99cab4409953fca63986b9",
+    "fp_runtime": "adb369ca115a76609d06f2bb024f23aa",
+    "fp_sol": "886d5f79bdb6e8adacafc1cc518304bf",
+    "fp_sol2": "886d5f79bdb6e8adacafc1cc518304bf",
+    "id": "0861_Code_20_0xe736091fc36f1ad476f5e4e03e4425940822d3ba",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

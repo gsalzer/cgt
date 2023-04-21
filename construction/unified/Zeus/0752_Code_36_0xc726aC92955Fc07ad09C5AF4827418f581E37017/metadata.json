@@ -1,0 +1,60 @@
+{
+    "addr": "0xc726ac92955fc07ad09c5af4827418f581e37017",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.2-2016-05-06-9e36bdd",
+    "compiler_orig": false,
+    "contractname": "CryptoHill",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "7c5dc3927f5996dce7076b8baf469f3c",
+    "fp_runtime": "a0bfb28d546a8e1cbdd417a2d59f9d19",
+    "fp_sol": "562997a3b5a6d4f8ff08320831a79e6f",
+    "fp_sol2": "562997a3b5a6d4f8ff08320831a79e6f",
+    "id": "0752_Code_36_0xc726aC92955Fc07ad09C5AF4827418f581E37017",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

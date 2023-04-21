@@ -1,0 +1,38 @@
+{
+    "addr": "0x586927ff87bf40aada74afbff5e2409b865be023",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "HashBet",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "7a5c88b012a7796a68817465e2cc4fa3",
+    "fp_runtime": "5dfb9040d98ccd66885be2b96574102d",
+    "fp_sol": "dea2ae975a2ca842262b22e000aa2448",
+    "fp_sol2": "d9d84badb018cbb477b1d692ed8bfc52",
+    "id": "HashBet-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_HashBet.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HashBet.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

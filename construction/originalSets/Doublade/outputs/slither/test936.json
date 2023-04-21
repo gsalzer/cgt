@@ -1,0 +1,248 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "description": "airdrop.transfer (reorder_contracts_2_3/test936.sol#5-16) ignores return value by low-level calls \"caddress.call(id,from,_tos[i],v)\" (reorder_contracts_2_3/test936.sol#10)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v)",
+            "source_mapping": {
+              "start": 366,
+              "length": 32,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+              "filename_relative": "reorder_contracts_2_3/test936.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+              "filename_short": "reorder_contracts_2_3/test936.sol",
+              "lines": [
+                10
+              ],
+              "starting_column": 17,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 58,
+                  "length": 416,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                  "filename_relative": "reorder_contracts_2_3/test936.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                  "filename_short": "reorder_contracts_2_3/test936.sol",
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "airdrop",
+                    "source_mapping": {
+                      "start": 29,
+                      "length": 448,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                      "filename_relative": "reorder_contracts_2_3/test936.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                      "filename_short": "reorder_contracts_2_3/test936.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,address,address[],uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 58,
+              "length": 416,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+              "filename_relative": "reorder_contracts_2_3/test936.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+              "filename_short": "reorder_contracts_2_3/test936.sol",
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "airdrop",
+                "source_mapping": {
+                  "start": 29,
+                  "length": 448,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                  "filename_relative": "reorder_contracts_2_3/test936.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                  "filename_short": "reorder_contracts_2_3/test936.sol",
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,address,address[],uint256)"
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "airdrop.transfer has external calls inside a loop: \"caddress.call(id,from,_tos[i],v)\" (reorder_contracts_2_3/test936.sol#10)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v)",
+            "source_mapping": {
+              "start": 366,
+              "length": 32,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+              "filename_relative": "reorder_contracts_2_3/test936.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+              "filename_short": "reorder_contracts_2_3/test936.sol",
+              "lines": [
+                10
+              ],
+              "starting_column": 17,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 58,
+                  "length": 416,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                  "filename_relative": "reorder_contracts_2_3/test936.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                  "filename_short": "reorder_contracts_2_3/test936.sol",
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "airdrop",
+                    "source_mapping": {
+                      "start": 29,
+                      "length": 448,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                      "filename_relative": "reorder_contracts_2_3/test936.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test936.sol",
+                      "filename_short": "reorder_contracts_2_3/test936.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

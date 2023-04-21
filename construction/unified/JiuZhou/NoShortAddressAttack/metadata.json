@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Short address attack",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "NoShortAddress",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": "f2d177c98058cc006d3b61e521982119",
+    "fp_runtime": "a1b61bbccbcbb75993f0c3b66b9781eb",
+    "fp_sol": "627902f606b0d7a6540df4e3dc14c1ef",
+    "fp_sol2": "7ebeac7618e3b22123bff0c11eaf9808",
+    "id": "NoShortAddressAttack",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoShortAddressAttack.sol"
+    ],
+    "sol_orig": true
+}

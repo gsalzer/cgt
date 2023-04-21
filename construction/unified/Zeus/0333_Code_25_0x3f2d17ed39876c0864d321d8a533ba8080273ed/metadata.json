@@ -1,0 +1,60 @@
+{
+    "addr": "0x3f2d17ed39876c0864d321d8a533ba8080273ede",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-01-02bb315",
+    "compiler_orig": false,
+    "contractname": "NoxonFund",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c945c81d27b1f8b2d13dd931db7b30b7",
+    "fp_runtime": "7c0d674ece465a656ad58a64d8ab95d0",
+    "fp_sol": "ffcdb100197a6b5e860388da06089b40",
+    "fp_sol2": "ffcdb100197a6b5e860388da06089b40",
+    "id": "0333_Code_25_0x3f2d17ed39876c0864d321d8a533ba8080273ed",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

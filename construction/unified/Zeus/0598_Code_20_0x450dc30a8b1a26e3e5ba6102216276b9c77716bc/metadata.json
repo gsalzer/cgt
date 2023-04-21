@@ -1,0 +1,60 @@
+{
+    "addr": "0x450dc30a8b1a26e3e5ba6102216276b9c77716bc",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.4-nightly.2016.6.8+commit.d593166",
+    "compiler_orig": false,
+    "contractname": "AlarmClockTipFaucet",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "7aacbbf2bd1a16a06c927dfdcc25892d",
+    "fp_runtime": "b17d44be92a2fe3bf28684fdd49e3989",
+    "fp_sol": "7c4200c10e1c54bbf609cde91c975168",
+    "fp_sol2": "7c4200c10e1c54bbf609cde91c975168",
+    "id": "0598_Code_20_0x450dc30a8b1a26e3e5ba6102216276b9c77716bc",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

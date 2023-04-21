@@ -1,0 +1,60 @@
+{
+    "addr": "0x705f04a4f1e7a1e23caea390b8903bd43d96e18e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-27-2ccfea8",
+    "compiler_orig": false,
+    "contractname": "EtherPennySlots",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c0aa247b4901bb424ba3d8dd31896cf4",
+    "fp_runtime": "4a9e8aa7853899f1c8d3b92fe0f0752f",
+    "fp_sol": "e79ed3493b1cec20cadf900589096fc5",
+    "fp_sol2": "e79ed3493b1cec20cadf900589096fc5",
+    "id": "1219_Code_32_0x705f04a4f1e7a1e23caea390b8903bd43d96e18e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

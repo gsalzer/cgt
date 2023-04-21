@@ -1,0 +1,60 @@
+{
+    "addr": "0xe941e5d4a66123dc74886699544fbbb942f1887a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "SimpleCoinFlipGame",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "b012a197d2f2c0c65cc54599ab5b065b",
+    "fp_runtime": "1357f73b698102bfcb57dc58b751e6ff",
+    "fp_sol": "cf452d3887ff0671cb3e61d3d817d737",
+    "fp_sol2": "cf452d3887ff0671cb3e61d3d817d737",
+    "id": "1164_Code_432_0xe941e5d4a66123dc74886699544fbbb942f1887",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

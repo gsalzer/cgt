@@ -1,0 +1,736 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'contract_eth_value', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'c42bb1e4'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'min_required_amount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2a2fbd4b'}
+3 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'bought_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '6360fc3f'}
+4 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'bought_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '6360fc3f'}
+5 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'bought_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '6360fc3f'}
+6 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'set_saleAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1afc540d'}
+7 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'min_required_amount', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '2a2fbd4b'}
+8 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'min_required_amount', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '2a2fbd4b'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'sale', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6ad1fe02'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'min_required_amount', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '2a2fbd4b'}
+11 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'bought_tokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6360fc3f'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'upgrade_cap', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'c7ccc559'}
+13 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'upgrade_cap', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'c7ccc559'}
+14 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'set_saleAddress', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '1afc540d'}
+15 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'set_saleAddress', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '1afc540d'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'set_saleAddress', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '1afc540d'}
+17 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'owner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8da5cb5b'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+19 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'upgrade_cap', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'c7ccc559'}
+20 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+21 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'owner', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '8da5cb5b'}
+22 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'owner', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '8da5cb5b'}
+23 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'owner', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '8da5cb5b'}
+24 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balances', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27e235e30000000000000000000000001111111111111111111111111111111111111111'}
+25 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'contract_eth_value', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'c42bb1e4'}
+26 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'perform_withdrawal', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '6c0ebc6c'}
+27 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'perform_withdrawal', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '6c0ebc6c'}
+28 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'perform_withdrawal', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '6c0ebc6c'}
+29 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'set_saleAddress', 'contract_balance': '0', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '1afc540d'}
+30 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'sale', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '6ad1fe02'}
+31 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'sale', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '6ad1fe02'}
+32 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balances', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27e235e3000000000000000000000000e63c5631bf85e41edd3ffe5e342865e9bef51ef4'}
+33 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balances', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27e235e30000000000000000000000001111111111111111111111111111111111111111'}
+34 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'upgrade_cap', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'c7ccc559'}
+35 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'sale', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '6ad1fe02'}
+36 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'eth_cap', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': 'dbfeb17f'}
+37 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'eth_cap', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': 'dbfeb17f'}
+38 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'eth_cap', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': 'dbfeb17f'}
+39 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'refund_me', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '81702c34'}
+40 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'contract_eth_value', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'c42bb1e4'}
+41 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'contract_eth_value', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': 'c42bb1e4'}
+42 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'eth_cap', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'dbfeb17f'}
+43 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'set_saleAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1afc540d000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+44 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+45 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balances', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27e235e30000000000000000000000002222222222222222222222222222222222222222'}
+46 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balances', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27e235e30000000000000000000000001aa205bbc76f7fe53501ce1e6ae551f46bf93bfa'}
+47 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+48 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+49 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'contract_balance': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+50 : {'tx_caller': '1aa205bbc76f7fe53501ce1e6ae551f46bf93bfa', 'name': 'fallback', 'contract_balance': '0', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '11111111'}
+51 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'refund_me', 'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_blocknumber': '493e00', 'tx_timestamp': '5a5c001d', 'tx_input': '81702c34'}
+--------------------------------------------------------------------------------
+
+Full traces: 226
+--------------------------------------------------------------------------------
+50 39   :  fallback refund_me 
+39 50   :  refund_me fallback 
+------------------------------------------------------------
+39 1 50   :  refund_me contract_eth_value fallback 
+50 39 1   :  fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 1 50   :  refund_me contract_eth_value fallback 
+50 1 39   :  fallback contract_eth_value refund_me 
+------------------------------------------------------------
+39 1 50   :  refund_me contract_eth_value fallback 
+1 50 39   :  contract_eth_value fallback refund_me 
+------------------------------------------------------------
+50 39 1   :  fallback refund_me contract_eth_value 
+1 39 50   :  contract_eth_value refund_me fallback 
+------------------------------------------------------------
+50 39 1   :  fallback refund_me contract_eth_value 
+39 50 1   :  refund_me fallback contract_eth_value 
+------------------------------------------------------------
+1 39 50   :  contract_eth_value refund_me fallback 
+50 1 39   :  fallback contract_eth_value refund_me 
+------------------------------------------------------------
+1 39 50   :  contract_eth_value refund_me fallback 
+1 50 39   :  contract_eth_value fallback refund_me 
+------------------------------------------------------------
+39 50 1   :  refund_me fallback contract_eth_value 
+50 1 39   :  fallback contract_eth_value refund_me 
+------------------------------------------------------------
+39 50 1   :  refund_me fallback contract_eth_value 
+1 50 39   :  contract_eth_value fallback refund_me 
+------------------------------------------------------------
+39 2 50   :  refund_me min_required_amount fallback 
+50 2 39   :  fallback min_required_amount refund_me 
+------------------------------------------------------------
+39 2 50   :  refund_me min_required_amount fallback 
+2 50 39   :  min_required_amount fallback refund_me 
+------------------------------------------------------------
+39 2 50   :  refund_me min_required_amount fallback 
+50 39 2   :  fallback refund_me min_required_amount 
+------------------------------------------------------------
+50 2 39   :  fallback min_required_amount refund_me 
+39 50 2   :  refund_me fallback min_required_amount 
+------------------------------------------------------------
+50 2 39   :  fallback min_required_amount refund_me 
+2 39 50   :  min_required_amount refund_me fallback 
+------------------------------------------------------------
+2 50 39   :  min_required_amount fallback refund_me 
+39 50 2   :  refund_me fallback min_required_amount 
+------------------------------------------------------------
+2 50 39   :  min_required_amount fallback refund_me 
+2 39 50   :  min_required_amount refund_me fallback 
+------------------------------------------------------------
+50 39 2   :  fallback refund_me min_required_amount 
+39 50 2   :  refund_me fallback min_required_amount 
+------------------------------------------------------------
+50 39 2   :  fallback refund_me min_required_amount 
+2 39 50   :  min_required_amount refund_me fallback 
+------------------------------------------------------------
+6 50 39   :  set_saleAddress fallback refund_me 
+6 39 50   :  set_saleAddress refund_me fallback 
+------------------------------------------------------------
+6 50 39   :  set_saleAddress fallback refund_me 
+39 6 50   :  refund_me set_saleAddress fallback 
+------------------------------------------------------------
+6 50 39   :  set_saleAddress fallback refund_me 
+39 50 6   :  refund_me fallback set_saleAddress 
+------------------------------------------------------------
+6 39 50   :  set_saleAddress refund_me fallback 
+50 6 39   :  fallback set_saleAddress refund_me 
+------------------------------------------------------------
+6 39 50   :  set_saleAddress refund_me fallback 
+50 39 6   :  fallback refund_me set_saleAddress 
+------------------------------------------------------------
+50 6 39   :  fallback set_saleAddress refund_me 
+39 6 50   :  refund_me set_saleAddress fallback 
+------------------------------------------------------------
+50 6 39   :  fallback set_saleAddress refund_me 
+39 50 6   :  refund_me fallback set_saleAddress 
+------------------------------------------------------------
+50 39 6   :  fallback refund_me set_saleAddress 
+39 6 50   :  refund_me set_saleAddress fallback 
+------------------------------------------------------------
+50 39 6   :  fallback refund_me set_saleAddress 
+39 50 6   :  refund_me fallback set_saleAddress 
+------------------------------------------------------------
+39 9 50   :  refund_me sale fallback 
+9 50 39   :  sale fallback refund_me 
+------------------------------------------------------------
+39 9 50   :  refund_me sale fallback 
+50 9 39   :  fallback sale refund_me 
+------------------------------------------------------------
+39 9 50   :  refund_me sale fallback 
+50 39 9   :  fallback refund_me sale 
+------------------------------------------------------------
+9 39 50   :  sale refund_me fallback 
+9 50 39   :  sale fallback refund_me 
+------------------------------------------------------------
+9 39 50   :  sale refund_me fallback 
+50 9 39   :  fallback sale refund_me 
+------------------------------------------------------------
+9 39 50   :  sale refund_me fallback 
+50 39 9   :  fallback refund_me sale 
+------------------------------------------------------------
+39 50 9   :  refund_me fallback sale 
+9 50 39   :  sale fallback refund_me 
+------------------------------------------------------------
+39 50 9   :  refund_me fallback sale 
+50 9 39   :  fallback sale refund_me 
+------------------------------------------------------------
+39 50 9   :  refund_me fallback sale 
+50 39 9   :  fallback refund_me sale 
+------------------------------------------------------------
+39 50 11   :  refund_me fallback bought_tokens 
+50 39 11   :  fallback refund_me bought_tokens 
+------------------------------------------------------------
+39 50 11   :  refund_me fallback bought_tokens 
+50 11 39   :  fallback bought_tokens refund_me 
+------------------------------------------------------------
+39 50 11   :  refund_me fallback bought_tokens 
+11 50 39   :  bought_tokens fallback refund_me 
+------------------------------------------------------------
+50 39 11   :  fallback refund_me bought_tokens 
+11 39 50   :  bought_tokens refund_me fallback 
+------------------------------------------------------------
+50 39 11   :  fallback refund_me bought_tokens 
+39 11 50   :  refund_me bought_tokens fallback 
+------------------------------------------------------------
+50 11 39   :  fallback bought_tokens refund_me 
+11 39 50   :  bought_tokens refund_me fallback 
+------------------------------------------------------------
+50 11 39   :  fallback bought_tokens refund_me 
+39 11 50   :  refund_me bought_tokens fallback 
+------------------------------------------------------------
+11 39 50   :  bought_tokens refund_me fallback 
+11 50 39   :  bought_tokens fallback refund_me 
+------------------------------------------------------------
+39 11 50   :  refund_me bought_tokens fallback 
+11 50 39   :  bought_tokens fallback refund_me 
+------------------------------------------------------------
+50 39 17   :  fallback refund_me owner 
+17 39 50   :  owner refund_me fallback 
+------------------------------------------------------------
+50 39 17   :  fallback refund_me owner 
+39 17 50   :  refund_me owner fallback 
+------------------------------------------------------------
+50 39 17   :  fallback refund_me owner 
+39 50 17   :  refund_me fallback owner 
+------------------------------------------------------------
+50 17 39   :  fallback owner refund_me 
+17 39 50   :  owner refund_me fallback 
+------------------------------------------------------------
+50 17 39   :  fallback owner refund_me 
+39 17 50   :  refund_me owner fallback 
+------------------------------------------------------------
+50 17 39   :  fallback owner refund_me 
+39 50 17   :  refund_me fallback owner 
+------------------------------------------------------------
+17 39 50   :  owner refund_me fallback 
+17 50 39   :  owner fallback refund_me 
+------------------------------------------------------------
+17 50 39   :  owner fallback refund_me 
+39 17 50   :  refund_me owner fallback 
+------------------------------------------------------------
+17 50 39   :  owner fallback refund_me 
+39 50 17   :  refund_me fallback owner 
+------------------------------------------------------------
+19 39 50   :  upgrade_cap refund_me fallback 
+50 19 39   :  fallback upgrade_cap refund_me 
+------------------------------------------------------------
+19 39 50   :  upgrade_cap refund_me fallback 
+50 39 19   :  fallback refund_me upgrade_cap 
+------------------------------------------------------------
+19 39 50   :  upgrade_cap refund_me fallback 
+19 50 39   :  upgrade_cap fallback refund_me 
+------------------------------------------------------------
+39 50 19   :  refund_me fallback upgrade_cap 
+50 19 39   :  fallback upgrade_cap refund_me 
+------------------------------------------------------------
+39 50 19   :  refund_me fallback upgrade_cap 
+50 39 19   :  fallback refund_me upgrade_cap 
+------------------------------------------------------------
+39 50 19   :  refund_me fallback upgrade_cap 
+19 50 39   :  upgrade_cap fallback refund_me 
+------------------------------------------------------------
+50 19 39   :  fallback upgrade_cap refund_me 
+39 19 50   :  refund_me upgrade_cap fallback 
+------------------------------------------------------------
+50 39 19   :  fallback refund_me upgrade_cap 
+39 19 50   :  refund_me upgrade_cap fallback 
+------------------------------------------------------------
+19 50 39   :  upgrade_cap fallback refund_me 
+39 19 50   :  refund_me upgrade_cap fallback 
+------------------------------------------------------------
+50 39 24   :  fallback refund_me balances 
+39 50 24   :  refund_me fallback balances 
+------------------------------------------------------------
+50 39 24   :  fallback refund_me balances 
+24 39 50   :  balances refund_me fallback 
+------------------------------------------------------------
+50 39 24   :  fallback refund_me balances 
+39 24 50   :  refund_me balances fallback 
+------------------------------------------------------------
+39 50 24   :  refund_me fallback balances 
+24 50 39   :  balances fallback refund_me 
+------------------------------------------------------------
+39 50 24   :  refund_me fallback balances 
+50 24 39   :  fallback balances refund_me 
+------------------------------------------------------------
+24 50 39   :  balances fallback refund_me 
+24 39 50   :  balances refund_me fallback 
+------------------------------------------------------------
+24 50 39   :  balances fallback refund_me 
+39 24 50   :  refund_me balances fallback 
+------------------------------------------------------------
+24 39 50   :  balances refund_me fallback 
+50 24 39   :  fallback balances refund_me 
+------------------------------------------------------------
+50 24 39   :  fallback balances refund_me 
+39 24 50   :  refund_me balances fallback 
+------------------------------------------------------------
+50 39 42   :  fallback refund_me eth_cap 
+39 42 50   :  refund_me eth_cap fallback 
+------------------------------------------------------------
+50 39 42   :  fallback refund_me eth_cap 
+42 39 50   :  eth_cap refund_me fallback 
+------------------------------------------------------------
+50 39 42   :  fallback refund_me eth_cap 
+39 50 42   :  refund_me fallback eth_cap 
+------------------------------------------------------------
+39 42 50   :  refund_me eth_cap fallback 
+50 42 39   :  fallback eth_cap refund_me 
+------------------------------------------------------------
+39 42 50   :  refund_me eth_cap fallback 
+42 50 39   :  eth_cap fallback refund_me 
+------------------------------------------------------------
+50 42 39   :  fallback eth_cap refund_me 
+42 39 50   :  eth_cap refund_me fallback 
+------------------------------------------------------------
+50 42 39   :  fallback eth_cap refund_me 
+39 50 42   :  refund_me fallback eth_cap 
+------------------------------------------------------------
+42 39 50   :  eth_cap refund_me fallback 
+42 50 39   :  eth_cap fallback refund_me 
+------------------------------------------------------------
+39 50 42   :  refund_me fallback eth_cap 
+42 50 39   :  eth_cap fallback refund_me 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 1 2 50   :  refund_me contract_eth_value min_required_amount fallback 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+1 2 50 39   :  contract_eth_value min_required_amount fallback refund_me 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+50 39 1 2   :  fallback refund_me contract_eth_value min_required_amount 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+1 39 50 2   :  contract_eth_value refund_me fallback min_required_amount 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+2 1 50 39   :  min_required_amount contract_eth_value fallback refund_me 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 50 2 1   :  refund_me fallback min_required_amount contract_eth_value 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 1 50 2   :  refund_me contract_eth_value fallback min_required_amount 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+2 39 50 1   :  min_required_amount refund_me fallback contract_eth_value 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+50 1 39 2   :  fallback contract_eth_value refund_me min_required_amount 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+1 50 39 2   :  contract_eth_value fallback refund_me min_required_amount 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+50 2 39 1   :  fallback min_required_amount refund_me contract_eth_value 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+------------------------------------------------------------
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+------------------------------------------------------------
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 50 1 2   :  refund_me fallback contract_eth_value min_required_amount 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+1 50 2 39   :  contract_eth_value fallback min_required_amount refund_me 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+------------------------------------------------------------
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+50 39 2 1   :  fallback refund_me min_required_amount contract_eth_value 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+------------------------------------------------------------
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+1 2 39 50   :  contract_eth_value min_required_amount refund_me fallback 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+------------------------------------------------------------
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+2 50 1 39   :  min_required_amount fallback contract_eth_value refund_me 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+------------------------------------------------------------
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+2 1 39 50   :  min_required_amount contract_eth_value refund_me fallback 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+------------------------------------------------------------
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+------------------------------------------------------------
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+50 1 2 39   :  fallback contract_eth_value min_required_amount refund_me 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 2 50 1   :  refund_me min_required_amount fallback contract_eth_value 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+------------------------------------------------------------
+39 2 1 50   :  refund_me min_required_amount contract_eth_value fallback 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+------------------------------------------------------------
+2 50 39 1   :  min_required_amount fallback refund_me contract_eth_value 
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+------------------------------------------------------------
+2 39 1 50   :  min_required_amount refund_me contract_eth_value fallback 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------
+1 39 2 50   :  contract_eth_value refund_me min_required_amount fallback 
+50 2 1 39   :  fallback min_required_amount contract_eth_value refund_me 
+------------------------------------------------------------

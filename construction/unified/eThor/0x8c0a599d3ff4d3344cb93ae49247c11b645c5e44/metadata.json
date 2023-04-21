@@ -1,0 +1,37 @@
+{
+    "addr": "0x8c0a599d3ff4d3344cb93ae49247c11b645c5e44",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.3+commit.2353da71",
+    "compiler_orig": true,
+    "contractname": "FipsNotary",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "7a07c19d5ea1a9a432167fe927f61583",
+    "fp_runtime": "ac8e7f3206bf7cddc4cc75ad16baedfd",
+    "fp_sol": "f20d964d6fee201fd60a6a2814f0547d",
+    "fp_sol2": "c388bae81ee1b04c03f7523c480aa499",
+    "id": "0x8c0a599d3ff4d3344cb93ae49247c11b645c5e44",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

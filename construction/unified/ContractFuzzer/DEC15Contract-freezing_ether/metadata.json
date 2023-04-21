@@ -1,0 +1,35 @@
+{
+    "addr": "0xc61733b5a407a5eefd212be7801553bb23abf83e",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "DEC15Contract",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "87910cbaa900ccd021286515653895ab",
+    "fp_sol": "f5b5f3dcfb591f50f461553b7e4c0e0b",
+    "fp_sol2": "7ef981b9fcc13f6b90c0b62e8ad9ca39",
+    "id": "DEC15Contract-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/DEC15Contract.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_DEC15Contract.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

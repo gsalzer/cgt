@@ -1,0 +1,60 @@
+{
+    "addr": "0x5d951e9377ec3383808d842fb37182c1363ca34b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": false,
+    "contractname": "BananaBasket",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "82daa3e83b4a17ee06cfbc497d4b08a3",
+    "fp_runtime": "98fc8d4e83df0e4730403d44e93efbbb",
+    "fp_sol": "4e8ba79cce0f0e6dd028949c17072d38",
+    "fp_sol2": "3e28e8b8ff861069afd084f40f682070",
+    "id": "1189_Code_12_0x5d951e9377ec3383808d842fb37182c1363ca34b",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

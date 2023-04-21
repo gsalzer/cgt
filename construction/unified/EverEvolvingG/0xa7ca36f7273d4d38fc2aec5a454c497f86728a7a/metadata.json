@@ -1,0 +1,36 @@
+{
+    "addr": "0xa7ca36f7273d4d38fc2aec5a454c497f86728a7a",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "PonziTokenV3",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "82cf59d9ea2b688839471c108af2f0ab",
+    "fp_runtime": "d1ea57b2b059f4d088cf5f5372892a74",
+    "fp_sol": "532aba589ecbf1f9be5f332af38a0786",
+    "fp_sol2": "b1bba99079ded1812dfb60decd3c81f7",
+    "id": "0xa7ca36f7273d4d38fc2aec5a454c497f86728a7a",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

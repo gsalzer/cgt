@@ -1,0 +1,1311 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_input': 'a9059cbb00000000000000000000000004c75f6b5490e1febaf208c0e920f7ee8584fe0b0000000000000000000000000000000000000000000000000000000000000000'}
+1 : {'tx_value': '0', 'tx_caller': '2e4df9472669ef4ae0b740b36d546a4cf6e82926', 'name': 'transferOwnership', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+2 : {'tx_caller': '2e4df9472669ef4ae0b740b36d546a4cf6e82926', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002e4df9472669ef4ae0b740b36d546a4cf6e82926000000000000000000000000000000000000000000000000006e04e98ad50002'}
+3 : {'tx_caller': '2e4df9472669ef4ae0b740b36d546a4cf6e82926', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002e4df9472669ef4ae0b740b36d546a4cf6e829260000000000000000000000009d2894a0f7ae965a959a5e9317da7fe79b3387bb000000000000000000000000000000000000000000000000006e04e98ad50002'}
+4 : {'tx_caller': '2e4df9472669ef4ae0b740b36d546a4cf6e82926', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002e4df9472669ef4ae0b740b36d546a4cf6e829260000000000000000000000000000000000000000000000000002258f49e50020'}
+5 : {'tx_caller': '2e4df9472669ef4ae0b740b36d546a4cf6e82926', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002e4df9472669ef4ae0b740b36d546a4cf6e829260000000000000000000000002e4df9472669ef4ae0b740b36d546a4cf6e829260000000000000000000000000000000000000000000000000002258f49e50020'}
+--------------------------------------------------------------------------------
+
+Full traces: 433
+--------------------------------------------------------------------------------
+4 5 2   :  approve transferFrom approve 
+4 2 5   :  approve approve transferFrom 
+------------------------------------------------------------
+0 4 2 5   :  transfer approve approve transferFrom 
+4 5 2 0   :  approve transferFrom approve transfer 
+------------------------------------------------------------
+0 4 2 5   :  transfer approve approve transferFrom 
+4 5 0 2   :  approve transferFrom transfer approve 
+------------------------------------------------------------
+0 4 2 5   :  transfer approve approve transferFrom 
+4 0 5 2   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+0 4 2 5   :  transfer approve approve transferFrom 
+0 4 5 2   :  transfer approve transferFrom approve 
+------------------------------------------------------------
+4 5 2 0   :  approve transferFrom approve transfer 
+4 2 5 0   :  approve approve transferFrom transfer 
+------------------------------------------------------------
+4 5 2 0   :  approve transferFrom approve transfer 
+4 0 2 5   :  approve transfer approve transferFrom 
+------------------------------------------------------------
+4 5 2 0   :  approve transferFrom approve transfer 
+4 2 0 5   :  approve approve transfer transferFrom 
+------------------------------------------------------------
+4 2 5 0   :  approve approve transferFrom transfer 
+4 5 0 2   :  approve transferFrom transfer approve 
+------------------------------------------------------------
+4 2 5 0   :  approve approve transferFrom transfer 
+4 0 5 2   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+4 2 5 0   :  approve approve transferFrom transfer 
+0 4 5 2   :  transfer approve transferFrom approve 
+------------------------------------------------------------
+4 0 2 5   :  approve transfer approve transferFrom 
+4 5 0 2   :  approve transferFrom transfer approve 
+------------------------------------------------------------
+4 0 2 5   :  approve transfer approve transferFrom 
+4 0 5 2   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+4 0 2 5   :  approve transfer approve transferFrom 
+0 4 5 2   :  transfer approve transferFrom approve 
+------------------------------------------------------------
+4 2 0 5   :  approve approve transfer transferFrom 
+4 5 0 2   :  approve transferFrom transfer approve 
+------------------------------------------------------------
+4 2 0 5   :  approve approve transfer transferFrom 
+4 0 5 2   :  approve transfer transferFrom approve 
+------------------------------------------------------------
+4 2 0 5   :  approve approve transfer transferFrom 
+0 4 5 2   :  transfer approve transferFrom approve 
+------------------------------------------------------------
+4 2 5 1   :  approve approve transferFrom transferOwnership 
+4 5 1 2   :  approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 2 5 1   :  approve approve transferFrom transferOwnership 
+4 5 2 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+4 2 5 1   :  approve approve transferFrom transferOwnership 
+4 1 5 2   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 2 5 1   :  approve approve transferFrom transferOwnership 
+1 4 5 2   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 5 1 2   :  approve transferFrom transferOwnership approve 
+4 1 2 5   :  approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 1 2   :  approve transferFrom transferOwnership approve 
+4 2 1 5   :  approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+4 5 1 2   :  approve transferFrom transferOwnership approve 
+1 4 2 5   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 1 2 5   :  approve transferOwnership approve transferFrom 
+4 5 2 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+4 1 2 5   :  approve transferOwnership approve transferFrom 
+4 1 5 2   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 1 2 5   :  approve transferOwnership approve transferFrom 
+1 4 5 2   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 2 1 5   :  approve approve transferOwnership transferFrom 
+4 5 2 1   :  approve transferFrom approve transferOwnership 
+------------------------------------------------------------
+4 2 1 5   :  approve approve transferOwnership transferFrom 
+4 1 5 2   :  approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 2 1 5   :  approve approve transferOwnership transferFrom 
+1 4 5 2   :  transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 5 2 1   :  approve transferFrom approve transferOwnership 
+1 4 2 5   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 1 5 2   :  approve transferOwnership transferFrom approve 
+1 4 2 5   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+1 4 5 2   :  transferOwnership approve transferFrom approve 
+1 4 2 5   :  transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+0 4 5 2 1   :  transfer approve transferFrom approve transferOwnership 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+1 0 4 5 2   :  transferOwnership transfer approve transferFrom approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+0 4 2 5 1   :  transfer approve approve transferFrom transferOwnership 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 0 2 1 5   :  approve transfer approve transferOwnership transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 0 5 2 1   :  approve transfer transferFrom approve transferOwnership 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 1 5 2 0   :  approve transferOwnership transferFrom approve transfer 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 2 5 1 0   :  approve approve transferFrom transferOwnership transfer 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+1 0 4 2 5   :  transferOwnership transfer approve approve transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 1 0 2 5   :  approve transferOwnership transfer approve transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 0 5 1 2   :  approve transfer transferFrom transferOwnership approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+0 4 5 1 2   :  transfer approve transferFrom transferOwnership approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 1 0 5 2   :  approve transferOwnership transfer transferFrom approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 0 1 5 2   :  approve transfer transferOwnership transferFrom approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 2 1 5 0   :  approve approve transferOwnership transferFrom transfer 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 2 0 1 5   :  approve approve transfer transferOwnership transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+0 4 2 1 5   :  transfer approve approve transferOwnership transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+1 4 2 0 5   :  transferOwnership approve approve transfer transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 5 0 2 1   :  approve transferFrom transfer approve transferOwnership 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 1 5 0 2   :  approve transferOwnership transferFrom transfer approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 5 1 2 0   :  approve transferFrom transferOwnership approve transfer 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 0 1 2 5   :  approve transfer transferOwnership approve transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+1 4 5 0 2   :  transferOwnership approve transferFrom transfer approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+0 1 4 5 2   :  transfer transferOwnership approve transferFrom approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+0 1 4 2 5   :  transfer transferOwnership approve approve transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 1 2 0 5   :  approve transferOwnership approve transfer transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 5 2 1 0   :  approve transferFrom approve transferOwnership transfer 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 1 2 5 0   :  approve transferOwnership approve transferFrom transfer 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+------------------------------------------------------------
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+------------------------------------------------------------
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 2 1 0 5   :  approve approve transferOwnership transfer transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 5 0 1 2   :  approve transferFrom transfer transferOwnership approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+------------------------------------------------------------
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+------------------------------------------------------------
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+------------------------------------------------------------
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+1 4 0 5 2   :  transferOwnership approve transfer transferFrom approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+1 4 2 5 0   :  transferOwnership approve approve transferFrom transfer 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 2 0 5 1   :  approve approve transfer transferFrom transferOwnership 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+------------------------------------------------------------
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+------------------------------------------------------------
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+0 4 1 2 5   :  transfer approve transferOwnership approve transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+4 5 2 0 1   :  approve transferFrom approve transfer transferOwnership 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+------------------------------------------------------------
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+------------------------------------------------------------
+1 4 5 2 0   :  transferOwnership approve transferFrom approve transfer 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+4 2 5 0 1   :  approve approve transferFrom transfer transferOwnership 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+------------------------------------------------------------
+1 4 0 2 5   :  transferOwnership approve transfer approve transferFrom 
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+------------------------------------------------------------
+4 5 1 0 2   :  approve transferFrom transferOwnership transfer approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------
+0 4 1 5 2   :  transfer approve transferOwnership transferFrom approve 
+4 0 2 5 1   :  approve transfer approve transferFrom transferOwnership 
+------------------------------------------------------------

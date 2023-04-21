@@ -1,0 +1,54 @@
+{
+    "addr": "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": true,
+    "contractname": "DiceRoll",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+                "ropsten"
+            ]
+        ],
+        "same address, different source": [
+            [
+                "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+                "ropsten"
+            ],
+            [
+                "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+                "rinkeby"
+            ]
+        ]
+    },
+    "fp_bytecode": "ca838bf428572ba925bb20a8c954163b",
+    "fp_runtime": "c5ba86fbb132fc0a2d2e40f3278a2bcf",
+    "fp_sol": "62ea16c2d1a82f2aeb3fccb4c4019875",
+    "fp_sol2": "74111c0968c5ab33065d67c42b4c5752",
+    "id": "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

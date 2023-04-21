@@ -1,0 +1,37 @@
+{
+    "addr": "0xd2f7bba33a3b81792c0f9cc2de6d9266002a5591",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "CampaignBeneficiary",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b409c9aa78f2c538323347c67b05cfa2",
+    "fp_runtime": "41bfd36a6a90d92611f04b54c493ae8e",
+    "fp_sol": "31d0a0874d5faaeb58db022b9954898a",
+    "fp_sol2": "1e9569ba44bf19158e142d2d64134951",
+    "id": "0xd2f7bba33a3b81792c0f9cc2de6d9266002a5591",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x2a106e06cd26fad93f732daa4218fce4eac6d6d8",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.2-nightly.2016.9.17+commit.212e0160",
+    "compiler_orig": true,
+    "contractname": "Buttcoin",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "70fca9c6994138db0696da8e450a672d",
+    "fp_runtime": "8a8dbac5ac55af3c594cb5d17bc90484",
+    "fp_sol": "70fc97d19deb9e427ac617a36db45428",
+    "fp_sol2": "05aa8650147f42d31ec7a64ff67cdd40",
+    "id": "0x2a106e06cd26fad93f732daa4218fce4eac6d6d8",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

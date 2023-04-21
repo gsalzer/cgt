@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "lowlevelcall_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "KlerosLiquid",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x395df49c20e34a7ea995cbf546e54f66172992ea",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x395df49c20e34a7ea995cbf546e54f66172992ea",
+            "main",
+            "MiniMeToken"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "a9d4e0bd8c3e134bd0509abb8b7214c9",
+    "fp_sol2": "b88afcefe8a014e734f2dcf0d1eec4c5",
+    "id": "0x395df49c20e34a7ea995cbf546e54f66172992ea-KlerosLiquid-lowlevelcall_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test901.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

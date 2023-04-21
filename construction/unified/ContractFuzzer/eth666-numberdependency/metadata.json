@@ -1,0 +1,38 @@
+{
+    "addr": "0xbf91b27fec3146a1b36069f92337a0ea330725df",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "eth666",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "41789041bab0a546f357e92f500769c9",
+    "fp_runtime": "e16f148f2a60809a4ca7795df71ec8bd",
+    "fp_sol": "98afb1a03f04e9aefd200928646b89f9",
+    "fp_sol2": "af291caac27f40d8a22ccbecdf742f54",
+    "id": "eth666-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_eth666.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_eth666.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

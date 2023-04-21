@@ -1,0 +1,39 @@
+{
+    "addr": "0xaf6df2ef65e7b52da7a75ab35f39c1684f659df9",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_CTNTokenSale.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "CTNToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a9ad8ff964d2a01c3e50da4b0225bfa5",
+    "fp_runtime": "ce2d0369ae77dafea55f13b07199857b",
+    "fp_sol": "53188773c73d69a85bbe6c4f7cf657d4",
+    "fp_sol2": "8ff0bdaec5db43652717d72751653ad0",
+    "id": "CTNTokenSale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CTNTokenSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

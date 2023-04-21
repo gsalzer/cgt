@@ -1,0 +1,60 @@
+{
+    "addr": "0x8ba49452e12449240425de9895b1aa51f5f3b90d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.10+commit.f0d539ae",
+    "compiler_orig": false,
+    "contractname": "GMile",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "765070083647671d965e26898783ad9a",
+    "fp_runtime": "8f78f9841249b49f3ae21fa8d7e405d8",
+    "fp_sol": "1ec61d581cb9d8bd4dfdfa9fcf88d80f",
+    "fp_sol2": "387174a2d2f85dc27410b78843886e98",
+    "id": "0787_Code_490_0x8ba49452e12449240425de9895b1aa51f5f3b90",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

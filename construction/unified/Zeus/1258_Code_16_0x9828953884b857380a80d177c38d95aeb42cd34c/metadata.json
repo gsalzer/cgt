@@ -1,0 +1,60 @@
+{
+    "addr": "0x9828953884b857380a80d177c38d95aeb42cd34c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2-nightly.2016.9.17+commit.212e0160",
+    "compiler_orig": false,
+    "contractname": "BetOnHardFork",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "04213cd5419d20ce22db9653438e4e94",
+    "fp_runtime": "04725886c4a4c2aa6d2effc14464612f",
+    "fp_sol": "a7d2a49eb1d4345a3b465f92a9d2d5ba",
+    "fp_sol2": "84ee8cdcee2cd38b820b17c783768111",
+    "id": "1258_Code_16_0x9828953884b857380a80d177c38d95aeb42cd34c",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

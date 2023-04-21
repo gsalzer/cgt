@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "OriginToken",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xa32f986d638afb6bd81e74b7a4fc653625ffb1b4",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xa32f986d638afb6bd81e74b7a4fc653625ffb1b4",
+            "main",
+            "Nitrocoin"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "45c24011c68a85bea39d0e3760db60b1",
+    "fp_sol2": "00c972d1064646819865daffa2c60a6c",
+    "id": "0xa32f986d638afb6bd81e74b7a4fc653625ffb1b4-OriginToken-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2497.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

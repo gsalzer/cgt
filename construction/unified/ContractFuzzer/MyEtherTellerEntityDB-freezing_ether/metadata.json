@@ -1,0 +1,38 @@
+{
+    "addr": "0x119294d59973b6f91cd39270ae3ccb7f1a99c291",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "MyEtherTellerEntityDB",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "485962e292601335d538cadf4f314d7d",
+    "fp_runtime": "33c2fb4cb82552c194c7d4b954d19a5d",
+    "fp_sol": "4a4c38c389b220c755f617b85a8469ea",
+    "fp_sol2": "4d83e6d72788edfc4000ec0d5f57920d",
+    "id": "MyEtherTellerEntityDB-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_MyEtherTellerEntityDB.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MyEtherTellerEntityDB.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

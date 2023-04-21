@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": false,
+    "contractname": "usingOraclize",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x4e646a576917a6a47d5b0896c3e207693870869d",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x4e646a576917a6a47d5b0896c3e207693870869d",
+            "main",
+            "Dice"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "078c10b4dceced0e65c30c4ce1418a1f",
+    "fp_sol2": "054f25793176525f55031c5a296d5963",
+    "id": "0x4e646a576917a6a47d5b0896c3e207693870869d-usingOraclize-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test1236.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

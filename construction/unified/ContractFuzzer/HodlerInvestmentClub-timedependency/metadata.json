@@ -1,0 +1,37 @@
+{
+    "addr": "0x7bd52bdff0acf4e18dd80c6ee86db205d83f88ce",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HodlerInvestmentClub.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "HodlerInvestmentClub",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a82a3c44efe6845a85b8cbb20f3febe1",
+    "fp_runtime": "4cd5e586bb549dd7130f09c5f4b03853",
+    "fp_sol": "f704f3b48bfed35c39b10f4d787cf3c2",
+    "fp_sol2": "cbc23c3981c8c488ab34ff5fd79c29f9",
+    "id": "HodlerInvestmentClub-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HodlerInvestmentClub.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

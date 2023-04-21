@@ -1,0 +1,39 @@
+{
+    "addr": "0x95d34980095380851902ccd9a1fb4c813c2cb639",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Honeypot Straw man contract",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Private_Bank",
+    "contractname_orig": true,
+    "dataset": "NotSoSmartC",
+    "etc": {},
+    "fp_bytecode": "7affbca0a7d0e3ccc1f9417d756f9285",
+    "fp_runtime": "32ae291452b953c71d7728749eeffd26",
+    "fp_sol": "66735e26f9d16cbced1aae9240223866",
+    "fp_sol2": "50b287b828abc9540abe80cc5b96ba8c",
+    "id": "PrivateBank",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PrivateBank.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

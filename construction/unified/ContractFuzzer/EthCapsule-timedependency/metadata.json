@@ -1,0 +1,37 @@
+{
+    "addr": "0x5274a2293dbe075a82d41e873bb927403a9dce46",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EthCapsule.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "EthCapsule",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "06b1a214b1e1efc11a239793f9bc46b8",
+    "fp_runtime": "41398e1544826d47cc69bd89adfd196c",
+    "fp_sol": "b54d06f1d058d0179d7331534dbb5e90",
+    "fp_sol2": "ed9baa2c2f2ed123c3f59c6742f9b4cd",
+    "id": "EthCapsule-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EthCapsule.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

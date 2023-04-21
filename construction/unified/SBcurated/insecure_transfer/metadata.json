@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "arithmetic",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "IntegerOverflowAdd",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#front-running-aka-transaction-ordering-dependence"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d4c749852c0e406939ed3ab69c12d372",
+    "fp_sol2": "cccea541afb703a3bd129b8f22535f48",
+    "id": "insecure_transfer",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/insecure_transfer.sol"
+    ],
+    "sol_orig": true
+}

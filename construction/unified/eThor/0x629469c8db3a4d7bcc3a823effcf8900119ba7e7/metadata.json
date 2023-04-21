@@ -1,0 +1,37 @@
+{
+    "addr": "0x629469c8db3a4d7bcc3a823effcf8900119ba7e7",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": true,
+    "contractname": "BeerKeg",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "f14dd0c06050848a87200e23594a57e4",
+    "fp_runtime": "8b5e2796a68446a453d478bcbaf2acf3",
+    "fp_sol": "3e742f9dda9aa835661cdd0bb0b9c04c",
+    "fp_sol2": "3e742f9dda9aa835661cdd0bb0b9c04c",
+    "id": "0x629469c8db3a4d7bcc3a823effcf8900119ba7e7",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

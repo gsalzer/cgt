@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "PreAdsMobileToken",
+            "SafeMath",
+            "StandardToken",
+            "Token"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "010de5732ab3f2dc8f5dca502db0f4e3",
+    "fp_sol": "71389e64ab96ff841df2394fa13a7429",
+    "fp_sol2": "47b374ffc436f2403a4e03b41f2d5624",
+    "id": "PreAdsMobileToken-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/PreAdsMobileToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/PreAdsMobileToken.sol"
+    ],
+    "sol_orig": true
+}

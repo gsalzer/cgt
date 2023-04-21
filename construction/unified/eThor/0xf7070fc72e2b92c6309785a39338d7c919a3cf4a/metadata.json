@@ -1,0 +1,37 @@
+{
+    "addr": "0xf7070fc72e2b92c6309785a39338d7c919a3cf4a",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": true,
+    "contractname": "NoFeePonzi",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "eed99d234984b5367953fdfd2595eb5d",
+    "fp_runtime": "6e75dde437326c98052963d045dc1b28",
+    "fp_sol": "aa5104d26e734f968be1a1f14c09c07f",
+    "fp_sol2": "aa5104d26e734f968be1a1f14c09c07f",
+    "id": "0xf7070fc72e2b92c6309785a39338d7c919a3cf4a",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

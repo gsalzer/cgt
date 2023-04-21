@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Invariant is not declared constant",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "NoWaste4",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "7ba8badbb61cdcffef4172e638a89a95",
+    "fp_runtime": "992d56df14b78546514ad127a410cb8a",
+    "fp_sol": "f1db9af25421b428e67ac0e456af91d8",
+    "fp_sol2": "4b57d707d7400243840a16255d1d9e0a",
+    "id": "NoImmutableToConstant",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoImmutableToConstant.sol"
+    ],
+    "sol_orig": true
+}

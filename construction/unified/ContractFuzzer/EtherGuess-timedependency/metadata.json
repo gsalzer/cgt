@@ -1,0 +1,39 @@
+{
+    "addr": "0x0684d80292961f6f662a214d52c940232c4dfba1",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EtherGuess.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "EtherGuess",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/EtherGuess.sol"
+    },
+    "fp_bytecode": "3852edffb89ba3ad75fb931f85dcc146",
+    "fp_runtime": "43d4dd8cb2e9ce43704c512aa6f35493",
+    "fp_sol": "1364094cf4b69a0af5d2f20e4209bd68",
+    "fp_sol2": "c227872cad95a72a38f50172c6d09211",
+    "id": "EtherGuess-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EtherGuess.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

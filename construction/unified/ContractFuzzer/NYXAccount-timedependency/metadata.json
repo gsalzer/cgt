@@ -1,0 +1,37 @@
+{
+    "addr": "0xd64e5b228561225b437dc38b81891c15fe98cfee",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NYXAccount.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "NYXAccount",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a40c06731208f20cbdc9b4c5580b9c94",
+    "fp_runtime": "20e66093eb2cc88af7aeb3d45312729a",
+    "fp_sol": "8540baeea93fd0030d2bedb2f7e63e3a",
+    "fp_sol2": "f3e30f782cf093d65fc218a1db65578a",
+    "id": "NYXAccount-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_NYXAccount.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0xcd6608b1291d4307652592c29bff7d51f1ad83d7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6-2016-09-06-114502f",
+    "compiler_orig": false,
+    "contractname": "DepositHolder",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "071152332f2e06c8ef51f58c7e89c2a5",
+    "fp_runtime": "acac25d29c06b63ed4e824d26a36af34",
+    "fp_sol": "ea2c99b932523910c5a1773c40e48fe6",
+    "fp_sol2": "87ea0690a9ea1ff8c4035ba797d72dc2",
+    "id": "0816_Code_18_0xcd6608b1291d4307652592c29bff7d51f1ad83d",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

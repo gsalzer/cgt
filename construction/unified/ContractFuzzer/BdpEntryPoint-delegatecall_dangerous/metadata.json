@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BdpBaseData",
+            "BdpContracts",
+            "BdpEntryPoint"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "3c104683588ec8399c3c17cdf39d8c3d",
+    "fp_sol": "2dc8ebc5e433f10248ccbbc158167006",
+    "fp_sol2": "da96714ab281623946f316b7f5de4820",
+    "id": "BdpEntryPoint-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/BdpEntryPoint.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/BdpEntryPoint.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x6e7f987907320630b7880eecc26b17c0d9afa7b4",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": true,
+    "contractname": "ValidetherOracle",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "4617cedf85dad3758481933f658bb8a0",
+    "fp_runtime": "2db1f2b723c364c27dc01d39ffb6c640",
+    "fp_sol": "4021803b24cf952ad79a32c8c5226c35",
+    "fp_sol2": "4021803b24cf952ad79a32c8c5226c35",
+    "id": "0x6e7f987907320630b7880eecc26b17c0d9afa7b4",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

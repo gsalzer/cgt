@@ -1,0 +1,38 @@
+{
+    "addr": "0xa91a453abde404a303fb118c46e00c8f630216a9",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "AdminInterface",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "48c51a6dcbb9abff03e960b1a440d48f",
+    "fp_runtime": "e6463e57ab007307359e16154f79c39f",
+    "fp_sol": "61c3d14fdd235f289a9ae767f4b07c63",
+    "fp_sol2": "f36555e6a4677e721f8db06de7b8d909",
+    "id": "AdminInterface-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_AdminInterface.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AdminInterface.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

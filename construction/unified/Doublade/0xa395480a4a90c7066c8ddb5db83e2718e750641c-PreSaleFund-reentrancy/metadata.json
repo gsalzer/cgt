@@ -1,0 +1,37 @@
+{
+    "addr": "0xa395480a4a90c7066c8ddb5db83e2718e750641c",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "PreSaleFund",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "26604c0d533bbf4baeb51cb5f3f4daf2",
+    "fp_runtime": "75d052c11eca88c9905e24171fa0ca74",
+    "fp_sol": "bbebbb3a6132e658d463c2de5716ec98",
+    "fp_sol2": "f350b4254a44aed30b89d637ee1e9998",
+    "id": "0xa395480a4a90c7066c8ddb5db83e2718e750641c-PreSaleFund-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2502.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

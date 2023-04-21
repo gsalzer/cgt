@@ -1,0 +1,37 @@
+{
+    "addr": "0x0389a06b028526b05966c287370bebefa0082176",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": true,
+    "contractname": "Dividend",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "d36f539a02758f51917d71b7df197f63",
+    "fp_runtime": "f0126fbd16c2ade13a3c0d9d0ebd81c5",
+    "fp_sol": "e9c7d89dc75cb2c0a9b529cab4646eac",
+    "fp_sol2": "e9c7d89dc75cb2c0a9b529cab4646eac",
+    "id": "0x0389a06b028526b05966c287370bebefa0082176",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

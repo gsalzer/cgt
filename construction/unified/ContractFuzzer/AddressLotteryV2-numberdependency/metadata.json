@@ -1,0 +1,38 @@
+{
+    "addr": "0xe19ca313512e0231340e778abe7110401c737c23",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "AddressLotteryV2",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "5a90109e321e72d6fc38481371451b45",
+    "fp_runtime": "e6fd6ac45f84fad9aeb347b8a860481e",
+    "fp_sol": "56f94589762f20250ef80b228986bc7f",
+    "fp_sol2": "b73c0a8a23b77158d0c7759b92c7aab8",
+    "id": "AddressLotteryV2-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_AddressLotteryV2.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AddressLotteryV2.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

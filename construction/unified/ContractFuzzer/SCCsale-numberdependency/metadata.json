@@ -1,0 +1,37 @@
+{
+    "addr": "0x320e735f4f13be0c9a99ce871463eb1f51354857",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/SCCsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "SCCsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "7557f0f1c1ae740f0fe52ad210d41a23",
+    "fp_runtime": "78a416c28d46640e37bd52f7978ed722",
+    "fp_sol": "828d73ec3083a0bd129a8497a429c6a2",
+    "fp_sol2": "dc85aa7d9f8b65d8798d35fd402e7521",
+    "id": "SCCsale-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SCCsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,35 @@
+{
+    "addr": "0xc320e373b369b58e716c1925780d36f703030f3d",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "Reentrance",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://ethernaut.zeppelin.solutions/level/0xf70706db003e94cfe4b5e27ffd891d5c81b39488"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "a3f97f3aaea62737f61587af1aad2b48",
+    "fp_sol2": "80e92d802badc2dec885f0920d1a4062",
+    "id": "reentrance",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_reentrance.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

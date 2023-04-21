@@ -1,0 +1,39 @@
+{
+    "addr": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-107",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "LedgerChannel",
+    "contractname_orig": true,
+    "dataset": "NotSoSmartC",
+    "etc": {},
+    "fp_bytecode": "0451a0320c76d64e1ad44b853dffbbca",
+    "fp_runtime": "10ed748fd2a41a97daf2f638154dd7f2",
+    "fp_sol": "66a28caba80a536ac044a76fc1ee8e3d",
+    "fp_sol2": "2fb6008578f1c34126194d195b0084b6",
+    "id": "SpankChain_Payment",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SpankChain_Payment.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

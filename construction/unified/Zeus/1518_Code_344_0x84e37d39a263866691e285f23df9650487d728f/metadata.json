@@ -1,0 +1,60 @@
+{
+    "addr": "0x84e37d39a263866691e285f23df9650487d728f5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": false,
+    "contractname": "AmIOnTheFork",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "7bb8442d4f1d8b0d5cb1c204b72a683d",
+    "fp_runtime": "98e43c9d87dc445e47befc5d0756f072",
+    "fp_sol": "80540374a3b4d6daa7bbffcc2e91bce7",
+    "fp_sol2": "80540374a3b4d6daa7bbffcc2e91bce7",
+    "id": "1518_Code_344_0x84e37d39a263866691e285f23df9650487d728f",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

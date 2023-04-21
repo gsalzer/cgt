@@ -1,0 +1,60 @@
+{
+    "addr": "0x8af7243f9a173ad8ca6c8a3a053f0182c5352d15",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "Soarcoin",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "febb53f1484816c5c660dca277c24a4b",
+    "fp_runtime": "22894cd989e778527be5f534319dc4df",
+    "fp_sol": "039204deeed2612d8cec03eb9be3d5ac",
+    "fp_sol2": "6b30d6778911c3d585ba3df7ddab6d7e",
+    "id": "0078_Code_3_0x8af7243f9a173ad8ca6c8a3a053f0182c5352d15",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

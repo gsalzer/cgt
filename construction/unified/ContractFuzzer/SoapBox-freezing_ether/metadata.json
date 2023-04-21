@@ -1,0 +1,35 @@
+{
+    "addr": "0x340ea902cd5eba4c665eea0d60eb84eb1349ea22",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.26+commit.4563c3fc",
+    "compiler_orig": false,
+    "contractname": "SoapBox",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "cd7a833010f00ae726d4012398815bdb",
+    "fp_sol": "ff6829c665d1bb27beeca484199755f2",
+    "fp_sol2": "5df8b7702005ff9e02ef0408e405f138",
+    "id": "SoapBox-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/SoapBox.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_SoapBox.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

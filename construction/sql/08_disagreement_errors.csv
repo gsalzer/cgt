@@ -1,0 +1,36 @@
+swc;assessment;dataset/id;analysis
+104;FALSE;NPChecker/0x6a92b2804eaef97f222d003c94f683333e330693;Unchecked send without write to state
+104;FALSE;NPChecker/0x7eab824bdbb0982ade9b601de5c483de8ebafb9d;Unchecked send without write to state
+104;FALSE;NPChecker/0xb0ceaa9cc523332cbef9fc606221cc0bc2d0872d;Unchecked Solidity send with write to state
+107;FALSE;CodeSmells/0x32bacc8b241fb172fee18bda32527126c6f3c5f7;"Gav Wood wallet; reentrancy via confirm(…)"
+107;FALSE;CodeSmells/0xab7c74abc0c4d48d1bdad5dcb26153fc8780f83e;"Gav Wood wallet; reentrancy via confirm(…)"
+107;FALSE;CodeSmells/0xda4a4626d3e16e094de3225a751aab7128e96526;reentrancy via confirm
+107;FALSE;NPChecker/0x253137971b86074021334fb5b7e03ebf2545ead3;reentrancy via confirm
+107;FALSE;CodeSmells/0x755cdba6ae4f479f7164792b318b2a06c759833b;If “WithdrawDAO” has balance, it may be drained by a contract calling withdraw(), if mainDAO.transferFrom fails and msg.sender.send causes another call to withdraw()
+107;FALSE;Zeus/1126_Code_1_0x755cdba6ae4f479f7164792b318b2a06c759833;If “WithdrawDAO” has balance, it may be drained by a contract calling withdraw(), if mainDAO.transferFrom fails and msg.sender.send causes another call to withdraw()
+107;FALSE;Doublade/0xaf0f6a53269fc9dbbd9da9f11c368d36b7a60006-Etheropt-reentrancy;Unclear “definition” in Doublade. It doesn’t seem to be possible to exploit a weakness, but there is a reentrancy for definitons like by eThor group.
+107;FALSE;CodeSmells/0xbf4ed7b27f1d666546e30d74d50d173d20bca754;trusteeWithdraw is reentrant and is only safe, if we assume that the fixed trustee address is not an attacker. As most authors consider only single contracts and make no assumption about called contracts, this contract must be considered as vulnerable.
+107;FALSE;Zeus/0530_Code_bf4ed7b27f1d666546e30d74d50d173d20bca754;trusteeWithdraw is reentrant and is only safe, if we assume that the fixed trustee address is not an attacker. As most authors consider only single contracts and make no assumption about called contracts, this contract must be considered as vulnerable.
+107;FALSE;CodeSmells/0xbb9bc244d798123fde783fcc1c72d3bb8c189413;It’s the DAO …
+114;FALSE;Zeus/0756_Code_5_0x2e1cff135ca6bbc0012a01fa246a0a39aeb10d2d;Calls send Ether, which is recorded. The call that first reaches max_goal, leads further calls to revert.
+114;FALSE;NPChecker/0xaf6d36e6a376cda44a5ce9280507e5e24132c143;TOD between convertGreyGreen() and setGreyGreenPrice()
+114;FALSE;EthRacer/0xc5912c5aa88d7c947c9510b3c8d76543c72ed98c;order of TimeDeposit() calls determines the owner (msg.sender of last call is owner)
+114;FALSE;EthRacer/0x6e01ee36b522a824609b7f7dfb5e4aa8fbb48934;Token-Contract with TOD regarding approve/transfer
+120;FALSE;NPChecker/0xaf6d36e6a376cda44a5ce9280507e5e24132c143;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0x5a5eff38da95b0d58b6c616f2699168b480953c9;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0xba69e7c96e9541863f009e713caf26d4ad2241a0;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0x446d1696a5527018453cda3d67aa4c2cd189b9f6;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0x32bacc8b241fb172fee18bda32527126c6f3c5f7;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0xda4a4626d3e16e094de3225a751aab7128e96526;Payouts depend on the value of “now”.
+120;FALSE;NPChecker/0x253137971b86074021334fb5b7e03ebf2545ead3;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0xbf35faa9c265baf50c9cff8c389c363b05753275;Payouts depend on the value of “now”.
+120;FALSE;CodeSmells/0xab7c74abc0c4d48d1bdad5dcb26153fc8780f83e;Payouts depend on the value of “now”.
+997;FALSE;CodeSmells/0x8eee81d817c9548615d69c485074b55df487ab95;contract is greedy (accepts payment, but has no payout function)
+997;FALSE;CodeSmells/0xee4e09a72c5f8d60ce09b4b90dd1ee680fc375fe;If the judgement is about the code deployed at the given address, then the contract locks Ether: Solidity source was compiled with 0.4.4, hence the functions accept Ether, but cannot pay out. Starting with 0.4.20 (pragma in source is ^0.4.0), however, the code can only be called via delegatecall, hence does not accept Ether anymore.
+107;TRUE;Doublade/0x3cfd32fc860c7458be0dd597ea995b425662d3e9-MultiSigWallet-reentrancy;reentrancy protected via tx.executed
+107;TRUE;Doublade/0xd6f8aabbbeaba0ed626e6edb798e8ada5799db84-MultiSigWalletWithDailyLimit-reentrancy;reentrancy protected via tx.executed
+107;TRUE;Zeus/0804_Code_30_0x6ff323e36bfdb20502b23780695f4e77e36cde95;TriWallet contains just two Solidity sends (2300 gas)=ll-call with 0 gas, no reentrancy.
+120;TRUE;ContractFuzzer/ChainSensitive-numberdependency;"ContractFuzzer: block.number is used  for a critical operation (no); Zeus: block infos influences send/call (no)"
+120;TRUE;ContractFuzzer/FipsNotary-numberdependency;"ContractFuzzer: block.number is used  for a critical operation (no); Zeus: block infos influences send/call (no)"
+120;TRUE;ContractFuzzer/HashToken-numberdependency;"ContractFuzzer: block.number is used  for a critical operation (no); Zeus: block infos influences send/call (no)"
+120;TRUE;ContractFuzzer/MarketPrice-numberdependency;"ContractFuzzer: block.number is used  for a critical operation (no); NPchecker’s definition is so vague that it is unclear why it says no (maybe because no funds involved)."

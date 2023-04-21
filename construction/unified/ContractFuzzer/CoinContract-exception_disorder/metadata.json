@@ -1,0 +1,38 @@
+{
+    "addr": "0x12e29c3d8a8437b1a82afb07dca489548e08ebbe",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CoinContract.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "CoinContract",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/CoinContract.sol"
+    },
+    "fp_bytecode": "a99ff6a633b9ce4d4f32b435fe7f4bb8",
+    "fp_runtime": "561ee129096ccc06ae45aefd9d1602b4",
+    "fp_sol": "e6f30740b18077eff5c5a532a200e877",
+    "fp_sol2": "e6f30740b18077eff5c5a532a200e877",
+    "id": "CoinContract-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

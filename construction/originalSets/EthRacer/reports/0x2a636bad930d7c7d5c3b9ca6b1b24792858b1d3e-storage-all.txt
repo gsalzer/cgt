@@ -1,0 +1,152 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'd72eb4a63b1f83bba02cf3309dcb257ab2302f1d', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000010000000'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79ba5097'}
+2 : {'tx_caller': 'd72eb4a63b1f83bba02cf3309dcb257ab2302f1d', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000000001'}
+3 : {'tx_caller': 'd72eb4a63b1f83bba02cf3309dcb257ab2302f1d', 'name': 'addNewAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63385ad10000000000000000000000001111111111111111111111111111111111111111'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'addNewAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63385ad10000000000000000000000001111111111111111111111111111111111111111'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'addNewAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63385ad10000000000000000000000002222222222222222222222222222222222222222'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'addNewAccount', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63385ad1000000000000000000000000d72eb4a63b1f83bba02cf3309dcb257ab2302f1d'}
+7 : {'tx_caller': 'd72eb4a63b1f83bba02cf3309dcb257ab2302f1d', 'name': 'setActivity', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'de14e54d0000000000000000000000001111111111111111111111111111111111111111'}
+--------------------------------------------------------------------------------
+
+Full traces: 46
+--------------------------------------------------------------------------------
+3 7   :  addNewAccount setActivity 
+7 3   :  setActivity addNewAccount 
+------------------------------------------------------------
+3 0 7   :  addNewAccount transferOwnership setActivity 
+7 3 0   :  setActivity addNewAccount transferOwnership 
+------------------------------------------------------------
+3 0 7   :  addNewAccount transferOwnership setActivity 
+0 7 3   :  transferOwnership setActivity addNewAccount 
+------------------------------------------------------------
+3 0 7   :  addNewAccount transferOwnership setActivity 
+7 0 3   :  setActivity transferOwnership addNewAccount 
+------------------------------------------------------------
+7 3 0   :  setActivity addNewAccount transferOwnership 
+3 7 0   :  addNewAccount setActivity transferOwnership 
+------------------------------------------------------------
+7 3 0   :  setActivity addNewAccount transferOwnership 
+0 3 7   :  transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+0 7 3   :  transferOwnership setActivity addNewAccount 
+3 7 0   :  addNewAccount setActivity transferOwnership 
+------------------------------------------------------------
+0 7 3   :  transferOwnership setActivity addNewAccount 
+0 3 7   :  transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+3 7 0   :  addNewAccount setActivity transferOwnership 
+7 0 3   :  setActivity transferOwnership addNewAccount 
+------------------------------------------------------------
+7 0 3   :  setActivity transferOwnership addNewAccount 
+0 3 7   :  transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+2 0 7 3   :  transferOwnership transferOwnership setActivity addNewAccount 
+3 2 7 0   :  addNewAccount transferOwnership setActivity transferOwnership 
+------------------------------------------------------------
+2 0 7 3   :  transferOwnership transferOwnership setActivity addNewAccount 
+3 7 2 0   :  addNewAccount setActivity transferOwnership transferOwnership 
+------------------------------------------------------------
+2 0 7 3   :  transferOwnership transferOwnership setActivity addNewAccount 
+3 2 0 7   :  addNewAccount transferOwnership transferOwnership setActivity 
+------------------------------------------------------------
+2 0 7 3   :  transferOwnership transferOwnership setActivity addNewAccount 
+2 3 7 0   :  transferOwnership addNewAccount setActivity transferOwnership 
+------------------------------------------------------------
+2 0 7 3   :  transferOwnership transferOwnership setActivity addNewAccount 
+2 0 3 7   :  transferOwnership transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+2 0 7 3   :  transferOwnership transferOwnership setActivity addNewAccount 
+2 3 0 7   :  transferOwnership addNewAccount transferOwnership setActivity 
+------------------------------------------------------------
+0 3 2 7   :  transferOwnership addNewAccount transferOwnership setActivity 
+7 0 2 3   :  setActivity transferOwnership transferOwnership addNewAccount 
+------------------------------------------------------------
+0 3 2 7   :  transferOwnership addNewAccount transferOwnership setActivity 
+0 7 3 2   :  transferOwnership setActivity addNewAccount transferOwnership 
+------------------------------------------------------------
+0 3 2 7   :  transferOwnership addNewAccount transferOwnership setActivity 
+0 7 2 3   :  transferOwnership setActivity transferOwnership addNewAccount 
+------------------------------------------------------------
+0 3 2 7   :  transferOwnership addNewAccount transferOwnership setActivity 
+7 3 0 2   :  setActivity addNewAccount transferOwnership transferOwnership 
+------------------------------------------------------------
+0 3 2 7   :  transferOwnership addNewAccount transferOwnership setActivity 
+7 0 3 2   :  setActivity transferOwnership addNewAccount transferOwnership 
+------------------------------------------------------------
+0 3 7 2   :  transferOwnership addNewAccount setActivity transferOwnership 
+7 0 2 3   :  setActivity transferOwnership transferOwnership addNewAccount 
+------------------------------------------------------------
+0 3 7 2   :  transferOwnership addNewAccount setActivity transferOwnership 
+0 7 3 2   :  transferOwnership setActivity addNewAccount transferOwnership 
+------------------------------------------------------------
+0 3 7 2   :  transferOwnership addNewAccount setActivity transferOwnership 
+0 7 2 3   :  transferOwnership setActivity transferOwnership addNewAccount 
+------------------------------------------------------------
+0 3 7 2   :  transferOwnership addNewAccount setActivity transferOwnership 
+7 3 0 2   :  setActivity addNewAccount transferOwnership transferOwnership 
+------------------------------------------------------------
+0 3 7 2   :  transferOwnership addNewAccount setActivity transferOwnership 
+7 0 3 2   :  setActivity transferOwnership addNewAccount transferOwnership 
+------------------------------------------------------------
+7 3 2 0   :  setActivity addNewAccount transferOwnership transferOwnership 
+3 2 7 0   :  addNewAccount transferOwnership setActivity transferOwnership 
+------------------------------------------------------------
+7 3 2 0   :  setActivity addNewAccount transferOwnership transferOwnership 
+3 7 2 0   :  addNewAccount setActivity transferOwnership transferOwnership 
+------------------------------------------------------------
+7 3 2 0   :  setActivity addNewAccount transferOwnership transferOwnership 
+3 2 0 7   :  addNewAccount transferOwnership transferOwnership setActivity 
+------------------------------------------------------------
+7 3 2 0   :  setActivity addNewAccount transferOwnership transferOwnership 
+2 0 3 7   :  transferOwnership transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+3 2 7 0   :  addNewAccount transferOwnership setActivity transferOwnership 
+2 7 0 3   :  transferOwnership setActivity transferOwnership addNewAccount 
+------------------------------------------------------------
+3 2 7 0   :  addNewAccount transferOwnership setActivity transferOwnership 
+2 7 3 0   :  transferOwnership setActivity addNewAccount transferOwnership 
+------------------------------------------------------------
+3 2 7 0   :  addNewAccount transferOwnership setActivity transferOwnership 
+7 2 0 3   :  setActivity transferOwnership transferOwnership addNewAccount 
+------------------------------------------------------------
+3 2 7 0   :  addNewAccount transferOwnership setActivity transferOwnership 
+7 2 3 0   :  setActivity transferOwnership addNewAccount transferOwnership 
+------------------------------------------------------------
+7 0 2 3   :  setActivity transferOwnership transferOwnership addNewAccount 
+0 2 3 7   :  transferOwnership transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+7 0 2 3   :  setActivity transferOwnership transferOwnership addNewAccount 
+3 0 2 7   :  addNewAccount transferOwnership transferOwnership setActivity 
+------------------------------------------------------------
+7 0 2 3   :  setActivity transferOwnership transferOwnership addNewAccount 
+3 7 0 2   :  addNewAccount setActivity transferOwnership transferOwnership 
+------------------------------------------------------------
+2 7 0 3   :  transferOwnership setActivity transferOwnership addNewAccount 
+3 7 2 0   :  addNewAccount setActivity transferOwnership transferOwnership 
+------------------------------------------------------------
+2 7 0 3   :  transferOwnership setActivity transferOwnership addNewAccount 
+3 2 0 7   :  addNewAccount transferOwnership transferOwnership setActivity 
+------------------------------------------------------------
+2 7 0 3   :  transferOwnership setActivity transferOwnership addNewAccount 
+2 0 3 7   :  transferOwnership transferOwnership addNewAccount setActivity 
+------------------------------------------------------------
+0 2 3 7   :  transferOwnership transferOwnership addNewAccount setActivity 
+0 7 3 2   :  transferOwnership setActivity addNewAccount transferOwnership 
+------------------------------------------------------------
+0 2 3 7   :  transferOwnership transferOwnership addNewAccount setActivity 
+7 0 3 2   :  setActivity transferOwnership addNewAccount transferOwnership 
+------------------------------------------------------------
+0 7 3 2   :  transferOwnership setActivity addNewAccount transferOwnership 
+3 0 2 7   :  addNewAccount transferOwnership transferOwnership setActivity 
+------------------------------------------------------------
+0 7 3 2   :  transferOwnership setActivity addNewAccount transferOwnership 
+3 7 0 2   :  addNewAccount setActivity transferOwnership transferOwnership 
+------------------------------------------------------------
+3 7 2 0   :  addNewAccount setActivity transferOwnership transferOwnership 
+7 2 3 0   :  setActivity transferOwnership addNewAccount transferOwnership 
+------------------------------------------------------------
+3 2 0 7   :  addNewAccount transferOwnership transferOwnership setActivity 
+7 2 3 0   :  setActivity transferOwnership addNewAccount transferOwnership 
+------------------------------------------------------------

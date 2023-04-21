@@ -1,0 +1,38 @@
+{
+    "addr": "0xa17d1bf14802e0eec8f84b3b8b638a9402d60e9e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/RiskSharingToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "RiskSharingToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/delegatecall_dangerous/verified_contract_sols/RiskSharingToken.sol"
+    },
+    "fp_bytecode": "ac140eafa5418e645b4e60ee0c1c220b",
+    "fp_runtime": "3e8cfaa7642b8110726f838a8f72fa4c",
+    "fp_sol": "1ab9dd3239568e7365133b9b1ed72ded",
+    "fp_sol2": "38a47e36fe0e6295b37fac5dc2e256ac",
+    "id": "RiskSharingToken-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

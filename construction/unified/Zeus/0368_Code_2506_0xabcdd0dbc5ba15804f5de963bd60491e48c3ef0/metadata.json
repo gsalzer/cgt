@@ -1,0 +1,60 @@
+{
+    "addr": "0xabcdd0dbc5ba15804f5de963bd60491e48c3ef0b",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "Investment",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c739d3b9fcace93681f9328dc791c21c",
+    "fp_runtime": "c60b847e3d1e70b1f573b72c1e6b58dc",
+    "fp_sol": "b0ed6a87bfe3f7d8df5db0e3783c8ded",
+    "fp_sol2": "08cfe7b0e0cfbcd5f207da873b0003c7",
+    "id": "0368_Code_2506_0xabcdd0dbc5ba15804f5de963bd60491e48c3ef0",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

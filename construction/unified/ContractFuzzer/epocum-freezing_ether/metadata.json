@@ -1,0 +1,35 @@
+{
+    "addr": "0x3a309d529957b33d7456641f264728dd47e1c362",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "epocum",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "84a1349fd816ec89c557d050338789cc",
+    "fp_sol": "bed7589271a360ef6ec93414c20636ee",
+    "fp_sol2": "84623644199b59c829b4e1e7a4ff04d4",
+    "id": "epocum-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/epocum.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_epocum.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

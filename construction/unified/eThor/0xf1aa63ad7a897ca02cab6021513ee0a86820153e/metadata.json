@@ -1,0 +1,37 @@
+{
+    "addr": "0xf1aa63ad7a897ca02cab6021513ee0a86820153e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": true,
+    "contractname": "EthVenturePlugin",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "5b6fe75980e80946b95fae685f5a66e6",
+    "fp_runtime": "721ca85dc1a4905b8526787344ee750a",
+    "fp_sol": "122b525afcf7856fb49713ec903fab2a",
+    "fp_sol2": "122b525afcf7856fb49713ec903fab2a",
+    "id": "0xf1aa63ad7a897ca02cab6021513ee0a86820153e",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

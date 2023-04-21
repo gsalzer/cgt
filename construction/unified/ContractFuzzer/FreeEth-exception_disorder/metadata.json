@@ -1,0 +1,38 @@
+{
+    "addr": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/FreeEth.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "FreeEth",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/FreeEth.sol"
+    },
+    "fp_bytecode": "ea12ab817dec245266985d7236d607d4",
+    "fp_runtime": "1f2b998b20a56a4eabf4833a06de31dd",
+    "fp_sol": "ca3106b586c62093c3cf5fee986f6da7",
+    "fp_sol2": "b05b7bd2a562c3822faa3f69acf45f37",
+    "id": "FreeEth-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

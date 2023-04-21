@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            false
+        ]
+    ],
+    "compiler": "v0.4.21+commit.dfe3193c",
+    "compiler_orig": false,
+    "contractname": "EtherNomin",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x971e78e0c92392a4e39099835cf7e6ab535b2227",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x971e78e0c92392a4e39099835cf7e6ab535b2227",
+            "main",
+            "HavvenEscrow"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "fcce414aa824d101413f6703723eeb25",
+    "fp_sol2": "216eb450c12d3f13364b848ea3885fdf",
+    "id": "0x971e78e0c92392a4e39099835cf7e6ab535b2227-EtherNomin-selfdestruct_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test2320.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

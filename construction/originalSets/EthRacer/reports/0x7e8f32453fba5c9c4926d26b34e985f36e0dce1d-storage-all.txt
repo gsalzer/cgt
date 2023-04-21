@@ -1,0 +1,515 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'refund', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '590e1ae3'}
+1 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328000000000000000000000000000000000000000000000000000000000000000100000000000000000000000032f65bb3efe82692a7f41018c714771d44968d68'}
+2 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328000000000000000000000000000000000000000000000000000000000000000300000000000000000000000032f65bb3efe82692a7f41018c714771d44968d68'}
+3 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b32800000000000000000000000000000000000000000000000000000000000000010000000000000000000000002222222222222222222222222222222222222222'}
+4 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b32800000000000000000000000000000000000000000000000000000000000000030000000000000000000000002222222222222222222222222222222222222222'}
+5 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'Wolk', 'tx_blocknumber': 'afff8', 'tx_value': '0', 'tx_timestamp': 'd88f628', 'tx_input': '227d535f'}
+6 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'redeemToken', 'tx_blocknumber': '3a9c3d', 'tx_value': '1fefe54f2eb7aa63', 'tx_timestamp': '481e3f0f', 'tx_input': '2f310bad'}
+7 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b32800000000000000000000000000000000000000000000000000000000000000010000000000000000000000001111111111111111111111111111111111111111'}
+8 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000003d5317506af570545c647076d8c7bf6d283857f90000000000000000000000000000000000000000000000000000000000000001'}
+9 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b32800000000000000000000000000000000000000000000000000000000000000030000000000000000000000001111111111111111111111111111111111111111'}
+10 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000003d5317506af570545c647076d8c7bf6d283857f90000000000000000000000000000000000000000000000000000000000000003'}
+11 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000001'}
+12 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000003'}
+13 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b3280000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c28da4d42866758d0fc49a5a3948a1f43de491e9'}
+14 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'changeMintingAddress', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '51892f070000000000000000000000003d725b2bd7998a72f03b65a5c6b75e0bc21b6e16'}
+15 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b3280000000000000000000000000000000000000000000000000000000000000003000000000000000000000000c28da4d42866758d0fc49a5a3948a1f43de491e9'}
+16 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'redeemToken', 'tx_blocknumber': '0', 'tx_value': '1fffffffffffffee', 'tx_timestamp': '0', 'tx_input': '2f310bad'}
+17 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'finalize', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4bb278f3'}
+18 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'redeemToken', 'tx_blocknumber': '0', 'tx_value': '1fffffffffffffee', 'tx_timestamp': '0', 'tx_input': '2f310bad'}
+19 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328b5fffffffffffffffffffffffffffffffffffffffffffffc482da0f820100000000000000000000000000000c28da4d42866758d0fc49a5a3948a1f43de491e9'}
+20 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328b5fffffffffffffffffffffffffffffffffffffffffffffc482da0f8201000000000000000000000000000002222222222222222222222222222222222222222'}
+21 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'Wolk', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '227d535f'}
+22 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000003227252b9bf7f19e959d046126fa4a9bb2d870200000000000000000000000000000000000000000000000000000000000000001'}
+23 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000003227252b9bf7f19e959d046126fa4a9bb2d870200000000000000000000000000000000000000000000000000000000000000003'}
+24 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000c28da4d42866758d0fc49a5a3948a1f43de491e9000000000000000000000000000000000000000000000004b5e3af16b1880000'}
+25 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328e978cfffff77ffeff9400000000000000000000000000000040fe81300700000000000000000000000000000c28da4d42866758d0fc49a5a3948a1f43de491e9'}
+26 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'withdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '3ccfd60b'}
+27 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328e978cfffff77ffeff9400000000000000000000000000000040fe813007000000000000000000000000000002222222222222222222222222222222222222222'}
+28 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'Wolk', 'tx_blocknumber': '86', 'tx_value': '0', 'tx_timestamp': 'a4e2', 'tx_input': '227d535f'}
+29 : {'tx_caller': 'c28da4d42866758d0fc49a5a3948a1f43de491e9', 'name': 'fairsale_protectionOFF', 'tx_blocknumber': '87', 'tx_value': '0', 'tx_timestamp': 'a61d', 'tx_input': 'bbd53bf7'}
+30 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328dffffffffffffffffffffffffffffffffffffffffffffffede1fb0ff6c7000000000000000000000000000001111111111111111111111111111111111111111'}
+31 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': '10c5b328dffffffffffffffffffffffffffffffffffffffffffffffede1fb0ff6c7000000000000000000000000000002222222222222222222222222222222222222222'}
+32 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'redeemToken', 'tx_blocknumber': '0', 'tx_value': '2000000000091003', 'tx_timestamp': '0', 'tx_input': '2f310bad'}
+33 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000b96b74c56be1e0052a0abf470c3a40392766a8b30000000000000000000000000000000000000000000000000000000000000001'}
+34 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000b96b74c56be1e0052a0abf470c3a40392766a8b30000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 158
+--------------------------------------------------------------------------------
+13 21   :  mintTokens Wolk 
+21 13   :  Wolk mintTokens 
+------------------------------------------------------------
+21 13 0   :  Wolk mintTokens refund 
+13 21 0   :  mintTokens Wolk refund 
+------------------------------------------------------------
+21 13 0   :  Wolk mintTokens refund 
+13 0 21   :  mintTokens refund Wolk 
+------------------------------------------------------------
+21 13 0   :  Wolk mintTokens refund 
+0 13 21   :  refund mintTokens Wolk 
+------------------------------------------------------------
+13 21 0   :  mintTokens Wolk refund 
+0 21 13   :  refund Wolk mintTokens 
+------------------------------------------------------------
+13 21 0   :  mintTokens Wolk refund 
+21 0 13   :  Wolk refund mintTokens 
+------------------------------------------------------------
+13 0 21   :  mintTokens refund Wolk 
+0 21 13   :  refund Wolk mintTokens 
+------------------------------------------------------------
+13 0 21   :  mintTokens refund Wolk 
+21 0 13   :  Wolk refund mintTokens 
+------------------------------------------------------------
+0 21 13   :  refund Wolk mintTokens 
+0 13 21   :  refund mintTokens Wolk 
+------------------------------------------------------------
+0 13 21   :  refund mintTokens Wolk 
+21 0 13   :  Wolk refund mintTokens 
+------------------------------------------------------------
+1 21 13   :  mintTokens Wolk mintTokens 
+1 13 21   :  mintTokens mintTokens Wolk 
+------------------------------------------------------------
+1 13 21   :  mintTokens mintTokens Wolk 
+21 1 13   :  Wolk mintTokens mintTokens 
+------------------------------------------------------------
+13 21 1   :  mintTokens Wolk mintTokens 
+21 13 1   :  Wolk mintTokens mintTokens 
+------------------------------------------------------------
+5 21 13   :  Wolk Wolk mintTokens 
+5 13 21   :  Wolk mintTokens Wolk 
+------------------------------------------------------------
+13 21 14   :  mintTokens Wolk changeMintingAddress 
+21 13 14   :  Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+13 14 21   :  mintTokens changeMintingAddress Wolk 
+21 13 14   :  Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+16 13 21   :  redeemToken mintTokens Wolk 
+16 21 13   :  redeemToken Wolk mintTokens 
+------------------------------------------------------------
+13 21 22   :  mintTokens Wolk transfer 
+21 13 22   :  Wolk mintTokens transfer 
+------------------------------------------------------------
+13 21 22   :  mintTokens Wolk transfer 
+21 22 13   :  Wolk transfer mintTokens 
+------------------------------------------------------------
+19 17 21   :  mintTokens finalize Wolk 
+21 19 17   :  Wolk mintTokens finalize 
+------------------------------------------------------------
+19 21 17   :  mintTokens Wolk finalize 
+21 19 17   :  Wolk mintTokens finalize 
+------------------------------------------------------------
+19 21 26   :  mintTokens Wolk withdraw 
+21 19 26   :  Wolk mintTokens withdraw 
+------------------------------------------------------------
+19 26 21   :  mintTokens withdraw Wolk 
+21 19 26   :  Wolk mintTokens withdraw 
+------------------------------------------------------------
+13 0 21 1   :  mintTokens refund Wolk mintTokens 
+0 21 13 1   :  refund Wolk mintTokens mintTokens 
+------------------------------------------------------------
+13 0 21 1   :  mintTokens refund Wolk mintTokens 
+21 0 13 1   :  Wolk refund mintTokens mintTokens 
+------------------------------------------------------------
+13 0 21 1   :  mintTokens refund Wolk mintTokens 
+21 13 0 1   :  Wolk mintTokens refund mintTokens 
+------------------------------------------------------------
+13 21 0 1   :  mintTokens Wolk refund mintTokens 
+0 21 13 1   :  refund Wolk mintTokens mintTokens 
+------------------------------------------------------------
+13 21 0 1   :  mintTokens Wolk refund mintTokens 
+21 0 13 1   :  Wolk refund mintTokens mintTokens 
+------------------------------------------------------------
+13 21 0 1   :  mintTokens Wolk refund mintTokens 
+21 13 0 1   :  Wolk mintTokens refund mintTokens 
+------------------------------------------------------------
+0 21 13 1   :  refund Wolk mintTokens mintTokens 
+13 0 1 21   :  mintTokens refund mintTokens Wolk 
+------------------------------------------------------------
+0 21 13 1   :  refund Wolk mintTokens mintTokens 
+0 13 1 21   :  refund mintTokens mintTokens Wolk 
+------------------------------------------------------------
+0 21 13 1   :  refund Wolk mintTokens mintTokens 
+0 13 21 1   :  refund mintTokens Wolk mintTokens 
+------------------------------------------------------------
+21 0 1 13   :  Wolk refund mintTokens mintTokens 
+0 1 13 21   :  refund mintTokens mintTokens Wolk 
+------------------------------------------------------------
+21 0 13 1   :  Wolk refund mintTokens mintTokens 
+13 0 1 21   :  mintTokens refund mintTokens Wolk 
+------------------------------------------------------------
+21 0 13 1   :  Wolk refund mintTokens mintTokens 
+0 13 21 1   :  refund mintTokens Wolk mintTokens 
+------------------------------------------------------------
+0 1 13 21   :  refund mintTokens mintTokens Wolk 
+0 1 21 13   :  refund mintTokens Wolk mintTokens 
+------------------------------------------------------------
+13 0 1 21   :  mintTokens refund mintTokens Wolk 
+21 13 0 1   :  Wolk mintTokens refund mintTokens 
+------------------------------------------------------------
+0 13 1 21   :  refund mintTokens mintTokens Wolk 
+21 13 0 1   :  Wolk mintTokens refund mintTokens 
+------------------------------------------------------------
+21 13 0 1   :  Wolk mintTokens refund mintTokens 
+0 13 21 1   :  refund mintTokens Wolk mintTokens 
+------------------------------------------------------------
+5 21 13 0   :  Wolk Wolk mintTokens refund 
+5 13 21 0   :  Wolk mintTokens Wolk refund 
+------------------------------------------------------------
+5 21 13 0   :  Wolk Wolk mintTokens refund 
+5 0 13 21   :  Wolk refund mintTokens Wolk 
+------------------------------------------------------------
+5 21 13 0   :  Wolk Wolk mintTokens refund 
+5 13 0 21   :  Wolk mintTokens refund Wolk 
+------------------------------------------------------------
+5 21 0 13   :  Wolk Wolk refund mintTokens 
+5 13 21 0   :  Wolk mintTokens Wolk refund 
+------------------------------------------------------------
+5 21 0 13   :  Wolk Wolk refund mintTokens 
+5 0 13 21   :  Wolk refund mintTokens Wolk 
+------------------------------------------------------------
+5 21 0 13   :  Wolk Wolk refund mintTokens 
+5 13 0 21   :  Wolk mintTokens refund Wolk 
+------------------------------------------------------------
+5 0 21 13   :  Wolk refund Wolk mintTokens 
+5 13 21 0   :  Wolk mintTokens Wolk refund 
+------------------------------------------------------------
+5 0 21 13   :  Wolk refund Wolk mintTokens 
+5 0 13 21   :  Wolk refund mintTokens Wolk 
+------------------------------------------------------------
+5 0 21 13   :  Wolk refund Wolk mintTokens 
+5 13 0 21   :  Wolk mintTokens refund Wolk 
+------------------------------------------------------------
+21 0 7 13   :  Wolk refund mintTokens mintTokens 
+7 13 21 0   :  mintTokens mintTokens Wolk refund 
+------------------------------------------------------------
+21 0 7 13   :  Wolk refund mintTokens mintTokens 
+7 13 0 21   :  mintTokens mintTokens refund Wolk 
+------------------------------------------------------------
+0 21 13 7   :  refund Wolk mintTokens mintTokens 
+13 7 0 21   :  mintTokens mintTokens refund Wolk 
+------------------------------------------------------------
+0 21 13 7   :  refund Wolk mintTokens mintTokens 
+13 7 21 0   :  mintTokens mintTokens Wolk refund 
+------------------------------------------------------------
+0 21 13 7   :  refund Wolk mintTokens mintTokens 
+13 21 7 0   :  mintTokens Wolk mintTokens refund 
+------------------------------------------------------------
+7 21 13 0   :  mintTokens Wolk mintTokens refund 
+7 0 13 21   :  mintTokens refund mintTokens Wolk 
+------------------------------------------------------------
+7 21 13 0   :  mintTokens Wolk mintTokens refund 
+7 13 21 0   :  mintTokens mintTokens Wolk refund 
+------------------------------------------------------------
+7 21 13 0   :  mintTokens Wolk mintTokens refund 
+7 13 0 21   :  mintTokens mintTokens refund Wolk 
+------------------------------------------------------------
+7 21 13 0   :  mintTokens Wolk mintTokens refund 
+0 7 13 21   :  refund mintTokens mintTokens Wolk 
+------------------------------------------------------------
+13 21 0 7   :  mintTokens Wolk refund mintTokens 
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+------------------------------------------------------------
+13 0 21 7   :  mintTokens refund Wolk mintTokens 
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+------------------------------------------------------------
+7 21 0 13   :  mintTokens Wolk refund mintTokens 
+7 0 13 21   :  mintTokens refund mintTokens Wolk 
+------------------------------------------------------------
+7 21 0 13   :  mintTokens Wolk refund mintTokens 
+7 13 21 0   :  mintTokens mintTokens Wolk refund 
+------------------------------------------------------------
+7 21 0 13   :  mintTokens Wolk refund mintTokens 
+7 13 0 21   :  mintTokens mintTokens refund Wolk 
+------------------------------------------------------------
+7 21 0 13   :  mintTokens Wolk refund mintTokens 
+0 7 13 21   :  refund mintTokens mintTokens Wolk 
+------------------------------------------------------------
+0 7 21 13   :  refund mintTokens Wolk mintTokens 
+7 0 13 21   :  mintTokens refund mintTokens Wolk 
+------------------------------------------------------------
+0 7 21 13   :  refund mintTokens Wolk mintTokens 
+7 13 21 0   :  mintTokens mintTokens Wolk refund 
+------------------------------------------------------------
+0 7 21 13   :  refund mintTokens Wolk mintTokens 
+7 13 0 21   :  mintTokens mintTokens refund Wolk 
+------------------------------------------------------------
+7 0 13 21   :  mintTokens refund mintTokens Wolk 
+21 7 13 0   :  Wolk mintTokens mintTokens refund 
+------------------------------------------------------------
+7 0 13 21   :  mintTokens refund mintTokens Wolk 
+7 0 21 13   :  mintTokens refund Wolk mintTokens 
+------------------------------------------------------------
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+0 13 7 21   :  refund mintTokens mintTokens Wolk 
+------------------------------------------------------------
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+13 7 0 21   :  mintTokens mintTokens refund Wolk 
+------------------------------------------------------------
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+0 13 21 7   :  refund mintTokens Wolk mintTokens 
+------------------------------------------------------------
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+13 7 21 0   :  mintTokens mintTokens Wolk refund 
+------------------------------------------------------------
+21 13 7 0   :  Wolk mintTokens mintTokens refund 
+13 21 7 0   :  mintTokens Wolk mintTokens refund 
+------------------------------------------------------------
+7 13 21 0   :  mintTokens mintTokens Wolk refund 
+7 0 21 13   :  mintTokens refund Wolk mintTokens 
+------------------------------------------------------------
+7 13 21 0   :  mintTokens mintTokens Wolk refund 
+21 7 0 13   :  Wolk mintTokens refund mintTokens 
+------------------------------------------------------------
+13 7 0 21   :  mintTokens mintTokens refund Wolk 
+21 13 0 7   :  Wolk mintTokens refund mintTokens 
+------------------------------------------------------------
+7 13 0 21   :  mintTokens mintTokens refund Wolk 
+7 0 21 13   :  mintTokens refund Wolk mintTokens 
+------------------------------------------------------------
+7 0 21 13   :  mintTokens refund Wolk mintTokens 
+0 7 13 21   :  refund mintTokens mintTokens Wolk 
+------------------------------------------------------------
+21 0 13 7   :  Wolk refund mintTokens mintTokens 
+13 21 7 0   :  mintTokens Wolk mintTokens refund 
+------------------------------------------------------------
+21 13 0 7   :  Wolk mintTokens refund mintTokens 
+13 21 7 0   :  mintTokens Wolk mintTokens refund 
+------------------------------------------------------------
+0 13 14 21   :  refund mintTokens changeMintingAddress Wolk 
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+------------------------------------------------------------
+0 13 14 21   :  refund mintTokens changeMintingAddress Wolk 
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+------------------------------------------------------------
+0 13 14 21   :  refund mintTokens changeMintingAddress Wolk 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+0 13 14 21   :  refund mintTokens changeMintingAddress Wolk 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+13 14 0 21   :  mintTokens changeMintingAddress refund Wolk 
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+------------------------------------------------------------
+13 14 0 21   :  mintTokens changeMintingAddress refund Wolk 
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+------------------------------------------------------------
+13 14 0 21   :  mintTokens changeMintingAddress refund Wolk 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+13 14 0 21   :  mintTokens changeMintingAddress refund Wolk 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+13 14 21 0   :  mintTokens changeMintingAddress Wolk refund 
+------------------------------------------------------------
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+13 21 0 14   :  mintTokens Wolk refund changeMintingAddress 
+------------------------------------------------------------
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+0 13 21 14   :  refund mintTokens Wolk changeMintingAddress 
+------------------------------------------------------------
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+13 0 21 14   :  mintTokens refund Wolk changeMintingAddress 
+------------------------------------------------------------
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+13 0 14 21   :  mintTokens refund changeMintingAddress Wolk 
+------------------------------------------------------------
+21 0 13 14   :  Wolk refund mintTokens changeMintingAddress 
+13 21 14 0   :  mintTokens Wolk changeMintingAddress refund 
+------------------------------------------------------------
+13 14 21 0   :  mintTokens changeMintingAddress Wolk refund 
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+------------------------------------------------------------
+13 14 21 0   :  mintTokens changeMintingAddress Wolk refund 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+13 14 21 0   :  mintTokens changeMintingAddress Wolk refund 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+13 21 0 14   :  mintTokens Wolk refund changeMintingAddress 
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+------------------------------------------------------------
+13 21 0 14   :  mintTokens Wolk refund changeMintingAddress 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+13 21 0 14   :  mintTokens Wolk refund changeMintingAddress 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+0 13 21 14   :  refund mintTokens Wolk changeMintingAddress 
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+------------------------------------------------------------
+0 13 21 14   :  refund mintTokens Wolk changeMintingAddress 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+0 13 21 14   :  refund mintTokens Wolk changeMintingAddress 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+13 0 21 14   :  mintTokens refund Wolk changeMintingAddress 
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+------------------------------------------------------------
+13 0 21 14   :  mintTokens refund Wolk changeMintingAddress 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+13 0 21 14   :  mintTokens refund Wolk changeMintingAddress 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+13 0 14 21   :  mintTokens refund changeMintingAddress Wolk 
+------------------------------------------------------------
+21 13 14 0   :  Wolk mintTokens changeMintingAddress refund 
+13 21 14 0   :  mintTokens Wolk changeMintingAddress refund 
+------------------------------------------------------------
+13 0 14 21   :  mintTokens refund changeMintingAddress Wolk 
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+------------------------------------------------------------
+13 0 14 21   :  mintTokens refund changeMintingAddress Wolk 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+21 13 0 14   :  Wolk mintTokens refund changeMintingAddress 
+13 21 14 0   :  mintTokens Wolk changeMintingAddress refund 
+------------------------------------------------------------
+13 21 14 0   :  mintTokens Wolk changeMintingAddress refund 
+0 21 13 14   :  refund Wolk mintTokens changeMintingAddress 
+------------------------------------------------------------
+21 13 0 22   :  Wolk mintTokens refund transfer 
+0 13 21 22   :  refund mintTokens Wolk transfer 
+------------------------------------------------------------
+21 13 0 22   :  Wolk mintTokens refund transfer 
+13 21 0 22   :  mintTokens Wolk refund transfer 
+------------------------------------------------------------
+21 13 0 22   :  Wolk mintTokens refund transfer 
+13 0 21 22   :  mintTokens refund Wolk transfer 
+------------------------------------------------------------
+21 13 0 22   :  Wolk mintTokens refund transfer 
+13 21 22 0   :  mintTokens Wolk transfer refund 
+------------------------------------------------------------
+21 22 0 13   :  Wolk transfer refund mintTokens 
+0 13 21 22   :  refund mintTokens Wolk transfer 
+------------------------------------------------------------
+21 22 0 13   :  Wolk transfer refund mintTokens 
+13 21 0 22   :  mintTokens Wolk refund transfer 
+------------------------------------------------------------
+21 22 0 13   :  Wolk transfer refund mintTokens 
+13 0 21 22   :  mintTokens refund Wolk transfer 
+------------------------------------------------------------
+21 22 0 13   :  Wolk transfer refund mintTokens 
+13 21 22 0   :  mintTokens Wolk transfer refund 
+------------------------------------------------------------
+0 13 21 22   :  refund mintTokens Wolk transfer 
+21 0 13 22   :  Wolk refund mintTokens transfer 
+------------------------------------------------------------
+0 13 21 22   :  refund mintTokens Wolk transfer 
+21 22 13 0   :  Wolk transfer mintTokens refund 
+------------------------------------------------------------
+0 13 21 22   :  refund mintTokens Wolk transfer 
+0 21 22 13   :  refund Wolk transfer mintTokens 
+------------------------------------------------------------
+0 13 21 22   :  refund mintTokens Wolk transfer 
+21 0 22 13   :  Wolk refund transfer mintTokens 
+------------------------------------------------------------
+0 13 21 22   :  refund mintTokens Wolk transfer 
+21 13 22 0   :  Wolk mintTokens transfer refund 
+------------------------------------------------------------
+0 13 21 22   :  refund mintTokens Wolk transfer 
+0 21 13 22   :  refund Wolk mintTokens transfer 
+------------------------------------------------------------
+13 21 0 22   :  mintTokens Wolk refund transfer 
+21 0 13 22   :  Wolk refund mintTokens transfer 
+------------------------------------------------------------
+13 21 0 22   :  mintTokens Wolk refund transfer 
+21 22 13 0   :  Wolk transfer mintTokens refund 
+------------------------------------------------------------
+13 21 0 22   :  mintTokens Wolk refund transfer 
+0 21 22 13   :  refund Wolk transfer mintTokens 
+------------------------------------------------------------
+13 21 0 22   :  mintTokens Wolk refund transfer 
+21 0 22 13   :  Wolk refund transfer mintTokens 
+------------------------------------------------------------
+13 21 0 22   :  mintTokens Wolk refund transfer 
+21 13 22 0   :  Wolk mintTokens transfer refund 
+------------------------------------------------------------
+13 21 0 22   :  mintTokens Wolk refund transfer 
+0 21 13 22   :  refund Wolk mintTokens transfer 
+------------------------------------------------------------
+13 0 21 22   :  mintTokens refund Wolk transfer 
+21 0 13 22   :  Wolk refund mintTokens transfer 
+------------------------------------------------------------
+13 0 21 22   :  mintTokens refund Wolk transfer 
+21 22 13 0   :  Wolk transfer mintTokens refund 
+------------------------------------------------------------
+13 0 21 22   :  mintTokens refund Wolk transfer 
+0 21 22 13   :  refund Wolk transfer mintTokens 
+------------------------------------------------------------
+13 0 21 22   :  mintTokens refund Wolk transfer 
+21 0 22 13   :  Wolk refund transfer mintTokens 
+------------------------------------------------------------
+13 0 21 22   :  mintTokens refund Wolk transfer 
+21 13 22 0   :  Wolk mintTokens transfer refund 
+------------------------------------------------------------
+13 0 21 22   :  mintTokens refund Wolk transfer 
+0 21 13 22   :  refund Wolk mintTokens transfer 
+------------------------------------------------------------
+21 0 13 22   :  Wolk refund mintTokens transfer 
+13 21 22 0   :  mintTokens Wolk transfer refund 
+------------------------------------------------------------
+21 22 13 0   :  Wolk transfer mintTokens refund 
+13 21 22 0   :  mintTokens Wolk transfer refund 
+------------------------------------------------------------
+13 21 22 0   :  mintTokens Wolk transfer refund 
+0 21 22 13   :  refund Wolk transfer mintTokens 
+------------------------------------------------------------
+13 21 22 0   :  mintTokens Wolk transfer refund 
+21 0 22 13   :  Wolk refund transfer mintTokens 
+------------------------------------------------------------
+13 21 22 0   :  mintTokens Wolk transfer refund 
+21 13 22 0   :  Wolk mintTokens transfer refund 
+------------------------------------------------------------
+13 21 22 0   :  mintTokens Wolk transfer refund 
+0 21 13 22   :  refund Wolk mintTokens transfer 
+------------------------------------------------------------
+0 19 21 17   :  refund mintTokens Wolk finalize 
+21 0 19 17   :  Wolk refund mintTokens finalize 
+------------------------------------------------------------
+0 19 21 17   :  refund mintTokens Wolk finalize 
+0 21 19 17   :  refund Wolk mintTokens finalize 
+------------------------------------------------------------
+0 19 17 21   :  refund mintTokens finalize Wolk 
+21 0 19 17   :  Wolk refund mintTokens finalize 
+------------------------------------------------------------
+0 19 17 21   :  refund mintTokens finalize Wolk 
+0 21 19 17   :  refund Wolk mintTokens finalize 
+------------------------------------------------------------
+0 19 26 21   :  refund mintTokens withdraw Wolk 
+21 0 19 26   :  Wolk refund mintTokens withdraw 
+------------------------------------------------------------
+0 19 26 21   :  refund mintTokens withdraw Wolk 
+0 21 19 26   :  refund Wolk mintTokens withdraw 
+------------------------------------------------------------
+21 0 19 26   :  Wolk refund mintTokens withdraw 
+0 19 21 26   :  refund mintTokens Wolk withdraw 
+------------------------------------------------------------
+0 21 19 26   :  refund Wolk mintTokens withdraw 
+0 19 21 26   :  refund mintTokens Wolk withdraw 
+------------------------------------------------------------
+13 1 21 2   :  mintTokens mintTokens Wolk mintTokens 
+21 13 1 2   :  Wolk mintTokens mintTokens mintTokens 
+------------------------------------------------------------
+21 2 13 1   :  Wolk mintTokens mintTokens mintTokens 
+2 13 1 21   :  mintTokens mintTokens mintTokens Wolk 
+------------------------------------------------------------
+1 21 13 2   :  mintTokens Wolk mintTokens mintTokens 
+1 13 2 21   :  mintTokens mintTokens mintTokens Wolk 
+------------------------------------------------------------
+1 21 13 2   :  mintTokens Wolk mintTokens mintTokens 
+1 13 21 2   :  mintTokens mintTokens Wolk mintTokens 
+------------------------------------------------------------
+21 13 1 2   :  Wolk mintTokens mintTokens mintTokens 
+13 21 1 2   :  mintTokens Wolk mintTokens mintTokens 
+------------------------------------------------------------
+2 1 21 13   :  mintTokens mintTokens Wolk mintTokens 
+2 1 13 21   :  mintTokens mintTokens mintTokens Wolk 
+------------------------------------------------------------

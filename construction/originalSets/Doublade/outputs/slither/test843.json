@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "MofasAirdrop.multisend has external calls inside a loop: \"ERC20(tokenAddr).transfer(to[i],value[i] * (10 ** 18))\" (reorder_contracts_2_3/test843.sol#45)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "ERC20(tokenAddr).transfer(to[i],value[i] * (10 ** 18))",
+            "source_mapping": {
+              "start": 1175,
+              "length": 57,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test843.sol",
+              "filename_relative": "reorder_contracts_2_3/test843.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test843.sol",
+              "filename_short": "reorder_contracts_2_3/test843.sol",
+              "lines": [
+                45
+              ],
+              "starting_column": 12,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multisend",
+                "source_mapping": {
+                  "start": 951,
+                  "length": 337,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test843.sol",
+                  "filename_relative": "reorder_contracts_2_3/test843.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test843.sol",
+                  "filename_short": "reorder_contracts_2_3/test843.sol",
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MofasAirdrop",
+                    "source_mapping": {
+                      "start": 909,
+                      "length": 382,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test843.sol",
+                      "filename_relative": "reorder_contracts_2_3/test843.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test843.sol",
+                      "filename_short": "reorder_contracts_2_3/test843.sol",
+                      "lines": [
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multisend(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

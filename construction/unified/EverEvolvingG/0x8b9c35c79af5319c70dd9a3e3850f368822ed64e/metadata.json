@@ -1,0 +1,36 @@
+{
+    "addr": "0x8b9c35c79af5319c70dd9a3e3850f368822ed64e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "integer-overflow",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "Dogetoken",
+    "contractname_orig": false,
+    "dataset": "EverEvolvingG",
+    "etc": {},
+    "fp_bytecode": "bf66ac334b22d12a1b60d8801637fdb6",
+    "fp_runtime": "1c065fb0cc7b1cc4683bda1d1e2da068",
+    "fp_sol": "984c96ca23273ac73b16f6b69af77fbf",
+    "fp_sol2": "3f710ccff20fdffae2c8d0f7ab76c541",
+    "id": "0x8b9c35c79af5319c70dd9a3e3850f368822ed64e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

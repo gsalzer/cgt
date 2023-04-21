@@ -1,0 +1,37 @@
+{
+    "addr": "0x95c2906debbb9203ff7007f26c2f00a936c77b5d",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.6+commit.2dabbdf0",
+    "compiler_orig": true,
+    "contractname": "SwarmRedistribution",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "019380de2e2d5c32640c73f2f1e79b2f",
+    "fp_runtime": "7b28a7f9fc5e1dddb3b978cfb44164cd",
+    "fp_sol": "346e9d22d6b2becbfca88f08d439a397",
+    "fp_sol2": "40970a776a581853e3eff028742f2fc6",
+    "id": "0x95c2906debbb9203ff7007f26c2f00a936c77b5d",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

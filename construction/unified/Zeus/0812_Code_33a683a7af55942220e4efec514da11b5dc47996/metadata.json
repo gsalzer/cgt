@@ -1,0 +1,60 @@
+{
+    "addr": "0x33a683a7af55942220e4efec514da11b5dc47996",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "LastIsMe",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "0db4cc8631dcfc324751ced95b3e8fec",
+    "fp_runtime": "b0fc7c28824409465814b7c5c9fa74fa",
+    "fp_sol": "2a4583cab87e74ed769e10bd1448725d",
+    "fp_sol2": "2a4583cab87e74ed769e10bd1448725d",
+    "id": "0812_Code_33a683a7af55942220e4efec514da11b5dc47996",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

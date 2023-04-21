@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Invariant in loop",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "waste1",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "96fb2ce1af7ffd7a291f5afa42a07e1c",
+    "fp_runtime": "de14e2b1ecfd969d8f5179f6cb1b94ad",
+    "fp_sol": "a643d34bfd7cff34c3eb49200efc0206",
+    "fp_sol2": "99a13000221f1dd06a28824789e87eaa",
+    "id": "ConstBalanceInLoop",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/ConstBalanceInLoop.sol"
+    ],
+    "sol_orig": true
+}

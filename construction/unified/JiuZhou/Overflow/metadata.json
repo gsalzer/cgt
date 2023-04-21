@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "integer overflow and underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Overflow",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "17a3d2ad2dcb634259806d0305d7c925",
+    "fp_runtime": "cc75309d0a079dbbf153f0ab1a9b7228",
+    "fp_sol": "6729294c7f924f186f54baf301a743af",
+    "fp_sol2": "b200072034828d595e808502a636c7ff",
+    "id": "Overflow",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/Overflow.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,98 @@
+reorder_contracts_2_3/test3344.sol
+jar:file:/usr/local/lib/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 70
+column: 8
+content: for(uintIm_Calculous_Pair=0;Im_Calculous_Pair<Im_InputData.length;Im_Calculous_Pair++){Sum_Value=Sum_Value+Im_InputData[Im_Calculous_Pair]*Im_EachWeights[Im_Calculous_Pair];}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 149
+column: 8
+content: for(uintIm_Number_Of_ComputationalPair;Im_Number_Of_ComputationalPair<Im_Predict_ResultSets.length;Im_Number_Of_ComputationalPair++){intIm_Residual;Im_Residual=Im_Actual_ResultSets[Im_Number_Of_ComputationalPair]-Im_Predict_ResultSets[Im_Number_Of_ComputationalPair];Im_L2_Error=Im_L2_Error+(Im_Residual*Im_Residual);}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 165
+column: 8
+content: for(uintIm_Number_Of_ComputationalPair;Im_Number_Of_ComputationalPair<Im_Predict_ResultSets.length;Im_Number_Of_ComputationalPair++){intIm_Residual;Im_Residual=Im_Actual_ResultSets[Im_Number_Of_ComputationalPair]-Im_Predict_ResultSets[Im_Number_Of_ComputationalPair];Im_MSE_Error=Im_MSE_Error+(Im_Residual*Im_Residual);}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 246
+column: 16
+content: for(uintIm_Number_Of_CurrentWeight;Im_Number_Of_CurrentWeight<Im_NeuralNetWork_Object.Im_Weights_Of_Nodes_In_EachLayer[Im_Propagation_Layer][Im_Current_Neural].length;Im_Number_Of_CurrentWeight++){intIm_CurrentWeight;intIm_PartialDerivative_PreviousLayerInputSum;Im_CurrentWeight=Im_NeuralNetWork_Object.Im_Weights_Of_Nodes_In_EachLayer[Im_Propagation_Layer][Im_Current_Neural][Im_Number_Of_CurrentWeight];Im_PartialDerivative_PreviousLayerInputSum=Im_PartialDerivative__TensorSet___In_Previous_Layer[Im_Number_Of_CurrentWeight];Im_Sum_Of__Weight_Time_PartialDerivativePreviousLayerInputSum=Im_Sum_Of__Weight_Time_PartialDerivativePreviousLayerInputSum+(Im_CurrentWeight*Im_PartialDerivative_PreviousLayerInputSum);}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 335
+column: 12
+content: for(uintIm_NumberOfData;Im_NumberOfData<Im_Input_Label.length;Im_NumberOfData){intIm_OutPut_PredictionResult;Im_OutPut_PredictionResult=Im_Forward_Propagation__Prediction({Im_Input_Feature:Im_Input_Feature[Im_NumberOfData],Im_NeuralNetWork_Object:Im_NeuralNetWork_Object});Im_OutPut_PredictionResultSet[Im_NumberOfData]=Im_OutPut_PredictionResult;}
+
+ruleId: SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN
+patternId: 58bdd3
+severity: 1
+line: 314
+column: 4
+content: functionIm_TrainingFunction_ByBackwardPropagation(int[][]memoryIm_Input_Feature,int[]memoryIm_Input_Label,intLearing_Rate,uintTrainingTimes,NeuralNetWork_Struct_ObjectmemoryIm_NeuralNetWork_Object)publicpurereturns(intAvrage_Error){int[][][]memoryIm_Current_WeightSet_Of_Nodes_In_EachLayer=Im_NeuralNetWork_Object.Im_Weights_Of_Nodes_In_EachLayer;for(uintIm_NumberOfTraining=0;Im_NumberOfTraining<TrainingTimes;Im_NumberOfTraining++){int[]memoryIm_OutPut_PredictionResultSet;intIm_Total_LossValue;for(uintIm_NumberOfData;Im_NumberOfData<Im_Input_Label.length;Im_NumberOfData){intIm_OutPut_PredictionResult;Im_OutPut_PredictionResult=Im_Forward_Propagation__Prediction({Im_Input_Feature:Im_Input_Feature[Im_NumberOfData],Im_NeuralNetWork_Object:Im_NeuralNetWork_Object});Im_OutPut_PredictionResultSet[Im_NumberOfData]=Im_OutPut_PredictionResult;}Im_Total_LossValue=Im_Total_LossValue+Im_Loss_function__L2({Im_Predict_ResultSets:Im_OutPut_PredictionResultSet,Im_Actual_ResultSets:Im_Input_Label});int[][]memoryIm_InputSum_Of_EachNodes;int[][][]memoryIm_PartialDerivative__Of_InputSum_RespectTo_Weights;int[][]memoryIm_PartialDerivative__of_Error_RespectTo_InputSum_Of_Nodes;}}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 70
+column: 8
+content: for(uintIm_Calculous_Pair=0;Im_Calculous_Pair<Im_InputData.length;Im_Calculous_Pair++){Sum_Value=Sum_Value+Im_InputData[Im_Calculous_Pair]*Im_EachWeights[Im_Calculous_Pair];}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 149
+column: 8
+content: for(uintIm_Number_Of_ComputationalPair;Im_Number_Of_ComputationalPair<Im_Predict_ResultSets.length;Im_Number_Of_ComputationalPair++){intIm_Residual;Im_Residual=Im_Actual_ResultSets[Im_Number_Of_ComputationalPair]-Im_Predict_ResultSets[Im_Number_Of_ComputationalPair];Im_L2_Error=Im_L2_Error+(Im_Residual*Im_Residual);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 165
+column: 8
+content: for(uintIm_Number_Of_ComputationalPair;Im_Number_Of_ComputationalPair<Im_Predict_ResultSets.length;Im_Number_Of_ComputationalPair++){intIm_Residual;Im_Residual=Im_Actual_ResultSets[Im_Number_Of_ComputationalPair]-Im_Predict_ResultSets[Im_Number_Of_ComputationalPair];Im_MSE_Error=Im_MSE_Error+(Im_Residual*Im_Residual);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 246
+column: 16
+content: for(uintIm_Number_Of_CurrentWeight;Im_Number_Of_CurrentWeight<Im_NeuralNetWork_Object.Im_Weights_Of_Nodes_In_EachLayer[Im_Propagation_Layer][Im_Current_Neural].length;Im_Number_Of_CurrentWeight++){intIm_CurrentWeight;intIm_PartialDerivative_PreviousLayerInputSum;Im_CurrentWeight=Im_NeuralNetWork_Object.Im_Weights_Of_Nodes_In_EachLayer[Im_Propagation_Layer][Im_Current_Neural][Im_Number_Of_CurrentWeight];Im_PartialDerivative_PreviousLayerInputSum=Im_PartialDerivative__TensorSet___In_Previous_Layer[Im_Number_Of_CurrentWeight];Im_Sum_Of__Weight_Time_PartialDerivativePreviousLayerInputSum=Im_Sum_Of__Weight_Time_PartialDerivativePreviousLayerInputSum+(Im_CurrentWeight*Im_PartialDerivative_PreviousLayerInputSum);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 335
+column: 12
+content: for(uintIm_NumberOfData;Im_NumberOfData<Im_Input_Label.length;Im_NumberOfData){intIm_OutPut_PredictionResult;Im_OutPut_PredictionResult=Im_Forward_Propagation__Prediction({Im_Input_Feature:Im_Input_Feature[Im_NumberOfData],Im_NeuralNetWork_Object:Im_NeuralNetWork_Object});Im_OutPut_PredictionResultSet[Im_NumberOfData]=Im_OutPut_PredictionResult;}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 1
+column: 16
+content: ^
+
+ruleId: SOLIDITY_SHOULD_RETURN_STRUCT
+patternId: 83hf3l
+severity: 1
+line: 187
+column: 12
+content: (int[][]memoryInputSum_Of_Nodes,int[][][]memoryIm_PartialDerivative__Of_InputSum_RespectTo_Weights)
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN :1
+SOLIDITY_EXTRA_GAS_IN_LOOPS :5
+SOLIDITY_GAS_LIMIT_IN_LOOPS :5
+SOLIDITY_SHOULD_RETURN_STRUCT :1
+

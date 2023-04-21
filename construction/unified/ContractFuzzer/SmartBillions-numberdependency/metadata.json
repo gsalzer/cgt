@@ -1,0 +1,41 @@
+{
+    "addr": "0x00f90986cdd79744409f8a3c7747064afa4473b5",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_SmartBillions.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "SmartBillions",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/numberdependency/verified_contract_sols/SmartBillions.sol"
+    },
+    "fp_bytecode": "4926d077571df9b52e85ef992a0596d4",
+    "fp_runtime": "f074bc9bf554df79e6cb71563cb9af46",
+    "fp_sol": "d77aa11fe6b5273f557970f8d2eb1c61",
+    "fp_sol2": "9b2633ff7a07eef0731d8a2d2d3858e7",
+    "id": "SmartBillions-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SmartBillions.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

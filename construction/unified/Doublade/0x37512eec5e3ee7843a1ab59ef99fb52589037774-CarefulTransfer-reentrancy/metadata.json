@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "CarefulTransfer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x37512eec5e3ee7843a1ab59ef99fb52589037774",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x37512eec5e3ee7843a1ab59ef99fb52589037774",
+            "main",
+            "AuctionManager"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "600bb8a6bc7290bbc0274d88c55bf3de",
+    "fp_sol2": "35c45444c913e699d5c87e9202befccc",
+    "id": "0x37512eec5e3ee7843a1ab59ef99fb52589037774-CarefulTransfer-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test864.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

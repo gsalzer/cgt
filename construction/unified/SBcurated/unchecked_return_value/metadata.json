@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "ReturnValue",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-104#unchecked-return-valuesol"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "ab5d5f69a4016bc824d60623eca4d29e",
+    "fp_sol2": "33d29efc0536a282a29beb59ba5e4b7b",
+    "id": "unchecked_return_value",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/unchecked_return_value.sol"
+    ],
+    "sol_orig": true
+}

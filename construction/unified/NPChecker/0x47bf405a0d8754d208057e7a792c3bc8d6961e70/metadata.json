@@ -1,0 +1,54 @@
+{
+    "addr": "0x47bf405a0d8754d208057e7a792c3bc8d6961e70",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            false
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            false
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "PeonyToken",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "                                                                                             "
+    },
+    "fp_bytecode": "7a2822b2226042ac5e3792575c70cde9",
+    "fp_runtime": "1166dc43ce7f9a441d630729cc6c524b",
+    "fp_sol": "e506b689e410d0d86004bee2664625e8",
+    "fp_sol2": "8d4e5a2e0e2a6ce4c9cecc5a25c1fc58",
+    "id": "0x47bf405a0d8754d208057e7a792c3bc8d6961e70",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

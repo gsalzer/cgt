@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "Crowdsale",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xfffb790342fbb071f972b23884c97185f4166805",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xfffb790342fbb071f972b23884c97185f4166805",
+            "main",
+            "PresaleBREMP"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "4bc0650dfa624fd238aa9ff6af4bf88c",
+    "fp_sol2": "e292568852d7ce26de3535e1e3bef15f",
+    "id": "0xfffb790342fbb071f972b23884c97185f4166805-Crowdsale-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3883.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,35 @@
+{
+    "addr": "0x9a98092e868a630c92f754cb0bbfe0bd2199d437",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "message",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "4aa0e1e9a3e0533f85f64e1d737b79b5",
+    "fp_sol": "0dff59e2f4b1587ce1c7be44319374f0",
+    "fp_sol2": "cbb0a9cbd8cf2d85723dba5aa5a73c05",
+    "id": "message-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/message.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_message.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

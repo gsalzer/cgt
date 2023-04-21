@@ -1,0 +1,39 @@
+{
+    "addr": "0x01805928b325078683818329526dab3f74865e10",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_AumICO.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "AumICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "db68e970c0121500d64e9236710192aa",
+    "fp_runtime": "b637e922637da5ddcf45b5bd5610120f",
+    "fp_sol": "5f20afb1af31f6e2d104239f530b670b",
+    "fp_sol2": "69c74ecadb1119b692ecbd9d305f501a",
+    "id": "AumICO-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_AumICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

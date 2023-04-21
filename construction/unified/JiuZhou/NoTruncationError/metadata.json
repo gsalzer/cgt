@@ -1,0 +1,39 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Integer truncation",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "gray_truncationError",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "b10d66c45a8db02e392bd31f9f012b7a",
+    "fp_runtime": "fa4dfa1038dad51c63c2940a430f30ba",
+    "fp_sol": "7596d00bca4f306dbb95eb75fcecf0f5",
+    "fp_sol2": "b42604fd101e50580b160c9aefeb143d",
+    "id": "NoTruncationError",
+    "info": [
+        "info/1_CharacterDescription.json",
+        "info/2_readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoTruncationError.sol"
+    ],
+    "sol_orig": true
+}

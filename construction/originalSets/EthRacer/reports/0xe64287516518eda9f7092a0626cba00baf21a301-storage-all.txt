@@ -1,0 +1,858 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'contract_balance': '2710', 'tx_value': '8ac7230489e80000', 'tx_caller': '1111111111111111111111111111111111111111', 'tx_input': '11111111', 'name': 'fallback'}
+1 : {'tx_input': '5259347d', 'tx_value': '8ac7230489e80000', 'tx_caller': '4d971a01f5d07dd2cca1ac3ec65ec9a6859c6453', 'name': 'default_helper', 'contract_balance': '2710'}
+2 : {'tx_caller': '4d971a01f5d07dd2cca1ac3ec65ec9a6859c6453', 'name': 'refund_me', 'tx_blocknumber': 'ffff', 'tx_value': '0', 'tx_timestamp': '13afec5', 'tx_input': '81702c34'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'buy_the_tokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'contract_balance': '2710', 'tx_timestamp': '5a5c001d', 'tx_input': '28b8e9cf'}
+4 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'refund_me', 'tx_blocknumber': 'ffff', 'tx_value': '0', 'tx_timestamp': '13afec5', 'tx_input': '81702c34'}
+5 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'refund_me', 'tx_blocknumber': 'ffff', 'tx_value': '0', 'tx_timestamp': '13afec5', 'tx_input': '81702c34'}
+--------------------------------------------------------------------------------
+
+Full traces: 282
+--------------------------------------------------------------------------------
+0 5   :  fallback refund_me 
+5 0   :  refund_me fallback 
+------------------------------------------------------------
+1 2   :  default_helper refund_me 
+2 1   :  refund_me default_helper 
+------------------------------------------------------------
+2 1 0   :  refund_me default_helper fallback 
+0 1 2   :  fallback default_helper refund_me 
+------------------------------------------------------------
+2 1 0   :  refund_me default_helper fallback 
+1 0 2   :  default_helper fallback refund_me 
+------------------------------------------------------------
+2 1 0   :  refund_me default_helper fallback 
+1 2 0   :  default_helper refund_me fallback 
+------------------------------------------------------------
+0 1 2   :  fallback default_helper refund_me 
+2 0 1   :  refund_me fallback default_helper 
+------------------------------------------------------------
+0 1 2   :  fallback default_helper refund_me 
+0 2 1   :  fallback refund_me default_helper 
+------------------------------------------------------------
+1 0 2   :  default_helper fallback refund_me 
+2 0 1   :  refund_me fallback default_helper 
+------------------------------------------------------------
+1 0 2   :  default_helper fallback refund_me 
+0 2 1   :  fallback refund_me default_helper 
+------------------------------------------------------------
+2 0 1   :  refund_me fallback default_helper 
+1 2 0   :  default_helper refund_me fallback 
+------------------------------------------------------------
+0 2 1   :  fallback refund_me default_helper 
+1 2 0   :  default_helper refund_me fallback 
+------------------------------------------------------------
+5 0 1   :  refund_me fallback default_helper 
+0 5 1   :  fallback refund_me default_helper 
+------------------------------------------------------------
+1 0 5   :  default_helper fallback refund_me 
+1 5 0   :  default_helper refund_me fallback 
+------------------------------------------------------------
+0 5 1   :  fallback refund_me default_helper 
+5 1 0   :  refund_me default_helper fallback 
+------------------------------------------------------------
+0 1 5   :  fallback default_helper refund_me 
+1 5 0   :  default_helper refund_me fallback 
+------------------------------------------------------------
+0 5 2   :  fallback refund_me refund_me 
+5 2 0   :  refund_me refund_me fallback 
+------------------------------------------------------------
+0 5 2   :  fallback refund_me refund_me 
+5 0 2   :  refund_me fallback refund_me 
+------------------------------------------------------------
+2 5 0   :  refund_me refund_me fallback 
+2 0 5   :  refund_me fallback refund_me 
+------------------------------------------------------------
+1 2 4   :  default_helper refund_me refund_me 
+2 1 4   :  refund_me default_helper refund_me 
+------------------------------------------------------------
+1 2 4   :  default_helper refund_me refund_me 
+2 4 1   :  refund_me refund_me default_helper 
+------------------------------------------------------------
+4 2 1   :  refund_me refund_me default_helper 
+4 1 2   :  refund_me default_helper refund_me 
+------------------------------------------------------------
+2 0 4 1   :  refund_me fallback refund_me default_helper 
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+2 0 4 1   :  refund_me fallback refund_me default_helper 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 0 4 1   :  refund_me fallback refund_me default_helper 
+1 0 2 4   :  default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+2 0 4 1   :  refund_me fallback refund_me default_helper 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+2 4 0 1   :  refund_me refund_me fallback default_helper 
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+2 4 0 1   :  refund_me refund_me fallback default_helper 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 4 0 1   :  refund_me refund_me fallback default_helper 
+1 0 2 4   :  default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+2 4 0 1   :  refund_me refund_me fallback default_helper 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+1 0 4 2   :  default_helper fallback refund_me refund_me 
+0 4 2 1   :  fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+1 0 4 2   :  default_helper fallback refund_me refund_me 
+4 2 1 0   :  refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+4 0 2 1   :  refund_me fallback refund_me default_helper 
+4 1 2 0   :  refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+4 0 2 1   :  refund_me fallback refund_me default_helper 
+0 4 1 2   :  fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+4 0 2 1   :  refund_me fallback refund_me default_helper 
+4 1 0 2   :  refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+4 0 2 1   :  refund_me fallback refund_me default_helper 
+4 0 1 2   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+4 1 2 0   :  refund_me default_helper refund_me fallback 
+0 4 2 1   :  fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+4 1 2 0   :  refund_me default_helper refund_me fallback 
+4 2 0 1   :  refund_me refund_me fallback default_helper 
+------------------------------------------------------------
+4 1 2 0   :  refund_me default_helper refund_me fallback 
+4 2 1 0   :  refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+0 2 4 1   :  fallback refund_me refund_me default_helper 
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+0 2 4 1   :  fallback refund_me refund_me default_helper 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+0 2 4 1   :  fallback refund_me refund_me default_helper 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+1 4 0 2   :  default_helper refund_me fallback refund_me 
+4 2 1 0   :  refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+2 1 4 0   :  refund_me default_helper refund_me fallback 
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+2 1 4 0   :  refund_me default_helper refund_me fallback 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 1 4 0   :  refund_me default_helper refund_me fallback 
+1 0 2 4   :  default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+2 1 4 0   :  refund_me default_helper refund_me fallback 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+2 4 1 0   :  refund_me refund_me default_helper fallback 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 4 1 0   :  refund_me refund_me default_helper fallback 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+0 4 2 1   :  fallback refund_me refund_me default_helper 
+0 4 1 2   :  fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+0 4 2 1   :  fallback refund_me refund_me default_helper 
+4 1 0 2   :  refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+0 4 2 1   :  fallback refund_me refund_me default_helper 
+4 0 1 2   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+0 4 1 2   :  fallback refund_me default_helper refund_me 
+4 2 0 1   :  refund_me refund_me fallback default_helper 
+------------------------------------------------------------
+0 4 1 2   :  fallback refund_me default_helper refund_me 
+4 2 1 0   :  refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+0 2 1 4   :  fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+2 1 0 4   :  refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+1 2 0 4   :  default_helper refund_me fallback refund_me 
+2 0 1 4   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+4 1 0 2   :  refund_me default_helper fallback refund_me 
+4 2 0 1   :  refund_me refund_me fallback default_helper 
+------------------------------------------------------------
+4 1 0 2   :  refund_me default_helper fallback refund_me 
+4 2 1 0   :  refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+4 2 0 1   :  refund_me refund_me fallback default_helper 
+4 0 1 2   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+0 2 1 4   :  fallback refund_me default_helper refund_me 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+0 2 1 4   :  fallback refund_me default_helper refund_me 
+1 0 2 4   :  default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+0 2 1 4   :  fallback refund_me default_helper refund_me 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+2 1 0 4   :  refund_me default_helper fallback refund_me 
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 1 0 4   :  refund_me default_helper fallback refund_me 
+1 0 2 4   :  default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+2 1 0 4   :  refund_me default_helper fallback refund_me 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+4 2 1 0   :  refund_me refund_me default_helper fallback 
+4 0 1 2   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+0 1 2 4   :  fallback default_helper refund_me refund_me 
+2 0 1 4   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+2 0 1 4   :  refund_me fallback default_helper refund_me 
+1 0 2 4   :  default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+2 0 1 4   :  refund_me fallback default_helper refund_me 
+1 2 4 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+1 0 5 2   :  default_helper fallback refund_me refund_me 
+1 5 2 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+1 0 5 2   :  default_helper fallback refund_me refund_me 
+1 5 0 2   :  default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+2 1 5 0   :  refund_me default_helper refund_me fallback 
+2 0 1 5   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+2 1 5 0   :  refund_me default_helper refund_me fallback 
+0 2 1 5   :  fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+2 1 5 0   :  refund_me default_helper refund_me fallback 
+2 1 0 5   :  refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+0 5 1 2   :  fallback refund_me default_helper refund_me 
+5 0 1 2   :  refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+0 5 1 2   :  fallback refund_me default_helper refund_me 
+5 1 0 2   :  refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+0 1 2 5   :  fallback default_helper refund_me refund_me 
+1 2 5 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+1 5 0 2   :  default_helper refund_me fallback refund_me 
+0 1 5 2   :  fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 5 0 1   :  refund_me refund_me fallback default_helper 
+0 2 5 1   :  fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+2 5 0 1   :  refund_me refund_me fallback default_helper 
+2 0 5 1   :  refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+2 5 1 0   :  refund_me refund_me default_helper fallback 
+0 2 5 1   :  fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+2 5 1 0   :  refund_me refund_me default_helper fallback 
+2 0 5 1   :  refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+5 0 2 1   :  refund_me fallback refund_me default_helper 
+0 5 2 1   :  fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+1 2 0 5   :  default_helper refund_me fallback refund_me 
+1 2 5 0   :  default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+0 5 2 4   :  fallback refund_me refund_me refund_me 
+5 0 2 4   :  refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+0 5 2 4   :  fallback refund_me refund_me refund_me 
+5 2 0 4   :  refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+0 5 2 4   :  fallback refund_me refund_me refund_me 
+5 2 4 0   :  refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 5 2 0   :  refund_me refund_me refund_me fallback 
+4 0 5 2   :  refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 5 0 4   :  refund_me refund_me fallback refund_me 
+2 0 5 4   :  refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 4 0 5   :  refund_me refund_me fallback refund_me 
+2 4 5 0   :  refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+1 5 2 4   :  default_helper refund_me refund_me refund_me 
+5 2 4 1   :  refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+1 5 2 4   :  default_helper refund_me refund_me refund_me 
+5 2 1 4   :  refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+4 1 2 5   :  refund_me default_helper refund_me refund_me 
+4 2 5 1   :  refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+4 1 2 5   :  refund_me default_helper refund_me refund_me 
+4 2 1 5   :  refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+4 5 1 2   :  refund_me refund_me default_helper refund_me 
+4 5 2 1   :  refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+1 2 5 4   :  default_helper refund_me refund_me refund_me 
+2 1 5 4   :  refund_me default_helper refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 0 2 1 5   :  refund_me fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+0 1 4 2 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+1 4 0 2 5   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+1 0 4 2 5   :  default_helper fallback refund_me refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+0 4 2 1 5   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+1 4 2 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+1 4 2 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 2 0 5 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 1 2 0 5   :  refund_me default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 1 0 2 5   :  refund_me default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 2 1 0 5   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 0 1 2 5   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 0 2 5 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+4 1 2 5 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+0 4 1 2 5   :  fallback refund_me default_helper refund_me refund_me 
+------------------------------------------------------------
+4 2 5 0 1   :  refund_me refund_me refund_me fallback default_helper 
+0 4 2 5 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+1 4 5 0 2   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 1 5 2 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 5 2 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 5 0 1 2   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+0 4 5 2 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 1 5 0 2   :  refund_me default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 5 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+1 4 5 2 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+1 0 4 5 2   :  default_helper fallback refund_me refund_me refund_me 
+4 5 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+2 4 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+2 4 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+1 2 4 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+1 2 0 4 5   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+0 1 2 4 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+2 0 4 5 1   :  refund_me fallback refund_me refund_me default_helper 
+1 2 4 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+0 1 2 5 4   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+1 2 5 4 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+2 0 5 4 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+2 1 0 5 4   :  refund_me default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+0 2 5 4 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+0 2 1 5 4   :  fallback refund_me default_helper refund_me refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+2 0 5 1 4   :  refund_me fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+0 2 5 1 4   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+2 1 5 0 4   :  refund_me default_helper refund_me fallback refund_me 
+1 2 5 0 4   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+1 0 2 5 4   :  default_helper fallback refund_me refund_me refund_me 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+2 5 1 0 4   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+2 5 4 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+0 1 2 5 4   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+1 2 5 4 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+2 1 5 4 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+2 5 0 4 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+2 5 0 1 4   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+2 5 1 4 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+2 0 1 5 4   :  refund_me fallback default_helper refund_me refund_me 
+1 2 5 0 4   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+5 4 2 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+5 4 2 0 1   :  refund_me refund_me refund_me fallback default_helper 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+0 5 1 4 2   :  fallback refund_me default_helper refund_me refund_me 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+5 4 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+0 5 4 2 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+0 1 5 4 2   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+5 4 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+0 5 4 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+2 4 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+2 4 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+1 0 2 4 5   :  default_helper fallback refund_me refund_me refund_me 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+1 2 4 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+1 2 0 4 5   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+0 1 2 4 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+2 1 0 4 5   :  refund_me default_helper fallback refund_me refund_me 
+1 2 4 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+0 2 4 5 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+0 2 1 4 5   :  fallback refund_me default_helper refund_me refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+2 1 4 0 5   :  refund_me default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+2 4 1 0 5   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+2 0 4 1 5   :  refund_me fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+2 4 0 5 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+1 2 4 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+0 2 4 1 5   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+1 2 0 4 5   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+2 4 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+0 1 2 4 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+2 1 4 5 0   :  refund_me default_helper refund_me refund_me fallback 
+1 2 4 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 1 0 2 4   :  refund_me default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 2 0 1 4   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 2 4 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+1 5 0 2 4   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 0 1 2 4   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+0 5 2 1 4   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 0 2 4 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+0 5 2 4 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 0 2 1 4   :  refund_me fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+1 5 2 0 4   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 2 0 4 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+5 2 1 0 4   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+0 5 1 2 4   :  fallback refund_me default_helper refund_me refund_me 
+1 5 2 4 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+1 4 5 0 2   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+4 5 2 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+4 5 0 1 2   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+0 4 5 2 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+4 5 1 2 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+1 4 5 2 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 0 5 1 2   :  refund_me fallback refund_me default_helper refund_me 
+4 5 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+2 5 1 0 4   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+2 5 4 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+1 2 5 4 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+0 2 5 4 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+2 0 5 1 4   :  refund_me fallback refund_me default_helper refund_me 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+0 2 5 1 4   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+2 5 0 4 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+2 5 0 1 4   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+2 5 1 4 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+1 2 0 5 4   :  default_helper refund_me fallback refund_me refund_me 
+1 2 5 0 4   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+0 1 4 2 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+1 4 2 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+1 4 2 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+4 1 2 0 5   :  refund_me default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+4 1 0 2 5   :  refund_me default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+4 2 0 1 5   :  refund_me refund_me fallback default_helper refund_me 
+4 2 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+4 0 2 1 5   :  refund_me fallback refund_me default_helper refund_me 
+0 1 4 2 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+4 0 2 1 5   :  refund_me fallback refund_me default_helper refund_me 
+1 0 4 2 5   :  default_helper fallback refund_me refund_me refund_me 
+------------------------------------------------------------
+4 0 2 1 5   :  refund_me fallback refund_me default_helper refund_me 
+4 1 0 2 5   :  refund_me default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+4 0 2 1 5   :  refund_me fallback refund_me default_helper refund_me 
+4 0 1 2 5   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+0 2 4 5 1   :  fallback refund_me refund_me refund_me default_helper 
+2 4 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+0 2 4 5 1   :  fallback refund_me refund_me refund_me default_helper 
+1 2 4 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+0 2 4 5 1   :  fallback refund_me refund_me refund_me default_helper 
+0 1 2 4 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+0 2 4 5 1   :  fallback refund_me refund_me refund_me default_helper 
+1 2 4 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+0 1 4 5 2   :  fallback default_helper refund_me refund_me refund_me 
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+0 1 4 5 2   :  fallback default_helper refund_me refund_me refund_me 
+1 4 5 0 2   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+0 1 4 5 2   :  fallback default_helper refund_me refund_me refund_me 
+4 5 2 1 0   :  refund_me refund_me refund_me default_helper fallback 
+------------------------------------------------------------
+0 1 4 5 2   :  fallback default_helper refund_me refund_me refund_me 
+1 4 5 2 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+0 1 4 5 2   :  fallback default_helper refund_me refund_me refund_me 
+4 5 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+0 1 4 2 5   :  fallback default_helper refund_me refund_me refund_me 
+0 4 2 1 5   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+0 4 2 1 5   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+1 4 2 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+1 4 2 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+4 2 0 5 1   :  refund_me refund_me fallback refund_me default_helper 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+4 1 2 0 5   :  refund_me default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+4 2 1 0 5   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+4 2 5 1 0   :  refund_me refund_me refund_me default_helper fallback 
+4 1 2 5 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+1 4 5 0 2   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+4 5 0 1 2   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+0 4 5 2 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+4 1 5 0 2   :  refund_me default_helper refund_me fallback refund_me 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+4 1 0 5 2   :  refund_me default_helper fallback refund_me refund_me 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+1 4 5 2 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+4 5 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+4 5 0 2 1   :  refund_me refund_me fallback refund_me default_helper 
+0 4 5 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+1 4 5 0 2   :  default_helper refund_me refund_me fallback refund_me 
+0 4 5 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+5 1 0 2 4   :  refund_me default_helper fallback refund_me refund_me 
+0 5 2 1 4   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+5 1 0 2 4   :  refund_me default_helper fallback refund_me refund_me 
+5 0 2 4 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+5 1 0 2 4   :  refund_me default_helper fallback refund_me refund_me 
+0 5 2 4 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+5 1 0 2 4   :  refund_me default_helper fallback refund_me refund_me 
+5 2 1 0 4   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+4 5 0 1 2   :  refund_me refund_me fallback default_helper refund_me 
+------------------------------------------------------------
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+4 0 1 5 2   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+4 5 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+4 0 5 2 1   :  refund_me fallback refund_me refund_me default_helper 
+0 4 5 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+0 2 1 4 5   :  fallback refund_me default_helper refund_me refund_me 
+1 0 2 4 5   :  default_helper fallback refund_me refund_me refund_me 
+------------------------------------------------------------
+0 2 1 4 5   :  fallback refund_me default_helper refund_me refund_me 
+0 1 2 4 5   :  fallback default_helper refund_me refund_me refund_me 
+------------------------------------------------------------
+2 1 4 0 5   :  refund_me default_helper refund_me fallback refund_me 
+2 4 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+5 4 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+0 5 4 2 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+5 4 1 0 2   :  refund_me refund_me default_helper fallback refund_me 
+0 5 4 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+5 2 0 1 4   :  refund_me refund_me fallback default_helper refund_me 
+0 5 2 1 4   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+5 2 0 1 4   :  refund_me refund_me fallback default_helper refund_me 
+0 5 2 4 1   :  fallback refund_me refund_me refund_me default_helper 
+------------------------------------------------------------
+1 0 2 5 4   :  default_helper fallback refund_me refund_me refund_me 
+0 2 5 1 4   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+2 4 1 0 5   :  refund_me refund_me default_helper fallback refund_me 
+2 4 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+2 4 1 0 5   :  refund_me refund_me default_helper fallback refund_me 
+1 2 4 0 5   :  default_helper refund_me refund_me fallback refund_me 
+------------------------------------------------------------
+2 4 1 0 5   :  refund_me refund_me default_helper fallback refund_me 
+1 2 4 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+0 4 2 1 5   :  fallback refund_me refund_me default_helper refund_me 
+1 4 2 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+0 4 2 1 5   :  fallback refund_me refund_me default_helper refund_me 
+4 0 1 2 5   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+1 4 2 0 5   :  default_helper refund_me refund_me fallback refund_me 
+1 4 2 5 0   :  default_helper refund_me refund_me refund_me fallback 
+------------------------------------------------------------
+1 4 2 0 5   :  default_helper refund_me refund_me fallback refund_me 
+4 2 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+5 1 2 0 4   :  refund_me default_helper refund_me fallback refund_me 
+5 2 1 0 4   :  refund_me refund_me default_helper fallback refund_me 
+------------------------------------------------------------
+0 1 5 2 4   :  fallback default_helper refund_me refund_me refund_me 
+1 5 0 2 4   :  default_helper refund_me fallback refund_me refund_me 
+------------------------------------------------------------
+5 0 4 1 2   :  refund_me fallback refund_me default_helper refund_me 
+0 5 4 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+0 5 4 2 1   :  fallback refund_me refund_me refund_me default_helper 
+5 0 4 2 1   :  refund_me fallback refund_me refund_me default_helper 
+------------------------------------------------------------
+0 5 4 2 1   :  fallback refund_me refund_me refund_me default_helper 
+5 0 1 4 2   :  refund_me fallback default_helper refund_me refund_me 
+------------------------------------------------------------
+0 5 4 2 1   :  fallback refund_me refund_me refund_me default_helper 
+0 5 4 1 2   :  fallback refund_me refund_me default_helper refund_me 
+------------------------------------------------------------
+1 4 2 5 0   :  default_helper refund_me refund_me refund_me fallback 
+4 2 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+------------------------------------------------------------
+1 5 0 2 4   :  default_helper refund_me fallback refund_me refund_me 
+1 0 5 2 4   :  default_helper fallback refund_me refund_me refund_me 
+------------------------------------------------------------
+4 2 1 5 0   :  refund_me refund_me default_helper refund_me fallback 
+4 1 2 5 0   :  refund_me default_helper refund_me refund_me fallback 
+------------------------------------------------------------

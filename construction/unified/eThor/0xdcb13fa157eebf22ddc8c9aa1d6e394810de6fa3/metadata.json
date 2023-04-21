@@ -1,0 +1,37 @@
+{
+    "addr": "0xdcb13fa157eebf22ddc8c9aa1d6e394810de6fa3",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": true,
+    "contractname": "PiggyBank",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "361f3a9a872c8e96a388d8f25c3ba446",
+    "fp_runtime": "7b5ef6bd43686c8a8ce96bb4bb777e36",
+    "fp_sol": "f47037af209b1b14aeebf271feb6ce20",
+    "fp_sol2": "f47037af209b1b14aeebf271feb6ce20",
+    "id": "0xdcb13fa157eebf22ddc8c9aa1d6e394810de6fa3",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

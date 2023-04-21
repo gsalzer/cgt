@@ -1,0 +1,37 @@
+{
+    "addr": "0xba3e14a7f0169d86fc1389ad40ca4356a1404640",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.2-2016-05-24-86c65c9",
+    "compiler_orig": true,
+    "contractname": "OpenDollar",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "1070f9b156f7e733b8529980afdee39f",
+    "fp_runtime": "941030814e2ede8d8869bc6bda67956e",
+    "fp_sol": "a7e4b0b5625d1b9c3141bae27c9859b8",
+    "fp_sol2": "a7e4b0b5625d1b9c3141bae27c9859b8",
+    "id": "0xba3e14a7f0169d86fc1389ad40ca4356a1404640",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

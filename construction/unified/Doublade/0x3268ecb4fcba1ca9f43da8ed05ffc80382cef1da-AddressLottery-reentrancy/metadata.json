@@ -1,0 +1,37 @@
+{
+    "addr": "0x3268ecb4fcba1ca9f43da8ed05ffc80382cef1da",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "AddressLottery",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "00364ae0a2e7984d9c4fee504e990858",
+    "fp_runtime": "7c3b91a25cea155a2f62aac1e143aec0",
+    "fp_sol": "71bc5d102050e91557d75f0b087aae87",
+    "fp_sol2": "0df9b75da8b5f0b5788b466d1149419c",
+    "id": "0x3268ecb4fcba1ca9f43da8ed05ffc80382cef1da-AddressLottery-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test793.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

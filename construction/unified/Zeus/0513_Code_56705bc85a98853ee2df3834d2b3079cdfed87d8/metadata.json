@@ -1,0 +1,60 @@
+{
+    "addr": "0x56705bc85a98853ee2df3834d2b3079cdfed87d8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "ConsultingHalf",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "c9d5d20779af2896394d16239b80fb35",
+    "fp_runtime": "191708f41bfb5da94c5905270d062476",
+    "fp_sol": "9ba04804b4622d2c288b3380c4275616",
+    "fp_sol2": "9ba04804b4622d2c288b3380c4275616",
+    "id": "0513_Code_56705bc85a98853ee2df3834d2b3079cdfed87d8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

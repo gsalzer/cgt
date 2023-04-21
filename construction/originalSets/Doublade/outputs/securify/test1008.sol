@@ -1,0 +1,13 @@
+Processing contract: /home/jiaming/mavs_srcs/contract@0x3f2c7f9f26248de28653775ede580aecd8b09e4b.sol:SmartNinja
+  Attempt to decompile the contract with methods...
+  Failed to decompile methods. Attempt to decompile the contract without identifying methods...
+  Propagating constants...
+  Verifying patterns...
+[33mWarning[0m for LockedEther in contract 'SmartNinja':
+    |pragma solidity ^0.4.24;
+  > |contract SmartNinja {
+    |    string AOI = "1fd2bc5cd782bd2bfcfc4c9598e572e0b4009a1f19a655e7354ebb66755b1175";
+    |    string IIR = "d3a1bf17bcb342dc762182cf7eec202e65394013301dca0a470351cd9b5552a4";
+  at /home/jiaming/mavs_srcs/contract@0x3f2c7f9f26248de28653775ede580aecd8b09e4b.sol(2)
+
+

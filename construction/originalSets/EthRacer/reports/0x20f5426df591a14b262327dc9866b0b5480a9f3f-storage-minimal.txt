@@ -1,0 +1,16 @@
+Minimal found traces: 5 
+--------------------------------------------------------------------------------
+['decreaseApproval', 'approve']
+['approve', 'decreaseApproval']
+--------------------------------------------------------------------------------
+['increaseApproval', 'decreaseApproval']
+['decreaseApproval', 'increaseApproval']
+--------------------------------------------------------------------------------
+['approve', 'increaseApproval']
+['increaseApproval', 'approve']
+--------------------------------------------------------------------------------
+['approve', 'transferFrom', 'approve']
+['approve', 'approve', 'transferFrom']
+--------------------------------------------------------------------------------
+['increaseApproval', 'transferFrom', 'approve']
+['increaseApproval', 'approve', 'transferFrom']

@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "Escrow",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x3bb3354f82654dd609300e92c92cf2c7c1bf3171",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x3bb3354f82654dd609300e92c92cf2c7c1bf3171",
+            "main",
+            "Tokens"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "1d9af97c0faee8529c3e3c79c255c0c6",
+    "fp_sol2": "40d4f5cbe784d234a545236e84e885e7",
+    "id": "0x3bb3354f82654dd609300e92c92cf2c7c1bf3171-Escrow-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test941.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

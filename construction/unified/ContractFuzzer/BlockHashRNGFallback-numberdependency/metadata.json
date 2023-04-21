@@ -1,0 +1,38 @@
+{
+    "addr": "0x1738b62e403090666687243e758b1c29edffc90e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "BlockHashRNGFallback",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b3c3037994b3d1c78857651b96753e40",
+    "fp_runtime": "e079e33ea7c5ed3403108e4122396581",
+    "fp_sol": "6f298016822a0d553cd6018dff886cae",
+    "fp_sol2": "6f298016822a0d553cd6018dff886cae",
+    "id": "BlockHashRNGFallback-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_BlockHashRNGFallback.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BlockHashRNGFallback.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

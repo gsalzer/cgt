@@ -1,0 +1,37 @@
+{
+    "addr": "0x4a1455fae5da12cd75b3f34b323bf7836c1862be",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.0+commit.acd334c9",
+    "compiler_orig": false,
+    "contractname": "BananaGame",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "10f256f30e57fb1b5031a0e0bbad8536",
+    "fp_runtime": "516da6aae78cfff162827c31b8029c1d",
+    "fp_sol": "a5011bdcbae9d2bb4f96e563253f46e1",
+    "fp_sol2": "7b31f1ce864f8f67e644f59a5c439187",
+    "id": "0x4a1455fae5da12cd75b3f34b323bf7836c1862be-BananaGame-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1169.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

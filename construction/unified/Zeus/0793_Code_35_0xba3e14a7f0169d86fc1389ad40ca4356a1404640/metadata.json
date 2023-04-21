@@ -1,0 +1,60 @@
+{
+    "addr": "0xba3e14a7f0169d86fc1389ad40ca4356a1404640",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.2-2016-05-24-86c65c9",
+    "compiler_orig": false,
+    "contractname": "OpenDollar",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1070f9b156f7e733b8529980afdee39f",
+    "fp_runtime": "941030814e2ede8d8869bc6bda67956e",
+    "fp_sol": "a7e4b0b5625d1b9c3141bae27c9859b8",
+    "fp_sol2": "a7e4b0b5625d1b9c3141bae27c9859b8",
+    "id": "0793_Code_35_0xba3e14a7f0169d86fc1389ad40ca4356a1404640",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

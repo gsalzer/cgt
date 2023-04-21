@@ -1,0 +1,39 @@
+{
+    "addr": "0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "VaultProxy",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "606f7979f973a8a83fb6accd43a75782",
+    "fp_runtime": "b96736d8cbb84c2c602d769eee92829f",
+    "fp_sol": "4174fc2f77fcacfe4572207289d106d1",
+    "fp_sol2": "4de5f75613726921c92ed965c989bd34",
+    "id": "0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

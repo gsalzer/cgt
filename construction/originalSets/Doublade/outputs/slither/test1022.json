@@ -1,0 +1,104 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "SimpleDistributor.addReceivers has external calls inside a loop: \"token.transfer(receivers[i],balances[i])\" (reorder_contracts_2_3/test1022.sol#25)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(receivers[i],balances[i])",
+            "source_mapping": {
+              "start": 613,
+              "length": 41,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1022.sol",
+              "filename_relative": "reorder_contracts_2_3/test1022.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1022.sol",
+              "filename_short": "reorder_contracts_2_3/test1022.sol",
+              "lines": [
+                25
+              ],
+              "starting_column": 7,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "addReceivers",
+                "source_mapping": {
+                  "start": 452,
+                  "length": 215,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1022.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1022.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1022.sol",
+                  "filename_short": "reorder_contracts_2_3/test1022.sol",
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleDistributor",
+                    "source_mapping": {
+                      "start": 214,
+                      "length": 791,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1022.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1022.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1022.sol",
+                      "filename_short": "reorder_contracts_2_3/test1022.sol",
+                      "lines": [
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "addReceivers(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

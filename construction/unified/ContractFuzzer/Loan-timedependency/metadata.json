@@ -1,0 +1,37 @@
+{
+    "addr": "0x01e53a2e7122a63845b1c329d4fce8124dda5b06",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Loan.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "Loan",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b6d32b1c2a060bade2cb57e707b8416b",
+    "fp_runtime": "57efe654edcf160dd7d2e8ce524ef955",
+    "fp_sol": "8f7ae3d52fc17414ed141f1cb4fe3ed0",
+    "fp_sol2": "75884238181354e6b1e011a872d2d49d",
+    "id": "Loan-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Loan.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

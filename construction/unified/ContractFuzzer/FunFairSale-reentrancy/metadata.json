@@ -1,0 +1,39 @@
+{
+    "addr": "0x491ff72e7b511123b6a6c074fbaef158546982fe",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_FunFairSale.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "FunFairSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "feb18b6baa4409eae1ea703d38e6f7ad",
+    "fp_runtime": "44ac0e930aafd9e2caa0f3bca2a5d09e",
+    "fp_sol": "b33fbc611e61f4a71538b8455f79b496",
+    "fp_sol2": "6e60bb25259e9cf17b8ae9f568b774f9",
+    "id": "FunFairSale-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_FunFairSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

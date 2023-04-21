@@ -1,0 +1,60 @@
+{
+    "addr": "0xd89e1799540303cedc9c4ba1e1c3c6f0feec7c02",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-10-5f97274",
+    "compiler_orig": false,
+    "contractname": "WithdrawDAO",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "546e964e0cc1b9d4b2f093fa4187ef25",
+    "fp_runtime": "7b75cae3f7a2cb171b3b417257bf4d9d",
+    "fp_sol": "bb67c140578e1f23a24425085f5bca8e",
+    "fp_sol2": "bb67c140578e1f23a24425085f5bca8e",
+    "id": "0563_Code_3070_0xd89e1799540303cedc9c4ba1e1c3c6f0feec7c0",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

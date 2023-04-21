@@ -1,0 +1,37 @@
+{
+    "addr": "0x5bb52e85c21ca3df3c71da6d03be19cff89e7cf9",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CreditDepositBank.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "CreditDepositBank",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "570743d22cb1e7bf09d66eeb106896ab",
+    "fp_runtime": "9721cfd57699906ea52f7c552af6d439",
+    "fp_sol": "e7ba089a90aad5479a596c97daf7dce5",
+    "fp_sol2": "3227e4f36aadcf2e9fcc5db45ba5041b",
+    "id": "CreditDepositBank-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CreditDepositBank.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

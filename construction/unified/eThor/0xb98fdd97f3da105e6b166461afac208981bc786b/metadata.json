@@ -1,0 +1,37 @@
+{
+    "addr": "0xb98fdd97f3da105e6b166461afac208981bc786b",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": true,
+    "contractname": "Registrar",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b520ffe2c37c8d12ae0397c33522a596",
+    "fp_runtime": "299e5cbbc52a42607ee5ff518d10c04f",
+    "fp_sol": "7290b74bc2e49075508adc65be008112",
+    "fp_sol2": "7290b74bc2e49075508adc65be008112",
+    "id": "0xb98fdd97f3da105e6b166461afac208981bc786b",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

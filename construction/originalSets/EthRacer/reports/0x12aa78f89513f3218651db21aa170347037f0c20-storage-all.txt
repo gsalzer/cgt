@@ -1,0 +1,1903 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '0', 'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'approve', 'tx_input': '095ea7b3000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f20'}
+1 : {'tx_value': '0', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'crowdsaleOpen', 'tx_input': 'c1a12d66'}
+2 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'setTRCExchangeRate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a71d6f9f'}
+3 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'changeOwner', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a6f9dae100000000000000000000000017d3664ff3cc99c4d5c190a341166de74dbce0df'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'setTRCExchangeRate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a71d6f9f'}
+5 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'withdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '51cff8d9000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+6 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'burnTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0d1118ce000000000000000000000000c5d68be00e1ed854ba7106b387d76e83c95d2d8e0000000000000000000000000000000000000000000000000000000000000001'}
+7 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c00000000000000000000000097be0374d8150d6cc5a2422a4c7b68790858acfa0000000000000000000000000000000000000000000000000000000000000001'}
+8 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'burnTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0d1118ce000000000000000000000000c5d68be00e1ed854ba7106b387d76e83c95d2d8e0000000000000000000000000000000000000000000000000000000000000003'}
+9 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c00000000000000000000000097be0374d8150d6cc5a2422a4c7b68790858acfa0000000000000000000000000000000000000000000000000000000000000003'}
+10 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f200000000000000000000000000000000000000000000000000000000000000001'}
+11 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f200000000000000000000000000000000000000000000000000000000000000003'}
+12 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'withdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '51cff8d9000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+13 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c00000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000002091419b00604'}
+14 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000e40c7d37d67ab044ba5b52022a7ccfa43769ce2a0000000000000000000000000000000000000000000000000001041429bc06e8'}
+15 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000002222222222222222222222222222222222222222000000000000000000000000e40c7d37d67ab044ba5b52022a7ccfa43769ce2a0000000000000000000000000000000000000000000000000001041429bc06e8'}
+16 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f2000000000000000000000000000000000000000000000000000022cfe8d897fff'}
+17 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'burnTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0d1118ce00000000000000000000000014d2a70d64ac5cb60d6a0d0369a4583174b7ebb0ffffffffffffffffffffffffffffffffffffffffffffffffffffe8e00ae7ffdf'}
+18 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f200000000000000000000000000000000000000000000000000001e80a3ff02140'}
+19 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'burnTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0d1118ce000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f20fffffffffffffffffffffffffffffffffffffffffffffffffffddb01c0984228'}
+20 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f200000000000000000000000000000000000000000000000000002091419b00604'}
+21 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000a71cfc9df06a8ea2c92442815a99aa0d734d0f6d0000000000000000000000000000000000000000000000000001041429bc06e8'}
+22 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f2000000000000000000000000000000000000000000000000000020104904a8002'}
+23 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f200000000000000000000000000000000000000000000000000002000000000001'}
+24 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f2000000000000000000000000000000000000000000000000000001cfb8e356000'}
+25 : {'tx_caller': 'e82c99b00c33663b2a3e6f5cbee99218b2431f20', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000001cfb8e356000'}
+26 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000e82c99b00c33663b2a3e6f5cbee99218b2431f2000000000000000000000000000000000000000000000000000001fffffffe000'}
+27 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'mintTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f0dda65c000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000001fffffffe000'}
+--------------------------------------------------------------------------------
+
+Full traces: 623
+--------------------------------------------------------------------------------
+19 10   :  burnTokens mintTokens 
+10 19   :  mintTokens burnTokens 
+------------------------------------------------------------
+0 10 19   :  approve mintTokens burnTokens 
+19 0 10   :  burnTokens approve mintTokens 
+------------------------------------------------------------
+0 10 19   :  approve mintTokens burnTokens 
+19 10 0   :  burnTokens mintTokens approve 
+------------------------------------------------------------
+0 10 19   :  approve mintTokens burnTokens 
+0 19 10   :  approve burnTokens mintTokens 
+------------------------------------------------------------
+19 0 10   :  burnTokens approve mintTokens 
+10 0 19   :  mintTokens approve burnTokens 
+------------------------------------------------------------
+19 0 10   :  burnTokens approve mintTokens 
+10 19 0   :  mintTokens burnTokens approve 
+------------------------------------------------------------
+10 0 19   :  mintTokens approve burnTokens 
+19 10 0   :  burnTokens mintTokens approve 
+------------------------------------------------------------
+10 0 19   :  mintTokens approve burnTokens 
+0 19 10   :  approve burnTokens mintTokens 
+------------------------------------------------------------
+19 10 0   :  burnTokens mintTokens approve 
+10 19 0   :  mintTokens burnTokens approve 
+------------------------------------------------------------
+0 19 10   :  approve burnTokens mintTokens 
+10 19 0   :  mintTokens burnTokens approve 
+------------------------------------------------------------
+10 19 1   :  mintTokens burnTokens crowdsaleOpen 
+1 19 10   :  crowdsaleOpen burnTokens mintTokens 
+------------------------------------------------------------
+10 19 1   :  mintTokens burnTokens crowdsaleOpen 
+19 10 1   :  burnTokens mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 19 1   :  mintTokens burnTokens crowdsaleOpen 
+19 1 10   :  burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+1 10 19   :  crowdsaleOpen mintTokens burnTokens 
+1 19 10   :  crowdsaleOpen burnTokens mintTokens 
+------------------------------------------------------------
+1 10 19   :  crowdsaleOpen mintTokens burnTokens 
+19 10 1   :  burnTokens mintTokens crowdsaleOpen 
+------------------------------------------------------------
+1 10 19   :  crowdsaleOpen mintTokens burnTokens 
+19 1 10   :  burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+1 19 10   :  crowdsaleOpen burnTokens mintTokens 
+10 1 19   :  mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 10 1   :  burnTokens mintTokens crowdsaleOpen 
+10 1 19   :  mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 1 10   :  burnTokens crowdsaleOpen mintTokens 
+10 1 19   :  mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+10 2 19   :  mintTokens setTRCExchangeRate burnTokens 
+19 10 2   :  burnTokens mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+10 2 19   :  mintTokens setTRCExchangeRate burnTokens 
+2 19 10   :  setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+10 2 19   :  mintTokens setTRCExchangeRate burnTokens 
+19 2 10   :  burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 19 2   :  mintTokens burnTokens setTRCExchangeRate 
+19 10 2   :  burnTokens mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+10 19 2   :  mintTokens burnTokens setTRCExchangeRate 
+2 19 10   :  setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+10 19 2   :  mintTokens burnTokens setTRCExchangeRate 
+19 2 10   :  burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+2 10 19   :  setTRCExchangeRate mintTokens burnTokens 
+19 10 2   :  burnTokens mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+2 10 19   :  setTRCExchangeRate mintTokens burnTokens 
+2 19 10   :  setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+2 10 19   :  setTRCExchangeRate mintTokens burnTokens 
+19 2 10   :  burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+19 10 3   :  burnTokens mintTokens changeOwner 
+10 19 3   :  mintTokens burnTokens changeOwner 
+------------------------------------------------------------
+5 19 10   :  withdraw burnTokens mintTokens 
+10 19 5   :  mintTokens burnTokens withdraw 
+------------------------------------------------------------
+5 19 10   :  withdraw burnTokens mintTokens 
+5 10 19   :  withdraw mintTokens burnTokens 
+------------------------------------------------------------
+5 19 10   :  withdraw burnTokens mintTokens 
+10 5 19   :  mintTokens withdraw burnTokens 
+------------------------------------------------------------
+19 10 5   :  burnTokens mintTokens withdraw 
+10 19 5   :  mintTokens burnTokens withdraw 
+------------------------------------------------------------
+19 10 5   :  burnTokens mintTokens withdraw 
+5 10 19   :  withdraw mintTokens burnTokens 
+------------------------------------------------------------
+19 10 5   :  burnTokens mintTokens withdraw 
+10 5 19   :  mintTokens withdraw burnTokens 
+------------------------------------------------------------
+19 5 10   :  burnTokens withdraw mintTokens 
+10 19 5   :  mintTokens burnTokens withdraw 
+------------------------------------------------------------
+19 5 10   :  burnTokens withdraw mintTokens 
+5 10 19   :  withdraw mintTokens burnTokens 
+------------------------------------------------------------
+19 5 10   :  burnTokens withdraw mintTokens 
+10 5 19   :  mintTokens withdraw burnTokens 
+------------------------------------------------------------
+6 19 10   :  burnTokens burnTokens mintTokens 
+6 10 19   :  burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+7 10 19   :  mintTokens mintTokens burnTokens 
+19 7 10   :  burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+7 10 19   :  mintTokens mintTokens burnTokens 
+7 19 10   :  mintTokens burnTokens mintTokens 
+------------------------------------------------------------
+10 19 7   :  mintTokens burnTokens mintTokens 
+19 10 7   :  burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+8 19 10   :  burnTokens burnTokens mintTokens 
+10 8 19   :  mintTokens burnTokens burnTokens 
+------------------------------------------------------------
+10 19 17   :  mintTokens burnTokens burnTokens 
+19 10 17   :  burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+10 19 21   :  mintTokens burnTokens transfer 
+19 10 21   :  burnTokens mintTokens transfer 
+------------------------------------------------------------
+10 19 21   :  mintTokens burnTokens transfer 
+19 21 10   :  burnTokens transfer mintTokens 
+------------------------------------------------------------
+16 19 23   :  mintTokens burnTokens transfer 
+16 23 19   :  mintTokens transfer burnTokens 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+1 19 10 0   :  crowdsaleOpen burnTokens mintTokens approve 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+0 1 19 10   :  approve crowdsaleOpen burnTokens mintTokens 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+10 19 1 0   :  mintTokens burnTokens crowdsaleOpen approve 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+10 0 19 1   :  mintTokens approve burnTokens crowdsaleOpen 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+19 10 0 1   :  burnTokens mintTokens approve crowdsaleOpen 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+0 19 10 1   :  approve burnTokens mintTokens crowdsaleOpen 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+10 0 1 19   :  mintTokens approve crowdsaleOpen burnTokens 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+1 10 0 19   :  crowdsaleOpen mintTokens approve burnTokens 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+10 1 19 0   :  mintTokens crowdsaleOpen burnTokens approve 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+0 10 19 1   :  approve mintTokens burnTokens crowdsaleOpen 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+19 0 1 10   :  burnTokens approve crowdsaleOpen mintTokens 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+0 19 1 10   :  approve burnTokens crowdsaleOpen mintTokens 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+19 1 0 10   :  burnTokens crowdsaleOpen approve mintTokens 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+19 1 10 0   :  burnTokens crowdsaleOpen mintTokens approve 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+------------------------------------------------------------
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+19 0 10 1   :  burnTokens approve mintTokens crowdsaleOpen 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+------------------------------------------------------------
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+0 10 1 19   :  approve mintTokens crowdsaleOpen burnTokens 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+------------------------------------------------------------
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+------------------------------------------------------------
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+1 19 0 10   :  crowdsaleOpen burnTokens approve mintTokens 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+1 0 10 19   :  crowdsaleOpen approve mintTokens burnTokens 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+------------------------------------------------------------
+1 10 19 0   :  crowdsaleOpen mintTokens burnTokens approve 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+------------------------------------------------------------
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+------------------------------------------------------------
+19 10 1 0   :  burnTokens mintTokens crowdsaleOpen approve 
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+------------------------------------------------------------
+10 19 0 1   :  mintTokens burnTokens approve crowdsaleOpen 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+10 1 0 19   :  mintTokens crowdsaleOpen approve burnTokens 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+0 1 10 19   :  approve crowdsaleOpen mintTokens burnTokens 
+1 0 19 10   :  crowdsaleOpen approve burnTokens mintTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+2 19 10 0   :  setTRCExchangeRate burnTokens mintTokens approve 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+10 0 2 19   :  mintTokens approve setTRCExchangeRate burnTokens 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+10 0 19 2   :  mintTokens approve burnTokens setTRCExchangeRate 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+0 19 10 2   :  approve burnTokens mintTokens setTRCExchangeRate 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+19 10 2 0   :  burnTokens mintTokens setTRCExchangeRate approve 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+19 2 0 10   :  burnTokens setTRCExchangeRate approve mintTokens 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+10 2 19 0   :  mintTokens setTRCExchangeRate burnTokens approve 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+2 10 0 19   :  setTRCExchangeRate mintTokens approve burnTokens 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+0 19 2 10   :  approve burnTokens setTRCExchangeRate mintTokens 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+2 10 19 0   :  setTRCExchangeRate mintTokens burnTokens approve 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+10 19 0 2   :  mintTokens burnTokens approve setTRCExchangeRate 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+0 10 19 2   :  approve mintTokens burnTokens setTRCExchangeRate 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+19 10 0 2   :  burnTokens mintTokens approve setTRCExchangeRate 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+2 0 19 10   :  setTRCExchangeRate approve burnTokens mintTokens 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+------------------------------------------------------------
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+------------------------------------------------------------
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+0 2 19 10   :  approve setTRCExchangeRate burnTokens mintTokens 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+10 2 0 19   :  mintTokens setTRCExchangeRate approve burnTokens 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+------------------------------------------------------------
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+0 10 2 19   :  approve mintTokens setTRCExchangeRate burnTokens 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+------------------------------------------------------------
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+19 0 2 10   :  burnTokens approve setTRCExchangeRate mintTokens 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+------------------------------------------------------------
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+2 0 10 19   :  setTRCExchangeRate approve mintTokens burnTokens 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+------------------------------------------------------------
+2 19 0 10   :  setTRCExchangeRate burnTokens approve mintTokens 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+------------------------------------------------------------
+0 2 10 19   :  approve setTRCExchangeRate mintTokens burnTokens 
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+------------------------------------------------------------
+19 2 10 0   :  burnTokens setTRCExchangeRate mintTokens approve 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+19 0 10 2   :  burnTokens approve mintTokens setTRCExchangeRate 
+10 19 2 0   :  mintTokens burnTokens setTRCExchangeRate approve 
+------------------------------------------------------------
+0 19 10 3   :  approve burnTokens mintTokens changeOwner 
+0 10 19 3   :  approve mintTokens burnTokens changeOwner 
+------------------------------------------------------------
+0 19 10 3   :  approve burnTokens mintTokens changeOwner 
+10 19 0 3   :  mintTokens burnTokens approve changeOwner 
+------------------------------------------------------------
+0 19 10 3   :  approve burnTokens mintTokens changeOwner 
+10 0 19 3   :  mintTokens approve burnTokens changeOwner 
+------------------------------------------------------------
+0 19 10 3   :  approve burnTokens mintTokens changeOwner 
+10 19 3 0   :  mintTokens burnTokens changeOwner approve 
+------------------------------------------------------------
+0 10 19 3   :  approve mintTokens burnTokens changeOwner 
+19 10 3 0   :  burnTokens mintTokens changeOwner approve 
+------------------------------------------------------------
+0 10 19 3   :  approve mintTokens burnTokens changeOwner 
+19 10 0 3   :  burnTokens mintTokens approve changeOwner 
+------------------------------------------------------------
+0 10 19 3   :  approve mintTokens burnTokens changeOwner 
+19 0 10 3   :  burnTokens approve mintTokens changeOwner 
+------------------------------------------------------------
+19 10 3 0   :  burnTokens mintTokens changeOwner approve 
+10 19 0 3   :  mintTokens burnTokens approve changeOwner 
+------------------------------------------------------------
+19 10 3 0   :  burnTokens mintTokens changeOwner approve 
+10 0 19 3   :  mintTokens approve burnTokens changeOwner 
+------------------------------------------------------------
+19 10 3 0   :  burnTokens mintTokens changeOwner approve 
+10 19 3 0   :  mintTokens burnTokens changeOwner approve 
+------------------------------------------------------------
+10 19 0 3   :  mintTokens burnTokens approve changeOwner 
+19 10 0 3   :  burnTokens mintTokens approve changeOwner 
+------------------------------------------------------------
+10 19 0 3   :  mintTokens burnTokens approve changeOwner 
+19 0 10 3   :  burnTokens approve mintTokens changeOwner 
+------------------------------------------------------------
+10 0 19 3   :  mintTokens approve burnTokens changeOwner 
+19 10 0 3   :  burnTokens mintTokens approve changeOwner 
+------------------------------------------------------------
+10 0 19 3   :  mintTokens approve burnTokens changeOwner 
+19 0 10 3   :  burnTokens approve mintTokens changeOwner 
+------------------------------------------------------------
+19 10 0 3   :  burnTokens mintTokens approve changeOwner 
+10 19 3 0   :  mintTokens burnTokens changeOwner approve 
+------------------------------------------------------------
+10 19 3 0   :  mintTokens burnTokens changeOwner approve 
+19 0 10 3   :  burnTokens approve mintTokens changeOwner 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+10 0 5 19   :  mintTokens approve withdraw burnTokens 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+19 0 5 10   :  burnTokens approve withdraw mintTokens 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+5 19 10 0   :  withdraw burnTokens mintTokens approve 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+10 19 5 0   :  mintTokens burnTokens withdraw approve 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+0 10 5 19   :  approve mintTokens withdraw burnTokens 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+19 0 10 5   :  burnTokens approve mintTokens withdraw 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+10 19 0 5   :  mintTokens burnTokens approve withdraw 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+5 19 0 10   :  withdraw burnTokens approve mintTokens 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+0 19 5 10   :  approve burnTokens withdraw mintTokens 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+5 0 10 19   :  withdraw approve mintTokens burnTokens 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+0 19 10 5   :  approve burnTokens mintTokens withdraw 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+19 5 10 0   :  burnTokens withdraw mintTokens approve 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+------------------------------------------------------------
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+------------------------------------------------------------
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+0 5 10 19   :  approve withdraw mintTokens burnTokens 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+5 0 19 10   :  withdraw approve burnTokens mintTokens 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+------------------------------------------------------------
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+19 5 0 10   :  burnTokens withdraw approve mintTokens 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+------------------------------------------------------------
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+------------------------------------------------------------
+0 10 19 5   :  approve mintTokens burnTokens withdraw 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+19 10 5 0   :  burnTokens mintTokens withdraw approve 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+------------------------------------------------------------
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+------------------------------------------------------------
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+------------------------------------------------------------
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+19 10 0 5   :  burnTokens mintTokens approve withdraw 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+10 5 19 0   :  mintTokens withdraw burnTokens approve 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+10 5 0 19   :  mintTokens withdraw approve burnTokens 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+10 0 19 5   :  mintTokens approve burnTokens withdraw 
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+------------------------------------------------------------
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+5 10 0 19   :  withdraw mintTokens approve burnTokens 
+------------------------------------------------------------
+0 5 19 10   :  approve withdraw burnTokens mintTokens 
+5 10 19 0   :  withdraw mintTokens burnTokens approve 
+------------------------------------------------------------
+0 6 19 10   :  approve burnTokens burnTokens mintTokens 
+6 0 10 19   :  burnTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+0 6 19 10   :  approve burnTokens burnTokens mintTokens 
+6 10 19 0   :  burnTokens mintTokens burnTokens approve 
+------------------------------------------------------------
+0 6 19 10   :  approve burnTokens burnTokens mintTokens 
+0 6 10 19   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+0 6 19 10   :  approve burnTokens burnTokens mintTokens 
+6 10 0 19   :  burnTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+6 0 10 19   :  burnTokens approve mintTokens burnTokens 
+6 19 10 0   :  burnTokens burnTokens mintTokens approve 
+------------------------------------------------------------
+6 0 10 19   :  burnTokens approve mintTokens burnTokens 
+6 0 19 10   :  burnTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+6 0 10 19   :  burnTokens approve mintTokens burnTokens 
+6 19 0 10   :  burnTokens burnTokens approve mintTokens 
+------------------------------------------------------------
+6 19 10 0   :  burnTokens burnTokens mintTokens approve 
+6 10 19 0   :  burnTokens mintTokens burnTokens approve 
+------------------------------------------------------------
+6 19 10 0   :  burnTokens burnTokens mintTokens approve 
+0 6 10 19   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+6 19 10 0   :  burnTokens burnTokens mintTokens approve 
+6 10 0 19   :  burnTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+6 10 19 0   :  burnTokens mintTokens burnTokens approve 
+6 0 19 10   :  burnTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+6 10 19 0   :  burnTokens mintTokens burnTokens approve 
+6 19 0 10   :  burnTokens burnTokens approve mintTokens 
+------------------------------------------------------------
+6 0 19 10   :  burnTokens approve burnTokens mintTokens 
+0 6 10 19   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+6 0 19 10   :  burnTokens approve burnTokens mintTokens 
+6 10 0 19   :  burnTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+6 19 0 10   :  burnTokens burnTokens approve mintTokens 
+0 6 10 19   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+6 19 0 10   :  burnTokens burnTokens approve mintTokens 
+6 10 0 19   :  burnTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+0 10 19 7   :  approve mintTokens burnTokens mintTokens 
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+------------------------------------------------------------
+0 10 19 7   :  approve mintTokens burnTokens mintTokens 
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+------------------------------------------------------------
+0 10 19 7   :  approve mintTokens burnTokens mintTokens 
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+------------------------------------------------------------
+0 10 19 7   :  approve mintTokens burnTokens mintTokens 
+0 19 10 7   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+10 7 0 19   :  mintTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+10 7 19 0   :  mintTokens mintTokens burnTokens approve 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+10 0 19 7   :  mintTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+0 10 7 19   :  approve mintTokens mintTokens burnTokens 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+10 19 0 7   :  mintTokens burnTokens approve mintTokens 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+10 19 7 0   :  mintTokens burnTokens mintTokens approve 
+------------------------------------------------------------
+19 10 0 7   :  burnTokens mintTokens approve mintTokens 
+10 0 7 19   :  mintTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+7 19 10 0   :  mintTokens burnTokens mintTokens approve 
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+------------------------------------------------------------
+7 19 10 0   :  mintTokens burnTokens mintTokens approve 
+7 10 0 19   :  mintTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+7 19 10 0   :  mintTokens burnTokens mintTokens approve 
+7 0 10 19   :  mintTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+7 19 10 0   :  mintTokens burnTokens mintTokens approve 
+7 10 19 0   :  mintTokens mintTokens burnTokens approve 
+------------------------------------------------------------
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+0 19 7 10   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+19 0 7 10   :  burnTokens approve mintTokens mintTokens 
+------------------------------------------------------------
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+7 19 0 10   :  mintTokens burnTokens approve mintTokens 
+------------------------------------------------------------
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+0 7 19 10   :  approve mintTokens burnTokens mintTokens 
+------------------------------------------------------------
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+7 0 19 10   :  mintTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+0 7 10 19   :  approve mintTokens mintTokens burnTokens 
+19 7 10 0   :  burnTokens mintTokens mintTokens approve 
+------------------------------------------------------------
+10 7 0 19   :  mintTokens mintTokens approve burnTokens 
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+------------------------------------------------------------
+10 7 0 19   :  mintTokens mintTokens approve burnTokens 
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+------------------------------------------------------------
+10 7 0 19   :  mintTokens mintTokens approve burnTokens 
+0 19 10 7   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+10 7 19 0   :  mintTokens mintTokens burnTokens approve 
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+------------------------------------------------------------
+10 7 19 0   :  mintTokens mintTokens burnTokens approve 
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+------------------------------------------------------------
+10 7 19 0   :  mintTokens mintTokens burnTokens approve 
+0 19 10 7   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+7 10 0 19   :  mintTokens mintTokens approve burnTokens 
+7 19 0 10   :  mintTokens burnTokens approve mintTokens 
+------------------------------------------------------------
+7 10 0 19   :  mintTokens mintTokens approve burnTokens 
+0 7 19 10   :  approve mintTokens burnTokens mintTokens 
+------------------------------------------------------------
+7 10 0 19   :  mintTokens mintTokens approve burnTokens 
+7 0 19 10   :  mintTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+10 0 19 7   :  mintTokens approve burnTokens mintTokens 
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+------------------------------------------------------------
+10 0 19 7   :  mintTokens approve burnTokens mintTokens 
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+------------------------------------------------------------
+10 0 19 7   :  mintTokens approve burnTokens mintTokens 
+0 19 10 7   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+0 19 7 10   :  approve burnTokens mintTokens mintTokens 
+7 0 10 19   :  mintTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+10 19 0 7   :  mintTokens burnTokens approve mintTokens 
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+------------------------------------------------------------
+10 19 0 7   :  mintTokens burnTokens approve mintTokens 
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+------------------------------------------------------------
+10 19 0 7   :  mintTokens burnTokens approve mintTokens 
+0 19 10 7   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+10 19 7 0   :  mintTokens burnTokens mintTokens approve 
+------------------------------------------------------------
+19 10 7 0   :  burnTokens mintTokens mintTokens approve 
+10 0 7 19   :  mintTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+10 19 7 0   :  mintTokens burnTokens mintTokens approve 
+------------------------------------------------------------
+19 0 10 7   :  burnTokens approve mintTokens mintTokens 
+10 0 7 19   :  mintTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+10 19 7 0   :  mintTokens burnTokens mintTokens approve 
+0 19 10 7   :  approve burnTokens mintTokens mintTokens 
+------------------------------------------------------------
+7 0 10 19   :  mintTokens approve mintTokens burnTokens 
+7 19 0 10   :  mintTokens burnTokens approve mintTokens 
+------------------------------------------------------------
+7 0 10 19   :  mintTokens approve mintTokens burnTokens 
+0 7 19 10   :  approve mintTokens burnTokens mintTokens 
+------------------------------------------------------------
+7 0 10 19   :  mintTokens approve mintTokens burnTokens 
+7 0 19 10   :  mintTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+7 19 0 10   :  mintTokens burnTokens approve mintTokens 
+7 10 19 0   :  mintTokens mintTokens burnTokens approve 
+------------------------------------------------------------
+7 10 19 0   :  mintTokens mintTokens burnTokens approve 
+0 7 19 10   :  approve mintTokens burnTokens mintTokens 
+------------------------------------------------------------
+7 10 19 0   :  mintTokens mintTokens burnTokens approve 
+7 0 19 10   :  mintTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+8 19 0 10   :  burnTokens burnTokens approve mintTokens 
+0 10 8 19   :  approve mintTokens burnTokens burnTokens 
+------------------------------------------------------------
+8 19 0 10   :  burnTokens burnTokens approve mintTokens 
+10 8 0 19   :  mintTokens burnTokens approve burnTokens 
+------------------------------------------------------------
+8 19 0 10   :  burnTokens burnTokens approve mintTokens 
+10 8 19 0   :  mintTokens burnTokens burnTokens approve 
+------------------------------------------------------------
+8 19 0 10   :  burnTokens burnTokens approve mintTokens 
+10 0 8 19   :  mintTokens approve burnTokens burnTokens 
+------------------------------------------------------------
+0 8 19 10   :  approve burnTokens burnTokens mintTokens 
+0 10 8 19   :  approve mintTokens burnTokens burnTokens 
+------------------------------------------------------------
+0 8 19 10   :  approve burnTokens burnTokens mintTokens 
+10 8 0 19   :  mintTokens burnTokens approve burnTokens 
+------------------------------------------------------------
+0 8 19 10   :  approve burnTokens burnTokens mintTokens 
+10 8 19 0   :  mintTokens burnTokens burnTokens approve 
+------------------------------------------------------------
+0 8 19 10   :  approve burnTokens burnTokens mintTokens 
+10 0 8 19   :  mintTokens approve burnTokens burnTokens 
+------------------------------------------------------------
+0 10 8 19   :  approve mintTokens burnTokens burnTokens 
+8 19 10 0   :  burnTokens burnTokens mintTokens approve 
+------------------------------------------------------------
+0 10 8 19   :  approve mintTokens burnTokens burnTokens 
+8 0 19 10   :  burnTokens approve burnTokens mintTokens 
+------------------------------------------------------------
+8 19 10 0   :  burnTokens burnTokens mintTokens approve 
+10 8 0 19   :  mintTokens burnTokens approve burnTokens 
+------------------------------------------------------------
+8 19 10 0   :  burnTokens burnTokens mintTokens approve 
+10 8 19 0   :  mintTokens burnTokens burnTokens approve 
+------------------------------------------------------------
+8 19 10 0   :  burnTokens burnTokens mintTokens approve 
+10 0 8 19   :  mintTokens approve burnTokens burnTokens 
+------------------------------------------------------------
+8 0 19 10   :  burnTokens approve burnTokens mintTokens 
+10 8 0 19   :  mintTokens burnTokens approve burnTokens 
+------------------------------------------------------------
+8 0 19 10   :  burnTokens approve burnTokens mintTokens 
+10 8 19 0   :  mintTokens burnTokens burnTokens approve 
+------------------------------------------------------------
+8 0 19 10   :  burnTokens approve burnTokens mintTokens 
+10 0 8 19   :  mintTokens approve burnTokens burnTokens 
+------------------------------------------------------------
+19 10 17 0   :  burnTokens mintTokens burnTokens approve 
+10 0 19 17   :  mintTokens approve burnTokens burnTokens 
+------------------------------------------------------------
+19 10 17 0   :  burnTokens mintTokens burnTokens approve 
+0 10 19 17   :  approve mintTokens burnTokens burnTokens 
+------------------------------------------------------------
+19 10 17 0   :  burnTokens mintTokens burnTokens approve 
+10 19 17 0   :  mintTokens burnTokens burnTokens approve 
+------------------------------------------------------------
+19 10 17 0   :  burnTokens mintTokens burnTokens approve 
+10 19 0 17   :  mintTokens burnTokens approve burnTokens 
+------------------------------------------------------------
+10 0 19 17   :  mintTokens approve burnTokens burnTokens 
+19 10 0 17   :  burnTokens mintTokens approve burnTokens 
+------------------------------------------------------------
+10 0 19 17   :  mintTokens approve burnTokens burnTokens 
+19 0 10 17   :  burnTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+10 0 19 17   :  mintTokens approve burnTokens burnTokens 
+0 19 10 17   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+19 10 0 17   :  burnTokens mintTokens approve burnTokens 
+0 10 19 17   :  approve mintTokens burnTokens burnTokens 
+------------------------------------------------------------
+19 10 0 17   :  burnTokens mintTokens approve burnTokens 
+10 19 17 0   :  mintTokens burnTokens burnTokens approve 
+------------------------------------------------------------
+19 10 0 17   :  burnTokens mintTokens approve burnTokens 
+10 19 0 17   :  mintTokens burnTokens approve burnTokens 
+------------------------------------------------------------
+0 10 19 17   :  approve mintTokens burnTokens burnTokens 
+19 0 10 17   :  burnTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+0 10 19 17   :  approve mintTokens burnTokens burnTokens 
+0 19 10 17   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+10 19 17 0   :  mintTokens burnTokens burnTokens approve 
+19 0 10 17   :  burnTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+10 19 17 0   :  mintTokens burnTokens burnTokens approve 
+0 19 10 17   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+10 19 0 17   :  mintTokens burnTokens approve burnTokens 
+19 0 10 17   :  burnTokens approve mintTokens burnTokens 
+------------------------------------------------------------
+10 19 0 17   :  mintTokens burnTokens approve burnTokens 
+0 19 10 17   :  approve burnTokens mintTokens burnTokens 
+------------------------------------------------------------
+19 0 10 21   :  burnTokens approve mintTokens transfer 
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+------------------------------------------------------------
+19 0 10 21   :  burnTokens approve mintTokens transfer 
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+------------------------------------------------------------
+19 0 10 21   :  burnTokens approve mintTokens transfer 
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+------------------------------------------------------------
+19 0 10 21   :  burnTokens approve mintTokens transfer 
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+0 19 10 21   :  approve burnTokens mintTokens transfer 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+19 10 21 0   :  burnTokens mintTokens transfer approve 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+19 10 0 21   :  burnTokens mintTokens approve transfer 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+19 21 0 10   :  burnTokens transfer approve mintTokens 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+19 21 10 0   :  burnTokens transfer mintTokens approve 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+19 0 21 10   :  burnTokens approve transfer mintTokens 
+------------------------------------------------------------
+10 19 21 0   :  mintTokens burnTokens transfer approve 
+0 19 21 10   :  approve burnTokens transfer mintTokens 
+------------------------------------------------------------
+0 19 10 21   :  approve burnTokens mintTokens transfer 
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+------------------------------------------------------------
+0 19 10 21   :  approve burnTokens mintTokens transfer 
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+------------------------------------------------------------
+0 19 10 21   :  approve burnTokens mintTokens transfer 
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+------------------------------------------------------------
+19 10 21 0   :  burnTokens mintTokens transfer approve 
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+------------------------------------------------------------
+19 10 21 0   :  burnTokens mintTokens transfer approve 
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+------------------------------------------------------------
+19 10 21 0   :  burnTokens mintTokens transfer approve 
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+------------------------------------------------------------
+19 10 0 21   :  burnTokens mintTokens approve transfer 
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+------------------------------------------------------------
+19 10 0 21   :  burnTokens mintTokens approve transfer 
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+------------------------------------------------------------
+19 10 0 21   :  burnTokens mintTokens approve transfer 
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+------------------------------------------------------------
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+19 21 0 10   :  burnTokens transfer approve mintTokens 
+------------------------------------------------------------
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+19 21 10 0   :  burnTokens transfer mintTokens approve 
+------------------------------------------------------------
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+19 0 21 10   :  burnTokens approve transfer mintTokens 
+------------------------------------------------------------
+10 0 19 21   :  mintTokens approve burnTokens transfer 
+0 19 21 10   :  approve burnTokens transfer mintTokens 
+------------------------------------------------------------
+19 21 0 10   :  burnTokens transfer approve mintTokens 
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+------------------------------------------------------------
+19 21 0 10   :  burnTokens transfer approve mintTokens 
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+------------------------------------------------------------
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+19 21 10 0   :  burnTokens transfer mintTokens approve 
+------------------------------------------------------------
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+19 0 21 10   :  burnTokens approve transfer mintTokens 
+------------------------------------------------------------
+0 10 19 21   :  approve mintTokens burnTokens transfer 
+0 19 21 10   :  approve burnTokens transfer mintTokens 
+------------------------------------------------------------
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+19 21 10 0   :  burnTokens transfer mintTokens approve 
+------------------------------------------------------------
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+19 0 21 10   :  burnTokens approve transfer mintTokens 
+------------------------------------------------------------
+10 19 0 21   :  mintTokens burnTokens approve transfer 
+0 19 21 10   :  approve burnTokens transfer mintTokens 
+------------------------------------------------------------

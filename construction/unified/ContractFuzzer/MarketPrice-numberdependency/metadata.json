@@ -1,0 +1,38 @@
+{
+    "addr": "0x2138ffe292fd0953f7fe2569111246e4de9ff1dc",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "MarketPrice",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "07fbb03240d61c264218855cf6a58423",
+    "fp_runtime": "42f18e8e426785ff2c197e875f3cb3a1",
+    "fp_sol": "302accc3b3ac3ea565ee4d0b0fafdbbd",
+    "fp_sol2": "62fbcfe8aa43fe2dc50474d98cdce9c5",
+    "id": "MarketPrice-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_MarketPrice.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_MarketPrice.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

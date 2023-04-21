@@ -1,0 +1,37 @@
+{
+    "addr": "0xdd39457768927c7d13b7854931eb4e800fb1f347",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BLOCKCHAIN_DEPOSIT_BETA.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "BLOCKCHAIN_DEPOSIT_BETA",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b26d4730b42428bc85cc200514b7e20e",
+    "fp_runtime": "9a31f71b475fff7fdccd61dd70097d5a",
+    "fp_sol": "a3869db03b727dd86887e16b578ef093",
+    "fp_sol2": "128b76aa3be8f1a72c56b89b4a9b11e9",
+    "id": "BLOCKCHAIN_DEPOSIT_BETA-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BLOCKCHAIN_DEPOSIT_BETA.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

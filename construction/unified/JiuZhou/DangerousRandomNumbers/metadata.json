@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Randomness affected by miners",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "GuessTheRandomNumberChallenge",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            14
+        ],
+        "BugName": "Results of contract execution affected by miners",
+        "BugReason": "Miners can control the time of mining to win bonuses.",
+        "ContractSource": "https://swcregistry.io/"
+    },
+    "fp_bytecode": "cd5f62e99d2a5201b609a0752bca7bbf",
+    "fp_runtime": "35fc851014b20a27889c231a66cf9e36",
+    "fp_sol": "6a08c4751470fa5406cf416acf404220",
+    "fp_sol2": "303e0794110619391f4c378cafff8f97",
+    "id": "DangerousRandomNumbers",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/DangerousRandomNumbers.sol"
+    ],
+    "sol_orig": true
+}

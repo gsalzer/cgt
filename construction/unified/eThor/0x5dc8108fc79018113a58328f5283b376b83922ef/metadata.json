@@ -1,0 +1,37 @@
+{
+    "addr": "0x5dc8108fc79018113a58328f5283b376b83922ef",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": true,
+    "contractname": "LedgerSplitSingle",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "a8242d18ce0eeb075a30c74c0cf535c5",
+    "fp_runtime": "7842ce0bce453c8ef1711629faa967db",
+    "fp_sol": "7ad48449b789a2e5b2af6df909aa06de",
+    "fp_sol2": "7ad48449b789a2e5b2af6df909aa06de",
+    "id": "0x5dc8108fc79018113a58328f5283b376b83922ef",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

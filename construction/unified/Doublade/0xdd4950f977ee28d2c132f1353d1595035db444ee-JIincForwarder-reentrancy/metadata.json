@@ -1,0 +1,37 @@
+{
+    "addr": "0xdd4950f977ee28d2c132f1353d1595035db444ee",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "JIincForwarder",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "5f647ede3bc2b480dc2a890ae29d4833",
+    "fp_runtime": "3d52a9cebf49fb5b04070569fb5c582f",
+    "fp_sol": "ba515c2525f9962ed2a3091ef320bc26",
+    "fp_sol2": "cc91107ea463eff496980e70c9109c66",
+    "id": "0xdd4950f977ee28d2c132f1353d1595035db444ee-JIincForwarder-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test3369.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

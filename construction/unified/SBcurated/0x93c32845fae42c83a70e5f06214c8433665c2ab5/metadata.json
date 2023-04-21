@@ -1,0 +1,39 @@
+{
+    "addr": "0x93c32845fae42c83a70e5f06214c8433665c2ab5",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "X_WALLET",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "69689f2a7777c24cf1309229607299cd",
+    "fp_runtime": "807093c9ecd66ae8d3045208c8d3333c",
+    "fp_sol": "33e768042059fe15d3eb8fab03862529",
+    "fp_sol2": "34cbd50cc56fa73bb56a2d180d24b8ef",
+    "id": "0x93c32845fae42c83a70e5f06214c8433665c2ab5",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

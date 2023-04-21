@@ -1,0 +1,60 @@
+{
+    "addr": "0x68ed5f7482307dcd325cd92d48b52b0a2e2a7069",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-03-31-c492d9b",
+    "compiler_orig": false,
+    "contractname": "CafeMakerT3",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f6c95aad60fc4ff577e75500e3859d85",
+    "fp_runtime": "875166a4b047e9e70690af425d96b274",
+    "fp_sol": "1dd873d489f631b58ac42e2782a6adce",
+    "fp_sol2": "1dd873d489f631b58ac42e2782a6adce",
+    "id": "0580_Code_25_0x68ed5f7482307dcd325cd92d48b52b0a2e2a7069",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

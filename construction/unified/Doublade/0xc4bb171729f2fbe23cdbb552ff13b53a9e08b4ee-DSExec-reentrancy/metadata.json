@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13-nightly.2017.7.6+commit.40d4ee49",
+    "compiler_orig": false,
+    "contractname": "DSExec",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0xc4bb171729f2fbe23cdbb552ff13b53a9e08b4ee",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0xc4bb171729f2fbe23cdbb552ff13b53a9e08b4ee",
+            "main",
+            "WordCoin"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d85d41c70843ce732b9124279e60a008",
+    "fp_sol2": "7f13799799c162ab76b0479192adfab7",
+    "id": "0xc4bb171729f2fbe23cdbb552ff13b53a9e08b4ee-DSExec-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test3004.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,2 @@
+{u'source_code/test2394.sol': {u'BOBOToken': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test2394.sol:11:3: Warning: Integer Underflow.\n  string public name="BOBOToken"', u'source_code/test2394.sol:13:3: Warning: Integer Underflow.\n  string public symbol="BOBO"'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '73.0'}}}
+

@@ -1,0 +1,39 @@
+{
+    "addr": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "ETH_VAULT",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "e35c193db6779c276d4ad989e4e2ce2b",
+    "fp_runtime": "b878d0b58338eb37cc78fe6d6326c535",
+    "fp_sol": "6c807d56917d1377091b7c069b67c0fc",
+    "fp_sol2": "386da243ca541b5e7c4d6329ac31c587",
+    "id": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

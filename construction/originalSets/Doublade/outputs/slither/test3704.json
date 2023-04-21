@@ -1,0 +1,152 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "BdpCalculator.countPurchasedPixels has external calls inside a loop: \"BdpDataStorage(BdpContracts.getBdpDataStorage(_contracts)).getRegionPurchasedAt(i) > 0\" (reorder_contracts_2_3/test3704.sol#643-646)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "BdpDataStorage(BdpContracts.getBdpDataStorage(_contracts)).getRegionPurchasedAt(i) > 0",
+            "source_mapping": {
+              "start": 18591,
+              "length": 192,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3704.sol",
+              "filename_relative": "reorder_contracts_2_3/test3704.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3704.sol",
+              "filename_short": "reorder_contracts_2_3/test3704.sol",
+              "lines": [
+                643,
+                644,
+                645,
+                646
+              ],
+              "starting_column": 4,
+              "ending_column": 5
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "countPurchasedPixels",
+                "source_mapping": {
+                  "start": 18345,
+                  "length": 447,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3704.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3704.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3704.sol",
+                  "filename_short": "reorder_contracts_2_3/test3704.sol",
+                  "lines": [
+                    640,
+                    641,
+                    642,
+                    643,
+                    644,
+                    645,
+                    646,
+                    647,
+                    648
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BdpCalculator",
+                    "source_mapping": {
+                      "start": 17942,
+                      "length": 3350,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3704.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3704.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3704.sol",
+                      "filename_short": "reorder_contracts_2_3/test3704.sol",
+                      "lines": [
+                        629,
+                        630,
+                        631,
+                        632,
+                        633,
+                        634,
+                        635,
+                        636,
+                        637,
+                        638,
+                        639,
+                        640,
+                        641,
+                        642,
+                        643,
+                        644,
+                        645,
+                        646,
+                        647,
+                        648,
+                        649,
+                        650,
+                        651,
+                        652,
+                        653,
+                        654,
+                        655,
+                        656,
+                        657,
+                        658,
+                        659,
+                        660,
+                        661,
+                        662,
+                        663,
+                        664,
+                        665,
+                        666,
+                        667,
+                        668,
+                        669,
+                        670,
+                        671,
+                        672,
+                        673,
+                        674,
+                        675,
+                        676,
+                        677,
+                        678,
+                        679,
+                        680,
+                        681,
+                        682,
+                        683,
+                        684,
+                        685,
+                        686,
+                        687,
+                        688,
+                        689,
+                        690,
+                        691,
+                        692,
+                        693,
+                        694,
+                        695,
+                        696,
+                        697,
+                        698
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "countPurchasedPixels(address[16])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-106",
+            false
+        ]
+    ],
+    "compiler": "0.4.24+commit.e67f0147.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "SuicideMultiTxFeasible",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "133dba7d722a3bfa2bd7dbb385e05612",
+    "fp_runtime": "560b9dc0740265f85bac57b6291c1229",
+    "fp_sol": "a86821581607c591e403934fbf8ec340",
+    "fp_sol2": "9d1ef710b54baf8599c5425de85728ed",
+    "id": "suicide_multitx_infeasible",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/suicide_multitx_infeasible.sol"
+    ],
+    "sol_orig": true
+}

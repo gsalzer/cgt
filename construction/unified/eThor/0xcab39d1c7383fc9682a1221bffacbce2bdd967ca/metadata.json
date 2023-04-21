@@ -1,0 +1,37 @@
+{
+    "addr": "0xcab39d1c7383fc9682a1221bffacbce2bdd967ca",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.5-nightly.2016.11.4+commit.d97d267a",
+    "compiler_orig": true,
+    "contractname": "RecoveryWithTenant",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "227728e718ada37568ded94759cfc2b0",
+    "fp_runtime": "221fb940ae4d2bd258776f4244a5fece",
+    "fp_sol": "9618679d0671cee85cc6668dfced25d8",
+    "fp_sol2": "32da61a114c5dde3529dcd13f1c89900",
+    "id": "0xcab39d1c7383fc9682a1221bffacbce2bdd967ca",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

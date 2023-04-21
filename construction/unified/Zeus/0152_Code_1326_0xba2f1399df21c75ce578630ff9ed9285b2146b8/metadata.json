@@ -1,0 +1,71 @@
+{
+    "addr": "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "DiceRoll",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {
+        "same address, different chain": [
+            [
+                "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+                "ropsten"
+            ],
+            [
+                "0xba2f1399df21c75ce578630ff9ed9285b2146b8d",
+                "rinkeby"
+            ]
+        ]
+    },
+    "fp_bytecode": "ca838bf428572ba925bb20a8c954163b",
+    "fp_runtime": "c5ba86fbb132fc0a2d2e40f3278a2bcf",
+    "fp_sol": "62ea16c2d1a82f2aeb3fccb4c4019875",
+    "fp_sol2": "74111c0968c5ab33065d67c42b4c5752",
+    "id": "0152_Code_1326_0xba2f1399df21c75ce578630ff9ed9285b2146b8",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

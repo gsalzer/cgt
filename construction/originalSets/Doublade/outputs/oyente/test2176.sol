@@ -1,0 +1,2 @@
+{u'source_code/test2176.sol': {u'caller': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [u'source_code/test2176.sol:9:5: Warning: Integer Overflow.\n    function delegate_2x(address callee, uint256[] uints,address[] addresses,bytes32[] b) public {\r\n    ^\nSpanning multiple lines.'], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '84.8'}}}
+

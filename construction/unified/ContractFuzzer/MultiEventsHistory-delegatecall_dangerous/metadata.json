@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "ERC20Interface",
+            "MultiEventsHistory",
+            "Object",
+            "Owned"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "68da91609f2022ebed659b7f998a6784",
+    "fp_sol": "1b66281a9167d5a467a76fe0144325c3",
+    "fp_sol2": "4d026f96212aca857684343d01d0f198",
+    "id": "MultiEventsHistory-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/MultiEventsHistory.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/MultiEventsHistory.sol"
+    ],
+    "sol_orig": true
+}

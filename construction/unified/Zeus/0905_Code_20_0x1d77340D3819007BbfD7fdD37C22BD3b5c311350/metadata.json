@@ -1,0 +1,60 @@
+{
+    "addr": "0x1d77340d3819007bbfd7fdd37c22bd3b5c311350",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": false,
+    "contractname": "RockPaperScissors",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1f2365ece65b2ed095ac4347b4635598",
+    "fp_runtime": "16fe2d6338edee7590b45a682f34279d",
+    "fp_sol": "fb1b19c504cabb3d4dd87e1a8e741e4a",
+    "fp_sol2": "fb1b19c504cabb3d4dd87e1a8e741e4a",
+    "id": "0905_Code_20_0x1d77340D3819007BbfD7fdD37C22BD3b5c311350",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

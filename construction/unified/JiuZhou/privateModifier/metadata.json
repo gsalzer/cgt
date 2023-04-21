@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Public data",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "OpenWallet",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            11
+        ],
+        "BugName": "Lack of privacy on the blockchain",
+        "BugReason": "Smart contract data is stored in the blockchain. For miners, the data on the blockchain is public, so using smart contracts to save sensitive information such as passwords is risky.",
+        "ContractSource": "Jiuzhou"
+    },
+    "fp_bytecode": "e45696f29067d714dba29c004899df17",
+    "fp_runtime": "ad89f56b65c73955f3aeb37015f1f5fc",
+    "fp_sol": "ec3daf7826176e1719af886afdc202fd",
+    "fp_sol2": "7218ae8e4133af91c39f5fecfbe8a2c6",
+    "id": "privateModifier",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/privateModifier.sol"
+    ],
+    "sol_orig": true
+}

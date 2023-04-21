@@ -1,0 +1,60 @@
+{
+    "addr": "0xb071e5c53094cabb971e98eba3b1a86be555c943",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "RipplePayMain",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "06ad7fb084d5cd5fc0d3c5eb1e4154a4",
+    "fp_runtime": "49177456bbe5defebc621f5744dcb8c5",
+    "fp_sol": "41079b5a54d33b25dd3589b67a44d493",
+    "fp_sol2": "41079b5a54d33b25dd3589b67a44d493",
+    "id": "1293_Code_37_0xB071e5c53094Cabb971E98EBA3B1A86BE555c943",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

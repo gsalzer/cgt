@@ -1,0 +1,37 @@
+{
+    "addr": "0xbaabe94c786fe90514dc6fa68499fd93ee583a5c",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-18-81ae2a7",
+    "compiler_orig": true,
+    "contractname": "tickingBomb",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "5f5b584fe498a45a24ca307ddcdb7ada",
+    "fp_runtime": "610e97923fb168087fc2f5315a9474e1",
+    "fp_sol": "b374c0271044116dd56e913d2af082bc",
+    "fp_sol2": "b374c0271044116dd56e913d2af082bc",
+    "id": "0xbaabe94c786fe90514dc6fa68499fd93ee583a5c",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

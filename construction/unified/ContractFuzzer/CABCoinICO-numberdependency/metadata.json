@@ -1,0 +1,39 @@
+{
+    "addr": "0x2a3147b1033467b4ab448aa6429905a8e49917ab",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_CABCoinICO.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "CABCoinICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "488e33df6fbfdebded5f3cbf65fedfea",
+    "fp_runtime": "12a31650faaccefa55ee89263c43b74e",
+    "fp_sol": "12de64547b4d36f769b484cac18ccb72",
+    "fp_sol2": "12de64547b4d36f769b484cac18ccb72",
+    "id": "CABCoinICO-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CABCoinICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

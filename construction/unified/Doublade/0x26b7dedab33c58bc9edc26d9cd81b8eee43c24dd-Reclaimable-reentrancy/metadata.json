@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "Reclaimable",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x26b7dedab33c58bc9edc26d9cd81b8eee43c24dd",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x26b7dedab33c58bc9edc26d9cd81b8eee43c24dd",
+            "main",
+            "FeeDisbursal"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "81239aa2114d057b46a45c916bd9aa96",
+    "fp_sol2": "2ec20669f0b68f05d3277a2ca4cfd2f4",
+    "id": "0x26b7dedab33c58bc9edc26d9cd81b8eee43c24dd-Reclaimable-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test604.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

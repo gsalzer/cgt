@@ -1,0 +1,39 @@
+{
+    "addr": "0x94602b0e2512ddad62a935763bf1277c973b2758",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "other-109",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "CryptoRoulette",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://github.com/thec00n/smart-contract-honeypots/blob/master/CryptoRoulette.sol"
+    },
+    "fp_bytecode": "3f21348cb73345977c365b25f7610b53",
+    "fp_runtime": "69916099e9b068f51fe422e107987657",
+    "fp_sol": "f787a3b683932a30e4beb0e4a57b41f2",
+    "fp_sol2": "f4bc1fead64e0350aac35d19e47d0ea2",
+    "id": "crypto_roulette",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_crypto_roulette.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xb008b81eaa812a3e5ab6e8a9a9233fa31b744d6d",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unexpectedrevert_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "MilkCoinToken",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "04ebdf4595c1210aedc47695cc5958fd",
+    "fp_runtime": "022b5adf3f92449db7f16643ef834dfb",
+    "fp_sol": "d2c637d61e4434b5efbd04cbc909c6b8",
+    "fp_sol2": "6392a0f570471fb166d11cba2452453d",
+    "id": "0xb008b81eaa812a3e5ab6e8a9a9233fa31b744d6d-MilkCoinToken-unexpectedrevert_result",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2694.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

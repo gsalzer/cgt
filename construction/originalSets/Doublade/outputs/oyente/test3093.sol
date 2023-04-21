@@ -1,0 +1,2 @@
+{u'source_code/test3093.sol': {u'Terrus': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test3093.sol:194:5: Warning: Transaction-Ordering Dependency.\n    recipient.transfer(amount)'], [u'source_code/test3093.sol:106:5: Warning: Transaction-Ordering Dependency.\n    seller.transfer(forSeller)']], 'assertion_failure': []}, 'evm_code_coverage': '74.0'}}}
+

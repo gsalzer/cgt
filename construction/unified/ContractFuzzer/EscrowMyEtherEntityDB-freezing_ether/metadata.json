@@ -1,0 +1,38 @@
+{
+    "addr": "0xcf356ab67132c1359ebdd0ccc928fdb020eaa929",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "EscrowMyEtherEntityDB",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "485962e292601335d538cadf4f314d7d",
+    "fp_runtime": "33c2fb4cb82552c194c7d4b954d19a5d",
+    "fp_sol": "2a6cf7fb4f87543edc889db8e51420e3",
+    "fp_sol2": "c53896164096383ced5812e5786d3a01",
+    "id": "EscrowMyEtherEntityDB-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_EscrowMyEtherEntityDB.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EscrowMyEtherEntityDB.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

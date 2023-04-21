@@ -1,0 +1,37 @@
+{
+    "addr": "0x354b10083a2d6b8bd18ddd390fac7bcdede8a839",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": true,
+    "contractname": "IconomiToken",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "4bd0352a6de64ab65ad7e8e61cf88124",
+    "fp_runtime": "3da833c6e1e48b16235e14839da72cec",
+    "fp_sol": "dc22623b639ce17d5f2bee031b359f23",
+    "fp_sol2": "dc22623b639ce17d5f2bee031b359f23",
+    "id": "0x354b10083a2d6b8bd18ddd390fac7bcdede8a839",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

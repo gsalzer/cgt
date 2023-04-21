@@ -1,0 +1,39 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "AbstractSweeperList",
+            "UserWallet"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "014d9a383b02cde9b450d4cc501615a9",
+    "fp_sol": "be243a635e68fc4a328ad5d6bd59a1b2",
+    "fp_sol2": "4f8417facc68edca568543b1ef6bc8e1",
+    "id": "UserWallet-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/UserWallet.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/UserWallet.sol"
+    ],
+    "sol_orig": true
+}

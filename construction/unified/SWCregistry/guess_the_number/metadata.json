@@ -1,0 +1,37 @@
+{
+    "addr": "0xa8fbf2c5508328507c25ff5e66eff773e2a04a78",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-130",
+            true
+        ]
+    ],
+    "compiler": "0.5.7+commit.6da8b019.Linux.g++",
+    "compiler_orig": true,
+    "contractname": "GuessTheNumber",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "741655f533dabc0e5a357fa365c270b0",
+    "fp_runtime": "d4133e95a64de68aaf1dfbcdf28622df",
+    "fp_sol": "9eb426fa1c1e1adaeeeab3ba57365c95",
+    "fp_sol2": "303621510382f61b78e715c798c915fe",
+    "id": "guess_the_number",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_guess_the_number.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

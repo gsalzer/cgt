@@ -1,0 +1,38 @@
+{
+    "addr": "0x233252d702744b1b75defb3fed5755cae15c07be",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "REALotteryWheel",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "43e91ff82346175cbd2b14c1f2d7a570",
+    "fp_runtime": "ee3538aea2bf2f6b1823ba7e71862cf1",
+    "fp_sol": "da7c79d4057bd29356e28c092dbe570f",
+    "fp_sol2": "1df2a7f3eb5ec4aaf6da3c1ed76acda2",
+    "id": "REALotteryWheel-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_REALotteryWheel.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_REALotteryWheel.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

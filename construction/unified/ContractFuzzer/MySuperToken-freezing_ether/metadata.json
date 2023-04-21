@@ -1,0 +1,35 @@
+{
+    "addr": "0x599eb823d50f5bc08ba76b12baa8217c3b3e4944",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "MySuperToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "e53285f36abe17d83978e0e317c313d6",
+    "fp_sol": "7f09aee3f655e2551ce59fc5a19c8319",
+    "fp_sol2": "d67039632562ba559830257bac70b669",
+    "id": "MySuperToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/MySuperToken.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_MySuperToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

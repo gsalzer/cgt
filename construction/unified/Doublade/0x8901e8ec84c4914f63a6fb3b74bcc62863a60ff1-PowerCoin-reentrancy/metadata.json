@@ -1,0 +1,37 @@
+{
+    "addr": "0x8901e8ec84c4914f63a6fb3b74bcc62863a60ff1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PowerCoin",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "6a35131062472daa61ebf05236e9bc09",
+    "fp_runtime": "ff63bc7068e806dbba311e57a6334006",
+    "fp_sol": "7219e6074936814f9a29fe575a1a7593",
+    "fp_sol2": "c11283b9b753e6d9e8b2e2aefa174995",
+    "id": "0x8901e8ec84c4914f63a6fb3b74bcc62863a60ff1-PowerCoin-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2092.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

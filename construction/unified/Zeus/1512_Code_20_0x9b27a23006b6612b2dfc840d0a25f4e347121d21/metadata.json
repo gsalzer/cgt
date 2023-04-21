@@ -1,0 +1,60 @@
+{
+    "addr": "0x9b27a23006b6612b2dfc840d0a25f4e347121d21",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "Escrow",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "488720b1dc271775cbe0b79e00a4cab7",
+    "fp_runtime": "69f6a25316cd1d9ccf11d69a8f8a5cd8",
+    "fp_sol": "939379d8ebfd82074e9c18b270679079",
+    "fp_sol2": "939379d8ebfd82074e9c18b270679079",
+    "id": "1512_Code_20_0x9b27a23006b6612b2dfc840d0a25f4e347121d21",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xc03b0dbd201ee426d907e367f996706cf53b8028",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HODLerParadise.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "HODLerParadise",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ab16a5a5ba5d0a9cbdc3ac6dc204fb31",
+    "fp_runtime": "518f23f37567b7162fcf901535171b5c",
+    "fp_sol": "bf0a656f5a377410936c159c459a9b4f",
+    "fp_sol2": "bf6d20b3cf7ed06fd35d958005d3bfe4",
+    "id": "HODLerParadise-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HODLerParadise.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

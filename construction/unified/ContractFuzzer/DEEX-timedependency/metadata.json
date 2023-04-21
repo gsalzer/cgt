@@ -1,0 +1,37 @@
+{
+    "addr": "0xc16cf13922c18de7842374f9baace4489f1d24af",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DEEX.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "DEEX",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "f0765dfcc45b10bf2dfb2f60bd863829",
+    "fp_runtime": "de1f706acb8d7b1f87ad1e2366dd0c67",
+    "fp_sol": "f56ee1e3f76f78740e5f66aa966e70d4",
+    "fp_sol2": "589c55c29dea7618806901c717f052a7",
+    "id": "DEEX-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DEEX.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

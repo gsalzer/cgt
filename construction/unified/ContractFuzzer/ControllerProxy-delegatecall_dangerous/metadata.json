@@ -1,0 +1,38 @@
+{
+    "addr": "0xea7a7bc3ba38b2569b6bee8dcd8acb4218c08716",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "ControllerProxy",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1ab7b6c6d5a1023fd35084901a6505ea",
+    "fp_runtime": "1fd81c26a779606cf3da9d587010b9b3",
+    "fp_sol": "1409eb02f72cd802b4f08b2f42aaa5f9",
+    "fp_sol2": "fd5ab6059446b26ded3d347ba106191b",
+    "id": "ControllerProxy-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/1_ControllerProxy.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ControllerProxy.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High",
+        "description": "DestroyableMultiOwner.destroy (reorder_contracts_2_3/test3260.sol#137-139) allows anyone to destruct the contract\n",
+        "elements": [
+          {
+            "type": "function",
+            "name": "destroy",
+            "source_mapping": {
+              "start": 3065,
+              "length": 69,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3260.sol",
+              "filename_relative": "reorder_contracts_2_3/test3260.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3260.sol",
+              "filename_short": "reorder_contracts_2_3/test3260.sol",
+              "lines": [
+                137,
+                138,
+                139
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DestroyableMultiOwner",
+                "source_mapping": {
+                  "start": 2922,
+                  "length": 215,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3260.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3260.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3260.sol",
+                  "filename_short": "reorder_contracts_2_3/test3260.sol",
+                  "lines": [
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "destroy()"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

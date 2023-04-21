@@ -1,0 +1,37 @@
+{
+    "addr": "0x7338809d1a2c6fbb6e755470ab2a28e8c5dac63c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/OZRealestatesToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "OZRealestatesToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "16f5ce7230ed324aaa2e4f66a3e27f7d",
+    "fp_runtime": "c747b268028ca004dd0e94e2195e009d",
+    "fp_sol": "a6f30242d8c1925cb6cb77326d502c76",
+    "fp_sol2": "8d97b38fb4acac2f407cce7993463b7b",
+    "id": "OZRealestatesToken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_OZRealestatesToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

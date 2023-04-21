@@ -1,0 +1,39 @@
+{
+    "addr": "0xb620cee6b52f96f3c6b253e6eea556aa2d214a99",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "DrainMe",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "d5169273775dafa4ac1cffff142b3b46",
+    "fp_runtime": "fc99dd58f1de2f4123ed3289d1b65d8e",
+    "fp_sol": "3b2d933606731de60cfd870cb1784de1",
+    "fp_sol2": "7e937b4d5eee69a27e9db9dfd14def9b",
+    "id": "0xb620cee6b52f96f3c6b253e6eea556aa2d214a99",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

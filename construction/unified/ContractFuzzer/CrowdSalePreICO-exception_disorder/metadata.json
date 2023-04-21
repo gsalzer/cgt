@@ -1,0 +1,37 @@
+{
+    "addr": "0xb33812b316e0c454039a3b48d09dfe97d11683cc",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CrowdSalePreICO.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "CrowdSalePreICO",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0558f8d47a44f6d757f9c6e712935ee1",
+    "fp_runtime": "3a97d5633830291421a4fc3528f257b9",
+    "fp_sol": "75a3cb5ca080ba7238e39ce50147887c",
+    "fp_sol2": "5060a5005d75e728849777f9d9f3b397",
+    "id": "CrowdSalePreICO-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CrowdSalePreICO.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

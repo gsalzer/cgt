@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "XRRfrozen.unfrozen has external calls inside a loop: \"token.transfer(vaults[i].wallet,vaults[i].amount)\" (reorder_contracts_2_3/test3033.sol#76)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(vaults[i].wallet,vaults[i].amount)",
+            "source_mapping": {
+              "start": 2087,
+              "length": 50,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3033.sol",
+              "filename_relative": "reorder_contracts_2_3/test3033.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3033.sol",
+              "filename_short": "reorder_contracts_2_3/test3033.sol",
+              "lines": [
+                76
+              ],
+              "starting_column": 17,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "unfrozen",
+                "source_mapping": {
+                  "start": 1881,
+                  "length": 329,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3033.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3033.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3033.sol",
+                  "filename_short": "reorder_contracts_2_3/test3033.sol",
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "XRRfrozen",
+                    "source_mapping": {
+                      "start": 1103,
+                      "length": 1488,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3033.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3033.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3033.sol",
+                      "filename_short": "reorder_contracts_2_3/test3033.sol",
+                      "lines": [
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "unfrozen()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

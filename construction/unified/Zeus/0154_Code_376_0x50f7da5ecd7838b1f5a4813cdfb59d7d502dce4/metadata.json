@@ -1,0 +1,60 @@
+{
+    "addr": "0x50f7da5ecd7838b1f5a4813cdfb59d7d502dce44",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.10+commit.f0d539ae",
+    "compiler_orig": false,
+    "contractname": "DesafioStone",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "dc6b7c37e8b39a9ccd65b26652c77234",
+    "fp_runtime": "2f9a5af9ce939c7cc9aebaafdbe9cee3",
+    "fp_sol": "28f0066364cd0d77bf70fe9c6749f921",
+    "fp_sol2": "f0d18fe5418a30d1603942e71f1391f1",
+    "id": "0154_Code_376_0x50f7da5ecd7838b1f5a4813cdfb59d7d502dce4",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

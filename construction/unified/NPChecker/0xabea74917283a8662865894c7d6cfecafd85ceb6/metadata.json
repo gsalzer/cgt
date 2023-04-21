@@ -1,0 +1,54 @@
+{
+    "addr": "0xabea74917283a8662865894c7d6cfecafd85ceb6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Failed Call",
+            true
+        ],
+        [
+            "Unchecked Call",
+            false
+        ],
+        [
+            "System Property Dependence",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "TOD",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-08-10-e6a031d",
+    "compiler_orig": false,
+    "contractname": "SplitterEtcToEth",
+    "contractname_orig": false,
+    "dataset": "NPChecker",
+    "etc": {
+        "note": "fallback is mishanding call return and TOD                                                   "
+    },
+    "fp_bytecode": "0d539eb74729d995dfdf0712fc040189",
+    "fp_runtime": "cbd033985e86bde2a63df9b5e908734c",
+    "fp_sol": "ef28310f7be928789d33bae92bd843c5",
+    "fp_sol2": "ef28310f7be928789d33bae92bd843c5",
+    "id": "0xabea74917283a8662865894c7d6cfecafd85ceb6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

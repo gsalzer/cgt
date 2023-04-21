@@ -1,0 +1,35 @@
+{
+    "addr": "0xb801f35f99b437bcef8789db26d1695c26c7b14b",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "arithmetic",
+            true
+        ]
+    ],
+    "compiler": "v0.4.26+commit.4563c3fc",
+    "compiler_orig": false,
+    "contractname": "TokenSaleChallenge",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101 // https://capturetheether.com/challenges/math/token-sale/"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "66bdef17fd9bb9e1afc0a910763d9f2e",
+    "fp_sol2": "d251bdf00b3daa573c7227c0c736dcba",
+    "id": "tokensalechallenge",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_tokensalechallenge.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

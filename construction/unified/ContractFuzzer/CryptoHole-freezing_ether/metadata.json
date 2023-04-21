@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "BasicToken",
+            "CryptoHole",
+            "ERC20",
+            "ERC20Basic",
+            "SafeMath",
+            "StandardToken"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "cdea36de139198312034de6fbb74d680",
+    "fp_sol": "24fa8ab77d6169c57bec88eeee5c23cd",
+    "fp_sol2": "30a3a92dcc34002b042d3f4659229692",
+    "id": "CryptoHole-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/CryptoHole.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/CryptoHole.sol"
+    ],
+    "sol_orig": true
+}

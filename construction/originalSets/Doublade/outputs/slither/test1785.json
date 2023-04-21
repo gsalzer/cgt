@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "AirDrop.multiValueAirDrop has external calls inside a loop: \"token.transfer(_addrs[i],_values[i] * (10 ** 18))\" (reorder_contracts_2_3/test1785.sol#41)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(_addrs[i],_values[i] * (10 ** 18))",
+            "source_mapping": {
+              "start": 1090,
+              "length": 50,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+              "filename_relative": "reorder_contracts_2_3/test1785.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+              "filename_short": "reorder_contracts_2_3/test1785.sol",
+              "lines": [
+                41
+              ],
+              "starting_column": 17,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "multiValueAirDrop",
+                "source_mapping": {
+                  "start": 815,
+                  "length": 361,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1785.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                  "filename_short": "reorder_contracts_2_3/test1785.sol",
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 656,
+                      "length": 845,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1785.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                      "filename_short": "reorder_contracts_2_3/test1785.sol",
+                      "lines": [
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "multiValueAirDrop(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "AirDrop.singleValueAirDrop has external calls inside a loop: \"token.transfer(_addrs[i],_value * (10 ** 18))\" (reorder_contracts_2_3/test1785.sol#50)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(_addrs[i],_value * (10 ** 18))",
+            "source_mapping": {
+              "start": 1418,
+              "length": 46,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+              "filename_relative": "reorder_contracts_2_3/test1785.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+              "filename_short": "reorder_contracts_2_3/test1785.sol",
+              "lines": [
+                50
+              ],
+              "starting_column": 17,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "singleValueAirDrop",
+                "source_mapping": {
+                  "start": 1184,
+                  "length": 314,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                  "filename_relative": "reorder_contracts_2_3/test1785.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                  "filename_short": "reorder_contracts_2_3/test1785.sol",
+                  "lines": [
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 656,
+                      "length": 845,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                      "filename_relative": "reorder_contracts_2_3/test1785.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test1785.sol",
+                      "filename_short": "reorder_contracts_2_3/test1785.sol",
+                      "lines": [
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "singleValueAirDrop(address[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

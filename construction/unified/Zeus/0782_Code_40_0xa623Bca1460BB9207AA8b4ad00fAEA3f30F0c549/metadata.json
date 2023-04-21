@@ -1,0 +1,60 @@
+{
+    "addr": "0xa623bca1460bb9207aa8b4ad00faea3f30f0c549",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": false,
+    "contractname": "CSGOBets",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "023dea1832f513fca674ebdd28e61733",
+    "fp_runtime": "7236af7499f276f0a97758e871ce6fd5",
+    "fp_sol": "84e39141cd356c3e782cc12a99eaf28a",
+    "fp_sol2": "84e39141cd356c3e782cc12a99eaf28a",
+    "id": "0782_Code_40_0xa623Bca1460BB9207AA8b4ad00fAEA3f30F0c549",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

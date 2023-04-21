@@ -1,0 +1,37 @@
+{
+    "addr": "0xec987914ade432ce9806f418787a4ed0b0e77000",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler_orig": false,
+    "contractname": "LuckyDice",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "c83a5fe0bcab311115b92d04b7ee3bff",
+    "fp_runtime": "9ce542ff27fdae22a0f09dcb927b7a08",
+    "fp_sol": "46b2f61235579f0b557bf95f18407ea8",
+    "fp_sol2": "b56213a548d929d5a077b20f123be300",
+    "id": "0xec987914ade432ce9806f418787a4ed0b0e77000-LuckyDice-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test3610.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

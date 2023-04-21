@@ -1,0 +1,35 @@
+{
+    "addr": "0x328c7f2c3c4c966ffafd06d503260e175ad3eb84",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "CertifiedDocuments",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "fa911c54269d133e7157231187c94db5",
+    "fp_sol": "0b7fdbde9c5fb131df885e99abfd11ae",
+    "fp_sol2": "66453d9fcb5749ce63ec3457d8112057",
+    "id": "CertifiedDocuments-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/CertifiedDocuments.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_CertifiedDocuments.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

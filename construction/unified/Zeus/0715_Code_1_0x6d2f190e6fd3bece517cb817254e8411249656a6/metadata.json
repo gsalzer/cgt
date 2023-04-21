@@ -1,0 +1,60 @@
+{
+    "addr": "0x6d2f190e6fd3bece517cb817254e8411249656a6",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "AddressOwnershipVerification",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "a5f2e73740152f347e76e110c8a3ed60",
+    "fp_runtime": "f69dc437e840f966c5b0b76f8020971a",
+    "fp_sol": "4bb10d38e29a22ccaf28dc1d22caf799",
+    "fp_sol2": "aac04dbbc95244dd7591f39a613876ec",
+    "id": "0715_Code_1_0x6d2f190e6fd3bece517cb817254e8411249656a6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

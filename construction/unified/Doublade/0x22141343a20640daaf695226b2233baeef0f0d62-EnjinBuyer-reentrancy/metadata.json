@@ -1,0 +1,37 @@
+{
+    "addr": "0x22141343a20640daaf695226b2233baeef0f0d62",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "EnjinBuyer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "affd04f8771e822b7d7d5c8e2ed7298e",
+    "fp_runtime": "1705763cb18a9913498873de39183fca",
+    "fp_sol": "e804c36ca855c38c944c8e1091b5254c",
+    "fp_sol2": "609f8951246e7894637f64e4c980d424",
+    "id": "0x22141343a20640daaf695226b2233baeef0f0d62-EnjinBuyer-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test524.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

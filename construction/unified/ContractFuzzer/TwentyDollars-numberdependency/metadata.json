@@ -1,0 +1,38 @@
+{
+    "addr": "0x345ab5e5f971dbdbc92af2779ce7a8bbf1819e59",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "TwentyDollars",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "b18421f242270209cba7d262b2f43210",
+    "fp_runtime": "9ae249b603674374d8a2e18bb2b14ccf",
+    "fp_sol": "838c6d19738bee6a6a8a3ab47997fe90",
+    "fp_sol2": "b1f0665b3637d60cdf5a235f4fe66f2a",
+    "id": "TwentyDollars-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_TwentyDollars.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TwentyDollars.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xc0b1409a5c1a287250a3e974583d00a0010040e7",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NatCoinCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "NatCoinCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "d0f642c50172a472be27e279ad44f9a0",
+    "fp_runtime": "4b65fcce593b333c9cba88e34e9eae5e",
+    "fp_sol": "90dc147c5c62fea93e194502776f4aea",
+    "fp_sol2": "31406342876f2e869ce98ced0e27e6e2",
+    "id": "NatCoinCrowdsale-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_NatCoinCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

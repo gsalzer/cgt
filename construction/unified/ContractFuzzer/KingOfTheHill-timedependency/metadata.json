@@ -1,0 +1,38 @@
+{
+    "addr": "0x14e2ac9b6ca7bade21afdfa31b63708fc0b08d8f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/KingOfTheHill.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "KingOfTheHill",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/KingOfTheHill.sol"
+    },
+    "fp_bytecode": "fa4f6fd03d01a549022e46d64a35d4cc",
+    "fp_runtime": "7b1bfd27bcb0e492b5ec8d2697862976",
+    "fp_sol": "a68fbd324b10507b23a239b13535779c",
+    "fp_sol2": "1471e59e8fa13996564bb4f0d253c1e5",
+    "id": "KingOfTheHill-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xeb5518602c22154970fd43447939b1dfef053b9e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/JobeumPresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "JobeumPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "79fd7d2590aaa4b67107624a4e0dc624",
+    "fp_runtime": "8d4b8126308ef2a0a6184fe6cc662109",
+    "fp_sol": "712f9cf1008da8711299ccb604e5e81e",
+    "fp_sol2": "df7548ef41b0b7eb5c5a71f100d5cf01",
+    "id": "JobeumPresale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_JobeumPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

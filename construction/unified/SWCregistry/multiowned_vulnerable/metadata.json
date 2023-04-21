@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-105",
+            true
+        ]
+    ],
+    "compiler": "0.4.24+commit.e67f0147.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "TestContract",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "7679b9169f08671f43f92d24af473df7",
+    "fp_runtime": "0a1603c540b009fe2e5be947c1a4cebe",
+    "fp_sol": "6ec9a5576cdb930ffb9a1446cef62006",
+    "fp_sol2": "04080e7044eb2d7ec342cc2d32e5e27d",
+    "id": "multiowned_vulnerable",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/multiowned_vulnerable.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x015a06a433353f8db634df4eddf0c109882a15ab",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2+commit.af6afb04",
+    "compiler_orig": false,
+    "contractname": "PixelMap",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "11ac7fa4650e5bb3cde349fb80ba81fa",
+    "fp_runtime": "7dfed44b8c4ecacec0375623554d9afd",
+    "fp_sol": "014a0178b1fb411bcff909ff91c1f21f",
+    "fp_sol2": "bd105dd7df104250af52e241e38fd983",
+    "id": "1251_Code_16_0x015A06a433353f8db634dF4eDdF0C109882A15AB",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

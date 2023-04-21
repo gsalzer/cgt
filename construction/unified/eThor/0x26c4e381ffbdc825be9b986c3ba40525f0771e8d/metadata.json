@@ -1,0 +1,37 @@
+{
+    "addr": "0x26c4e381ffbdc825be9b986c3ba40525f0771e8d",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": true,
+    "contractname": "Coinflip",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "b05aec14b4160f598a25cb5073f80367",
+    "fp_runtime": "8aac41eadec402cb0e0e1df3e7c3b68c",
+    "fp_sol": "25d2d97c3a0974f61dc2ab988b910a62",
+    "fp_sol2": "25d2d97c3a0974f61dc2ab988b910a62",
+    "id": "0x26c4e381ffbdc825be9b986c3ba40525f0771e8d",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,52 @@
+{
+    "addr": "0xb10ba7b334d3bd1b2110ba00bca39696b6df406d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            true
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.3-nightly.2016.9.30+commit.d5cfb17b",
+    "compiler_orig": false,
+    "contractname": "Wallet",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f62ab91a6ca5f068fc3aba58c96ee965",
+    "fp_runtime": "22ba4fa0af7b354b1f728cdb959c5a1f",
+    "fp_sol": "cf3d4a62e98f5dec4d263d3274d3268a",
+    "fp_sol2": "0d24bae1e7562e0aef419fb823e9b60b",
+    "id": "1107_Code_242_0xb10ba7b334d3bd1b2110ba00bca39696b6df406",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

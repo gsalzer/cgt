@@ -1,0 +1,60 @@
+{
+    "addr": "0xf6d9979499491c1c0c9ef518860f4476c1cd551a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-08-08-c3ed550",
+    "compiler_orig": false,
+    "contractname": "EtherandomProxy",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1637b979dd81a72df91ba6691586049b",
+    "fp_runtime": "d0616e4ac5541b7457166870c0cd9e69",
+    "fp_sol": "67882c1993900f97520384729aeb9e96",
+    "fp_sol2": "67882c1993900f97520384729aeb9e96",
+    "id": "0572_Code_25_0xf6d9979499491c1c0c9ef518860f4476c1cd551a",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

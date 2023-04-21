@@ -1,0 +1,38 @@
+{
+    "addr": "0x90da942f5a63b383121cd8d4772d384cd7ed51eb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "EtherWhuffieManager",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "05204d94086ac4576a870c033b7e2b1d",
+    "fp_runtime": "96aa323345d1cb0f51703a17b9184c68",
+    "fp_sol": "92720b025393d1946b5a88d0b7798987",
+    "fp_sol2": "0578ff03a33078d16daa21b7be0cadaf",
+    "id": "EtherWhuffieManager-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_EtherWhuffieManager.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EtherWhuffieManager.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

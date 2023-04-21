@@ -1,0 +1,60 @@
+{
+    "addr": "0x62854fc64d74b7eb5e4d0a2910e277ffb4d3d1e3",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "DdosMitigation",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "9b4259ebb3d1a32fc2c58c5f58a92cb7",
+    "fp_runtime": "cb2acc6b3a91a881cec807cf7f3a7b7f",
+    "fp_sol": "3bfca29f0682cbe9660531f3054fa25b",
+    "fp_sol2": "a0e417bce49972921a17d06809434c86",
+    "id": "0672_Code_1_0x62854fc64d74b7eb5e4d0a2910e277ffb4d3d1e3",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

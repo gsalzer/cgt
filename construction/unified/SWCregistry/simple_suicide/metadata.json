@@ -1,0 +1,37 @@
+{
+    "addr": "0x816d5091bfc7fb29945ab9d2386d867bb5d6b002",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-106",
+            true
+        ]
+    ],
+    "compiler": "0.4.25+commit.59dbf8f1.Linux.g++",
+    "compiler_orig": true,
+    "contractname": "SimpleSuicide",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "02e133ae3b5cd257c80975f564f95415",
+    "fp_runtime": "8d7c3ac52077d4007c57b6fc707724ab",
+    "fp_sol": "97fd68edc015e73703df3268aa848b9b",
+    "fp_sol2": "8159169e7b344836bddaf2457bb3d525",
+    "id": "simple_suicide",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_simple_suicide.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

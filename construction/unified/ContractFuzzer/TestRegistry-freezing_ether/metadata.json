@@ -1,0 +1,35 @@
+{
+    "addr": "0xb04ac2cdb8bfa1d826e0ccd39a20c53ee06d188e",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "TestRegistry",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": "0c7e447f1bdc6aca1996a393a647e0f6",
+    "fp_sol": "672f6bbe62666178ddd6f0c5b98b4e88",
+    "fp_sol2": "4016ca2091938daa0216e04eecd22ef6",
+    "id": "TestRegistry-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/TestRegistry.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_TestRegistry.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

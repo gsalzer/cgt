@@ -1,0 +1,2436 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'adjustDuration', 'tx_blocknumber': '39', 'tx_value': '0', 'tx_timestamp': '4623', 'tx_input': '94465bf6000000000000000000000000000000000000000000000000000000000003ee78'}
+1 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'tokenDrian', 'tx_blocknumber': '187', 'tx_value': '0', 'tx_timestamp': '1e11d', 'tx_input': 'e420dcc5'}
+2 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'start', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '95805dad0000000000000000000000000000000000000000000000000000000000000001'}
+3 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'tokenDrian', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'e420dcc5'}
+4 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'start', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '95805dad0000000000000000000000000000000000000000000000000000000000000003'}
+5 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'adjustDuration', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '94465bf60000000000000000000000000000000000000000000000000000000000000001'}
+6 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'adjustDuration', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '94465bf60000000000000000000000000000000000000000000000000000000000000003'}
+7 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'emergencyStop', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63a599a4'}
+8 : {'tx_caller': '853a3f142430658a32f75a0dc891b98bf4bdf5c1', 'name': 'release', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '86d1a69f'}
+--------------------------------------------------------------------------------
+
+Full traces: 807
+--------------------------------------------------------------------------------
+2 5 4   :  start adjustDuration start 
+2 4 5   :  start start adjustDuration 
+------------------------------------------------------------
+0 2 4 5   :  adjustDuration start start adjustDuration 
+0 2 5 4   :  adjustDuration start adjustDuration start 
+------------------------------------------------------------
+2 4 5 3   :  start start adjustDuration tokenDrian 
+2 5 4 3   :  start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 5   :  start start tokenDrian adjustDuration 
+2 5 4 3   :  start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 5   :  emergencyStop start start adjustDuration 
+2 5 7 4   :  start adjustDuration emergencyStop start 
+------------------------------------------------------------
+7 2 4 5   :  emergencyStop start start adjustDuration 
+2 5 4 7   :  start adjustDuration start emergencyStop 
+------------------------------------------------------------
+7 2 4 5   :  emergencyStop start start adjustDuration 
+2 7 5 4   :  start emergencyStop adjustDuration start 
+------------------------------------------------------------
+7 2 4 5   :  emergencyStop start start adjustDuration 
+7 2 5 4   :  emergencyStop start adjustDuration start 
+------------------------------------------------------------
+2 5 7 4   :  start adjustDuration emergencyStop start 
+2 4 5 7   :  start start adjustDuration emergencyStop 
+------------------------------------------------------------
+2 5 7 4   :  start adjustDuration emergencyStop start 
+2 4 7 5   :  start start emergencyStop adjustDuration 
+------------------------------------------------------------
+2 5 7 4   :  start adjustDuration emergencyStop start 
+2 7 4 5   :  start emergencyStop start adjustDuration 
+------------------------------------------------------------
+2 5 4 7   :  start adjustDuration start emergencyStop 
+2 4 5 7   :  start start adjustDuration emergencyStop 
+------------------------------------------------------------
+2 5 4 7   :  start adjustDuration start emergencyStop 
+2 4 7 5   :  start start emergencyStop adjustDuration 
+------------------------------------------------------------
+2 5 4 7   :  start adjustDuration start emergencyStop 
+2 7 4 5   :  start emergencyStop start adjustDuration 
+------------------------------------------------------------
+2 4 5 7   :  start start adjustDuration emergencyStop 
+2 7 5 4   :  start emergencyStop adjustDuration start 
+------------------------------------------------------------
+2 4 5 7   :  start start adjustDuration emergencyStop 
+7 2 5 4   :  emergencyStop start adjustDuration start 
+------------------------------------------------------------
+2 7 5 4   :  start emergencyStop adjustDuration start 
+2 4 7 5   :  start start emergencyStop adjustDuration 
+------------------------------------------------------------
+2 7 5 4   :  start emergencyStop adjustDuration start 
+2 7 4 5   :  start emergencyStop start adjustDuration 
+------------------------------------------------------------
+7 2 5 4   :  emergencyStop start adjustDuration start 
+2 4 7 5   :  start start emergencyStop adjustDuration 
+------------------------------------------------------------
+7 2 5 4   :  emergencyStop start adjustDuration start 
+2 7 4 5   :  start emergencyStop start adjustDuration 
+------------------------------------------------------------
+0 1 2 5 4   :  adjustDuration tokenDrian start adjustDuration start 
+0 1 2 4 5   :  adjustDuration tokenDrian start start adjustDuration 
+------------------------------------------------------------
+0 2 4 3 5   :  adjustDuration start start tokenDrian adjustDuration 
+0 2 5 4 3   :  adjustDuration start adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 5 4 3   :  adjustDuration start adjustDuration start tokenDrian 
+0 2 4 5 3   :  adjustDuration start start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 7 5 4   :  adjustDuration start emergencyStop adjustDuration start 
+0 7 2 4 5   :  adjustDuration emergencyStop start start adjustDuration 
+------------------------------------------------------------
+0 2 7 5 4   :  adjustDuration start emergencyStop adjustDuration start 
+0 2 4 5 7   :  adjustDuration start start adjustDuration emergencyStop 
+------------------------------------------------------------
+0 2 7 5 4   :  adjustDuration start emergencyStop adjustDuration start 
+0 2 7 4 5   :  adjustDuration start emergencyStop start adjustDuration 
+------------------------------------------------------------
+0 2 7 5 4   :  adjustDuration start emergencyStop adjustDuration start 
+0 2 4 7 5   :  adjustDuration start start emergencyStop adjustDuration 
+------------------------------------------------------------
+0 7 2 4 5   :  adjustDuration emergencyStop start start adjustDuration 
+0 2 5 7 4   :  adjustDuration start adjustDuration emergencyStop start 
+------------------------------------------------------------
+0 7 2 4 5   :  adjustDuration emergencyStop start start adjustDuration 
+0 2 5 4 7   :  adjustDuration start adjustDuration start emergencyStop 
+------------------------------------------------------------
+0 7 2 4 5   :  adjustDuration emergencyStop start start adjustDuration 
+0 7 2 5 4   :  adjustDuration emergencyStop start adjustDuration start 
+------------------------------------------------------------
+0 2 4 5 7   :  adjustDuration start start adjustDuration emergencyStop 
+0 2 5 7 4   :  adjustDuration start adjustDuration emergencyStop start 
+------------------------------------------------------------
+0 2 4 5 7   :  adjustDuration start start adjustDuration emergencyStop 
+0 2 5 4 7   :  adjustDuration start adjustDuration start emergencyStop 
+------------------------------------------------------------
+0 2 4 5 7   :  adjustDuration start start adjustDuration emergencyStop 
+0 7 2 5 4   :  adjustDuration emergencyStop start adjustDuration start 
+------------------------------------------------------------
+0 2 7 4 5   :  adjustDuration start emergencyStop start adjustDuration 
+0 2 5 7 4   :  adjustDuration start adjustDuration emergencyStop start 
+------------------------------------------------------------
+0 2 7 4 5   :  adjustDuration start emergencyStop start adjustDuration 
+0 2 5 4 7   :  adjustDuration start adjustDuration start emergencyStop 
+------------------------------------------------------------
+0 2 7 4 5   :  adjustDuration start emergencyStop start adjustDuration 
+0 7 2 5 4   :  adjustDuration emergencyStop start adjustDuration start 
+------------------------------------------------------------
+0 2 5 7 4   :  adjustDuration start adjustDuration emergencyStop start 
+0 2 4 7 5   :  adjustDuration start start emergencyStop adjustDuration 
+------------------------------------------------------------
+0 2 5 4 7   :  adjustDuration start adjustDuration start emergencyStop 
+0 2 4 7 5   :  adjustDuration start start emergencyStop adjustDuration 
+------------------------------------------------------------
+0 2 4 7 5   :  adjustDuration start start emergencyStop adjustDuration 
+0 7 2 5 4   :  adjustDuration emergencyStop start adjustDuration start 
+------------------------------------------------------------
+2 7 4 5 3   :  start emergencyStop start adjustDuration tokenDrian 
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3   :  start emergencyStop start adjustDuration tokenDrian 
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3   :  start emergencyStop start adjustDuration tokenDrian 
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3   :  start emergencyStop start adjustDuration tokenDrian 
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+2 7 4 5 3   :  start emergencyStop start adjustDuration tokenDrian 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5   :  start start tokenDrian emergencyStop adjustDuration 
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5   :  start start tokenDrian emergencyStop adjustDuration 
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5   :  start start tokenDrian emergencyStop adjustDuration 
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5   :  start start tokenDrian emergencyStop adjustDuration 
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+2 4 3 7 5   :  start start tokenDrian emergencyStop adjustDuration 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5   :  start emergencyStop start tokenDrian adjustDuration 
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5   :  start emergencyStop start tokenDrian adjustDuration 
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5   :  start emergencyStop start tokenDrian adjustDuration 
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5   :  start emergencyStop start tokenDrian adjustDuration 
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+2 7 4 3 5   :  start emergencyStop start tokenDrian adjustDuration 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 5   :  emergencyStop start start tokenDrian adjustDuration 
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 5   :  emergencyStop start start tokenDrian adjustDuration 
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+7 2 4 3 5   :  emergencyStop start start tokenDrian adjustDuration 
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 5   :  emergencyStop start start tokenDrian adjustDuration 
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+7 2 4 3 5   :  emergencyStop start start tokenDrian adjustDuration 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+7 2 4 5 3   :  emergencyStop start start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+2 4 3 5 7   :  start start tokenDrian adjustDuration emergencyStop 
+------------------------------------------------------------
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+2 4 7 3 5   :  start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+2 4 5 7 3   :  start start adjustDuration emergencyStop tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+2 4 7 5 3   :  start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3   :  start emergencyStop adjustDuration start tokenDrian 
+2 4 5 3 7   :  start start adjustDuration tokenDrian emergencyStop 
+------------------------------------------------------------
+7 2 4 5 3   :  emergencyStop start start adjustDuration tokenDrian 
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3   :  emergencyStop start start adjustDuration tokenDrian 
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3   :  emergencyStop start start adjustDuration tokenDrian 
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+7 2 4 5 3   :  emergencyStop start start adjustDuration tokenDrian 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+2 4 3 5 7   :  start start tokenDrian adjustDuration emergencyStop 
+------------------------------------------------------------
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+2 4 7 3 5   :  start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+2 4 5 7 3   :  start start adjustDuration emergencyStop tokenDrian 
+------------------------------------------------------------
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+2 4 7 5 3   :  start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 4 7 3   :  start adjustDuration start emergencyStop tokenDrian 
+2 4 5 3 7   :  start start adjustDuration tokenDrian emergencyStop 
+------------------------------------------------------------
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+2 4 3 5 7   :  start start tokenDrian adjustDuration emergencyStop 
+------------------------------------------------------------
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+2 4 7 3 5   :  start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+2 4 5 7 3   :  start start adjustDuration emergencyStop tokenDrian 
+------------------------------------------------------------
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+2 4 7 5 3   :  start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 7 4 3   :  start adjustDuration emergencyStop start tokenDrian 
+2 4 5 3 7   :  start start adjustDuration tokenDrian emergencyStop 
+------------------------------------------------------------
+2 4 3 5 7   :  start start tokenDrian adjustDuration emergencyStop 
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+2 4 3 5 7   :  start start tokenDrian adjustDuration emergencyStop 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+2 4 7 3 5   :  start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+2 4 5 7 3   :  start start adjustDuration emergencyStop tokenDrian 
+------------------------------------------------------------
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+2 4 7 5 3   :  start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 4 3 7   :  start adjustDuration start tokenDrian emergencyStop 
+2 4 5 3 7   :  start start adjustDuration tokenDrian emergencyStop 
+------------------------------------------------------------
+2 4 7 3 5   :  start start emergencyStop tokenDrian adjustDuration 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 3   :  start start adjustDuration emergencyStop tokenDrian 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3   :  start start emergencyStop adjustDuration tokenDrian 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7   :  start start adjustDuration tokenDrian emergencyStop 
+7 2 5 4 3   :  emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+7 2 8 4 5   :  emergencyStop start release start adjustDuration 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+7 2 5 8 4   :  emergencyStop start adjustDuration release start 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+2 4 7 5 8   :  start start emergencyStop adjustDuration release 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+2 7 8 4 5   :  start emergencyStop release start adjustDuration 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8   :  start adjustDuration start emergencyStop release 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8   :  start adjustDuration emergencyStop start release 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4   :  start emergencyStop release adjustDuration start 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+2 7 4 5 8   :  start emergencyStop start adjustDuration release 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+------------------------------------------------------------
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+7 2 8 5 4   :  emergencyStop start release adjustDuration start 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+2 4 7 8 5   :  start start emergencyStop release adjustDuration 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+7 2 5 4 8   :  emergencyStop start adjustDuration start release 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+2 5 7 8 4   :  start adjustDuration emergencyStop release start 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8   :  start emergencyStop adjustDuration start release 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+7 8 2 4 5   :  emergencyStop release start start adjustDuration 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+7 2 4 5 8   :  emergencyStop start start adjustDuration release 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+2 4 5 7 8   :  start start adjustDuration emergencyStop release 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+2 7 4 8 5   :  start emergencyStop start release adjustDuration 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+2 7 5 8 4   :  start emergencyStop adjustDuration release start 
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+7 2 4 8 5   :  emergencyStop start start release adjustDuration 
+7 8 2 5 4   :  emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 1 2 4 3 5   :  adjustDuration tokenDrian start start tokenDrian adjustDuration 
+0 1 2 5 4 3   :  adjustDuration tokenDrian start adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 1 2 5 4 3   :  adjustDuration tokenDrian start adjustDuration start tokenDrian 
+0 1 2 4 5 3   :  adjustDuration tokenDrian start start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 1 2 4 5 7   :  adjustDuration tokenDrian start start adjustDuration emergencyStop 
+0 1 2 5 4 7   :  adjustDuration tokenDrian start adjustDuration start emergencyStop 
+------------------------------------------------------------
+0 1 2 4 5 7   :  adjustDuration tokenDrian start start adjustDuration emergencyStop 
+0 1 7 2 5 4   :  adjustDuration tokenDrian emergencyStop start adjustDuration start 
+------------------------------------------------------------
+0 1 2 4 5 7   :  adjustDuration tokenDrian start start adjustDuration emergencyStop 
+0 1 2 5 7 4   :  adjustDuration tokenDrian start adjustDuration emergencyStop start 
+------------------------------------------------------------
+0 1 2 4 5 7   :  adjustDuration tokenDrian start start adjustDuration emergencyStop 
+0 1 2 7 5 4   :  adjustDuration tokenDrian start emergencyStop adjustDuration start 
+------------------------------------------------------------
+0 1 2 5 4 7   :  adjustDuration tokenDrian start adjustDuration start emergencyStop 
+0 1 2 4 7 5   :  adjustDuration tokenDrian start start emergencyStop adjustDuration 
+------------------------------------------------------------
+0 1 2 5 4 7   :  adjustDuration tokenDrian start adjustDuration start emergencyStop 
+0 1 2 7 4 5   :  adjustDuration tokenDrian start emergencyStop start adjustDuration 
+------------------------------------------------------------
+0 1 2 5 4 7   :  adjustDuration tokenDrian start adjustDuration start emergencyStop 
+0 1 7 2 4 5   :  adjustDuration tokenDrian emergencyStop start start adjustDuration 
+------------------------------------------------------------
+0 1 7 2 5 4   :  adjustDuration tokenDrian emergencyStop start adjustDuration start 
+0 1 2 4 7 5   :  adjustDuration tokenDrian start start emergencyStop adjustDuration 
+------------------------------------------------------------
+0 1 7 2 5 4   :  adjustDuration tokenDrian emergencyStop start adjustDuration start 
+0 1 2 7 4 5   :  adjustDuration tokenDrian start emergencyStop start adjustDuration 
+------------------------------------------------------------
+0 1 7 2 5 4   :  adjustDuration tokenDrian emergencyStop start adjustDuration start 
+0 1 7 2 4 5   :  adjustDuration tokenDrian emergencyStop start start adjustDuration 
+------------------------------------------------------------
+0 1 2 4 7 5   :  adjustDuration tokenDrian start start emergencyStop adjustDuration 
+0 1 2 5 7 4   :  adjustDuration tokenDrian start adjustDuration emergencyStop start 
+------------------------------------------------------------
+0 1 2 4 7 5   :  adjustDuration tokenDrian start start emergencyStop adjustDuration 
+0 1 2 7 5 4   :  adjustDuration tokenDrian start emergencyStop adjustDuration start 
+------------------------------------------------------------
+0 1 2 7 4 5   :  adjustDuration tokenDrian start emergencyStop start adjustDuration 
+0 1 2 5 7 4   :  adjustDuration tokenDrian start adjustDuration emergencyStop start 
+------------------------------------------------------------
+0 1 2 7 4 5   :  adjustDuration tokenDrian start emergencyStop start adjustDuration 
+0 1 2 7 5 4   :  adjustDuration tokenDrian start emergencyStop adjustDuration start 
+------------------------------------------------------------
+0 1 2 5 7 4   :  adjustDuration tokenDrian start adjustDuration emergencyStop start 
+0 1 7 2 4 5   :  adjustDuration tokenDrian emergencyStop start start adjustDuration 
+------------------------------------------------------------
+0 1 7 2 4 5   :  adjustDuration tokenDrian emergencyStop start start adjustDuration 
+0 1 2 7 5 4   :  adjustDuration tokenDrian start emergencyStop adjustDuration start 
+------------------------------------------------------------
+0 2 4 5 3 7   :  adjustDuration start start adjustDuration tokenDrian emergencyStop 
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+0 2 4 5 3 7   :  adjustDuration start start adjustDuration tokenDrian emergencyStop 
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 4 5 3 7   :  adjustDuration start start adjustDuration tokenDrian emergencyStop 
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 4 5 3 7   :  adjustDuration start start adjustDuration tokenDrian emergencyStop 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 4 5 3 7   :  adjustDuration start start adjustDuration tokenDrian emergencyStop 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 4 3 7 5   :  adjustDuration start start tokenDrian emergencyStop adjustDuration 
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+------------------------------------------------------------
+0 2 4 3 7 5   :  adjustDuration start start tokenDrian emergencyStop adjustDuration 
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 4 3 7 5   :  adjustDuration start start tokenDrian emergencyStop adjustDuration 
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 4 3 7 5   :  adjustDuration start start tokenDrian emergencyStop adjustDuration 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 4 3 7 5   :  adjustDuration start start tokenDrian emergencyStop adjustDuration 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 2 4 5 7 3   :  adjustDuration start start adjustDuration emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 7 2 4 5 3   :  adjustDuration emergencyStop start start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 7 2 4 3 5   :  adjustDuration emergencyStop start start tokenDrian adjustDuration 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 2 7 4 3 5   :  adjustDuration start emergencyStop start tokenDrian adjustDuration 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 2 7 4 5 3   :  adjustDuration start emergencyStop start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 2 4 7 3 5   :  adjustDuration start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 2 4 3 5 7   :  adjustDuration start start tokenDrian adjustDuration emergencyStop 
+------------------------------------------------------------
+0 2 5 4 3 7   :  adjustDuration start adjustDuration start tokenDrian emergencyStop 
+0 2 4 7 5 3   :  adjustDuration start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 2 4 5 7 3   :  adjustDuration start start adjustDuration emergencyStop tokenDrian 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 7 2 4 5 3   :  adjustDuration emergencyStop start start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 7 2 4 3 5   :  adjustDuration emergencyStop start start tokenDrian adjustDuration 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 2 7 4 3 5   :  adjustDuration start emergencyStop start tokenDrian adjustDuration 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 2 7 4 5 3   :  adjustDuration start emergencyStop start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 2 4 7 3 5   :  adjustDuration start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 2 4 3 5 7   :  adjustDuration start start tokenDrian adjustDuration emergencyStop 
+------------------------------------------------------------
+0 7 2 5 4 3   :  adjustDuration emergencyStop start adjustDuration start tokenDrian 
+0 2 4 7 5 3   :  adjustDuration start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 4 5 7 3   :  adjustDuration start start adjustDuration emergencyStop tokenDrian 
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 4 5 7 3   :  adjustDuration start start adjustDuration emergencyStop tokenDrian 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 4 5 7 3   :  adjustDuration start start adjustDuration emergencyStop tokenDrian 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 7 2 4 5 3   :  adjustDuration emergencyStop start start adjustDuration tokenDrian 
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 7 2 4 5 3   :  adjustDuration emergencyStop start start adjustDuration tokenDrian 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 7 2 4 5 3   :  adjustDuration emergencyStop start start adjustDuration tokenDrian 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 7 2 4 3 5   :  adjustDuration emergencyStop start start tokenDrian adjustDuration 
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 7 2 4 3 5   :  adjustDuration emergencyStop start start tokenDrian adjustDuration 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 7 2 4 3 5   :  adjustDuration emergencyStop start start tokenDrian adjustDuration 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 7 4 3 5   :  adjustDuration start emergencyStop start tokenDrian adjustDuration 
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+------------------------------------------------------------
+0 2 7 4 3 5   :  adjustDuration start emergencyStop start tokenDrian adjustDuration 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 7 4 3 5   :  adjustDuration start emergencyStop start tokenDrian adjustDuration 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+0 2 7 4 5 3   :  adjustDuration start emergencyStop start adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+0 2 4 7 3 5   :  adjustDuration start start emergencyStop tokenDrian adjustDuration 
+------------------------------------------------------------
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+0 2 4 3 5 7   :  adjustDuration start start tokenDrian adjustDuration emergencyStop 
+------------------------------------------------------------
+0 2 7 5 4 3   :  adjustDuration start emergencyStop adjustDuration start tokenDrian 
+0 2 4 7 5 3   :  adjustDuration start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 7 4 5 3   :  adjustDuration start emergencyStop start adjustDuration tokenDrian 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 7 4 5 3   :  adjustDuration start emergencyStop start adjustDuration tokenDrian 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 4 7 3 5   :  adjustDuration start start emergencyStop tokenDrian adjustDuration 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 4 7 3 5   :  adjustDuration start start emergencyStop tokenDrian adjustDuration 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 4 3 5 7   :  adjustDuration start start tokenDrian adjustDuration emergencyStop 
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+------------------------------------------------------------
+0 2 4 3 5 7   :  adjustDuration start start tokenDrian adjustDuration emergencyStop 
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+------------------------------------------------------------
+0 2 5 7 4 3   :  adjustDuration start adjustDuration emergencyStop start tokenDrian 
+0 2 4 7 5 3   :  adjustDuration start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+0 2 5 4 7 3   :  adjustDuration start adjustDuration start emergencyStop tokenDrian 
+0 2 4 7 5 3   :  adjustDuration start start emergencyStop adjustDuration tokenDrian 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 7 2 8 4 5   :  adjustDuration emergencyStop start release start adjustDuration 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 2 7 8 5 4   :  adjustDuration start emergencyStop release adjustDuration start 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 2 4 7 5 8   :  adjustDuration start start emergencyStop adjustDuration release 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 2 7 8 4 5   :  adjustDuration start emergencyStop release start adjustDuration 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 2 7 4 5 8   :  adjustDuration start emergencyStop start adjustDuration release 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 2 4 7 8 5   :  adjustDuration start start emergencyStop release adjustDuration 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+------------------------------------------------------------
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 7 2 5 4 8   :  adjustDuration emergencyStop start adjustDuration start release 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 2 7 4 8 5   :  adjustDuration start emergencyStop start release adjustDuration 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 2 5 7 8 4   :  adjustDuration start adjustDuration emergencyStop release start 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 2 5 4 7 8   :  adjustDuration start adjustDuration start emergencyStop release 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+------------------------------------------------------------
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 2 7 5 4 8   :  adjustDuration start emergencyStop adjustDuration start release 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+------------------------------------------------------------
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+------------------------------------------------------------
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+------------------------------------------------------------
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+------------------------------------------------------------
+0 7 2 4 8 5   :  adjustDuration emergencyStop start start release adjustDuration 
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+------------------------------------------------------------
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 2 5 7 4 8   :  adjustDuration start adjustDuration emergencyStop start release 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 7 2 8 5 4   :  adjustDuration emergencyStop start release adjustDuration start 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 7 8 2 5 4   :  adjustDuration emergencyStop release start adjustDuration start 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 2 7 5 8 4   :  adjustDuration start emergencyStop adjustDuration release start 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+0 7 8 2 4 5   :  adjustDuration emergencyStop release start start adjustDuration 
+------------------------------------------------------------
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+0 2 4 5 7 8   :  adjustDuration start start adjustDuration emergencyStop release 
+------------------------------------------------------------
+0 7 2 5 8 4   :  adjustDuration emergencyStop start adjustDuration release start 
+0 7 2 4 5 8   :  adjustDuration emergencyStop start start adjustDuration release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 5 4 3 8   :  emergencyStop start adjustDuration start tokenDrian release 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 2 4 3 8 5   :  emergencyStop start start tokenDrian release adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 5 3   :  emergencyStop release start start adjustDuration tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 5 3   :  start start emergencyStop release adjustDuration tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 2 4 5 3 8   :  emergencyStop start start adjustDuration tokenDrian release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 3 5 7 8   :  start start tokenDrian adjustDuration emergencyStop release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 8 5 4 3   :  start emergencyStop release adjustDuration start tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 8 3   :  start start emergencyStop adjustDuration release tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 3 8   :  start emergencyStop start adjustDuration tokenDrian release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 5 8 4 3   :  start emergencyStop adjustDuration release start tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 8 2 4 3 5   :  emergencyStop release start start tokenDrian adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 4 7 8 3   :  start adjustDuration start emergencyStop release tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 8 5   :  start start tokenDrian emergencyStop release adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 8 5   :  start start emergencyStop tokenDrian release adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 5 3 7 8   :  start start adjustDuration tokenDrian emergencyStop release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 7 8 3 5   :  start start emergencyStop release tokenDrian adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 5 4 8 3   :  start emergencyStop adjustDuration start release tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 3 5   :  start emergencyStop release start tokenDrian adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 7 3 5 8   :  start start emergencyStop tokenDrian adjustDuration release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 8 4 5 3   :  start emergencyStop release start adjustDuration tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 7 5 3 8   :  start start emergencyStop adjustDuration tokenDrian release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 5 3   :  start emergencyStop start release adjustDuration tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 5 3   :  emergencyStop start start release adjustDuration tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 3 5   :  emergencyStop start release start tokenDrian adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 2 8 4 5 3   :  emergencyStop start release start adjustDuration tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 4 7 3 8   :  start adjustDuration start emergencyStop tokenDrian release 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 3 7 5 8   :  start start tokenDrian emergencyStop adjustDuration release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 7 4 8 3   :  start adjustDuration emergencyStop start release tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 8 2 5 4 3   :  emergencyStop release start adjustDuration start tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 7 5 4 3 8   :  start emergencyStop adjustDuration start tokenDrian release 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 8 5   :  start emergencyStop start tokenDrian release adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 4 8 3 5   :  start emergencyStop start release tokenDrian adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+7 2 4 8 3 5   :  emergencyStop start start release tokenDrian adjustDuration 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 3 8   :  start start adjustDuration emergencyStop tokenDrian release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 4 3 5 8   :  start emergencyStop start tokenDrian adjustDuration release 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 4 5 7 8 3   :  start start adjustDuration emergencyStop release tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 8 5 4 3   :  emergencyStop start release adjustDuration start tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 5 8 4 3   :  emergencyStop start adjustDuration release start tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+------------------------------------------------------------
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+------------------------------------------------------------
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+------------------------------------------------------------
+2 7 4 5 8 3   :  start emergencyStop start adjustDuration release tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 4 3 7 8   :  start adjustDuration start tokenDrian emergencyStop release 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+7 2 5 4 8 3   :  emergencyStop start adjustDuration start release tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+------------------------------------------------------------
+2 5 7 8 4 3   :  start adjustDuration emergencyStop release start tokenDrian 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------
+7 2 4 5 8 3   :  emergencyStop start start adjustDuration release tokenDrian 
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+------------------------------------------------------------
+2 5 7 4 3 8   :  start adjustDuration emergencyStop start tokenDrian release 
+7 2 4 3 5 8   :  emergencyStop start start tokenDrian adjustDuration release 
+------------------------------------------------------------

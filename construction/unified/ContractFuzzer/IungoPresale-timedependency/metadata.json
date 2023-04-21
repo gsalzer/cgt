@@ -1,0 +1,37 @@
+{
+    "addr": "0xa67f436597852efa3967be824abff57f72c2f6d9",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/IungoPresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "IungoPresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "2db297ae1e15623e61c8e782eedbb96d",
+    "fp_runtime": "53a55b7eb82a96b7fdaf625658f67eab",
+    "fp_sol": "6e70ce4c41e5ba57835b23358af92214",
+    "fp_sol2": "014af9d842390e71b0d4a300f9d1d92e",
+    "id": "IungoPresale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_IungoPresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

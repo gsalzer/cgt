@@ -1,0 +1,39 @@
+{
+    "addr": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "ACCURAL_DEPOSIT",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "0896443639563dc9cea0c9d588813604",
+    "fp_runtime": "905460b2e8fbcab88dcdf8efa17718d5",
+    "fp_sol": "9b23d1cf1132e7e114bf057e51d381b5",
+    "fp_sol2": "19822ff44fc185b33a8b39e0ca8a4fd7",
+    "id": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

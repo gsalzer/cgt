@@ -1,0 +1,37 @@
+{
+    "addr": "0x1f0b9db5bb0f2a60f8c8824cec738c15805dbdec",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": true,
+    "contractname": "Nexium",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "22f9b16f010e5a572f173de25692e89e",
+    "fp_runtime": "8ae7a4c36fead1cb918ead68fb15eacc",
+    "fp_sol": "e9f01f273032dc3b0989bd9401d6f93c",
+    "fp_sol2": "e9f01f273032dc3b0989bd9401d6f93c",
+    "id": "0x1f0b9db5bb0f2a60f8c8824cec738c15805dbdec",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

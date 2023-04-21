@@ -1,0 +1,38 @@
+{
+    "addr": "0x3150954eae1a8a5e5ee1f1b8e8444fe16ea9f94c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/DeltaBalances.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "DeltaBalances",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/DeltaBalances.sol"
+    },
+    "fp_bytecode": "64aaee8ad8a217f66d5b79e264a2ff27",
+    "fp_runtime": "d0f504c509ff65f5a83968d3309d804e",
+    "fp_sol": "57b9bdeb65d7e8d48c256144f0387bd3",
+    "fp_sol2": "17d9254b4b5147e78abc1ea75aaee80f",
+    "id": "DeltaBalances-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

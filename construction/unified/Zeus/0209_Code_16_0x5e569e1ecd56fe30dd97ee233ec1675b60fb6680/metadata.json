@@ -1,0 +1,60 @@
+{
+    "addr": "0x5e569e1ecd56fe30dd97ee233ec1675b60fb6680",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.5+commit.b318366e",
+    "compiler_orig": false,
+    "contractname": "ProjectKudos",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "0f815030e9110d646ad4702998d884f6",
+    "fp_runtime": "394e2b8f60487d7ce91552bb9e58ad1d",
+    "fp_sol": "6876866d90fd59ca5fa0e6f41ffa67e7",
+    "fp_sol2": "207271937d4d662163aa55ab58b6758b",
+    "id": "0209_Code_16_0x5e569e1ecd56fe30dd97ee233ec1675b60fb6680",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

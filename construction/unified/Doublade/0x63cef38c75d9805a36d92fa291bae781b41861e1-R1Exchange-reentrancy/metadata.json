@@ -1,0 +1,37 @@
+{
+    "addr": "0x63cef38c75d9805a36d92fa291bae781b41861e1",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.20+commit.3155dd80",
+    "compiler_orig": false,
+    "contractname": "R1Exchange",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "23d616c3c37cbc7332a57a4717503d8c",
+    "fp_runtime": "e23421f0ea46cc61a614fb2c6034fa31",
+    "fp_sol": "448fa2db45ae0b8df7ce7ac9f445d67b",
+    "fp_sol2": "6239a707e99bd19b588438aab5b471da",
+    "id": "0x63cef38c75d9805a36d92fa291bae781b41861e1-R1Exchange-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test1568.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

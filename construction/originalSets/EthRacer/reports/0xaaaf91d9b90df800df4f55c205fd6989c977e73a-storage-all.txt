@@ -1,0 +1,142 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f190000000000000000000000002222222222222222222222222222222222222222'}
+1 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+2 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '66188463000000000000000000000000d2a35c97cd9ef22915d04491ba2a1fd77277339cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+3 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000080000000000000000000000000000'}
+4 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000080000000000000000000000000001'}
+5 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+6 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'decreaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6618846300000000000000000000000048b36a7655ab0d740f2632357240b701328aadbaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+7 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'Launch', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '02ac8168'}
+8 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f190000000000000000000000001111111111111111111111111111111111111111'}
+9 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c68ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+10 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f190000000000000000000000004d43214f7fd8caa994fdfedab6999f8acc754fbe'}
+11 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f1900000000000000000000000018b0df2d9480357492270769d7df1b640ee6648d'}
+12 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'finalizeRemainders', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2276774c'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b30000000000000000000000002222222222222222222222222222222222222222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+14 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'increaseApproval', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd73dd623000000000000000000000000273bff7c8ac40f6346cf8d13cd45f2759235cd89'}
+15 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'}
+16 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd0000000000000000000000001111111111111111111111111111111111111111000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+17 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'acceptOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '79ba5097'}
+18 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+19 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+20 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f1900000000000000000000000018b0df2d9480357492270769d7df1b640ee6648dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe'}
+21 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'mint', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '40c10f190000000000000000000000002222222222222222222222222222222222222222fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe'}
+22 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c68ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'}
+23 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'unpause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3f4ba83a'}
+24 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'lockTokenHolder', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '2bbeac91'}
+25 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'neverPauseAgain', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '6348eae6'}
+26 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+27 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'pause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8456cb59'}
+28 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+29 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000001'}
+30 : {'tx_caller': '18b0df2d9480357492270769d7df1b640ee6648d', 'name': 'burn', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '42966c680000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 35
+--------------------------------------------------------------------------------
+23 27   :  unpause pause 
+27 23   :  pause unpause 
+------------------------------------------------------------
+7 23 27   :  Launch unpause pause 
+7 27 23   :  Launch pause unpause 
+------------------------------------------------------------
+7 23 27   :  Launch unpause pause 
+27 23 7   :  pause unpause Launch 
+------------------------------------------------------------
+7 23 27   :  Launch unpause pause 
+27 7 23   :  pause Launch unpause 
+------------------------------------------------------------
+7 27 23   :  Launch pause unpause 
+23 7 27   :  unpause Launch pause 
+------------------------------------------------------------
+7 27 23   :  Launch pause unpause 
+23 27 7   :  unpause pause Launch 
+------------------------------------------------------------
+23 7 27   :  unpause Launch pause 
+27 23 7   :  pause unpause Launch 
+------------------------------------------------------------
+23 7 27   :  unpause Launch pause 
+27 7 23   :  pause Launch unpause 
+------------------------------------------------------------
+27 23 7   :  pause unpause Launch 
+23 27 7   :  unpause pause Launch 
+------------------------------------------------------------
+27 7 23   :  pause Launch unpause 
+23 27 7   :  unpause pause Launch 
+------------------------------------------------------------
+9 23 27   :  burn unpause pause 
+9 27 23   :  burn pause unpause 
+------------------------------------------------------------
+9 23 27   :  burn unpause pause 
+27 23 9   :  pause unpause burn 
+------------------------------------------------------------
+23 9 27   :  unpause burn pause 
+9 27 23   :  burn pause unpause 
+------------------------------------------------------------
+23 9 27   :  unpause burn pause 
+27 23 9   :  pause unpause burn 
+------------------------------------------------------------
+27 12 23   :  pause finalizeRemainders unpause 
+23 27 12   :  unpause pause finalizeRemainders 
+------------------------------------------------------------
+27 12 23   :  pause finalizeRemainders unpause 
+12 23 27   :  finalizeRemainders unpause pause 
+------------------------------------------------------------
+27 12 23   :  pause finalizeRemainders unpause 
+23 12 27   :  unpause finalizeRemainders pause 
+------------------------------------------------------------
+12 27 23   :  finalizeRemainders pause unpause 
+23 27 12   :  unpause pause finalizeRemainders 
+------------------------------------------------------------
+12 27 23   :  finalizeRemainders pause unpause 
+12 23 27   :  finalizeRemainders unpause pause 
+------------------------------------------------------------
+12 27 23   :  finalizeRemainders pause unpause 
+23 12 27   :  unpause finalizeRemainders pause 
+------------------------------------------------------------
+23 27 12   :  unpause pause finalizeRemainders 
+27 23 12   :  pause unpause finalizeRemainders 
+------------------------------------------------------------
+27 23 12   :  pause unpause finalizeRemainders 
+12 23 27   :  finalizeRemainders unpause pause 
+------------------------------------------------------------
+27 23 12   :  pause unpause finalizeRemainders 
+23 12 27   :  unpause finalizeRemainders pause 
+------------------------------------------------------------
+23 17 27   :  unpause acceptOwnership pause 
+27 23 17   :  pause unpause acceptOwnership 
+------------------------------------------------------------
+27 23 17   :  pause unpause acceptOwnership 
+23 27 17   :  unpause pause acceptOwnership 
+------------------------------------------------------------
+27 23 24   :  pause unpause lockTokenHolder 
+23 24 27   :  unpause lockTokenHolder pause 
+------------------------------------------------------------
+27 23 24   :  pause unpause lockTokenHolder 
+23 27 24   :  unpause pause lockTokenHolder 
+------------------------------------------------------------
+27 23 24   :  pause unpause lockTokenHolder 
+24 23 27   :  lockTokenHolder unpause pause 
+------------------------------------------------------------
+23 24 27   :  unpause lockTokenHolder pause 
+27 24 23   :  pause lockTokenHolder unpause 
+------------------------------------------------------------
+23 24 27   :  unpause lockTokenHolder pause 
+24 27 23   :  lockTokenHolder pause unpause 
+------------------------------------------------------------
+23 27 24   :  unpause pause lockTokenHolder 
+27 24 23   :  pause lockTokenHolder unpause 
+------------------------------------------------------------
+23 27 24   :  unpause pause lockTokenHolder 
+24 27 23   :  lockTokenHolder pause unpause 
+------------------------------------------------------------
+24 23 27   :  lockTokenHolder unpause pause 
+27 24 23   :  pause lockTokenHolder unpause 
+------------------------------------------------------------
+24 23 27   :  lockTokenHolder unpause pause 
+24 27 23   :  lockTokenHolder pause unpause 
+------------------------------------------------------------
+27 23 25   :  pause unpause neverPauseAgain 
+23 27 25   :  unpause pause neverPauseAgain 
+------------------------------------------------------------

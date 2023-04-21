@@ -1,0 +1,41 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "Hotc",
+            "SafeMath",
+            "StandardToken",
+            "Token"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "1d4d9f1f7e8b2c30bce92fb62f03485c",
+    "fp_sol": "3ff8903e6ad64c9037055c561e51a7c3",
+    "fp_sol2": "c4def2c34d0e33ee7635ef05f662e25a",
+    "id": "Hotc-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/Hotc.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/Hotc.sol"
+    ],
+    "sol_orig": true
+}

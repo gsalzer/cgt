@@ -1,0 +1,37 @@
+{
+    "addr": "0x5c7621f7afb14b9ab20fefede40b428d9b4429f2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Gelios.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Gelios",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "2a9636f4ed038e772f7e6e7a2e570c2a",
+    "fp_runtime": "425617ad2942cd2c82a4bec859ef5995",
+    "fp_sol": "8e5f83e1809679f14ee56b309bf702aa",
+    "fp_sol2": "fb354057353777e938f8be78f4d2410f",
+    "id": "Gelios-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Gelios.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,36 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "SWC-101",
+            true
+        ]
+    ],
+    "compiler": "0.4.24+commit.e67f0147.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "Overflow_Add",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "6bda2f01ff90c560f88f244280000516",
+    "fp_runtime": "ca1832a8b5465a60a437d007dd207681",
+    "fp_sol": "271e07634bf0623fa2d82b14f0980b34",
+    "fp_sol2": "9b99695f86a38d9de0ca08c13e909ce7",
+    "id": "overflow_simple_add",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/overflow_simple_add.sol"
+    ],
+    "sol_orig": true
+}

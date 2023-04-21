@@ -1,0 +1,39 @@
+{
+    "addr": "0xc7f4ade4874e06a20fab9c5dc4f1dd8b6d85faf2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_Pie.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Pie",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "28140ff92f5545747ae87013000af3ce",
+    "fp_runtime": "a58aa3f434da41a98bae74b08bbde672",
+    "fp_sol": "0120a2934d0ffe4b904830fe899f554b",
+    "fp_sol2": "4187260864fb5027615005a4c8a6a9df",
+    "id": "Pie-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Pie.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x67119bbdc1683df2ad85ccea4304619f5d62e000",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TrumpFullTermToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "TrumpFullTermToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "912dfb3839fb6953b93fc51da819c651",
+    "fp_runtime": "5fd9b1e53428b5eae7a19deabe0e4aae",
+    "fp_sol": "748715aae5b9fd94bc1b8b69e4ef83f0",
+    "fp_sol2": "e41edcc505fee6d1d9803d7c5585ed49",
+    "id": "TrumpFullTermToken-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TrumpFullTermToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

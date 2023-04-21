@@ -1,0 +1,37 @@
+{
+    "addr": "0x68563d2a5fc58f88db8140a981170989f001b746",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/TimeCapsuleEvent.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.16+commit.d7661dd9",
+    "compiler_orig": false,
+    "contractname": "TimeCapsuleEvent",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "284f6742683f13fb5551a2d4d4762a2a",
+    "fp_runtime": "669b1f927775060349a4715116e49629",
+    "fp_sol": "6b115ee071fcae948b091496cf35d1e8",
+    "fp_sol2": "6a18c67a00f718ed640fa571d4da0a84",
+    "id": "TimeCapsuleEvent-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_TimeCapsuleEvent.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

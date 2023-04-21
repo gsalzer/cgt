@@ -1,0 +1,38 @@
+{
+    "addr": "0x761932818972b0368db57207ffb9c64b90e511bf",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/XmasCoinCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19-nightly.2017.11.11+commit.284c3839",
+    "compiler_orig": false,
+    "contractname": "XmasCoinCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/timedependency/verified_contract_sols/XmasCoinCrowdsale"
+    },
+    "fp_bytecode": "33e57632bac863874f128e97144b0466",
+    "fp_runtime": "27afe71d57154d14a995d43052ed60c1",
+    "fp_sol": "273d60e1f34f2dfbb2e6bc4126de6e7b",
+    "fp_sol2": "712097221b78be457e6f128724759e99",
+    "id": "XmasCoinCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,43 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Transaction order dependence",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "ERC20_noApprove",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": "df3a451133b2f6f98c8dd067c5f19072",
+    "fp_runtime": "012a09d57e3e719877c4fa7c3bfdb71f",
+    "fp_sol": "80b24f62fdbb2922b8ba3a2af305c6f9",
+    "fp_sol2": "86c00dd03691cc09abf30bd897334765",
+    "id": "noApprove",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/noApprove.sol"
+    ],
+    "sol_orig": true
+}

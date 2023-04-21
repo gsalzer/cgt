@@ -1,0 +1,10 @@
+Minimal found traces: 3 
+--------------------------------------------------------------------------------
+['setCourse', 'addAllowedAddress']
+['addAllowedAddress', 'setCourse']
+--------------------------------------------------------------------------------
+['addAllowedAddress', 'removeAllowedAddress']
+['removeAllowedAddress', 'addAllowedAddress']
+--------------------------------------------------------------------------------
+['addAllowedAddress', 'setCourse', 'removeAllowedAddress']
+['addAllowedAddress', 'removeAllowedAddress', 'setCourse']

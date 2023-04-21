@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Reentrancy_insecure",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "d922377a9adfe9ca30840b8eed466179",
+    "fp_sol2": "ab5886c9f5be9fec1f8e617f1b380fb7",
+    "id": "reentrancy_insecure",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/reentrancy_insecure.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,60 @@
+{
+    "addr": "0x9d0135658dd0472310e44bcd520fd0a141db0bbb",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-10-5f97274",
+    "compiler_orig": false,
+    "contractname": "trustedChildRefund",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "144a0b11c8e79eabf8861abfd1dcc4e2",
+    "fp_runtime": "acf1e931cc7fee140e2310bf0fa3b4c9",
+    "fp_sol": "475aeb7e13a95a1c3e93f785f8a56932",
+    "fp_sol2": "475aeb7e13a95a1c3e93f785f8a56932",
+    "id": "1234_Code_29_0x9d0135658dd0472310e44bcd520fd0a141db0bbb",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

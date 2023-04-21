@@ -1,0 +1,60 @@
+{
+    "addr": "0x77888faab224e03d76c517455c442cb6fe8dae40",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.6+commit.3fc68da",
+    "compiler_orig": false,
+    "contractname": "Vote",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f9c7a42974b2140a711038b882ac45b7",
+    "fp_runtime": "afb321877ec566f842d302d8ad9645de",
+    "fp_sol": "63fdaebfe3c61aff1bddc41a5f305676",
+    "fp_sol2": "63fdaebfe3c61aff1bddc41a5f305676",
+    "id": "0641_Code_2091_0x77888faab224e03d76c517455c442cb6fe8dae4",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

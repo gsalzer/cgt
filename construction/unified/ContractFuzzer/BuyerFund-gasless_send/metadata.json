@@ -1,0 +1,38 @@
+{
+    "addr": "0x5ab2e3f693e6961beea08c1db8a3602fcea6b36f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BuyerFund.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "BuyerFund",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/BuyerFund.sol"
+    },
+    "fp_bytecode": "40814eb714e5329ed99e2f48617cc157",
+    "fp_runtime": "673eede549674d500548902a7f3a7e96",
+    "fp_sol": "d3babdf14b4406416a51fdb67f2f77f5",
+    "fp_sol2": "d3babdf14b4406416a51fdb67f2f77f5",
+    "id": "BuyerFund-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

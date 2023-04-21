@@ -1,0 +1,110 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "BGD.Airdrop has external calls inside a loop: \"token.transfer(_addresses[i],amount)\" (reorder_contracts_2_3/test2619.sol#125)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "token.transfer(_addresses[i],amount)",
+            "source_mapping": {
+              "start": 3433,
+              "length": 37,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test2619.sol",
+              "filename_relative": "reorder_contracts_2_3/test2619.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2619.sol",
+              "filename_short": "reorder_contracts_2_3/test2619.sol",
+              "lines": [
+                125
+              ],
+              "starting_column": 13,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Airdrop",
+                "source_mapping": {
+                  "start": 3284,
+                  "length": 205,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test2619.sol",
+                  "filename_relative": "reorder_contracts_2_3/test2619.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2619.sol",
+                  "filename_short": "reorder_contracts_2_3/test2619.sol",
+                  "lines": [
+                    123,
+                    124,
+                    125,
+                    126,
+                    127
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BGD",
+                    "source_mapping": {
+                      "start": 2836,
+                      "length": 901,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test2619.sol",
+                      "filename_relative": "reorder_contracts_2_3/test2619.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test2619.sol",
+                      "filename_short": "reorder_contracts_2_3/test2619.sol",
+                      "lines": [
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Airdrop(ERC20,address[],uint256)"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

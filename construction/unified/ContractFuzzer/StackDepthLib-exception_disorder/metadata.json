@@ -1,0 +1,37 @@
+{
+    "addr": "0x606ddac6f2928369e8515340f8de97fe2d166777",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/StackDepthLib.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-06-10-5f97274",
+    "compiler_orig": false,
+    "contractname": "StackDepthLib",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "1fe6b33d5d3806b423f44aa1bac0b9e2",
+    "fp_runtime": "43de1c3e0bb3bfe1720670642bc686c5",
+    "fp_sol": "1f6fd8e88ecc856d109ae0b6d96acb74",
+    "fp_sol2": "1f6fd8e88ecc856d109ae0b6d96acb74",
+    "id": "StackDepthLib-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_StackDepthLib.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

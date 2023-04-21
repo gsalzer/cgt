@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Re-entrancy",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "FeeTransactionManager",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "b6c32e61d035199b53d9282077d2a333",
+    "fp_sol2": "5568eb014577510acf4128ae7ccd6a6b",
+    "id": "Re-entrancy-31",
+    "info": [
+        "info/BugLog_31.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_31.sol"
+    ],
+    "sol_orig": true
+}

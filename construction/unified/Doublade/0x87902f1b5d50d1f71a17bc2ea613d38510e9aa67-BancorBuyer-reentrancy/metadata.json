@@ -1,0 +1,37 @@
+{
+    "addr": "0x87902f1b5d50d1f71a17bc2ea613d38510e9aa67",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "BancorBuyer",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "f611f0f6eaf5b8fc98ebe4803e33d6af",
+    "fp_runtime": "d658f9a6f5c1fd35cd09c298c42a83b9",
+    "fp_sol": "9c37399dda2acd29509968dabe802aba",
+    "fp_sol2": "ed3cfd40a7cdf8030fc7170026c23a5c",
+    "id": "0x87902f1b5d50d1f71a17bc2ea613d38510e9aa67-BancorBuyer-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2073.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

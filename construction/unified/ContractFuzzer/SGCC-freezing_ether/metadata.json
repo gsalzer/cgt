@@ -1,0 +1,38 @@
+{
+    "addr": "0xec985525f3f22c7fa9c9ff4a49e37589a76d86d4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "SGCC",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ffa38b64213887416e2cce4937096146",
+    "fp_runtime": "1d5c36bcd8ef76b3d8761dd9ddbdfd6e",
+    "fp_sol": "72bb381714513c3b783d0e5bd5b2b098",
+    "fp_sol2": "0be3460255b3719015510f8a60b4ae24",
+    "id": "SGCC-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_SGCC.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SGCC.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

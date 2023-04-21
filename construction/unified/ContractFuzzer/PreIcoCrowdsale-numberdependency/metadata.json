@@ -1,0 +1,37 @@
+{
+    "addr": "0xa2288f76338c9efed9429ee71854a0cf98b52b3e",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/PreIcoCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "PreIcoCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "3998108517a29035d1bf911350890f03",
+    "fp_runtime": "46b3f2a8b6fca5c4805d1bb39adf3969",
+    "fp_sol": "135bb133e250c101c1bb70d988989f15",
+    "fp_sol2": "6120071a33cf332b02d6cf9263544f4f",
+    "id": "PreIcoCrowdsale-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_PreIcoCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

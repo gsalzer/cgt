@@ -1,0 +1,60 @@
+{
+    "addr": "0x02b2101903eb6a51518e63e84b785180859fda9d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": false,
+    "contractname": "thewhalegame",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "2251b716617900dd45523660c22831fc",
+    "fp_runtime": "0c64c337f080d6f20831882f49a5c8b0",
+    "fp_sol": "d4645c2587651cc33c3d8b01370540c9",
+    "fp_sol2": "d4645c2587651cc33c3d8b01370540c9",
+    "id": "0991_Code_40_0x02B2101903eB6a51518E63e84B785180859FDa9d",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

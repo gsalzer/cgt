@@ -1,0 +1,38 @@
+{
+    "addr": "0x4dc868d79611c2bdca51dee62873eb3a31423b47",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "DecentralandBuyer",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "46bbf7c55422779742d99bd48c417f36",
+    "fp_runtime": "c2cf4074f62ba1dcb48c95c5980c2e25",
+    "fp_sol": "56d37edcdbad29a19c64d906e452b2e5",
+    "fp_sol2": "69289f98502af54113ed927f016bb0dd",
+    "id": "DecentralandBuyer-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_DecentralandBuyer.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_DecentralandBuyer.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,19 @@
+Minimal found traces: 6 
+--------------------------------------------------------------------------------
+['fund', 'removeFunder', 'fund']
+['fund', 'fund', 'removeFunder']
+--------------------------------------------------------------------------------
+['fund', 'removeFunder', 'fallback']
+['fund', 'fallback', 'removeFunder']
+--------------------------------------------------------------------------------
+['fund', 'removeFunder', 'fallback']
+['fallback', 'fund', 'removeFunder']
+--------------------------------------------------------------------------------
+['fund', 'fallback', 'removeFunder']
+['fallback', 'removeFunder', 'fund']
+--------------------------------------------------------------------------------
+['fallback', 'fund', 'removeFunder']
+['fallback', 'removeFunder', 'fund']
+--------------------------------------------------------------------------------
+['fallback', 'removeFunder', 'fallback']
+['fallback', 'fallback', 'removeFunder']

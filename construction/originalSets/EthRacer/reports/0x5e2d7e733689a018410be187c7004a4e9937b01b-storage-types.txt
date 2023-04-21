@@ -1,0 +1,14 @@
+Bug types: 12
+--------------------------------------------------------------------------------
+664 : ['ended']
+618 : ['RECEIVER_ADDRESS']
+ 84 : ['ended', 'RECEIVER_ADDRESS']
+ 84 : ['RECEIVER_ADDRESS', 'RECEIVER_PAYOUT_THRESHOLD']
+ 84 : ['ended', 'addressesDeposited']
+ 84 : ['RECEIVER_ADDRESS', 'ACCEPTED_AMOUNT']
+ 84 : ['RECEIVER_ADDRESS', 'addressesDeposited']
+ 54 : ['addressesDeposited']
+ 46 : ['ACCEPTED_AMOUNT']
+ 38 : ['RECEIVER_PAYOUT_THRESHOLD']
+ 14 : ['RECEIVER_PAYOUT_THRESHOLD', 'ACCEPTED_AMOUNT']
+ 14 : ['ended', 'ACCEPTED_AMOUNT']

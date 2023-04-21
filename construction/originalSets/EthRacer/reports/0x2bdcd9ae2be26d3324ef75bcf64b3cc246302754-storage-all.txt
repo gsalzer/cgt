@@ -1,0 +1,294 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000000000800000'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'start', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '707a4e96'}
+2 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+3 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'unhalt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cb3e64fd'}
+4 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'start', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '707a4e96000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001'}
+5 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'extend', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9714378c0000000000000000000000000000000000000000000000000000000000000001'}
+6 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'start', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '707a4e96000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003'}
+7 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'extend', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9714378c0000000000000000000000000000000000000000000000000000000000000003'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'halt', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '5ed7ca5b'}
+9 : {'tx_caller': '37dda0f52411607afb36063b84abc4e5ec90f4cf', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b0000000000000000000000000000000000000000000000000000001000000000'}
+10 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'extend', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '9714378c09be02468acf13579be02468acf13579be02468acf13579be02468acf1358046'}
+11 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'finish', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'd56b2889'}
+--------------------------------------------------------------------------------
+
+Full traces: 92
+--------------------------------------------------------------------------------
+7 4   :  extend start 
+4 7   :  start extend 
+------------------------------------------------------------
+4 7 0   :  start extend transferOwnership 
+7 4 0   :  extend start transferOwnership 
+------------------------------------------------------------
+4 2 7   :  start halt extend 
+7 4 2   :  extend start halt 
+------------------------------------------------------------
+4 2 7   :  start halt extend 
+2 7 4   :  halt extend start 
+------------------------------------------------------------
+4 2 7   :  start halt extend 
+7 2 4   :  extend halt start 
+------------------------------------------------------------
+2 4 7   :  halt start extend 
+7 4 2   :  extend start halt 
+------------------------------------------------------------
+2 4 7   :  halt start extend 
+2 7 4   :  halt extend start 
+------------------------------------------------------------
+2 4 7   :  halt start extend 
+7 2 4   :  extend halt start 
+------------------------------------------------------------
+7 4 2   :  extend start halt 
+4 7 2   :  start extend halt 
+------------------------------------------------------------
+4 7 2   :  start extend halt 
+2 7 4   :  halt extend start 
+------------------------------------------------------------
+4 7 2   :  start extend halt 
+7 2 4   :  extend halt start 
+------------------------------------------------------------
+4 2 7 0   :  start halt extend transferOwnership 
+7 2 4 0   :  extend halt start transferOwnership 
+------------------------------------------------------------
+4 2 7 0   :  start halt extend transferOwnership 
+7 4 2 0   :  extend start halt transferOwnership 
+------------------------------------------------------------
+4 2 7 0   :  start halt extend transferOwnership 
+2 7 4 0   :  halt extend start transferOwnership 
+------------------------------------------------------------
+4 7 2 0   :  start extend halt transferOwnership 
+7 2 4 0   :  extend halt start transferOwnership 
+------------------------------------------------------------
+4 7 2 0   :  start extend halt transferOwnership 
+7 4 2 0   :  extend start halt transferOwnership 
+------------------------------------------------------------
+4 7 2 0   :  start extend halt transferOwnership 
+2 7 4 0   :  halt extend start transferOwnership 
+------------------------------------------------------------
+7 2 4 0   :  extend halt start transferOwnership 
+2 4 7 0   :  halt start extend transferOwnership 
+------------------------------------------------------------
+7 4 2 0   :  extend start halt transferOwnership 
+2 4 7 0   :  halt start extend transferOwnership 
+------------------------------------------------------------
+2 4 7 0   :  halt start extend transferOwnership 
+2 7 4 0   :  halt extend start transferOwnership 
+------------------------------------------------------------
+2 7 3 4   :  halt extend unhalt start 
+2 4 7 3   :  halt start extend unhalt 
+------------------------------------------------------------
+2 7 3 4   :  halt extend unhalt start 
+2 3 4 7   :  halt unhalt start extend 
+------------------------------------------------------------
+2 7 3 4   :  halt extend unhalt start 
+4 7 2 3   :  start extend halt unhalt 
+------------------------------------------------------------
+2 7 3 4   :  halt extend unhalt start 
+2 4 3 7   :  halt start unhalt extend 
+------------------------------------------------------------
+2 7 3 4   :  halt extend unhalt start 
+4 2 3 7   :  start halt unhalt extend 
+------------------------------------------------------------
+2 7 3 4   :  halt extend unhalt start 
+4 2 7 3   :  start halt extend unhalt 
+------------------------------------------------------------
+2 4 7 3   :  halt start extend unhalt 
+2 7 4 3   :  halt extend start unhalt 
+------------------------------------------------------------
+2 4 7 3   :  halt start extend unhalt 
+7 2 3 4   :  extend halt unhalt start 
+------------------------------------------------------------
+2 4 7 3   :  halt start extend unhalt 
+7 4 2 3   :  extend start halt unhalt 
+------------------------------------------------------------
+2 4 7 3   :  halt start extend unhalt 
+7 2 4 3   :  extend halt start unhalt 
+------------------------------------------------------------
+2 4 7 3   :  halt start extend unhalt 
+2 3 7 4   :  halt unhalt extend start 
+------------------------------------------------------------
+2 3 4 7   :  halt unhalt start extend 
+2 7 4 3   :  halt extend start unhalt 
+------------------------------------------------------------
+2 3 4 7   :  halt unhalt start extend 
+7 2 3 4   :  extend halt unhalt start 
+------------------------------------------------------------
+2 3 4 7   :  halt unhalt start extend 
+7 4 2 3   :  extend start halt unhalt 
+------------------------------------------------------------
+2 3 4 7   :  halt unhalt start extend 
+7 2 4 3   :  extend halt start unhalt 
+------------------------------------------------------------
+2 3 4 7   :  halt unhalt start extend 
+2 3 7 4   :  halt unhalt extend start 
+------------------------------------------------------------
+4 7 2 3   :  start extend halt unhalt 
+2 7 4 3   :  halt extend start unhalt 
+------------------------------------------------------------
+4 7 2 3   :  start extend halt unhalt 
+7 2 3 4   :  extend halt unhalt start 
+------------------------------------------------------------
+4 7 2 3   :  start extend halt unhalt 
+7 4 2 3   :  extend start halt unhalt 
+------------------------------------------------------------
+4 7 2 3   :  start extend halt unhalt 
+7 2 4 3   :  extend halt start unhalt 
+------------------------------------------------------------
+4 7 2 3   :  start extend halt unhalt 
+2 3 7 4   :  halt unhalt extend start 
+------------------------------------------------------------
+2 7 4 3   :  halt extend start unhalt 
+2 4 3 7   :  halt start unhalt extend 
+------------------------------------------------------------
+2 7 4 3   :  halt extend start unhalt 
+4 2 3 7   :  start halt unhalt extend 
+------------------------------------------------------------
+2 7 4 3   :  halt extend start unhalt 
+4 2 7 3   :  start halt extend unhalt 
+------------------------------------------------------------
+7 2 3 4   :  extend halt unhalt start 
+2 4 3 7   :  halt start unhalt extend 
+------------------------------------------------------------
+7 2 3 4   :  extend halt unhalt start 
+4 2 3 7   :  start halt unhalt extend 
+------------------------------------------------------------
+7 2 3 4   :  extend halt unhalt start 
+4 2 7 3   :  start halt extend unhalt 
+------------------------------------------------------------
+2 4 3 7   :  halt start unhalt extend 
+7 4 2 3   :  extend start halt unhalt 
+------------------------------------------------------------
+2 4 3 7   :  halt start unhalt extend 
+7 2 4 3   :  extend halt start unhalt 
+------------------------------------------------------------
+2 4 3 7   :  halt start unhalt extend 
+2 3 7 4   :  halt unhalt extend start 
+------------------------------------------------------------
+7 4 2 3   :  extend start halt unhalt 
+4 2 3 7   :  start halt unhalt extend 
+------------------------------------------------------------
+7 4 2 3   :  extend start halt unhalt 
+4 2 7 3   :  start halt extend unhalt 
+------------------------------------------------------------
+4 2 3 7   :  start halt unhalt extend 
+7 2 4 3   :  extend halt start unhalt 
+------------------------------------------------------------
+4 2 3 7   :  start halt unhalt extend 
+2 3 7 4   :  halt unhalt extend start 
+------------------------------------------------------------
+7 2 4 3   :  extend halt start unhalt 
+4 2 7 3   :  start halt extend unhalt 
+------------------------------------------------------------
+4 2 7 3   :  start halt extend unhalt 
+2 3 7 4   :  halt unhalt extend start 
+------------------------------------------------------------
+4 7 2 3 0   :  start extend halt unhalt transferOwnership 
+2 3 7 4 0   :  halt unhalt extend start transferOwnership 
+------------------------------------------------------------
+4 7 2 3 0   :  start extend halt unhalt transferOwnership 
+7 4 2 3 0   :  extend start halt unhalt transferOwnership 
+------------------------------------------------------------
+4 7 2 3 0   :  start extend halt unhalt transferOwnership 
+2 7 4 3 0   :  halt extend start unhalt transferOwnership 
+------------------------------------------------------------
+4 7 2 3 0   :  start extend halt unhalt transferOwnership 
+7 2 3 4 0   :  extend halt unhalt start transferOwnership 
+------------------------------------------------------------
+4 7 2 3 0   :  start extend halt unhalt transferOwnership 
+7 2 4 3 0   :  extend halt start unhalt transferOwnership 
+------------------------------------------------------------
+4 7 2 3 0   :  start extend halt unhalt transferOwnership 
+2 7 3 4 0   :  halt extend unhalt start transferOwnership 
+------------------------------------------------------------
+4 2 7 3 0   :  start halt extend unhalt transferOwnership 
+2 3 7 4 0   :  halt unhalt extend start transferOwnership 
+------------------------------------------------------------
+4 2 7 3 0   :  start halt extend unhalt transferOwnership 
+7 4 2 3 0   :  extend start halt unhalt transferOwnership 
+------------------------------------------------------------
+4 2 7 3 0   :  start halt extend unhalt transferOwnership 
+2 7 4 3 0   :  halt extend start unhalt transferOwnership 
+------------------------------------------------------------
+4 2 7 3 0   :  start halt extend unhalt transferOwnership 
+7 2 3 4 0   :  extend halt unhalt start transferOwnership 
+------------------------------------------------------------
+4 2 7 3 0   :  start halt extend unhalt transferOwnership 
+7 2 4 3 0   :  extend halt start unhalt transferOwnership 
+------------------------------------------------------------
+4 2 7 3 0   :  start halt extend unhalt transferOwnership 
+2 7 3 4 0   :  halt extend unhalt start transferOwnership 
+------------------------------------------------------------
+2 3 7 4 0   :  halt unhalt extend start transferOwnership 
+2 3 4 7 0   :  halt unhalt start extend transferOwnership 
+------------------------------------------------------------
+2 3 7 4 0   :  halt unhalt extend start transferOwnership 
+2 4 7 3 0   :  halt start extend unhalt transferOwnership 
+------------------------------------------------------------
+2 3 7 4 0   :  halt unhalt extend start transferOwnership 
+2 4 3 7 0   :  halt start unhalt extend transferOwnership 
+------------------------------------------------------------
+2 3 7 4 0   :  halt unhalt extend start transferOwnership 
+4 2 3 7 0   :  start halt unhalt extend transferOwnership 
+------------------------------------------------------------
+7 4 2 3 0   :  extend start halt unhalt transferOwnership 
+2 3 4 7 0   :  halt unhalt start extend transferOwnership 
+------------------------------------------------------------
+7 4 2 3 0   :  extend start halt unhalt transferOwnership 
+2 4 7 3 0   :  halt start extend unhalt transferOwnership 
+------------------------------------------------------------
+7 4 2 3 0   :  extend start halt unhalt transferOwnership 
+2 4 3 7 0   :  halt start unhalt extend transferOwnership 
+------------------------------------------------------------
+7 4 2 3 0   :  extend start halt unhalt transferOwnership 
+4 2 3 7 0   :  start halt unhalt extend transferOwnership 
+------------------------------------------------------------
+2 3 4 7 0   :  halt unhalt start extend transferOwnership 
+2 7 4 3 0   :  halt extend start unhalt transferOwnership 
+------------------------------------------------------------
+2 3 4 7 0   :  halt unhalt start extend transferOwnership 
+7 2 3 4 0   :  extend halt unhalt start transferOwnership 
+------------------------------------------------------------
+2 3 4 7 0   :  halt unhalt start extend transferOwnership 
+7 2 4 3 0   :  extend halt start unhalt transferOwnership 
+------------------------------------------------------------
+2 3 4 7 0   :  halt unhalt start extend transferOwnership 
+2 7 3 4 0   :  halt extend unhalt start transferOwnership 
+------------------------------------------------------------
+2 7 4 3 0   :  halt extend start unhalt transferOwnership 
+2 4 7 3 0   :  halt start extend unhalt transferOwnership 
+------------------------------------------------------------
+2 7 4 3 0   :  halt extend start unhalt transferOwnership 
+2 4 3 7 0   :  halt start unhalt extend transferOwnership 
+------------------------------------------------------------
+2 7 4 3 0   :  halt extend start unhalt transferOwnership 
+4 2 3 7 0   :  start halt unhalt extend transferOwnership 
+------------------------------------------------------------
+7 2 3 4 0   :  extend halt unhalt start transferOwnership 
+2 4 7 3 0   :  halt start extend unhalt transferOwnership 
+------------------------------------------------------------
+7 2 3 4 0   :  extend halt unhalt start transferOwnership 
+2 4 3 7 0   :  halt start unhalt extend transferOwnership 
+------------------------------------------------------------
+7 2 3 4 0   :  extend halt unhalt start transferOwnership 
+4 2 3 7 0   :  start halt unhalt extend transferOwnership 
+------------------------------------------------------------
+2 4 7 3 0   :  halt start extend unhalt transferOwnership 
+7 2 4 3 0   :  extend halt start unhalt transferOwnership 
+------------------------------------------------------------
+2 4 7 3 0   :  halt start extend unhalt transferOwnership 
+2 7 3 4 0   :  halt extend unhalt start transferOwnership 
+------------------------------------------------------------
+2 4 3 7 0   :  halt start unhalt extend transferOwnership 
+7 2 4 3 0   :  extend halt start unhalt transferOwnership 
+------------------------------------------------------------
+2 4 3 7 0   :  halt start unhalt extend transferOwnership 
+2 7 3 4 0   :  halt extend unhalt start transferOwnership 
+------------------------------------------------------------
+7 2 4 3 0   :  extend halt start unhalt transferOwnership 
+4 2 3 7 0   :  start halt unhalt extend transferOwnership 
+------------------------------------------------------------
+2 7 3 4 0   :  halt extend unhalt start transferOwnership 
+4 2 3 7 0   :  start halt unhalt extend transferOwnership 
+------------------------------------------------------------

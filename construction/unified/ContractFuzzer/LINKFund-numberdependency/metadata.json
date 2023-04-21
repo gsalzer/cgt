@@ -1,0 +1,38 @@
+{
+    "addr": "0x3b1c6004e43bf49c521eb382dec02e6c3ff5272a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.15+commit.bbb8e64f",
+    "compiler_orig": false,
+    "contractname": "LINKFund",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ce224154bd19ba184bc4c4ed15c7df25",
+    "fp_runtime": "42ccbf31afaba70e8ef7145f540e1f90",
+    "fp_sol": "a7c0c8095688f43edb5727c9569a7be1",
+    "fp_sol2": "1aadee153c80a4eaed36d680ea565084",
+    "id": "LINKFund-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_LINKFund.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LINKFund.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

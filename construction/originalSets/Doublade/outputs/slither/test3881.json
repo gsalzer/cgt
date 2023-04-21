@@ -1,0 +1,133 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "ZapCoordinator.updateAllDependencies has external calls inside a loop: \"Upgradable(c).updateDependencies()\" (reorder_contracts_2_3/test3881.sol#154)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "Upgradable(c).updateDependencies()",
+            "source_mapping": {
+              "start": 5994,
+              "length": 34,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3881.sol",
+              "filename_relative": "reorder_contracts_2_3/test3881.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3881.sol",
+              "filename_short": "reorder_contracts_2_3/test3881.sol",
+              "lines": [
+                154
+              ],
+              "starting_column": 4,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "updateAllDependencies",
+                "source_mapping": {
+                  "start": 5832,
+                  "length": 276,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3881.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3881.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3881.sol",
+                  "filename_short": "reorder_contracts_2_3/test3881.sol",
+                  "lines": [
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ZapCoordinator",
+                    "source_mapping": {
+                      "start": 4147,
+                      "length": 1966,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3881.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3881.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3881.sol",
+                      "filename_short": "reorder_contracts_2_3/test3881.sol",
+                      "lines": [
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "updateAllDependencies()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

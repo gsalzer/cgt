@@ -1,0 +1,73 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '52b8398551bb1d0bdc022355897508f658ad42f8', 'name': 'resumeContribution', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b681f9f6'}
+1 : {'tx_caller': '52b8398551bb1d0bdc022355897508f658ad42f8', 'name': 'changeController', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3cebb823000000000000000000000000ad47c67aae44e2f423fddcaa768af709a752bd07'}
+2 : {'tx_caller': '52b8398551bb1d0bdc022355897508f658ad42f8', 'name': 'pauseContribution', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4b8adcf7'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'resumeContribution', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b681f9f6'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'pauseContribution', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '4b8adcf7'}
+5 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'claimTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'df8de3e70000000000000000000000000000000000000000000000000000000000000000'}
+6 : {'tx_caller': '52b8398551bb1d0bdc022355897508f658ad42f8', 'name': 'claimTokens', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'df8de3e70000000000000000000000000000000000000000000000000000000000000000'}
+--------------------------------------------------------------------------------
+
+Full traces: 20
+--------------------------------------------------------------------------------
+2 0   :  pauseContribution resumeContribution 
+0 2   :  resumeContribution pauseContribution 
+------------------------------------------------------------
+0 2 1   :  resumeContribution pauseContribution changeController 
+2 0 1   :  pauseContribution resumeContribution changeController 
+------------------------------------------------------------
+6 2 0   :  claimTokens pauseContribution resumeContribution 
+0 2 6   :  resumeContribution pauseContribution claimTokens 
+------------------------------------------------------------
+6 2 0   :  claimTokens pauseContribution resumeContribution 
+0 6 2   :  resumeContribution claimTokens pauseContribution 
+------------------------------------------------------------
+6 2 0   :  claimTokens pauseContribution resumeContribution 
+6 0 2   :  claimTokens resumeContribution pauseContribution 
+------------------------------------------------------------
+0 2 6   :  resumeContribution pauseContribution claimTokens 
+2 0 6   :  pauseContribution resumeContribution claimTokens 
+------------------------------------------------------------
+0 2 6   :  resumeContribution pauseContribution claimTokens 
+2 6 0   :  pauseContribution claimTokens resumeContribution 
+------------------------------------------------------------
+2 0 6   :  pauseContribution resumeContribution claimTokens 
+0 6 2   :  resumeContribution claimTokens pauseContribution 
+------------------------------------------------------------
+2 0 6   :  pauseContribution resumeContribution claimTokens 
+6 0 2   :  claimTokens resumeContribution pauseContribution 
+------------------------------------------------------------
+2 6 0   :  pauseContribution claimTokens resumeContribution 
+0 6 2   :  resumeContribution claimTokens pauseContribution 
+------------------------------------------------------------
+2 6 0   :  pauseContribution claimTokens resumeContribution 
+6 0 2   :  claimTokens resumeContribution pauseContribution 
+------------------------------------------------------------
+6 0 2 1   :  claimTokens resumeContribution pauseContribution changeController 
+2 6 0 1   :  pauseContribution claimTokens resumeContribution changeController 
+------------------------------------------------------------
+6 0 2 1   :  claimTokens resumeContribution pauseContribution changeController 
+6 2 0 1   :  claimTokens pauseContribution resumeContribution changeController 
+------------------------------------------------------------
+6 0 2 1   :  claimTokens resumeContribution pauseContribution changeController 
+2 0 6 1   :  pauseContribution resumeContribution claimTokens changeController 
+------------------------------------------------------------
+0 2 6 1   :  resumeContribution pauseContribution claimTokens changeController 
+2 6 0 1   :  pauseContribution claimTokens resumeContribution changeController 
+------------------------------------------------------------
+0 2 6 1   :  resumeContribution pauseContribution claimTokens changeController 
+6 2 0 1   :  claimTokens pauseContribution resumeContribution changeController 
+------------------------------------------------------------
+0 2 6 1   :  resumeContribution pauseContribution claimTokens changeController 
+2 0 6 1   :  pauseContribution resumeContribution claimTokens changeController 
+------------------------------------------------------------
+2 6 0 1   :  pauseContribution claimTokens resumeContribution changeController 
+0 6 2 1   :  resumeContribution claimTokens pauseContribution changeController 
+------------------------------------------------------------
+0 6 2 1   :  resumeContribution claimTokens pauseContribution changeController 
+6 2 0 1   :  claimTokens pauseContribution resumeContribution changeController 
+------------------------------------------------------------
+0 6 2 1   :  resumeContribution claimTokens pauseContribution changeController 
+2 0 6 1   :  pauseContribution resumeContribution claimTokens changeController 
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+{
+    "addr": "0x36490a555a0019ea8457401584de111213ebd31a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CTV.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "CTV",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "93e7a20b562f035f43ed556a39d41a9f",
+    "fp_runtime": "13c9f444acaa8b03fd6a508e82c6d001",
+    "fp_sol": "ae4e8d9c529f28ad2d9763ef1779b450",
+    "fp_sol2": "4ed10a75214ed0c82ac1f39346d3edbd",
+    "id": "CTV-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_CTV.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

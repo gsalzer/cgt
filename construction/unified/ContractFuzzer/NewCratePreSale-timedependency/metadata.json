@@ -1,0 +1,37 @@
+{
+    "addr": "0xc23f76aea00b775aadc8504ccb22468f4fd2261a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/NewCratePreSale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "NewCratePreSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0be70363936ea4ed863e4a39f4b1eacb",
+    "fp_runtime": "0b6e21275c9e97f3b0b3ab602a071b75",
+    "fp_sol": "619903f61a9a9c05bf0c23411be7a717",
+    "fp_sol2": "bca5ea0453ca01a0f240fbc806d85342",
+    "id": "NewCratePreSale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_NewCratePreSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x1efd5dc066eb56d4db7e2ff38843c8bf8aa59168",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/BitkomSale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "BitkomSale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "5b243b9d7f49f4816a73c3ffa80dbc70",
+    "fp_runtime": "7cc03616becb8001cbd5b396564dc4d5",
+    "fp_sol": "0d0fcb002f51636dbdc1a2c48f35c7b0",
+    "fp_sol2": "cf30d008c655e6a3384045c3a49c88d0",
+    "id": "BitkomSale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_BitkomSale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

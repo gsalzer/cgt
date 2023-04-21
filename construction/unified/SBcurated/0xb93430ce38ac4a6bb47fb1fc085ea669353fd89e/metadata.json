@@ -1,0 +1,39 @@
+{
+    "addr": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "PrivateBank",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "7affbca0a7d0e3ccc1f9417d756f9285",
+    "fp_runtime": "32ae291452b953c71d7728749eeffd26",
+    "fp_sol": "09424d647c1b48c6176d38722fe41a7a",
+    "fp_sol2": "14c6849e76bd6e9e74ee7bb5f13ba894",
+    "id": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

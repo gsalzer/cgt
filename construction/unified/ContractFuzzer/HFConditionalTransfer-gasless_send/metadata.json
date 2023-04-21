@@ -1,0 +1,37 @@
+{
+    "addr": "0x0131c603b0da00a560bde23306815e0577c366ef",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/HFConditionalTransfer.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-21-6610add",
+    "compiler_orig": false,
+    "contractname": "HFConditionalTransfer",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "7d8c139bdc5afe1324e049c06b957c5a",
+    "fp_runtime": "07423f2c408124a2bd71fa48b0453dd1",
+    "fp_sol": "893c6ea4518839a4473b4986766db2b8",
+    "fp_sol2": "893c6ea4518839a4473b4986766db2b8",
+    "id": "HFConditionalTransfer-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_HFConditionalTransfer.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xa5629861c9c345f50221996ef852fd9665eb1c05",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "IronHands",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "c761ed25e30626edc7d0d710b55d5e46",
+    "fp_runtime": "5cdb428109be92c01d1bd3f1a775b8c9",
+    "fp_sol": "f724adc25cd373596c4e727519bc758f",
+    "fp_sol2": "2b45e6b39a42b83dda0a5cd92568cc5f",
+    "id": "0xa5629861c9c345f50221996ef852fd9665eb1c05-IronHands-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2524.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

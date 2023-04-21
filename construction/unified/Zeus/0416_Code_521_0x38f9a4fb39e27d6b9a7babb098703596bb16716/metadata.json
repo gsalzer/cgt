@@ -1,0 +1,60 @@
+{
+    "addr": "0x38f9a4fb39e27d6b9a7babb098703596bb16716a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": false,
+    "contractname": "Nexium",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "67fb3e9ffe47c5a2e2cc5f23e50fa344",
+    "fp_runtime": "5d758a4405d46b7d1264b3ca0514da93",
+    "fp_sol": "b6183a4674a66e7161f71b7886ad23c5",
+    "fp_sol2": "b6183a4674a66e7161f71b7886ad23c5",
+    "id": "0416_Code_521_0x38f9a4fb39e27d6b9a7babb098703596bb16716",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0xb746aed479f18287dc8fc202fe06f25f1a0a60ae",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "Ethex",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {},
+    "fp_bytecode": "e7c487bd2b494c1b866221150cb135bb",
+    "fp_runtime": "73647732068b80b265f97d10ac0e5a17",
+    "fp_sol": "578c4dc33ce8c9c13071e7909c4c9fef",
+    "fp_sol2": "8ce7cd85cde13c2318c3f7fd96342bbb",
+    "id": "0xb746aed479f18287dc8fc202fe06f25f1a0a60ae-Ethex-reentrancy",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_test2794.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,37 @@
+{
+    "addr": "0x23141df767233776f7cbbec497800ddedaa4c684",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": true,
+    "contractname": "BranchSender",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "f2f9da59a668492fce9d566357f5d7a7",
+    "fp_runtime": "a3e06fbd645dace0828b795e40bbd905",
+    "fp_sol": "0be49522c8bcffb5b644e6dfc79f2d74",
+    "fp_sol2": "0be49522c8bcffb5b644e6dfc79f2d74",
+    "id": "0x23141df767233776f7cbbec497800ddedaa4c684",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

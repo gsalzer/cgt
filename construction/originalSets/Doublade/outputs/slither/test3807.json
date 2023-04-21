@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "MainframeTokenDistribution.distributeTokens has external calls inside a loop: \"require(bool)(mainframeToken.transferFrom(tokenOwner,recipients[i],values[i]))\" (reorder_contracts_2_3/test3807.sol#84)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "require(bool)(mainframeToken.transferFrom(tokenOwner,recipients[i],values[i]))",
+            "source_mapping": {
+              "start": 2462,
+              "length": 74,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3807.sol",
+              "filename_relative": "reorder_contracts_2_3/test3807.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3807.sol",
+              "filename_short": "reorder_contracts_2_3/test3807.sol",
+              "lines": [
+                84
+              ],
+              "starting_column": 9,
+              "ending_column": 83
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "distributeTokens",
+                "source_mapping": {
+                  "start": 2221,
+                  "length": 436,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3807.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3807.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3807.sol",
+                  "filename_short": "reorder_contracts_2_3/test3807.sol",
+                  "lines": [
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MainframeTokenDistribution",
+                    "source_mapping": {
+                      "start": 1950,
+                      "length": 925,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3807.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3807.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3807.sol",
+                      "filename_short": "reorder_contracts_2_3/test3807.sol",
+                      "lines": [
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "distributeTokens(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

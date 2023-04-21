@@ -1,0 +1,60 @@
+{
+    "addr": "0x2807e558a7eba8d25c3a05a0e7e9a6a437a6e6a4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8-nightly.2016.12.16+commit.af8bc1c9",
+    "compiler_orig": false,
+    "contractname": "DNSResolver",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "6544d32bcb4b2200a56b08d10e2ff337",
+    "fp_runtime": "275f022bae8274321bd591639364ab9f",
+    "fp_sol": "cd3bbc46c2f6bec35d23c8b660bf901a",
+    "fp_sol2": "ef808024f05f51d39367c28cb362c919",
+    "id": "1494_Code_2063_0x2807e558a7eba8d25c3a05a0e7e9a6a437a6e6a",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

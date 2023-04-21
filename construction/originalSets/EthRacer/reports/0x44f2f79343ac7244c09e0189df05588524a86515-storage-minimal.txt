@@ -1,0 +1,16 @@
+Minimal found traces: 5 
+--------------------------------------------------------------------------------
+['updatePrice', 'purchase']
+['purchase', 'updatePrice']
+--------------------------------------------------------------------------------
+['resumePurchases', 'haltPurchases']
+['haltPurchases', 'resumePurchases']
+--------------------------------------------------------------------------------
+['updateAvailability', 'fallback', 'updatePrice']
+['updatePrice', 'updateAvailability', 'fallback']
+--------------------------------------------------------------------------------
+['updateAvailability', 'fallback', 'updatePrice']
+['updatePrice', 'fallback', 'updateAvailability']
+--------------------------------------------------------------------------------
+['updateAvailability', 'fallback', 'updatePrice']
+['updateAvailability', 'updatePrice', 'fallback']

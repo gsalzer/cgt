@@ -1,0 +1,47 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Nonstandard token interface",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "JiuZhou",
+    "etc": {
+        "contract names": [
+            "Address",
+            "ERC165",
+            "ERC721",
+            "IERC721",
+            "IERC721Receiver",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": "1682c2392b27132ad85e5d1c723b89a1",
+    "fp_runtime": "6b1c9b34ce55bb4f6fbaec4d37070b54",
+    "fp_sol": "984a0864d656cc2eb6127ae45e35f72b",
+    "fp_sol2": "e44951b20bbe6c5cd76a54a353ee04f5",
+    "id": "unstandardERC721",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/unstandardERC721.sol"
+    ],
+    "sol_orig": true
+}

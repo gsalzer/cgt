@@ -1,0 +1,15 @@
+Bug types: 13
+--------------------------------------------------------------------------------
+445 : ['changeWallet', 'fallback']
+294 : ['changeWallet', 'fallback', 'fallback']
+139 : ['changeWallet']
+ 46 : ['changeWallet', 'fallback', 'transfer']
+ 25 : ['changeWallet', 'fallback', 'fallback', 'fallback']
+ 23 : ['changeWallet', 'transfer']
+ 17 : ['changeWallet', 'fallback', 'transfer', 'fallback']
+  9 : ['changeWallet', 'fallback', 'transfer', 'transfer']
+  6 : ['changeWallet', 'transfer', 'transfer']
+  3 : ['changeWallet', 'transfer', 'fallback']
+  1 : ['changeWallet', 'fallback', 'transfer', 'transfer', 'fallback']
+  1 : ['changeWallet', 'fallback', 'transfer', 'transfer', 'transfer']
+  1 : ['changeWallet', 'fallback', 'transfer', 'fallback', 'fallback']

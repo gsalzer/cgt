@@ -1,0 +1,60 @@
+{
+    "addr": "0x936f78b9852d12f5cb93177c1f84fb8513d06263",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.5-nightly.2016.11.11+commit.6248e92d",
+    "compiler_orig": false,
+    "contractname": "GolemNetworkTokenWrapped",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "1fdbafad704b589baa589bfb5c73f26e",
+    "fp_runtime": "88d17eebccf9ce0fdbb7af63bef77235",
+    "fp_sol": "92c205edd4e9c83ad598449933c4554f",
+    "fp_sol2": "147bd182efab89d28f009dae4d75f3a3",
+    "id": "0882_Code_17_0x936f78b9852d12f5cb93177c1f84fb8513d06263",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

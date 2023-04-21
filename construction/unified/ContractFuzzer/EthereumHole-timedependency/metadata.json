@@ -1,0 +1,39 @@
+{
+    "addr": "0xd3a661f28b33167d0982e88caf431675bdf4a3d4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_EthereumHole.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.20-nightly.2018.2.13+commit.27ef9794",
+    "compiler_orig": false,
+    "contractname": "EthereumHole",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a15d5d980e5b43300cb2591b3a7bc061",
+    "fp_runtime": "6083fc37b38576c7d684245beaa61dea",
+    "fp_sol": "3a0d42b439eac1c20537c5c4f8f62e2d",
+    "fp_sol2": "803d403957eb11f198f4575782f41dd3",
+    "id": "EthereumHole-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_EthereumHole.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

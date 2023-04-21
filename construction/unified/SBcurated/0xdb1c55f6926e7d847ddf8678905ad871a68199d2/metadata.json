@@ -1,0 +1,39 @@
+{
+    "addr": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.19+commit.c4cbbb05",
+    "compiler_orig": false,
+    "contractname": "FreeEth",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "ea12ab817dec245266985d7236d607d4",
+    "fp_runtime": "1f2b998b20a56a4eabf4833a06de31dd",
+    "fp_sol": "ca3106b586c62093c3cf5fee986f6da7",
+    "fp_sol2": "b05b7bd2a562c3822faa3f69acf45f37",
+    "id": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

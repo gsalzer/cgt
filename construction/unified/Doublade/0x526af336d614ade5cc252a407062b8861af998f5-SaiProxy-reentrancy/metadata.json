@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
+    "contractname": "SaiProxy",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x526af336d614ade5cc252a407062b8861af998f5",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x526af336d614ade5cc252a407062b8861af998f5",
+            "main",
+            "SaiProxyCreateAndExecute"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "257a376ef76f8a57ef0160de3e272342",
+    "fp_sol2": "73aab1ca2dbc315076184687815e491e",
+    "id": "0x526af336d614ade5cc252a407062b8861af998f5-SaiProxy-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test1314.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,39 @@
+{
+    "addr": "0x610495793564aed0f9c7fc48dc4c7c9151d34fd6",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "SimpleWallet",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "0de902a1c8c0557117ad8f6d82976df1",
+    "fp_runtime": "1d86034b075296ce4a4225b46ffda810",
+    "fp_sol": "54333990752c100afa6dca3af363c950",
+    "fp_sol2": "82446734e26b80631f9746feeba87e13",
+    "id": "0x610495793564aed0f9c7fc48dc4c7c9151d34fd6",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

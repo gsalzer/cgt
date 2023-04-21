@@ -1,0 +1,60 @@
+{
+    "addr": "0xd7bf41bbc8979b3821851b871f055f4ae62b2299",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.3-nightly.2016.9.30+commit.d5cfb17b",
+    "compiler_orig": false,
+    "contractname": "JamCoin",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "6ba1ce9da7390558dca7fdf2f93cf4cd",
+    "fp_runtime": "a1474d3e64a480e73117d141fe7231da",
+    "fp_sol": "50596500313ad2d1ae5976a478dca8a6",
+    "fp_sol2": "50596500313ad2d1ae5976a478dca8a6",
+    "id": "1142_Code_20_0xd7bf41bbc8979b3821851b871f055f4ae62b2299",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

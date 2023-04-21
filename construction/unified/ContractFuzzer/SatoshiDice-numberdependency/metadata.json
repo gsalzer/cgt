@@ -1,0 +1,37 @@
+{
+    "addr": "0x55283a2f07be1b95e1e417af7efaab6750fedd0d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/SatoshiDice.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "numberdependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "SatoshiDice",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "ffa01f19b24148bc5e7e2367242cadcc",
+    "fp_runtime": "7487b65b1b1454cefe70c74d744c5677",
+    "fp_sol": "275352ace4c80b43a42c8bdf4d3651fc",
+    "fp_sol2": "275352ace4c80b43a42c8bdf4d3651fc",
+    "id": "SatoshiDice-numberdependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_SatoshiDice.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

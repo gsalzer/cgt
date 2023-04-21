@@ -1,0 +1,37 @@
+{
+    "addr": "0x903e7414cb54e44766dcf03e4ab424fdf9259d78",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ClaimableCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "ClaimableCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "c80dc69ea798da685730035caea52d29",
+    "fp_runtime": "a3d8f77d0a519ad829cfc1c415131c70",
+    "fp_sol": "64c17509d0ba71c73ca7ccdd2a3ea166",
+    "fp_sol2": "a66dce0555cc77adbd04689d6d09a075",
+    "id": "ClaimableCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ClaimableCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

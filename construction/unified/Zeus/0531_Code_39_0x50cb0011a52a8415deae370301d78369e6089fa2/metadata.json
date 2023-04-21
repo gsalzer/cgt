@@ -1,0 +1,60 @@
+{
+    "addr": "0x50cb0011a52a8415deae370301d78369e6089fa2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            false
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-07-054bc2a",
+    "compiler_orig": false,
+    "contractname": "LookAtAllTheseTastyFees",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "5f51a86535de6297f5dfc83e5ec50444",
+    "fp_runtime": "da35e5f9ec39c9f2aac09d8ce7cf19bc",
+    "fp_sol": "4d26bfa92a6c9e846e1d7a0e08fb1c39",
+    "fp_sol2": "4d26bfa92a6c9e846e1d7a0e08fb1c39",
+    "id": "0531_Code_39_0x50cb0011a52a8415deae370301d78369e6089fa2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

@@ -1,0 +1,46 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Integer division",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "getWageNumber",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {
+        "BugLineNumber": [
+            35
+        ],
+        "BugName": "Integer division",
+        "BugReason": "Solidity doesn't support fixed point number and decimal, so all integers that are divided are rounded down.",
+        "ContractSource": "Jiuzhou"
+    },
+    "fp_bytecode": "bbcceab596fd23fffd2efbf095f7a012",
+    "fp_runtime": "534136a7361c9e5048e92b3edc493f49",
+    "fp_sol": "b66f5be274cc890909aa842c47d99652",
+    "fp_sol2": "387419960d1ef37c551c273126734933",
+    "id": "integerDivision",
+    "info": [
+        "info/1_CharacterDescription.json",
+        "info/2_readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/integerDivision.sol"
+    ],
+    "sol_orig": true
+}

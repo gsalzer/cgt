@@ -1,0 +1,40 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": null,
+    "contractname_orig": null,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "contract names": [
+            "Bitway",
+            "ERC20",
+            "SafeMath"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "1bb0f26eb0ec09a0742bf82befe22b0e",
+    "fp_sol": "c7d7e3ab9bc9b667e83e36f9355f6c31",
+    "fp_sol2": "53a73403d6346245f8f484d2c93fe829",
+    "id": "Bitway-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/Bitway.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/Bitway.sol"
+    ],
+    "sol_orig": true
+}

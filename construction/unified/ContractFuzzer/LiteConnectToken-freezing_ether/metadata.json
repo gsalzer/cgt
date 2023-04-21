@@ -1,0 +1,38 @@
+{
+    "addr": "0x66c36272a1609c582b4211becadf9dba5b913893",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "freezing_ether",
+            true
+        ]
+    ],
+    "compiler": "v0.4.11+commit.68ef5810",
+    "compiler_orig": false,
+    "contractname": "LiteConnectToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "df745351888ed8465b356549e8ef566f",
+    "fp_runtime": "74b23a70a391258a2d3ab3eaed4b063e",
+    "fp_sol": "412ddfda1de9fb29f1402fcfcd02b961",
+    "fp_sol2": "bea5a8c168fa2d9a03a03de218ebeff8",
+    "id": "LiteConnectToken-freezing_ether",
+    "info": [],
+    "runtime": [
+        "runtime/1_LiteConnectToken.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_LiteConnectToken.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

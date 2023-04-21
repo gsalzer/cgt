@@ -1,0 +1,37 @@
+{
+    "addr": "0x422431dd7926165b83fbe433669c408843df23ee",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/ProvidencePresale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "ProvidencePresale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "a37b3d9c4cd22f536f0d07b2b448befd",
+    "fp_runtime": "caf019a2f3552e7954866d922f6b61cf",
+    "fp_sol": "3a7f00abaf61b3dd5d128f609434afe2",
+    "fp_sol2": "5f4a86e82a7e4a957b26e1d4a069be24",
+    "id": "ProvidencePresale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_ProvidencePresale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

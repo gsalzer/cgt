@@ -1,0 +1,39 @@
+{
+    "addr": "0x1b75b90e60070d37cfa9d87affd124bb345bf70a",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_bytecode.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "SWC-132",
+            true
+        ]
+    ],
+    "compiler": "0.5.5+commit.47a71e8f.Darwin.appleclang",
+    "compiler_orig": true,
+    "contractname": "Lockdrop",
+    "contractname_orig": true,
+    "dataset": "SWCregistry",
+    "etc": {},
+    "fp_bytecode": "00c94a83745508ae9e4be6e3e9e9cc05",
+    "fp_runtime": "cba320e7b0eb2499cd29ef4e89c52448",
+    "fp_sol": "24c612cdf8860794850d30294478465f",
+    "fp_sol2": "d343db0d66bed5cb2d6d3edd7cc3005c",
+    "id": "Lockdrop",
+    "info": [],
+    "runtime": [
+        "runtime/1_runtime.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Lockdrop.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

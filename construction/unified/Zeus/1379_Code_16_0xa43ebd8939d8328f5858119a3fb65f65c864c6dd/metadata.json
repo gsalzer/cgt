@@ -1,0 +1,60 @@
+{
+    "addr": "0xa43ebd8939d8328f5858119a3fb65f65c864c6dd",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.4+commit.4633f3de",
+    "compiler_orig": false,
+    "contractname": "Sweeper",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "4bd1c8fd54dc60d9f332fc5a336ca2c1",
+    "fp_runtime": "82ca0c023d8a1192b752bdae57c94573",
+    "fp_sol": "f99b0f4f8296f05aa909118aea0fcb6e",
+    "fp_sol2": "3c64fa5bcbd727efca1b01155fab4f2f",
+    "id": "1379_Code_16_0xa43ebd8939d8328f5858119a3fb65f65c864c6dd",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

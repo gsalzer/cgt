@@ -1,0 +1,56 @@
+{
+    "addr": "0xf4cae4aec9b4d7682f8cee4d9a273ba063e71366",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "EtherTopDog",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "ff6b8c611e3dcba859d7afcdd82f4004",
+    "fp_runtime": "521ac88048bdcb10f922523156082a9d",
+    "fp_sol": "afe7cf0cfffaf532b694ee3e93a6e214",
+    "fp_sol2": "afe7cf0cfffaf532b694ee3e93a6e214",
+    "id": "0843_Code_295_0xf4cae4aec9b4d7682f8cee4d9a273ba063e7136",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

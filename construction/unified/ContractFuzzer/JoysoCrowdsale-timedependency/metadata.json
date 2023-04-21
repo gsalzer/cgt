@@ -1,0 +1,37 @@
+{
+    "addr": "0x2184a4b834d343ef0fb0a8a5039ce8b697004ac4",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/JoysoCrowdsale.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "JoysoCrowdsale",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "3fa044fb3a0fa4729d34c83e9978c065",
+    "fp_runtime": "fe606782efc84cf86622e3c80dfb7b2c",
+    "fp_sol": "2905d6a52900c3e1bb5a32ebf9b6ca31",
+    "fp_sol2": "cc1bf58cadb97a883b957e85d91a5300",
+    "id": "JoysoCrowdsale-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_JoysoCrowdsale.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

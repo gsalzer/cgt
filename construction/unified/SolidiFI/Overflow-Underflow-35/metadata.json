@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "BitpayerDEX",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "7a51ddff0b1dcaa8abe1f73c08620a3a",
+    "fp_sol2": "651c748c13b7a97bbce7bdf1c0e8d65a",
+    "id": "Overflow-Underflow-35",
+    "info": [
+        "info/BugLog_35.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_35.sol"
+    ],
+    "sol_orig": true
+}

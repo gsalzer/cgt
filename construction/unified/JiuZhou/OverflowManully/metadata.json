@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "integer overflow and underflow",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Overflow",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "eab4a4b042af00e99973675b19a6ecbd",
+    "fp_runtime": "cec6663f2e7d2dd5d5e9ad785e6edb42",
+    "fp_sol": "600dba5747d401fe62d54decc1642cab",
+    "fp_sol2": "97fa420ad228e28839a4a607c39a9c80",
+    "id": "OverflowManully",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/OverflowManully.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "reentrancy",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "NamiMultiSigWallet",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x32f916bcfae02a2a385ec0219a07fa2374bae7bb",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x32f916bcfae02a2a385ec0219a07fa2374bae7bb",
+            "main",
+            "BinaryOption"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "19d3998c8fcabb202bbe202e16493f44",
+    "fp_sol2": "1cc99430cdad0ec95e8de3e298c71416",
+    "id": "0x32f916bcfae02a2a385ec0219a07fa2374bae7bb-NamiMultiSigWallet-reentrancy",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test799.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

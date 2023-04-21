@@ -1,0 +1,37 @@
+{
+    "addr": "0x15e745a2e3b677ec6421291b212d3917b3738dee",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.5-2016-07-01-48238c9",
+    "compiler_orig": true,
+    "contractname": "Multisend",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "96287c12bc721be2bf47c5f5763d9bc9",
+    "fp_runtime": "3fbe32ebfe0c3aaa4a87d91cb897ba33",
+    "fp_sol": "e6d38537ab9b642818e4ed986429fa3a",
+    "fp_sol2": "e6d38537ab9b642818e4ed986429fa3a",
+    "id": "0x15e745a2e3b677ec6421291b212d3917b3738dee",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

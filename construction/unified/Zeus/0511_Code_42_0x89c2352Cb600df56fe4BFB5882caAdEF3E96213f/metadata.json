@@ -1,0 +1,60 @@
+{
+    "addr": "0x89c2352cb600df56fe4bfb5882caadef3e96213f",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": false,
+    "contractname": "TwoAndAHalfPonzi",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "4ff456806bf08636d2e8446b12987364",
+    "fp_runtime": "3e315b5aa6dc3507c5e4634704bc5610",
+    "fp_sol": "09d9fb10fea1891a5e3a58df71e34a01",
+    "fp_sol2": "09d9fb10fea1891a5e3a58df71e34a01",
+    "id": "0511_Code_42_0x89c2352Cb600df56fe4BFB5882caAdEF3E96213f",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

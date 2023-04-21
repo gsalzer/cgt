@@ -1,0 +1,2 @@
+{u'source_code/test946.sol': {u'SuperEOS': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u'source_code/test946.sol:4:5: Warning: Integer Underflow.\n    string public name = "SuperEOS"', u'source_code/test946.sol:5:5: Warning: Integer Underflow.\n    string public symbol = "SPEOS"'], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '69.1'}}}
+

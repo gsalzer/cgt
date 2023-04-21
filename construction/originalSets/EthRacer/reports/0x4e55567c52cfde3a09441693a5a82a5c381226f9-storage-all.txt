@@ -1,0 +1,628 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'withdrawRestOfBalance', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ec3f5d62'}
+1 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'stopSweepStake', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'ecf862cc'}
+2 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'join', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'b688a363'}
+3 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'withdrawRestOfBalance', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'ec3f5d62'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'join', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'b688a363'}
+5 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'prizeWithdrawal', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8c794114'}
+6 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'forceWithdraw', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '882f3e16'}
+7 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'prizeWithdrawal', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8c794114'}
+8 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'join', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'b688a363'}
+9 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'runSweepStake', 'tx_blocknumber': '493e00', 'tx_value': 0, 'tx_timestamp': '5a5c001d', 'tx_input': 'e0f32198'}
+10 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'startSweepStake', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '1308e9e0'}
+11 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'join', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': 'b688a363'}
+12 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'forceWithdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '882f3e16'}
+13 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'prizeWithdrawal', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8c794114'}
+14 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'forceWithdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '882f3e160000000000000000000000002222222222222222222222222222222222222222'}
+15 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'forceWithdraw', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '882f3e160000000000000000000000001111111111111111111111111111111111111111'}
+16 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'startSweepStake', 'tx_blocknumber': '493e00', 'tx_value': '8ac7230489e80000', 'tx_timestamp': '5a5c001d', 'tx_input': '1308e9e0'}
+17 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'join', 'tx_blocknumber': '493e00', 'tx_value': 'de0b6b3a7640000', 'tx_timestamp': '5a5c001d', 'tx_input': 'b688a363'}
+18 : {'tx_caller': '5ceaccbc9b757411bcbd9bc57fecaef64d53b445', 'name': 'join', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'b688a363'}
+--------------------------------------------------------------------------------
+
+Full traces: 201
+--------------------------------------------------------------------------------
+1 10   :  stopSweepStake startSweepStake 
+10 1   :  startSweepStake stopSweepStake 
+------------------------------------------------------------
+1 0 10   :  stopSweepStake withdrawRestOfBalance startSweepStake 
+10 1 0   :  startSweepStake stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+1 10 2   :  stopSweepStake startSweepStake join 
+2 10 1   :  join startSweepStake stopSweepStake 
+------------------------------------------------------------
+1 10 2   :  stopSweepStake startSweepStake join 
+10 2 1   :  startSweepStake join stopSweepStake 
+------------------------------------------------------------
+1 10 2   :  stopSweepStake startSweepStake join 
+2 1 10   :  join stopSweepStake startSweepStake 
+------------------------------------------------------------
+2 10 1   :  join startSweepStake stopSweepStake 
+2 1 10   :  join stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 2 1   :  startSweepStake join stopSweepStake 
+2 1 10   :  join stopSweepStake startSweepStake 
+------------------------------------------------------------
+5 8 1   :  prizeWithdrawal join stopSweepStake 
+8 1 5   :  join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+8 1 5   :  join stopSweepStake prizeWithdrawal 
+8 5 1   :  join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+1 10 5   :  stopSweepStake startSweepStake prizeWithdrawal 
+10 1 5   :  startSweepStake stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+1 10 5   :  stopSweepStake startSweepStake prizeWithdrawal 
+10 5 1   :  startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+1 10 5   :  stopSweepStake startSweepStake prizeWithdrawal 
+5 10 1   :  prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+10 1 5   :  startSweepStake stopSweepStake prizeWithdrawal 
+1 5 10   :  stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 1 5   :  startSweepStake stopSweepStake prizeWithdrawal 
+5 1 10   :  prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 5 1   :  startSweepStake prizeWithdrawal stopSweepStake 
+1 5 10   :  stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 5 1   :  startSweepStake prizeWithdrawal stopSweepStake 
+5 1 10   :  prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+5 10 1   :  prizeWithdrawal startSweepStake stopSweepStake 
+1 5 10   :  stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+5 10 1   :  prizeWithdrawal startSweepStake stopSweepStake 
+5 1 10   :  prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 2 1 0   :  startSweepStake join stopSweepStake withdrawRestOfBalance 
+2 1 0 10   :  join stopSweepStake withdrawRestOfBalance startSweepStake 
+------------------------------------------------------------
+10 2 1 0   :  startSweepStake join stopSweepStake withdrawRestOfBalance 
+1 0 10 2   :  stopSweepStake withdrawRestOfBalance startSweepStake join 
+------------------------------------------------------------
+2 1 0 10   :  join stopSweepStake withdrawRestOfBalance startSweepStake 
+1 0 10 2   :  stopSweepStake withdrawRestOfBalance startSweepStake join 
+------------------------------------------------------------
+2 1 0 10   :  join stopSweepStake withdrawRestOfBalance startSweepStake 
+2 10 1 0   :  join startSweepStake stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+1 0 10 2   :  stopSweepStake withdrawRestOfBalance startSweepStake join 
+2 10 1 0   :  join startSweepStake stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+8 5 1 0   :  join prizeWithdrawal stopSweepStake withdrawRestOfBalance 
+8 1 0 5   :  join stopSweepStake withdrawRestOfBalance prizeWithdrawal 
+------------------------------------------------------------
+8 5 1 0   :  join prizeWithdrawal stopSweepStake withdrawRestOfBalance 
+8 1 5 0   :  join stopSweepStake prizeWithdrawal withdrawRestOfBalance 
+------------------------------------------------------------
+8 1 0 5   :  join stopSweepStake withdrawRestOfBalance prizeWithdrawal 
+5 8 1 0   :  prizeWithdrawal join stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+5 8 1 0   :  prizeWithdrawal join stopSweepStake withdrawRestOfBalance 
+8 1 5 0   :  join stopSweepStake prizeWithdrawal withdrawRestOfBalance 
+------------------------------------------------------------
+10 1 5 0   :  startSweepStake stopSweepStake prizeWithdrawal withdrawRestOfBalance 
+1 0 10 5   :  stopSweepStake withdrawRestOfBalance startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 1 5 0   :  startSweepStake stopSweepStake prizeWithdrawal withdrawRestOfBalance 
+5 1 0 10   :  prizeWithdrawal stopSweepStake withdrawRestOfBalance startSweepStake 
+------------------------------------------------------------
+10 1 5 0   :  startSweepStake stopSweepStake prizeWithdrawal withdrawRestOfBalance 
+1 0 5 10   :  stopSweepStake withdrawRestOfBalance prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 1 5 0   :  startSweepStake stopSweepStake prizeWithdrawal withdrawRestOfBalance 
+1 5 0 10   :  stopSweepStake prizeWithdrawal withdrawRestOfBalance startSweepStake 
+------------------------------------------------------------
+1 0 10 5   :  stopSweepStake withdrawRestOfBalance startSweepStake prizeWithdrawal 
+10 5 1 0   :  startSweepStake prizeWithdrawal stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+1 0 10 5   :  stopSweepStake withdrawRestOfBalance startSweepStake prizeWithdrawal 
+10 1 0 5   :  startSweepStake stopSweepStake withdrawRestOfBalance prizeWithdrawal 
+------------------------------------------------------------
+1 0 10 5   :  stopSweepStake withdrawRestOfBalance startSweepStake prizeWithdrawal 
+5 10 1 0   :  prizeWithdrawal startSweepStake stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+5 1 0 10   :  prizeWithdrawal stopSweepStake withdrawRestOfBalance startSweepStake 
+10 5 1 0   :  startSweepStake prizeWithdrawal stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+5 1 0 10   :  prizeWithdrawal stopSweepStake withdrawRestOfBalance startSweepStake 
+10 1 0 5   :  startSweepStake stopSweepStake withdrawRestOfBalance prizeWithdrawal 
+------------------------------------------------------------
+5 1 0 10   :  prizeWithdrawal stopSweepStake withdrawRestOfBalance startSweepStake 
+5 10 1 0   :  prizeWithdrawal startSweepStake stopSweepStake withdrawRestOfBalance 
+------------------------------------------------------------
+10 5 1 0   :  startSweepStake prizeWithdrawal stopSweepStake withdrawRestOfBalance 
+1 0 5 10   :  stopSweepStake withdrawRestOfBalance prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 5 1 0   :  startSweepStake prizeWithdrawal stopSweepStake withdrawRestOfBalance 
+1 5 0 10   :  stopSweepStake prizeWithdrawal withdrawRestOfBalance startSweepStake 
+------------------------------------------------------------
+10 1 0 5   :  startSweepStake stopSweepStake withdrawRestOfBalance prizeWithdrawal 
+1 0 5 10   :  stopSweepStake withdrawRestOfBalance prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 1 0 5   :  startSweepStake stopSweepStake withdrawRestOfBalance prizeWithdrawal 
+1 5 0 10   :  stopSweepStake prizeWithdrawal withdrawRestOfBalance startSweepStake 
+------------------------------------------------------------
+5 10 1 0   :  prizeWithdrawal startSweepStake stopSweepStake withdrawRestOfBalance 
+1 0 5 10   :  stopSweepStake withdrawRestOfBalance prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+5 10 1 0   :  prizeWithdrawal startSweepStake stopSweepStake withdrawRestOfBalance 
+1 5 0 10   :  stopSweepStake prizeWithdrawal withdrawRestOfBalance startSweepStake 
+------------------------------------------------------------
+1 10 4 2   :  stopSweepStake startSweepStake join join 
+4 2 1 10   :  join join stopSweepStake startSweepStake 
+------------------------------------------------------------
+1 10 4 2   :  stopSweepStake startSweepStake join join 
+4 10 2 1   :  join startSweepStake join stopSweepStake 
+------------------------------------------------------------
+1 10 4 2   :  stopSweepStake startSweepStake join join 
+4 2 10 1   :  join join startSweepStake stopSweepStake 
+------------------------------------------------------------
+1 10 4 2   :  stopSweepStake startSweepStake join join 
+10 4 2 1   :  startSweepStake join join stopSweepStake 
+------------------------------------------------------------
+1 10 4 2   :  stopSweepStake startSweepStake join join 
+4 1 10 2   :  join stopSweepStake startSweepStake join 
+------------------------------------------------------------
+4 2 1 10   :  join join stopSweepStake startSweepStake 
+4 10 2 1   :  join startSweepStake join stopSweepStake 
+------------------------------------------------------------
+4 2 1 10   :  join join stopSweepStake startSweepStake 
+4 2 10 1   :  join join startSweepStake stopSweepStake 
+------------------------------------------------------------
+4 2 1 10   :  join join stopSweepStake startSweepStake 
+10 4 2 1   :  startSweepStake join join stopSweepStake 
+------------------------------------------------------------
+4 2 1 10   :  join join stopSweepStake startSweepStake 
+4 1 10 2   :  join stopSweepStake startSweepStake join 
+------------------------------------------------------------
+4 10 2 1   :  join startSweepStake join stopSweepStake 
+4 1 10 2   :  join stopSweepStake startSweepStake join 
+------------------------------------------------------------
+4 2 10 1   :  join join startSweepStake stopSweepStake 
+4 1 10 2   :  join stopSweepStake startSweepStake join 
+------------------------------------------------------------
+10 2 4 1   :  startSweepStake join join stopSweepStake 
+2 1 10 4   :  join stopSweepStake startSweepStake join 
+------------------------------------------------------------
+5 8 2 1   :  prizeWithdrawal join join stopSweepStake 
+8 2 1 5   :  join join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+8 5 2 1   :  join prizeWithdrawal join stopSweepStake 
+8 2 1 5   :  join join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+8 2 1 5   :  join join stopSweepStake prizeWithdrawal 
+8 2 5 1   :  join join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+10 2 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+5 2 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+2 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+------------------------------------------------------------
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+5 2 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+------------------------------------------------------------
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+2 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+5 1 10 2   :  prizeWithdrawal stopSweepStake startSweepStake join 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+10 5 2 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+2 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+2 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+------------------------------------------------------------
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+1 5 10 2   :  stopSweepStake prizeWithdrawal startSweepStake join 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+------------------------------------------------------------
+5 10 2 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+1 10 2 5   :  stopSweepStake startSweepStake join prizeWithdrawal 
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+10 2 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+2 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+2 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+1 10 5 2   :  stopSweepStake startSweepStake prizeWithdrawal join 
+------------------------------------------------------------
+8 1 5 7   :  join stopSweepStake prizeWithdrawal prizeWithdrawal 
+8 5 1 7   :  join prizeWithdrawal stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+8 1 5 7   :  join stopSweepStake prizeWithdrawal prizeWithdrawal 
+5 8 1 7   :  prizeWithdrawal join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+8 1 5 7   :  join stopSweepStake prizeWithdrawal prizeWithdrawal 
+8 5 7 1   :  join prizeWithdrawal prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+8 1 5 7   :  join stopSweepStake prizeWithdrawal prizeWithdrawal 
+5 8 7 1   :  prizeWithdrawal join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+8 1 5 7   :  join stopSweepStake prizeWithdrawal prizeWithdrawal 
+5 7 8 1   :  prizeWithdrawal prizeWithdrawal join stopSweepStake 
+------------------------------------------------------------
+7 5 8 1   :  prizeWithdrawal prizeWithdrawal join stopSweepStake 
+8 7 1 5   :  join prizeWithdrawal stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+7 5 8 1   :  prizeWithdrawal prizeWithdrawal join stopSweepStake 
+7 8 1 5   :  prizeWithdrawal join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+8 7 1 5   :  join prizeWithdrawal stopSweepStake prizeWithdrawal 
+8 7 5 1   :  join prizeWithdrawal prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+8 7 1 5   :  join prizeWithdrawal stopSweepStake prizeWithdrawal 
+7 8 5 1   :  prizeWithdrawal join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+7 8 1 5   :  prizeWithdrawal join stopSweepStake prizeWithdrawal 
+8 7 5 1   :  join prizeWithdrawal prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+7 8 1 5   :  prizeWithdrawal join stopSweepStake prizeWithdrawal 
+7 8 5 1   :  prizeWithdrawal join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+10 5 1 7   :  startSweepStake prizeWithdrawal stopSweepStake prizeWithdrawal 
+1 5 10 7   :  stopSweepStake prizeWithdrawal startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 5 1 7   :  startSweepStake prizeWithdrawal stopSweepStake prizeWithdrawal 
+5 1 10 7   :  prizeWithdrawal stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 5 1 7   :  startSweepStake prizeWithdrawal stopSweepStake prizeWithdrawal 
+5 1 7 10   :  prizeWithdrawal stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 5 1 7   :  startSweepStake prizeWithdrawal stopSweepStake prizeWithdrawal 
+1 10 5 7   :  stopSweepStake startSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+10 5 1 7   :  startSweepStake prizeWithdrawal stopSweepStake prizeWithdrawal 
+1 5 7 10   :  stopSweepStake prizeWithdrawal prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 5 1 7   :  startSweepStake prizeWithdrawal stopSweepStake prizeWithdrawal 
+5 7 1 10   :  prizeWithdrawal prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+7 10 1 5   :  prizeWithdrawal startSweepStake stopSweepStake prizeWithdrawal 
+1 7 5 10   :  stopSweepStake prizeWithdrawal prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+7 10 1 5   :  prizeWithdrawal startSweepStake stopSweepStake prizeWithdrawal 
+1 10 7 5   :  stopSweepStake startSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+7 10 1 5   :  prizeWithdrawal startSweepStake stopSweepStake prizeWithdrawal 
+7 5 1 10   :  prizeWithdrawal prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+7 10 1 5   :  prizeWithdrawal startSweepStake stopSweepStake prizeWithdrawal 
+7 1 5 10   :  prizeWithdrawal stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+7 10 1 5   :  prizeWithdrawal startSweepStake stopSweepStake prizeWithdrawal 
+1 7 10 5   :  stopSweepStake prizeWithdrawal startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+7 10 1 5   :  prizeWithdrawal startSweepStake stopSweepStake prizeWithdrawal 
+7 1 10 5   :  prizeWithdrawal stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 7 5 1   :  startSweepStake prizeWithdrawal prizeWithdrawal stopSweepStake 
+1 7 5 10   :  stopSweepStake prizeWithdrawal prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 7 5 1   :  startSweepStake prizeWithdrawal prizeWithdrawal stopSweepStake 
+1 10 7 5   :  stopSweepStake startSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+10 7 5 1   :  startSweepStake prizeWithdrawal prizeWithdrawal stopSweepStake 
+7 5 1 10   :  prizeWithdrawal prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+10 7 5 1   :  startSweepStake prizeWithdrawal prizeWithdrawal stopSweepStake 
+7 1 5 10   :  prizeWithdrawal stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+10 7 5 1   :  startSweepStake prizeWithdrawal prizeWithdrawal stopSweepStake 
+1 7 10 5   :  stopSweepStake prizeWithdrawal startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 7 5 1   :  startSweepStake prizeWithdrawal prizeWithdrawal stopSweepStake 
+7 1 10 5   :  prizeWithdrawal stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 10 7 1   :  prizeWithdrawal startSweepStake prizeWithdrawal stopSweepStake 
+1 5 10 7   :  stopSweepStake prizeWithdrawal startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 10 7 1   :  prizeWithdrawal startSweepStake prizeWithdrawal stopSweepStake 
+5 1 10 7   :  prizeWithdrawal stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 10 7 1   :  prizeWithdrawal startSweepStake prizeWithdrawal stopSweepStake 
+5 1 7 10   :  prizeWithdrawal stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+5 10 7 1   :  prizeWithdrawal startSweepStake prizeWithdrawal stopSweepStake 
+1 10 5 7   :  stopSweepStake startSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+5 10 7 1   :  prizeWithdrawal startSweepStake prizeWithdrawal stopSweepStake 
+1 5 7 10   :  stopSweepStake prizeWithdrawal prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+5 10 7 1   :  prizeWithdrawal startSweepStake prizeWithdrawal stopSweepStake 
+5 7 1 10   :  prizeWithdrawal prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+7 5 10 1   :  prizeWithdrawal prizeWithdrawal startSweepStake stopSweepStake 
+1 7 5 10   :  stopSweepStake prizeWithdrawal prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+7 5 10 1   :  prizeWithdrawal prizeWithdrawal startSweepStake stopSweepStake 
+1 10 7 5   :  stopSweepStake startSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+7 5 10 1   :  prizeWithdrawal prizeWithdrawal startSweepStake stopSweepStake 
+7 5 1 10   :  prizeWithdrawal prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+7 5 10 1   :  prizeWithdrawal prizeWithdrawal startSweepStake stopSweepStake 
+7 1 5 10   :  prizeWithdrawal stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+7 5 10 1   :  prizeWithdrawal prizeWithdrawal startSweepStake stopSweepStake 
+1 7 10 5   :  stopSweepStake prizeWithdrawal startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+7 5 10 1   :  prizeWithdrawal prizeWithdrawal startSweepStake stopSweepStake 
+7 1 10 5   :  prizeWithdrawal stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+1 7 5 10   :  stopSweepStake prizeWithdrawal prizeWithdrawal startSweepStake 
+10 1 7 5   :  startSweepStake stopSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+1 10 7 5   :  stopSweepStake startSweepStake prizeWithdrawal prizeWithdrawal 
+10 1 7 5   :  startSweepStake stopSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+7 5 1 10   :  prizeWithdrawal prizeWithdrawal stopSweepStake startSweepStake 
+10 1 7 5   :  startSweepStake stopSweepStake prizeWithdrawal prizeWithdrawal 
+------------------------------------------------------------
+10 1 5 7   :  startSweepStake stopSweepStake prizeWithdrawal prizeWithdrawal 
+1 5 10 7   :  stopSweepStake prizeWithdrawal startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 1 5 7   :  startSweepStake stopSweepStake prizeWithdrawal prizeWithdrawal 
+5 1 10 7   :  prizeWithdrawal stopSweepStake startSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 1 5 7   :  startSweepStake stopSweepStake prizeWithdrawal prizeWithdrawal 
+5 1 7 10   :  prizeWithdrawal stopSweepStake prizeWithdrawal startSweepStake 
+------------------------------------------------------------
+8 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+5 8 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+------------------------------------------------------------
+8 1 10 5   :  join stopSweepStake startSweepStake prizeWithdrawal 
+8 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------
+5 10 8 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+10 8 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+5 10 8 1   :  prizeWithdrawal startSweepStake join stopSweepStake 
+8 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+------------------------------------------------------------
+10 8 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+8 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+10 8 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+10 5 8 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+------------------------------------------------------------
+10 8 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+8 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+10 8 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+10 8 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+10 8 1 5   :  startSweepStake join stopSweepStake prizeWithdrawal 
+5 8 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+------------------------------------------------------------
+8 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+8 5 10 1   :  join prizeWithdrawal startSweepStake stopSweepStake 
+------------------------------------------------------------
+8 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+10 5 8 1   :  startSweepStake prizeWithdrawal join stopSweepStake 
+------------------------------------------------------------
+8 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+8 10 5 1   :  join startSweepStake prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+8 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+10 8 5 1   :  startSweepStake join prizeWithdrawal stopSweepStake 
+------------------------------------------------------------
+8 10 1 5   :  join startSweepStake stopSweepStake prizeWithdrawal 
+5 8 10 1   :  prizeWithdrawal join startSweepStake stopSweepStake 
+------------------------------------------------------------
+8 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+5 8 1 10   :  prizeWithdrawal join stopSweepStake startSweepStake 
+------------------------------------------------------------
+8 1 5 10   :  join stopSweepStake prizeWithdrawal startSweepStake 
+8 5 1 10   :  join prizeWithdrawal stopSweepStake startSweepStake 
+------------------------------------------------------------

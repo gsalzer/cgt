@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "tx_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.21-nightly.2018.2.21+commit.16c7eabc",
+    "compiler_orig": false,
+    "contractname": "Owned",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x7dcde80b9e6eaac35cd5e0225f17cf8a418314cc",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x7dcde80b9e6eaac35cd5e0225f17cf8a418314cc",
+            "main",
+            "KelevinKoin"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "abd4fdd5f0ebdbf50eb3bbe13d5515e5",
+    "fp_sol2": "3d494ce805ebb8e52b10e030ba8aa82e",
+    "id": "0x7dcde80b9e6eaac35cd5e0225f17cf8a418314cc-Owned-tx_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test1950.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

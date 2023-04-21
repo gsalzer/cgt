@@ -1,0 +1,13 @@
+Minimal found traces: 4 
+--------------------------------------------------------------------------------
+['setEndBlock', 'setWallet', 'processContributions']
+['setEndBlock', 'processContributions', 'setWallet']
+--------------------------------------------------------------------------------
+['setEndBlock', 'processContributions', 'setWallet']
+['setWallet', 'setEndBlock', 'processContributions']
+--------------------------------------------------------------------------------
+['setEndBlock', 'fallback', 'setWallet']
+['setEndBlock', 'setWallet', 'fallback']
+--------------------------------------------------------------------------------
+['setEndBlock', 'fallback', 'setWallet']
+['setWallet', 'setEndBlock', 'fallback']

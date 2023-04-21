@@ -1,0 +1,97 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_value': '8ac7230489e80000', 'tx_caller': '7777777777777777777777777777777777777777', 'name': 'buySlot', 'tx_input': 'ab2874cb0000000000000000000000001111111111111111111111111111111111111111'}
+1 : {'tx_caller': '6ef05000f40efc75e3d66b37e9584dc807bb28f7', 'name': 'payout', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63bd1d4a'}
+2 : {'tx_caller': '6ef05000f40efc75e3d66b37e9584dc807bb28f7', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000000000000000000080000000000000000000000'}
+3 : {'tx_caller': '6ef05000f40efc75e3d66b37e9584dc807bb28f7', 'name': 'createSlot', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9cd2be60000000000000000000000001111111111111111111111111111111111111111'}
+4 : {'tx_caller': '6ef05000f40efc75e3d66b37e9584dc807bb28f7', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000000000000000000000000000000000000000001'}
+5 : {'tx_caller': '6ef05000f40efc75e3d66b37e9584dc807bb28f7', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000010000000000000000000000000000000000000'}
+6 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'payout', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '63bd1d4a'}
+7 : {'tx_caller': '6ef05000f40efc75e3d66b37e9584dc807bb28f7', 'name': 'setCEO', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '27d7874c0000000000000000000000000080000000000000000000000000000000000000'}
+8 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createSlot', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9cd2be60000000000000000000000001111111111111111111111111111111111111111'}
+9 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'createSlot', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9cd2be60000000000000000000000002222222222222222222222222222222222222222'}
+--------------------------------------------------------------------------------
+
+Full traces: 27
+--------------------------------------------------------------------------------
+3 0   :  createSlot buySlot 
+0 3   :  buySlot createSlot 
+------------------------------------------------------------
+1 0 3   :  payout buySlot createSlot 
+3 1 0   :  createSlot payout buySlot 
+------------------------------------------------------------
+1 0 3   :  payout buySlot createSlot 
+1 3 0   :  payout createSlot buySlot 
+------------------------------------------------------------
+1 0 3   :  payout buySlot createSlot 
+3 0 1   :  createSlot buySlot payout 
+------------------------------------------------------------
+3 1 0   :  createSlot payout buySlot 
+0 3 1   :  buySlot createSlot payout 
+------------------------------------------------------------
+3 1 0   :  createSlot payout buySlot 
+0 1 3   :  buySlot payout createSlot 
+------------------------------------------------------------
+0 3 1   :  buySlot createSlot payout 
+1 3 0   :  payout createSlot buySlot 
+------------------------------------------------------------
+0 3 1   :  buySlot createSlot payout 
+3 0 1   :  createSlot buySlot payout 
+------------------------------------------------------------
+1 3 0   :  payout createSlot buySlot 
+0 1 3   :  buySlot payout createSlot 
+------------------------------------------------------------
+3 0 1   :  createSlot buySlot payout 
+0 1 3   :  buySlot payout createSlot 
+------------------------------------------------------------
+3 0 2   :  createSlot buySlot setCEO 
+0 3 2   :  buySlot createSlot setCEO 
+------------------------------------------------------------
+3 2 0   :  createSlot setCEO buySlot 
+0 3 2   :  buySlot createSlot setCEO 
+------------------------------------------------------------
+1 0 3 2   :  payout buySlot createSlot setCEO 
+3 1 2 0   :  createSlot payout setCEO buySlot 
+------------------------------------------------------------
+1 0 3 2   :  payout buySlot createSlot setCEO 
+1 3 0 2   :  payout createSlot buySlot setCEO 
+------------------------------------------------------------
+1 0 3 2   :  payout buySlot createSlot setCEO 
+1 3 2 0   :  payout createSlot setCEO buySlot 
+------------------------------------------------------------
+1 0 3 2   :  payout buySlot createSlot setCEO 
+3 1 0 2   :  createSlot payout buySlot setCEO 
+------------------------------------------------------------
+1 0 3 2   :  payout buySlot createSlot setCEO 
+3 0 1 2   :  createSlot buySlot payout setCEO 
+------------------------------------------------------------
+0 3 1 2   :  buySlot createSlot payout setCEO 
+3 1 2 0   :  createSlot payout setCEO buySlot 
+------------------------------------------------------------
+0 3 1 2   :  buySlot createSlot payout setCEO 
+1 3 0 2   :  payout createSlot buySlot setCEO 
+------------------------------------------------------------
+0 3 1 2   :  buySlot createSlot payout setCEO 
+1 3 2 0   :  payout createSlot setCEO buySlot 
+------------------------------------------------------------
+0 3 1 2   :  buySlot createSlot payout setCEO 
+3 1 0 2   :  createSlot payout buySlot setCEO 
+------------------------------------------------------------
+0 3 1 2   :  buySlot createSlot payout setCEO 
+3 0 1 2   :  createSlot buySlot payout setCEO 
+------------------------------------------------------------
+3 1 2 0   :  createSlot payout setCEO buySlot 
+0 1 3 2   :  buySlot payout createSlot setCEO 
+------------------------------------------------------------
+1 3 0 2   :  payout createSlot buySlot setCEO 
+0 1 3 2   :  buySlot payout createSlot setCEO 
+------------------------------------------------------------
+1 3 2 0   :  payout createSlot setCEO buySlot 
+0 1 3 2   :  buySlot payout createSlot setCEO 
+------------------------------------------------------------
+3 1 0 2   :  createSlot payout buySlot setCEO 
+0 1 3 2   :  buySlot payout createSlot setCEO 
+------------------------------------------------------------
+3 0 1 2   :  createSlot buySlot payout setCEO 
+0 1 3 2   :  buySlot payout createSlot setCEO 
+------------------------------------------------------------

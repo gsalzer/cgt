@@ -1,0 +1,60 @@
+{
+    "addr": "0x84d50ebf4737331fb41ff9e3c6c324262c5b661c",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            false
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.2-nightly.2016.9.17+commit.a78e7794",
+    "compiler_orig": false,
+    "contractname": "RecoveryWithTenant",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "5aeb8e77b68297ef8921270dc9379e85",
+    "fp_runtime": "4a02061dd5a0dd527fcfbfcb8e0eaab3",
+    "fp_sol": "4a5f293ebc9629b609b7a3450a56b637",
+    "fp_sol2": "32da61a114c5dde3529dcd13f1c89900",
+    "id": "0909_Code_21_0x84d50ebf4737331fb41ff9e3c6c324262c5b661c",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

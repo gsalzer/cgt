@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "selfdestruct_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "EclipticBase",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x060d68aeb7e817628d3df96ed396e61ece494081",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x060d68aeb7e817628d3df96ed396e61ece494081",
+            "main",
+            "PlanetSale"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "519c1283effe2210263a1b0616cdaf26",
+    "fp_sol2": "170f3a94a18a2b699230677d45a71765",
+    "id": "0x060d68aeb7e817628d3df96ed396e61ece494081-EclipticBase-selfdestruct_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test89.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

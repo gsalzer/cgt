@@ -1,0 +1,60 @@
+{
+    "addr": "0x33a8ea1c8c6294c9f65f3dad7ca7f037bd09f951",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.2.2-2016-03-10-34d714f",
+    "compiler_orig": false,
+    "contractname": "EthereumDice",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "423c17d365d4c423d674d4b15eb9ef5f",
+    "fp_runtime": "dc8f30c317ac7ddd94bf70fca9a13120",
+    "fp_sol": "8f71bfd4490c96e0f66c33b4cd4e22bb",
+    "fp_sol2": "8f71bfd4490c96e0f66c33b4cd4e22bb",
+    "id": "0382_Code_43_0x33A8eA1c8C6294C9F65f3DAd7CA7f037BD09F951",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

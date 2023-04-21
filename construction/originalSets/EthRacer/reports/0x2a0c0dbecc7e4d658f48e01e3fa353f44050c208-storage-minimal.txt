@@ -1,0 +1,13 @@
+Minimal found traces: 4 
+--------------------------------------------------------------------------------
+['deposit', 'setOwner']
+['setOwner', 'deposit']
+--------------------------------------------------------------------------------
+['deposit', 'setAdmin']
+['setAdmin', 'deposit']
+--------------------------------------------------------------------------------
+['deposit', 'invalidateOrdersBefore']
+['invalidateOrdersBefore', 'deposit']
+--------------------------------------------------------------------------------
+['setInactivityReleasePeriod', 'deposit']
+['deposit', 'setInactivityReleasePeriod']

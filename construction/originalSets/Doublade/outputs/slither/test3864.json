@@ -1,0 +1,162 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium",
+        "description": "AgentContract.fallback has external calls inside a loop: \"! agents[i].send(value_to_send)\" (reorder_contracts_2_3/test3864.sol#41-46)\n",
+        "elements": [
+          {
+            "type": "node",
+            "name": "! agents[i].send(value_to_send)",
+            "source_mapping": {
+              "start": 1431,
+              "length": 195,
+              "filename_used": "/home/jiaming/reorder_contracts_2_3/test3864.sol",
+              "filename_relative": "reorder_contracts_2_3/test3864.sol",
+              "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3864.sol",
+              "filename_short": "reorder_contracts_2_3/test3864.sol",
+              "lines": [
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "starting_column": 13,
+              "ending_column": 14
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 1036,
+                  "length": 966,
+                  "filename_used": "/home/jiaming/reorder_contracts_2_3/test3864.sol",
+                  "filename_relative": "reorder_contracts_2_3/test3864.sol",
+                  "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3864.sol",
+                  "filename_short": "reorder_contracts_2_3/test3864.sol",
+                  "lines": [
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AgentContract",
+                    "source_mapping": {
+                      "start": 27,
+                      "length": 1978,
+                      "filename_used": "/home/jiaming/reorder_contracts_2_3/test3864.sol",
+                      "filename_relative": "reorder_contracts_2_3/test3864.sol",
+                      "filename_absolute": "/home/jiaming/reorder_contracts_2_3/test3864.sol",
+                      "filename_short": "reorder_contracts_2_3/test3864.sol",
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

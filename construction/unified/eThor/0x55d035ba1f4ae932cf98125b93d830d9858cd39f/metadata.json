@@ -1,0 +1,37 @@
+{
+    "addr": "0x55d035ba1f4ae932cf98125b93d830d9858cd39f",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "reentrancy",
+            false
+        ]
+    ],
+    "compiler": "v0.3.0-2016-03-30-c2cf806",
+    "compiler_orig": true,
+    "contractname": "BalancedPonzi",
+    "contractname_orig": true,
+    "dataset": "eThor",
+    "etc": {},
+    "fp_bytecode": "d4098bd961ae3a873a362ae1b39e09af",
+    "fp_runtime": "5964fabee4edde8274fdc23d0261e293",
+    "fp_sol": "4af4c7be0ccdbb664018b109b1517ea9",
+    "fp_sol2": "4af4c7be0ccdbb664018b109b1517ea9",
+    "id": "0x55d035ba1f4ae932cf98125b93d830d9858cd39f",
+    "info": [],
+    "runtime": [
+        "runtime/runtime.rt.hex"
+    ],
+    "runtime_orig": true,
+    "sol": [
+        "source/1_source.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

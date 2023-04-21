@@ -1,0 +1,39 @@
+{
+    "addr": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.17+commit.bdeb9e52",
+    "compiler_orig": false,
+    "contractname": "Caller",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "51dc5794c06c504c19b49a1be4a245c1",
+    "fp_runtime": "57ed68fcea210b028d7bc1d5c5fdd27c",
+    "fp_sol": "fa0090b4c9fe41fe050b91251d4297c5",
+    "fp_sol2": "e81509570ea72fe757486c3cc13c59fc",
+    "id": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

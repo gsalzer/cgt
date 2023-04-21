@@ -1,0 +1,45 @@
+{
+    "addr": null,
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "lowlevelcall_result",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Base",
+    "contractname_orig": true,
+    "dataset": "Doublade",
+    "etc": {
+        "same address, different source": [
+            [
+                "0x4eb3ce14fda3a874ecad0e9ad988258c827bae82",
+                "main"
+            ]
+        ],
+        "verified source": [
+            "0x4eb3ce14fda3a874ecad0e9ad988258c827bae82",
+            "main",
+            "DepositBank"
+        ]
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "52c682ab889662a3bada7d1e03e11ba5",
+    "fp_sol2": "c96d852f52f4ffeff0e14f909d41913a",
+    "id": "0x4eb3ce14fda3a874ecad0e9ad988258c827bae82-Base-lowlevelcall_result",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_test1244.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

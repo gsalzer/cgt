@@ -1,0 +1,2 @@
+{u'source_code/test268.sol': {u'FAUT': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [u"source_code/test268.sol:5:5: Warning: Integer Underflow.\n    string public symbol = 'FAUT'", u"source_code/test268.sol:4:5: Warning: Integer Underflow.\n    string public name = 'FAUT'"], 'money_concurrency': [], 'assertion_failure': []}, 'evm_code_coverage': '58.6'}}}
+

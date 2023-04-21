@@ -1,0 +1,18 @@
+Bug types: 16
+--------------------------------------------------------------------------------
+ 33 : ['changeDeveloperSFTDestinationAddress', 'triggerMinCap']
+ 25 : ['changeDeveloperSFTDestinationAddress']
+ 15 : ['changeDeveloperSFTDestinationAddress', 'transferFrom', 'triggerMinCap']
+ 15 : ['changeDeveloperSFTDestinationAddress', 'transfer', 'triggerMinCap']
+ 15 : ['changeDeveloperETHDestinationAddress', 'changeDeveloperSFTDestinationAddress', 'triggerMinCap']
+  7 : ['changeDeveloperETHDestinationAddress', 'changeDeveloperSFTDestinationAddress']
+  7 : ['changeDeveloperSFTDestinationAddress', 'transfer']
+  7 : ['changeDeveloperSFTDestinationAddress', 'transferFrom']
+  1 : ['changeDeveloperETHDestinationAddress']
+  1 : ['transfer']
+  1 : ['transferFrom']
+  1 : ['triggerMinCap']
+  1 : ['changeDeveloperETHDestinationAddress', 'triggerMinCap']
+  1 : ['transfer', 'triggerMinCap']
+  1 : ['transferFrom', 'triggerMinCap']
+  1 : ['changeDeveloperSFTDestinationAddress', 'triggerRefund', 'triggerMinCap']

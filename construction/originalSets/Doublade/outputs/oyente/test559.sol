@@ -1,0 +1,2 @@
+{u'source_code/test559.sol': {u'ChiMarket': {'vulnerabilities': {'callstack': [], 'time_dependency': [], 'reentrancy': [], 'integer_overflow': [], 'parity_multisig_bug_2': [], 'integer_underflow': [], 'money_concurrency': [[u'source_code/test559.sol:133:9: Warning: Transaction-Ordering Dependency.\n        _target.transfer(_amount)'], [u'source_code/test559.sol:157:9: Warning: Transaction-Ordering Dependency.\n        msg.sender.transfer(_eth_amount)']], 'assertion_failure': []}, 'evm_code_coverage': '70.8'}}}
+

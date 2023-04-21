@@ -1,0 +1,38 @@
+{
+    "addr": "0xcc76e17a033947019e5f29b079baccdd3f8d7247",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/Doubly.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "gasless_send",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Doubly",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/gasless_send/verified_contract_sols/Doubly.sol"
+    },
+    "fp_bytecode": "1a20b2b0aa02f030464782fa417b72a6",
+    "fp_runtime": "bff3343ea56aa03e88944a125889b465",
+    "fp_sol": "6e347cd30735806f8e3fb82762231f44",
+    "fp_sol2": "211d7e60766ce11184adff6d26ba1fcc",
+    "id": "Doubly-gasless_send",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

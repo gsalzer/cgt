@@ -1,0 +1,60 @@
+{
+    "addr": "0xc5e8aaec3bd3ebe78b5bcd0f1560f0a61cc945cf",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            false
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            true
+        ]
+    ],
+    "compiler": "v0.3.1-2016-04-12-3ad5e82",
+    "compiler_orig": false,
+    "contractname": "InsuranceAgent",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "9dd28a94e6aa27ecee8f7bb5c0e278a2",
+    "fp_runtime": "3319b78385a8d8eb920ec5ec2c258b22",
+    "fp_sol": "734aa600d951e36e39d4f94248676ab2",
+    "fp_sol2": "734aa600d951e36e39d4f94248676ab2",
+    "id": "0130_Code_38_0xc5e8AaeC3BD3ebe78b5bcd0F1560F0a61cc945cf",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

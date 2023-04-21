@@ -1,0 +1,35 @@
+{
+    "addr": "0x8bb1bfdb49b4d75b2fa1291e2a897d66cc6717b3",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "bad_randomness",
+            true
+        ]
+    ],
+    "compiler": "v0.4.22+commit.4cb486ee",
+    "compiler_orig": false,
+    "contractname": "GuessTheRandomNumberChallenge",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://capturetheether.com/challenges/lotteries/guess-the-random-number/"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "88d49d35714aa4307486e281736067d2",
+    "fp_sol2": "dacc15e98e9e6e6c781ea2924fed66cf",
+    "id": "guess_the_random_number",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_guess_the_random_number.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

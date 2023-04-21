@@ -1,0 +1,60 @@
+{
+    "addr": "0x83b6ad8e37ab7a4f71da533a35271484270ec6c2",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.9+commit.364da425",
+    "compiler_orig": false,
+    "contractname": "WelfareTokenFund",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "f4d826327f9d3c7bc78bf9f9013837ae",
+    "fp_runtime": "2a946b332cb5336dfead53d2f52685de",
+    "fp_sol": "426a9337cebe33fa1ef13e6bd63e22dc",
+    "fp_sol2": "da0a8ad133425048bc21d631584241ae",
+    "id": "0296_Code_4_0x83b6ad8e37ab7a4f71da533a35271484270ec6c2",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

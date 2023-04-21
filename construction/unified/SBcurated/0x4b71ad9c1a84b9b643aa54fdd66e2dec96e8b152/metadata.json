@@ -1,0 +1,39 @@
+{
+    "addr": "0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152",
+    "addr_orig": true,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "unchecked_low_level_calls",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "airPort",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "etherscan.io"
+    },
+    "fp_bytecode": "1bf799a44525f449a0470195127fd41e",
+    "fp_runtime": "c0c182cf60e2389d89a04698e94cbcac",
+    "fp_sol": "17cbe954af0ce8bbf64c72f12807fed5",
+    "fp_sol2": "1c1013a90bccfd29c7ba4bc12ea42ea4",
+    "id": "0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

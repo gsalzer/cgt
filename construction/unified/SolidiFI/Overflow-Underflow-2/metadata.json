@@ -1,0 +1,34 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Overflow-Underflow",
+            true
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "CareerOnToken",
+    "contractname_orig": false,
+    "dataset": "SolidiFI",
+    "etc": {},
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "9c26c1a862edfde723b5785e5f1bf69a",
+    "fp_sol2": "6c30911d7922992d54ce4fc5be83abb6",
+    "id": "Overflow-Underflow-2",
+    "info": [
+        "info/BugLog_2.csv"
+    ],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/buggy_2.sol"
+    ],
+    "sol_orig": true
+}

@@ -1,0 +1,35 @@
+{
+    "addr": "0x58058b28e7a9c49253146b1bec94cc6e733e3ca4",
+    "addr_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "short_addresses",
+            true
+        ]
+    ],
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "MyToken",
+    "contractname_orig": false,
+    "dataset": "SBcurated",
+    "etc": {
+        "origin": "https://ericrafaloff.com/analyzing-the-erc20-short-address-attack/"
+    },
+    "fp_bytecode": null,
+    "fp_runtime": null,
+    "fp_sol": "1eab29a5b44cb226c06cff3ad49782aa",
+    "fp_sol2": "bf3f61b726c1000672e95474c27744e3",
+    "id": "short_address_example",
+    "info": [],
+    "runtime": [],
+    "runtime_orig": null,
+    "sol": [
+        "source/1_short_address_example.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

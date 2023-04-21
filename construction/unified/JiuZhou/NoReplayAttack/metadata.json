@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Replay attack",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "no_transaction_malleablity",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "1eeab195318eff5e22bae48d31ff71dc",
+    "fp_runtime": "4a96bf1967705d7c214a7f7bc68d5506",
+    "fp_sol": "34ca1f72b4a0057e9700e7314feacf8c",
+    "fp_sol2": "3e31caf4366526e9bba699c7ff61f088",
+    "id": "NoReplayAttack",
+    "info": [
+        "info/README.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoReplayAttack.sol"
+    ],
+    "sol_orig": true
+}

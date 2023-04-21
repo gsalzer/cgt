@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "Uninitialized storage variable",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "CryptoRoulette",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "a2d31a0a2524483ec10c1749341dc103",
+    "fp_runtime": "775668ed32d3fd1e9ec5fac0261eac09",
+    "fp_sol": "d7684581d996c56e8a900e0a868e8d16",
+    "fp_sol2": "d7bad78d4ea5dc9165f29d71cf241f9b",
+    "id": "NoUninitStorage",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/NoUninitStorage.sol"
+    ],
+    "sol_orig": true
+}

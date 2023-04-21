@@ -1,0 +1,38 @@
+{
+    "addr": "0x8aaefb9d925b3a39595c26290a9d115f9c46dfab",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/CBToken.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "delegatecall_dangerous",
+            true
+        ]
+    ],
+    "compiler": "v0.4.13+commit.fb4cb1a",
+    "compiler_orig": false,
+    "contractname": "CBToken",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/delegatecall_dangerous/verified_contract_sols/CBToken.sol"
+    },
+    "fp_bytecode": "adae574ab08b513c037cb9bb522d2f7c",
+    "fp_runtime": "e4c361ee307dddf4845f9a4ffa888b74",
+    "fp_sol": "f3a08823b97021c927f4583059a6ac84",
+    "fp_sol2": "dbfad1b704be1e0935ef291f1c3632f4",
+    "id": "CBToken-delegatecall_dangerous",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

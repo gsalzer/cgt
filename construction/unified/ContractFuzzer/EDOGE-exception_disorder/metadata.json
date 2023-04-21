@@ -1,0 +1,38 @@
+{
+    "addr": "0x02dbe2f315e059743376abcd22ab4908ea9fb02d",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/EDOGE.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "exception_disorder",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18-nightly.2017.9.22+commit.a2a58789",
+    "compiler_orig": false,
+    "contractname": "EDOGE",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {
+        "broken source": "examples/exception_disorder/verified_contract_sols/EDOGE.sol"
+    },
+    "fp_bytecode": "c9557d6e376b2e1ac97a5cb0e07b56aa",
+    "fp_runtime": "082ed06bf6717496a1c3f250c29f47a8",
+    "fp_sol": "feb17ef91c400af0157e66dab2d90ec9",
+    "fp_sol2": "93299753d358f8d86a8f790d78355301",
+    "id": "EDOGE-exception_disorder",
+    "info": [],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}

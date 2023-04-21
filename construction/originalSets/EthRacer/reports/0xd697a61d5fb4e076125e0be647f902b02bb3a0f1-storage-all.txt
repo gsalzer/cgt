@@ -1,0 +1,344 @@
+Nodes
+--------------------------------------------------------------------------------
+0 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000a970bd475439142c483dd2c75f76f19d8d06f8040000000000000000000000000000000000000000000000000000001000000000'}
+1 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balanceOf', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '70a08231000000000000000000000000556ad48bdbae6b0f0218c4d50a17ce7cb545a2ba'}
+2 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000000'}
+3 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balanceOf', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '70a08231000000000000000000000000e01f026dd59aeb9448bd72d899cacd49c206d2e3'}
+4 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balanceOf', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '70a0823100000000000000000000000000fa31de69c545877e6e54828bed58a6f5219614'}
+5 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'pause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '8456cb59'}
+6 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'unpause', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '3f4ba83a'}
+7 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'totalSupply', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '18160ddd'}
+8 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'deprecate', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '0753c30c'}
+9 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+10 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+11 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'allowance', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'dd62ed3e000000000000000000000000a12d7fda6e1ada3a4088dbf0a9bd3c6c9ad957540000000000000000000000002222222222222222222222222222222222222222'}
+12 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+13 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'redeem', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'db006a75000000000000000000000000000000000000000000000000000000074076e001'}
+14 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000000fa31de69c545877e6e54828bed58a6f521961400000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+15 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000000fa31de69c545877e6e54828bed58a6f521961400000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000000'}
+16 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'issue', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cc872b660000000000000000000000000000000000000000000000000000000000000001'}
+17 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+18 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'issue', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cc872b660000000000000000000000000000000000000000000000000000000000000003'}
+19 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000000'}
+20 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000001'}
+21 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000065c1eab17ada00d59ad6d8368417859be3dc1bc000000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+22 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000003'}
+23 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000065c1eab17ada00d59ad6d8368417859be3dc1bc000000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000000'}
+24 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'balanceOf', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '70a082310000000000000000000000002222222222222222222222222222222222222222'}
+25 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000010a98e49a8cd97df0cdf6c5ce93c54e0b42e1a810000000000000000000000000000000000000000000000000000000000000000'}
+26 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd00000000000000000000000022222222222222222222222222222222222222220000000000000000000000007f9807c78a71088f7385ceab59d2a9d123362c360000000000000000000000000000000000000000000000000000000000000000'}
+27 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transferOwnership', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'f2fde38b000000000000000000000000ffffffffffffffffffffffffffffffffffffffff'}
+28 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000000c8db6155bf34ac4d2236b551a7eabd2d12e1560000000000000000000000000000000000000000000000000000000054436ea00'}
+29 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000000fa31de69c545877e6e54828bed58a6f521961400000000000000000000000000000000000000000000000000000003006ca940'}
+30 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000019603963e8f0538bb1fe4a8dd87ce05b4a0ee0930000000000000000000000000000000000000000000000000000000000000001'}
+31 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000019603963e8f0538bb1fe4a8dd87ce05b4a0ee0930000000000000000000000000000000000000000000000000000000000000003'}
+32 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+33 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+34 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'redeem', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'db006a750000000000000000000000000000000000000000000000000000000000000001'}
+35 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'redeem', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'db006a750000000000000000000000000000000000000000000000000000000000000003'}
+36 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000001'}
+37 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000003'}
+38 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000001'}
+39 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000003'}
+40 : {'tx_caller': '1111111111111111111111111111111111111111', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000222222222222222222222222222222222222222200000000000000000000000011111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000'}
+41 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000006e0e0d9f95b38cd79e880f6216875e83443bbbf000000000000000000000000000000000000000000000000000000074872e800'}
+42 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000058b2fd5be097adccce6d92f6436c6b105334b86d0000000000000000000000000000000000000000000000000000000000000000'}
+43 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transferFrom', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '23b872dd000000000000000000000000111111111111111111111111111111111111111100000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000000'}
+44 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000c7a3cefafb036da37bbbb8fe99881c555e9abbd10000000000000000000000000000000000000000000000000000000000000001'}
+45 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000c7a3cefafb036da37bbbb8fe99881c555e9abbd10000000000000000000000000000000000000000000000000000000000000003'}
+46 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000000fa31de69c545877e6e54828bed58a6f5219614000000000000000000000000000000000000000000000000000000141c3b7400'}
+47 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000728a3d8626499ef86957d2fcfaa2ad2fe7b92aa40000000000000000000000000000000000000000000000000000000000000000'}
+48 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb0000000000000000000000004a4b91a1ac325775cd10c814c47b21568c17c30a000000000000000000000000000000000000000000000000000000054436ea00'}
+49 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'issue', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'cc872b66dffffffffffffffffffffffffffffffffffffffffffffffffffffff837c11800'}
+50 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb000000000000000000000000bdbad29c995d48cfdcef866c23d290f698aca35f0000000000000000000000000000000000000000000000000000001760380001'}
+51 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000001'}
+52 : {'tx_caller': 'fa31de69c545877e6e54828bed58a6f5219614', 'name': 'transfer', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'a9059cbb00000000000000000000000000fa31de69c545877e6e54828bed58a6f52196140000000000000000000000000000000000000000000000000000000000000003'}
+53 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000001'}
+54 : {'tx_caller': '7777777777777777777777777777777777777777', 'name': 'allowance', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': 'dd62ed3e000000000000000000000000ecb0f7a409c114085b3916f0375fcaf78a1672fe0000000000000000000000002222222222222222222222222222222222222222'}
+55 : {'tx_caller': '2222222222222222222222222222222222222222', 'name': 'approve', 'tx_blocknumber': '493e00', 'tx_value': '0', 'tx_timestamp': '5a5c001d', 'tx_input': '095ea7b300000000000000000000000022222222222222222222222222222222222222220000000000000000000000000000000000000000000000000000000000000003'}
+--------------------------------------------------------------------------------
+
+Full traces: 94
+--------------------------------------------------------------------------------
+27 0   :  transferOwnership transfer 
+0 27   :  transfer transferOwnership 
+------------------------------------------------------------
+27 2   :  transferOwnership transferFrom 
+2 27   :  transferFrom transferOwnership 
+------------------------------------------------------------
+27 0 1   :  transferOwnership transfer balanceOf 
+0 27 1   :  transfer transferOwnership balanceOf 
+------------------------------------------------------------
+27 0 1   :  transferOwnership transfer balanceOf 
+0 1 27   :  transfer balanceOf transferOwnership 
+------------------------------------------------------------
+0 2 27   :  transfer transferFrom transferOwnership 
+27 0 2   :  transferOwnership transfer transferFrom 
+------------------------------------------------------------
+0 2 27   :  transfer transferFrom transferOwnership 
+2 27 0   :  transferFrom transferOwnership transfer 
+------------------------------------------------------------
+0 2 27   :  transfer transferFrom transferOwnership 
+27 2 0   :  transferOwnership transferFrom transfer 
+------------------------------------------------------------
+0 2 27   :  transfer transferFrom transferOwnership 
+0 27 2   :  transfer transferOwnership transferFrom 
+------------------------------------------------------------
+27 0 2   :  transferOwnership transfer transferFrom 
+2 0 27   :  transferFrom transfer transferOwnership 
+------------------------------------------------------------
+2 27 0   :  transferFrom transferOwnership transfer 
+2 0 27   :  transferFrom transfer transferOwnership 
+------------------------------------------------------------
+27 2 0   :  transferOwnership transferFrom transfer 
+2 0 27   :  transferFrom transfer transferOwnership 
+------------------------------------------------------------
+0 27 2   :  transfer transferOwnership transferFrom 
+2 0 27   :  transferFrom transfer transferOwnership 
+------------------------------------------------------------
+3 27 0   :  balanceOf transferOwnership transfer 
+0 27 3   :  transfer transferOwnership balanceOf 
+------------------------------------------------------------
+3 27 0   :  balanceOf transferOwnership transfer 
+0 3 27   :  transfer balanceOf transferOwnership 
+------------------------------------------------------------
+3 27 0   :  balanceOf transferOwnership transfer 
+3 0 27   :  balanceOf transfer transferOwnership 
+------------------------------------------------------------
+27 3 0   :  transferOwnership balanceOf transfer 
+0 27 3   :  transfer transferOwnership balanceOf 
+------------------------------------------------------------
+27 3 0   :  transferOwnership balanceOf transfer 
+0 3 27   :  transfer balanceOf transferOwnership 
+------------------------------------------------------------
+27 3 0   :  transferOwnership balanceOf transfer 
+3 0 27   :  balanceOf transfer transferOwnership 
+------------------------------------------------------------
+27 0 3   :  transferOwnership transfer balanceOf 
+3 0 27   :  balanceOf transfer transferOwnership 
+------------------------------------------------------------
+7 27 0   :  totalSupply transferOwnership transfer 
+7 0 27   :  totalSupply transfer transferOwnership 
+------------------------------------------------------------
+7 27 0   :  totalSupply transferOwnership transfer 
+0 7 27   :  transfer totalSupply transferOwnership 
+------------------------------------------------------------
+7 27 0   :  totalSupply transferOwnership transfer 
+0 27 7   :  transfer transferOwnership totalSupply 
+------------------------------------------------------------
+27 0 7   :  transferOwnership transfer totalSupply 
+7 0 27   :  totalSupply transfer transferOwnership 
+------------------------------------------------------------
+27 0 7   :  transferOwnership transfer totalSupply 
+0 7 27   :  transfer totalSupply transferOwnership 
+------------------------------------------------------------
+27 0 7   :  transferOwnership transfer totalSupply 
+0 27 7   :  transfer transferOwnership totalSupply 
+------------------------------------------------------------
+7 0 27   :  totalSupply transfer transferOwnership 
+27 7 0   :  transferOwnership totalSupply transfer 
+------------------------------------------------------------
+0 7 27   :  transfer totalSupply transferOwnership 
+27 7 0   :  transferOwnership totalSupply transfer 
+------------------------------------------------------------
+27 7 0   :  transferOwnership totalSupply transfer 
+0 27 7   :  transfer transferOwnership totalSupply 
+------------------------------------------------------------
+0 27 11   :  transfer transferOwnership allowance 
+27 11 0   :  transferOwnership allowance transfer 
+------------------------------------------------------------
+0 27 11   :  transfer transferOwnership allowance 
+27 0 11   :  transferOwnership transfer allowance 
+------------------------------------------------------------
+0 27 11   :  transfer transferOwnership allowance 
+11 27 0   :  allowance transferOwnership transfer 
+------------------------------------------------------------
+27 11 0   :  transferOwnership allowance transfer 
+0 11 27   :  transfer allowance transferOwnership 
+------------------------------------------------------------
+27 11 0   :  transferOwnership allowance transfer 
+11 0 27   :  allowance transfer transferOwnership 
+------------------------------------------------------------
+27 0 11   :  transferOwnership transfer allowance 
+0 11 27   :  transfer allowance transferOwnership 
+------------------------------------------------------------
+27 0 11   :  transferOwnership transfer allowance 
+11 0 27   :  allowance transfer transferOwnership 
+------------------------------------------------------------
+0 11 27   :  transfer allowance transferOwnership 
+11 27 0   :  allowance transferOwnership transfer 
+------------------------------------------------------------
+11 27 0   :  allowance transferOwnership transfer 
+11 0 27   :  allowance transfer transferOwnership 
+------------------------------------------------------------
+0 13 27   :  transfer redeem transferOwnership 
+13 27 0   :  redeem transferOwnership transfer 
+------------------------------------------------------------
+13 0 27   :  redeem transfer transferOwnership 
+13 27 0   :  redeem transferOwnership transfer 
+------------------------------------------------------------
+16 27 0   :  issue transferOwnership transfer 
+16 0 27   :  issue transfer transferOwnership 
+------------------------------------------------------------
+16 27 0   :  issue transferOwnership transfer 
+0 16 27   :  transfer issue transferOwnership 
+------------------------------------------------------------
+0 20 27   :  transfer approve transferOwnership 
+27 0 20   :  transferOwnership transfer approve 
+------------------------------------------------------------
+0 20 27   :  transfer approve transferOwnership 
+27 20 0   :  transferOwnership approve transfer 
+------------------------------------------------------------
+0 20 27   :  transfer approve transferOwnership 
+20 27 0   :  approve transferOwnership transfer 
+------------------------------------------------------------
+27 0 20   :  transferOwnership transfer approve 
+20 0 27   :  approve transfer transferOwnership 
+------------------------------------------------------------
+27 0 20   :  transferOwnership transfer approve 
+0 27 20   :  transfer transferOwnership approve 
+------------------------------------------------------------
+27 20 0   :  transferOwnership approve transfer 
+20 0 27   :  approve transfer transferOwnership 
+------------------------------------------------------------
+27 20 0   :  transferOwnership approve transfer 
+0 27 20   :  transfer transferOwnership approve 
+------------------------------------------------------------
+20 0 27   :  approve transfer transferOwnership 
+20 27 0   :  approve transferOwnership transfer 
+------------------------------------------------------------
+0 27 20   :  transfer transferOwnership approve 
+20 27 0   :  approve transferOwnership transfer 
+------------------------------------------------------------
+0 27 28   :  transfer transferOwnership transfer 
+0 28 27   :  transfer transfer transferOwnership 
+------------------------------------------------------------
+27 28 0   :  transferOwnership transfer transfer 
+28 0 27   :  transfer transfer transferOwnership 
+------------------------------------------------------------
+27 1 2   :  transferOwnership balanceOf transferFrom 
+1 2 27   :  balanceOf transferFrom transferOwnership 
+------------------------------------------------------------
+27 1 2   :  transferOwnership balanceOf transferFrom 
+2 27 1   :  transferFrom transferOwnership balanceOf 
+------------------------------------------------------------
+27 1 2   :  transferOwnership balanceOf transferFrom 
+2 1 27   :  transferFrom balanceOf transferOwnership 
+------------------------------------------------------------
+1 2 27   :  balanceOf transferFrom transferOwnership 
+27 2 1   :  transferOwnership transferFrom balanceOf 
+------------------------------------------------------------
+1 2 27   :  balanceOf transferFrom transferOwnership 
+1 27 2   :  balanceOf transferOwnership transferFrom 
+------------------------------------------------------------
+27 2 1   :  transferOwnership transferFrom balanceOf 
+2 27 1   :  transferFrom transferOwnership balanceOf 
+------------------------------------------------------------
+27 2 1   :  transferOwnership transferFrom balanceOf 
+2 1 27   :  transferFrom balanceOf transferOwnership 
+------------------------------------------------------------
+2 27 1   :  transferFrom transferOwnership balanceOf 
+1 27 2   :  balanceOf transferOwnership transferFrom 
+------------------------------------------------------------
+1 27 2   :  balanceOf transferOwnership transferFrom 
+2 1 27   :  transferFrom balanceOf transferOwnership 
+------------------------------------------------------------
+7 2 27   :  totalSupply transferFrom transferOwnership 
+27 7 2   :  transferOwnership totalSupply transferFrom 
+------------------------------------------------------------
+7 2 27   :  totalSupply transferFrom transferOwnership 
+7 27 2   :  totalSupply transferOwnership transferFrom 
+------------------------------------------------------------
+7 2 27   :  totalSupply transferFrom transferOwnership 
+27 2 7   :  transferOwnership transferFrom totalSupply 
+------------------------------------------------------------
+2 27 7   :  transferFrom transferOwnership totalSupply 
+27 7 2   :  transferOwnership totalSupply transferFrom 
+------------------------------------------------------------
+2 27 7   :  transferFrom transferOwnership totalSupply 
+7 27 2   :  totalSupply transferOwnership transferFrom 
+------------------------------------------------------------
+2 27 7   :  transferFrom transferOwnership totalSupply 
+27 2 7   :  transferOwnership transferFrom totalSupply 
+------------------------------------------------------------
+27 7 2   :  transferOwnership totalSupply transferFrom 
+2 7 27   :  transferFrom totalSupply transferOwnership 
+------------------------------------------------------------
+2 7 27   :  transferFrom totalSupply transferOwnership 
+7 27 2   :  totalSupply transferOwnership transferFrom 
+------------------------------------------------------------
+2 7 27   :  transferFrom totalSupply transferOwnership 
+27 2 7   :  transferOwnership transferFrom totalSupply 
+------------------------------------------------------------
+9 27 2   :  transferFrom transferOwnership transferFrom 
+9 2 27   :  transferFrom transferFrom transferOwnership 
+------------------------------------------------------------
+27 9 2   :  transferOwnership transferFrom transferFrom 
+9 2 27   :  transferFrom transferFrom transferOwnership 
+------------------------------------------------------------
+2 11 27   :  transferFrom allowance transferOwnership 
+11 27 2   :  allowance transferOwnership transferFrom 
+------------------------------------------------------------
+2 11 27   :  transferFrom allowance transferOwnership 
+27 11 2   :  transferOwnership allowance transferFrom 
+------------------------------------------------------------
+2 11 27   :  transferFrom allowance transferOwnership 
+27 2 11   :  transferOwnership transferFrom allowance 
+------------------------------------------------------------
+11 2 27   :  allowance transferFrom transferOwnership 
+11 27 2   :  allowance transferOwnership transferFrom 
+------------------------------------------------------------
+11 2 27   :  allowance transferFrom transferOwnership 
+27 11 2   :  transferOwnership allowance transferFrom 
+------------------------------------------------------------
+11 2 27   :  allowance transferFrom transferOwnership 
+27 2 11   :  transferOwnership transferFrom allowance 
+------------------------------------------------------------
+11 27 2   :  allowance transferOwnership transferFrom 
+2 27 11   :  transferFrom transferOwnership allowance 
+------------------------------------------------------------
+27 11 2   :  transferOwnership allowance transferFrom 
+2 27 11   :  transferFrom transferOwnership allowance 
+------------------------------------------------------------
+27 2 11   :  transferOwnership transferFrom allowance 
+2 27 11   :  transferFrom transferOwnership allowance 
+------------------------------------------------------------
+2 13 27   :  transferFrom redeem transferOwnership 
+13 27 2   :  redeem transferOwnership transferFrom 
+------------------------------------------------------------
+13 2 27   :  redeem transferFrom transferOwnership 
+13 27 2   :  redeem transferOwnership transferFrom 
+------------------------------------------------------------
+16 2 27   :  issue transferFrom transferOwnership 
+16 27 2   :  issue transferOwnership transferFrom 
+------------------------------------------------------------
+16 27 2   :  issue transferOwnership transferFrom 
+2 16 27   :  transferFrom issue transferOwnership 
+------------------------------------------------------------
+2 27 20   :  transferFrom transferOwnership approve 
+20 27 2   :  approve transferOwnership transferFrom 
+------------------------------------------------------------
+2 27 20   :  transferFrom transferOwnership approve 
+27 2 20   :  transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 27 20   :  transferFrom transferOwnership approve 
+27 20 2   :  transferOwnership approve transferFrom 
+------------------------------------------------------------
+20 27 2   :  approve transferOwnership transferFrom 
+2 20 27   :  transferFrom approve transferOwnership 
+------------------------------------------------------------
+20 27 2   :  approve transferOwnership transferFrom 
+20 2 27   :  approve transferFrom transferOwnership 
+------------------------------------------------------------
+2 20 27   :  transferFrom approve transferOwnership 
+27 2 20   :  transferOwnership transferFrom approve 
+------------------------------------------------------------
+2 20 27   :  transferFrom approve transferOwnership 
+27 20 2   :  transferOwnership approve transferFrom 
+------------------------------------------------------------
+20 2 27   :  approve transferFrom transferOwnership 
+27 2 20   :  transferOwnership transferFrom approve 
+------------------------------------------------------------
+20 2 27   :  approve transferFrom transferOwnership 
+27 20 2   :  transferOwnership approve transferFrom 
+------------------------------------------------------------

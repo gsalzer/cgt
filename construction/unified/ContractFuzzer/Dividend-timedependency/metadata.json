@@ -1,0 +1,39 @@
+{
+    "addr": "0x0436d3110dee47f177bb5d9b7ea5ce5d712522e8",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/1_Dividend.hex",
+        "bytecode/2_main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "timedependency",
+            true
+        ]
+    ],
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
+    "contractname": "Dividend",
+    "contractname_orig": false,
+    "dataset": "ContractFuzzer",
+    "etc": {},
+    "fp_bytecode": "0f48af6a8cc61cd08b5030ffbfcf3dcf",
+    "fp_runtime": "56d5e2d40d6cf7388662650560ff9717",
+    "fp_sol": "d307e1847a3d80e690e6fe57fef9001c",
+    "fp_sol2": "44db8c1d63b12195e1266dcf19177fc2",
+    "id": "Dividend-timedependency",
+    "info": [],
+    "runtime": [
+        "runtime/1_computed.rt.hex",
+        "runtime/2_main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/1_Dividend.sol",
+        "source/2_etherscan.sol"
+    ],
+    "sol_orig": true
+}

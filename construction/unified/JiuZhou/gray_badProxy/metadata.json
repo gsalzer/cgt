@@ -1,0 +1,38 @@
+{
+    "addr": null,
+    "addr_orig": null,
+    "bytecode": [
+        "bytecode/bytecode.hex"
+    ],
+    "bytecode_orig": true,
+    "chain": null,
+    "chain_orig": null,
+    "classifications": [
+        [
+            "The call address or data are externally controlled",
+            false
+        ]
+    ],
+    "compiler": null,
+    "compiler_orig": null,
+    "contractname": "Proxy",
+    "contractname_orig": false,
+    "dataset": "JiuZhou",
+    "etc": {},
+    "fp_bytecode": "0f8c3d630c2282d4d5d1aa2779910999",
+    "fp_runtime": "ab51eebf452a3e47cb8a467e9f6c25a6",
+    "fp_sol": "f3e3584c4408aab040759e9ea4033b94",
+    "fp_sol2": "5c38eba4c503e42baff740d209a2b856",
+    "id": "gray_badProxy",
+    "info": [
+        "info/readme.md"
+    ],
+    "runtime": [
+        "runtime/computed.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/gray_badProxy.sol"
+    ],
+    "sol_orig": true
+}

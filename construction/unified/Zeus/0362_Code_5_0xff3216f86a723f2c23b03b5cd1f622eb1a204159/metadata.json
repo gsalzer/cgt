@@ -1,0 +1,60 @@
+{
+    "addr": "0xff3216f86a723f2c23b03b5cd1f622eb1a204159",
+    "addr_orig": false,
+    "bytecode": [
+        "bytecode/main.hex"
+    ],
+    "bytecode_orig": false,
+    "chain": "main",
+    "chain_orig": false,
+    "classifications": [
+        [
+            "Blk_State_Dep",
+            false
+        ],
+        [
+            "Failed_send",
+            true
+        ],
+        [
+            "Int_overflow",
+            true
+        ],
+        [
+            "Reentrancy",
+            false
+        ],
+        [
+            "Tx_Order_Dep",
+            true
+        ],
+        [
+            "Tx_State_Dep",
+            false
+        ],
+        [
+            "Unchkd_send",
+            false
+        ]
+    ],
+    "compiler": "v0.4.8+commit.60cc1668",
+    "compiler_orig": false,
+    "contractname": "ValentineRegistry",
+    "contractname_orig": false,
+    "dataset": "Zeus",
+    "etc": {},
+    "fp_bytecode": "ff4afc0652f28856516ae18bcc004dc1",
+    "fp_runtime": "5482fbfa676268aadadd59d02aa94a2a",
+    "fp_sol": "d2c9f4ddb6dabb91742838a31da15421",
+    "fp_sol2": "61fa6ad7678fa97cd094f14068ac4086",
+    "id": "0362_Code_5_0xff3216f86a723f2c23b03b5cd1f622eb1a204159",
+    "info": [],
+    "runtime": [
+        "runtime/main.rt.hex"
+    ],
+    "runtime_orig": false,
+    "sol": [
+        "source/etherscan.sol"
+    ],
+    "sol_orig": false
+}
