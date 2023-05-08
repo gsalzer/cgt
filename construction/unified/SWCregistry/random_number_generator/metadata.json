@@ -1,12 +1,12 @@
 {
-    "addr": null,
-    "addr_orig": null,
+    "addr": "0x4c0d948d293d3a57391ccb42a2ff9744998aa215",
+    "addr_orig": false,
     "bytecode": [
         "bytecode/bytecode.hex"
     ],
     "bytecode_orig": true,
-    "chain": null,
-    "chain_orig": null,
+    "chain": "sepolia",
+    "chain_orig": false,
     "classifications": [
         [
             "SWC-120",
@@ -30,7 +30,8 @@
     ],
     "runtime_orig": true,
     "sol": [
-        "source/random_number_generator.sol"
+        "source/1_random_number_generator.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": true
 }

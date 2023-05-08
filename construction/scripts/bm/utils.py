@@ -38,9 +38,19 @@ def keccak(data, encoding=None):
     return Crypto.Hash.keccak.new(digest_bits=256).update(data).digest().hex()
 
 def md5(data, encoding=None):
-    if isinstance(data,str):
-        if encoding:
-            data = str(data).encode(encoding)
-        else:
-            data = bytes.fromhex(data)
-    return hashlib.md5(data).digest().hex()
+    if not isinstance(data,list):
+        data = [data]
+    md5_data = []
+    for d in data:
+        if isinstance(d,str):
+            if encoding:
+                d = str(d).encode(encoding)
+            else:
+                d = bytes.fromhex(d)
+        md5_data.append(hashlib.md5(d).digest())
+    # Don't hash singletons a second time (backwards compatibility)
+    if len(md5_data)==1:
+        return md5_data[0].hex()
+    else:
+        joined_md5_data = b''.join(sorted(md5_data))
+        return hashlib.md5(joined_md5_data).digest().hex()

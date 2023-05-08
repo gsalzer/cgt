@@ -1,10 +1,8 @@
 {
-    "addr": "0x5ecdaf39eb3228c634943e591eb08f3a66eae2ba",
+    "addr": "0x1b2f3b3a7ff2235c3c6510e0f6b71e59370f73d5",
     "addr_orig": false,
-    "bytecode": [
-        "bytecode/main.hex"
-    ],
-    "bytecode_orig": false,
+    "bytecode": [],
+    "bytecode_orig": null,
     "chain": "main",
     "chain_orig": false,
     "classifications": [
@@ -13,23 +11,24 @@
             true
         ]
     ],
-    "compiler": "v0.4.23+commit.124ca40d",
+    "compiler": "v0.4.26+commit.4563c3fc",
     "compiler_orig": false,
     "contractname": "Destroy",
     "contractname_orig": false,
     "dataset": "ContractFuzzer",
-    "etc": {},
-    "fp_bytecode": "f5c9fb0e69c2201ea56ae9a4dc005102",
-    "fp_runtime": "d024f3c9c3284c950a1a0c8496b7de0b",
+    "etc": {
+        "code on main": []
+    },
+    "fp_bytecode": null,
+    "fp_runtime": "169bdb0df12753c7c4f737d1bb4f003c",
     "fp_sol": "1e844f3c1c41a6ef685bf2637730e6c8",
     "fp_sol2": "0836dfda7f1cdf02b6a29f3879437a15",
     "id": "Destroy-delegatecall_dangerous",
     "info": [],
     "runtime": [
-        "runtime/1_Destroy.rt.hex",
-        "runtime/2_main.rt.hex"
+        "runtime/Destroy.rt.hex"
     ],
-    "runtime_orig": false,
+    "runtime_orig": true,
     "sol": [
         "source/1_Destroy.sol",
         "source/2_etherscan.sol"

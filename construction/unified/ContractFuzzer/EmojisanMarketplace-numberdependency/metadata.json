@@ -1,18 +1,18 @@
 {
-    "addr": null,
-    "addr_orig": null,
+    "addr": "0x0cfd1de4d5a6e442f4cda44f478914c8085f69de",
+    "addr_orig": false,
     "bytecode": [],
     "bytecode_orig": null,
-    "chain": null,
-    "chain_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
     "classifications": [
         [
             "numberdependency",
             true
         ]
     ],
-    "compiler": null,
-    "compiler_orig": null,
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
     "contractname": "EmojisanMarketplace",
     "contractname_orig": false,
     "dataset": "ContractFuzzer",
@@ -28,7 +28,8 @@
     ],
     "runtime_orig": true,
     "sol": [
-        "source/EmojisanMarketplace.sol"
+        "source/1_EmojisanMarketplace.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": true
 }

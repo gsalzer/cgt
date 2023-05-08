@@ -1,6 +1,6 @@
 # To refresh the cash, delete the cache directory and set OFFLINE to False
 # You will need access to the database at gimli.logic
-OFFLINE = True
+OFFLINE = False
 
 import os, json, Levenshtein
 import bm.cfg, bm.utils, bm.io
@@ -104,7 +104,7 @@ def verified_address(address):
         address = address[2:]
         a = address.strip("0")
         rows = query("""
-            SELECT address,chain,hash,contractname FROM verified_source
+            SELECT address,chain,fp_wo_spaces,contractname FROM verified_source
             WHERE address LIKE '%%'||%s||'%%' OR address LIKE '%%'||%s||'%%';
             """, (a[2:12],a[-12:-2]))
         if rows:
@@ -165,7 +165,7 @@ def verified_sol2address(sol):
         assert not OFFLINE
         rows = query("""
             SELECT address,chain FROM verified_source
-            WHERE hash = %s;
+            WHERE fp_wo_spaces = %s;
             """, (fp,))
         acs = sorted([ (f"0x{r[0]}", r[1]) for r in rows ])
         bm.io.write_lines([",".join(ac) for ac in acs], cache)
@@ -390,6 +390,7 @@ def unpack_verified_source(data):
     contractName = result.get("ContractName")
     compilerVersion = result.get("CompilerVersion")
     optimizationUsed = result.get("OptimizationUsed") # "1"
+    optimizationUsed = False if optimizationUsed=="0" else True if optimizationUsed=="1" else None
     runs = result.get("Runs")
     library = result.get("Library")
     swarm = result.get("SwarmSource")
@@ -409,13 +410,17 @@ def unpack_verified_source(data):
         ext = "vy" if compilerVersion.startswith("vyper") else "sol"
         sources = { f"{contractName}.{ext}": sourceCode }
     for name,code in sources.items():
-        sources[name] = code.replace("\r","")
+        sources[name] = "\n".join(code.splitlines())
+    if not language:
+        language = "Vyper" if compilerVersion.startswith("vyper") else "Solidity"
+    compilerVersionShort = compilerVersion[6:] if language == "Vyper" else compilerVersion.split("-")[0].split("+")[0][1:]
     return {
         "abi": abi,
         "contractName": contractName,
         "compilerVersion": compilerVersion,
+        "compilerVersionShort": compilerVersionShort,
         "optimizationUsed": optimizationUsed,
-        "runs": runs,
+        "runs": int(runs),
         "library": library,
         "swarm": swarm,
         "constructorArguments": constructorArguments,

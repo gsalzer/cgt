@@ -18,13 +18,11 @@
     "contractname": "CryptoCarsRent",
     "contractname_orig": false,
     "dataset": "ContractFuzzer",
-    "etc": {
-        "broken source": "examples/timedependency/verified_contract_sols/CryptoCarsRent"
-    },
+    "etc": {},
     "fp_bytecode": "49e89b3d41289e01de0e26b8e00d07e2",
     "fp_runtime": "75d74ec3b4d87178d02cf9718d57e8db",
-    "fp_sol": "f85dbe258a15f07feff04ac8dace2466",
-    "fp_sol2": "9298d0f2370028db82f173a880de8e43",
+    "fp_sol": "6c2c83535a4ffdf071abd5585b397c34",
+    "fp_sol2": "b6e1aee3a0e8cb01a14eed6e12b4dd45",
     "id": "CryptoCarsRent-timedependency",
     "info": [],
     "runtime": [
@@ -32,7 +30,8 @@
     ],
     "runtime_orig": false,
     "sol": [
-        "source/etherscan.sol"
+        "source/1_CryptoCarsRent.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": false
 }

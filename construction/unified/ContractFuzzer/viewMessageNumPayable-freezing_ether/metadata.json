@@ -1,26 +1,26 @@
 {
-    "addr": null,
-    "addr_orig": null,
+    "addr": "0xcd361f7173c439bb76f3e1206446e9d183b82787",
+    "addr_orig": false,
     "bytecode": [],
     "bytecode_orig": null,
-    "chain": null,
-    "chain_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
     "classifications": [
         [
             "freezing_ether",
             true
         ]
     ],
-    "compiler": null,
-    "compiler_orig": null,
+    "compiler": "v0.4.25+commit.59dbf8f1",
+    "compiler_orig": false,
     "contractname": "viewMessageNumPayable",
     "contractname_orig": false,
     "dataset": "ContractFuzzer",
     "etc": {},
     "fp_bytecode": null,
     "fp_runtime": "0f18b15ccfc36524b107c17edf3ce74e",
-    "fp_sol": "fe62d269d68eb5018300ee02709f2b4a",
-    "fp_sol2": "5b3a806695bd28675c90302cd3596093",
+    "fp_sol": "2cd44711a5c3b9dc27e06938ae3f1b62",
+    "fp_sol2": "f93348e3b2637bed2714ec18c78660ee",
     "id": "viewMessageNumPayable-freezing_ether",
     "info": [],
     "runtime": [
@@ -28,7 +28,8 @@
     ],
     "runtime_orig": true,
     "sol": [
-        "source/viewMessageNumPayable.sol"
+        "source/1_viewMessageNumPayable.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": true
 }

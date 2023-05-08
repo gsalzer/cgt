@@ -1,33 +1,22 @@
 {
-    "addr": null,
-    "addr_orig": null,
+    "addr": "0x32dd9802b83aec762a38e0d3738549bfe5660b30",
+    "addr_orig": false,
     "bytecode": [],
     "bytecode_orig": null,
-    "chain": null,
-    "chain_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
     "classifications": [
         [
             "delegatecall_dangerous",
             true
         ]
     ],
-    "compiler": null,
-    "compiler_orig": null,
-    "contractname": null,
-    "contractname_orig": null,
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
+    "contractname": "B0xProxy",
+    "contractname_orig": false,
     "dataset": "ContractFuzzer",
-    "etc": {
-        "contract names": [
-            "B0xObjects",
-            "B0xProxy",
-            "B0xStorage",
-            "Debugger",
-            "GasTracker",
-            "Ownable",
-            "Proxiable",
-            "ReentrancyGuard"
-        ]
-    },
+    "etc": {},
     "fp_bytecode": null,
     "fp_runtime": "16d2872edbb04f225698d5ebb48bc1eb",
     "fp_sol": "7848a47f82448ab51c7cbd690123fc16",
@@ -39,7 +28,8 @@
     ],
     "runtime_orig": true,
     "sol": [
-        "source/B0xProxy.sol"
+        "source/1_B0xProxy.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": true
 }

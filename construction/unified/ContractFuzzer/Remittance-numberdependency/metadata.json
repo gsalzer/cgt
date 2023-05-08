@@ -1,26 +1,26 @@
 {
-    "addr": null,
-    "addr_orig": null,
+    "addr": "0xad46abcafa2400f9f77411bd4d22a1777adb1bb0",
+    "addr_orig": false,
     "bytecode": [],
     "bytecode_orig": null,
-    "chain": null,
-    "chain_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
     "classifications": [
         [
             "numberdependency",
             true
         ]
     ],
-    "compiler": null,
-    "compiler_orig": null,
+    "compiler": "v0.4.24+commit.e67f0147",
+    "compiler_orig": false,
     "contractname": "Remittance",
     "contractname_orig": false,
     "dataset": "ContractFuzzer",
     "etc": {},
     "fp_bytecode": null,
     "fp_runtime": "31568c253204d5146a5305f989818e40",
-    "fp_sol": "351539191be11290a1ad9e40226e792e",
-    "fp_sol2": "4c9eff3d667683c682590cb707f65e7a",
+    "fp_sol": "3d5707316405148eb48324561c77d058",
+    "fp_sol2": "11064410c279177e76f8649d153091a5",
     "id": "Remittance-numberdependency",
     "info": [],
     "runtime": [
@@ -28,7 +28,8 @@
     ],
     "runtime_orig": true,
     "sol": [
-        "source/Remittance.sol"
+        "source/1_Remittance.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": true
 }

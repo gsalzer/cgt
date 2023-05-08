@@ -1,18 +1,18 @@
 {
-    "addr": null,
-    "addr_orig": null,
+    "addr": "0x503ddb685664357f15a368ec70eec54b79da7363",
+    "addr_orig": false,
     "bytecode": [],
     "bytecode_orig": null,
-    "chain": null,
-    "chain_orig": null,
+    "chain": "ropsten",
+    "chain_orig": false,
     "classifications": [
         [
             "numberdependency",
             true
         ]
     ],
-    "compiler": null,
-    "compiler_orig": null,
+    "compiler": "v0.4.18+commit.9cf6e910",
+    "compiler_orig": false,
     "contractname": "SingularityTest20",
     "contractname_orig": false,
     "dataset": "ContractFuzzer",
@@ -28,7 +28,8 @@
     ],
     "runtime_orig": true,
     "sol": [
-        "source/SingularityTest20.sol"
+        "source/1_SingularityTest20.sol",
+        "source/2_etherscan.sol"
     ],
     "sol_orig": true
 }
