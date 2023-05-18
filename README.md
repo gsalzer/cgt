@@ -9,10 +9,21 @@ contracts (in general given by chain address, source code, bytecode,
 and runtime code) with a manually verified result whether the contract
 exemplifies a specific weakness.
 
-See also our accompanying paper "Consolidation of Ground Truth Sets
-for Weakness Detection in Smart Contracts".
+See also our accompanying paper [Consolidation of Ground Truth Sets
+for Weakness Detection in Smart Contracts](https://arxiv.org/pdf/2304.11624).
 
-| Datasets integrated in CGT |
+## Responsible disclosure
+This repo contains a copy of weakness collections published at the indicated locations well before the end of 2022. We don't expect any of these to contain vulnarabilities that can (still) be exploited. However, if you find anything worth reporting, please do so asap. 
+
+**Further readings:**
+
+- [https://www.hackerone.com/disclosure-guidelines](https://www.hackerone.com/disclosure-guidelines/)
+- [https://dl.acm.org/doi/pdf/10.1145/3372115](https://dl.acm.org/doi/pdf/10.1145/3372115/)
+- [https://www.lawfareblog.com/rethinking-responsible-disclosure-cryptocurrency-security](https://www.lawfareblog.com/rethinking-responsible-disclosure-cryptocurrency-security/)
+
+## Datasets integrated in CGT
+
+| |
 | --- |
 | [CodeSmells](https://github.com/Jiachi-Chen/TSE-ContractDefects) |
 | [ContractFuzzer](https://github.com/gongbell/ContractFuzzer/tree/master/examples) |
